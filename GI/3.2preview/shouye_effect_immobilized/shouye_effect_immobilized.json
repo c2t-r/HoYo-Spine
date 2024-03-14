@@ -1,0 +1,72 @@
+{
+    "skeleton": {
+        "hash": "/R59ZxWE1Q4",
+        "spine": "4.0.33",
+        "x": -1293.83,
+        "y": -542.34,
+        "width": 2560,
+        "height": 383
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone2",
+            "parent": "root",
+            "x": -12.5,
+            "y": -675.21
+        }
+    ],
+    "slots": [
+        {
+            "name": "TX",
+            "bone": "bone2",
+            "attachment": "TX"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "TX": {
+                    "TX": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1278.67,
+                            132.87,
+                            -1281.33,
+                            132.87,
+                            -1281.33,
+                            515.87,
+                            1278.67,
+                            515.87
+                        ],
+                        "hull": 4
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "skeleton": {
+        "hash": "QXjYv1jGEZY",
+        "spine": "4.0-from-4.1.17",
+        "x": -490.82,
+        "y": -13.69,
+        "width": 1952,
+        "height": 300
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "图层 1",
+            "bone": "root",
+            "attachment": "图层 1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "图层 1": {
+                    "图层 1": {
+                        "x": 485.18,
+                        "y": 136.31,
+                        "width": 1952,
+                        "height": 300
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

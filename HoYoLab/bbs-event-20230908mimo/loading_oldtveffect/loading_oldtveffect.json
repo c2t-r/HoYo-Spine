@@ -1,0 +1,72 @@
+{
+    "skeleton": {
+        "hash": "ZU86DD4bNTE",
+        "spine": "4.0-from-4.2.09-beta",
+        "x": -508.5,
+        "y": -870.5,
+        "width": 1017,
+        "height": 1741
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -28.5,
+            "y": -134.25
+        }
+    ],
+    "slots": [
+        {
+            "name": "形状 11",
+            "bone": "bone",
+            "attachment": "形状 11"
+        },
+        {
+            "name": "杂色",
+            "bone": "bone",
+            "attachment": "杂色"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "形状 11": {
+                    "形状 11": {
+                        "x": 67.09,
+                        "y": 135.25,
+                        "width": 1017,
+                        "height": 1301
+                    }
+                },
+                "杂色": {
+                    "杂色": {
+                        "x": 67.09,
+                        "y": 134.25,
+                        "width": 1017,
+                        "height": 1741
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone": {
+                    "translate": [
+                        {
+                            "y": -12.7
+                        },
+                        {
+                            "time": 0.6667
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

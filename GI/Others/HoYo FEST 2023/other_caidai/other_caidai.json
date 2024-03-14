@@ -1,0 +1,1204 @@
+{
+    "skeleton": {
+        "hash": "DvfyJMgJb0o",
+        "spine": "4.1.17",
+        "x": -1191.51,
+        "y": -222.65,
+        "width": 2677.74,
+        "height": 618
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 245.74,
+            "y": -416.28
+        },
+        {
+            "name": "彩带14",
+            "parent": "bone",
+            "x": -1142.45,
+            "y": 225.37
+        },
+        {
+            "name": "彩带13",
+            "parent": "bone",
+            "x": -1382.62,
+            "y": 255.13
+        },
+        {
+            "name": "彩带08",
+            "parent": "bone",
+            "x": -1205.27,
+            "y": 540.2
+        },
+        {
+            "name": "彩带06",
+            "parent": "bone",
+            "x": -1128.21,
+            "y": 721.64
+        },
+        {
+            "name": "彩带02",
+            "parent": "bone",
+            "x": -769.38,
+            "y": 790.62
+        },
+        {
+            "name": "彩带03",
+            "parent": "彩带02",
+            "length": 37.99,
+            "rotation": -68.32,
+            "x": 2.55,
+            "y": -2.98
+        },
+        {
+            "name": "彩带04",
+            "parent": "彩带02",
+            "length": 38.5,
+            "rotation": 163.97,
+            "x": -5.95,
+            "y": 5.1
+        },
+        {
+            "name": "彩带05",
+            "parent": "bone",
+            "x": -501.54,
+            "y": 760.51
+        },
+        {
+            "name": "彩带07",
+            "parent": "bone",
+            "x": -3.17,
+            "y": 725.86
+        },
+        {
+            "name": "彩带09",
+            "parent": "bone",
+            "x": 95.01,
+            "y": 673.03
+        },
+        {
+            "name": "彩带010",
+            "parent": "bone",
+            "x": 645.67,
+            "y": 736.76
+        },
+        {
+            "name": "彩带10",
+            "parent": "bone",
+            "x": 648.43,
+            "y": 596.61
+        },
+        {
+            "name": "彩带12",
+            "parent": "bone",
+            "x": 704.31,
+            "y": 453.97
+        },
+        {
+            "name": "图层 4711 - 2",
+            "parent": "bone",
+            "x": 700.99,
+            "y": 301.24
+        },
+        {
+            "name": "图层 4711 - 1",
+            "parent": "bone",
+            "x": 620.69,
+            "y": 381.46
+        },
+        {
+            "name": "图层 4711 - 4",
+            "parent": "bone",
+            "x": 1231.81,
+            "y": 217.9
+        },
+        {
+            "name": "彩带011",
+            "parent": "bone",
+            "x": -1249.14,
+            "y": 358.28
+        },
+        {
+            "name": "彩带012",
+            "parent": "彩带011",
+            "length": 56.64,
+            "rotation": -56.67,
+            "x": 0.65
+        },
+        {
+            "name": "彩带013",
+            "parent": "彩带012",
+            "length": 68.18,
+            "rotation": 53.4,
+            "x": 56.64
+        },
+        {
+            "name": "彩带014",
+            "parent": "彩带011",
+            "length": 48.25,
+            "rotation": 120.7,
+            "x": -1.94,
+            "y": -0.65
+        },
+        {
+            "name": "彩带015",
+            "parent": "彩带014",
+            "length": 46.48,
+            "rotation": 36.31,
+            "x": 49.14,
+            "y": 0.23
+        }
+    ],
+    "slots": [
+        {
+            "name": "彩带14",
+            "bone": "彩带14",
+            "attachment": "彩带14"
+        },
+        {
+            "name": "彩带13",
+            "bone": "彩带13",
+            "attachment": "彩带13"
+        },
+        {
+            "name": "彩带12",
+            "bone": "彩带12",
+            "attachment": "彩带12"
+        },
+        {
+            "name": "彩带10",
+            "bone": "彩带10",
+            "attachment": "彩带10"
+        },
+        {
+            "name": "彩带09",
+            "bone": "彩带011",
+            "attachment": "彩带09"
+        },
+        {
+            "name": "彩带08",
+            "bone": "彩带08",
+            "attachment": "彩带08"
+        },
+        {
+            "name": "彩带07",
+            "bone": "彩带09",
+            "attachment": "彩带07"
+        },
+        {
+            "name": "彩带06",
+            "bone": "彩带06",
+            "attachment": "彩带06"
+        },
+        {
+            "name": "彩带05",
+            "bone": "彩带07",
+            "attachment": "彩带05"
+        },
+        {
+            "name": "彩带04",
+            "bone": "彩带010",
+            "attachment": "彩带04"
+        },
+        {
+            "name": "彩带03",
+            "bone": "彩带05",
+            "attachment": "彩带03"
+        },
+        {
+            "name": "彩带02",
+            "bone": "彩带02",
+            "attachment": "彩带02"
+        },
+        {
+            "name": "图层 4711 - 1",
+            "bone": "图层 4711 - 1",
+            "attachment": "图层 4711 - 1"
+        },
+        {
+            "name": "图层 4711 - 2",
+            "bone": "图层 4711 - 2",
+            "attachment": "图层 4711 - 2"
+        },
+        {
+            "name": "图层 4711 - 4",
+            "bone": "图层 4711 - 4",
+            "attachment": "图层 4711 - 4"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "图层 4711 - 1": {
+                    "图层 4711 - 1": {
+                        "x": -3.29,
+                        "y": 4.44,
+                        "width": 30,
+                        "height": 33
+                    }
+                },
+                "图层 4711 - 2": {
+                    "图层 4711 - 2": {
+                        "x": 0.88,
+                        "y": -2.74,
+                        "width": 26,
+                        "height": 23
+                    }
+                },
+                "图层 4711 - 4": {
+                    "图层 4711 - 4": {
+                        "x": 0.18,
+                        "y": -1.42,
+                        "width": 17,
+                        "height": 16
+                    }
+                },
+                "彩带02": {
+                    "彩带02": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.4043,
+                            0.04518,
+                            0.5816,
+                            0.17677,
+                            0.75417,
+                            0.38742,
+                            0.89734,
+                            0.63223,
+                            1,
+                            0.92309,
+                            1,
+                            0.99259,
+                            0.87117,
+                            0.9735,
+                            0.73813,
+                            0.95378,
+                            0.63524,
+                            0.68835,
+                            0.45845,
+                            0.41228,
+                            0.20558,
+                            0.28694,
+                            0,
+                            0.18504,
+                            0,
+                            0.16205,
+                            0.12685,
+                            0.078,
+                            0.24455,
+                            0,
+                            0.60183,
+                            0.36207,
+                            0.379,
+                            0.18264,
+                            0.75527,
+                            0.56009
+                        ],
+                        "triangles": [
+                            16,
+                            14,
+                            0,
+                            16,
+                            0,
+                            1,
+                            11,
+                            12,
+                            13,
+                            10,
+                            13,
+                            14,
+                            10,
+                            14,
+                            16,
+                            11,
+                            13,
+                            10,
+                            2,
+                            15,
+                            1,
+                            9,
+                            16,
+                            1,
+                            9,
+                            1,
+                            15,
+                            10,
+                            16,
+                            9,
+                            3,
+                            17,
+                            2,
+                            17,
+                            8,
+                            15,
+                            17,
+                            15,
+                            2,
+                            9,
+                            15,
+                            8,
+                            7,
+                            8,
+                            17,
+                            7,
+                            17,
+                            3,
+                            6,
+                            7,
+                            3,
+                            4,
+                            6,
+                            3,
+                            6,
+                            4,
+                            5
+                        ],
+                        "vertices": [
+                            1,
+                            8,
+                            12.44,
+                            -10.1,
+                            1,
+                            2,
+                            6,
+                            -0.76,
+                            10.22,
+                            0.25837,
+                            8,
+                            -3.58,
+                            -6.36,
+                            0.74163,
+                            2,
+                            6,
+                            13.22,
+                            -2.63,
+                            0.00908,
+                            7,
+                            3.62,
+                            10.04,
+                            0.99092,
+                            1,
+                            7,
+                            21.78,
+                            15.3,
+                            1,
+                            1,
+                            7,
+                            41.34,
+                            16.47,
+                            1,
+                            1,
+                            7,
+                            45.28,
+                            14.91,
+                            1,
+                            1,
+                            7,
+                            40.34,
+                            5.64,
+                            1,
+                            1,
+                            7,
+                            35.24,
+                            -3.93,
+                            1,
+                            2,
+                            6,
+                            3.59,
+                            -20.98,
+                            0.00007,
+                            7,
+                            17.11,
+                            -5.69,
+                            0.99993,
+                            3,
+                            6,
+                            -10.73,
+                            -4.14,
+                            0.24791,
+                            7,
+                            -3.83,
+                            -12.78,
+                            0.12763,
+                            8,
+                            2.04,
+                            10.21,
+                            0.62446,
+                            1,
+                            8,
+                            23.84,
+                            8.52,
+                            1,
+                            1,
+                            8,
+                            41.56,
+                            7.14,
+                            1,
+                            1,
+                            8,
+                            41.95,
+                            5.79,
+                            1,
+                            1,
+                            8,
+                            33.49,
+                            -1.97,
+                            1,
+                            1,
+                            8,
+                            25.64,
+                            -9.18,
+                            1,
+                            2,
+                            6,
+                            0.88,
+                            -1.08,
+                            0.69498,
+                            7,
+                            -2.38,
+                            -0.85,
+                            0.30502,
+                            1,
+                            8,
+                            12.09,
+                            -1.48,
+                            1,
+                            1,
+                            7,
+                            13.44,
+                            6.23,
+                            1
+                        ],
+                        "hull": 15
+                    }
+                },
+                "彩带03": {
+                    "彩带03": {
+                        "x": 0.79,
+                        "y": 2.12,
+                        "width": 19,
+                        "height": 22
+                    }
+                },
+                "彩带04": {
+                    "彩带04": {
+                        "x": 0.08,
+                        "y": -1.14,
+                        "width": 40,
+                        "height": 62
+                    }
+                },
+                "彩带05": {
+                    "彩带05": {
+                        "x": -1.08,
+                        "y": 0.77,
+                        "width": 18,
+                        "height": 18
+                    }
+                },
+                "彩带06": {
+                    "彩带06": {
+                        "x": -1.04,
+                        "y": -1.01,
+                        "width": 24,
+                        "height": 28
+                    }
+                },
+                "彩带07": {
+                    "彩带07": {
+                        "x": 0.74,
+                        "y": -3.9,
+                        "width": 72,
+                        "height": 87
+                    }
+                },
+                "彩带08": {
+                    "彩带08": {
+                        "x": 1.02,
+                        "y": 4.42,
+                        "width": 74,
+                        "height": 84
+                    }
+                },
+                "彩带09": {
+                    "彩带09": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.34487,
+                            0.59283,
+                            0.49303,
+                            0.75366,
+                            0.58505,
+                            0.85355,
+                            0.69836,
+                            0.8864,
+                            0.83735,
+                            0.88928,
+                            0.92994,
+                            0.8912,
+                            0.98134,
+                            0.96072,
+                            0.85037,
+                            0.9845,
+                            0.69134,
+                            0.97725,
+                            0.55462,
+                            0.93806,
+                            0.3922,
+                            0.80099,
+                            0.26615,
+                            0.67014,
+                            0.14826,
+                            0.58592,
+                            0.03202,
+                            0.53862,
+                            0.05899,
+                            0.49622,
+                            0.19889,
+                            0.4989,
+                            0.26199,
+                            0.58916,
+                            0.36734,
+                            0.69017,
+                            0.48226,
+                            0.80802,
+                            0.60265,
+                            0.90529,
+                            0.80103,
+                            0.93709
+                        ],
+                        "triangles": [
+                            12,
+                            14,
+                            15,
+                            13,
+                            14,
+                            12,
+                            0,
+                            16,
+                            15,
+                            12,
+                            15,
+                            16,
+                            11,
+                            16,
+                            0,
+                            12,
+                            16,
+                            11,
+                            0,
+                            1,
+                            17,
+                            11,
+                            0,
+                            17,
+                            10,
+                            17,
+                            1,
+                            11,
+                            17,
+                            10,
+                            18,
+                            10,
+                            1,
+                            18,
+                            1,
+                            2,
+                            19,
+                            2,
+                            3,
+                            20,
+                            3,
+                            4,
+                            9,
+                            18,
+                            2,
+                            9,
+                            2,
+                            19,
+                            10,
+                            18,
+                            9,
+                            8,
+                            19,
+                            3,
+                            8,
+                            3,
+                            20,
+                            9,
+                            19,
+                            8,
+                            7,
+                            4,
+                            5,
+                            7,
+                            5,
+                            6,
+                            20,
+                            4,
+                            7,
+                            8,
+                            20,
+                            7
+                        ],
+                        "vertices": [
+                            2,
+                            21,
+                            43.24,
+                            -11.34,
+                            0.99686,
+                            22,
+                            -11.61,
+                            -5.82,
+                            0.00314,
+                            2,
+                            18,
+                            13.59,
+                            -1.91,
+                            0.00359,
+                            19,
+                            8.7,
+                            9.76,
+                            0.99641,
+                            2,
+                            19,
+                            41.16,
+                            9.12,
+                            0.92301,
+                            20,
+                            -1.91,
+                            17.87,
+                            0.07699,
+                            2,
+                            19,
+                            60.41,
+                            21.96,
+                            0.02642,
+                            20,
+                            19.88,
+                            10.07,
+                            0.97358,
+                            1,
+                            20,
+                            46.01,
+                            10.77,
+                            1,
+                            1,
+                            20,
+                            63.42,
+                            11.23,
+                            1,
+                            1,
+                            20,
+                            74.16,
+                            -7.3,
+                            1,
+                            1,
+                            20,
+                            49.95,
+                            -15.24,
+                            1,
+                            1,
+                            20,
+                            19.99,
+                            -14.95,
+                            1,
+                            2,
+                            19,
+                            57.43,
+                            -8.42,
+                            0.77647,
+                            20,
+                            -6.29,
+                            -5.66,
+                            0.22353,
+                            3,
+                            18,
+                            -5.37,
+                            -14.92,
+                            0.00579,
+                            21,
+                            -10.52,
+                            10.23,
+                            0.42436,
+                            19,
+                            9.16,
+                            -13.23,
+                            0.56985,
+                            2,
+                            21,
+                            32.52,
+                            12.24,
+                            0.95947,
+                            22,
+                            -6.28,
+                            19.53,
+                            0.04053,
+                            2,
+                            21,
+                            63.75,
+                            19.47,
+                            0.00142,
+                            22,
+                            23.16,
+                            6.86,
+                            0.99858,
+                            1,
+                            22,
+                            48.36,
+                            3.42,
+                            1,
+                            1,
+                            22,
+                            48.25,
+                            -9.29,
+                            1,
+                            1,
+                            22,
+                            23.75,
+                            -18.89,
+                            1,
+                            1,
+                            22,
+                            3.13,
+                            -0.67,
+                            1,
+                            2,
+                            18,
+                            -10.05,
+                            15.55,
+                            0.01309,
+                            21,
+                            18.07,
+                            -1.31,
+                            0.98691,
+                            3,
+                            18,
+                            11.56,
+                            -16.86,
+                            0,
+                            21,
+                            -20.83,
+                            -3.34,
+                            0.00007,
+                            19,
+                            20.08,
+                            -0.14,
+                            0.99993,
+                            2,
+                            19,
+                            54.86,
+                            4.07,
+                            0.45072,
+                            20,
+                            2.21,
+                            3.85,
+                            0.54928,
+                            1,
+                            20,
+                            39.94,
+                            -2.75,
+                            1
+                        ],
+                        "hull": 16
+                    }
+                },
+                "彩带10": {
+                    "彩带10": {
+                        "x": -1.18,
+                        "y": -1.98,
+                        "width": 23,
+                        "height": 16
+                    }
+                },
+                "彩带12": {
+                    "彩带12": {
+                        "x": -6.06,
+                        "y": 11.15,
+                        "width": 93,
+                        "height": 71
+                    }
+                },
+                "彩带13": {
+                    "彩带13": {
+                        "x": -12.63,
+                        "y": -8,
+                        "width": 84,
+                        "height": 87
+                    }
+                },
+                "彩带14": {
+                    "彩带14": {
+                        "x": -1.8,
+                        "y": 4.76,
+                        "width": 60,
+                        "height": 73
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "彩带10": {
+            "rootBoneName": "彩带10",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 15.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.150762950828724,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 7,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.845585279476189,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "彩带12": {
+            "rootBoneName": "彩带12",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.615552719826974,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.499776492847897,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "彩带13": {
+            "rootBoneName": "彩带13",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.422627252193368,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.501848852017567,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "彩带010": {
+            "rootBoneName": "彩带010",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.226243919505767,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 4.584850688531711,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "彩带09": {
+            "rootBoneName": "彩带09",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 16,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.111306704952154,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.4202371776802252,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "彩带07": {
+            "rootBoneName": "彩带07",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 3,
+                    "moveYAmp": 5.5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.7201197590157165,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "彩带05": {
+            "rootBoneName": "彩带05",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -7.8969388315397175,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.22920293529799451,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "图层 4711 - 2": {
+            "rootBoneName": "图层 4711 - 2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -18.513426752786888,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.3835013306672922,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "图层 4711 - 1": {
+            "rootBoneName": "图层 4711 - 1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -0.24367280903781102,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 4.216958642918928,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "图层 4711 - 4": {
+            "rootBoneName": "图层 4711 - 4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -15.728556828588411,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -6.054049975192884,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "彩带02": {
+            "rootBoneName": "彩带02",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 13,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.1412148671658877,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 6.5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 6.255569938906483,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "彩带06": {
+            "rootBoneName": "彩带06",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -10.256173037490196,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -18.049158144269665,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "彩带08": {
+            "rootBoneName": "彩带08",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -9.025734178108646,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -12.77839658593006,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "彩带14": {
+            "rootBoneName": "彩带14",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -14.362795612765396,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -16.717910731750756,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "彩带011": {
+            "rootBoneName": "彩带011",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 15.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.7787749780937414,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 7,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -2.6046618722878074,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "彩带03": {
+            "rootBoneName": "彩带03",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 2,
+                    "rotateRange": 3,
+                    "rotateOffset": 2.5586279010330983,
+                    "childOffset": 0.35,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 1
+                }
+            }
+        },
+        "彩带04": {
+            "rootBoneName": "彩带04",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 2,
+                    "rotateRange": 3,
+                    "rotateOffset": 1.8479453530475416,
+                    "childOffset": 0.35,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 1
+                }
+            }
+        },
+        "彩带012": {
+            "rootBoneName": "彩带012",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 2,
+                    "rotateRange": 3,
+                    "rotateOffset": 2.731164837977196,
+                    "childOffset": 0.35,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 1
+                }
+            }
+        },
+        "彩带014": {
+            "rootBoneName": "彩带014",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 2,
+                    "rotateRange": 3,
+                    "rotateOffset": 2.6336169014862927,
+                    "childOffset": 0.35,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 1
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

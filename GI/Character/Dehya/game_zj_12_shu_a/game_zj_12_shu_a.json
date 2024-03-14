@@ -1,0 +1,39 @@
+{
+    "skeleton": {
+        "hash": "ZLIbYp6q4K0",
+        "spine": "4.0-from-4.1.19",
+        "x": -486.5,
+        "y": -316,
+        "width": 973,
+        "height": 632
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "game_zj_12_cao_f",
+            "bone": "root",
+            "attachment": "game_zj_12_cao_f"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "game_zj_12_cao_f": {
+                    "game_zj_12_cao_f": {
+                        "width": 973,
+                        "height": 632
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "待机": {},
+        "掉落": {}
+    }
+}

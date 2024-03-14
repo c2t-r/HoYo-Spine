@@ -1,0 +1,41 @@
+{
+    "skeleton": {
+        "hash": "9JuGfo3rx6E",
+        "spine": "4.0.33",
+        "x": -199.71,
+        "y": 1.2,
+        "width": 399.42,
+        "height": 283.08
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.42,
+            "scaleY": 0.42
+        }
+    ],
+    "slots": [
+        {
+            "name": "wanye_bg_shu",
+            "bone": "root",
+            "attachment": "wanye_bg_shu"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "wanye_bg_shu": {
+                    "wanye_bg_shu": {
+                        "y": 339.87,
+                        "width": 951,
+                        "height": 674
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

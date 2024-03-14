@@ -1,0 +1,68 @@
+{
+    "skeleton": {
+        "hash": "GnsURqaefts",
+        "spine": "4.1.24",
+        "x": 83.21,
+        "y": -214.95,
+        "width": 252.92,
+        "height": 222.99
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "length": 100,
+            "x": -23.59,
+            "y": 20.66,
+            "scaleX": 0.5868,
+            "scaleY": 0.5868
+        }
+    ],
+    "slots": [
+        {
+            "name": "上打开",
+            "bone": "bone",
+            "attachment": "上打开"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "上打开": {
+                    "上打开": {
+                        "x": 397.5,
+                        "y": -211.5,
+                        "width": 431,
+                        "height": 380
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "1_stay": {},
+        "1_stay2": {
+            "slots": {
+                "上打开": {
+                    "attachment": [
+                        {}
+                    ]
+                }
+            }
+        },
+        "2_loop": {},
+        "3_act": {
+            "slots": {
+                "上打开": {
+                    "attachment": [
+                        {}
+                    ]
+                }
+            }
+        }
+    }
+}

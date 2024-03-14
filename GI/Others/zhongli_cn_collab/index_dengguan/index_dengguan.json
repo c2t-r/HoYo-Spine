@@ -1,0 +1,222 @@
+{
+    "skeleton": {
+        "hash": "Q0Yh5cpkf1Y",
+        "spine": "4.0-from-4.1.24",
+        "x": -574,
+        "y": -147,
+        "width": 1398,
+        "height": 294.96
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "g",
+            "bone": "root",
+            "attachment": "g",
+            "blend": "additive"
+        },
+        {
+            "name": "f",
+            "bone": "root",
+            "attachment": "f",
+            "blend": "additive"
+        },
+        {
+            "name": "e",
+            "bone": "root",
+            "attachment": "e",
+            "blend": "additive"
+        },
+        {
+            "name": "d",
+            "bone": "root",
+            "attachment": "d",
+            "blend": "additive"
+        },
+        {
+            "name": "c",
+            "bone": "root",
+            "attachment": "c",
+            "blend": "additive"
+        },
+        {
+            "name": "b",
+            "bone": "root",
+            "attachment": "b",
+            "blend": "additive"
+        },
+        {
+            "name": "a",
+            "bone": "root",
+            "attachment": "a",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": -182.12,
+                        "y": 15.96,
+                        "width": 443,
+                        "height": 264
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": -531,
+                        "y": -18.5,
+                        "width": 86,
+                        "height": 59
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": -296.5,
+                        "y": -48,
+                        "width": 129,
+                        "height": 70
+                    }
+                },
+                "d": {
+                    "d": {
+                        "x": 676.5,
+                        "y": 15.5,
+                        "width": 295,
+                        "height": 263
+                    }
+                },
+                "e": {
+                    "e": {
+                        "x": 587,
+                        "y": -40,
+                        "width": 276,
+                        "height": 200
+                    }
+                },
+                "f": {
+                    "f": {
+                        "x": 474,
+                        "y": -141,
+                        "width": 26,
+                        "height": 12
+                    }
+                },
+                "g": {
+                    "g": {
+                        "x": 755.5,
+                        "y": -76,
+                        "width": 131,
+                        "height": 84
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {},
+    "extraSlot": {
+        "g": {
+            "slotName": "g",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.2,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "f": {
+            "slotName": "f",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.1,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "e": {
+            "slotName": "e",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "d": {
+            "slotName": "d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": -0.23684816905981587,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "c": {
+            "slotName": "c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.3,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "b": {
+            "slotName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.1464165757339655,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "a": {
+            "slotName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.3242775733805332,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

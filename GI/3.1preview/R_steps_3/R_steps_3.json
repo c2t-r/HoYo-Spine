@@ -1,0 +1,137 @@
+{
+    "skeleton": {
+        "hash": "m9+JnKIGTUY",
+        "spine": "4.0.33",
+        "x": -290.97,
+        "y": -440.97,
+        "width": 583,
+        "height": 683
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "R3",
+            "parent": "root",
+            "x": 290.63,
+            "y": 33.35
+        },
+        {
+            "name": "R3_尘土",
+            "parent": "R3",
+            "x": -560.51,
+            "y": -52.62
+        }
+    ],
+    "slots": [
+        {
+            "name": "R3",
+            "bone": "R3",
+            "attachment": "R3"
+        },
+        {
+            "name": "R3_尘土",
+            "bone": "R3_尘土",
+            "attachment": "R3_尘土"
+        },
+        {
+            "name": "R3_前二地台",
+            "bone": "R3",
+            "attachment": "R3_前二地台"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "R3": {
+                    "R3": {
+                        "type": "clipping",
+                        "end": "R3_尘土",
+                        "vertexCount": 4,
+                        "vertices": [
+                            -600.76,
+                            -51.72,
+                            -510.01,
+                            -50.28,
+                            -502.82,
+                            -312.04,
+                            -633.28,
+                            -313.96
+                        ]
+                    }
+                },
+                "R3_前二地台": {
+                    "R3_前二地台": {
+                        "x": -290.1,
+                        "y": -132.82,
+                        "width": 583,
+                        "height": 683
+                    }
+                },
+                "R3_尘土": {
+                    "R3_尘土": {
+                        "x": 2.42,
+                        "y": -42.21,
+                        "width": 31,
+                        "height": 95
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "R3_尘土": {
+                    "rgba": [
+                        {
+                            "time": 6,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 7.3333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.3667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "R3_尘土": {
+                    "translate": [
+                        {
+                            "y": 80.88,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.6667,
+                            "y": 80.88
+                        },
+                        {
+                            "time": 7.3333,
+                            "y": -51.51,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.3667,
+                            "y": 80.88
+                        }
+                    ]
+                },
+                "root": {
+                    "translate": [
+                        {
+                            "time": 9
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "skeleton": {
+        "hash": "NSDfOTUJUn8",
+        "spine": "4.0-from-4.1.20",
+        "x": -955.75,
+        "y": 130.37,
+        "width": 645.5,
+        "height": 243
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -964.8,
+            "y": -310.58,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "云2",
+            "parent": "bone",
+            "x": 683.1,
+            "y": 1225.48
+        }
+    ],
+    "slots": [
+        {
+            "name": "云2",
+            "bone": "云2",
+            "attachment": "云2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "云2": {
+                    "云2": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            626.01,
+                            -343.59,
+                            -664.99,
+                            -343.59,
+                            -664.99,
+                            142.41,
+                            626.01,
+                            142.41
+                        ],
+                        "hull": 4
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "云2": {
+            "rootBoneName": "云2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5.5,
+                    "moveXAmp": 4,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 8374,
+                    "scaleXFreq": 3.5,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

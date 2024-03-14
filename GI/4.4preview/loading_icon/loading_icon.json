@@ -1,0 +1,353 @@
+{
+    "skeleton": {
+        "hash": "ojsnMEZ7Y48",
+        "spine": "4.0-from-4.1.24",
+        "x": -339.1,
+        "y": -210,
+        "width": 576,
+        "height": 420
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "锦绣",
+            "parent": "root",
+            "x": -3.41,
+            "y": -0.73
+        },
+        {
+            "name": "灯笼",
+            "parent": "root",
+            "x": 0.28,
+            "y": 5.08
+        },
+        {
+            "name": "灯c",
+            "parent": "root",
+            "length": 52.97,
+            "rotation": -94.57,
+            "x": 143.37,
+            "y": 136.55
+        },
+        {
+            "name": "灯a",
+            "parent": "root",
+            "length": 42.51,
+            "rotation": -96.42,
+            "x": 198.29,
+            "y": 45.74
+        },
+        {
+            "name": "灯b",
+            "parent": "root",
+            "length": 44.55,
+            "rotation": -95.44,
+            "x": -156.01,
+            "y": 45.21
+        },
+        {
+            "name": "右云",
+            "parent": "root",
+            "x": 170.3,
+            "y": -85.74
+        },
+        {
+            "name": "左云a",
+            "parent": "root",
+            "x": -207.75,
+            "y": -88.91
+        },
+        {
+            "name": "左云B",
+            "parent": "root",
+            "x": -279.56,
+            "y": -41.91
+        }
+    ],
+    "slots": [
+        {
+            "name": "右云",
+            "bone": "右云",
+            "attachment": "右云"
+        },
+        {
+            "name": "锦绣",
+            "bone": "锦绣",
+            "attachment": "锦绣"
+        },
+        {
+            "name": "灯笼",
+            "bone": "灯笼",
+            "attachment": "灯笼"
+        },
+        {
+            "name": "灯c",
+            "bone": "灯c",
+            "attachment": "灯c"
+        },
+        {
+            "name": "灯b",
+            "bone": "灯b",
+            "attachment": "灯b"
+        },
+        {
+            "name": "灯a",
+            "bone": "灯a",
+            "attachment": "灯a"
+        },
+        {
+            "name": "左云B",
+            "bone": "左云B",
+            "attachment": "左云B"
+        },
+        {
+            "name": "左云a",
+            "bone": "左云a",
+            "attachment": "左云a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "右云": {
+                    "右云": {
+                        "x": -3.41,
+                        "y": 2.24,
+                        "width": 140,
+                        "height": 113
+                    }
+                },
+                "左云a": {
+                    "左云a": {
+                        "x": 14.65,
+                        "y": 2.91,
+                        "width": 218,
+                        "height": 108
+                    }
+                },
+                "左云B": {
+                    "左云B": {
+                        "x": 6.96,
+                        "y": 3.41,
+                        "width": 133,
+                        "height": 79
+                    }
+                },
+                "灯a": {
+                    "灯a": {
+                        "x": 11.15,
+                        "y": 1.36,
+                        "rotation": 96.42,
+                        "width": 59,
+                        "height": 77
+                    }
+                },
+                "灯b": {
+                    "灯b": {
+                        "x": 9.63,
+                        "y": 1.32,
+                        "rotation": 95.44,
+                        "width": 59,
+                        "height": 77
+                    }
+                },
+                "灯c": {
+                    "灯c": {
+                        "x": 4.92,
+                        "y": 1.92,
+                        "rotation": 94.57,
+                        "width": 82,
+                        "height": 109
+                    }
+                },
+                "灯笼": {
+                    "灯笼": {
+                        "x": -1.89,
+                        "y": 1.42,
+                        "width": 249,
+                        "height": 233
+                    }
+                },
+                "锦绣": {
+                    "锦绣": {
+                        "x": 1.81,
+                        "y": 0.73,
+                        "width": 417,
+                        "height": 420
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "锦绣": {
+            "rootBoneName": "锦绣",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "灯笼": {
+            "rootBoneName": "灯笼",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 3,
+                    "moveYAmp": 8,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.5,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0.5,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "灯c": {
+            "rootBoneName": "灯c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 6,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.5890924797307596,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -3.588764321868313,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "灯a": {
+            "rootBoneName": "灯a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 6,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 4.766694377838374,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.04,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -2.238033759510331,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 4,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.2313568065006398
+                }
+            }
+        },
+        "灯b": {
+            "rootBoneName": "灯b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 7,
+                    "moveYAmp": 12,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -2.1033166265311136,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.747752648919622,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 3,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 3.2268356364627886
+                }
+            }
+        },
+        "右云": {
+            "rootBoneName": "右云",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 8,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.6399223852972343,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.04,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -5.133572827656779,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "左云a": {
+            "rootBoneName": "左云a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 8,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.2610520439560013,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.04,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -5.5385485906669585,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "左云B": {
+            "rootBoneName": "左云B",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 8,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.4133119192494967,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.04,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -2.6612441251827126,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

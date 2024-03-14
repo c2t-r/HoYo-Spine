@@ -1,0 +1,97 @@
+{
+    "skeleton": {
+        "hash": "nyOIYWK4UKw",
+        "spine": "4.0-from-4.1.21",
+        "x": -347,
+        "y": -275,
+        "width": 694,
+        "height": 550
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "桌",
+            "bone": "root",
+            "attachment": "桌"
+        },
+        {
+            "name": "灯_倒影",
+            "bone": "root",
+            "attachment": "灯_倒影"
+        },
+        {
+            "name": "发光",
+            "bone": "root",
+            "attachment": "发光",
+            "blend": "additive"
+        },
+        {
+            "name": "灯",
+            "bone": "root",
+            "attachment": "灯"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "发光": {
+                    "发光": {
+                        "x": -4.5,
+                        "y": 151.5,
+                        "width": 193,
+                        "height": 179
+                    }
+                },
+                "桌": {
+                    "桌": {
+                        "width": 694,
+                        "height": 550
+                    }
+                },
+                "灯": {
+                    "灯": {
+                        "x": -5,
+                        "y": 177.5,
+                        "width": 60,
+                        "height": 115
+                    }
+                },
+                "灯_倒影": {
+                    "灯_倒影": {
+                        "x": -5,
+                        "y": 110.5,
+                        "width": 58,
+                        "height": 43
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {},
+    "extraSlot": {
+        "发光": {
+            "slotName": "发光",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.3,
+                    "delay": 0,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

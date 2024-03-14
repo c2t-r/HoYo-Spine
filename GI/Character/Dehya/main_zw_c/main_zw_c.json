@@ -1,0 +1,1220 @@
+{
+    "skeleton": {
+        "hash": "DlFOpBx3An8",
+        "spine": "4.0-from-4.1.19",
+        "x": -1393.94,
+        "y": -641.2,
+        "width": 2718.87,
+        "height": 1422
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -1898.94,
+            "y": 795.8
+        },
+        {
+            "name": "光玟2",
+            "parent": "root",
+            "x": 1543.77,
+            "y": -253.82
+        },
+        {
+            "name": "光玟1",
+            "parent": "root",
+            "length": 457.2,
+            "rotation": -63.07,
+            "x": 1555.09,
+            "y": -323.37
+        },
+        {
+            "name": "y1",
+            "parent": "root",
+            "x": 1898.94,
+            "y": -795.8
+        },
+        {
+            "name": "云 4",
+            "parent": "y1",
+            "length": 103.24,
+            "rotation": -111.19,
+            "x": -689.68,
+            "y": 266.3
+        },
+        {
+            "name": "云 3",
+            "parent": "y1",
+            "length": 98.33,
+            "rotation": -64.09,
+            "x": 50.74,
+            "y": 430.56
+        },
+        {
+            "name": "云 2",
+            "parent": "y1",
+            "length": 76.02,
+            "rotation": -68.55,
+            "x": -27.6,
+            "y": 84.35
+        },
+        {
+            "name": "云 5",
+            "parent": "y1",
+            "rotation": -68.55,
+            "x": -228.67,
+            "y": 289.94
+        },
+        {
+            "name": "y2",
+            "parent": "root",
+            "x": 1898.94,
+            "y": -795.8
+        },
+        {
+            "name": "云 6",
+            "parent": "y2",
+            "length": 103.24,
+            "rotation": -111.19,
+            "x": -689.68,
+            "y": 266.3
+        },
+        {
+            "name": "云 7",
+            "parent": "y2",
+            "length": 98.33,
+            "rotation": -64.09,
+            "x": 50.74,
+            "y": 430.56
+        },
+        {
+            "name": "云 8",
+            "parent": "y2",
+            "length": 76.02,
+            "rotation": -68.55,
+            "x": -27.6,
+            "y": 84.35
+        },
+        {
+            "name": "云 9",
+            "parent": "y2",
+            "rotation": -68.55,
+            "x": -228.67,
+            "y": 289.94
+        }
+    ],
+    "slots": [
+        {
+            "name": "sky",
+            "bone": "root",
+            "attachment": "sky"
+        },
+        {
+            "name": "光玟2",
+            "bone": "光玟2",
+            "color": "ffffff6f",
+            "attachment": "光玟2",
+            "blend": "additive"
+        },
+        {
+            "name": "光玟1",
+            "bone": "光玟1",
+            "color": "ffffff6f",
+            "attachment": "光玟1",
+            "blend": "additive"
+        },
+        {
+            "name": "图层 1653",
+            "bone": "光玟1",
+            "color": "ffffff6f",
+            "attachment": "图层 1653",
+            "blend": "additive"
+        },
+        {
+            "name": "太阳1",
+            "bone": "光玟2",
+            "color": "ffffff30",
+            "attachment": "太阳1",
+            "blend": "additive"
+        },
+        {
+            "name": "云 4",
+            "bone": "云 4",
+            "attachment": "云 4"
+        },
+        {
+            "name": "云 6",
+            "bone": "云 6",
+            "attachment": "云 4"
+        },
+        {
+            "name": "云 5",
+            "bone": "云 5",
+            "attachment": "云 5"
+        },
+        {
+            "name": "云 9",
+            "bone": "云 9",
+            "attachment": "云 5"
+        },
+        {
+            "name": "云 3",
+            "bone": "云 3",
+            "attachment": "云 3"
+        },
+        {
+            "name": "云 7",
+            "bone": "云 7",
+            "attachment": "云 3"
+        },
+        {
+            "name": "云 2",
+            "bone": "云 2",
+            "attachment": "云 2"
+        },
+        {
+            "name": "云 8",
+            "bone": "云 8",
+            "attachment": "云 2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "sky": {
+                    "sky": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            3223.87,
+                            -1216,
+                            505,
+                            -1216,
+                            505,
+                            -16,
+                            3223.87,
+                            -16
+                        ],
+                        "hull": 4
+                    }
+                },
+                "云 2": {
+                    "云 2": {
+                        "x": 53.56,
+                        "y": 4.91,
+                        "rotation": 68.55,
+                        "width": 873,
+                        "height": 403
+                    }
+                },
+                "云 3": {
+                    "云 3": {
+                        "x": 7.23,
+                        "y": 64.66,
+                        "rotation": 64.09,
+                        "width": 542,
+                        "height": 299
+                    }
+                },
+                "云 4": {
+                    "云 4": {
+                        "x": 78.24,
+                        "y": 572.76,
+                        "rotation": 111.19,
+                        "width": 1422,
+                        "height": 1255
+                    }
+                },
+                "云 5": {
+                    "云 5": {
+                        "x": -85.4,
+                        "y": -14.02,
+                        "rotation": 68.55,
+                        "width": 442,
+                        "height": 263
+                    }
+                },
+                "云 6": {
+                    "云 4": {
+                        "x": 78.24,
+                        "y": 572.76,
+                        "rotation": 111.19,
+                        "width": 1422,
+                        "height": 1255
+                    }
+                },
+                "云 7": {
+                    "云 3": {
+                        "x": 7.23,
+                        "y": 64.66,
+                        "rotation": 64.09,
+                        "width": 542,
+                        "height": 299
+                    }
+                },
+                "云 8": {
+                    "云 2": {
+                        "x": 53.56,
+                        "y": 4.91,
+                        "rotation": 68.55,
+                        "width": 873,
+                        "height": 403
+                    }
+                },
+                "云 9": {
+                    "云 5": {
+                        "x": -85.4,
+                        "y": -14.02,
+                        "rotation": 68.55,
+                        "width": 442,
+                        "height": 263
+                    }
+                },
+                "光玟1": {
+                    "光玟1": {
+                        "x": 148.35,
+                        "y": 3.62,
+                        "rotation": 63.07,
+                        "width": 179,
+                        "height": 162
+                    }
+                },
+                "光玟2": {
+                    "光玟2": {
+                        "x": -5.27,
+                        "y": -5.68,
+                        "width": 519,
+                        "height": 489
+                    }
+                },
+                "图层 1653": {
+                    "图层 1653": {
+                        "x": 227.6,
+                        "y": 17.2,
+                        "rotation": 63.07,
+                        "width": 201,
+                        "height": 215
+                    }
+                },
+                "太阳1": {
+                    "太阳1": {
+                        "x": 0.23,
+                        "y": -4.18,
+                        "width": 834,
+                        "height": 90
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "云 2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 9.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 31.5,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "云 3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 13.5667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 26.1333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 35.6,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "云 4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.6333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 16.0667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 28.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 38.1333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "云 5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 17.9333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 30.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 40.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "云 6": {
+                    "rgba": [
+                        {
+                            "time": 6.6333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 16.0667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 28.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 38.1333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "云 7": {
+                    "rgba": [
+                        {
+                            "time": 4.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 13.5667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 26.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 35.6,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "云 8": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 9.4667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 31.5,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "云 9": {
+                    "rgba": [
+                        {
+                            "time": 8.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 17.9333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 30.5667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 40.0333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "云 5": {
+                    "rotate": [
+                        {
+                            "value": 17.93,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.5,
+                            "value": -0.38
+                        },
+                        {
+                            "time": 40.0333,
+                            "value": 17.93
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": 262.4,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.5,
+                            "value": -481.86
+                        },
+                        {
+                            "time": 40.0333,
+                            "value": 262.4
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 294.92,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.5,
+                            "value": -332.51
+                        },
+                        {
+                            "time": 40.0333,
+                            "value": 294.92
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.55,
+                            "y": 1.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.5,
+                            "x": 0.688,
+                            "y": 0.688
+                        },
+                        {
+                            "time": 40.0333,
+                            "x": 1.55,
+                            "y": 1.55
+                        }
+                    ]
+                },
+                "云 4": {
+                    "rotate": [
+                        {
+                            "value": 10.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.6333,
+                            "value": -0.38
+                        },
+                        {
+                            "time": 38.1333,
+                            "value": 10.55
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": 556.49,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.6333,
+                            "value": -321.24
+                        },
+                        {
+                            "time": 38.1333,
+                            "value": 556.49
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 764.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.6333,
+                            "value": -197.25
+                        },
+                        {
+                            "time": 38.1333,
+                            "value": 764.66
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.55,
+                            "y": 1.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.6333,
+                            "x": 0.688,
+                            "y": 0.688
+                        },
+                        {
+                            "time": 38.1333,
+                            "x": 1.55,
+                            "y": 1.55
+                        }
+                    ]
+                },
+                "云 3": {
+                    "rotate": [
+                        {
+                            "value": -19.37,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1,
+                            "value": -44.11
+                        },
+                        {
+                            "time": 35.6,
+                            "value": -19.37
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": 476.56,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1,
+                            "value": -577.67
+                        },
+                        {
+                            "time": 35.6,
+                            "value": 476.56
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 100.48,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1,
+                            "value": -512.86
+                        },
+                        {
+                            "time": 35.6,
+                            "value": 100.48
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.55,
+                            "y": 1.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1,
+                            "x": 0.688,
+                            "y": 0.688
+                        },
+                        {
+                            "time": 35.6,
+                            "x": 1.55,
+                            "y": 1.55
+                        }
+                    ]
+                },
+                "云 2": {
+                    "rotate": [
+                        {
+                            "value": -25.91
+                        },
+                        {
+                            "time": 31.5,
+                            "value": 1.8,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 44.1,
+                            "value": -25.91
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": -369.14
+                        },
+                        {
+                            "time": 31.5,
+                            "value": 755.53,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 44.1,
+                            "value": -369.14
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -200.07
+                        },
+                        {
+                            "time": 31.5,
+                            "value": 951.49,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 44.1,
+                            "value": -200.07
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.688,
+                            "y": 0.688
+                        },
+                        {
+                            "time": 31.5,
+                            "x": 1.55,
+                            "y": 1.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 44.1,
+                            "x": 0.688,
+                            "y": 0.688
+                        }
+                    ]
+                },
+                "云 6": {
+                    "rotate": [
+                        {
+                            "value": 4.98
+                        },
+                        {
+                            "time": 16.0667,
+                            "value": 10.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "value": 10.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 28.6667,
+                            "value": -0.38
+                        },
+                        {
+                            "time": 44.1,
+                            "value": 4.98
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": 108.85
+                        },
+                        {
+                            "time": 16.0667,
+                            "value": 556.49,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "value": 556.49,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 28.6667,
+                            "value": -321.24
+                        },
+                        {
+                            "time": 44.1,
+                            "value": 108.85
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 274.09
+                        },
+                        {
+                            "time": 16.0667,
+                            "value": 764.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "value": 764.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 28.6667,
+                            "value": -197.25
+                        },
+                        {
+                            "time": 44.1,
+                            "value": 274.09
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.111,
+                            "y": 1.111
+                        },
+                        {
+                            "time": 16.0667,
+                            "x": 1.55,
+                            "y": 1.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "x": 1.55,
+                            "y": 1.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 28.6667,
+                            "x": 0.688,
+                            "y": 0.688
+                        },
+                        {
+                            "time": 44.1,
+                            "x": 1.111,
+                            "y": 1.111
+                        }
+                    ]
+                },
+                "云 7": {
+                    "rotate": [
+                        {
+                            "value": -30.01
+                        },
+                        {
+                            "time": 13.5667,
+                            "value": -19.37,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "value": -19.37,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 26.1333,
+                            "value": -44.11
+                        },
+                        {
+                            "time": 44.1,
+                            "value": -30.01
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": 23.24
+                        },
+                        {
+                            "time": 13.5667,
+                            "value": 476.56,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "value": 476.56,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 26.1333,
+                            "value": -577.67
+                        },
+                        {
+                            "time": 44.1,
+                            "value": 23.24
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -163.25
+                        },
+                        {
+                            "time": 13.5667,
+                            "value": 100.48,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "value": 100.48,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 26.1333,
+                            "value": -512.86
+                        },
+                        {
+                            "time": 44.1,
+                            "value": -163.25
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.179,
+                            "y": 1.179
+                        },
+                        {
+                            "time": 13.5667,
+                            "x": 1.55,
+                            "y": 1.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "x": 1.55,
+                            "y": 1.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 26.1333,
+                            "x": 0.688,
+                            "y": 0.688
+                        },
+                        {
+                            "time": 44.1,
+                            "x": 1.179,
+                            "y": 1.179
+                        }
+                    ]
+                },
+                "云 8": {
+                    "rotate": [
+                        {
+                            "value": -6.51
+                        },
+                        {
+                            "time": 9.4667,
+                            "value": 1.8,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "value": -25.91
+                        },
+                        {
+                            "time": 44.1,
+                            "value": -6.51
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": 418.13
+                        },
+                        {
+                            "time": 9.4667,
+                            "value": 755.53,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "value": -369.14
+                        },
+                        {
+                            "time": 44.1,
+                            "value": 418.13
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 606.02
+                        },
+                        {
+                            "time": 9.4667,
+                            "value": 951.49,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "value": -200.07
+                        },
+                        {
+                            "time": 44.1,
+                            "value": 606.02
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.291,
+                            "y": 1.291
+                        },
+                        {
+                            "time": 9.4667,
+                            "x": 1.55,
+                            "y": 1.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "x": 0.688,
+                            "y": 0.688
+                        },
+                        {
+                            "time": 44.1,
+                            "x": 1.291,
+                            "y": 1.291
+                        }
+                    ]
+                },
+                "云 9": {
+                    "rotate": [
+                        {
+                            "value": 7.49
+                        },
+                        {
+                            "time": 17.9333,
+                            "value": 17.93,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "value": 17.93,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 30.5667,
+                            "value": -0.38
+                        },
+                        {
+                            "time": 44.1,
+                            "value": 7.49
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": -161.83
+                        },
+                        {
+                            "time": 17.9333,
+                            "value": 262.4,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "value": 262.4,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 30.5667,
+                            "value": -481.86
+                        },
+                        {
+                            "time": 44.1,
+                            "value": -161.83
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -62.72
+                        },
+                        {
+                            "time": 17.9333,
+                            "value": 294.92,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "value": 294.92,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 30.5667,
+                            "value": -332.51
+                        },
+                        {
+                            "time": 44.1,
+                            "value": -62.72
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.059,
+                            "y": 1.059
+                        },
+                        {
+                            "time": 17.9333,
+                            "x": 1.55,
+                            "y": 1.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 22.0667,
+                            "x": 1.55,
+                            "y": 1.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 30.5667,
+                            "x": 0.688,
+                            "y": 0.688
+                        },
+                        {
+                            "time": 44.1,
+                            "x": 1.059,
+                            "y": 1.059
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "光玟1": {
+            "rootBoneName": "光玟1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 10,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 8,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "光玟2": {
+            "slotName": "光玟2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0,
+                    "min": 0.45,
+                    "max": 0.6
+                }
+            }
+        },
+        "光玟1": {
+            "slotName": "光玟1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": -0.46,
+                    "min": 0.2,
+                    "max": 0.45
+                }
+            }
+        },
+        "太阳1": {
+            "slotName": "太阳1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": -0.77,
+                    "min": 0.2,
+                    "max": 0.1
+                }
+            }
+        },
+        "图层 1653": {
+            "slotName": "图层 1653",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": -0.03,
+                    "min": 0.1,
+                    "max": 0.45
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

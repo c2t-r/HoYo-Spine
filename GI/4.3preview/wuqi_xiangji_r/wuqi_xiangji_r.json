@@ -1,0 +1,134 @@
+{
+    "skeleton": {
+        "hash": "w+cpDIUT2hE",
+        "spine": "4.0-from-4.1.24",
+        "x": -383.5,
+        "y": -464.5,
+        "width": 1040,
+        "height": 915,
+        "images": "./wuqi_xiangji_r/tex/",
+        "audio": "./wuqi_xiangji_r/"
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "光",
+            "bone": "root",
+            "attachment": "光"
+        },
+        {
+            "name": "机身",
+            "bone": "root",
+            "attachment": "机身"
+        },
+        {
+            "name": "连接",
+            "bone": "root",
+            "attachment": "连接"
+        },
+        {
+            "name": "手把",
+            "bone": "root",
+            "attachment": "手把"
+        },
+        {
+            "name": "手把发光",
+            "bone": "root",
+            "attachment": "手把发光",
+            "blend": "additive"
+        },
+        {
+            "name": "边光",
+            "bone": "root",
+            "attachment": "边光",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "光": {
+                    "光": {
+                        "x": 72.5,
+                        "y": 68.5,
+                        "width": 912,
+                        "height": 764
+                    }
+                },
+                "手把": {
+                    "手把": {
+                        "x": 170,
+                        "y": -87,
+                        "width": 151,
+                        "height": 49
+                    }
+                },
+                "手把发光": {
+                    "手把发光": {
+                        "x": 157,
+                        "y": -81,
+                        "width": 123,
+                        "height": 37
+                    }
+                },
+                "机身": {
+                    "机身": {
+                        "x": 429,
+                        "y": -170.5,
+                        "width": 455,
+                        "height": 588
+                    }
+                },
+                "边光": {
+                    "边光": {
+                        "x": 275,
+                        "y": 26.5,
+                        "width": 121,
+                        "height": 194
+                    }
+                },
+                "连接": {
+                    "连接": {
+                        "x": 220,
+                        "y": -119.5,
+                        "width": 51,
+                        "height": 114
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {},
+        "b": {
+            "slots": {
+                "光": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "手把发光": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "边光": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

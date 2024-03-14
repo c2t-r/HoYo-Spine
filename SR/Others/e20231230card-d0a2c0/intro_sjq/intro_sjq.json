@@ -1,0 +1,563 @@
+{
+    "skeleton": {
+        "hash": "fEkewk2h+AA",
+        "spine": "4.0-from-4.1.24",
+        "x": -395.5,
+        "y": -341,
+        "width": 786,
+        "height": 679,
+        "images": "./intro_sjq/tex/",
+        "audio": "D:/work_2023/RPG_1229_年终数据分享/spine/intro_sjq"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -1.72,
+            "y": 52.7
+        },
+        {
+            "name": "bone2",
+            "parent": "root",
+            "x": -1.72,
+            "y": 52.7
+        },
+        {
+            "name": "b",
+            "parent": "root",
+            "x": -14.89,
+            "y": -13.78
+        }
+    ],
+    "slots": [
+        {
+            "name": "f",
+            "bone": "root",
+            "attachment": "f"
+        },
+        {
+            "name": "e",
+            "bone": "root",
+            "attachment": "e",
+            "blend": "additive"
+        },
+        {
+            "name": "d",
+            "bone": "bone2",
+            "attachment": "d",
+            "blend": "additive"
+        },
+        {
+            "name": "c",
+            "bone": "bone",
+            "color": "ffffff9e",
+            "attachment": "c",
+            "blend": "additive"
+        },
+        {
+            "name": "水晶球",
+            "bone": "root",
+            "attachment": "水晶球"
+        },
+        {
+            "name": "b",
+            "bone": "b",
+            "attachment": "b",
+            "blend": "additive"
+        },
+        {
+            "name": "a",
+            "bone": "root",
+            "attachment": "a",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            321.5,
+                            -284,
+                            -329.5,
+                            -284,
+                            -329.5,
+                            305,
+                            321.5,
+                            305
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 326,
+                        "height": 295
+                    }
+                },
+                "b": {
+                    "b": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            83.39,
+                            -104.22,
+                            -31.61,
+                            -104.22,
+                            -31.61,
+                            101.78,
+                            83.39,
+                            101.78
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 115,
+                        "height": 206
+                    }
+                },
+                "c": {
+                    "c": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            383.22,
+                            -176.7,
+                            -354.78,
+                            -176.7,
+                            -354.78,
+                            219.3,
+                            383.22,
+                            219.3
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 369,
+                        "height": 198
+                    }
+                },
+                "d": {
+                    "d": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            185.22,
+                            -180.7,
+                            -170.78,
+                            -180.7,
+                            -170.78,
+                            145.3,
+                            185.22,
+                            145.3
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 178,
+                        "height": 163
+                    }
+                },
+                "e": {
+                    "e": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            350.5,
+                            -288,
+                            -333.5,
+                            -288,
+                            -333.5,
+                            290,
+                            350.5,
+                            290
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 342,
+                        "height": 289
+                    }
+                },
+                "f": {
+                    "f": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            390.5,
+                            -341,
+                            -395.5,
+                            -341,
+                            -395.5,
+                            338,
+                            390.5,
+                            338
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 393,
+                        "height": 340
+                    }
+                },
+                "水晶球": {
+                    "水晶球": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            86.5,
+                            -39,
+                            -90.5,
+                            -39,
+                            -90.5,
+                            138,
+                            86.5,
+                            138
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 177,
+                        "height": 177
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 2098,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 1,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "bone2": {
+            "rootBoneName": "bone2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.5,
+                    "moveXCenter": 0,
+                    "moveXSeed": 2099.4082446095254,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 1,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "b": {
+            "rootBoneName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.3,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": 0.15
+                }
+            }
+        },
+        "root": {
+            "rootBoneName": "root",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "a": {
+            "slotName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0,
+                    "min": 0.7,
+                    "max": 0.8
+                }
+            }
+        },
+        "b": {
+            "slotName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0.25,
+                    "max": 1
+                }
+            }
+        },
+        "c": {
+            "slotName": "c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.5,
+                    "min": 0.5,
+                    "max": 0.7
+                }
+            }
+        },
+        "d": {
+            "slotName": "d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.75,
+                    "min": 0.5,
+                    "max": 0.7
+                }
+            }
+        },
+        "e": {
+            "slotName": "e",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 1,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

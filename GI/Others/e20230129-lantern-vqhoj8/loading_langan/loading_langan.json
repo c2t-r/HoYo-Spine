@@ -1,0 +1,158 @@
+{
+    "skeleton": {
+        "hash": "tl+f7KsSBRw",
+        "spine": "4.0-from-4.1.17",
+        "x": -203,
+        "y": -70.5,
+        "width": 406,
+        "height": 141
+    },
+    "bones": [
+        {
+            "name": "loading_langan_a"
+        },
+        {
+            "name": "bone",
+            "parent": "loading_langan_a",
+            "x": 329,
+            "y": -105
+        }
+    ],
+    "slots": [
+        {
+            "name": "a",
+            "bone": "loading_langan_a",
+            "color": "ffffff00",
+            "attachment": "loading_langan_a"
+        },
+        {
+            "name": "b",
+            "bone": "loading_langan_a",
+            "attachment": "loading_langan_ab"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "loading_langan_a": {
+                        "width": 406,
+                        "height": 141
+                    },
+                    "loading_langan_b": {
+                        "width": 412,
+                        "height": 212
+                    }
+                },
+                "b": {
+                    "loading_langan_ab": {
+                        "width": 406,
+                        "height": 141
+                    },
+                    "栏杆2_单色": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 412,
+                        "height": 212
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "b": {
+                    "attachment": [
+                        {
+                            "name": "loading_langan_ab"
+                        }
+                    ]
+                }
+            }
+        },
+        "ab": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "a": {
+                    "attachment": [
+                        {
+                            "name": "loading_langan_b"
+                        }
+                    ]
+                },
+                "b": {
+                    "attachment": [
+                        {
+                            "name": "栏杆2_单色"
+                        }
+                    ]
+                }
+            }
+        },
+        "bb": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "loading_langan_b"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "栏杆2_单色"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

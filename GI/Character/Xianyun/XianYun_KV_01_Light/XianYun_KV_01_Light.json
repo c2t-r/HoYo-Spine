@@ -1,0 +1,61 @@
+{
+    "skeleton": {
+        "hash": "JuEiwqNNs2Y",
+        "spine": "4.1.24",
+        "x": -1198.08,
+        "y": -579.49,
+        "width": 1694.4,
+        "height": 1330.4,
+        "images": "./images/Xianyun_KV_01_Light/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -25.28,
+            "y": -13.49,
+            "scaleX": 0.8,
+            "scaleY": 0.8
+        }
+    ],
+    "slots": [
+        {
+            "name": "光线2",
+            "bone": "root",
+            "attachment": "光线2",
+            "blend": "additive"
+        },
+        {
+            "name": "光线",
+            "bone": "root",
+            "attachment": "光线",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "光线": {
+                    "光线": {
+                        "x": -423.5,
+                        "y": 124,
+                        "width": 2085,
+                        "height": 1663
+                    }
+                },
+                "光线2": {
+                    "光线2": {
+                        "x": -383,
+                        "y": 132.5,
+                        "width": 2070,
+                        "height": 1646
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

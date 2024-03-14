@@ -1,0 +1,386 @@
+{
+    "skeleton": {
+        "hash": "tOCHWkSzzxk",
+        "spine": "4.0-from-4.1.19",
+        "x": -466,
+        "y": -256,
+        "width": 933,
+        "height": 511
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "光效",
+            "parent": "bone",
+            "x": -305.4,
+            "y": 95.04
+        },
+        {
+            "name": "闪光3",
+            "parent": "bone",
+            "x": -66.89,
+            "y": 163.35
+        },
+        {
+            "name": "闪光5",
+            "parent": "bone",
+            "x": 380.37,
+            "y": -128.78
+        },
+        {
+            "name": "闪光4",
+            "parent": "bone",
+            "x": 424.53,
+            "y": -172.94
+        },
+        {
+            "name": "闪光2",
+            "parent": "bone",
+            "x": -250.89,
+            "y": -72.13
+        },
+        {
+            "name": "闪光1",
+            "parent": "bone",
+            "x": -315.04,
+            "y": -187.93
+        }
+    ],
+    "slots": [
+        {
+            "name": "光效",
+            "bone": "光效",
+            "attachment": "光效",
+            "blend": "additive"
+        },
+        {
+            "name": "闪光5",
+            "bone": "闪光5",
+            "attachment": "闪光5",
+            "blend": "additive"
+        },
+        {
+            "name": "闪光4",
+            "bone": "闪光4",
+            "attachment": "闪光4",
+            "blend": "additive"
+        },
+        {
+            "name": "闪光3",
+            "bone": "闪光3",
+            "attachment": "闪光3",
+            "blend": "additive"
+        },
+        {
+            "name": "闪光2",
+            "bone": "闪光2",
+            "attachment": "闪光2",
+            "blend": "additive"
+        },
+        {
+            "name": "闪光1",
+            "bone": "闪光1",
+            "attachment": "闪光1",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "光效": {
+                    "光效": {
+                        "x": 28.4,
+                        "y": -3.54,
+                        "width": 378,
+                        "height": 327
+                    }
+                },
+                "闪光1": {
+                    "闪光1": {
+                        "x": 0.04,
+                        "y": -12.57,
+                        "width": 84,
+                        "height": 111
+                    }
+                },
+                "闪光2": {
+                    "闪光2": {
+                        "x": -1.61,
+                        "y": -1.37,
+                        "width": 161,
+                        "height": 183
+                    }
+                },
+                "闪光3": {
+                    "闪光3": {
+                        "x": 3.39,
+                        "y": 10.15,
+                        "width": 71,
+                        "height": 87
+                    }
+                },
+                "闪光4": {
+                    "闪光4": {
+                        "x": 0.97,
+                        "y": 7.94,
+                        "width": 83,
+                        "height": 94
+                    }
+                },
+                "闪光5": {
+                    "闪光5": {
+                        "x": -2.37,
+                        "y": 0.28,
+                        "width": 64,
+                        "height": 65
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "光效": {
+            "rootBoneName": "光效",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -3.3,
+                    "moveXCenter": 0,
+                    "moveYFreq": 16,
+                    "moveYAmp": 50,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -6.21,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 0.5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.31,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "闪光3": {
+            "rootBoneName": "闪光3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.12,
+                    "moveXCenter": 0,
+                    "moveYFreq": 16,
+                    "moveYAmp": 50,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 0.5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -2.4,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "闪光5": {
+            "rootBoneName": "闪光5",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 20,
+                    "moveXAmp": 50,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.09,
+                    "moveXCenter": 0,
+                    "moveYFreq": 25,
+                    "moveYAmp": 100,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.53,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 0.6,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.53,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "闪光4": {
+            "rootBoneName": "闪光4",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -6.16,
+                    "moveXCenter": 0,
+                    "moveYFreq": 16,
+                    "moveYAmp": 50,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.85,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 0.5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.93,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "闪光2": {
+            "rootBoneName": "闪光2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 20,
+                    "moveXAmp": 50,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -0.64,
+                    "moveXCenter": 0,
+                    "moveYFreq": 25,
+                    "moveYAmp": 100,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.82,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 0.6,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.95,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "闪光1": {
+            "rootBoneName": "闪光1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 20,
+                    "moveXAmp": 50,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.45,
+                    "moveXCenter": 0,
+                    "moveYFreq": 25,
+                    "moveYAmp": 100,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.14,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 0.6,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -6.02,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "光效": {
+            "slotName": "光效",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.4,
+                    "delay": 0,
+                    "min": 0.5,
+                    "max": 1
+                }
+            }
+        },
+        "闪光5": {
+            "slotName": "闪光5",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.4,
+                    "delay": 0.1,
+                    "min": 0.5,
+                    "max": 1
+                }
+            }
+        },
+        "闪光4": {
+            "slotName": "闪光4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.4,
+                    "delay": 0.37,
+                    "min": 0.5,
+                    "max": 1
+                }
+            }
+        },
+        "闪光3": {
+            "slotName": "闪光3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.4,
+                    "delay": 0.06,
+                    "min": 0.5,
+                    "max": 1
+                }
+            }
+        },
+        "闪光2": {
+            "slotName": "闪光2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.4,
+                    "delay": 0.14,
+                    "min": 0.5,
+                    "max": 1
+                }
+            }
+        },
+        "闪光1": {
+            "slotName": "闪光1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.4,
+                    "delay": -0.18,
+                    "min": 0.5,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

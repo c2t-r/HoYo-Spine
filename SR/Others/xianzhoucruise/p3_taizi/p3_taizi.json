@@ -1,0 +1,247 @@
+{
+    "skeleton": {
+        "hash": "1IbPTFlaQAA",
+        "spine": "4.0-from-4.1.21",
+        "x": -1579,
+        "y": -798,
+        "width": 3166,
+        "height": 1552
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "灯2",
+            "parent": "root",
+            "x": -1119.57,
+            "y": -85.7
+        },
+        {
+            "name": "灯1",
+            "parent": "root",
+            "x": -233.83,
+            "y": -85.7
+        }
+    ],
+    "slots": [
+        {
+            "name": "p3_taizi",
+            "bone": "root",
+            "attachment": "p3_taizi"
+        },
+        {
+            "name": "灯2",
+            "bone": "灯2",
+            "attachment": "灯2"
+        },
+        {
+            "name": "灯1",
+            "bone": "灯1",
+            "attachment": "灯1"
+        },
+        {
+            "name": "光4",
+            "bone": "灯2",
+            "attachment": "光4",
+            "blend": "additive"
+        },
+        {
+            "name": "光3",
+            "bone": "root",
+            "attachment": "光3",
+            "blend": "additive"
+        },
+        {
+            "name": "光2",
+            "bone": "root",
+            "attachment": "光2",
+            "blend": "additive"
+        },
+        {
+            "name": "光1",
+            "bone": "灯1",
+            "attachment": "光1",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "p3_taizi": {
+                    "p3_taizi": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1587,
+                            -798,
+                            -1579,
+                            -798,
+                            -1579,
+                            754,
+                            1587,
+                            754
+                        ],
+                        "hull": 4
+                    }
+                },
+                "光1": {
+                    "光1": {
+                        "x": 5.83,
+                        "y": -5.8,
+                        "width": 174,
+                        "height": 165
+                    }
+                },
+                "光2": {
+                    "光2": {
+                        "x": 885.5,
+                        "y": -30.5,
+                        "width": 405,
+                        "height": 341
+                    }
+                },
+                "光3": {
+                    "光3": {
+                        "x": -348,
+                        "y": -108,
+                        "width": 324,
+                        "height": 292
+                    }
+                },
+                "光4": {
+                    "光4": {
+                        "x": 1.57,
+                        "y": -4.8,
+                        "width": 156,
+                        "height": 147
+                    }
+                },
+                "灯1": {
+                    "灯1": {
+                        "x": 0.33,
+                        "y": -0.8,
+                        "width": 57,
+                        "height": 57
+                    }
+                },
+                "灯2": {
+                    "灯2": {
+                        "x": 0.57,
+                        "y": 0.7,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "灯2": {
+            "rootBoneName": "灯2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 2,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "灯1": {
+            "rootBoneName": "灯1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 2,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.5876842558837778,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "光4": {
+            "slotName": "光4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0,
+                    "min": 0.4,
+                    "max": 0.8
+                }
+            }
+        },
+        "光3": {
+            "slotName": "光3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.3509245049454748,
+                    "min": 0.4,
+                    "max": 0.8
+                }
+            }
+        },
+        "光2": {
+            "slotName": "光2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.19718661082969113,
+                    "min": 0.4,
+                    "max": 0.8
+                }
+            }
+        },
+        "光1": {
+            "slotName": "光1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.3240759742429815,
+                    "min": 0.4,
+                    "max": 0.8
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

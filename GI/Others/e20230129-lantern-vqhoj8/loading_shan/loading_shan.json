@@ -1,0 +1,356 @@
+{
+    "skeleton": {
+        "hash": "MQejuw6Em7I",
+        "spine": "4.0-from-4.1.17",
+        "x": -177,
+        "y": -139.5,
+        "width": 354,
+        "height": 279.5
+    },
+    "bones": [
+        {
+            "name": "loading_langan_a"
+        },
+        {
+            "name": "bone",
+            "parent": "loading_langan_a",
+            "x": 329,
+            "y": -105
+        }
+    ],
+    "slots": [
+        {
+            "name": "a",
+            "bone": "loading_langan_a",
+            "color": "ffffff00",
+            "attachment": "loading_shan_a"
+        },
+        {
+            "name": "b",
+            "bone": "loading_langan_a",
+            "attachment": "loading_shan_a_b"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "loading_shan_a": {
+                        "y": 0.5,
+                        "width": 354,
+                        "height": 279
+                    },
+                    "loading_shan_b": {
+                        "y": 0.5,
+                        "width": 384,
+                        "height": 251
+                    },
+                    "loading_shan_c": {
+                        "y": 0.5,
+                        "width": 450,
+                        "height": 337
+                    },
+                    "loading_shan_d": {
+                        "y": 0.5,
+                        "width": 300,
+                        "height": 167
+                    },
+                    "loading_shan_e": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 659,
+                        "height": 345
+                    }
+                },
+                "b": {
+                    "loading_shan_a_b": {
+                        "width": 354,
+                        "height": 279
+                    },
+                    "loading_shan_b_b": {
+                        "y": 0.5,
+                        "width": 384,
+                        "height": 251
+                    },
+                    "loading_shan_c_b": {
+                        "y": 0.5,
+                        "width": 450,
+                        "height": 337
+                    },
+                    "loading_shan_d_b": {
+                        "y": 0.5,
+                        "width": 300,
+                        "height": 167
+                    },
+                    "loading_shan_e_b": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 659,
+                        "height": 345
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "b": {
+                    "attachment": [
+                        {
+                            "name": "loading_shan_a_b"
+                        }
+                    ]
+                }
+            }
+        },
+        "ab": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "a": {
+                    "attachment": [
+                        {
+                            "name": "loading_shan_b"
+                        }
+                    ]
+                },
+                "b": {
+                    "attachment": [
+                        {
+                            "name": "loading_shan_b_b"
+                        }
+                    ]
+                }
+            }
+        },
+        "bb": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "loading_shan_b"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "loading_shan_b_b"
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "a": {
+                    "attachment": [
+                        {
+                            "name": "loading_shan_c"
+                        }
+                    ]
+                },
+                "b": {
+                    "attachment": [
+                        {
+                            "name": "loading_shan_c_b"
+                        }
+                    ]
+                }
+            }
+        },
+        "cb": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "loading_shan_c"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "loading_shan_c_b"
+                        }
+                    ]
+                }
+            }
+        },
+        "d": {
+            "slots": {
+                "a": {
+                    "attachment": [
+                        {
+                            "name": "loading_shan_d"
+                        }
+                    ]
+                },
+                "b": {
+                    "attachment": [
+                        {
+                            "name": "loading_shan_d_b"
+                        }
+                    ]
+                }
+            }
+        },
+        "db": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "loading_shan_d"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "loading_shan_d_b"
+                        }
+                    ]
+                }
+            }
+        },
+        "e": {
+            "slots": {
+                "a": {
+                    "attachment": [
+                        {
+                            "name": "loading_shan_e"
+                        }
+                    ]
+                },
+                "b": {
+                    "attachment": [
+                        {
+                            "name": "loading_shan_e_b"
+                        }
+                    ]
+                }
+            }
+        },
+        "eb": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "loading_shan_e"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "loading_shan_e_b"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

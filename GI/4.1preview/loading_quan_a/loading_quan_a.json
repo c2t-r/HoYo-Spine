@@ -1,0 +1,57 @@
+{
+    "skeleton": {
+        "hash": "xz6KdJaB+XM",
+        "spine": "4.1.17",
+        "x": -270,
+        "y": -271,
+        "width": 541,
+        "height": 543
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 0.52,
+            "y": 0.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "quan_a",
+            "bone": "bone",
+            "attachment": "quan_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "quan_a": {
+                    "quan_a": {
+                        "x": -0.02,
+                        "width": 541,
+                        "height": 543
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 12,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

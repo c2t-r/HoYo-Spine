@@ -1,0 +1,1021 @@
+{
+    "skeleton": {
+        "hash": "lib3pvW0IAk",
+        "spine": "4.0-from-4.1.24",
+        "x": -170,
+        "y": -330,
+        "width": 340,
+        "height": 660,
+        "images": "./hd_c_icon_a/tex/",
+        "audio": "D:/work_2023/原神_1209_4.3预热/spine/hd_c_icon_a"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bg",
+            "parent": "root",
+            "x": -2.11,
+            "y": 48.61
+        },
+        {
+            "name": "原石bg",
+            "parent": "root",
+            "x": -97.4,
+            "y": -91.84
+        },
+        {
+            "name": "原石bg2",
+            "parent": "原石bg"
+        },
+        {
+            "name": "原石bg3",
+            "parent": "原石bg"
+        },
+        {
+            "name": "原石bg4",
+            "parent": "原石bg3"
+        },
+        {
+            "name": "星星",
+            "parent": "root",
+            "x": -0.6,
+            "y": -80.65
+        },
+        {
+            "name": "星星g",
+            "parent": "星星",
+            "x": 127.72,
+            "y": 34.47
+        },
+        {
+            "name": "星星h",
+            "parent": "星星",
+            "x": 141.86,
+            "y": 21.28
+        },
+        {
+            "name": "星星d",
+            "parent": "星星",
+            "x": 77.3,
+            "y": 121.66
+        },
+        {
+            "name": "星星c",
+            "parent": "星星",
+            "x": 84.84,
+            "y": 267.75
+        },
+        {
+            "name": "星星b",
+            "parent": "星星",
+            "x": 98.5,
+            "y": 253.61
+        },
+        {
+            "name": "星星e",
+            "parent": "星星",
+            "x": -122.99,
+            "y": 147.11
+        },
+        {
+            "name": "星星f",
+            "parent": "星星",
+            "x": -141.84,
+            "y": 160.3
+        },
+        {
+            "name": "星星a",
+            "parent": "星星",
+            "x": -40.85,
+            "y": 404.42
+        },
+        {
+            "name": "星星a2",
+            "parent": "星星a"
+        },
+        {
+            "name": "星星b2",
+            "parent": "星星b"
+        },
+        {
+            "name": "星星c2",
+            "parent": "星星c"
+        },
+        {
+            "name": "星星d2",
+            "parent": "星星d"
+        },
+        {
+            "name": "星星e2",
+            "parent": "星星e"
+        },
+        {
+            "name": "星星f2",
+            "parent": "星星f"
+        },
+        {
+            "name": "星星g2",
+            "parent": "星星g"
+        },
+        {
+            "name": "星星h2",
+            "parent": "星星h"
+        }
+    ],
+    "slots": [
+        {
+            "name": "mask",
+            "bone": "root",
+            "attachment": "mask"
+        },
+        {
+            "name": "图层 1089",
+            "bone": "bg",
+            "attachment": "图层 1089"
+        },
+        {
+            "name": "bg",
+            "bone": "root",
+            "attachment": "bg"
+        },
+        {
+            "name": "星星h",
+            "bone": "星星h2",
+            "attachment": "星星h"
+        },
+        {
+            "name": "星星g",
+            "bone": "星星g2",
+            "attachment": "星星g"
+        },
+        {
+            "name": "星星f",
+            "bone": "星星f2",
+            "attachment": "星星f"
+        },
+        {
+            "name": "星星e",
+            "bone": "星星e2",
+            "attachment": "星星e"
+        },
+        {
+            "name": "星星d",
+            "bone": "星星d2",
+            "attachment": "星星d"
+        },
+        {
+            "name": "星星c",
+            "bone": "星星c2",
+            "attachment": "星星c"
+        },
+        {
+            "name": "星星b",
+            "bone": "星星b2",
+            "attachment": "星星b"
+        },
+        {
+            "name": "星星a",
+            "bone": "星星a2",
+            "attachment": "星星a"
+        },
+        {
+            "name": "原石bg",
+            "bone": "原石bg3",
+            "attachment": "原石bg"
+        },
+        {
+            "name": "原石_圈",
+            "bone": "原石bg4",
+            "attachment": "原石_圈"
+        },
+        {
+            "name": "原石",
+            "bone": "原石bg2",
+            "attachment": "原石"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bg": {
+                    "bg": {
+                        "y": -31,
+                        "width": 340,
+                        "height": 598
+                    }
+                },
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "图层 1089",
+                        "vertexCount": 4,
+                        "vertices": [
+                            -160.55,
+                            -151.13,
+                            -161.12,
+                            259.67,
+                            159.15,
+                            261.37,
+                            158.02,
+                            -155.66
+                        ],
+                        "color": "ce3a3aff"
+                    }
+                },
+                "原石": {
+                    "原石": {
+                        "x": 0.4,
+                        "y": -0.66,
+                        "width": 50,
+                        "height": 55
+                    }
+                },
+                "原石bg": {
+                    "原石bg": {
+                        "x": -0.1,
+                        "y": -0.66,
+                        "width": 101,
+                        "height": 101
+                    }
+                },
+                "原石_圈": {
+                    "原石_圈": {
+                        "x": -0.6,
+                        "y": -0.16,
+                        "width": 78,
+                        "height": 78
+                    }
+                },
+                "图层 1089": {
+                    "图层 1089": {
+                        "x": 6.61,
+                        "y": 11.39,
+                        "width": 437,
+                        "height": 494
+                    }
+                },
+                "星星a": {
+                    "星星a": {
+                        "x": 0.45,
+                        "y": 0.23,
+                        "width": 12,
+                        "height": 12
+                    }
+                },
+                "星星b": {
+                    "星星b": {
+                        "x": 0.1,
+                        "y": -0.97,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "星星c": {
+                    "星星c": {
+                        "x": -0.73,
+                        "y": -0.6,
+                        "width": 41,
+                        "height": 41
+                    }
+                },
+                "星星d": {
+                    "星星d": {
+                        "x": -0.19,
+                        "y": -0.51,
+                        "width": 13,
+                        "height": 13
+                    }
+                },
+                "星星e": {
+                    "星星e": {
+                        "x": -0.41,
+                        "y": -0.46,
+                        "width": 36,
+                        "height": 36
+                    }
+                },
+                "星星f": {
+                    "星星f": {
+                        "x": -0.05,
+                        "y": 0.35,
+                        "width": 13,
+                        "height": 12
+                    }
+                },
+                "星星g": {
+                    "星星g": {
+                        "x": 0.38,
+                        "y": 0.17,
+                        "width": 41,
+                        "height": 40
+                    }
+                },
+                "星星h": {
+                    "星星h": {
+                        "x": -0.26,
+                        "y": -0.63,
+                        "width": 14,
+                        "height": 14
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "0": {
+            "slots": {
+                "原石": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "原石bg": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "原石_圈": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "原石bg": {
+                    "scale": [
+                        {
+                            "x": 0.187,
+                            "y": 0.187
+                        }
+                    ]
+                }
+            }
+        },
+        "animation": {
+            "slots": {
+                "原石": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "原石bg": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "原石_圈": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "fffffffe"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "原石bg": {
+                    "scale": [
+                        {
+                            "x": 0.187,
+                            "y": 0.187,
+                            "curve": [
+                                0.103,
+                                0.187,
+                                0.138,
+                                1.319,
+                                0.103,
+                                0.187,
+                                0.138,
+                                1.319
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 1.319,
+                            "y": 1.319,
+                            "curve": [
+                                0.299,
+                                1.319,
+                                0.378,
+                                0.927,
+                                0.299,
+                                1.319,
+                                0.378,
+                                0.927
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 0.927,
+                            "y": 0.927,
+                            "curve": [
+                                0.611,
+                                0.927,
+                                0.756,
+                                1,
+                                0.611,
+                                0.927,
+                                0.756,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9
+                        }
+                    ]
+                }
+            }
+        },
+        "lizi": {
+            "slots": {
+                "星星a": {
+                    "rgba": [
+                        {
+                            "color": "ffffffc2"
+                        },
+                        {
+                            "time": 0.9333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 6.3333,
+                            "color": "ffffffc2"
+                        }
+                    ]
+                },
+                "星星b": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.4,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.6,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "星星c": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.4667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4.7333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "星星d": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.9333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.2667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 6,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "星星e": {
+                    "rgba": [
+                        {
+                            "color": "ffffffb2"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.8667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 6.3333,
+                            "color": "ffffffb2"
+                        }
+                    ]
+                },
+                "星星f": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 5.3667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "星星g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.7,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.7333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "星星h": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.7667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 5.8667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "星星h": {
+                    "translate": [
+                        {
+                            "y": -102.55
+                        },
+                        {
+                            "time": 5.8667,
+                            "y": 217.65,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.3333,
+                            "y": -102.55
+                        }
+                    ]
+                },
+                "星星g": {
+                    "translate": [
+                        {
+                            "y": 255.16,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9333,
+                            "y": -109.33
+                        },
+                        {
+                            "time": 4.7333,
+                            "y": 255.16,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.3333,
+                            "y": 255.16
+                        }
+                    ]
+                },
+                "星星f": {
+                    "translate": [
+                        {
+                            "y": -123.95
+                        },
+                        {
+                            "time": 2.6667,
+                            "y": 59.57,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.6667,
+                            "y": -239.86
+                        },
+                        {
+                            "time": 6.3333,
+                            "y": -123.95
+                        }
+                    ]
+                },
+                "星星e": {
+                    "translate": [
+                        {
+                            "y": -172.49
+                        },
+                        {
+                            "time": 4.0333,
+                            "y": 258.73,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.8667,
+                            "y": -225.45
+                        },
+                        {
+                            "time": 6.3333,
+                            "y": -172.49
+                        }
+                    ]
+                },
+                "星星d": {
+                    "translate": [
+                        {
+                            "y": -136.21
+                        },
+                        {
+                            "time": 3.9333,
+                            "y": 98.87,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.2667,
+                            "y": -199.17
+                        },
+                        {
+                            "time": 6.3333,
+                            "y": -136.21
+                        }
+                    ]
+                },
+                "星星c": {
+                    "translate": [
+                        {
+                            "y": -13.81
+                        },
+                        {
+                            "time": 1.4667,
+                            "y": 198,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.0333,
+                            "y": -346.65
+                        },
+                        {
+                            "time": 6.3333,
+                            "y": -13.81
+                        }
+                    ]
+                },
+                "星星b": {
+                    "translate": [
+                        {
+                            "y": -66.83
+                        },
+                        {
+                            "time": 2.4,
+                            "y": 118.51,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.9,
+                            "y": -333.94
+                        },
+                        {
+                            "time": 6.3333,
+                            "y": -66.83
+                        }
+                    ]
+                },
+                "星星a": {
+                    "translate": [
+                        {
+                            "y": -78.37
+                        },
+                        {
+                            "time": 0.9333,
+                            "y": -3.84,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4333,
+                            "y": -479.72
+                        },
+                        {
+                            "time": 6.3333,
+                            "y": -78.37
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "bg": {
+            "rootBoneName": "bg",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 7,
+                    "moveYAmp": 6,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 9,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "原石bg4": {
+            "rootBoneName": "原石bg4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.1
+                }
+            }
+        },
+        "原石bg3": {
+            "rootBoneName": "原石bg3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": 0.05
+                }
+            }
+        },
+        "原石bg2": {
+            "rootBoneName": "原石bg2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.298298805810874,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "星星g2": {
+            "rootBoneName": "星星g2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.7,
+                    "scaleXAmp": 0.15,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.3508762398273328,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "星星h2": {
+            "rootBoneName": "星星h2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.7,
+                    "scaleXAmp": 0.15,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -3.1969604465430237,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "星星d2": {
+            "rootBoneName": "星星d2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.7,
+                    "scaleXAmp": 0.15,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.3165152760206282,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "星星c2": {
+            "rootBoneName": "星星c2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.7,
+                    "scaleXAmp": 0.15,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.5496721850906466,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "星星b2": {
+            "rootBoneName": "星星b2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.7,
+                    "scaleXAmp": 0.15,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -2.568730264881355,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "星星e2": {
+            "rootBoneName": "星星e2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.7,
+                    "scaleXAmp": 0.15,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.024456338809318,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "星星f2": {
+            "rootBoneName": "星星f2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.7,
+                    "scaleXAmp": 0.15,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -4.920457798264716,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "星星a2": {
+            "rootBoneName": "星星a2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.7,
+                    "scaleXAmp": 0.15,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.7716721348743738,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

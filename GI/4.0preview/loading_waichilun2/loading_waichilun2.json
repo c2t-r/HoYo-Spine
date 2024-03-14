@@ -1,0 +1,102 @@
+{
+    "skeleton": {
+        "hash": "WDMvEjWhnQU",
+        "spine": "4.0-from-4.1.23",
+        "x": -264.75,
+        "y": -201.22,
+        "width": 528,
+        "height": 528,
+        "images": "./quanchilun_images/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -389.75,
+            "y": 430.78
+        },
+        {
+            "name": "外圈齿轮 2",
+            "parent": "bone",
+            "x": 389,
+            "y": -368
+        }
+    ],
+    "slots": [
+        {
+            "name": "外圈齿轮 2",
+            "bone": "外圈齿轮 2",
+            "attachment": "外圈齿轮 2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "外圈齿轮 2": {
+                    "外圈齿轮 2": {
+                        "width": 528,
+                        "height": 528
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "loop1": {
+            "bones": {
+                "外圈齿轮 2": {
+                    "rotate": [
+                        {
+                            "value": -3.4,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9333,
+                            "value": -3.4
+                        },
+                        {
+                            "time": 1.1333,
+                            "value": -6.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.8667,
+                            "value": -6.43
+                        },
+                        {
+                            "time": 2.0333,
+                            "value": -10.26,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8333,
+                            "value": -10.26
+                        },
+                        {
+                            "time": 3,
+                            "value": -15.25
+                        }
+                    ]
+                }
+            }
+        },
+        "loop2": {
+            "bones": {
+                "外圈齿轮 2": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 6,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

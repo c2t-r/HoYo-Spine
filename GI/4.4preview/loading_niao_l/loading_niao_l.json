@@ -1,0 +1,407 @@
+{
+    "skeleton": {
+        "hash": "3MiP0uRNXts",
+        "spine": "4.0-from-4.1.24",
+        "x": -263.5,
+        "y": -180.5,
+        "width": 527,
+        "height": 361
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "a",
+            "parent": "root",
+            "length": 48.49,
+            "rotation": -51.01,
+            "x": -202.39,
+            "y": 103.12
+        },
+        {
+            "name": "b",
+            "parent": "root",
+            "length": 55.29,
+            "rotation": -35.75,
+            "x": -46.24,
+            "y": -72.78
+        },
+        {
+            "name": "c",
+            "parent": "root",
+            "length": 21.4,
+            "rotation": -19.98,
+            "x": 35.38,
+            "y": -120.5
+        },
+        {
+            "name": "d",
+            "parent": "root",
+            "length": 39.18,
+            "rotation": -5.36,
+            "x": 100.61,
+            "y": -143.05
+        },
+        {
+            "name": "e",
+            "parent": "root",
+            "length": 36.58,
+            "rotation": -0.95,
+            "x": 213.37,
+            "y": -152.8
+        }
+    ],
+    "slots": [
+        {
+            "name": "e",
+            "bone": "e",
+            "attachment": "e"
+        },
+        {
+            "name": "d",
+            "bone": "d",
+            "attachment": "d"
+        },
+        {
+            "name": "c",
+            "bone": "c",
+            "attachment": "c"
+        },
+        {
+            "name": "b",
+            "bone": "b",
+            "attachment": "b"
+        },
+        {
+            "name": "a",
+            "bone": "a",
+            "attachment": "a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": 29.61,
+                        "y": 12.55,
+                        "rotation": 51.01,
+                        "width": 179,
+                        "height": 185
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": 19.78,
+                        "y": 2.88,
+                        "rotation": 35.75,
+                        "width": 130,
+                        "height": 103
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": 5.62,
+                        "y": 0.97,
+                        "rotation": 19.98,
+                        "width": 61,
+                        "height": 34
+                    }
+                },
+                "d": {
+                    "d": {
+                        "x": 8.8,
+                        "y": 1.38,
+                        "rotation": 5.36,
+                        "width": 114,
+                        "height": 70
+                    }
+                },
+                "e": {
+                    "e": {
+                        "x": 9.11,
+                        "y": 1.45,
+                        "rotation": 0.95,
+                        "width": 82,
+                        "height": 58
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.511,
+                                1,
+                                0.856,
+                                1,
+                                0.511,
+                                1,
+                                0.856,
+                                1,
+                                0.511,
+                                1,
+                                0.856,
+                                1,
+                                0.511,
+                                0,
+                                0.856,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.611,
+                                1,
+                                0.956,
+                                1,
+                                0.611,
+                                1,
+                                0.956,
+                                1,
+                                0.611,
+                                1,
+                                0.956,
+                                1,
+                                0.611,
+                                0,
+                                0.956,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.744,
+                                1,
+                                1.089,
+                                1,
+                                0.744,
+                                1,
+                                1.089,
+                                1,
+                                0.744,
+                                1,
+                                1.089,
+                                1,
+                                0.744,
+                                0,
+                                1.089,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.4333,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.844,
+                                1,
+                                1.189,
+                                1,
+                                0.844,
+                                1,
+                                1.189,
+                                1,
+                                0.844,
+                                1,
+                                1.189,
+                                1,
+                                0.844,
+                                0,
+                                1.189,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "e": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.944,
+                                1,
+                                1.289,
+                                1,
+                                0.944,
+                                1,
+                                1.289,
+                                1,
+                                0.944,
+                                1,
+                                1.289,
+                                1,
+                                0.944,
+                                0,
+                                1.289,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "fffffffe"
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {}
+    },
+    "extra": {
+        "a": {
+            "rootBoneName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -0.13102482985433606,
+                    "moveXCenter": 0,
+                    "moveXSeed": 8941.154495310126
+                }
+            }
+        },
+        "root": {
+            "rootBoneName": "root",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 8939
+                }
+            }
+        },
+        "b": {
+            "rootBoneName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.489947191359822,
+                    "moveXCenter": 0,
+                    "moveXSeed": 8933.03507227654
+                }
+            }
+        },
+        "c": {
+            "rootBoneName": "c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -0.8348195597888041,
+                    "moveXCenter": 0,
+                    "moveXSeed": 8934.782115955668
+                }
+            }
+        },
+        "d": {
+            "rootBoneName": "d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.093686729295863,
+                    "moveXCenter": 0,
+                    "moveXSeed": 8942.753346833772
+                }
+            }
+        },
+        "e": {
+            "rootBoneName": "e",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.149078655823297,
+                    "moveXCenter": 0,
+                    "moveXSeed": 8938.672796550227
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

@@ -1,0 +1,197 @@
+{
+    "skeleton": {
+        "hash": "cg9StV94Xak",
+        "spine": "4.0-from-4.1.17",
+        "x": -748,
+        "y": -101,
+        "width": 739,
+        "height": 627,
+        "images": "./images_页面/",
+        "audio": "S:/-----米哈游/3.4预热页/甘雨"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "an",
+            "parent": "bone",
+            "length": 313.88,
+            "rotation": -77.08,
+            "x": -391.55,
+            "y": 300.64
+        }
+    ],
+    "slots": [
+        {
+            "name": "an",
+            "bone": "an",
+            "attachment": "灯-暗状态"
+        },
+        {
+            "name": "liang",
+            "bone": "an",
+            "attachment": "灯"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "an": {
+                    "灯-暗状态": {
+                        "x": 97.09,
+                        "y": 4.44,
+                        "rotation": 77.08,
+                        "width": 675,
+                        "height": 534
+                    }
+                },
+                "liang": {
+                    "灯": {
+                        "x": 88.83,
+                        "y": -7,
+                        "rotation": 77.08,
+                        "width": 739,
+                        "height": 627
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "liang-an": {
+            "slots": {
+                "liang": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": [
+                                1,
+                                1,
+                                2,
+                                1,
+                                1,
+                                1,
+                                2,
+                                1,
+                                1,
+                                1,
+                                2,
+                                1,
+                                1,
+                                1,
+                                2,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff00",
+                            "curve": [
+                                4,
+                                1,
+                                5,
+                                1,
+                                4,
+                                1,
+                                5,
+                                1,
+                                4,
+                                1,
+                                5,
+                                1,
+                                4,
+                                0,
+                                5,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 6,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {
+            "bones": {
+                "an": {
+                    "rotate": [
+                        {
+                            "value": -0.38,
+                            "curve": [
+                                0.5,
+                                -1.16,
+                                1,
+                                -1.94
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "value": -1.94,
+                            "curve": [
+                                2.5,
+                                -1.94,
+                                3.5,
+                                1.19
+                            ]
+                        },
+                        {
+                            "time": 4.5,
+                            "value": 1.19,
+                            "curve": [
+                                5,
+                                1.19,
+                                5.5,
+                                0.4
+                            ]
+                        },
+                        {
+                            "time": 6,
+                            "value": -0.38
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "curve": [
+                                1,
+                                0,
+                                2,
+                                -7.9,
+                                1,
+                                0,
+                                2,
+                                34.43
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": -7.9,
+                            "y": 34.43,
+                            "curve": [
+                                4,
+                                -7.9,
+                                5,
+                                0,
+                                4,
+                                34.43,
+                                5,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 6
+                        }
+                    ]
+                }
+            }
+        },
+        "stay_liang": {}
+    }
+}

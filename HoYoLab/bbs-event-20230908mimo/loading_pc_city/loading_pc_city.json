@@ -1,0 +1,182 @@
+{
+    "skeleton": {
+        "hash": "pkt5CqZmLv8",
+        "spine": "4.0-from-4.2.09-beta",
+        "x": -950.28,
+        "y": -527.78,
+        "width": 3923.17,
+        "height": 678
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 19.97,
+            "y": -16.2
+        },
+        {
+            "name": "bone2",
+            "parent": "root",
+            "x": 19.97,
+            "y": -16.2
+        }
+    ],
+    "slots": [
+        {
+            "name": "loading_pc_cityb",
+            "bone": "bone2",
+            "attachment": "loading_pc_cityb"
+        },
+        {
+            "name": "loading_pc_cityb2",
+            "bone": "bone2",
+            "attachment": "loading_pc_cityb"
+        },
+        {
+            "name": "bone5",
+            "bone": "bone",
+            "attachment": "loading_pc_citya"
+        },
+        {
+            "name": "bone4",
+            "bone": "bone",
+            "attachment": "loading_pc_citya"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bone4": {
+                    "loading_pc_citya": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.99362,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0.99362,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            993.14,
+                            -511.58,
+                            -970.26,
+                            -511.58,
+                            -970.26,
+                            166.42,
+                            993.14,
+                            166.42
+                        ],
+                        "hull": 4
+                    }
+                },
+                "bone5": {
+                    "loading_pc_citya": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.99438,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0.99438,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            2952.92,
+                            -511.58,
+                            988.02,
+                            -511.58,
+                            988.02,
+                            166.42,
+                            2952.92,
+                            166.42
+                        ],
+                        "hull": 4
+                    }
+                },
+                "loading_pc_cityb": {
+                    "loading_pc_cityb": {
+                        "x": 64.38,
+                        "y": 73.03,
+                        "width": 1729,
+                        "height": 99
+                    }
+                },
+                "loading_pc_cityb2": {
+                    "loading_pc_cityb": {
+                        "x": 2022.66,
+                        "y": 73.03,
+                        "width": 1729,
+                        "height": 99
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone": {
+                    "translate": [
+                        {
+                            "x": 0.78
+                        },
+                        {
+                            "time": 11.6333,
+                            "x": -1955.36,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 11.6667,
+                            "x": 0.78
+                        },
+                        {
+                            "time": 23.3,
+                            "x": -1955.36,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 23.3333,
+                            "x": 0.78
+                        }
+                    ]
+                },
+                "bone2": {
+                    "translate": [
+                        {
+                            "x": 2.33
+                        },
+                        {
+                            "time": 23.3333,
+                            "x": -1959.42
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

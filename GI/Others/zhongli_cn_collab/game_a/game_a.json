@@ -1,0 +1,2867 @@
+{
+    "skeleton": {
+        "hash": "kPt3CAseQOA",
+        "spine": "4.0-from-4.1.24",
+        "x": -125.5,
+        "y": -303.87,
+        "width": 248.58,
+        "height": 661.37
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "wiggle",
+            "parent": "root"
+        },
+        {
+            "name": "game_gw",
+            "parent": "wiggle",
+            "x": -5,
+            "y": 137
+        },
+        {
+            "name": "game_di",
+            "parent": "wiggle",
+            "x": -5,
+            "y": -13
+        },
+        {
+            "name": "huan",
+            "parent": "wiggle",
+            "x": -5,
+            "y": 257
+        },
+        {
+            "name": "a",
+            "parent": "huan",
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "name": "b",
+            "parent": "huan",
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "name": "c",
+            "parent": "huan",
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "name": "d",
+            "parent": "huan",
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "name": "a_wiggle",
+            "parent": "a"
+        },
+        {
+            "name": "b_wiggle",
+            "parent": "b"
+        },
+        {
+            "name": "c_wiggle",
+            "parent": "c"
+        },
+        {
+            "name": "d_wiggle",
+            "parent": "d"
+        },
+        {
+            "name": "gw_wiggle",
+            "parent": "game_gw"
+        },
+        {
+            "name": "game_di_wiggle",
+            "parent": "game_di"
+        }
+    ],
+    "slots": [
+        {
+            "name": "huan_a",
+            "bone": "a_wiggle",
+            "color": "ffffff00",
+            "attachment": "huan_a"
+        },
+        {
+            "name": "huan_b",
+            "bone": "b_wiggle",
+            "color": "ffffff00",
+            "attachment": "huan_b"
+        },
+        {
+            "name": "huan_c",
+            "bone": "c_wiggle",
+            "color": "ffffff00",
+            "attachment": "huan_c"
+        },
+        {
+            "name": "huan_d",
+            "bone": "d_wiggle",
+            "color": "ffffff00",
+            "attachment": "huan_d"
+        },
+        {
+            "name": "game_xuanxian_a",
+            "bone": "game_di_wiggle",
+            "attachment": "game_xuanxian_a"
+        },
+        {
+            "name": "game_xuanxian_a_click",
+            "bone": "game_di_wiggle",
+            "color": "ffffff00",
+            "attachment": "game_xuanxian_a_click"
+        },
+        {
+            "name": "game_gw_d_guan",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "game_gw_d_guan",
+            "blend": "additive"
+        },
+        {
+            "name": "game_gw_d",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "game_gw_d"
+        },
+        {
+            "name": "game_gw_c_guan",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "game_gw_c_guan",
+            "blend": "additive"
+        },
+        {
+            "name": "game_gw_c",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "game_gw_c"
+        },
+        {
+            "name": "game_gw_b_guan",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "game_gw_b_guan",
+            "blend": "additive"
+        },
+        {
+            "name": "game_gw_b",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "game_gw_b"
+        },
+        {
+            "name": "game_gw_a_guan",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "game_gw_a_guan",
+            "blend": "additive"
+        },
+        {
+            "name": "game_gw_a",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "game_gw_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "game_gw_a": {
+                    "game_gw_a": {
+                        "y": 9,
+                        "width": 171,
+                        "height": 291
+                    }
+                },
+                "game_gw_a_guan": {
+                    "game_gw_a_guan": {
+                        "x": -1,
+                        "y": 9.5,
+                        "width": 198,
+                        "height": 320
+                    }
+                },
+                "game_gw_b": {
+                    "game_gw_b": {
+                        "y": 14,
+                        "width": 213,
+                        "height": 165
+                    }
+                },
+                "game_gw_b_guan": {
+                    "game_gw_b_guan": {
+                        "x": 0.5,
+                        "y": 13.5,
+                        "width": 244,
+                        "height": 195
+                    }
+                },
+                "game_gw_c": {
+                    "game_gw_c": {
+                        "x": 2.5,
+                        "y": 3.79,
+                        "width": 174,
+                        "height": 166
+                    }
+                },
+                "game_gw_c_guan": {
+                    "game_gw_c_guan": {
+                        "x": 2.5,
+                        "y": 3.79,
+                        "width": 204,
+                        "height": 198
+                    }
+                },
+                "game_gw_d": {
+                    "game_gw_d": {
+                        "x": 1,
+                        "y": 60,
+                        "width": 171,
+                        "height": 293
+                    }
+                },
+                "game_gw_d_guan": {
+                    "game_gw_d_guan": {
+                        "x": 1,
+                        "y": 59.5,
+                        "width": 201,
+                        "height": 324
+                    }
+                },
+                "game_xuanxian_a": {
+                    "game_xuanxian_a": {
+                        "x": 5.5,
+                        "y": -101.5,
+                        "rotation": 0.18,
+                        "width": 154,
+                        "height": 296
+                    }
+                },
+                "game_xuanxian_a_click": {
+                    "game_xuanxian_a_click": {
+                        "x": 5,
+                        "y": -99.5,
+                        "rotation": 0.18,
+                        "width": 245,
+                        "height": 382
+                    }
+                },
+                "huan_a": {
+                    "huan_a": {
+                        "x": -0.5,
+                        "width": 392,
+                        "height": 385
+                    }
+                },
+                "huan_b": {
+                    "huan_b": {
+                        "x": -0.5,
+                        "y": 0.5,
+                        "width": 298,
+                        "height": 298
+                    }
+                },
+                "huan_c": {
+                    "huan_c": {
+                        "x": -0.5,
+                        "width": 294,
+                        "height": 295
+                    }
+                },
+                "huan_d": {
+                    "huan_d": {
+                        "x": -0.5,
+                        "y": 1.5,
+                        "width": 208,
+                        "height": 206
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff32"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "alpha0": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "a_click": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "a": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.133,
+                                1,
+                                0.267,
+                                3.203,
+                                0.133,
+                                1,
+                                0.267,
+                                3.203
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333,
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "b": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.256,
+                                1,
+                                0.378,
+                                3.197,
+                                0.256,
+                                1,
+                                0.378,
+                                3.197
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333,
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "c": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "curve": [
+                                0.322,
+                                1,
+                                0.444,
+                                3.189,
+                                0.322,
+                                1,
+                                0.444,
+                                3.189
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333,
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "d": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "curve": [
+                                0.389,
+                                1,
+                                0.511,
+                                3.176,
+                                0.389,
+                                1,
+                                0.511,
+                                3.176
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333,
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                }
+            }
+        },
+        "a_error": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff59"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff32"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff32"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "a_mouseover": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff64"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff32"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "b_click": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "a": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.133,
+                                1,
+                                0.267,
+                                3.203,
+                                0.133,
+                                1,
+                                0.267,
+                                3.203
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333,
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "b": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.256,
+                                1,
+                                0.378,
+                                3.197,
+                                0.256,
+                                1,
+                                0.378,
+                                3.197
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333,
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "c": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "curve": [
+                                0.322,
+                                1,
+                                0.444,
+                                3.189,
+                                0.322,
+                                1,
+                                0.444,
+                                3.189
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333,
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "d": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "curve": [
+                                0.389,
+                                1,
+                                0.511,
+                                3.176,
+                                0.389,
+                                1,
+                                0.511,
+                                3.176
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333,
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "y": -54
+                        }
+                    ]
+                }
+            }
+        },
+        "b_error": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff59"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff09"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff32"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "b_mouseover": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff64"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "y": -54
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff32"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "c_click": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "a": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.133,
+                                1,
+                                0.267,
+                                3.203,
+                                0.133,
+                                1,
+                                0.267,
+                                3.203
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333,
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "b": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.256,
+                                1,
+                                0.378,
+                                3.197,
+                                0.256,
+                                1,
+                                0.378,
+                                3.197
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333,
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "c": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "curve": [
+                                0.322,
+                                1,
+                                0.444,
+                                3.189,
+                                0.322,
+                                1,
+                                0.444,
+                                3.189
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333,
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "d": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "curve": [
+                                0.389,
+                                1,
+                                0.511,
+                                3.176,
+                                0.389,
+                                1,
+                                0.511,
+                                3.176
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333,
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "y": -75
+                        }
+                    ]
+                }
+            }
+        },
+        "c_error": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff59"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff09"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff32"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "c_mouseover": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff64"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "y": -75
+                        }
+                    ]
+                }
+            }
+        },
+        "d": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff32"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "d_click": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "a": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.133,
+                                1,
+                                0.267,
+                                3.203,
+                                0.133,
+                                1,
+                                0.267,
+                                3.203
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333,
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "b": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.256,
+                                1,
+                                0.378,
+                                3.197,
+                                0.256,
+                                1,
+                                0.378,
+                                3.197
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333,
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "c": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "curve": [
+                                0.322,
+                                1,
+                                0.444,
+                                3.189,
+                                0.322,
+                                1,
+                                0.444,
+                                3.189
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333,
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "d": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "curve": [
+                                0.389,
+                                1,
+                                0.511,
+                                3.176,
+                                0.389,
+                                1,
+                                0.511,
+                                3.176
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333,
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "y": 29.41
+                        }
+                    ]
+                }
+            }
+        },
+        "d_error": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff59"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff09"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff32"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "d_mouseover": {
+            "slots": {
+                "game_gw_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_a_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_b_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_c_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "game_gw_d": {
+                    "rgba": [
+                        {
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "game_gw_d_guan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "game_xuanxian_a_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff64"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "y": 29.41
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "a_wiggle": {
+            "rootBoneName": "a_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": 0.01
+                }
+            }
+        },
+        "b_wiggle": {
+            "rootBoneName": "b_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -5.792015387807632,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": -0.01
+                }
+            }
+        },
+        "c_wiggle": {
+            "rootBoneName": "c_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.840026449451062,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": 0.01
+                }
+            }
+        },
+        "d_wiggle": {
+            "rootBoneName": "d_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.022976951622074,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": -0.01
+                }
+            }
+        },
+        "gw_wiggle": {
+            "rootBoneName": "gw_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 1,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "game_di_wiggle": {
+            "rootBoneName": "game_di_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 3,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.5,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

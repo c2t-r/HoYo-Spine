@@ -1,0 +1,95 @@
+{
+    "skeleton": {
+        "hash": "CcqYRjfs4R0",
+        "spine": "4.1.23",
+        "x": -103,
+        "y": -101,
+        "width": 206,
+        "height": 202,
+        "images": "./index/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "index_btn_download_a",
+            "bone": "bone",
+            "attachment": "index_btn_download_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "index_btn_download_a": {
+                    "index_btn_download_a": {
+                        "width": 206,
+                        "height": 202
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {},
+        "b": {}
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 5.5,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                },
+                "a": {
+                    "name": "a",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0.02,
+                    "rotateFreq": 5.5,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                },
+                "b": {
+                    "name": "b",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -4.2260424444110125,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 8,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.2400152829678428
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

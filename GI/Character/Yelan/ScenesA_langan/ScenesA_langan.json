@@ -1,0 +1,67 @@
+{
+    "skeleton": {
+        "hash": "bVVFMWx2A+A",
+        "spine": "4.0.33",
+        "x": -416.37,
+        "y": -595.13,
+        "width": 1407.6,
+        "height": 579.6,
+        "images": "./images/",
+        "audio": "S:/-----米哈游/【原】夜兰H5-0506/spine动画/茶楼二层"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": 45.94,
+            "y": 25.87,
+            "scaleX": 1.15,
+            "scaleY": 1.15
+        },
+        {
+            "name": "all",
+            "parent": "root",
+            "x": 1,
+            "y": -573.43
+        }
+    ],
+    "slots": [
+        {
+            "name": "二楼栏杆",
+            "bone": "all",
+            "attachment": "二楼栏杆"
+        }
+    ],
+    "skins": [
+        {
+            "name": "day",
+            "attachments": {
+                "二楼栏杆": {
+                    "二楼栏杆": {
+                        "name": "day_二楼栏杆",
+                        "x": 209,
+                        "y": 285.43,
+                        "width": 1224,
+                        "height": 504
+                    }
+                }
+            }
+        },
+        {
+            "name": "night",
+            "attachments": {
+                "二楼栏杆": {
+                    "二楼栏杆": {
+                        "name": "night_二楼栏杆",
+                        "x": 243,
+                        "y": 285.93,
+                        "width": 1174,
+                        "height": 505
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

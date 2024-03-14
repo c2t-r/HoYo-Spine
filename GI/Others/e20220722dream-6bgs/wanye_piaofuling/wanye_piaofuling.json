@@ -1,0 +1,216 @@
+{
+    "skeleton": {
+        "hash": "q8bDyqflnow",
+        "spine": "4.0.33",
+        "x": -363.11,
+        "y": 77.21,
+        "width": 729.54,
+        "height": 377.58
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -5.99,
+            "y": 77.63,
+            "scaleX": 0.42,
+            "scaleY": 0.42
+        },
+        {
+            "name": "a",
+            "parent": "bone",
+            "x": -604.21,
+            "y": 222.5
+        },
+        {
+            "name": "b",
+            "parent": "bone",
+            "x": -398.97,
+            "y": 675.18
+        },
+        {
+            "name": "c",
+            "parent": "bone",
+            "x": 410.48,
+            "y": 686.69
+        },
+        {
+            "name": "d",
+            "parent": "bone",
+            "x": 671.35,
+            "y": 243.6
+        }
+    ],
+    "slots": [
+        {
+            "name": "d",
+            "bone": "d",
+            "attachment": "d"
+        },
+        {
+            "name": "c",
+            "bone": "c",
+            "attachment": "c"
+        },
+        {
+            "name": "b",
+            "bone": "b",
+            "attachment": "b"
+        },
+        {
+            "name": "a",
+            "bone": "a",
+            "attachment": "a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": -15.58,
+                        "y": 0.48,
+                        "width": 461,
+                        "height": 448
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": -4.82,
+                        "y": -17.19,
+                        "width": 475,
+                        "height": 462
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": -0.27,
+                        "y": -17.7,
+                        "width": 469,
+                        "height": 458
+                    }
+                },
+                "d": {
+                    "d": {
+                        "x": -0.63,
+                        "y": -18.11,
+                        "width": 432,
+                        "height": 425
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "a": {
+            "rootBoneName": "a",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 100,
+                    "moveXOctaves": 2,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 30,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 10,
+                    "rotateFollowYMax": 10
+                }
+            }
+        },
+        "b": {
+            "rootBoneName": "b",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 100,
+                    "moveXOctaves": 2,
+                    "moveXDelay": 0,
+                    "moveXCenter": 1,
+                    "moveYFreq": 3,
+                    "moveYAmp": 50,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 1.89,
+                    "moveYCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 7,
+                    "rotateFollowYMax": 7
+                }
+            }
+        },
+        "c": {
+            "rootBoneName": "c",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 100,
+                    "moveXOctaves": 2,
+                    "moveXDelay": -2.86,
+                    "moveXCenter": 1,
+                    "moveYFreq": 2.5,
+                    "moveYAmp": 50.5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 8,
+                    "moveYCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 10,
+                    "rotateFollowYMax": 10
+                }
+            }
+        },
+        "d": {
+            "rootBoneName": "d",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 120,
+                    "moveXOctaves": 2,
+                    "moveXDelay": 0,
+                    "moveXCenter": 1,
+                    "moveYFreq": 4,
+                    "moveYAmp": 50,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.71,
+                    "moveYCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 7,
+                    "rotateFollowYMax": 7
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

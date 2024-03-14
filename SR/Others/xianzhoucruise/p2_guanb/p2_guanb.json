@@ -1,0 +1,141 @@
+{
+    "skeleton": {
+        "hash": "9bkhSA4dVEY",
+        "spine": "4.0-from-4.1.21",
+        "x": -1280,
+        "y": -584,
+        "width": 2560,
+        "height": 1168
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "aa",
+            "bone": "root",
+            "attachment": "aa",
+            "blend": "additive"
+        },
+        {
+            "name": "bb",
+            "bone": "root",
+            "attachment": "bb",
+            "blend": "additive"
+        },
+        {
+            "name": "cc",
+            "bone": "root",
+            "attachment": "cc",
+            "blend": "additive"
+        },
+        {
+            "name": "dd",
+            "bone": "root",
+            "attachment": "dd",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "aa": {
+                    "aa": {
+                        "x": 587.5,
+                        "y": -12.5,
+                        "width": 1373,
+                        "height": 1143
+                    }
+                },
+                "bb": {
+                    "bb": {
+                        "x": 480.5,
+                        "y": 28.5,
+                        "width": 1599,
+                        "height": 1111
+                    }
+                },
+                "cc": {
+                    "cc": {
+                        "x": -479.5,
+                        "y": 188,
+                        "width": 1193,
+                        "height": 792
+                    }
+                },
+                "dd": {
+                    "dd": {
+                        "x": -699.5,
+                        "y": 187.5,
+                        "width": 1161,
+                        "height": 793
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {},
+    "extraSlot": {
+        "aa": {
+            "slotName": "aa",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 3,
+                    "delay": 0,
+                    "min": 0.3,
+                    "max": 0.6
+                }
+            }
+        },
+        "bb": {
+            "slotName": "bb",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 3,
+                    "delay": -0.3782274964820058,
+                    "min": 0.3,
+                    "max": 0.6
+                }
+            }
+        },
+        "cc": {
+            "slotName": "cc",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 3,
+                    "delay": -0.40444973168339216,
+                    "min": 0.3,
+                    "max": 0.6
+                }
+            }
+        },
+        "dd": {
+            "slotName": "dd",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 3,
+                    "delay": -0.4575143070741736,
+                    "min": 0.3,
+                    "max": 0.6
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

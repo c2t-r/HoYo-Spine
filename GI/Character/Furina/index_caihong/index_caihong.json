@@ -1,0 +1,60 @@
+{
+    "skeleton": {
+        "hash": "/PGPRKl0Q9Y",
+        "spine": "4.0-from-4.1.23",
+        "x": -802.5,
+        "y": -662.5,
+        "width": 1605,
+        "height": 1325,
+        "images": "",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "index/index_caihong",
+            "bone": "root",
+            "attachment": "index/index_caihong",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "index/index_caihong": {
+                    "index/index_caihong": {
+                        "width": 1605,
+                        "height": 1325
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {},
+    "extraSlot": {
+        "index/index_caihong": {
+            "slotName": "index/index_caihong",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 3,
+                    "delay": 0,
+                    "min": 0.5,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

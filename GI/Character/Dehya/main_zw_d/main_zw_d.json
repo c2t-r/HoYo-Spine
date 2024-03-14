@@ -1,0 +1,590 @@
+{
+    "skeleton": {
+        "hash": "riGMFkQocks",
+        "spine": "4.0-from-4.1.19",
+        "x": -1454.08,
+        "y": -663.53,
+        "width": 2849.84,
+        "height": 1307.53
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "大面光1_缩小",
+            "parent": "bone",
+            "x": -531.11,
+            "y": 345.61,
+            "scaleX": 2.641,
+            "scaleY": 2.641
+        },
+        {
+            "name": "大面光2_缩小",
+            "parent": "bone",
+            "x": 1370.26,
+            "y": -640.56,
+            "scaleX": 1.5649,
+            "scaleY": 1.5649
+        },
+        {
+            "name": "光效4",
+            "parent": "bone",
+            "length": 557.15,
+            "rotation": -82.99,
+            "x": -811.16,
+            "y": 689.14
+        },
+        {
+            "name": "光效5",
+            "parent": "bone",
+            "length": 666.07,
+            "rotation": -63.52,
+            "x": -548.71,
+            "y": 645.94
+        },
+        {
+            "name": "光效a",
+            "parent": "bone",
+            "length": 220.41,
+            "rotation": -61.3,
+            "x": -528.19,
+            "y": 570.33
+        },
+        {
+            "name": "光效1",
+            "parent": "bone",
+            "x": -0.58,
+            "y": -19.41
+        },
+        {
+            "name": "main_guanban",
+            "parent": "root",
+            "x": -320.08,
+            "y": 29.5
+        },
+        {
+            "name": "光效3",
+            "parent": "root",
+            "x": 839.39,
+            "y": -474.2
+        },
+        {
+            "name": "光效2",
+            "parent": "bone",
+            "x": -603.45,
+            "y": -430.19
+        },
+        {
+            "name": "光晕",
+            "parent": "bone",
+            "x": -331.22,
+            "y": 689.77
+        },
+        {
+            "name": "光晕2",
+            "parent": "光晕",
+            "x": 14.67,
+            "y": -8.15
+        }
+    ],
+    "slots": [
+        {
+            "name": "光晕",
+            "bone": "光晕2",
+            "attachment": "光晕",
+            "blend": "additive"
+        },
+        {
+            "name": "大面光2_缩小",
+            "bone": "大面光2_缩小",
+            "attachment": "大面光2_缩小",
+            "blend": "additive"
+        },
+        {
+            "name": "光效a",
+            "bone": "光效a",
+            "attachment": "光效a",
+            "blend": "additive"
+        },
+        {
+            "name": "大面光1_缩小",
+            "bone": "大面光1_缩小",
+            "attachment": "大面光1_缩小",
+            "blend": "additive"
+        },
+        {
+            "name": "光效5",
+            "bone": "光效5",
+            "attachment": "光效5",
+            "blend": "additive"
+        },
+        {
+            "name": "光效4",
+            "bone": "光效4",
+            "attachment": "光效4",
+            "blend": "additive"
+        },
+        {
+            "name": "光效3",
+            "bone": "光效3",
+            "attachment": "光效3",
+            "blend": "additive"
+        },
+        {
+            "name": "光效2",
+            "bone": "光效2",
+            "attachment": "光效2",
+            "blend": "additive"
+        },
+        {
+            "name": "光效1",
+            "bone": "光效1",
+            "attachment": "光效1",
+            "blend": "additive"
+        },
+        {
+            "name": "main_guanban",
+            "bone": "main_guanban",
+            "attachment": "main_guanban",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "main_guanban": {
+                    "main_guanban": {
+                        "x": 50.08,
+                        "y": 20.5,
+                        "width": 744,
+                        "height": 900
+                    }
+                },
+                "光效1": {
+                    "光效1": {
+                        "x": -61.42,
+                        "y": 8.41,
+                        "width": 566,
+                        "height": 494
+                    }
+                },
+                "光效2": {
+                    "光效2": {
+                        "x": 182.45,
+                        "y": 37.19,
+                        "width": 978,
+                        "height": 500
+                    }
+                },
+                "光效3": {
+                    "光效3": {
+                        "x": -263.39,
+                        "y": 163.2,
+                        "width": 1626,
+                        "height": 664
+                    }
+                },
+                "光效4": {
+                    "光效4": {
+                        "x": 329.96,
+                        "y": -29.86,
+                        "rotation": 82.99,
+                        "width": 177,
+                        "height": 472
+                    }
+                },
+                "光效5": {
+                    "光效5": {
+                        "x": 460.65,
+                        "y": 14.3,
+                        "rotation": 63.52,
+                        "width": 249,
+                        "height": 394
+                    }
+                },
+                "光效a": {
+                    "光效a": {
+                        "x": 200.06,
+                        "y": -51.74,
+                        "rotation": 61.3,
+                        "width": 711,
+                        "height": 448
+                    }
+                },
+                "光晕": {
+                    "光晕": {
+                        "x": 92.05,
+                        "y": -329.62,
+                        "width": 1175,
+                        "height": 584
+                    }
+                },
+                "大面光1_缩小": {
+                    "大面光1_缩小": {
+                        "x": 64.53,
+                        "y": -55.33,
+                        "width": 828,
+                        "height": 304
+                    }
+                },
+                "大面光2_缩小": {
+                    "大面光2_缩小": {
+                        "x": -655.71,
+                        "y": 239.82,
+                        "width": 1344,
+                        "height": 509
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "光效4": {
+            "rootBoneName": "光效4",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 50,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "光效5": {
+            "rootBoneName": "光效5",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 50,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 6.15,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.10302904201877107,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.59,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "光效a": {
+            "rootBoneName": "光效a",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.07,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.01,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.15,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 5.38,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 1,
+                    "scaleYAmp": 0,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 0.11,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 3,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.01
+                }
+            }
+        },
+        "光效3": {
+            "rootBoneName": "光效3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 50,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.25,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.9208086472191375,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1.44,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "光效2": {
+            "rootBoneName": "光效2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 50,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.42,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4.822438552014556,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.72,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "光效1": {
+            "rootBoneName": "光效1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.83,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.71,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.15,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.23,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 1,
+                    "scaleYAmp": 0,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": -5.51,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 3,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.26
+                }
+            }
+        },
+        "光晕": {
+            "rootBoneName": "光晕",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.93,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4.08,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.57,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "光晕2": {
+            "rootBoneName": "光晕2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "大面光2_缩小": {
+            "slotName": "大面光2_缩小",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.3,
+                    "delay": 0,
+                    "min": 0.95,
+                    "max": 1
+                }
+            }
+        },
+        "光效a": {
+            "slotName": "光效a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.3,
+                    "delay": 0.18,
+                    "min": 0.95,
+                    "max": 1
+                }
+            }
+        },
+        "大面光1_缩小": {
+            "slotName": "大面光1_缩小",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.4,
+                    "delay": 0.47,
+                    "min": 0.95,
+                    "max": 1
+                }
+            }
+        },
+        "光效5": {
+            "slotName": "光效5",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.52,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光效4": {
+            "slotName": "光效4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.93,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光效3": {
+            "slotName": "光效3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 1.08,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        },
+        "光效2": {
+            "slotName": "光效2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2.99,
+                    "delay": 1.52,
+                    "min": 0.5,
+                    "max": 1
+                }
+            }
+        },
+        "光效1": {
+            "slotName": "光效1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2.99,
+                    "delay": 1.9,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "main_guanban": {
+            "slotName": "main_guanban",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 2.18,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光晕": {
+            "slotName": "光晕",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 2.25,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

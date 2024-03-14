@@ -1,0 +1,54 @@
+{
+    "skeleton": {
+        "hash": "bH8Rz+vFqfI",
+        "spine": "4.1.17",
+        "x": -248,
+        "y": -248,
+        "width": 496,
+        "height": 496
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "quan_b",
+            "bone": "bone",
+            "attachment": "quan_b"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "quan_b": {
+                    "quan_b": {
+                        "width": 496,
+                        "height": 496
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 12,
+                            "value": -360
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

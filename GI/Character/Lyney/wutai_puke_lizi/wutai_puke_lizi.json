@@ -1,0 +1,39 @@
+{
+    "skeleton": {
+        "hash": "WMCeljq94fA",
+        "spine": "4.1.17",
+        "x": -887,
+        "y": -225,
+        "width": 1774,
+        "height": 451
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "wutai_puke_lizi",
+            "bone": "root",
+            "attachment": "wutai_puke_lizi"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "wutai_puke_lizi": {
+                    "wutai_puke_lizi": {
+                        "y": 0.5,
+                        "width": 1774,
+                        "height": 451
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "loop": {}
+    }
+}

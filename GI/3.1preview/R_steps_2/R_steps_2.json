@@ -1,0 +1,596 @@
+{
+    "skeleton": {
+        "hash": "nUBt4EANa/M",
+        "spine": "4.0.33",
+        "x": -548.01,
+        "y": -335.99,
+        "width": 1097,
+        "height": 672
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "R2",
+            "parent": "root",
+            "x": -375.94,
+            "y": -314.17
+        },
+        {
+            "name": "R2_落砂_1",
+            "parent": "R2",
+            "x": -145.44,
+            "y": 337.38
+        },
+        {
+            "name": "R2_落砂_2",
+            "parent": "R2",
+            "x": -133.54,
+            "y": 348.29
+        },
+        {
+            "name": "R2_落砂_3",
+            "parent": "R2",
+            "x": -118.8,
+            "y": 331.45
+        },
+        {
+            "name": "R2_落砂_4",
+            "parent": "R2",
+            "x": -101.54,
+            "y": 345.35
+        },
+        {
+            "name": "R2_落砂_6",
+            "parent": "R2",
+            "x": -81.74,
+            "y": 316.71
+        },
+        {
+            "name": "R2_落砂_5",
+            "parent": "R2",
+            "x": -94.77,
+            "y": 226.24
+        }
+    ],
+    "slots": [
+        {
+            "name": "R2_前地台",
+            "bone": "R2",
+            "attachment": "R2_前地台"
+        },
+        {
+            "name": "R2",
+            "bone": "R2",
+            "attachment": "R2"
+        },
+        {
+            "name": "R2_落砂_6",
+            "bone": "R2_落砂_6",
+            "attachment": "R2_落砂_6"
+        },
+        {
+            "name": "R2_落砂_5",
+            "bone": "R2_落砂_5",
+            "attachment": "R2_落砂_5"
+        },
+        {
+            "name": "R2_落砂_4",
+            "bone": "R2_落砂_4",
+            "attachment": "R2_落砂_4"
+        },
+        {
+            "name": "R2_落砂_3",
+            "bone": "R2_落砂_3",
+            "attachment": "R2_落砂_3"
+        },
+        {
+            "name": "R2_落砂_2",
+            "bone": "R2_落砂_2",
+            "attachment": "R2_落砂_2"
+        },
+        {
+            "name": "R2_落砂_1",
+            "bone": "R2_落砂_1",
+            "attachment": "R2_落砂_1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "R2": {
+                    "R2": {
+                        "type": "clipping",
+                        "end": "R2",
+                        "vertexCount": 7,
+                        "vertices": [
+                            -163.2,
+                            389.68,
+                            -135.24,
+                            375.97,
+                            -107.64,
+                            375.7,
+                            -75.97,
+                            376.24,
+                            -35.92,
+                            362.71,
+                            -33.16,
+                            -17.18,
+                            -158.27,
+                            -12.05
+                        ]
+                    }
+                },
+                "R2_前地台": {
+                    "R2_前地台": {
+                        "x": 376.43,
+                        "y": 314.17,
+                        "width": 1097,
+                        "height": 672
+                    }
+                },
+                "R2_落砂_1": {
+                    "R2_落砂_1": {
+                        "x": 1.38,
+                        "y": -13.21,
+                        "width": 10,
+                        "height": 32
+                    }
+                },
+                "R2_落砂_2": {
+                    "R2_落砂_2": {
+                        "x": -0.03,
+                        "y": -51.12,
+                        "width": 13,
+                        "height": 112
+                    }
+                },
+                "R2_落砂_3": {
+                    "R2_落砂_3": {
+                        "x": 3.73,
+                        "y": -73.28,
+                        "width": 14,
+                        "height": 152
+                    }
+                },
+                "R2_落砂_4": {
+                    "R2_落砂_4": {
+                        "x": 0.47,
+                        "y": -55.17,
+                        "width": 18,
+                        "height": 114
+                    }
+                },
+                "R2_落砂_5": {
+                    "R2_落砂_5": {
+                        "x": 1.2,
+                        "y": -28.07,
+                        "width": 9,
+                        "height": 66
+                    }
+                },
+                "R2_落砂_6": {
+                    "R2_落砂_6": {
+                        "x": 0.68,
+                        "y": -87.54,
+                        "width": 14,
+                        "height": 180
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "R2_落砂_1": {
+                    "rgba": [
+                        {
+                            "time": 1.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.6333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.2667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 7.4,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.4333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "R2_落砂_2": {
+                    "rgba": [
+                        {
+                            "time": 2.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.3667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.4,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 9.4667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 10.6333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 10.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "R2_落砂_3": {
+                    "rgba": [
+                        {
+                            "time": 3.1333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.3,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 9.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 10.4,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 10.4333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "R2_落砂_4": {
+                    "rgba": [
+                        {
+                            "time": 2.4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.5667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 8.3333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.3667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "R2_落砂_5": {
+                    "rgba": [
+                        {
+                            "time": 1.7333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.8667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.4667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 6.6,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.6333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "R2_落砂_6": {
+                    "rgba": [
+                        {
+                            "time": 1.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.9667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 9.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 10.4,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 10.4333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "R2_落砂_1": {
+                    "translate": [
+                        {
+                            "y": 228.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "y": 228.66
+                        },
+                        {
+                            "time": 2.6333,
+                            "y": -13.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "y": 228.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.9333,
+                            "y": 228.66
+                        },
+                        {
+                            "time": 7.4,
+                            "y": -13.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.4333,
+                            "y": 228.66
+                        }
+                    ]
+                },
+                "R2_落砂_2": {
+                    "translate": [
+                        {
+                            "y": 228.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9,
+                            "y": 228.66
+                        },
+                        {
+                            "time": 3.3667,
+                            "y": -13.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.4,
+                            "y": 228.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.1333,
+                            "y": 228.66
+                        },
+                        {
+                            "time": 10.6333,
+                            "y": -13.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 10.6667,
+                            "y": 228.66
+                        }
+                    ]
+                },
+                "R2_落砂_3": {
+                    "translate": [
+                        {
+                            "y": 228.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.8,
+                            "y": 228.66
+                        },
+                        {
+                            "time": 4.3,
+                            "y": -13.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.3333,
+                            "y": 228.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.9,
+                            "y": 228.66
+                        },
+                        {
+                            "time": 10.4,
+                            "y": -13.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 10.4333,
+                            "y": 228.66
+                        }
+                    ]
+                },
+                "R2_落砂_4": {
+                    "translate": [
+                        {
+                            "y": 228.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0667,
+                            "y": 228.66
+                        },
+                        {
+                            "time": 3.5667,
+                            "y": -13.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6,
+                            "y": 228.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.8333,
+                            "y": 228.66
+                        },
+                        {
+                            "time": 8.3333,
+                            "y": -13.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8.3667,
+                            "y": 228.66
+                        }
+                    ]
+                },
+                "R2_落砂_5": {
+                    "translate": [
+                        {
+                            "y": 228.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "y": 228.66
+                        },
+                        {
+                            "time": 2.8667,
+                            "y": -13.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.9,
+                            "y": 228.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1333,
+                            "y": 228.66
+                        },
+                        {
+                            "time": 6.6,
+                            "y": -13.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.6333,
+                            "y": 228.66
+                        }
+                    ]
+                },
+                "R2_落砂_6": {
+                    "translate": [
+                        {
+                            "y": 228.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "y": 228.66
+                        },
+                        {
+                            "time": 2.9667,
+                            "y": -13.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "y": 228.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.9,
+                            "y": 228.66
+                        },
+                        {
+                            "time": 10.4,
+                            "y": -13.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 10.4333,
+                            "y": 228.66
+                        }
+                    ]
+                },
+                "root": {
+                    "translate": [
+                        {
+                            "time": 12
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

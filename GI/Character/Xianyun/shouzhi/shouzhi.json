@@ -1,0 +1,76 @@
+{
+    "skeleton": {
+        "hash": "oYwQKF00ckY",
+        "spine": "4.0-from-4.1.24",
+        "x": -300.85,
+        "y": -268,
+        "width": 603,
+        "height": 536,
+        "images": "./shouzhi_images/",
+        "audio": "D:/需求/闲云预热/闲云kv"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "手指",
+            "parent": "bone",
+            "x": 178,
+            "y": -156,
+            "transform": "noRotationOrReflection"
+        }
+    ],
+    "slots": [
+        {
+            "name": "虚线锅",
+            "bone": "root",
+            "attachment": "虚线锅"
+        },
+        {
+            "name": "手指",
+            "bone": "手指",
+            "attachment": "手指"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "手指": {
+                    "手指": {
+                        "width": 131,
+                        "height": 118
+                    }
+                },
+                "虚线锅": {
+                    "虚线锅": {
+                        "x": 0.65,
+                        "width": 603,
+                        "height": 536
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1.6667,
+                            "value": -360
+                        }
+                    ]
+                }
+            }
+        },
+        "in": {}
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "skeleton": {
+        "hash": "xCvKUSyJb0U",
+        "spine": "4.0-from-4.1.23",
+        "x": -415.88,
+        "y": -376.91,
+        "width": 831.75,
+        "height": 753.83,
+        "images": "./index/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "index_guan",
+            "parent": "root",
+            "length": 747.5,
+            "rotation": -39.35,
+            "x": -287,
+            "y": 238
+        }
+    ],
+    "slots": [
+        {
+            "name": "index_guan",
+            "bone": "index_guan",
+            "attachment": "index_guan",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "index_guan": {
+                    "index_guan": {
+                        "x": 372.84,
+                        "y": -2.04,
+                        "rotation": 39.41,
+                        "width": 831,
+                        "height": 753
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "index_guan": {
+            "rootBoneName": "index_guan",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 9133,
+                    "scaleXFreq": 7,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "index_guan": {
+            "slotName": "index_guan",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

@@ -1,0 +1,178 @@
+{
+    "skeleton": {
+        "hash": "As/6Q5ummxE",
+        "spine": "4.0-from-4.1.23",
+        "x": -75,
+        "y": -86.5,
+        "width": 150,
+        "height": 173,
+        "images": "./fupang/fupang_b_photo/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "fupang_b_photo1",
+            "parent": "bone",
+            "x": -2.52,
+            "y": 74.94
+        }
+    ],
+    "slots": [
+        {
+            "name": "fupang_b_photo1",
+            "bone": "fupang_b_photo1",
+            "attachment": "fupang_b_photo4"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "fupang_b_photo1": {
+                    "fupang_b_photo4": {
+                        "x": 2.52,
+                        "y": -74.94,
+                        "width": 150,
+                        "height": 173
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "fupang_b_photo1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "rotate": [
+                        {
+                            "value": -39.04,
+                            "curve": [
+                                0.232,
+                                -39.55,
+                                0.282,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4333
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": -41.51,
+                            "curve": [
+                                0.074,
+                                -41.51,
+                                0.133,
+                                -41.51
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "value": -41.17,
+                            "curve": [
+                                0.289,
+                                -40.73,
+                                0.378,
+                                4.76
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": 4.76,
+                            "curve": [
+                                0.567,
+                                4.76,
+                                0.668,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.7667
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -253.83,
+                            "curve": [
+                                0.111,
+                                -253.83,
+                                0.222,
+                                -22.19
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -12.54,
+                            "curve": [
+                                0.478,
+                                0,
+                                0.624,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.7667
+                        }
+                    ]
+                },
+                "fupang_b_photo1": {
+                    "rotate": [
+                        {
+                            "time": 0.2,
+                            "curve": [
+                                0.311,
+                                0,
+                                0.381,
+                                5.72
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "value": 5.72,
+                            "curve": [
+                                0.686,
+                                5.72,
+                                0.687,
+                                -2.12
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "value": -2.12,
+                            "curve": [
+                                1.047,
+                                -2.12,
+                                1.075,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.3322
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "skeleton": {
+        "hash": "00Ifsia/ryc",
+        "spine": "4.0-from-4.1.17",
+        "x": -159.1,
+        "y": 54.64,
+        "width": 318.2,
+        "height": 506.53
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.37,
+            "scaleY": 0.37
+        }
+    ],
+    "slots": [
+        {
+            "name": "背面",
+            "bone": "root",
+            "attachment": "背面big"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "背面": {
+                    "背面big": {
+                        "y": 832.17,
+                        "width": 860,
+                        "height": 1369
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

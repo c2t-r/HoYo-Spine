@@ -1,0 +1,183 @@
+{
+    "skeleton": {
+        "hash": "i77zzTMaUFU",
+        "spine": "4.0-from-4.1.24",
+        "x": -293,
+        "y": -273.5,
+        "width": 614,
+        "height": 591
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "length": 206.65,
+            "rotation": -114.11,
+            "x": 35.23,
+            "y": 15.07
+        }
+    ],
+    "slots": [
+        {
+            "name": "发光",
+            "bone": "bone",
+            "attachment": "发光"
+        },
+        {
+            "name": "a",
+            "bone": "bone",
+            "attachment": "a"
+        },
+        {
+            "name": "图层 1",
+            "bone": "bone",
+            "attachment": "图层 1",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": 1.09,
+                        "y": -4.7,
+                        "rotation": 114.11,
+                        "width": 325,
+                        "height": 331
+                    }
+                },
+                "发光": {
+                    "发光": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            140.75,
+                            345.4,
+                            380.14,
+                            -189.47,
+                            -84.45,
+                            -397.4,
+                            -323.84,
+                            137.47
+                        ],
+                        "hull": 4
+                    }
+                },
+                "图层 1": {
+                    "图层 1": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            146.66,
+                            378.72,
+                            388.09,
+                            -160.72,
+                            -151.35,
+                            -402.14,
+                            -392.78,
+                            137.3
+                        ],
+                        "hull": 4
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.9,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 3,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 1.6
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "发光": {
+            "slotName": "发光",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "图层 1": {
+            "slotName": "图层 1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.25,
+                    "min": 0.3
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

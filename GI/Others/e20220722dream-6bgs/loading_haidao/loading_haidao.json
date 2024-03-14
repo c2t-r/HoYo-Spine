@@ -1,0 +1,119 @@
+{
+    "skeleton": {
+        "hash": "1Kr6qX559Kg",
+        "spine": "4.0.33",
+        "x": -228.5,
+        "y": -115.91,
+        "width": 457,
+        "height": 233
+    },
+    "bones": [
+        {
+            "name": "root",
+            "y": 0.59
+        }
+    ],
+    "slots": [
+        {
+            "name": "loading_haidao_a",
+            "bone": "root",
+            "attachment": "loading_haidao_a"
+        },
+        {
+            "name": "loading_haidao_b",
+            "bone": "root",
+            "attachment": "loading_haidao_b"
+        },
+        {
+            "name": "loading_haidao_c",
+            "bone": "root",
+            "attachment": "loading_haidao_c"
+        },
+        {
+            "name": "loading_haidao_d",
+            "bone": "root",
+            "attachment": "loading_haidao_d"
+        },
+        {
+            "name": "loading_haidao_e",
+            "bone": "root",
+            "attachment": "loading_haidao_e"
+        },
+        {
+            "name": "loading_haidao_F",
+            "bone": "root",
+            "attachment": "loading_haidao_F"
+        }
+    ],
+    "skins": [
+        {
+            "name": "a",
+            "attachments": {
+                "loading_haidao_a": {
+                    "loading_haidao_a": {
+                        "width": 57,
+                        "height": 23
+                    }
+                }
+            }
+        },
+        {
+            "name": "b",
+            "attachments": {
+                "loading_haidao_b": {
+                    "loading_haidao_b": {
+                        "width": 241,
+                        "height": 192
+                    }
+                }
+            }
+        },
+        {
+            "name": "c",
+            "attachments": {
+                "loading_haidao_c": {
+                    "loading_haidao_c": {
+                        "width": 425,
+                        "height": 195
+                    }
+                }
+            }
+        },
+        {
+            "name": "d",
+            "attachments": {
+                "loading_haidao_d": {
+                    "loading_haidao_d": {
+                        "width": 168,
+                        "height": 93
+                    }
+                }
+            }
+        },
+        {
+            "name": "e",
+            "attachments": {
+                "loading_haidao_e": {
+                    "loading_haidao_e": {
+                        "width": 264,
+                        "height": 121
+                    }
+                }
+            }
+        },
+        {
+            "name": "f",
+            "attachments": {
+                "loading_haidao_F": {
+                    "loading_haidao_F": {
+                        "width": 457,
+                        "height": 233
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

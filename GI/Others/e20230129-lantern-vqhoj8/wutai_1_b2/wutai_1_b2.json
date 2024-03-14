@@ -1,0 +1,92 @@
+{
+    "skeleton": {
+        "hash": "7IguD7bQdE4",
+        "spine": "4.0-from-4.1.17",
+        "x": -1618,
+        "y": 6,
+        "width": 3483,
+        "height": 294
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "b2_e",
+            "bone": "root",
+            "attachment": "b2_e"
+        },
+        {
+            "name": "b2_d",
+            "bone": "root",
+            "attachment": "b2_d"
+        },
+        {
+            "name": "b2_c",
+            "bone": "root",
+            "attachment": "b2_c"
+        },
+        {
+            "name": "b2_b",
+            "bone": "root",
+            "attachment": "b2_b"
+        },
+        {
+            "name": "b2_a",
+            "bone": "root",
+            "attachment": "b2_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "b2_a": {
+                    "b2_a": {
+                        "x": -1433,
+                        "y": 60,
+                        "width": 370,
+                        "height": 108
+                    }
+                },
+                "b2_b": {
+                    "b2_b": {
+                        "x": -577.5,
+                        "y": 128.5,
+                        "width": 997,
+                        "height": 231
+                    }
+                },
+                "b2_c": {
+                    "b2_c": {
+                        "x": 76,
+                        "y": 92.5,
+                        "width": 270,
+                        "height": 161
+                    }
+                },
+                "b2_d": {
+                    "b2_d": {
+                        "x": 1527.5,
+                        "y": 105.5,
+                        "width": 675,
+                        "height": 189
+                    }
+                },
+                "b2_e": {
+                    "b2_e": {
+                        "x": 708.5,
+                        "y": 156.5,
+                        "width": 651,
+                        "height": 287
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

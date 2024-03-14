@@ -1,0 +1,269 @@
+{
+    "skeleton": {
+        "hash": "4RrncPvU83c",
+        "spine": "4.0-from-4.1.24",
+        "x": -766.5,
+        "y": -377.5,
+        "width": 1533,
+        "height": 755,
+        "images": "./quanquan_images/",
+        "audio": "C:/Users/xiankang.zhan/Desktop/需求/4.2前瞻页/活动页2/quanquan"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "x": 618.5,
+            "y": -228
+        },
+        {
+            "name": "quan1",
+            "parent": "bone2"
+        },
+        {
+            "name": "bone5",
+            "parent": "bone",
+            "x": -640,
+            "y": 251
+        },
+        {
+            "name": "quan5",
+            "parent": "bone5"
+        },
+        {
+            "name": "bone4",
+            "parent": "bone",
+            "x": -644.5,
+            "y": 251.5
+        },
+        {
+            "name": "quan4",
+            "parent": "bone4"
+        },
+        {
+            "name": "bone3",
+            "parent": "bone",
+            "x": 618,
+            "y": -228.5
+        },
+        {
+            "name": "quan3",
+            "parent": "bone3"
+        }
+    ],
+    "slots": [
+        {
+            "name": "quan5",
+            "bone": "quan5",
+            "attachment": "quan5"
+        },
+        {
+            "name": "quan4",
+            "bone": "quan4",
+            "attachment": "quan4"
+        },
+        {
+            "name": "quan3",
+            "bone": "quan3",
+            "attachment": "quan3"
+        },
+        {
+            "name": "quan1",
+            "bone": "quan1",
+            "attachment": "quan1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "quan1": {
+                    "quan1": {
+                        "width": 190,
+                        "height": 189
+                    }
+                },
+                "quan3": {
+                    "quan3": {
+                        "width": 297,
+                        "height": 298
+                    }
+                },
+                "quan4": {
+                    "quan4": {
+                        "width": 144,
+                        "height": 144
+                    }
+                },
+                "quan5": {
+                    "quan5": {
+                        "width": 253,
+                        "height": 253
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "bones": {
+                "bone2": {
+                    "scale": [
+                        {
+                            "x": -0.037,
+                            "y": -0.037,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "x": -0.037,
+                            "y": -0.037,
+                            "curve": [
+                                0.445,
+                                -0.037,
+                                0.407,
+                                1,
+                                0.445,
+                                -0.037,
+                                0.407,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7333
+                        }
+                    ]
+                },
+                "bone3": {
+                    "scale": [
+                        {
+                            "x": 0.126,
+                            "y": 0.126,
+                            "curve": [
+                                0.32,
+                                0.126,
+                                0.301,
+                                1,
+                                0.32,
+                                0.126,
+                                0.301,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6333
+                        }
+                    ]
+                },
+                "bone4": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.652,
+                                0.1,
+                                0.59,
+                                1,
+                                0.652,
+                                0.1,
+                                0.59,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9
+                        }
+                    ]
+                },
+                "bone5": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.485,
+                                0.1,
+                                0.424,
+                                1,
+                                0.485,
+                                0.1,
+                                0.424,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7333
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {}
+    },
+    "extra": {
+        "quan5": {
+            "rootBoneName": "quan5",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": -0.1
+                }
+            }
+        },
+        "quan4": {
+            "rootBoneName": "quan4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.25
+                }
+            }
+        },
+        "quan1": {
+            "rootBoneName": "quan1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.25
+                }
+            }
+        },
+        "quan3": {
+            "rootBoneName": "quan3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": -0.1
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

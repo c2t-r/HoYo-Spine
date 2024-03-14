@@ -1,0 +1,261 @@
+{
+    "skeleton": {
+        "hash": "XHg22zpwAeo",
+        "spine": "4.0-from-4.1.24",
+        "x": -213,
+        "y": -157,
+        "width": 426,
+        "height": 314
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "niao_c",
+            "parent": "root",
+            "x": 129.47,
+            "y": -32.14
+        },
+        {
+            "name": "niao_b",
+            "parent": "root",
+            "x": 196.43,
+            "y": 106.19
+        },
+        {
+            "name": "niao_a",
+            "parent": "root",
+            "x": 146.48,
+            "y": 147.91
+        },
+        {
+            "name": "niao_d",
+            "parent": "root",
+            "x": -43.99,
+            "y": -126
+        },
+        {
+            "name": "niao_f",
+            "parent": "root",
+            "x": -93.4,
+            "y": -145.21
+        },
+        {
+            "name": "niao_e",
+            "parent": "root",
+            "x": -194.4,
+            "y": -99.1
+        }
+    ],
+    "slots": [
+        {
+            "name": "niao_f",
+            "bone": "niao_f",
+            "attachment": "niao_f"
+        },
+        {
+            "name": "niao_e",
+            "bone": "niao_e",
+            "attachment": "niao_e"
+        },
+        {
+            "name": "niao_d",
+            "bone": "niao_d",
+            "attachment": "niao_d"
+        },
+        {
+            "name": "niao_c",
+            "bone": "niao_c",
+            "attachment": "niao_c"
+        },
+        {
+            "name": "niao_b",
+            "bone": "niao_b",
+            "attachment": "niao_b"
+        },
+        {
+            "name": "niao_a",
+            "bone": "niao_a",
+            "attachment": "niao_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "niao_a": {
+                    "niao_a": {
+                        "x": -0.98,
+                        "y": -1.41,
+                        "width": 23,
+                        "height": 21
+                    }
+                },
+                "niao_b": {
+                    "niao_b": {
+                        "x": 1.07,
+                        "y": -1.19,
+                        "width": 31,
+                        "height": 32
+                    }
+                },
+                "niao_c": {
+                    "niao_c": {
+                        "x": 9.53,
+                        "y": 16.64,
+                        "width": 100,
+                        "height": 103
+                    }
+                },
+                "niao_d": {
+                    "niao_d": {
+                        "x": 9.99,
+                        "y": 5.5,
+                        "width": 78,
+                        "height": 47
+                    }
+                },
+                "niao_e": {
+                    "niao_e": {
+                        "x": 8.4,
+                        "y": -2.4,
+                        "width": 54,
+                        "height": 45
+                    }
+                },
+                "niao_f": {
+                    "niao_f": {
+                        "x": -0.1,
+                        "y": 0.21,
+                        "width": 25,
+                        "height": 24
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "niao_c": {
+            "rootBoneName": "niao_c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 18,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "niao_d": {
+            "rootBoneName": "niao_d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 20,
+                    "moveXAmp": 25,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.881615739766777,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.8581084275124122,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "niao_e": {
+            "rootBoneName": "niao_e",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 20,
+                    "moveXAmp": 25,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -2.8740239174757702,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 1.6223808066821288,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "niao_a": {
+            "rootBoneName": "niao_a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 20,
+                    "moveXAmp": 25,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.842087914693056,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.540023555601429,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "niao_b": {
+            "rootBoneName": "niao_b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 20,
+                    "moveXAmp": 25,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -0.5809005071324996,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.14075168354135134,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "niao_f": {
+            "rootBoneName": "niao_f",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 20,
+                    "moveXAmp": 25,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -3.6104380883198584,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.962056640821622,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "skeleton": {
+        "hash": "Kpmoks48gTE",
+        "spine": "4.0-from-4.1.17",
+        "x": -1062.43,
+        "y": -268.11,
+        "width": 2189,
+        "height": 615
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "b1_2",
+            "bone": "root",
+            "attachment": "b1_2"
+        },
+        {
+            "name": "b1_1",
+            "bone": "root",
+            "attachment": "b1_1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "b1_1": {
+                    "b1_1": {
+                        "x": -614.43,
+                        "y": 39.39,
+                        "width": 896,
+                        "height": 615
+                    }
+                },
+                "b1_2": {
+                    "b1_2": {
+                        "x": 678.57,
+                        "y": 39.39,
+                        "width": 896,
+                        "height": 615
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

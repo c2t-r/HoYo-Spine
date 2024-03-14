@@ -1,0 +1,237 @@
+{
+    "skeleton": {
+        "hash": "PipmHDJ7pNU",
+        "spine": "4.0-from-4.1.17",
+        "x": -918.04,
+        "y": 236.32,
+        "width": 1837,
+        "height": 323
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "c_1",
+            "parent": "root",
+            "x": -840.31,
+            "y": 519.47
+        },
+        {
+            "name": "c_2",
+            "parent": "root",
+            "x": -309.37,
+            "y": 449.2
+        },
+        {
+            "name": "c_4",
+            "parent": "root",
+            "x": 418.5,
+            "y": 394.55
+        },
+        {
+            "name": "c_5",
+            "parent": "root",
+            "x": 734.72,
+            "y": 519.47
+        },
+        {
+            "name": "c_6",
+            "parent": "root",
+            "x": 879.17,
+            "y": 460.91
+        },
+        {
+            "name": "c_3",
+            "parent": "root",
+            "x": -5.73,
+            "y": 300.85
+        }
+    ],
+    "slots": [
+        {
+            "name": "c_6",
+            "bone": "c_6",
+            "attachment": "c_6"
+        },
+        {
+            "name": "c_5",
+            "bone": "c_5",
+            "attachment": "c_5"
+        },
+        {
+            "name": "c_4",
+            "bone": "c_4",
+            "attachment": "c_4"
+        },
+        {
+            "name": "c_3",
+            "bone": "c_3",
+            "attachment": "c_3"
+        },
+        {
+            "name": "c_2",
+            "bone": "c_2",
+            "attachment": "c_2"
+        },
+        {
+            "name": "c_1",
+            "bone": "c_1",
+            "attachment": "c_1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "c_1": {
+                    "c_1": {
+                        "x": -0.73,
+                        "y": -9.65,
+                        "width": 154,
+                        "height": 99
+                    }
+                },
+                "c_2": {
+                    "c_2": {
+                        "x": -4.67,
+                        "y": -8.88,
+                        "width": 102,
+                        "height": 66
+                    }
+                },
+                "c_3": {
+                    "c_3": {
+                        "x": 2.19,
+                        "y": 43.97,
+                        "width": 243,
+                        "height": 217
+                    }
+                },
+                "c_4": {
+                    "c_4": {
+                        "x": -2.54,
+                        "y": 9.27,
+                        "width": 156,
+                        "height": 125
+                    }
+                },
+                "c_5": {
+                    "c_5": {
+                        "x": -6.26,
+                        "y": -7.65,
+                        "width": 121,
+                        "height": 79
+                    }
+                },
+                "c_6": {
+                    "c_6": {
+                        "x": 1.79,
+                        "y": -7.09,
+                        "width": 76,
+                        "height": 41
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "c_1": {
+            "rootBoneName": "c_1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 15,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "c_2": {
+            "rootBoneName": "c_2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 9,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.86,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "c_4": {
+            "rootBoneName": "c_4",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 14,
+                    "moveYAmp": 14,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "c_5": {
+            "rootBoneName": "c_5",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 12,
+                    "moveYAmp": 8,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.28,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "c_3": {
+            "rootBoneName": "c_3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 20,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "c_6": {
+            "rootBoneName": "c_6",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 14,
+                    "moveYAmp": 8,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -2.31,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "skeleton": {
+        "hash": "oag6wUFwesI",
+        "spine": "4.0-from-4.1.20",
+        "x": -364.47,
+        "y": -535.52,
+        "width": 732,
+        "height": 1070
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "g1",
+            "bone": "root",
+            "attachment": "g1",
+            "blend": "additive"
+        },
+        {
+            "name": "神像",
+            "bone": "root",
+            "attachment": "神像"
+        },
+        {
+            "name": "g2",
+            "bone": "root",
+            "attachment": "g2",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "g1": {
+                    "g1": {
+                        "x": -9.47,
+                        "y": 12.98,
+                        "width": 554,
+                        "height": 837
+                    }
+                },
+                "g2": {
+                    "g2": {
+                        "x": -25.97,
+                        "y": 64.48,
+                        "width": 435,
+                        "height": 454
+                    }
+                },
+                "神像": {
+                    "神像": {
+                        "x": 1.53,
+                        "y": -0.52,
+                        "width": 732,
+                        "height": 1070
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {},
+    "extraSlot": {
+        "g1": {
+            "slotName": "g1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 3,
+                    "delay": 0,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        },
+        "g2": {
+            "slotName": "g2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.3,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

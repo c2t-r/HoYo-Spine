@@ -1,0 +1,118 @@
+{
+    "skeleton": {
+        "hash": "09ypjr9J6qQ",
+        "spine": "4.1.24",
+        "x": -83.69,
+        "y": -96.6,
+        "width": 167.83,
+        "height": 194.82
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "灯罩",
+            "parent": "root",
+            "x": 21.48,
+            "y": -87.59,
+            "scaleX": 0.5868,
+            "scaleY": 0.5868
+        },
+        {
+            "name": "灯光",
+            "parent": "灯罩",
+            "x": -52.89,
+            "y": 189.09
+        }
+    ],
+    "slots": [
+        {
+            "name": "投影",
+            "bone": "灯罩",
+            "attachment": "投影"
+        },
+        {
+            "name": "灯罩",
+            "bone": "灯罩",
+            "attachment": "灯罩"
+        },
+        {
+            "name": "灯光",
+            "bone": "灯光",
+            "attachment": "灯光"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "投影": {
+                    "投影": {
+                        "x": -11.72,
+                        "y": 4.64,
+                        "width": 123,
+                        "height": 40
+                    }
+                },
+                "灯光": {
+                    "灯光": {
+                        "x": 16.67,
+                        "y": -24.94,
+                        "width": 286,
+                        "height": 305
+                    }
+                },
+                "灯罩": {
+                    "灯罩": {
+                        "x": -34.22,
+                        "y": 131.64,
+                        "width": 216,
+                        "height": 268
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "1_stay": {},
+        "2_loop": {
+            "slots": {
+                "灯光": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffff92"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "3_act": {
+            "slots": {
+                "灯光": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffff92"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

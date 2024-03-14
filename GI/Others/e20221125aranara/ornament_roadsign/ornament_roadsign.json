@@ -1,0 +1,46 @@
+{
+    "skeleton": {
+        "hash": "QW0lyv/xJps",
+        "spine": "4.0-from-4.1.17",
+        "x": -112.65,
+        "y": -6.24,
+        "width": 251.3,
+        "height": 384.3
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "路标2",
+            "parent": "root",
+            "scaleX": 0.7,
+            "scaleY": 0.7
+        }
+    ],
+    "slots": [
+        {
+            "name": "ornament_roadsign",
+            "bone": "路标2",
+            "attachment": "ornament_roadsign"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "ornament_roadsign": {
+                    "ornament_roadsign": {
+                        "x": 18.58,
+                        "y": 265.59,
+                        "width": 359,
+                        "height": 549
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

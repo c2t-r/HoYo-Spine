@@ -1,0 +1,103 @@
+{
+    "skeleton": {
+        "hash": "mKRGdjY8S7s",
+        "spine": "4.0.33",
+        "x": -654.55,
+        "y": -773.14,
+        "width": 1400.41,
+        "height": 1235.01
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "BG_Back01",
+            "bone": "root",
+            "attachment": "BG_Back01"
+        },
+        {
+            "name": "y_6",
+            "bone": "root",
+            "attachment": "y_6"
+        },
+        {
+            "name": "y_2",
+            "bone": "root",
+            "attachment": "y_2"
+        },
+        {
+            "name": "zd_1",
+            "bone": "root",
+            "attachment": "zd_1"
+        },
+        {
+            "name": "zd_01",
+            "bone": "root",
+            "attachment": "zd_01"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "BG_Back01": {
+                    "BG_Back01": {
+                        "x": 111.18,
+                        "y": -155.63,
+                        "scaleX": 1.8082,
+                        "scaleY": 1.8082,
+                        "width": 702,
+                        "height": 683
+                    }
+                },
+                "y_2": {
+                    "y_2": {
+                        "x": 487.83,
+                        "y": -295.97,
+                        "scaleX": 0.9636,
+                        "scaleY": 0.9636,
+                        "rotation": -1.38,
+                        "width": 366,
+                        "height": 734
+                    }
+                },
+                "y_6": {
+                    "y_6": {
+                        "x": -384.77,
+                        "y": -150.13,
+                        "scaleX": 0.9367,
+                        "scaleY": 0.9367,
+                        "width": 576,
+                        "height": 834
+                    }
+                },
+                "zd_1": {
+                    "zd_1": {
+                        "x": -220.23,
+                        "y": -322.92,
+                        "scaleX": 0.9319,
+                        "scaleY": 0.9319,
+                        "width": 394,
+                        "height": 528
+                    }
+                },
+                "zd_01": {
+                    "zd_01": {
+                        "x": 399.52,
+                        "y": -369.7,
+                        "scaleX": 0.9205,
+                        "scaleY": 0.9205,
+                        "width": 276,
+                        "height": 553
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

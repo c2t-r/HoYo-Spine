@@ -1,0 +1,556 @@
+{
+    "skeleton": {
+        "hash": "qtxC2Z3Y6Mw",
+        "spine": "4.0-from-4.1.24",
+        "x": -424,
+        "y": -1300.8,
+        "width": 847,
+        "height": 2124.01
+    },
+    "bones": [
+        {
+            "name": "root",
+            "y": -1.79
+        },
+        {
+            "name": "a",
+            "parent": "root",
+            "x": -2.32,
+            "y": 507.19
+        }
+    ],
+    "slots": [
+        {
+            "name": "a",
+            "bone": "a",
+            "attachment": "a",
+            "blend": "additive"
+        },
+        {
+            "name": "b",
+            "bone": "a",
+            "attachment": "b",
+            "blend": "additive"
+        },
+        {
+            "name": "c",
+            "bone": "a",
+            "attachment": "c",
+            "blend": "additive"
+        },
+        {
+            "name": "gr",
+            "bone": "a",
+            "attachment": "gr",
+            "blend": "additive"
+        },
+        {
+            "name": "fr",
+            "bone": "a",
+            "attachment": "fr",
+            "blend": "additive"
+        },
+        {
+            "name": "er",
+            "bone": "a",
+            "attachment": "er",
+            "blend": "additive"
+        },
+        {
+            "name": "dr",
+            "bone": "a",
+            "attachment": "dr",
+            "blend": "additive"
+        },
+        {
+            "name": "cr",
+            "bone": "a",
+            "attachment": "cr",
+            "blend": "additive"
+        },
+        {
+            "name": "br",
+            "bone": "a",
+            "attachment": "br",
+            "blend": "additive"
+        },
+        {
+            "name": "br2",
+            "bone": "a",
+            "color": "ffffff64",
+            "attachment": "br",
+            "blend": "additive"
+        },
+        {
+            "name": "ar",
+            "bone": "a",
+            "attachment": "ar",
+            "blend": "additive"
+        },
+        {
+            "name": "gl",
+            "bone": "a",
+            "attachment": "gl",
+            "blend": "additive"
+        },
+        {
+            "name": "fl",
+            "bone": "a",
+            "attachment": "fl",
+            "blend": "additive"
+        },
+        {
+            "name": "el",
+            "bone": "a",
+            "attachment": "el",
+            "blend": "additive"
+        },
+        {
+            "name": "dl",
+            "bone": "a",
+            "attachment": "dl",
+            "blend": "additive"
+        },
+        {
+            "name": "cl",
+            "bone": "a",
+            "attachment": "cl",
+            "blend": "additive"
+        },
+        {
+            "name": "bl",
+            "bone": "a",
+            "attachment": "bl",
+            "blend": "additive"
+        },
+        {
+            "name": "bl2",
+            "bone": "a",
+            "color": "ffffff64",
+            "attachment": "bl",
+            "blend": "additive"
+        },
+        {
+            "name": "al",
+            "bone": "a",
+            "attachment": "al",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": 23.82,
+                        "y": -12.19,
+                        "width": 313,
+                        "height": 358
+                    }
+                },
+                "al": {
+                    "al": {
+                        "x": 320.82,
+                        "y": -924.69,
+                        "width": 209,
+                        "height": 587
+                    }
+                },
+                "ar": {
+                    "ar": {
+                        "x": -317.18,
+                        "y": -925.19,
+                        "width": 209,
+                        "height": 588
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": 0.82,
+                        "y": 164.31,
+                        "width": 331,
+                        "height": 307
+                    }
+                },
+                "bl": {
+                    "bl": {
+                        "x": 133.32,
+                        "y": -937.69,
+                        "width": 278,
+                        "height": 635
+                    }
+                },
+                "bl2": {
+                    "bl": {
+                        "x": 175.92,
+                        "y": -1488.7,
+                        "rotation": 180,
+                        "width": 278,
+                        "height": 635
+                    }
+                },
+                "br": {
+                    "br": {
+                        "x": -129.68,
+                        "y": -937.69,
+                        "width": 278,
+                        "height": 635
+                    }
+                },
+                "br2": {
+                    "br": {
+                        "x": -165.89,
+                        "y": -1486.57,
+                        "rotation": 180,
+                        "width": 278,
+                        "height": 635
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": 1.32,
+                        "y": -232.69,
+                        "width": 372,
+                        "height": 457
+                    }
+                },
+                "cl": {
+                    "cl": {
+                        "x": 214.82,
+                        "y": -704.69,
+                        "width": 125,
+                        "height": 215
+                    }
+                },
+                "cr": {
+                    "cr": {
+                        "x": -211.68,
+                        "y": -704.69,
+                        "width": 126,
+                        "height": 215
+                    }
+                },
+                "dl": {
+                    "dl": {
+                        "x": 196.82,
+                        "y": -518.69,
+                        "width": 249,
+                        "height": 315
+                    }
+                },
+                "dr": {
+                    "dr": {
+                        "x": -194.18,
+                        "y": -518.69,
+                        "width": 249,
+                        "height": 315
+                    }
+                },
+                "el": {
+                    "el": {
+                        "x": 149.32,
+                        "y": 8.81,
+                        "width": 184,
+                        "height": 266
+                    }
+                },
+                "er": {
+                    "er": {
+                        "x": -146.68,
+                        "y": 8.81,
+                        "width": 184,
+                        "height": 266
+                    }
+                },
+                "fl": {
+                    "fl": {
+                        "x": 248.82,
+                        "y": 1.81,
+                        "width": 323,
+                        "height": 380
+                    }
+                },
+                "fr": {
+                    "fr": {
+                        "x": -246.18,
+                        "y": 1.81,
+                        "width": 323,
+                        "height": 380
+                    }
+                },
+                "gl": {
+                    "gl": {
+                        "x": 175.82,
+                        "y": -203.19,
+                        "width": 145,
+                        "height": 246
+                    }
+                },
+                "gr": {
+                    "gr": {
+                        "x": -173.18,
+                        "y": -203.19,
+                        "width": 145,
+                        "height": 246
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "a": {
+            "rootBoneName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 6,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "a": {
+            "slotName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "b": {
+            "slotName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.3940199925011494,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "c": {
+            "slotName": "c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.27598228282509685,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "gr": {
+            "slotName": "gr",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.7036258689725301,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "fr": {
+            "slotName": "fr",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.6527446015845837,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "er": {
+            "slotName": "er",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.22296048919767109,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "dr": {
+            "slotName": "dr",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.03795353711624094,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "cr": {
+            "slotName": "cr",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.212806257392121,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "br": {
+            "slotName": "br",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.2087605975591984,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "ar": {
+            "slotName": "ar",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.6500932098266217,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "gl": {
+            "slotName": "gl",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.5638822972655917,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "fl": {
+            "slotName": "fl",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.5460771839911085,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "el": {
+            "slotName": "el",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.4064956596231737,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "dl": {
+            "slotName": "dl",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.8818996681503757,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "cl": {
+            "slotName": "cl",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.9692415968524619,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "bl": {
+            "slotName": "bl",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.6060208217815242,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "al": {
+            "slotName": "al",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.7711772007017568,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

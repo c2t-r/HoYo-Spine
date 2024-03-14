@@ -1,0 +1,471 @@
+{
+    "skeleton": {
+        "hash": "Nmh8oErIepE",
+        "spine": "4.1.17",
+        "x": -708.07,
+        "y": -384.4,
+        "width": 449,
+        "height": 360
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -494.92,
+            "y": -436.79
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "x": -33.12,
+            "y": 232.38
+        },
+        {
+            "name": "bone3",
+            "parent": "bone",
+            "x": -33.12,
+            "y": 232.38
+        },
+        {
+            "name": "bone4",
+            "parent": "bone",
+            "x": -33.12,
+            "y": 232.38
+        },
+        {
+            "name": "bone5",
+            "parent": "bone",
+            "x": -33.12,
+            "y": 232.38
+        },
+        {
+            "name": "bone6",
+            "parent": "bone",
+            "x": -33.12,
+            "y": 232.38
+        },
+        {
+            "name": "bone7",
+            "parent": "bone",
+            "x": -33.12,
+            "y": 232.38
+        },
+        {
+            "name": "bone8",
+            "parent": "bone",
+            "x": -33.12,
+            "y": 232.38
+        },
+        {
+            "name": "bone9",
+            "parent": "bone",
+            "x": -33.12,
+            "y": 232.38
+        }
+    ],
+    "slots": [
+        {
+            "name": "未选中圈f",
+            "bone": "bone6",
+            "attachment": "未选中圈f"
+        },
+        {
+            "name": "未选中圈h",
+            "bone": "bone7",
+            "attachment": "未选中圈h"
+        },
+        {
+            "name": "未选中圈h2",
+            "bone": "bone7",
+            "attachment": "未选中圈h2"
+        },
+        {
+            "name": "未选中圈g",
+            "bone": "bone8",
+            "attachment": "未选中圈g"
+        },
+        {
+            "name": "未选中圈g2",
+            "bone": "bone8",
+            "attachment": "未选中圈g2"
+        },
+        {
+            "name": "未选中圈c",
+            "bone": "bone4",
+            "attachment": "未选中圈c"
+        },
+        {
+            "name": "未选中圈e",
+            "bone": "bone5",
+            "attachment": "未选中圈e"
+        },
+        {
+            "name": "未选中圈e2",
+            "bone": "bone5",
+            "attachment": "未选中圈e2"
+        },
+        {
+            "name": "未选中圈b",
+            "bone": "bone3",
+            "attachment": "未选中圈b"
+        },
+        {
+            "name": "未选中圈a",
+            "bone": "bone2",
+            "attachment": "未选中圈a"
+        },
+        {
+            "name": "未选中圈a2",
+            "bone": "bone2",
+            "attachment": "未选中圈a2"
+        },
+        {
+            "name": "原石 未选中",
+            "bone": "bone",
+            "attachment": "原石 未选中"
+        },
+        {
+            "name": "白底",
+            "bone": "bone",
+            "attachment": "白底"
+        },
+        {
+            "name": "圈f",
+            "bone": "bone6",
+            "attachment": "圈f"
+        },
+        {
+            "name": "圈f2",
+            "bone": "bone6",
+            "attachment": "圈f2"
+        },
+        {
+            "name": "圈e",
+            "bone": "bone5",
+            "attachment": "圈e"
+        },
+        {
+            "name": "圈d",
+            "bone": "bone9",
+            "attachment": "圈d"
+        },
+        {
+            "name": "圈c",
+            "bone": "bone4",
+            "attachment": "圈c"
+        },
+        {
+            "name": "圈c2",
+            "bone": "bone4",
+            "attachment": "圈c2"
+        },
+        {
+            "name": "圈b",
+            "bone": "bone3",
+            "attachment": "圈b"
+        },
+        {
+            "name": "圈b2",
+            "bone": "bone3",
+            "attachment": "圈b2"
+        },
+        {
+            "name": "圈a",
+            "bone": "bone2",
+            "attachment": "圈a"
+        },
+        {
+            "name": "原石选中",
+            "bone": "bone",
+            "attachment": "原石选中"
+        },
+        {
+            "name": "原石选中2",
+            "bone": "bone",
+            "attachment": "原石选中"
+        }
+    ],
+    "skins": [
+        {
+            "name": "抽中奖_亮",
+            "attachments": {
+                "原石选中2": {
+                    "原石选中": {
+                        "x": 27.36,
+                        "y": 237.89,
+                        "width": 417,
+                        "height": 295
+                    }
+                },
+                "圈a": {
+                    "圈a": {
+                        "x": -0.02,
+                        "width": 202,
+                        "height": 202
+                    }
+                },
+                "圈b": {
+                    "圈b": {
+                        "x": -0.02,
+                        "width": 334,
+                        "height": 334
+                    }
+                },
+                "圈c": {
+                    "圈c": {
+                        "x": -0.02,
+                        "width": 360,
+                        "height": 360
+                    }
+                },
+                "圈d": {
+                    "圈d": {
+                        "x": -0.02,
+                        "width": 220,
+                        "height": 220
+                    }
+                },
+                "圈e": {
+                    "圈e": {
+                        "x": -0.02,
+                        "width": 228,
+                        "height": 228
+                    }
+                },
+                "圈f": {
+                    "圈f": {
+                        "x": 0.48,
+                        "y": -0.5,
+                        "width": 305,
+                        "height": 305
+                    }
+                },
+                "白底": {
+                    "白底": {
+                        "x": -33.14,
+                        "y": 232.39,
+                        "width": 272,
+                        "height": 272
+                    }
+                }
+            }
+        },
+        {
+            "name": "抽奖时&未抽奖_暗",
+            "attachments": {
+                "原石 未选中": {
+                    "原石 未选中": {
+                        "x": 27.36,
+                        "y": 237.89,
+                        "width": 417,
+                        "height": 295
+                    }
+                },
+                "未选中圈a": {
+                    "未选中圈a": {
+                        "x": -0.02,
+                        "width": 202,
+                        "height": 202
+                    }
+                },
+                "未选中圈b": {
+                    "未选中圈b": {
+                        "x": -0.02,
+                        "width": 334,
+                        "height": 334
+                    }
+                },
+                "未选中圈c": {
+                    "未选中圈c": {
+                        "x": -0.02,
+                        "width": 360,
+                        "height": 360
+                    }
+                },
+                "未选中圈e": {
+                    "未选中圈e": {
+                        "x": -0.02,
+                        "width": 228,
+                        "height": 228
+                    }
+                },
+                "未选中圈f": {
+                    "未选中圈f": {
+                        "x": 0.48,
+                        "y": -0.5,
+                        "width": 305,
+                        "height": 305
+                    }
+                },
+                "未选中圈g": {
+                    "未选中圈g": {
+                        "x": -0.02,
+                        "width": 252,
+                        "height": 252
+                    }
+                },
+                "未选中圈h": {
+                    "未选中圈h": {
+                        "x": -0.02,
+                        "width": 242,
+                        "height": 242
+                    }
+                }
+            }
+        },
+        {
+            "name": "抽奖时_亮",
+            "attachments": {
+                "原石选中": {
+                    "原石选中": {
+                        "x": 27.36,
+                        "y": 237.89,
+                        "width": 417,
+                        "height": 295
+                    }
+                },
+                "圈b2": {
+                    "圈b2": {
+                        "path": "圈b",
+                        "x": -0.02,
+                        "width": 334,
+                        "height": 334
+                    }
+                },
+                "圈c2": {
+                    "圈c2": {
+                        "path": "圈c",
+                        "x": -0.02,
+                        "width": 360,
+                        "height": 360
+                    }
+                },
+                "圈f2": {
+                    "圈f2": {
+                        "path": "圈f",
+                        "x": 0.48,
+                        "y": -0.5,
+                        "width": 305,
+                        "height": 305
+                    }
+                },
+                "未选中圈a2": {
+                    "未选中圈a2": {
+                        "name": "c圈a",
+                        "x": -0.02,
+                        "width": 202,
+                        "height": 202
+                    }
+                },
+                "未选中圈e2": {
+                    "未选中圈e2": {
+                        "name": "c圈e",
+                        "x": -0.02,
+                        "width": 228,
+                        "height": 228
+                    }
+                },
+                "未选中圈g2": {
+                    "未选中圈g2": {
+                        "name": "c圈g",
+                        "x": -0.02,
+                        "width": 252,
+                        "height": 252
+                    }
+                },
+                "未选中圈h2": {
+                    "未选中圈h2": {
+                        "name": "c圈h",
+                        "x": -0.02,
+                        "width": 242,
+                        "height": 242
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone2": {
+                    "rotate": [
+                        {
+                            "value": 360
+                        },
+                        {
+                            "time": 18
+                        }
+                    ]
+                },
+                "bone3": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone4": {
+                    "rotate": [
+                        {
+                            "value": 360
+                        },
+                        {
+                            "time": 18
+                        }
+                    ]
+                },
+                "bone5": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone6": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone7": {
+                    "rotate": [
+                        {
+                            "value": 360
+                        },
+                        {
+                            "time": 18
+                        }
+                    ]
+                },
+                "bone8": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone9": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

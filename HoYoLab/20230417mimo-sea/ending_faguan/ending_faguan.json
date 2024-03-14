@@ -1,0 +1,159 @@
+{
+    "skeleton": {
+        "hash": "UXklqdhYuKg",
+        "spine": "4.0-from-4.1.20",
+        "x": -356,
+        "y": -361,
+        "width": 712,
+        "height": 722
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "fg_wiggle",
+            "parent": "bone"
+        }
+    ],
+    "slots": [
+        {
+            "name": "ending_faguan",
+            "bone": "fg_wiggle",
+            "attachment": "ending_faguan"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "ending_faguan": {
+                    "ending_faguan": {
+                        "width": 712,
+                        "height": 722
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "ending_faguan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.085,
+                                0.1,
+                                0.182,
+                                1.282,
+                                0.085,
+                                0.1,
+                                0.182,
+                                1.282
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 1.282,
+                            "y": 1.282,
+                            "curve": [
+                                0.422,
+                                1.282,
+                                0.578,
+                                1,
+                                0.422,
+                                1.282,
+                                0.578,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7333
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {},
+        "out": {
+            "slots": {
+                "ending_faguan": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.111,
+                                1,
+                                0.222,
+                                2,
+                                0.111,
+                                1,
+                                0.222,
+                                2
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 2,
+                            "y": 2
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "fg_wiggle": {
+            "rootBoneName": "fg_wiggle",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.08,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": 0.03
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

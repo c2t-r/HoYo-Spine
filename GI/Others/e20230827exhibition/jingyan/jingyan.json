@@ -1,0 +1,391 @@
+{
+    "skeleton": {
+        "hash": "C97iXbos7ig",
+        "spine": "4.1.17",
+        "x": 445.11,
+        "y": 40.59,
+        "width": 250,
+        "height": 249
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 602.31,
+            "y": -68.97
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "x": -32.18,
+            "y": 233.6
+        },
+        {
+            "name": "bone3",
+            "parent": "bone",
+            "x": -32.18,
+            "y": 233.6
+        },
+        {
+            "name": "bone4",
+            "parent": "bone",
+            "x": -32.18,
+            "y": 233.6
+        },
+        {
+            "name": "bone5",
+            "parent": "bone",
+            "x": -32.18,
+            "y": 233.6
+        },
+        {
+            "name": "bone6",
+            "parent": "bone",
+            "x": -32.18,
+            "y": 233.6
+        },
+        {
+            "name": "bone7",
+            "parent": "bone",
+            "x": -32.18,
+            "y": 233.6
+        }
+    ],
+    "slots": [
+        {
+            "name": "未选中圈e",
+            "bone": "bone6",
+            "attachment": "未选中圈e"
+        },
+        {
+            "name": "未选中圈d",
+            "bone": "bone5",
+            "attachment": "未选中圈d"
+        },
+        {
+            "name": "未选中圈c",
+            "bone": "bone4",
+            "attachment": "未选中圈c"
+        },
+        {
+            "name": "未选中圈b",
+            "bone": "bone3",
+            "attachment": "未选中圈b"
+        },
+        {
+            "name": "未选中圈a",
+            "bone": "bone2",
+            "attachment": "未选中圈a"
+        },
+        {
+            "name": "经验未选中",
+            "bone": "bone",
+            "attachment": "经验未选中"
+        },
+        {
+            "name": "选中白底",
+            "bone": "bone",
+            "attachment": "选中白底"
+        },
+        {
+            "name": "圈e",
+            "bone": "bone6",
+            "attachment": "圈e"
+        },
+        {
+            "name": "圈e2",
+            "bone": "bone6",
+            "attachment": "圈e2"
+        },
+        {
+            "name": "圈d",
+            "bone": "bone5",
+            "attachment": "圈d"
+        },
+        {
+            "name": "圈d2",
+            "bone": "bone5",
+            "attachment": "圈d2"
+        },
+        {
+            "name": "圈c",
+            "bone": "bone4",
+            "attachment": "圈c"
+        },
+        {
+            "name": "圈c2",
+            "bone": "bone4",
+            "attachment": "圈c2"
+        },
+        {
+            "name": "圈b",
+            "bone": "bone3",
+            "attachment": "圈b"
+        },
+        {
+            "name": "圈b2",
+            "bone": "bone3",
+            "attachment": "圈b2"
+        },
+        {
+            "name": "圈a",
+            "bone": "bone2",
+            "attachment": "圈a"
+        },
+        {
+            "name": "圈a2",
+            "bone": "bone2",
+            "attachment": "圈a2"
+        },
+        {
+            "name": "经验选中",
+            "bone": "bone",
+            "attachment": "经验选中"
+        },
+        {
+            "name": "经验选中2",
+            "bone": "bone",
+            "attachment": "经验选中"
+        }
+    ],
+    "skins": [
+        {
+            "name": "抽中奖_亮",
+            "attachments": {
+                "圈a": {
+                    "圈a": {
+                        "x": -0.02,
+                        "y": 0.46,
+                        "width": 164,
+                        "height": 163
+                    }
+                },
+                "圈b": {
+                    "圈b": {
+                        "x": -0.02,
+                        "y": 0.46,
+                        "width": 192,
+                        "height": 191
+                    }
+                },
+                "圈c": {
+                    "圈c": {
+                        "x": -0.02,
+                        "y": 0.46,
+                        "width": 218,
+                        "height": 217
+                    }
+                },
+                "圈d": {
+                    "圈d": {
+                        "x": -0.02,
+                        "y": 0.46,
+                        "width": 250,
+                        "height": 249
+                    }
+                },
+                "圈e": {
+                    "圈e": {
+                        "x": -0.02,
+                        "y": 0.46,
+                        "width": 236,
+                        "height": 237
+                    }
+                },
+                "经验选中2": {
+                    "经验选中": {
+                        "x": -34.7,
+                        "y": 227.56,
+                        "width": 189,
+                        "height": 236
+                    }
+                },
+                "选中白底": {
+                    "选中白底": {
+                        "x": -32.2,
+                        "y": 234.06,
+                        "width": 174,
+                        "height": 175
+                    }
+                }
+            }
+        },
+        {
+            "name": "抽奖时&未抽奖_暗",
+            "attachments": {
+                "未选中圈a": {
+                    "未选中圈a": {
+                        "x": -0.02,
+                        "y": -0.04,
+                        "width": 164,
+                        "height": 164
+                    }
+                },
+                "未选中圈b": {
+                    "未选中圈b": {
+                        "x": -0.02,
+                        "y": -0.04,
+                        "width": 192,
+                        "height": 192
+                    }
+                },
+                "未选中圈c": {
+                    "未选中圈c": {
+                        "x": -0.02,
+                        "y": -0.04,
+                        "width": 218,
+                        "height": 218
+                    }
+                },
+                "未选中圈d": {
+                    "未选中圈d": {
+                        "x": -0.02,
+                        "y": -0.04,
+                        "width": 250,
+                        "height": 250
+                    }
+                },
+                "未选中圈e": {
+                    "未选中圈e": {
+                        "x": -0.02,
+                        "y": -0.04,
+                        "width": 236,
+                        "height": 236
+                    }
+                },
+                "经验未选中": {
+                    "经验未选中": {
+                        "x": -34.7,
+                        "y": 227.56,
+                        "width": 189,
+                        "height": 236
+                    }
+                }
+            }
+        },
+        {
+            "name": "抽奖时_亮",
+            "attachments": {
+                "圈a2": {
+                    "圈a2": {
+                        "path": "圈a",
+                        "x": -0.02,
+                        "y": 0.46,
+                        "width": 164,
+                        "height": 163
+                    }
+                },
+                "圈b2": {
+                    "圈b2": {
+                        "path": "圈b",
+                        "x": -0.02,
+                        "y": 0.46,
+                        "width": 192,
+                        "height": 191
+                    }
+                },
+                "圈c2": {
+                    "圈c2": {
+                        "path": "圈c",
+                        "x": -0.02,
+                        "y": 0.46,
+                        "width": 218,
+                        "height": 217
+                    }
+                },
+                "圈d2": {
+                    "圈d2": {
+                        "path": "圈d",
+                        "x": -0.02,
+                        "y": 0.46,
+                        "width": 250,
+                        "height": 249
+                    }
+                },
+                "圈e2": {
+                    "圈e2": {
+                        "path": "圈e",
+                        "x": -0.02,
+                        "y": 0.46,
+                        "width": 236,
+                        "height": 237
+                    }
+                },
+                "经验选中": {
+                    "经验选中": {
+                        "x": -34.7,
+                        "y": 227.56,
+                        "width": 189,
+                        "height": 236
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone2": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone3": {
+                    "rotate": [
+                        {
+                            "value": 360
+                        },
+                        {
+                            "time": 18
+                        }
+                    ]
+                },
+                "bone4": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone5": {
+                    "rotate": [
+                        {
+                            "value": 360
+                        },
+                        {
+                            "time": 18
+                        }
+                    ]
+                },
+                "bone6": {
+                    "rotate": [
+                        {
+                            "value": 360
+                        },
+                        {
+                            "time": 18
+                        }
+                    ]
+                },
+                "bone7": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

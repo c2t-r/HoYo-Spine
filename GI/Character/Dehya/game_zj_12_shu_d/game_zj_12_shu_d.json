@@ -1,0 +1,40 @@
+{
+    "skeleton": {
+        "hash": "04gYALGqgFA",
+        "spine": "4.0-from-4.1.19",
+        "x": -716,
+        "y": -550,
+        "width": 1433,
+        "height": 1101
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "game_zj_12_cao_f",
+            "bone": "root",
+            "attachment": "game_zj_12_shu_d"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "game_zj_12_cao_f": {
+                    "game_zj_12_shu_d": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 1433,
+                        "height": 1101
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "skeleton": {
+        "hash": "I4jaMWH0JM0",
+        "spine": "4.1.17",
+        "x": -1267.97,
+        "y": -738.24,
+        "width": 293,
+        "height": 564
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 138.09,
+            "y": -551.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "瓶子",
+            "bone": "bone",
+            "attachment": "瓶子"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "瓶子": {
+                    "瓶子": {
+                        "x": -1259.56,
+                        "y": 95.26,
+                        "width": 293,
+                        "height": 564
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

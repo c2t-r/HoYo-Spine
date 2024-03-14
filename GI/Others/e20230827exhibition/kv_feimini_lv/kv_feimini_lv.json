@@ -1,0 +1,3773 @@
+{
+    "skeleton": {
+        "hash": "LtapywOk11o",
+        "spine": "4.1.17",
+        "x": -175.01,
+        "y": -552.62,
+        "width": 507.78,
+        "height": 803.4
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 124,
+            "y": -554.87,
+            "scaleX": 0.26,
+            "scaleY": 0.26
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "x": -43.7,
+            "y": 1794.76
+        },
+        {
+            "name": "bone3",
+            "parent": "bone2",
+            "length": 156.59,
+            "rotation": -15.31,
+            "x": -4.65,
+            "y": 2.43
+        },
+        {
+            "name": "bone4",
+            "parent": "bone3",
+            "length": 729.64,
+            "rotation": -82.21,
+            "x": 156.59
+        },
+        {
+            "name": "bone5",
+            "parent": "bone4",
+            "length": 761.93,
+            "rotation": 11.44,
+            "x": 730.08,
+            "y": -0.12
+        },
+        {
+            "name": "bone46",
+            "parent": "bone",
+            "rotation": -86.08,
+            "x": 59.27,
+            "y": 271.92
+        },
+        {
+            "name": "bone6",
+            "parent": "bone46",
+            "length": 154.42,
+            "rotation": -31.04,
+            "x": 0.3,
+            "y": -0.13
+        },
+        {
+            "name": "bone7",
+            "parent": "bone",
+            "length": 136.97,
+            "rotation": -147.1,
+            "x": -11.21,
+            "y": 134.15
+        },
+        {
+            "name": "bone8",
+            "parent": "bone2",
+            "length": 124.49,
+            "rotation": -168.69,
+            "x": 0.93,
+            "y": -0.29
+        },
+        {
+            "name": "bone9",
+            "parent": "bone8",
+            "length": 694.42,
+            "rotation": 69.79,
+            "x": 124.49
+        },
+        {
+            "name": "bone10",
+            "parent": "bone9",
+            "length": 614.88,
+            "rotation": 28.09,
+            "x": 694.42
+        },
+        {
+            "name": "bone50",
+            "parent": "bone",
+            "rotation": -70.81,
+            "x": -70.18,
+            "y": 503.29
+        },
+        {
+            "name": "bone11",
+            "parent": "bone50",
+            "length": 150.17,
+            "rotation": -29.61,
+            "x": -0.73,
+            "y": 0.2
+        },
+        {
+            "name": "bone12",
+            "parent": "bone",
+            "length": 114.08,
+            "rotation": -112.51,
+            "x": -97.62,
+            "y": 359.93
+        },
+        {
+            "name": "bone13",
+            "parent": "bone2",
+            "length": 169.08,
+            "rotation": 100.41,
+            "x": -2.21,
+            "y": -0.49
+        },
+        {
+            "name": "bone14",
+            "parent": "bone13",
+            "length": 229.19,
+            "rotation": -12.1,
+            "x": 169.08
+        },
+        {
+            "name": "bone15",
+            "parent": "bone14",
+            "length": 280.33,
+            "rotation": -22.23,
+            "x": 229.19
+        },
+        {
+            "name": "bone16",
+            "parent": "bone15",
+            "length": 117.72,
+            "rotation": 125.76,
+            "x": 245.68,
+            "y": 37.13
+        },
+        {
+            "name": "bone17",
+            "parent": "bone15",
+            "length": 255.27,
+            "rotation": -67.17,
+            "x": 250.53,
+            "y": 26.68
+        },
+        {
+            "name": "bone18",
+            "parent": "bone17",
+            "length": 386.18,
+            "rotation": -80.96,
+            "x": 240.68,
+            "y": 1.8
+        },
+        {
+            "name": "bone19",
+            "parent": "bone18",
+            "length": 360.21,
+            "rotation": -167.72,
+            "x": 386.18
+        },
+        {
+            "name": "bone20",
+            "parent": "bone19",
+            "length": 102.09,
+            "rotation": -4.7,
+            "x": 385.72,
+            "y": 2.21
+        },
+        {
+            "name": "bone21",
+            "parent": "bone20",
+            "length": 79.28,
+            "rotation": 59.29,
+            "x": 102.09
+        },
+        {
+            "name": "bone22",
+            "parent": "bone16",
+            "length": 370.56,
+            "rotation": 61.95,
+            "x": 118.29,
+            "y": 0.42
+        },
+        {
+            "name": "bone23",
+            "parent": "bone22",
+            "length": 205.5,
+            "rotation": -93.73,
+            "x": 350.16,
+            "y": 10.87
+        },
+        {
+            "name": "bone24",
+            "parent": "bone23",
+            "length": 214.97,
+            "rotation": -47.75,
+            "x": 205.5
+        },
+        {
+            "name": "guanzihou",
+            "parent": "bone14",
+            "rotation": 0.4,
+            "x": -10.61,
+            "y": -269.35
+        },
+        {
+            "name": "bone25",
+            "parent": "bone",
+            "length": 771.31,
+            "rotation": 90.73,
+            "x": -542.2,
+            "y": 2448.99
+        },
+        {
+            "name": "bone26",
+            "parent": "bone15",
+            "length": 134.34,
+            "rotation": 25.25,
+            "x": 305.47,
+            "y": -42.36
+        },
+        {
+            "name": "bone27",
+            "parent": "bone26",
+            "x": 134.34
+        },
+        {
+            "name": "bone28",
+            "parent": "bone27",
+            "length": 389.5,
+            "rotation": 0.15,
+            "x": 83.5,
+            "y": 311.4
+        },
+        {
+            "name": "bone29",
+            "parent": "bone27",
+            "length": 312.79,
+            "rotation": 179.14,
+            "x": 431.66,
+            "y": -310.41
+        },
+        {
+            "name": "bone30",
+            "parent": "bone",
+            "length": 681.7,
+            "rotation": -89.35,
+            "x": 563.89,
+            "y": 3138.53
+        },
+        {
+            "name": "帽子",
+            "parent": "bone27",
+            "length": 238.95,
+            "rotation": 57.91,
+            "x": 209.24,
+            "y": -128.32
+        },
+        {
+            "name": "帽子2",
+            "parent": "帽子",
+            "length": 97.16,
+            "rotation": 126.83,
+            "x": 226.97,
+            "y": 58.21
+        },
+        {
+            "name": "帽子3",
+            "parent": "帽子2",
+            "length": 74.95,
+            "rotation": 5.12,
+            "x": 97.16
+        },
+        {
+            "name": "帽子4",
+            "parent": "帽子3",
+            "length": 45.45,
+            "rotation": 5.21,
+            "x": 74.95
+        },
+        {
+            "name": "帽子5",
+            "parent": "帽子",
+            "length": 98.79,
+            "rotation": 132.08,
+            "x": 59.04,
+            "y": 9.58
+        },
+        {
+            "name": "帽子6",
+            "parent": "帽子5",
+            "length": 92.26,
+            "rotation": -21.96,
+            "x": 98.79
+        },
+        {
+            "name": "帽子7",
+            "parent": "帽子6",
+            "length": 68.52,
+            "rotation": -35.73,
+            "x": 92.26
+        },
+        {
+            "name": "帽子8",
+            "parent": "帽子",
+            "length": 91.35,
+            "rotation": 96.86,
+            "x": 271.58,
+            "y": 103.77
+        },
+        {
+            "name": "帽子9",
+            "parent": "帽子8",
+            "length": 86.16,
+            "rotation": 26.2,
+            "x": 85.93,
+            "y": -0.52
+        },
+        {
+            "name": "帽子10",
+            "parent": "帽子9",
+            "length": 93.95,
+            "rotation": 24.98,
+            "x": 86.16
+        },
+        {
+            "name": "帽子11",
+            "parent": "帽子",
+            "length": 102.54,
+            "rotation": 105.06,
+            "x": 256.97,
+            "y": 139.95
+        },
+        {
+            "name": "帽子12",
+            "parent": "帽子11",
+            "length": 109.3,
+            "rotation": 11.39,
+            "x": 102.54
+        },
+        {
+            "name": "帽子13",
+            "parent": "帽子12",
+            "length": 76.07,
+            "rotation": 13.65,
+            "x": 110.4,
+            "y": -0.95
+        },
+        {
+            "name": "帽子14",
+            "parent": "帽子13",
+            "length": 62.46,
+            "rotation": 23.57,
+            "x": 76.07
+        },
+        {
+            "name": "帽子15",
+            "parent": "帽子",
+            "length": 104.05,
+            "rotation": 137.37,
+            "x": 19.03,
+            "y": 2.94
+        },
+        {
+            "name": "帽子16",
+            "parent": "帽子15",
+            "length": 100.96,
+            "rotation": -12.24,
+            "x": 104.32,
+            "y": 0.92
+        },
+        {
+            "name": "帽子17",
+            "parent": "帽子16",
+            "length": 70,
+            "rotation": -17.82,
+            "x": 100.96
+        },
+        {
+            "name": "帽子18",
+            "parent": "帽子17",
+            "length": 65.08,
+            "rotation": -31.53,
+            "x": 70
+        },
+        {
+            "name": "帽子19",
+            "parent": "帽子15",
+            "length": 75.81,
+            "rotation": 5.78,
+            "x": 99.25,
+            "y": 36.3
+        },
+        {
+            "name": "帽子20",
+            "parent": "帽子19",
+            "length": 47.27,
+            "rotation": -34.55,
+            "x": 77.03,
+            "y": 0.93
+        },
+        {
+            "name": "小辫子",
+            "parent": "帽子",
+            "length": 78.48,
+            "rotation": 132.4,
+            "x": -24.38,
+            "y": -47.2
+        },
+        {
+            "name": "小辫子2",
+            "parent": "小辫子",
+            "length": 81.67,
+            "rotation": -6.87,
+            "x": 78.48
+        },
+        {
+            "name": "小辫子3",
+            "parent": "小辫子2",
+            "length": 68.95,
+            "rotation": 5.63,
+            "x": 81.67
+        },
+        {
+            "name": "小辫子4",
+            "parent": "小辫子3",
+            "length": 61.17,
+            "rotation": 17.12,
+            "x": 68.95
+        },
+        {
+            "name": "帽子21",
+            "parent": "帽子",
+            "length": 81.12,
+            "rotation": 116.68,
+            "x": 231.38,
+            "y": 176.42
+        },
+        {
+            "name": "帽子22",
+            "parent": "帽子21",
+            "length": 89.56,
+            "rotation": 9.38,
+            "x": 81.12
+        },
+        {
+            "name": "帽子23",
+            "parent": "帽子22",
+            "length": 74.27,
+            "rotation": 23.27,
+            "x": 89.56
+        },
+        {
+            "name": "帽子24",
+            "parent": "帽子",
+            "length": 75.59,
+            "rotation": 121.93,
+            "x": -7.72,
+            "y": 57.08
+        },
+        {
+            "name": "帽子25",
+            "parent": "帽子24",
+            "length": 70.96,
+            "rotation": -12.95,
+            "x": 75.59
+        },
+        {
+            "name": "帽子26",
+            "parent": "帽子25",
+            "length": 41.15,
+            "rotation": -28.69,
+            "x": 70.96
+        },
+        {
+            "name": "帽子27",
+            "parent": "帽子26",
+            "length": 38.15,
+            "rotation": -29.63,
+            "x": 38.18,
+            "y": 3.48
+        },
+        {
+            "name": "bone31",
+            "parent": "bone14",
+            "length": 132.72,
+            "rotation": 179.18,
+            "x": 123.4,
+            "y": 14.76
+        },
+        {
+            "name": "bone32",
+            "parent": "bone31",
+            "length": 136,
+            "rotation": -2.4,
+            "x": 132.72
+        },
+        {
+            "name": "bone33",
+            "parent": "bone32",
+            "length": 119.77,
+            "rotation": -4.89,
+            "x": 136
+        },
+        {
+            "name": "bone34",
+            "parent": "bone14",
+            "length": 136.93,
+            "rotation": 163.64,
+            "x": 80.18,
+            "y": 132.79
+        },
+        {
+            "name": "bone35",
+            "parent": "bone34",
+            "length": 143.82,
+            "rotation": -5.73,
+            "x": 136.93
+        },
+        {
+            "name": "bone36",
+            "parent": "bone35",
+            "length": 127.19,
+            "rotation": -8.48,
+            "x": 143.82
+        },
+        {
+            "name": "bone37",
+            "parent": "bone14",
+            "length": 118.56,
+            "rotation": -165.94,
+            "x": 109.02,
+            "y": -265.68
+        },
+        {
+            "name": "bone38",
+            "parent": "bone37",
+            "length": 139.36,
+            "rotation": 10.41,
+            "x": 118.56
+        },
+        {
+            "name": "bone39",
+            "parent": "bone38",
+            "length": 172.58,
+            "rotation": 6.39,
+            "x": 139.36
+        },
+        {
+            "name": "bone40",
+            "parent": "bone14",
+            "length": 139.25,
+            "rotation": -178.98,
+            "x": 7.54,
+            "y": -74.51
+        },
+        {
+            "name": "bone41",
+            "parent": "bone40",
+            "length": 154.01,
+            "rotation": 1.89,
+            "x": 139.25
+        },
+        {
+            "name": "bone42",
+            "parent": "bone41",
+            "length": 159.43,
+            "rotation": 3.5,
+            "x": 154.01
+        },
+        {
+            "name": "kouzi",
+            "parent": "guanzihou",
+            "length": 42.18,
+            "rotation": 178.2,
+            "x": -77.93,
+            "y": -151.12
+        },
+        {
+            "name": "kouzi2",
+            "parent": "kouzi",
+            "length": 143.45,
+            "rotation": 2.64,
+            "x": 42.18
+        },
+        {
+            "name": "带子",
+            "parent": "bone41",
+            "length": 111.63,
+            "rotation": 9.16,
+            "x": 92.97,
+            "y": 83.5
+        },
+        {
+            "name": "带子2",
+            "parent": "带子",
+            "length": 149.34,
+            "rotation": 10.87,
+            "x": 111.63
+        },
+        {
+            "name": "L上睫毛",
+            "parent": "bone27",
+            "x": 63.59,
+            "y": 64.19
+        },
+        {
+            "name": "L上睫毛2",
+            "parent": "L上睫毛",
+            "x": 15.57,
+            "y": 10.04
+        },
+        {
+            "name": "L上睫毛3",
+            "parent": "L上睫毛",
+            "x": 16.13,
+            "y": 20.87
+        },
+        {
+            "name": "L上睫毛4",
+            "parent": "L上睫毛",
+            "x": 15.93,
+            "y": -1.77
+        },
+        {
+            "name": "L上睫毛5",
+            "parent": "L上睫毛",
+            "x": 21.14,
+            "y": 54.78
+        },
+        {
+            "name": "L上睫毛6",
+            "parent": "L上睫毛",
+            "x": 15.42,
+            "y": 53.86
+        },
+        {
+            "name": "L上睫毛7",
+            "parent": "L上睫毛",
+            "x": 24.53,
+            "y": -64.07
+        },
+        {
+            "name": "L上睫毛8",
+            "parent": "L上睫毛",
+            "x": 17.93,
+            "y": -65.56
+        },
+        {
+            "name": "L高光",
+            "parent": "L上睫毛5",
+            "x": -0.7,
+            "y": 16.91
+        },
+        {
+            "name": "R高光",
+            "parent": "L上睫毛7",
+            "x": -2.78,
+            "y": 12.43
+        },
+        {
+            "name": "L上睫毛9a",
+            "parent": "L上睫毛",
+            "length": 14.78,
+            "rotation": 88.87,
+            "x": 37.21,
+            "y": 4.44
+        },
+        {
+            "name": "L上睫毛9b",
+            "parent": "L上睫毛",
+            "length": 14.78,
+            "rotation": 88.87,
+            "x": 37.5,
+            "y": 19.22
+        },
+        {
+            "name": "L上睫毛9c",
+            "parent": "L上睫毛",
+            "length": 14.78,
+            "rotation": 88.87,
+            "x": 37.79,
+            "y": 33.99
+        },
+        {
+            "name": "L上睫毛9d",
+            "parent": "L上睫毛",
+            "length": 14.78,
+            "rotation": 88.87,
+            "x": 38.08,
+            "y": 48.76
+        },
+        {
+            "name": "L上睫毛9e",
+            "parent": "L上睫毛",
+            "length": 14.78,
+            "rotation": 88.87,
+            "x": 38.37,
+            "y": 63.54
+        },
+        {
+            "name": "L上睫毛9f",
+            "parent": "L上睫毛",
+            "length": 14.78,
+            "rotation": 88.87,
+            "x": 38.66,
+            "y": 78.31
+        },
+        {
+            "name": "L上睫毛9g",
+            "parent": "L上睫毛",
+            "length": 14.78,
+            "rotation": 88.87,
+            "x": 38.95,
+            "y": 93.08
+        },
+        {
+            "name": "L上睫毛9h",
+            "parent": "L上睫毛",
+            "length": 14.78,
+            "rotation": 88.87,
+            "x": 39.24,
+            "y": 107.86
+        },
+        {
+            "name": "L上睫毛9i",
+            "parent": "L上睫毛",
+            "length": 14.78,
+            "rotation": 88.87,
+            "x": 39.54,
+            "y": 122.63
+        },
+        {
+            "name": "L上睫毛9j",
+            "parent": "L上睫毛",
+            "length": 14.78,
+            "rotation": 88.87,
+            "x": 39.83,
+            "y": 137.4
+        },
+        {
+            "name": "L上睫毛9k",
+            "parent": "L上睫毛",
+            "length": 14.78,
+            "rotation": 88.87,
+            "x": 40.12,
+            "y": 152.18
+        },
+        {
+            "name": "L上睫毛9",
+            "parent": "L上睫毛",
+            "length": 13.49,
+            "rotation": -89.44,
+            "x": 42.16,
+            "y": -9.68
+        },
+        {
+            "name": "L上睫毛9l",
+            "parent": "L上睫毛",
+            "length": 13.49,
+            "rotation": -89.44,
+            "x": 42.29,
+            "y": -23.17
+        },
+        {
+            "name": "L上睫毛9m",
+            "parent": "L上睫毛",
+            "length": 13.49,
+            "rotation": -89.44,
+            "x": 42.43,
+            "y": -36.66
+        },
+        {
+            "name": "L上睫毛9n",
+            "parent": "L上睫毛",
+            "length": 13.49,
+            "rotation": -89.44,
+            "x": 42.56,
+            "y": -50.15
+        },
+        {
+            "name": "L上睫毛9o",
+            "parent": "L上睫毛",
+            "length": 13.49,
+            "rotation": -89.44,
+            "x": 42.69,
+            "y": -63.64
+        },
+        {
+            "name": "L上睫毛9p",
+            "parent": "L上睫毛",
+            "length": 13.49,
+            "rotation": -89.44,
+            "x": 42.82,
+            "y": -77.14
+        },
+        {
+            "name": "L上睫毛9q",
+            "parent": "L上睫毛",
+            "length": 13.49,
+            "rotation": -89.44,
+            "x": 42.95,
+            "y": -90.63
+        },
+        {
+            "name": "L上睫毛9r",
+            "parent": "L上睫毛",
+            "length": 13.49,
+            "rotation": -89.44,
+            "x": 43.08,
+            "y": -104.12
+        },
+        {
+            "name": "L上睫毛9s",
+            "parent": "L上睫毛",
+            "length": 13.49,
+            "rotation": -89.44,
+            "x": 43.21,
+            "y": -117.61
+        },
+        {
+            "name": "L上睫毛9t",
+            "parent": "L上睫毛",
+            "length": 13.49,
+            "rotation": -89.44,
+            "x": 43.35,
+            "y": -131.11
+        },
+        {
+            "name": "L上睫毛9u",
+            "parent": "L上睫毛",
+            "length": 13.49,
+            "rotation": -89.44,
+            "x": 43.48,
+            "y": -144.6
+        },
+        {
+            "name": "L上睫毛10",
+            "parent": "L上睫毛",
+            "x": 9.58,
+            "y": 2.94
+        },
+        {
+            "name": "bone43",
+            "parent": "bone3",
+            "length": 816.42,
+            "rotation": -114.69,
+            "x": 153.04,
+            "y": -4.18
+        },
+        {
+            "name": "bone44",
+            "parent": "bone43",
+            "length": 982.37,
+            "rotation": 69.59,
+            "x": 816.42
+        },
+        {
+            "name": "bone45",
+            "parent": "bone",
+            "rotation": -97.51,
+            "x": 7.3,
+            "y": 1032.48
+        },
+        {
+            "name": "bone47",
+            "parent": "bone8",
+            "length": 922.75,
+            "rotation": 43.06,
+            "x": 120.32,
+            "y": -5.24
+        },
+        {
+            "name": "bone48",
+            "parent": "bone47",
+            "length": 815.55,
+            "rotation": 85.85,
+            "x": 922.75
+        },
+        {
+            "name": "bone49",
+            "parent": "bone",
+            "rotation": -98.9,
+            "x": -272.27,
+            "y": 1084.01
+        },
+        {
+            "name": "bone51",
+            "parent": "bone14",
+            "x": 230.72,
+            "y": 13.87
+        },
+        {
+            "name": "target",
+            "parent": "bone27",
+            "rotation": -91.32,
+            "x": 37.33,
+            "y": -12.47
+        }
+    ],
+    "slots": [
+        {
+            "name": "菲米尼影子",
+            "bone": "bone",
+            "attachment": "菲米尼影子",
+            "blend": "multiply"
+        },
+        {
+            "name": "角色场景区分lv_菲米尼",
+            "bone": "bone",
+            "attachment": "角色场景区分lv_菲米尼",
+            "blend": "screen"
+        },
+        {
+            "name": "角色场景区分_菲米尼",
+            "bone": "bone",
+            "attachment": "角色场景区分_菲米尼"
+        }
+    ],
+    "ik": [
+        {
+            "name": "bone7",
+            "order": 6,
+            "bones": [
+                "bone6"
+            ],
+            "target": "bone7"
+        },
+        {
+            "name": "bone12",
+            "order": 35,
+            "bones": [
+                "bone11"
+            ],
+            "target": "bone12",
+            "compress": true
+        },
+        {
+            "name": "bone45",
+            "order": 4,
+            "bones": [
+                "bone4"
+            ],
+            "target": "bone45",
+            "compress": true
+        },
+        {
+            "name": "bone46",
+            "order": 31,
+            "bones": [
+                "bone43",
+                "bone44"
+            ],
+            "target": "bone46"
+        },
+        {
+            "name": "bone49",
+            "order": 30,
+            "bones": [
+                "bone9"
+            ],
+            "target": "bone49",
+            "compress": true
+        },
+        {
+            "name": "bone50",
+            "order": 32,
+            "bones": [
+                "bone10"
+            ],
+            "target": "bone50",
+            "compress": true,
+            "stretch": true
+        },
+        {
+            "name": "bone462",
+            "order": 5,
+            "bones": [
+                "bone5"
+            ],
+            "target": "bone46",
+            "compress": true
+        },
+        {
+            "name": "bone502",
+            "order": 33,
+            "bones": [
+                "bone47",
+                "bone48"
+            ],
+            "target": "bone50",
+            "stretch": true
+        },
+        {
+            "name": "target",
+            "order": 9,
+            "bones": [
+                "bone19",
+                "bone20"
+            ],
+            "target": "target",
+            "softness": 127.72,
+            "bendPositive": false,
+            "stretch": true
+        }
+    ],
+    "transform": [
+        {
+            "name": "1",
+            "order": 25,
+            "bones": [
+                "guanzihou"
+            ],
+            "target": "bone25",
+            "rotation": -2.03,
+            "x": -516.3,
+            "y": -728.16,
+            "mixRotate": 0,
+            "mixX": -0.07,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "bone24",
+            "order": 28,
+            "bones": [
+                "L上睫毛10"
+            ],
+            "target": "bone24",
+            "rotation": -20.98,
+            "x": 323.29,
+            "y": -587.83,
+            "mixRotate": 0.5,
+            "mixX": 0.5,
+            "mixScaleX": 0.5,
+            "mixShearY": 0.5
+        },
+        {
+            "name": "bone25",
+            "order": 21,
+            "bones": [
+                "bone31"
+            ],
+            "target": "bone25",
+            "rotation": 176.75,
+            "x": -370.39,
+            "y": -449.97,
+            "mixRotate": 0,
+            "mixX": 0.05,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "bone28",
+            "order": 27,
+            "bones": [
+                "小辫子"
+            ],
+            "target": "bone28",
+            "rotation": -169.84,
+            "x": 151.53,
+            "y": -485.84,
+            "mixRotate": 0,
+            "mixX": -0.13,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "bone45",
+            "order": 1,
+            "bones": [
+                "bone46"
+            ],
+            "target": "bone45",
+            "rotation": 11.51,
+            "x": 747.04,
+            "y": 152.84,
+            "mixRotate": 0,
+            "mixX": 0.3,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "bone47",
+            "order": 2,
+            "bones": [
+                "bone49"
+            ],
+            "target": "bone47",
+            "rotation": 26.58,
+            "x": 627.64,
+            "y": 311.68,
+            "mixRotate": 0.5545,
+            "mixX": 0.5545,
+            "mixScaleX": 0.5545,
+            "mixShearY": 0.5545
+        },
+        {
+            "name": "bone49",
+            "order": 34,
+            "bones": [
+                "bone50"
+            ],
+            "target": "bone49",
+            "rotation": 28.12,
+            "x": 542.29,
+            "y": 290.25,
+            "mixRotate": 0,
+            "mixX": -0.5,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "bone252",
+            "order": 22,
+            "bones": [
+                "bone40"
+            ],
+            "target": "bone25",
+            "rotation": 178.6,
+            "x": -489.92,
+            "y": -534.26,
+            "mixRotate": 0,
+            "mixX": -0.04,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "bone253",
+            "order": 23,
+            "bones": [
+                "bone37"
+            ],
+            "target": "bone25",
+            "rotation": -168.37,
+            "x": -396.62,
+            "y": -729.55,
+            "mixRotate": 0,
+            "mixX": -0.01,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "bone254",
+            "order": 24,
+            "bones": [
+                "bone34"
+            ],
+            "target": "bone25",
+            "rotation": 161.21,
+            "x": -408.57,
+            "y": -330.21,
+            "mixRotate": 0,
+            "mixX": 0.01,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "bone287",
+            "bones": [
+                "L上睫毛10"
+            ],
+            "target": "bone28",
+            "rotation": -0.15,
+            "x": -10.96,
+            "y": -244.24,
+            "mixRotate": 0,
+            "mixX": 0.15,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "eb",
+            "order": 10,
+            "bones": [
+                "L上睫毛10"
+            ],
+            "target": "L上睫毛2",
+            "x": -5.99,
+            "y": -7.1,
+            "mixRotate": 0,
+            "mixX": 0.4,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "ed",
+            "order": 12,
+            "bones": [
+                "L上睫毛5"
+            ],
+            "target": "L上睫毛10",
+            "x": 11.56,
+            "y": 51.84,
+            "mixRotate": 0,
+            "mixX": 0.3,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "ed2",
+            "order": 11,
+            "bones": [
+                "L上睫毛7"
+            ],
+            "target": "L上睫毛10",
+            "x": 14.95,
+            "y": -67.01,
+            "mixRotate": 0,
+            "mixX": 0.2,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "el",
+            "order": 17,
+            "bones": [
+                "L上睫毛6"
+            ],
+            "target": "L上睫毛5",
+            "x": -5.72,
+            "y": -0.91,
+            "mixRotate": 0,
+            "mixX": 0.7,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "er",
+            "order": 18,
+            "bones": [
+                "L上睫毛8"
+            ],
+            "target": "L上睫毛7",
+            "x": -6.6,
+            "y": -1.49,
+            "mixRotate": 0,
+            "mixX": 0.7,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "eye",
+            "order": 15,
+            "bones": [
+                "L上睫毛3"
+            ],
+            "target": "L上睫毛2",
+            "x": 0.57,
+            "y": 10.83,
+            "mixRotate": 0,
+            "mixX": 2,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "eye2",
+            "order": 16,
+            "bones": [
+                "L上睫毛4"
+            ],
+            "target": "L上睫毛2",
+            "x": 0.37,
+            "y": -11.81,
+            "mixRotate": 0,
+            "mixX": -1,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "j",
+            "order": 19,
+            "bones": [
+                "bone16"
+            ],
+            "target": "bone17",
+            "rotation": -167.08,
+            "x": -11.52,
+            "y": -0.42,
+            "mixRotate": 0,
+            "mixX": -0.3,
+            "mixY": -0.2,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "j2",
+            "order": 8,
+            "bones": [
+                "bone17"
+            ],
+            "target": "bone25",
+            "rotation": -91.82,
+            "x": -26.5,
+            "y": -549.47,
+            "mixRotate": 0,
+            "mixX": 0.1,
+            "mixY": 0.06,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "k2",
+            "order": 7,
+            "bones": [
+                "bone3"
+            ],
+            "target": "bone25",
+            "rotation": -106.04,
+            "x": -658.03,
+            "y": -485.52,
+            "mixRotate": 0,
+            "mixX": 0.05,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "kua",
+            "order": 29,
+            "bones": [
+                "bone8"
+            ],
+            "target": "bone3",
+            "rotation": -153.38,
+            "x": 6.09,
+            "y": -1.15,
+            "mixRotate": 0,
+            "mixX": -0.2,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "l",
+            "order": 26,
+            "bones": [
+                "帽子2"
+            ],
+            "target": "bone28",
+            "rotation": -175.41,
+            "x": 196.46,
+            "y": -217.02,
+            "mixRotate": 0,
+            "mixX": 0.03,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "lian",
+            "order": 14,
+            "bones": [
+                "bone29"
+            ],
+            "target": "bone28",
+            "rotation": 178.99,
+            "x": 346.56,
+            "y": -622.7,
+            "mixRotate": 0,
+            "mixX": -1,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "st",
+            "order": 13,
+            "bones": [
+                "bone30"
+            ],
+            "target": "bone25",
+            "rotation": 179.92,
+            "x": 675.41,
+            "y": -1114.77,
+            "mixRotate": 0,
+            "mixX": -1,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        },
+        {
+            "name": "t",
+            "order": 3,
+            "bones": [
+                "bone45"
+            ],
+            "target": "bone43",
+            "rotation": 32.38,
+            "x": 610.91,
+            "y": 392.24,
+            "mixRotate": 0.7,
+            "mixX": 0.7,
+            "mixScaleX": 0.7,
+            "mixShearY": 0.7
+        },
+        {
+            "name": "x",
+            "order": 20,
+            "bones": [
+                "bone51"
+            ],
+            "target": "bone25",
+            "rotation": -2.43,
+            "x": -263.2,
+            "y": -455.4,
+            "mixRotate": 0,
+            "mixX": 0.2,
+            "mixScaleX": 0,
+            "mixShearY": 0
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "菲米尼影子": {
+                    "菲米尼影子": {
+                        "x": -510.02,
+                        "y": 243.14,
+                        "width": 1280,
+                        "height": 469
+                    }
+                },
+                "角色场景区分lv_菲米尼": {
+                    "角色场景区分lv_菲米尼": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0.5,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.83333,
+                            0,
+                            0.66667,
+                            0,
+                            0.5,
+                            0,
+                            0.33333,
+                            0,
+                            0.16667,
+                            0,
+                            0,
+                            0.5,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.16667,
+                            1,
+                            0.33333,
+                            1,
+                            0.5,
+                            1,
+                            0.66667,
+                            1,
+                            0.83333,
+                            0.5,
+                            0.83333,
+                            0.5,
+                            0.66667,
+                            0.5,
+                            0.5,
+                            0.5,
+                            0.33333,
+                            0.5,
+                            0.16667
+                        ],
+                        "triangles": [
+                            19,
+                            6,
+                            20,
+                            5,
+                            6,
+                            19,
+                            13,
+                            18,
+                            12,
+                            18,
+                            19,
+                            12,
+                            4,
+                            5,
+                            18,
+                            14,
+                            17,
+                            13,
+                            17,
+                            4,
+                            18,
+                            3,
+                            4,
+                            17,
+                            16,
+                            17,
+                            14,
+                            2,
+                            3,
+                            16,
+                            0,
+                            1,
+                            15,
+                            1,
+                            16,
+                            15,
+                            15,
+                            16,
+                            14,
+                            1,
+                            2,
+                            16,
+                            16,
+                            3,
+                            17,
+                            18,
+                            5,
+                            19,
+                            17,
+                            18,
+                            13,
+                            19,
+                            20,
+                            11,
+                            12,
+                            19,
+                            11,
+                            6,
+                            7,
+                            20,
+                            11,
+                            20,
+                            10,
+                            20,
+                            9,
+                            10,
+                            20,
+                            7,
+                            9,
+                            7,
+                            8,
+                            9
+                        ],
+                        "vertices": [
+                            4,
+                            5,
+                            552.38,
+                            759.79,
+                            0.11421,
+                            4,
+                            1118.09,
+                            855.36,
+                            0.01145,
+                            20,
+                            1950.57,
+                            287.96,
+                            0.00079,
+                            1,
+                            802.98,
+                            534.64,
+                            0.87355,
+                            1,
+                            1,
+                            88.98,
+                            534.64,
+                            1,
+                            2,
+                            11,
+                            402.32,
+                            -513.39,
+                            0.31618,
+                            1,
+                            -625.02,
+                            534.64,
+                            0.68382,
+                            4,
+                            11,
+                            -0.74,
+                            -372.34,
+                            0.25204,
+                            10,
+                            870.04,
+                            -328.32,
+                            0.06449,
+                            25,
+                            16.48,
+                            1179.79,
+                            0.00006,
+                            1,
+                            -625.02,
+                            961.98,
+                            0.6834,
+                            4,
+                            11,
+                            -403.81,
+                            -231.3,
+                            0.01114,
+                            10,
+                            447.95,
+                            -395.06,
+                            0.24576,
+                            25,
+                            162.28,
+                            778.1,
+                            0.0188,
+                            1,
+                            -625.02,
+                            1389.31,
+                            0.7243,
+                            3,
+                            10,
+                            25.85,
+                            -461.8,
+                            0.16908,
+                            25,
+                            308.08,
+                            376.41,
+                            0.1545,
+                            1,
+                            -625.02,
+                            1816.64,
+                            0.67641,
+                            6,
+                            10,
+                            -396.24,
+                            -528.53,
+                            0.00675,
+                            17,
+                            -175.59,
+                            529.66,
+                            0.04066,
+                            30,
+                            -325.45,
+                            722.56,
+                            0.01189,
+                            34,
+                            436.79,
+                            905.05,
+                            0.01426,
+                            25,
+                            453.88,
+                            -25.29,
+                            0.39517,
+                            1,
+                            -625.02,
+                            2243.98,
+                            0.53128,
+                            5,
+                            17,
+                            215.02,
+                            702.97,
+                            0.16878,
+                            30,
+                            101.77,
+                            712.7,
+                            0.08862,
+                            34,
+                            655.42,
+                            537.87,
+                            0.19759,
+                            25,
+                            599.68,
+                            -426.98,
+                            0.20817,
+                            1,
+                            -625.02,
+                            2671.31,
+                            0.33684,
+                            5,
+                            17,
+                            605.63,
+                            876.29,
+                            0.14406,
+                            30,
+                            528.99,
+                            702.85,
+                            0.1089,
+                            34,
+                            874.04,
+                            170.7,
+                            0.50104,
+                            25,
+                            745.48,
+                            -828.67,
+                            0.12651,
+                            1,
+                            -625.02,
+                            3098.64,
+                            0.11949,
+                            2,
+                            34,
+                            260.56,
+                            -194.59,
+                            0.77366,
+                            1,
+                            88.98,
+                            3098.64,
+                            0.22634,
+                            3,
+                            34,
+                            -352.93,
+                            -559.87,
+                            0.64358,
+                            20,
+                            -588.83,
+                            642.29,
+                            0.19431,
+                            1,
+                            802.98,
+                            3098.64,
+                            0.16211,
+                            3,
+                            34,
+                            -571.55,
+                            -192.69,
+                            0.2978,
+                            20,
+                            -165.6,
+                            583.23,
+                            0.31131,
+                            1,
+                            802.98,
+                            2671.31,
+                            0.39088,
+                            5,
+                            5,
+                            -1152.72,
+                            880.08,
+                            0.00004,
+                            4,
+                            -576.28,
+                            629.74,
+                            0.00746,
+                            34,
+                            -790.18,
+                            174.48,
+                            0.04155,
+                            20,
+                            257.64,
+                            524.18,
+                            0.34817,
+                            1,
+                            802.98,
+                            2243.98,
+                            0.60278,
+                            5,
+                            5,
+                            -726.45,
+                            850,
+                            0.00535,
+                            4,
+                            -152.69,
+                            686.14,
+                            0.07275,
+                            34,
+                            -1008.8,
+                            541.66,
+                            0.00038,
+                            20,
+                            680.87,
+                            465.12,
+                            0.14846,
+                            1,
+                            802.98,
+                            1816.64,
+                            0.77307,
+                            4,
+                            5,
+                            -300.17,
+                            819.93,
+                            0.02731,
+                            4,
+                            270.91,
+                            742.55,
+                            0.08189,
+                            20,
+                            1104.1,
+                            406.07,
+                            0.03505,
+                            1,
+                            802.98,
+                            1389.31,
+                            0.85575,
+                            4,
+                            5,
+                            126.1,
+                            789.86,
+                            0.08017,
+                            4,
+                            694.5,
+                            798.95,
+                            0.04003,
+                            20,
+                            1527.33,
+                            347.01,
+                            0.00692,
+                            1,
+                            802.98,
+                            961.98,
+                            0.87288,
+                            1,
+                            1,
+                            88.98,
+                            961.98,
+                            1,
+                            1,
+                            1,
+                            88.98,
+                            1389.31,
+                            1,
+                            5,
+                            4,
+                            -58.45,
+                            -21.61,
+                            0.02263,
+                            15,
+                            -2.37,
+                            -136.71,
+                            0.00679,
+                            17,
+                            -276.62,
+                            -296.3,
+                            0.00003,
+                            20,
+                            582.2,
+                            -242.03,
+                            0.00102,
+                            1,
+                            88.98,
+                            1816.64,
+                            0.96953,
+                            4,
+                            16,
+                            288.18,
+                            -156.97,
+                            0.0174,
+                            17,
+                            113.99,
+                            -122.98,
+                            0.16814,
+                            20,
+                            158.96,
+                            -182.97,
+                            0.0909,
+                            1,
+                            88.98,
+                            2243.98,
+                            0.72356,
+                            4,
+                            30,
+                            85.3,
+                            -1.11,
+                            0.38067,
+                            34,
+                            41.93,
+                            172.59,
+                            0.14343,
+                            25,
+                            -71.48,
+                            -670.58,
+                            0.00068,
+                            1,
+                            88.98,
+                            2671.31,
+                            0.47522
+                        ],
+                        "hull": 16
+                    }
+                },
+                "角色场景区分_菲米尼": {
+                    "角色场景区分_菲米尼": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0.5,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.83333,
+                            0,
+                            0.66667,
+                            0,
+                            0.5,
+                            0,
+                            0.33333,
+                            0,
+                            0.16667,
+                            0,
+                            0,
+                            0.5,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.16667,
+                            1,
+                            0.33333,
+                            1,
+                            0.5,
+                            1,
+                            0.66667,
+                            1,
+                            0.83333,
+                            0.5,
+                            0.83333,
+                            0.5,
+                            0.66667,
+                            0.5,
+                            0.5,
+                            0.5,
+                            0.33333,
+                            0.5,
+                            0.16667
+                        ],
+                        "triangles": [
+                            20,
+                            9,
+                            10,
+                            11,
+                            20,
+                            10,
+                            6,
+                            7,
+                            20,
+                            18,
+                            19,
+                            12,
+                            5,
+                            6,
+                            19,
+                            4,
+                            5,
+                            18,
+                            18,
+                            5,
+                            19,
+                            17,
+                            4,
+                            18,
+                            3,
+                            4,
+                            17,
+                            15,
+                            16,
+                            14,
+                            16,
+                            17,
+                            14,
+                            0,
+                            1,
+                            15,
+                            1,
+                            16,
+                            15,
+                            1,
+                            2,
+                            16,
+                            2,
+                            3,
+                            16,
+                            16,
+                            3,
+                            17,
+                            14,
+                            17,
+                            13,
+                            17,
+                            18,
+                            13,
+                            13,
+                            18,
+                            12,
+                            12,
+                            19,
+                            11,
+                            19,
+                            20,
+                            11,
+                            19,
+                            6,
+                            20,
+                            20,
+                            7,
+                            9,
+                            7,
+                            8,
+                            9
+                        ],
+                        "vertices": [
+                            3,
+                            4,
+                            1329.24,
+                            572.76,
+                            0.04281,
+                            11,
+                            933.92,
+                            487.07,
+                            0.08574,
+                            1,
+                            494.98,
+                            362.64,
+                            0.87145,
+                            1,
+                            1,
+                            -87.52,
+                            362.64,
+                            1,
+                            2,
+                            11,
+                            549.71,
+                            -612.64,
+                            0.15492,
+                            1,
+                            -670.02,
+                            362.64,
+                            0.84508,
+                            3,
+                            10,
+                            1018.97,
+                            -350.33,
+                            0.0079,
+                            11,
+                            119.92,
+                            -462.24,
+                            0.10128,
+                            1,
+                            -670.02,
+                            818.31,
+                            0.89082,
+                            4,
+                            10,
+                            568.89,
+                            -421.5,
+                            0.05921,
+                            11,
+                            -309.86,
+                            -311.84,
+                            0.01212,
+                            17,
+                            -1080.48,
+                            177.38,
+                            0.00006,
+                            1,
+                            -670.02,
+                            1273.98,
+                            0.92861,
+                            4,
+                            10,
+                            118.82,
+                            -492.66,
+                            0.0894,
+                            17,
+                            -663.98,
+                            362.19,
+                            0.01469,
+                            34,
+                            212.33,
+                            1370,
+                            0.00004,
+                            1,
+                            -670.02,
+                            1729.64,
+                            0.89587,
+                            5,
+                            10,
+                            -331.26,
+                            -563.82,
+                            0.10298,
+                            17,
+                            -247.47,
+                            546.99,
+                            0.16002,
+                            30,
+                            -383.06,
+                            768.91,
+                            0.00487,
+                            34,
+                            445.45,
+                            978.48,
+                            0.01461,
+                            1,
+                            -670.02,
+                            2185.31,
+                            0.71752,
+                            5,
+                            10,
+                            -781.34,
+                            -634.98,
+                            0.02701,
+                            17,
+                            169.04,
+                            731.8,
+                            0.25655,
+                            30,
+                            72.48,
+                            758.39,
+                            0.04631,
+                            34,
+                            678.56,
+                            586.96,
+                            0.18218,
+                            1,
+                            -670.02,
+                            2640.98,
+                            0.48796,
+                            4,
+                            17,
+                            585.55,
+                            916.61,
+                            0.19648,
+                            30,
+                            528.03,
+                            747.88,
+                            0.05592,
+                            34,
+                            911.68,
+                            195.44,
+                            0.4939,
+                            1,
+                            -670.02,
+                            3096.64,
+                            0.2537,
+                            4,
+                            17,
+                            821.79,
+                            384.17,
+                            0.01618,
+                            30,
+                            514.59,
+                            165.54,
+                            0.00446,
+                            34,
+                            411.18,
+                            -102.57,
+                            0.58969,
+                            1,
+                            -87.52,
+                            3096.64,
+                            0.38966,
+                            2,
+                            34,
+                            -89.31,
+                            -400.58,
+                            0.58069,
+                            1,
+                            494.98,
+                            3096.64,
+                            0.41931,
+                            5,
+                            4,
+                            -929.15,
+                            272.03,
+                            0.0086,
+                            17,
+                            641.54,
+                            -333.08,
+                            0.03776,
+                            30,
+                            45.61,
+                            -406.3,
+                            0.08569,
+                            34,
+                            -322.43,
+                            -9.06,
+                            0.18612,
+                            1,
+                            494.98,
+                            2640.98,
+                            0.68183,
+                            5,
+                            4,
+                            -477.47,
+                            332.18,
+                            0.02199,
+                            17,
+                            225.03,
+                            -517.89,
+                            0.03276,
+                            30,
+                            -409.94,
+                            -395.78,
+                            0.00696,
+                            34,
+                            -555.55,
+                            382.46,
+                            0.00103,
+                            1,
+                            494.98,
+                            2185.31,
+                            0.93726,
+                            1,
+                            1,
+                            494.98,
+                            1729.64,
+                            1,
+                            3,
+                            4,
+                            425.89,
+                            452.47,
+                            0.10739,
+                            11,
+                            74.35,
+                            787.87,
+                            0.00012,
+                            1,
+                            494.98,
+                            1273.98,
+                            0.89249,
+                            3,
+                            4,
+                            877.57,
+                            512.61,
+                            0.11982,
+                            11,
+                            504.14,
+                            637.47,
+                            0.04677,
+                            1,
+                            494.98,
+                            818.31,
+                            0.8334,
+                            1,
+                            1,
+                            -87.52,
+                            818.31,
+                            1,
+                            1,
+                            1,
+                            -87.52,
+                            1273.98,
+                            1,
+                            1,
+                            1,
+                            -87.52,
+                            1729.64,
+                            1,
+                            5,
+                            10,
+                            -422.23,
+                            11.53,
+                            0.00057,
+                            17,
+                            -11.22,
+                            14.55,
+                            0.1222,
+                            30,
+                            -396.5,
+                            186.56,
+                            0.00002,
+                            34,
+                            -55.05,
+                            680.47,
+                            0.00004,
+                            1,
+                            -87.52,
+                            2185.31,
+                            0.87717,
+                            5,
+                            10,
+                            -872.31,
+                            -59.63,
+                            0.00053,
+                            17,
+                            405.29,
+                            199.36,
+                            0.10531,
+                            30,
+                            59.05,
+                            176.05,
+                            0.15981,
+                            34,
+                            178.07,
+                            288.95,
+                            0.0963,
+                            1,
+                            -87.52,
+                            2640.98,
+                            0.63805
+                        ],
+                        "hull": 16
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "loop": {
+            "bones": {
+                "bone2": {
+                    "translate": [
+                        {
+                            "x": 8.24,
+                            "y": -11.37,
+                            "curve": [
+                                0.611,
+                                8.24,
+                                1.222,
+                                -14.96,
+                                0.611,
+                                -11.37,
+                                1.222,
+                                8.5
+                            ]
+                        },
+                        {
+                            "time": 1.8333,
+                            "x": -14.96,
+                            "y": 8.5,
+                            "curve": [
+                                2.444,
+                                -14.96,
+                                3.056,
+                                8.24,
+                                2.444,
+                                8.5,
+                                3.056,
+                                -11.37
+                            ]
+                        },
+                        {
+                            "time": 3.6667,
+                            "x": 8.24,
+                            "y": -11.37,
+                            "curve": [
+                                4.278,
+                                8.24,
+                                4.889,
+                                -14.96,
+                                4.278,
+                                -11.37,
+                                4.889,
+                                8.5
+                            ]
+                        },
+                        {
+                            "time": 5.5,
+                            "x": -14.96,
+                            "y": 8.5,
+                            "curve": [
+                                6.111,
+                                -14.96,
+                                6.722,
+                                8.24,
+                                6.111,
+                                8.5,
+                                6.722,
+                                -11.37
+                            ]
+                        },
+                        {
+                            "time": 7.3333,
+                            "x": 8.24,
+                            "y": -11.37
+                        }
+                    ]
+                },
+                "bone14": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.612,
+                                0,
+                                1.221,
+                                0.27
+                            ]
+                        },
+                        {
+                            "time": 1.8333,
+                            "value": 0.27,
+                            "curve": [
+                                2.446,
+                                0.27,
+                                3.056,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3.6667,
+                            "curve": [
+                                4.279,
+                                0,
+                                4.888,
+                                0.27
+                            ]
+                        },
+                        {
+                            "time": 5.5,
+                            "value": 0.27,
+                            "curve": [
+                                6.112,
+                                0.27,
+                                6.721,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 7.3333
+                        }
+                    ],
+                    "translate": [
+                        {},
+                        {
+                            "time": 1.8333,
+                            "x": 4.25,
+                            "y": -0.78,
+                            "curve": [
+                                2.446,
+                                4.25,
+                                3.056,
+                                0,
+                                2.446,
+                                -0.78,
+                                3.056,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3.6667
+                        },
+                        {
+                            "time": 5.5,
+                            "x": 4.25,
+                            "y": -0.78,
+                            "curve": [
+                                6.112,
+                                4.25,
+                                6.721,
+                                0,
+                                6.112,
+                                -0.78,
+                                6.721,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 7.3333
+                        }
+                    ]
+                },
+                "bone15": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.612,
+                                0,
+                                1.221,
+                                -1.56
+                            ]
+                        },
+                        {
+                            "time": 1.8333,
+                            "value": -1.56,
+                            "curve": [
+                                2.446,
+                                -1.56,
+                                3.056,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3.6667,
+                            "curve": [
+                                4.279,
+                                0,
+                                4.888,
+                                -1.56
+                            ]
+                        },
+                        {
+                            "time": 5.5,
+                            "value": -1.56,
+                            "curve": [
+                                6.112,
+                                -1.56,
+                                6.721,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 7.3333
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -2.92,
+                            "y": -0.09,
+                            "curve": [
+                                0.106,
+                                -3.27,
+                                0.2,
+                                -3.53,
+                                0.106,
+                                -0.1,
+                                0.2,
+                                -0.1
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "x": -3.53,
+                            "y": -0.1
+                        },
+                        {
+                            "time": 2.1333,
+                            "x": 4.32,
+                            "y": 0.11,
+                            "curve": [
+                                2.646,
+                                4.32,
+                                3.156,
+                                -1.23,
+                                2.646,
+                                0.11,
+                                3.156,
+                                -0.04
+                            ]
+                        },
+                        {
+                            "time": 3.6667,
+                            "x": -2.92,
+                            "y": -0.09,
+                            "curve": [
+                                3.773,
+                                -3.27,
+                                3.867,
+                                -3.53,
+                                3.773,
+                                -0.1,
+                                3.867,
+                                -0.1
+                            ]
+                        },
+                        {
+                            "time": 3.9667,
+                            "x": -3.53,
+                            "y": -0.1
+                        },
+                        {
+                            "time": 5.8,
+                            "x": 4.32,
+                            "y": 0.11,
+                            "curve": [
+                                6.312,
+                                4.32,
+                                6.827,
+                                -1.12,
+                                6.312,
+                                0.11,
+                                6.827,
+                                -0.04
+                            ]
+                        },
+                        {
+                            "time": 7.3333,
+                            "x": -2.92,
+                            "y": -0.09
+                        }
+                    ]
+                },
+                "bone27": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.612,
+                                0,
+                                1.221,
+                                0.28
+                            ]
+                        },
+                        {
+                            "time": 1.8333,
+                            "value": 0.28,
+                            "curve": [
+                                2.446,
+                                0.28,
+                                3.056,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3.6667,
+                            "curve": [
+                                4.279,
+                                0,
+                                4.888,
+                                0.28
+                            ]
+                        },
+                        {
+                            "time": 5.5,
+                            "value": 0.28,
+                            "curve": [
+                                6.112,
+                                0.28,
+                                6.722,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 7.3333
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 1.08,
+                            "y": 0.02,
+                            "curve": [
+                                0.314,
+                                -0.38,
+                                0.582,
+                                -1.65,
+                                0.314,
+                                0.03,
+                                0.582,
+                                0.04
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": -1.65,
+                            "y": 0.04,
+                            "curve": [
+                                1.278,
+                                -1.65,
+                                1.889,
+                                5.4,
+                                1.278,
+                                0.04,
+                                1.889,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.5,
+                            "x": 5.4,
+                            "curve": [
+                                2.737,
+                                5.4,
+                                3.278,
+                                2.89,
+                                2.737,
+                                0,
+                                3.278,
+                                0.01
+                            ]
+                        },
+                        {
+                            "time": 3.6667,
+                            "x": 1.08,
+                            "y": 0.02,
+                            "curve": [
+                                3.981,
+                                -0.38,
+                                4.249,
+                                -1.65,
+                                3.981,
+                                0.03,
+                                4.249,
+                                0.04
+                            ]
+                        },
+                        {
+                            "time": 4.3333,
+                            "x": -1.65,
+                            "y": 0.04,
+                            "curve": [
+                                4.944,
+                                -1.65,
+                                5.556,
+                                5.4,
+                                4.944,
+                                0.04,
+                                5.556,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 6.1667,
+                            "x": 5.4,
+                            "curve": [
+                                6.403,
+                                5.4,
+                                6.91,
+                                3.07,
+                                6.403,
+                                0,
+                                6.91,
+                                0.01
+                            ]
+                        },
+                        {
+                            "time": 7.3333,
+                            "x": 1.08,
+                            "y": 0.02
+                        }
+                    ]
+                },
+                "bone25": {
+                    "translatex": [
+                        {
+                            "value": 0.02,
+                            "curve": [
+                                0.113,
+                                -3.23,
+                                0.223,
+                                -5.5
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -5.5,
+                            "curve": [
+                                0.944,
+                                -5.5,
+                                1.556,
+                                55.67
+                            ]
+                        },
+                        {
+                            "time": 2.1667,
+                            "value": 55.67,
+                            "curve": [
+                                2.778,
+                                55.67,
+                                3.389,
+                                -5.5
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "value": -5.5,
+                            "curve": [
+                                4.611,
+                                -5.5,
+                                5.222,
+                                55.67
+                            ]
+                        },
+                        {
+                            "time": 5.8333,
+                            "value": 55.67,
+                            "curve": [
+                                6.334,
+                                55.67,
+                                6.836,
+                                14.82
+                            ]
+                        },
+                        {
+                            "time": 7.3333,
+                            "value": 0.02
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -68.95,
+                            "curve": [
+                                0.611,
+                                -68.95,
+                                1.222,
+                                185.99
+                            ]
+                        },
+                        {
+                            "time": 1.8333,
+                            "value": 185.99,
+                            "curve": [
+                                2.444,
+                                185.99,
+                                3.056,
+                                -68.95
+                            ]
+                        },
+                        {
+                            "time": 3.6667,
+                            "value": -68.95,
+                            "curve": [
+                                4.278,
+                                -68.95,
+                                4.889,
+                                185.99
+                            ]
+                        },
+                        {
+                            "time": 5.5,
+                            "value": 185.99,
+                            "curve": [
+                                6.111,
+                                185.99,
+                                6.722,
+                                -68.95
+                            ]
+                        },
+                        {
+                            "time": 7.3333,
+                            "value": -68.95
+                        }
+                    ]
+                },
+                "bone51": {
+                    "scale": [
+                        {},
+                        {
+                            "time": 1.8333,
+                            "x": 1.084,
+                            "y": 1.428
+                        },
+                        {
+                            "time": 3.6667
+                        },
+                        {
+                            "time": 5.5,
+                            "x": 1.084,
+                            "y": 1.428
+                        },
+                        {
+                            "time": 7.3333
+                        }
+                    ]
+                },
+                "bone46": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.556,
+                                0,
+                                1.111,
+                                0,
+                                0.556,
+                                0,
+                                1.111,
+                                19.06
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "y": 19.06,
+                            "curve": [
+                                2.333,
+                                0,
+                                3,
+                                0,
+                                2.333,
+                                19.06,
+                                3,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3.6667,
+                            "curve": [
+                                4.222,
+                                0,
+                                4.778,
+                                0,
+                                4.222,
+                                0,
+                                4.778,
+                                19.06
+                            ]
+                        },
+                        {
+                            "time": 5.3333,
+                            "y": 19.06,
+                            "curve": [
+                                6,
+                                0,
+                                6.667,
+                                0,
+                                6,
+                                19.06,
+                                6.667,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 7.3333
+                        }
+                    ]
+                },
+                "bone23": {
+                    "rotate": [
+                        {
+                            "value": -2.79,
+                            "curve": [
+                                0.611,
+                                -2.79,
+                                1.222,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.8333,
+                            "curve": [
+                                2.444,
+                                0,
+                                3.056,
+                                -2.79
+                            ]
+                        },
+                        {
+                            "time": 3.6667,
+                            "value": -2.79,
+                            "curve": [
+                                4.278,
+                                -2.79,
+                                4.889,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 5.5,
+                            "curve": [
+                                6.111,
+                                0,
+                                6.722,
+                                -2.79
+                            ]
+                        },
+                        {
+                            "time": 7.3333,
+                            "value": -2.79
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "curve": [
+                                0.611,
+                                0,
+                                1.222,
+                                -15.58,
+                                0.611,
+                                0,
+                                1.222,
+                                -4.88
+                            ]
+                        },
+                        {
+                            "time": 1.8333,
+                            "x": -15.58,
+                            "y": -4.88,
+                            "curve": [
+                                2.444,
+                                -15.58,
+                                3.056,
+                                0,
+                                2.444,
+                                -4.88,
+                                3.056,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3.6667,
+                            "curve": [
+                                4.278,
+                                0,
+                                4.889,
+                                -15.58,
+                                4.278,
+                                0,
+                                4.889,
+                                -4.88
+                            ]
+                        },
+                        {
+                            "time": 5.5,
+                            "x": -15.58,
+                            "y": -4.88,
+                            "curve": [
+                                6.111,
+                                -15.58,
+                                6.722,
+                                0,
+                                6.111,
+                                -4.88,
+                                6.722,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 7.3333
+                        }
+                    ]
+                },
+                "bone22": {
+                    "rotate": [
+                        {
+                            "value": 1.12,
+                            "curve": [
+                                0.113,
+                                1.19,
+                                0.223,
+                                1.23
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 1.23,
+                            "curve": [
+                                0.944,
+                                1.23,
+                                1.556,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.1667,
+                            "curve": [
+                                2.668,
+                                0,
+                                3.167,
+                                0.83
+                            ]
+                        },
+                        {
+                            "time": 3.6667,
+                            "value": 1.12,
+                            "curve": [
+                                3.78,
+                                1.19,
+                                3.89,
+                                1.23
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "value": 1.23,
+                            "curve": [
+                                4.611,
+                                1.23,
+                                5.222,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 5.8333,
+                            "curve": [
+                                6.334,
+                                0,
+                                6.836,
+                                0.82
+                            ]
+                        },
+                        {
+                            "time": 7.3333,
+                            "value": 1.12
+                        }
+                    ]
+                },
+                "bone18": {
+                    "rotate": [
+                        {
+                            "value": -0.12,
+                            "curve": [
+                                0.113,
+                                -0.05,
+                                0.223,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "curve": [
+                                0.944,
+                                0,
+                                1.556,
+                                -1.3
+                            ]
+                        },
+                        {
+                            "time": 2.1667,
+                            "value": -1.3,
+                            "curve": [
+                                2.668,
+                                -1.3,
+                                3.167,
+                                -0.42
+                            ]
+                        },
+                        {
+                            "time": 3.6667,
+                            "value": -0.12,
+                            "curve": [
+                                3.78,
+                                -0.05,
+                                3.89,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "curve": [
+                                4.611,
+                                0,
+                                5.222,
+                                -1.3
+                            ]
+                        },
+                        {
+                            "time": 5.8333,
+                            "value": -1.3,
+                            "curve": [
+                                6.334,
+                                -1.3,
+                                6.836,
+                                -0.43
+                            ]
+                        },
+                        {
+                            "time": 7.3333,
+                            "value": -0.12
+                        }
+                    ]
+                },
+                "bone28": {
+                    "rotate": [
+                        {
+                            "value": 2.85,
+                            "curve": [
+                                0.223,
+                                1.27,
+                                0.445,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "curve": [
+                                1.278,
+                                0,
+                                1.889,
+                                9.41
+                            ]
+                        },
+                        {
+                            "time": 2.5,
+                            "value": 9.41,
+                            "curve": [
+                                3.111,
+                                9.41,
+                                3.722,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.3333,
+                            "curve": [
+                                4.944,
+                                0,
+                                5.556,
+                                9.41
+                            ]
+                        },
+                        {
+                            "time": 6.1667,
+                            "value": 9.41,
+                            "curve": [
+                                6.556,
+                                9.41,
+                                6.945,
+                                5.62
+                            ]
+                        },
+                        {
+                            "time": 7.3333,
+                            "value": 2.85
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -99.57,
+                            "y": -1.07,
+                            "curve": [
+                                0.223,
+                                -112.48,
+                                0.445,
+                                -122.82,
+                                0.223,
+                                1.49,
+                                0.445,
+                                3.54
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": -122.82,
+                            "y": 3.54,
+                            "curve": [
+                                1.278,
+                                -122.82,
+                                1.889,
+                                -45.98,
+                                1.278,
+                                3.54,
+                                1.889,
+                                -11.71
+                            ]
+                        },
+                        {
+                            "time": 2.5,
+                            "x": -45.98,
+                            "y": -11.71,
+                            "curve": [
+                                3.111,
+                                -45.98,
+                                3.722,
+                                -122.82,
+                                3.111,
+                                -11.71,
+                                3.722,
+                                3.54
+                            ]
+                        },
+                        {
+                            "time": 4.3333,
+                            "x": -122.82,
+                            "y": 3.54,
+                            "curve": [
+                                4.944,
+                                -122.82,
+                                5.556,
+                                -45.98,
+                                4.944,
+                                3.54,
+                                5.556,
+                                -11.71
+                            ]
+                        },
+                        {
+                            "time": 6.1667,
+                            "x": -45.98,
+                            "y": -11.71,
+                            "curve": [
+                                6.556,
+                                -45.98,
+                                6.945,
+                                -76.93,
+                                6.556,
+                                -11.71,
+                                6.945,
+                                -5.57
+                            ]
+                        },
+                        {
+                            "time": 7.3333,
+                            "x": -99.57,
+                            "y": -1.07
+                        }
+                    ]
+                },
+                "L上睫毛2": {
+                    "translate": [
+                        {
+                            "time": 1,
+                            "curve": [
+                                1.044,
+                                0,
+                                1.089,
+                                -29.4,
+                                1.044,
+                                0,
+                                1.089,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.1333,
+                            "x": -29.4,
+                            "curve": [
+                                1.178,
+                                -29.4,
+                                1.222,
+                                2.49,
+                                1.178,
+                                0,
+                                1.222,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "x": 2.49,
+                            "curve": [
+                                1.3,
+                                2.49,
+                                1.333,
+                                0,
+                                1.3,
+                                0,
+                                1.333,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.3667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.2,
+                            "curve": [
+                                2.244,
+                                0,
+                                2.289,
+                                1.29,
+                                2.244,
+                                0,
+                                2.289,
+                                1.24
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1.29,
+                            "y": 1.24,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.2667,
+                            "x": 1.29,
+                            "y": 1.24,
+                            "curve": [
+                                3.489,
+                                1.29,
+                                3.711,
+                                -2.68,
+                                3.489,
+                                1.24,
+                                3.711,
+                                1.27
+                            ]
+                        },
+                        {
+                            "time": 3.9333,
+                            "x": -2.68,
+                            "y": 1.27,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.3667,
+                            "x": -2.68,
+                            "y": 1.27,
+                            "curve": [
+                                4.389,
+                                -2.68,
+                                4.411,
+                                -2.45,
+                                4.389,
+                                1.27,
+                                4.411,
+                                1.27
+                            ]
+                        },
+                        {
+                            "time": 4.4333,
+                            "x": -2.45,
+                            "y": 1.27,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.6667,
+                            "x": -2.45,
+                            "y": 1.27,
+                            "curve": [
+                                4.689,
+                                -2.45,
+                                4.711,
+                                -2.68,
+                                4.689,
+                                1.27,
+                                4.711,
+                                1.27
+                            ]
+                        },
+                        {
+                            "time": 4.7333,
+                            "x": -2.68,
+                            "y": 1.27,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.5667,
+                            "x": -2.68,
+                            "y": 1.27,
+                            "curve": [
+                                6.58,
+                                -2.68,
+                                6.62,
+                                0,
+                                6.58,
+                                1.27,
+                                6.62,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 6.6333
+                        }
+                    ]
+                },
+                "L上睫毛10": {
+                    "translate": [
+                        {
+                            "time": 2.2,
+                            "curve": [
+                                2.244,
+                                0,
+                                2.289,
+                                0.2,
+                                2.244,
+                                0,
+                                2.289,
+                                9.29
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0.2,
+                            "y": 9.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.2667,
+                            "x": 0.2,
+                            "y": 9.29,
+                            "curve": [
+                                3.489,
+                                0.2,
+                                3.711,
+                                -17.87,
+                                3.489,
+                                9.29,
+                                3.711,
+                                14.29
+                            ]
+                        },
+                        {
+                            "time": 3.9333,
+                            "x": -17.87,
+                            "y": 14.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.3667,
+                            "x": -17.87,
+                            "y": 14.29,
+                            "curve": [
+                                4.389,
+                                -17.87,
+                                4.411,
+                                -13.73,
+                                4.389,
+                                14.29,
+                                4.411,
+                                19.97
+                            ]
+                        },
+                        {
+                            "time": 4.4333,
+                            "x": -13.73,
+                            "y": 19.97,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.6667,
+                            "x": -13.73,
+                            "y": 19.97,
+                            "curve": [
+                                4.7,
+                                -13.73,
+                                4.711,
+                                -24.24,
+                                4.7,
+                                19.97,
+                                4.711,
+                                13.16
+                            ]
+                        },
+                        {
+                            "time": 4.7333,
+                            "x": -24.24,
+                            "y": 13.16,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.5667,
+                            "x": -24.24,
+                            "y": 13.16,
+                            "curve": [
+                                6.58,
+                                -24.24,
+                                6.62,
+                                0,
+                                6.58,
+                                13.16,
+                                6.62,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 6.6333
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "bone31": {
+            "rootBoneName": "bone31",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 3.67,
+                    "rotateRange": 2,
+                    "rotateOffset": 0,
+                    "childOffset": 0.44999999999999996,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 2,
+                    "scaleYRange": 0.04,
+                    "scaleYTime": 3.67,
+                    "scaleYOffset": 0,
+                    "scaleYChildOffset": 0.25,
+                    "scaleYCenter": -0.01,
+                    "scaleYSpring": 0,
+                    "scaleYAffectByLevel": 0.1
+                }
+            }
+        },
+        "bone34": {
+            "rootBoneName": "bone34",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": -1,
+                    "rotateTime": 3.67,
+                    "rotateRange": 1,
+                    "rotateOffset": 0.340993109192405,
+                    "childOffset": 0.44999999999999996,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 2,
+                    "scaleYRange": 0.009999999999999997,
+                    "scaleYTime": 3.67,
+                    "scaleYOffset": 0,
+                    "scaleYChildOffset": 0.25,
+                    "scaleYCenter": 0,
+                    "scaleYSpring": 0,
+                    "scaleYAffectByLevel": 0.1
+                }
+            }
+        },
+        "bone37": {
+            "rootBoneName": "bone37",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": -2,
+                    "rotateTime": 3.67,
+                    "rotateRange": 2,
+                    "rotateOffset": -0.6002196391123802,
+                    "childOffset": 0.44999999999999996,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 2,
+                    "scaleYRange": 0.009999999999999997,
+                    "scaleYTime": 3.67,
+                    "scaleYOffset": 0,
+                    "scaleYChildOffset": 0.25,
+                    "scaleYCenter": 0,
+                    "scaleYSpring": 0,
+                    "scaleYAffectByLevel": 0.1
+                }
+            }
+        },
+        "kouzi": {
+            "rootBoneName": "kouzi",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": -2,
+                    "rotateTime": 3.67,
+                    "rotateRange": 4,
+                    "rotateOffset": 0.49239550542467025,
+                    "childOffset": 0.44999999999999996,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 2
+                }
+            }
+        },
+        "bone40": {
+            "rootBoneName": "bone40",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 3.67,
+                    "rotateRange": 1,
+                    "rotateOffset": -0.44999999999999996,
+                    "childOffset": 0.44999999999999996,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 2,
+                    "scaleYRange": 0.019999999999999997,
+                    "scaleYTime": 3.67,
+                    "scaleYOffset": 0,
+                    "scaleYChildOffset": 0.25,
+                    "scaleYCenter": -0.01,
+                    "scaleYSpring": 0,
+                    "scaleYAffectByLevel": 0.1
+                }
+            }
+        },
+        "帽子11": {
+            "rootBoneName": "帽子11",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 2,
+                    "rotateTime": 3.67,
+                    "rotateRange": 3,
+                    "rotateOffset": 0.5305949143590285,
+                    "childOffset": 0.5499999999999999,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 2
+                }
+            }
+        },
+        "帽子8": {
+            "rootBoneName": "帽子8",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 3.67,
+                    "rotateRange": 2,
+                    "rotateOffset": 0.2574149011131004,
+                    "childOffset": 0.5499999999999999,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 2
+                }
+            }
+        },
+        "帽子2": {
+            "rootBoneName": "帽子2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 3.67,
+                    "rotateRange": 1,
+                    "rotateOffset": -0.04753692441772081,
+                    "childOffset": 0.5499999999999999,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 2
+                }
+            }
+        },
+        "帽子5": {
+            "rootBoneName": "帽子5",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 1,
+                    "rotateTime": 3.67,
+                    "rotateRange": 3,
+                    "rotateOffset": 0.8324278844764681,
+                    "childOffset": 0.5499999999999999,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 2
+                }
+            }
+        },
+        "帽子15": {
+            "rootBoneName": "帽子15",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 3.67,
+                    "rotateRange": 3,
+                    "rotateOffset": -0.04515539856801129,
+                    "childOffset": 0.5499999999999999,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 2
+                }
+            }
+        },
+        "小辫子": {
+            "rootBoneName": "小辫子",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": -1,
+                    "rotateTime": 3.67,
+                    "rotateRange": 2,
+                    "rotateOffset": 0.678073484482512,
+                    "childOffset": 0.44999999999999996,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 2
+                }
+            }
+        },
+        "帽子21": {
+            "rootBoneName": "帽子21",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 3.67,
+                    "rotateRange": 2,
+                    "rotateOffset": 0.11994200109810693,
+                    "childOffset": 0.5499999999999999,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 2
+                }
+            }
+        },
+        "帽子24": {
+            "rootBoneName": "帽子24",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 3.67,
+                    "rotateRange": 2,
+                    "rotateOffset": -0.3118512728021099,
+                    "childOffset": 0.5499999999999999,
+                    "spring": 0,
+                    "affectByLevel": 0.2,
+                    "springLevel": 2
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

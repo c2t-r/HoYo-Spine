@@ -1,0 +1,255 @@
+{
+    "skeleton": {
+        "hash": "e6CQbpW2U1w",
+        "spine": "4.0-from-4.1.24",
+        "x": -1091.5,
+        "y": -500,
+        "width": 2183,
+        "height": 1000,
+        "images": "./logobg_images/",
+        "audio": "C:/Users/xiankang.zhan/Desktop/需求/娜维娅H5/娜维娅场景/loading页/loadingbgspine"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "mkl1",
+            "parent": "bone",
+            "x": -779.5,
+            "y": 384.5
+        },
+        {
+            "name": "mkl6",
+            "parent": "bone",
+            "x": 969.5,
+            "y": 407.5
+        },
+        {
+            "name": "mkl5",
+            "parent": "bone",
+            "x": 961,
+            "y": -45.5
+        },
+        {
+            "name": "mkl4",
+            "parent": "bone",
+            "x": 504.5,
+            "y": -197.5
+        },
+        {
+            "name": "mkl3",
+            "parent": "bone",
+            "x": -295.5,
+            "y": -413
+        },
+        {
+            "name": "mkl2",
+            "parent": "bone",
+            "x": -977,
+            "y": -127.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "mkl6",
+            "bone": "mkl6",
+            "attachment": "mkl6"
+        },
+        {
+            "name": "mkl5",
+            "bone": "mkl5",
+            "attachment": "mkl5"
+        },
+        {
+            "name": "mkl4",
+            "bone": "mkl4",
+            "attachment": "mkl4"
+        },
+        {
+            "name": "mkl3",
+            "bone": "mkl3",
+            "attachment": "mkl3"
+        },
+        {
+            "name": "mkl2",
+            "bone": "mkl2",
+            "attachment": "mkl2"
+        },
+        {
+            "name": "mkl1",
+            "bone": "mkl1",
+            "attachment": "mkl1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "mkl1": {
+                    "mkl1": {
+                        "width": 222,
+                        "height": 187
+                    }
+                },
+                "mkl2": {
+                    "mkl2": {
+                        "width": 229,
+                        "height": 187
+                    }
+                },
+                "mkl3": {
+                    "mkl3": {
+                        "width": 236,
+                        "height": 174
+                    }
+                },
+                "mkl4": {
+                    "mkl4": {
+                        "width": 226,
+                        "height": 171
+                    }
+                },
+                "mkl5": {
+                    "mkl5": {
+                        "width": 261,
+                        "height": 193
+                    }
+                },
+                "mkl6": {
+                    "mkl6": {
+                        "width": 234,
+                        "height": 185
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "mkl1": {
+            "rootBoneName": "mkl1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 7061,
+                    "rotateFreq": 5,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "mkl6": {
+            "rootBoneName": "mkl6",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.32,
+                    "moveXCenter": 0,
+                    "moveXSeed": 7062.23,
+                    "rotateFreq": 5,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "mkl5": {
+            "rootBoneName": "mkl5",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -2.02,
+                    "moveXCenter": 0,
+                    "moveXSeed": 7055.61,
+                    "rotateFreq": 5,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.18
+                }
+            }
+        },
+        "mkl4": {
+            "rootBoneName": "mkl4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -3.12,
+                    "moveXCenter": 0,
+                    "moveXSeed": 7059.69,
+                    "rotateFreq": 5,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.22
+                }
+            }
+        },
+        "mkl3": {
+            "rootBoneName": "mkl3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.64,
+                    "moveXCenter": 0,
+                    "moveXSeed": 7061.81,
+                    "rotateFreq": 5,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.3
+                }
+            }
+        },
+        "mkl2": {
+            "rootBoneName": "mkl2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -3.34,
+                    "moveXCenter": 0,
+                    "moveXSeed": 7056.55,
+                    "rotateFreq": 5,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.19
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

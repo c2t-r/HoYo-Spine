@@ -1,0 +1,218 @@
+{
+    "skeleton": {
+        "hash": "0wdf62FavPU",
+        "spine": "4.0-from-4.1.17",
+        "x": -113,
+        "y": -106,
+        "width": 226,
+        "height": 212.5
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "a",
+            "bone": "root",
+            "attachment": "loading_tingzi_a"
+        },
+        {
+            "name": "b",
+            "bone": "root",
+            "attachment": "亭子1_单色"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "loading_tingzi_a": {
+                        "width": 226,
+                        "height": 212
+                    },
+                    "loading_tingzi_b": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 392,
+                        "height": 143
+                    },
+                    "loading_tingzi_c": {
+                        "width": 153,
+                        "height": 78
+                    }
+                },
+                "b": {
+                    "亭子1_单色": {
+                        "y": 0.5,
+                        "width": 225,
+                        "height": 212
+                    },
+                    "亭子2_单色": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 393,
+                        "height": 143
+                    },
+                    "亭子3_单色": {
+                        "y": 0.5,
+                        "width": 152,
+                        "height": 78
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "b": {
+                    "attachment": [
+                        {
+                            "name": "亭子1_单色"
+                        }
+                    ]
+                }
+            }
+        },
+        "ab": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "a": {
+                    "attachment": [
+                        {
+                            "name": "loading_tingzi_b"
+                        }
+                    ]
+                },
+                "b": {
+                    "attachment": [
+                        {
+                            "name": "亭子2_单色"
+                        }
+                    ]
+                }
+            }
+        },
+        "bb": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "loading_tingzi_b"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "亭子2_单色"
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "a": {
+                    "attachment": [
+                        {
+                            "name": "loading_tingzi_c"
+                        }
+                    ]
+                },
+                "b": {
+                    "attachment": [
+                        {
+                            "name": "亭子3_单色"
+                        }
+                    ]
+                }
+            }
+        },
+        "cb": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "loading_tingzi_c"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "亭子3_单色"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

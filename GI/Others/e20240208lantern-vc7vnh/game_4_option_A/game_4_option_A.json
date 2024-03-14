@@ -1,0 +1,41 @@
+{
+    "skeleton": {
+        "hash": "A7APJeSfhEo",
+        "spine": "4.2.09-beta",
+        "x": -208.5,
+        "y": -271.5,
+        "width": 440,
+        "height": 432
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "game_4_option_A",
+            "bone": "root",
+            "attachment": "game_4_option_A"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "game_4_option_A": {
+                    "game_4_option_A": {
+                        "x": 11.5,
+                        "y": -55.5,
+                        "width": 440,
+                        "height": 432
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {},
+        "loop": {}
+    }
+}

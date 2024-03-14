@@ -1,0 +1,218 @@
+{
+    "skeleton": {
+        "hash": "w+U8uMN1dUU",
+        "spine": "4.0-from-4.1.23",
+        "x": -1339.99,
+        "y": -211.77,
+        "width": 2849.58,
+        "height": 542.7
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.54,
+            "scaleY": 0.54
+        },
+        {
+            "name": "a1",
+            "parent": "root",
+            "x": -5.66,
+            "y": 225.81
+        },
+        {
+            "name": "c2",
+            "parent": "root",
+            "x": -2.77,
+            "y": 107.39
+        },
+        {
+            "name": "b2",
+            "parent": "root",
+            "x": 3.01,
+            "y": 280.69
+        }
+    ],
+    "slots": [
+        {
+            "name": "a1",
+            "bone": "a1",
+            "color": "ffffff00",
+            "attachment": "a1"
+        },
+        {
+            "name": "台子",
+            "bone": "root",
+            "attachment": "台子"
+        },
+        {
+            "name": "c2",
+            "bone": "c2",
+            "color": "ffffff00",
+            "attachment": "c2"
+        },
+        {
+            "name": "c1",
+            "bone": "c2",
+            "color": "ffffff00",
+            "attachment": "c1"
+        },
+        {
+            "name": "b2",
+            "bone": "b2",
+            "color": "ffffff00",
+            "attachment": "b2"
+        },
+        {
+            "name": "b1",
+            "bone": "b2",
+            "color": "ffffff00",
+            "attachment": "b1"
+        },
+        {
+            "name": "a3",
+            "bone": "a1",
+            "color": "ffffff00",
+            "attachment": "a3"
+        },
+        {
+            "name": "a2",
+            "bone": "a1",
+            "color": "ffffff00",
+            "attachment": "a2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a1": {
+                    "a1": {
+                        "x": -1953.31,
+                        "y": -293.98,
+                        "width": 1045,
+                        "height": 648
+                    }
+                },
+                "a2": {
+                    "a2": {
+                        "x": -1038.81,
+                        "y": -442.48,
+                        "width": 796,
+                        "height": 333
+                    }
+                },
+                "a3": {
+                    "a3": {
+                        "x": 919.19,
+                        "y": -224.48,
+                        "width": 3116,
+                        "height": 787
+                    }
+                },
+                "b1": {
+                    "b1": {
+                        "x": 1790.03,
+                        "y": -313.36,
+                        "width": 1069,
+                        "height": 719
+                    }
+                },
+                "b2": {
+                    "b2": {
+                        "x": 207.03,
+                        "y": -170.36,
+                        "width": 5171,
+                        "height": 1005
+                    }
+                },
+                "c1": {
+                    "c1": {
+                        "x": 1867.81,
+                        "y": -244.06,
+                        "width": 1181,
+                        "height": 511
+                    }
+                },
+                "c2": {
+                    "c2": {
+                        "x": -312.19,
+                        "y": -60.56,
+                        "width": 4127,
+                        "height": 878
+                    }
+                },
+                "台子": {
+                    "台子": {
+                        "x": -30.96,
+                        "y": -124.67,
+                        "width": 3113,
+                        "height": 535
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "a1": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "a2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "a3": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "b1": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "b2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "c1": {
+                    "rgba": [
+                        {
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "c2": {
+                    "rgba": [
+                        {
+                            "color": "fffffffe"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

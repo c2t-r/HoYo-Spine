@@ -1,0 +1,444 @@
+{
+    "skeleton": {
+        "hash": "kRL4RZQ/tVs",
+        "spine": "4.0.33",
+        "x": -515.86,
+        "y": -827.81,
+        "width": 1601.79,
+        "height": 834.4,
+        "images": "../火鸟/images/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "ALL",
+            "parent": "root",
+            "x": 294.46,
+            "y": -1074.41,
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "color": "fff120ff"
+        },
+        {
+            "name": "地面",
+            "parent": "ALL",
+            "length": 1685.23,
+            "x": 41.85,
+            "y": -10.47,
+            "color": "fff120ff"
+        },
+        {
+            "name": "shitou09",
+            "parent": "地面",
+            "x": -1381.88,
+            "y": 1804.84,
+            "color": "e6ff00ff"
+        },
+        {
+            "name": "shitou10",
+            "parent": "地面",
+            "x": -948.33,
+            "y": 2218.02,
+            "color": "e6ff00ff"
+        },
+        {
+            "name": "shitou17",
+            "parent": "地面",
+            "x": -1236.39,
+            "y": 1187.99,
+            "color": "e6ff00ff"
+        },
+        {
+            "name": "shitou16",
+            "parent": "地面",
+            "x": -325.66,
+            "y": 1042.5,
+            "color": "e6ff00ff"
+        },
+        {
+            "name": "shitou13",
+            "parent": "地面",
+            "x": 954.61,
+            "y": 1784.47,
+            "color": "e6ff00ff"
+        },
+        {
+            "name": "shitou14",
+            "parent": "地面",
+            "x": 462.87,
+            "y": 1345.11,
+            "color": "e6ff00ff"
+        },
+        {
+            "name": "shitou15",
+            "parent": "地面",
+            "x": 1187.39,
+            "y": 1007.59,
+            "color": "e6ff00ff"
+        },
+        {
+            "name": "shitou11",
+            "parent": "地面",
+            "x": 1629.66,
+            "y": 1083.24,
+            "color": "e6ff00ff"
+        },
+        {
+            "name": "shitou12",
+            "parent": "地面",
+            "x": 1690.76,
+            "y": 940.66,
+            "color": "e6ff00ff"
+        }
+    ],
+    "slots": [
+        {
+            "name": "shitou17",
+            "bone": "shitou17",
+            "attachment": "shitou17"
+        },
+        {
+            "name": "shitou16",
+            "bone": "shitou16",
+            "attachment": "shitou16"
+        },
+        {
+            "name": "shitou15",
+            "bone": "shitou15",
+            "attachment": "shitou15"
+        },
+        {
+            "name": "shitou14",
+            "bone": "shitou14",
+            "attachment": "shitou14"
+        },
+        {
+            "name": "shitou13",
+            "bone": "shitou13",
+            "attachment": "shitou13"
+        },
+        {
+            "name": "shitou12",
+            "bone": "shitou12",
+            "attachment": "shitou12"
+        },
+        {
+            "name": "shitou11",
+            "bone": "shitou11",
+            "attachment": "shitou11"
+        },
+        {
+            "name": "shitou10",
+            "bone": "shitou10",
+            "attachment": "shitou10"
+        },
+        {
+            "name": "shitou09",
+            "bone": "shitou09",
+            "attachment": "shitou09"
+        },
+        {
+            "name": "地面2",
+            "bone": "地面",
+            "attachment": "地面 2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "shitou09": {
+                    "shitou09": {
+                        "x": -24.8,
+                        "y": 60.12,
+                        "width": 371,
+                        "height": 704
+                    }
+                },
+                "shitou10": {
+                    "shitou10": {
+                        "x": -8.85,
+                        "y": 13.45,
+                        "width": 540,
+                        "height": 963
+                    }
+                },
+                "shitou11": {
+                    "shitou11": {
+                        "x": -5.34,
+                        "y": 14.73,
+                        "width": 191,
+                        "height": 312
+                    }
+                },
+                "shitou12": {
+                    "shitou12": {
+                        "x": 17.06,
+                        "y": 91.81,
+                        "width": 458,
+                        "height": 811
+                    }
+                },
+                "shitou13": {
+                    "shitou13": {
+                        "x": -24.29,
+                        "y": 10.99,
+                        "width": 631,
+                        "height": 997
+                    }
+                },
+                "shitou14": {
+                    "shitou14": {
+                        "x": -14.55,
+                        "y": 139.86,
+                        "width": 725,
+                        "height": 1098
+                    }
+                },
+                "shitou15": {
+                    "shitou15": {
+                        "x": -40.56,
+                        "y": 62.88,
+                        "width": 660,
+                        "height": 829
+                    }
+                },
+                "shitou16": {
+                    "shitou16": {
+                        "x": 13.98,
+                        "y": 3.97,
+                        "width": 439,
+                        "height": 517
+                    }
+                },
+                "shitou17": {
+                    "shitou17": {
+                        "x": 24.21,
+                        "y": 10.98,
+                        "width": 300,
+                        "height": 544
+                    }
+                },
+                "地面2": {
+                    "地面 2": {
+                        "x": -309.66,
+                        "y": 1224.84,
+                        "width": 3516,
+                        "height": 714
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "shitou12": {
+            "rootBoneName": "shitou12",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.2,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 1.49,
+                    "moveYCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 2.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.02
+                }
+            }
+        },
+        "shitou11": {
+            "rootBoneName": "shitou11",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 5.58,
+                    "rotateFreq": 2,
+                    "rotateAmp": 2.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "shitou17": {
+            "rootBoneName": "shitou17",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": -2.73,
+                    "rotateFreq": 2,
+                    "rotateAmp": 2.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "shitou09": {
+            "rootBoneName": "shitou09",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.73,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.25,
+                    "moveYCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 2.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.18
+                }
+            }
+        },
+        "shitou10": {
+            "rootBoneName": "shitou10",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4.26,
+                    "rotateFreq": 2,
+                    "rotateAmp": 2.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "shitou14": {
+            "rootBoneName": "shitou14",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.16,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.47,
+                    "moveYCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 2.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.13
+                }
+            }
+        },
+        "shitou16": {
+            "rootBoneName": "shitou16",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": -5.63,
+                    "rotateFreq": 2,
+                    "rotateAmp": 2.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "shitou15": {
+            "rootBoneName": "shitou15",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.19,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -3.68,
+                    "moveYCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 2.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.05
+                }
+            }
+        },
+        "shitou13": {
+            "rootBoneName": "shitou13",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.22,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.58,
+                    "moveYCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 2.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.27
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

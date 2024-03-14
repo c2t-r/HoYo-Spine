@@ -1,0 +1,580 @@
+{
+    "skeleton": {
+        "hash": "M6knSfVYGCo",
+        "spine": "4.0-from-4.1.24",
+        "x": -1627,
+        "y": -768,
+        "width": 3364,
+        "height": 1393
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "front_yun_a",
+            "parent": "root",
+            "x": -1147.6,
+            "y": -455.23
+        },
+        {
+            "name": "front_yun_c",
+            "parent": "root",
+            "x": -636.61,
+            "y": -591.97
+        },
+        {
+            "name": "front_yun_b",
+            "parent": "root",
+            "x": 1033.68,
+            "y": -505.61
+        },
+        {
+            "name": "front_deng_bg_guan",
+            "parent": "root",
+            "x": 1177.61,
+            "y": -301.02
+        },
+        {
+            "name": "front_deng_c",
+            "parent": "root",
+            "x": 887.34,
+            "y": 291.53
+        },
+        {
+            "name": "front_deng_a2",
+            "parent": "root",
+            "x": 1147.33,
+            "y": 537.15
+        },
+        {
+            "name": "front_deng_a",
+            "parent": "front_deng_a2",
+            "length": 105.58,
+            "rotation": -68.68,
+            "x": 1.49,
+            "y": -5.73
+        },
+        {
+            "name": "front_deng_c2",
+            "parent": "front_deng_c",
+            "length": 49.4,
+            "rotation": -85.1,
+            "x": 4.87,
+            "y": -2.95
+        },
+        {
+            "name": "front_deng_b",
+            "parent": "front_deng_bg_guan",
+            "length": 104.52,
+            "rotation": -70.35,
+            "x": 3.56,
+            "y": 2.93
+        },
+        {
+            "name": "front_deng_b2",
+            "parent": "front_deng_b"
+        },
+        {
+            "name": "front_deng_a3",
+            "parent": "root",
+            "x": 1147.33,
+            "y": 537.15
+        },
+        {
+            "name": "front_deng_a4",
+            "parent": "front_deng_a3",
+            "length": 105.58,
+            "rotation": -68.68,
+            "x": 1.49,
+            "y": -5.73
+        }
+    ],
+    "slots": [
+        {
+            "name": "front_deng_a2",
+            "bone": "front_deng_a4",
+            "attachment": "front_deng_a"
+        },
+        {
+            "name": "front_deng_c",
+            "bone": "front_deng_c2",
+            "attachment": "front_deng_c"
+        },
+        {
+            "name": "front_yun_c",
+            "bone": "front_yun_c",
+            "attachment": "front_yun_c"
+        },
+        {
+            "name": "front_yun_b",
+            "bone": "front_yun_b",
+            "attachment": "front_yun_b"
+        },
+        {
+            "name": "front_yun_a",
+            "bone": "front_yun_a",
+            "attachment": "front_yun_a"
+        },
+        {
+            "name": "front_deng_bg_guan",
+            "bone": "front_deng_b2",
+            "attachment": "front_deng_bg_guan"
+        },
+        {
+            "name": "front_deng_b",
+            "bone": "front_deng_b",
+            "attachment": "front_deng_b"
+        },
+        {
+            "name": "front_deng_a",
+            "bone": "front_deng_a",
+            "attachment": "front_deng_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "front_deng_a": {
+                    "front_deng_a": {
+                        "x": 70.76,
+                        "y": 31.61,
+                        "rotation": 68.68,
+                        "width": 298,
+                        "height": 296
+                    }
+                },
+                "front_deng_a2": {
+                    "front_deng_a": {
+                        "x": 70.76,
+                        "y": 31.61,
+                        "rotation": 68.68,
+                        "width": 298,
+                        "height": 296
+                    }
+                },
+                "front_deng_b": {
+                    "front_deng_b": {
+                        "x": 3.76,
+                        "y": -2.59,
+                        "rotation": 70.35,
+                        "width": 250,
+                        "height": 235
+                    }
+                },
+                "front_deng_bg_guan": {
+                    "front_deng_bg_guan": {
+                        "x": 6.12,
+                        "y": -18.54,
+                        "rotation": 70.35,
+                        "width": 545,
+                        "height": 569
+                    }
+                },
+                "front_deng_c": {
+                    "front_deng_c": {
+                        "x": -0.07,
+                        "y": -1.71,
+                        "rotation": 85.1,
+                        "width": 201,
+                        "height": 185
+                    }
+                },
+                "front_yun_a": {
+                    "front_yun_a": {
+                        "x": -49.9,
+                        "y": 3.23,
+                        "width": 859,
+                        "height": 352
+                    }
+                },
+                "front_yun_b": {
+                    "front_yun_b": {
+                        "x": -53.68,
+                        "y": 43.11,
+                        "width": 1514,
+                        "height": 455
+                    }
+                },
+                "front_yun_c": {
+                    "front_yun_c": {
+                        "x": -80.39,
+                        "y": 17.47,
+                        "width": 918,
+                        "height": 387
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "bg1": {
+            "slots": {
+                "front_deng_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "front_deng_a2": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "front_deng_b": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "front_deng_bg_guan": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "front_deng_c": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "role": {
+            "slots": {
+                "front_deng_a2": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "skin": {
+            "slots": {
+                "front_deng_b": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "front_deng_bg_guan": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "front_deng_c": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "front_yun_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "front_yun_b": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "front_yun_c": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "front_deng_a2": {
+                    "translate": [
+                        {
+                            "y": -1157.72
+                        },
+                        {
+                            "time": 10,
+                            "y": 219.36,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 10.2,
+                            "y": -1157.72
+                        },
+                        {
+                            "time": 20.2,
+                            "y": 219.36
+                        }
+                    ]
+                },
+                "front_deng_a3": {
+                    "translate": [
+                        {
+                            "x": -73.12,
+                            "y": -1157.72,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.7333,
+                            "x": -73.12,
+                            "y": -1157.72
+                        },
+                        {
+                            "time": 19.4,
+                            "x": -76.17,
+                            "y": 219.36
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.728,
+                            "y": 0.728
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "front_yun_a": {
+            "rootBoneName": "front_yun_a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 6,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                },
+                "skin": {
+                    "name": "skin",
+                    "mode": 0
+                }
+            }
+        },
+        "front_yun_c": {
+            "rootBoneName": "front_yun_c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -3.0378631842527457,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -3.5132159803810215,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 6,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -5.692872671189673,
+                    "scaleXCenter": 0
+                },
+                "skin": {
+                    "name": "skin",
+                    "mode": 0
+                }
+            }
+        },
+        "front_yun_b": {
+            "rootBoneName": "front_yun_b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.4376055200384301,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 14,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.538774520500974,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 7,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -5.483853361268998,
+                    "scaleXCenter": 0
+                },
+                "skin": {
+                    "name": "skin",
+                    "mode": 0
+                }
+            }
+        },
+        "front_deng_b": {
+            "rootBoneName": "front_deng_b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 15,
+                    "moveYAmp": 50,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 10,
+                    "rotateFollowYMax": 10
+                },
+                "bg1": {
+                    "name": "bg1",
+                    "mode": 0
+                },
+                "skin": {
+                    "name": "skin",
+                    "mode": 0
+                }
+            }
+        },
+        "front_deng_c2": {
+            "rootBoneName": "front_deng_c2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -2.940171437636065,
+                    "moveXCenter": 0,
+                    "moveYFreq": 15,
+                    "moveYAmp": 50,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.6849740512961584,
+                    "moveYCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 10,
+                    "rotateFollowYMax": 10
+                },
+                "bg1": {
+                    "name": "bg1",
+                    "mode": 0
+                },
+                "skin": {
+                    "name": "skin",
+                    "mode": 0
+                }
+            }
+        },
+        "front_deng_a4": {
+            "rootBoneName": "front_deng_a4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.310722359435754,
+                    "moveXCenter": 0,
+                    "moveYFreq": 15,
+                    "moveYAmp": 50,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.280501604765138,
+                    "moveYCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 10,
+                    "rotateFollowYMax": 10
+                },
+                "bg1": {
+                    "name": "bg1",
+                    "mode": 0
+                }
+            }
+        },
+        "front_deng_a": {
+            "rootBoneName": "front_deng_a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.638961577798439,
+                    "moveXCenter": 0,
+                    "moveYFreq": 15,
+                    "moveYAmp": 50,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 1.3212252739716046,
+                    "moveYCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 10,
+                    "rotateFollowYMax": 10
+                },
+                "bg1": {
+                    "name": "bg1",
+                    "mode": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "front_deng_bg_guan": {
+            "slotName": "front_deng_bg_guan",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

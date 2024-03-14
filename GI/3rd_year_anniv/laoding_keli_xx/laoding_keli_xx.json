@@ -1,0 +1,86 @@
+{
+    "skeleton": {
+        "hash": "0r1td3tmfbk",
+        "spine": "4.1.17",
+        "x": -246.9,
+        "y": -123.82,
+        "width": 575.98,
+        "height": 248.63
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "laoding_keli_xx_b",
+            "parent": "root",
+            "x": -195.67,
+            "y": 73.9
+        },
+        {
+            "name": "laoding_keli_xx_a",
+            "parent": "root",
+            "x": 294.98,
+            "y": -89.8
+        }
+    ],
+    "slots": [
+        {
+            "name": "laoding_keli_xx_b",
+            "bone": "laoding_keli_xx_b",
+            "attachment": "laoding_keli_xx_b"
+        },
+        {
+            "name": "laoding_keli_xx_a",
+            "bone": "laoding_keli_xx_a",
+            "attachment": "laoding_keli_xx_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "laoding_keli_xx_a": {
+                    "laoding_keli_xx_a": {
+                        "x": 0.09,
+                        "y": -0.02,
+                        "width": 68,
+                        "height": 68
+                    }
+                },
+                "laoding_keli_xx_b": {
+                    "laoding_keli_xx_b": {
+                        "x": -0.23,
+                        "y": -0.59,
+                        "width": 102,
+                        "height": 103
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "laoding_keli_xx_b": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 12,
+                            "value": -360
+                        }
+                    ]
+                },
+                "laoding_keli_xx_a": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 12,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,932 @@
+{
+    "skeleton": {
+        "hash": "TQYDJgQZpCk",
+        "spine": "4.1.23",
+        "x": -133.12,
+        "y": -338.43,
+        "width": 429.6,
+        "height": 679.2,
+        "images": "./s_machine/image/",
+        "audio": "F:/【原】20230531 【移光拾影】原神拍照活动/0_首页/spine/./s_machine"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "length": 100,
+            "x": 82.78,
+            "y": -339.45,
+            "scaleX": 0.4,
+            "scaleY": 0.4
+        },
+        {
+            "name": "挂坠a",
+            "parent": "bone",
+            "length": 49,
+            "rotation": -89.05,
+            "x": -409.98,
+            "y": 1163.3
+        },
+        {
+            "name": "挂坠a2",
+            "parent": "挂坠a",
+            "length": 52.29,
+            "rotation": -2.74,
+            "x": 49
+        },
+        {
+            "name": "挂坠a3",
+            "parent": "挂坠a2",
+            "length": 137.21,
+            "rotation": 2.81,
+            "x": 52.29
+        },
+        {
+            "name": "挂坠b",
+            "parent": "bone",
+            "length": 59.71,
+            "rotation": -89.27,
+            "x": -1.41,
+            "y": 1063.19
+        },
+        {
+            "name": "挂坠b2",
+            "parent": "挂坠b",
+            "length": 59.7,
+            "rotation": -0.73,
+            "x": 59.71
+        },
+        {
+            "name": "挂坠b3",
+            "parent": "挂坠b2",
+            "length": 120.94,
+            "rotation": 0.73,
+            "x": 59.7
+        },
+        {
+            "name": "挂坠c",
+            "parent": "bone",
+            "length": 63.59,
+            "rotation": -89.31,
+            "x": 404.13,
+            "y": 1159.93
+        },
+        {
+            "name": "挂坠c2",
+            "parent": "挂坠c",
+            "length": 55.17,
+            "rotation": 0.11,
+            "x": 63.59
+        },
+        {
+            "name": "挂坠c3",
+            "parent": "挂坠c2",
+            "length": 124.88,
+            "rotation": -0.44,
+            "x": 55.17
+        },
+        {
+            "name": "光1",
+            "parent": "bone",
+            "length": 53.39,
+            "rotation": 15.65,
+            "x": 76.29,
+            "y": 1482.69
+        },
+        {
+            "name": "光2",
+            "parent": "挂坠a3",
+            "length": 40.03,
+            "rotation": 116.07,
+            "x": 42.5,
+            "y": 40.92
+        },
+        {
+            "name": "光3",
+            "parent": "挂坠b3",
+            "length": 63.15,
+            "rotation": 112.62,
+            "x": 41.62,
+            "y": 79.83
+        },
+        {
+            "name": "光4",
+            "parent": "挂坠c3",
+            "length": 27.74,
+            "rotation": 115.5,
+            "x": 36.17,
+            "y": 37.2
+        },
+        {
+            "name": "光5",
+            "parent": "bone",
+            "length": 60.09,
+            "rotation": 18.9,
+            "x": 82.74,
+            "y": 325.31
+        },
+        {
+            "name": "光6",
+            "parent": "bone",
+            "length": 63.79,
+            "rotation": 31.84,
+            "x": 415.44,
+            "y": 282.22
+        }
+    ],
+    "slots": [
+        {
+            "name": "下部、",
+            "bone": "bone",
+            "attachment": "下部、"
+        },
+        {
+            "name": "挂坠c",
+            "bone": "挂坠c",
+            "attachment": "挂坠c"
+        },
+        {
+            "name": "挂坠b",
+            "bone": "挂坠b",
+            "attachment": "挂坠b"
+        },
+        {
+            "name": "挂坠a",
+            "bone": "挂坠a",
+            "attachment": "挂坠a"
+        },
+        {
+            "name": "上面盖子",
+            "bone": "bone",
+            "attachment": "上面盖子"
+        },
+        {
+            "name": "发条",
+            "bone": "bone",
+            "attachment": "发条"
+        },
+        {
+            "name": "光6",
+            "bone": "光6",
+            "attachment": "光6"
+        },
+        {
+            "name": "光5",
+            "bone": "光5",
+            "attachment": "光5"
+        },
+        {
+            "name": "光4",
+            "bone": "光4",
+            "attachment": "光4"
+        },
+        {
+            "name": "光3",
+            "bone": "光3",
+            "attachment": "光3"
+        },
+        {
+            "name": "光2",
+            "bone": "光2",
+            "attachment": "光2"
+        },
+        {
+            "name": "光1",
+            "bone": "光1",
+            "attachment": "光1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "上面盖子": {
+                    "上面盖子": {
+                        "x": 1.23,
+                        "y": 1357.07,
+                        "width": 908,
+                        "height": 687
+                    }
+                },
+                "下部、": {
+                    "下部、": {
+                        "x": -2.77,
+                        "y": 637.57,
+                        "width": 1074,
+                        "height": 1270
+                    }
+                },
+                "光1": {
+                    "光1": {
+                        "x": 4.39,
+                        "y": -4.47,
+                        "rotation": -15.65,
+                        "width": 135,
+                        "height": 124
+                    }
+                },
+                "光2": {
+                    "光2": {
+                        "x": 1.56,
+                        "y": 0.09,
+                        "rotation": -27.1,
+                        "width": 112,
+                        "height": 121
+                    }
+                },
+                "光3": {
+                    "光3": {
+                        "x": 12.25,
+                        "y": 0.57,
+                        "rotation": -23.35,
+                        "width": 141,
+                        "height": 140
+                    }
+                },
+                "光4": {
+                    "光4": {
+                        "x": -2.18,
+                        "y": -0.24,
+                        "rotation": -25.86,
+                        "width": 96,
+                        "height": 103
+                    }
+                },
+                "光5": {
+                    "光5": {
+                        "x": -5.89,
+                        "y": 5.99,
+                        "rotation": -18.9,
+                        "width": 174,
+                        "height": 127
+                    }
+                },
+                "光6": {
+                    "光6": {
+                        "x": -1.83,
+                        "y": -7.28,
+                        "rotation": -31.84,
+                        "width": 147,
+                        "height": 175
+                    }
+                },
+                "发条": {
+                    "发条": {
+                        "x": 359.73,
+                        "y": 224.07,
+                        "width": 193,
+                        "height": 253
+                    }
+                },
+                "挂坠a": {
+                    "挂坠a": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.63152,
+                            0.2212,
+                            0.59652,
+                            0.43633,
+                            1,
+                            0.62907,
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.61597,
+                            0.40754,
+                            0.44018,
+                            0.37249,
+                            0.22274,
+                            0.3953,
+                            0,
+                            0.6136,
+                            0
+                        ],
+                        "triangles": [
+                            4,
+                            2,
+                            3,
+                            2,
+                            5,
+                            6,
+                            6,
+                            1,
+                            2,
+                            2,
+                            4,
+                            5,
+                            6,
+                            7,
+                            1,
+                            1,
+                            7,
+                            0,
+                            7,
+                            8,
+                            0,
+                            8,
+                            9,
+                            0
+                        ],
+                        "vertices": [
+                            2,
+                            2,
+                            49.72,
+                            14.01,
+                            0.53422,
+                            3,
+                            0.05,
+                            14.03,
+                            0.46578,
+                            2,
+                            3,
+                            52.42,
+                            11.64,
+                            0.3617,
+                            4,
+                            0.71,
+                            11.62,
+                            0.6383,
+                            1,
+                            4,
+                            48.36,
+                            57.17,
+                            1,
+                            1,
+                            4,
+                            138.49,
+                            55.56,
+                            1,
+                            1,
+                            4,
+                            136.43,
+                            -59.42,
+                            1,
+                            1,
+                            4,
+                            43.13,
+                            -57.75,
+                            1,
+                            2,
+                            3,
+                            54.04,
+                            -10.06,
+                            0.25118,
+                            4,
+                            1.25,
+                            -10.13,
+                            0.74882,
+                            2,
+                            2,
+                            49.6,
+                            -15.78,
+                            0.49026,
+                            3,
+                            1.35,
+                            -15.74,
+                            0.50974,
+                            1,
+                            2,
+                            -4.47,
+                            -12.26,
+                            1,
+                            1,
+                            2,
+                            -4.05,
+                            12.84,
+                            1
+                        ],
+                        "hull": 10,
+                        "edges": [
+                            6,
+                            8,
+                            8,
+                            10,
+                            10,
+                            12,
+                            6,
+                            4,
+                            2,
+                            4,
+                            12,
+                            14,
+                            14,
+                            16,
+                            16,
+                            18,
+                            18,
+                            0,
+                            0,
+                            2
+                        ],
+                        "width": 115,
+                        "height": 243
+                    }
+                },
+                "挂坠b": {
+                    "挂坠b": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.59231,
+                            0.24747,
+                            0.58248,
+                            0.44015,
+                            0.79044,
+                            0.46171,
+                            1,
+                            0.59591,
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.69222,
+                            0.19994,
+                            0.48432,
+                            0.40997,
+                            0.43946,
+                            0.40524,
+                            0.25867,
+                            0.39934,
+                            0,
+                            0.60493,
+                            0
+                        ],
+                        "triangles": [
+                            4,
+                            5,
+                            3,
+                            7,
+                            3,
+                            6,
+                            1,
+                            3,
+                            7,
+                            3,
+                            5,
+                            6,
+                            1,
+                            7,
+                            8,
+                            1,
+                            2,
+                            3,
+                            0,
+                            1,
+                            9,
+                            1,
+                            8,
+                            9,
+                            9,
+                            10,
+                            0,
+                            0,
+                            10,
+                            11
+                        ],
+                        "vertices": [
+                            2,
+                            5,
+                            59.92,
+                            12.57,
+                            0.52047,
+                            6,
+                            0.05,
+                            12.57,
+                            0.47953,
+                            2,
+                            6,
+                            46.88,
+                            11.17,
+                            0.96642,
+                            7,
+                            -12.68,
+                            11.33,
+                            0.03358,
+                            2,
+                            6,
+                            52.11,
+                            40.9,
+                            0.46701,
+                            7,
+                            -7.07,
+                            41,
+                            0.53299,
+                            2,
+                            6,
+                            84.73,
+                            70.87,
+                            0.11077,
+                            7,
+                            25.92,
+                            70.55,
+                            0.88923,
+                            1,
+                            7,
+                            124.11,
+                            69.31,
+                            1,
+                            1,
+                            7,
+                            122.3,
+                            -73.68,
+                            1,
+                            1,
+                            7,
+                            47.51,
+                            -72.73,
+                            1,
+                            2,
+                            6,
+                            57.61,
+                            -43.54,
+                            0.05958,
+                            7,
+                            -2.64,
+                            -43.51,
+                            0.94042,
+                            2,
+                            6,
+                            46.71,
+                            -13.5,
+                            0.72136,
+                            7,
+                            -13.16,
+                            -13.34,
+                            0.27864,
+                            2,
+                            5,
+                            62.3,
+                            -14.21,
+                            0.57462,
+                            6,
+                            2.78,
+                            -14.18,
+                            0.42538,
+                            1,
+                            5,
+                            -0.56,
+                            -14.25,
+                            1,
+                            1,
+                            5,
+                            -0.19,
+                            15.15,
+                            1
+                        ],
+                        "hull": 12,
+                        "edges": [
+                            8,
+                            10,
+                            16,
+                            18,
+                            18,
+                            20,
+                            20,
+                            22,
+                            22,
+                            0,
+                            0,
+                            2,
+                            2,
+                            4,
+                            8,
+                            6,
+                            4,
+                            6,
+                            16,
+                            14,
+                            10,
+                            12,
+                            14,
+                            12
+                        ],
+                        "width": 143,
+                        "height": 243
+                    }
+                },
+                "挂坠c": {
+                    "挂坠c": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.71186,
+                            0.26175,
+                            0.69831,
+                            0.47512,
+                            1,
+                            0.63802,
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.67096,
+                            0.41777,
+                            0.47571,
+                            0.38572,
+                            0.26594,
+                            0.39449,
+                            0,
+                            0.70309,
+                            0
+                        ],
+                        "triangles": [
+                            3,
+                            5,
+                            2,
+                            2,
+                            5,
+                            6,
+                            6,
+                            1,
+                            2,
+                            5,
+                            3,
+                            4,
+                            6,
+                            7,
+                            1,
+                            1,
+                            7,
+                            0,
+                            7,
+                            8,
+                            0,
+                            8,
+                            9,
+                            0
+                        ],
+                        "vertices": [
+                            2,
+                            8,
+                            64.15,
+                            14.41,
+                            0.4716,
+                            9,
+                            0.58,
+                            14.41,
+                            0.5284,
+                            2,
+                            9,
+                            52.41,
+                            12.56,
+                            0.57254,
+                            10,
+                            -2.85,
+                            12.54,
+                            0.42746,
+                            1,
+                            10,
+                            36.88,
+                            37.34,
+                            1,
+                            1,
+                            10,
+                            124.84,
+                            36.8,
+                            1,
+                            1,
+                            10,
+                            124.33,
+                            -46.2,
+                            1,
+                            1,
+                            10,
+                            44.38,
+                            -45.71,
+                            1,
+                            2,
+                            9,
+                            52.23,
+                            -10.72,
+                            0.52116,
+                            10,
+                            -2.85,
+                            -10.74,
+                            0.47884,
+                            2,
+                            8,
+                            64.84,
+                            -12.67,
+                            0.42579,
+                            9,
+                            1.22,
+                            -12.67,
+                            0.57421,
+                            1,
+                            8,
+                            0.23,
+                            -11.16,
+                            1,
+                            1,
+                            8,
+                            0.54,
+                            14.45,
+                            1
+                        ],
+                        "hull": 10,
+                        "edges": [
+                            6,
+                            8,
+                            8,
+                            10,
+                            12,
+                            10,
+                            6,
+                            4,
+                            2,
+                            4,
+                            12,
+                            14,
+                            14,
+                            16,
+                            16,
+                            18,
+                            18,
+                            0,
+                            0,
+                            2
+                        ],
+                        "width": 83,
+                        "height": 243
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "光2": {
+            "rootBoneName": "光2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 4,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 1.2000000000000002
+                }
+            }
+        },
+        "光3": {
+            "rootBoneName": "光3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.8385589134980314,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 4,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.11000434691697837
+                }
+            }
+        },
+        "光4": {
+            "rootBoneName": "光4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 8.252326336152782,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 4,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.15953192113397358
+                }
+            }
+        },
+        "光1": {
+            "rootBoneName": "光1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 7.09292083874477,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 4,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.4484077969164424
+                }
+            }
+        },
+        "光5": {
+            "rootBoneName": "光5",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 5.307068676808261,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 4,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.3360038670582859
+                }
+            }
+        },
+        "光6": {
+            "rootBoneName": "光6",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 9.819428649849383,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 4,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.6150633170658075
+                }
+            }
+        },
+        "挂坠a": {
+            "rootBoneName": "挂坠a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 3,
+                    "rotateRange": 1.5,
+                    "rotateOffset": 1.5,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.26,
+                    "springLevel": 0
+                }
+            },
+            "endBoneName": "挂坠a3"
+        },
+        "挂坠b": {
+            "rootBoneName": "挂坠b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 3,
+                    "rotateRange": 1.5,
+                    "rotateOffset": 2.2445075206389173,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.26,
+                    "springLevel": 0
+                }
+            },
+            "endBoneName": "挂坠b3"
+        },
+        "挂坠c": {
+            "rootBoneName": "挂坠c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 3,
+                    "rotateRange": 1.5,
+                    "rotateOffset": 1.7497803778033092,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.26,
+                    "springLevel": 0
+                }
+            },
+            "endBoneName": "挂坠c3"
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

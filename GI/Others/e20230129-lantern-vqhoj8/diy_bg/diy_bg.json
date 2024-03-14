@@ -1,0 +1,427 @@
+{
+    "skeleton": {
+        "hash": "G3g15VR1M2o",
+        "spine": "4.0-from-4.1.17",
+        "x": -746.08,
+        "y": -758.57,
+        "width": 1495,
+        "height": 1516
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "bone2",
+            "parent": "root"
+        },
+        {
+            "name": "特效2",
+            "parent": "bone2",
+            "x": -87.59,
+            "y": 124.93
+        },
+        {
+            "name": "特效3",
+            "parent": "特效2",
+            "x": -341.97,
+            "y": 111.87
+        },
+        {
+            "name": "特效1",
+            "parent": "bone2",
+            "x": 36.99,
+            "y": 169.75
+        },
+        {
+            "name": "特效4",
+            "parent": "特效1",
+            "x": 401.96,
+            "y": 164.28
+        }
+    ],
+    "slots": [
+        {
+            "name": "背景光",
+            "bone": "bone",
+            "color": "ffffff4c",
+            "attachment": "背景光"
+        },
+        {
+            "name": "特效2",
+            "bone": "特效3",
+            "attachment": "特效2"
+        },
+        {
+            "name": "特效1",
+            "bone": "特效4",
+            "attachment": "特效1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "特效1": {
+                    "特效1": {
+                        "x": -48.03,
+                        "y": -24.59,
+                        "width": 274,
+                        "height": 96
+                    }
+                },
+                "特效2": {
+                    "特效2": {
+                        "x": 36.48,
+                        "y": -11.86,
+                        "width": 158,
+                        "height": 49
+                    }
+                },
+                "背景光": {
+                    "背景光": {
+                        "x": 1.42,
+                        "y": -0.57,
+                        "width": 1495,
+                        "height": 1516
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "out": {
+            "slots": {
+                "特效1": {
+                    "rgba": [
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "特效2": {
+                    "rgba": [
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "背景光": {
+                    "rgba": [
+                        {
+                            "color": "ffffff4c",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff4c",
+                            "curve": [
+                                0.556,
+                                1,
+                                0.778,
+                                1,
+                                0.556,
+                                1,
+                                0.778,
+                                1,
+                                0.556,
+                                1,
+                                0.778,
+                                1,
+                                0.556,
+                                0.3,
+                                0.778,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "特效2": {
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.4,
+                            "x": 1.449,
+                            "y": 1.449
+                        }
+                    ]
+                },
+                "特效1": {
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.3333,
+                            "x": 1.449,
+                            "y": 1.449
+                        }
+                    ]
+                }
+            }
+        },
+        "over": {
+            "slots": {
+                "特效1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "特效2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "背景光": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff70"
+                        },
+                        {
+                            "time": 1.3667,
+                            "color": "ffffff4c"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "scale": [
+                        {
+                            "x": 0.3,
+                            "y": 0.3,
+                            "curve": [
+                                0.144,
+                                0.6,
+                                0.289,
+                                1.2,
+                                0.144,
+                                0.6,
+                                0.289,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": [
+                                0.744,
+                                1.2,
+                                1.056,
+                                1,
+                                0.744,
+                                1.2,
+                                1.056,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3667
+                        }
+                    ]
+                },
+                "特效2": {
+                    "scale": [
+                        {
+                            "x": 0.223,
+                            "y": 0.223,
+                            "curve": [
+                                0.089,
+                                0.469,
+                                0.178,
+                                1.237,
+                                0.089,
+                                0.469,
+                                0.178,
+                                1.237
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 1.237,
+                            "y": 1.237,
+                            "curve": [
+                                0.378,
+                                1.237,
+                                0.489,
+                                0.942,
+                                0.378,
+                                1.237,
+                                0.489,
+                                0.942
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "x": 0.942,
+                            "y": 0.942,
+                            "curve": [
+                                0.778,
+                                0.942,
+                                0.956,
+                                1,
+                                0.778,
+                                0.942,
+                                0.956,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1333
+                        }
+                    ]
+                },
+                "特效1": {
+                    "scale": [
+                        {
+                            "x": 0.223,
+                            "y": 0.223,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 0.223,
+                            "y": 0.223,
+                            "curve": [
+                                0.189,
+                                0.469,
+                                0.278,
+                                1.237,
+                                0.189,
+                                0.469,
+                                0.278,
+                                1.237
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "x": 1.237,
+                            "y": 1.237,
+                            "curve": [
+                                0.478,
+                                1.237,
+                                0.589,
+                                0.942,
+                                0.478,
+                                1.237,
+                                0.589,
+                                0.942
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "x": 0.942,
+                            "y": 0.942,
+                            "curve": [
+                                0.878,
+                                0.942,
+                                1.056,
+                                1,
+                                0.878,
+                                0.942,
+                                1.056,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2333
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.05
+                }
+            }
+        },
+        "特效3": {
+            "rootBoneName": "特效3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6342
+                }
+            }
+        },
+        "特效4": {
+            "rootBoneName": "特效4",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.55,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4.61,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

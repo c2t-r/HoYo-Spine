@@ -1,0 +1,262 @@
+{
+    "skeleton": {
+        "hash": "GhmawcdOGu8",
+        "spine": "4.1.17",
+        "x": -544.19,
+        "y": 84.15,
+        "width": 206,
+        "height": 206
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -405.58,
+            "y": -41.71
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "x": -35.52,
+            "y": 228.84
+        },
+        {
+            "name": "bone3",
+            "parent": "bone",
+            "x": -35.52,
+            "y": 228.84
+        },
+        {
+            "name": "bone4",
+            "parent": "bone",
+            "x": -35.52,
+            "y": 228.84
+        },
+        {
+            "name": "bone5",
+            "parent": "bone",
+            "x": -35.52,
+            "y": 228.84
+        },
+        {
+            "name": "bone6",
+            "parent": "bone",
+            "x": -35.52,
+            "y": 228.84
+        },
+        {
+            "name": "bone7",
+            "parent": "bone",
+            "x": -35.52,
+            "y": 228.84
+        },
+        {
+            "name": "bone8",
+            "parent": "bone",
+            "x": -35.52,
+            "y": 228.84
+        },
+        {
+            "name": "bone9",
+            "parent": "bone",
+            "x": -35.52,
+            "y": 228.84
+        }
+    ],
+    "slots": [
+        {
+            "name": "未选中圈b2",
+            "bone": "bone5",
+            "attachment": "未选中圈b"
+        },
+        {
+            "name": "未选中圈a2",
+            "bone": "bone2",
+            "attachment": "未选中圈a"
+        },
+        {
+            "name": "圈b",
+            "bone": "bone5",
+            "attachment": "圈b"
+        },
+        {
+            "name": "圈b2",
+            "bone": "bone5",
+            "attachment": "圈b2"
+        },
+        {
+            "name": "白底",
+            "bone": "bone",
+            "attachment": "白底"
+        },
+        {
+            "name": "圈a",
+            "bone": "bone2",
+            "attachment": "圈a"
+        },
+        {
+            "name": "圈a2",
+            "bone": "bone2",
+            "attachment": "圈a2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "抽中奖_亮",
+            "attachments": {
+                "圈a": {
+                    "圈a": {
+                        "x": -0.08,
+                        "y": 0.02,
+                        "width": 180,
+                        "height": 180
+                    }
+                },
+                "圈b": {
+                    "圈b": {
+                        "x": -0.08,
+                        "y": 0.02,
+                        "width": 206,
+                        "height": 206
+                    }
+                },
+                "白底": {
+                    "白底": {
+                        "x": -35.6,
+                        "y": 229.86,
+                        "width": 164,
+                        "height": 164
+                    }
+                }
+            }
+        },
+        {
+            "name": "抽奖时&未抽奖_暗",
+            "attachments": {
+                "未选中圈a2": {
+                    "未选中圈a": {
+                        "x": -0.08,
+                        "y": 0.02,
+                        "width": 180,
+                        "height": 180
+                    }
+                },
+                "未选中圈b2": {
+                    "未选中圈b": {
+                        "x": -0.08,
+                        "y": 0.02,
+                        "width": 206,
+                        "height": 206
+                    }
+                }
+            }
+        },
+        {
+            "name": "抽奖时_亮",
+            "attachments": {
+                "圈a2": {
+                    "圈a2": {
+                        "path": "圈a",
+                        "x": -0.08,
+                        "y": 0.02,
+                        "width": 180,
+                        "height": 180
+                    }
+                },
+                "圈b2": {
+                    "圈b2": {
+                        "path": "圈b",
+                        "x": -0.08,
+                        "y": 0.02,
+                        "width": 206,
+                        "height": 206
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone2": {
+                    "rotate": [
+                        {
+                            "value": 360
+                        },
+                        {
+                            "time": 18
+                        }
+                    ]
+                },
+                "bone3": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone4": {
+                    "rotate": [
+                        {
+                            "value": 360
+                        },
+                        {
+                            "time": 18
+                        }
+                    ]
+                },
+                "bone5": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone6": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone7": {
+                    "rotate": [
+                        {
+                            "value": 360
+                        },
+                        {
+                            "time": 18
+                        }
+                    ]
+                },
+                "bone8": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone9": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "skeleton": {
+        "hash": "LmwrepHT69g",
+        "spine": "4.0-from-4.1.17",
+        "x": -870.94,
+        "y": 1.16,
+        "width": 1917,
+        "height": 286
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "wutai_6_b2",
+            "bone": "root",
+            "attachment": "wutai_6_b2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "wutai_6_b2": {
+                    "wutai_6_b2": {
+                        "x": 87.56,
+                        "y": 144.16,
+                        "width": 1917,
+                        "height": 286
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

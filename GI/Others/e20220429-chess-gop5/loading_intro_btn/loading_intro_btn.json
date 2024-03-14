@@ -1,0 +1,40 @@
+{
+    "skeleton": {
+        "hash": "4rjOYuB2BGE",
+        "spine": "4.0.33",
+        "x": -112.5,
+        "y": -6,
+        "width": 238,
+        "height": 182
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "intro_btn",
+            "bone": "root",
+            "attachment": "intro_btn"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "intro_btn": {
+                    "intro_btn": {
+                        "x": 6.5,
+                        "y": 85,
+                        "width": 238,
+                        "height": 182
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

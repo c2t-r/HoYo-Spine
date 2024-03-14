@@ -1,0 +1,52 @@
+{
+    "skeleton": {
+        "hash": "dnHECx6vGes",
+        "spine": "4.0.33",
+        "x": -233.9,
+        "y": 99.63,
+        "width": 929,
+        "height": 522
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -52.24,
+            "y": -720.74
+        },
+        {
+            "name": "树叶剪影",
+            "parent": "bone",
+            "x": 309.1,
+            "y": 1193.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "树叶剪影",
+            "bone": "树叶剪影",
+            "attachment": "树叶剪影"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "树叶剪影": {
+                    "树叶剪影": {
+                        "x": -26.25,
+                        "y": -112.13,
+                        "width": 929,
+                        "height": 522
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

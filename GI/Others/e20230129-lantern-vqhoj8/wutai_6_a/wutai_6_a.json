@@ -1,0 +1,155 @@
+{
+    "skeleton": {
+        "hash": "UTX3fox8qwU",
+        "spine": "4.0-from-4.1.17",
+        "x": -1788.46,
+        "y": -648.76,
+        "width": 3558,
+        "height": 726
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -1787.46,
+            "y": 76.24
+        },
+        {
+            "name": "a风车1",
+            "parent": "root",
+            "x": 948.5,
+            "y": -334.26
+        },
+        {
+            "name": "a风车2",
+            "parent": "root",
+            "x": 1011.15,
+            "y": -345.37
+        },
+        {
+            "name": "a风车3",
+            "parent": "a风车2"
+        },
+        {
+            "name": "a风车4",
+            "parent": "a风车1"
+        }
+    ],
+    "slots": [
+        {
+            "name": "a1",
+            "bone": "root",
+            "attachment": "a1"
+        },
+        {
+            "name": "a2",
+            "bone": "root",
+            "attachment": "a2"
+        },
+        {
+            "name": "a13",
+            "bone": "root",
+            "attachment": "a13"
+        },
+        {
+            "name": "a风车2",
+            "bone": "a风车3",
+            "attachment": "a风车2"
+        },
+        {
+            "name": "a风车1",
+            "bone": "a风车4",
+            "attachment": "a风车1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a1": {
+                    "a1": {
+                        "x": 3023,
+                        "y": -377.5,
+                        "width": 1068,
+                        "height": 695
+                    }
+                },
+                "a2": {
+                    "a2": {
+                        "x": 1924,
+                        "y": -571,
+                        "width": 1134,
+                        "height": 308
+                    }
+                },
+                "a13": {
+                    "a13": {
+                        "x": 679,
+                        "y": -362,
+                        "width": 1360,
+                        "height": 726
+                    }
+                },
+                "a风车1": {
+                    "a风车1": {
+                        "x": 1,
+                        "y": -0.74,
+                        "width": 63,
+                        "height": 62
+                    }
+                },
+                "a风车2": {
+                    "a风车2": {
+                        "x": -0.15,
+                        "y": -0.13,
+                        "width": 62,
+                        "height": 61
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "a风车1": {
+            "rootBoneName": "a风车1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 1,
+                    "rotateFreq": 5,
+                    "rotateAmp": 200,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "a风车2": {
+            "rootBoneName": "a风车2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.14,
+                    "moveYCenter": 0,
+                    "rotateSpeed": 1,
+                    "rotateFreq": 5,
+                    "rotateAmp": 200,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 5
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

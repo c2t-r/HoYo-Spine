@@ -1,0 +1,658 @@
+{
+    "skeleton": {
+        "hash": "aTmXalDB4+Y",
+        "spine": "4.0.33",
+        "x": -199.63,
+        "y": -49.67,
+        "width": 503,
+        "height": 404
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 12.96
+        }
+    ],
+    "slots": [
+        {
+            "name": "yz_1",
+            "bone": "bone",
+            "attachment": "yz_1"
+        },
+        {
+            "name": "guang_7",
+            "bone": "bone",
+            "attachment": "guang_7"
+        },
+        {
+            "name": "guang_6",
+            "bone": "bone",
+            "attachment": "guang_6"
+        },
+        {
+            "name": "guang_5",
+            "bone": "bone",
+            "attachment": "guang_5"
+        },
+        {
+            "name": "guang_4",
+            "bone": "bone",
+            "attachment": "guang_4"
+        },
+        {
+            "name": "guang_3",
+            "bone": "bone",
+            "attachment": "guang_3"
+        },
+        {
+            "name": "guang_2",
+            "bone": "bone",
+            "attachment": "guang_2"
+        },
+        {
+            "name": "guang_1",
+            "bone": "bone",
+            "attachment": "guang_1"
+        },
+        {
+            "name": "hua_2",
+            "bone": "bone",
+            "attachment": "hua_2"
+        },
+        {
+            "name": "mogu_7",
+            "bone": "bone",
+            "attachment": "mogu_7"
+        },
+        {
+            "name": "mogu_6",
+            "bone": "bone",
+            "attachment": "mogu_6"
+        },
+        {
+            "name": "mogu_5",
+            "bone": "bone",
+            "attachment": "mogu_5"
+        },
+        {
+            "name": "mogu_4",
+            "bone": "bone",
+            "attachment": "mogu_4"
+        },
+        {
+            "name": "mogu_3",
+            "bone": "bone",
+            "attachment": "mogu_3"
+        },
+        {
+            "name": "mogu_2",
+            "bone": "bone",
+            "attachment": "mogu_2"
+        },
+        {
+            "name": "mogu_1",
+            "bone": "bone",
+            "attachment": "mogu_1"
+        },
+        {
+            "name": "hua_1",
+            "bone": "bone",
+            "attachment": "hua_1"
+        },
+        {
+            "name": "shi",
+            "bone": "bone",
+            "attachment": "shi"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "guang_1": {
+                    "guang_1": {
+                        "x": 31.9,
+                        "y": 286.33,
+                        "width": 135,
+                        "height": 136
+                    }
+                },
+                "guang_2": {
+                    "guang_2": {
+                        "x": 109.9,
+                        "y": 193.33,
+                        "width": 163,
+                        "height": 164
+                    }
+                },
+                "guang_3": {
+                    "guang_3": {
+                        "x": -0.1,
+                        "y": 156.83,
+                        "width": 233,
+                        "height": 233
+                    }
+                },
+                "guang_4": {
+                    "guang_4": {
+                        "x": -148.6,
+                        "y": 141.33,
+                        "width": 128,
+                        "height": 128
+                    }
+                },
+                "guang_5": {
+                    "guang_5": {
+                        "x": -88.6,
+                        "y": 210.83,
+                        "width": 190,
+                        "height": 189
+                    }
+                },
+                "guang_6": {
+                    "guang_6": {
+                        "x": 34.4,
+                        "y": 76.33,
+                        "width": 108,
+                        "height": 108
+                    }
+                },
+                "guang_7": {
+                    "guang_7": {
+                        "x": -99.6,
+                        "y": 72.33,
+                        "width": 90,
+                        "height": 90
+                    }
+                },
+                "hua_1": {
+                    "hua_1": {
+                        "x": 2.4,
+                        "y": -6.17,
+                        "width": 314,
+                        "height": 73
+                    }
+                },
+                "hua_2": {
+                    "hua_2": {
+                        "x": 16.4,
+                        "y": 23.83,
+                        "width": 124,
+                        "height": 31
+                    }
+                },
+                "mogu_1": {
+                    "mogu_1": {
+                        "x": 31.4,
+                        "y": 52.33,
+                        "width": 68,
+                        "height": 104
+                    }
+                },
+                "mogu_2": {
+                    "mogu_2": {
+                        "x": -87.1,
+                        "y": 57.83,
+                        "width": 81,
+                        "height": 99
+                    }
+                },
+                "mogu_3": {
+                    "mogu_3": {
+                        "x": -83.6,
+                        "y": 139.33,
+                        "width": 116,
+                        "height": 260
+                    }
+                },
+                "mogu_4": {
+                    "mogu_4": {
+                        "x": -114.1,
+                        "y": 98.33,
+                        "width": 139,
+                        "height": 192
+                    }
+                },
+                "mogu_5": {
+                    "mogu_5": {
+                        "x": 8.4,
+                        "y": 109.33,
+                        "width": 170,
+                        "height": 198
+                    }
+                },
+                "mogu_6": {
+                    "mogu_6": {
+                        "x": 28.4,
+                        "y": 241.33,
+                        "width": 62,
+                        "height": 158
+                    }
+                },
+                "mogu_7": {
+                    "mogu_7": {
+                        "x": 105.9,
+                        "y": 121.33,
+                        "width": 91,
+                        "height": 238
+                    }
+                },
+                "shi": {
+                    "shi": {
+                        "x": -78.1,
+                        "y": -22.67,
+                        "width": 69,
+                        "height": 42
+                    }
+                },
+                "yz_1": {
+                    "yz_1": {
+                        "x": 93.4,
+                        "y": 0.83,
+                        "width": 394,
+                        "height": 101
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "guang_1": {
+                    "alpha": [
+                        {
+                            "value": 0.40019998,
+                            "curve": [
+                                0.1,
+                                0.4,
+                                0.2,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "value": 1,
+                            "curve": [
+                                0.411,
+                                1,
+                                0.522,
+                                0.62
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": 0.6153,
+                            "curve": [
+                                0.789,
+                                0.62,
+                                0.944,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "value": 1,
+                            "curve": [
+                                1.256,
+                                1,
+                                1.411,
+                                0.4
+                            ]
+                        },
+                        {
+                            "time": 1.5667,
+                            "value": 0.40019998
+                        }
+                    ]
+                },
+                "guang_2": {
+                    "alpha": [
+                        {
+                            "value": 0.5763695,
+                            "curve": [
+                                0.056,
+                                0.48,
+                                0.111,
+                                0.4
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 0.40019998,
+                            "curve": [
+                                0.267,
+                                0.4,
+                                0.367,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": 1,
+                            "curve": [
+                                0.578,
+                                1,
+                                0.689,
+                                0.62
+                            ]
+                        },
+                        {
+                            "time": 0.8,
+                            "value": 0.6153,
+                            "curve": [
+                                0.956,
+                                0.62,
+                                1.111,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "value": 1,
+                            "curve": [
+                                1.367,
+                                1,
+                                1.467,
+                                0.75
+                            ]
+                        },
+                        {
+                            "time": 1.5667,
+                            "value": 0.5763695
+                        }
+                    ]
+                },
+                "guang_3": {
+                    "alpha": [
+                        {
+                            "value": 0.9636693,
+                            "curve": [
+                                0.133,
+                                0.84,
+                                0.267,
+                                0.4
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "value": 0.40019998,
+                            "curve": [
+                                0.5,
+                                0.4,
+                                0.6,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "value": 1,
+                            "curve": [
+                                0.811,
+                                1,
+                                0.922,
+                                0.62
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "value": 0.6153,
+                            "curve": [
+                                1.189,
+                                0.62,
+                                1.344,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "value": 1,
+                            "curve": [
+                                1.522,
+                                1,
+                                1.545,
+                                0.98
+                            ]
+                        },
+                        {
+                            "time": 1.5667,
+                            "value": 0.9636693
+                        }
+                    ]
+                },
+                "guang_4": {
+                    "alpha": [
+                        {
+                            "value": 0.8076503,
+                            "curve": [
+                                0.079,
+                                0.9,
+                                0.156,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "value": 1,
+                            "curve": [
+                                0.389,
+                                1,
+                                0.544,
+                                0.4
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "value": 0.40019998,
+                            "curve": [
+                                0.8,
+                                0.4,
+                                0.9,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "value": 1,
+                            "curve": [
+                                1.111,
+                                1,
+                                1.222,
+                                0.62
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "value": 0.6153,
+                            "curve": [
+                                1.412,
+                                0.62,
+                                1.49,
+                                0.71
+                            ]
+                        },
+                        {
+                            "time": 1.5667,
+                            "value": 0.8076503
+                        }
+                    ]
+                },
+                "guang_5": {
+                    "alpha": [
+                        {
+                            "value": 0.6983951,
+                            "curve": [
+                                0.034,
+                                0.65,
+                                0.067,
+                                0.62
+                            ]
+                        },
+                        {
+                            "time": 0.1,
+                            "value": 0.6153,
+                            "curve": [
+                                0.256,
+                                0.62,
+                                0.411,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 1,
+                            "curve": [
+                                0.722,
+                                1,
+                                0.878,
+                                0.4
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "value": 0.40019998,
+                            "curve": [
+                                1.133,
+                                0.4,
+                                1.233,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "value": 1,
+                            "curve": [
+                                1.411,
+                                1,
+                                1.49,
+                                0.81
+                            ]
+                        },
+                        {
+                            "time": 1.5667,
+                            "value": 0.6983951
+                        }
+                    ]
+                },
+                "guang_6": {
+                    "alpha": [
+                        {
+                            "value": 0.9892284,
+                            "curve": [
+                                0.101,
+                                0.93,
+                                0.2,
+                                0.62
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "value": 0.6153,
+                            "curve": [
+                                0.456,
+                                0.62,
+                                0.611,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7667,
+                            "value": 1,
+                            "curve": [
+                                0.922,
+                                1,
+                                1.078,
+                                0.4
+                            ]
+                        },
+                        {
+                            "time": 1.2333,
+                            "value": 0.40019998,
+                            "curve": [
+                                1.333,
+                                0.4,
+                                1.433,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5333,
+                            "value": 1,
+                            "curve": [
+                                1.545,
+                                1,
+                                1.556,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5667,
+                            "value": 0.9892284
+                        }
+                    ]
+                },
+                "guang_7": {
+                    "alpha": [
+                        {
+                            "value": 0.80764985,
+                            "curve": [
+                                0.056,
+                                0.71,
+                                0.111,
+                                0.62
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 0.6153,
+                            "curve": [
+                                0.322,
+                                0.62,
+                                0.478,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": 1,
+                            "curve": [
+                                0.789,
+                                1,
+                                0.944,
+                                0.4
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "value": 0.40019998,
+                            "curve": [
+                                1.2,
+                                0.4,
+                                1.3,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.4,
+                            "value": 1,
+                            "curve": [
+                                1.456,
+                                1,
+                                1.512,
+                                0.9
+                            ]
+                        },
+                        {
+                            "time": 1.5667,
+                            "value": 0.80764985
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

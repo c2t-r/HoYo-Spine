@@ -1,0 +1,134 @@
+{
+    "skeleton": {
+        "hash": "kb8VlHTxiBA",
+        "spine": "4.0-from-4.1.24",
+        "x": -965,
+        "y": -823.5,
+        "width": 1115,
+        "height": 945,
+        "images": "./wuqi_xiangji_l/tex/",
+        "audio": "D:/work_2023/原神_1209_4.3预热/spine/wuqi_xiangji_l"
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "灯光",
+            "bone": "root",
+            "attachment": "灯光"
+        },
+        {
+            "name": "机身",
+            "bone": "root",
+            "attachment": "机身"
+        },
+        {
+            "name": "连接",
+            "bone": "root",
+            "attachment": "连接"
+        },
+        {
+            "name": "手柄",
+            "bone": "root",
+            "attachment": "手柄"
+        },
+        {
+            "name": "边框发亮",
+            "bone": "root",
+            "attachment": "边框发亮",
+            "blend": "additive"
+        },
+        {
+            "name": "手柄发亮",
+            "bone": "root",
+            "attachment": "手柄发亮",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "手柄": {
+                    "手柄": {
+                        "x": -525.5,
+                        "y": -392.5,
+                        "width": 141,
+                        "height": 52
+                    }
+                },
+                "手柄发亮": {
+                    "手柄发亮": {
+                        "x": -498.5,
+                        "y": -390.5,
+                        "width": 85,
+                        "height": 44
+                    }
+                },
+                "机身": {
+                    "机身": {
+                        "x": -756.5,
+                        "y": -514,
+                        "width": 417,
+                        "height": 619
+                    }
+                },
+                "灯光": {
+                    "灯光": {
+                        "x": -355.5,
+                        "y": -249,
+                        "width": 1011,
+                        "height": 741
+                    }
+                },
+                "边框发亮": {
+                    "边框发亮": {
+                        "x": -718,
+                        "y": -387,
+                        "width": 336,
+                        "height": 363
+                    }
+                },
+                "连接": {
+                    "连接": {
+                        "x": -573.5,
+                        "y": -430,
+                        "width": 53,
+                        "height": 103
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {},
+        "b": {
+            "slots": {
+                "手柄发亮": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "灯光": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "边框发亮": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

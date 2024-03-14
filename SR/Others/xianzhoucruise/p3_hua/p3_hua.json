@@ -1,0 +1,217 @@
+{
+    "skeleton": {
+        "hash": "egmAJt5cLH0",
+        "spine": "4.0-from-4.1.22",
+        "x": -714,
+        "y": -319,
+        "width": 1428,
+        "height": 708.37
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "光2",
+            "parent": "root",
+            "x": 291.86,
+            "y": 87.87,
+            "scaleX": 1.5616,
+            "scaleY": 1.5616
+        },
+        {
+            "name": "光3",
+            "parent": "root",
+            "x": -266.94,
+            "y": 70.56,
+            "scaleX": 1.5414,
+            "scaleY": 1.5414
+        }
+    ],
+    "slots": [
+        {
+            "name": "p3_hua_a",
+            "bone": "root",
+            "attachment": "p3_hua_a"
+        },
+        {
+            "name": "光2",
+            "bone": "光2",
+            "attachment": "光2",
+            "blend": "additive"
+        },
+        {
+            "name": "光3",
+            "bone": "光3",
+            "attachment": "光2",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "p3_hua_a": {
+                    "p3_hua_a": {
+                        "width": 1428,
+                        "height": 638
+                    },
+                    "p3_hua_b": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 1205,
+                        "height": 619
+                    },
+                    "p3_hua_c": {
+                        "y": 0.5,
+                        "width": 1482,
+                        "height": 569
+                    }
+                },
+                "光2": {
+                    "光2": {
+                        "x": 2.55,
+                        "y": 22.57,
+                        "width": 405,
+                        "height": 341
+                    }
+                },
+                "光3": {
+                    "光2": {
+                        "x": 2.55,
+                        "y": 22.57,
+                        "width": 405,
+                        "height": 341
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "光3": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "光2": {
+                    "translate": [
+                        {
+                            "x": -356.05,
+                            "y": 2.47
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.253,
+                            "y": 1.253
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "p3_hua_a": {
+                    "attachment": [
+                        {
+                            "name": "p3_hua_b"
+                        }
+                    ]
+                },
+                "光2": {
+                    "attachment": [
+                        {
+                            "name": "光2"
+                        }
+                    ]
+                },
+                "光3": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "光2": {
+                    "translate": [
+                        {
+                            "x": -252.2,
+                            "y": -19.78
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.306,
+                            "y": 1.306
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "p3_hua_a": {
+                    "attachment": [
+                        {
+                            "name": "p3_hua_c"
+                        }
+                    ]
+                },
+                "光2": {
+                    "attachment": [
+                        {
+                            "name": "光2"
+                        }
+                    ]
+                },
+                "光3": {
+                    "attachment": [
+                        {
+                            "name": "光2"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {},
+    "extraSlot": {
+        "光2": {
+            "slotName": "光2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0,
+                    "min": 0.4,
+                    "max": 0.8
+                }
+            }
+        },
+        "光3": {
+            "slotName": "光3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0.3348522579307922,
+                    "min": 0.4,
+                    "max": 0.8
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

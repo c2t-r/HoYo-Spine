@@ -1,0 +1,601 @@
+{
+    "skeleton": {
+        "hash": "/HHbOQVGYas",
+        "spine": "4.0.33",
+        "x": -127.58,
+        "y": 1.52,
+        "width": 250.53,
+        "height": 253.27
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "架子",
+            "parent": "root",
+            "x": -7.41,
+            "y": 6.27,
+            "scaleX": 0.3914,
+            "scaleY": 0.3914
+        },
+        {
+            "name": "烟a",
+            "parent": "架子",
+            "x": 4.97,
+            "y": 222.91
+        },
+        {
+            "name": "烟",
+            "parent": "烟a",
+            "x": 46.73,
+            "y": 10.16,
+            "scaleX": 0.5133,
+            "scaleY": 0.5133
+        },
+        {
+            "name": "烟a3",
+            "parent": "架子",
+            "x": 4.97,
+            "y": 222.91
+        },
+        {
+            "name": "烟3",
+            "parent": "烟a3",
+            "x": 46.73,
+            "y": 10.16,
+            "scaleX": 0.5133,
+            "scaleY": 0.5133
+        },
+        {
+            "name": "烟a4",
+            "parent": "架子",
+            "x": 4.97,
+            "y": 222.91
+        },
+        {
+            "name": "烟4",
+            "parent": "烟a4",
+            "x": 46.73,
+            "y": 10.16,
+            "scaleX": 0.5133,
+            "scaleY": 0.5133
+        },
+        {
+            "name": "烟a5",
+            "parent": "架子",
+            "x": 4.97,
+            "y": 222.91
+        },
+        {
+            "name": "烟5",
+            "parent": "烟a5",
+            "x": 46.73,
+            "y": 10.16,
+            "scaleX": 0.5133,
+            "scaleY": 0.5133
+        }
+    ],
+    "slots": [
+        {
+            "name": "柴",
+            "bone": "架子",
+            "attachment": "柴"
+        },
+        {
+            "name": "锅",
+            "bone": "架子",
+            "attachment": "锅"
+        },
+        {
+            "name": "烟",
+            "bone": "烟",
+            "color": "ffffff87",
+            "attachment": "烟"
+        },
+        {
+            "name": "烟3",
+            "bone": "烟3",
+            "color": "ffffff87",
+            "attachment": "烟"
+        },
+        {
+            "name": "烟4",
+            "bone": "烟4",
+            "color": "ffffff66",
+            "attachment": "烟"
+        },
+        {
+            "name": "烟5",
+            "bone": "烟5",
+            "color": "ffffff66",
+            "attachment": "烟"
+        },
+        {
+            "name": "绳",
+            "bone": "架子",
+            "attachment": "绳"
+        },
+        {
+            "name": "架子",
+            "bone": "架子",
+            "attachment": "架子"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "架子": {
+                    "架子": {
+                        "x": 13.02,
+                        "y": 311.37,
+                        "width": 640,
+                        "height": 647
+                    }
+                },
+                "柴": {
+                    "柴": {
+                        "x": 14.02,
+                        "y": 115.37,
+                        "width": 386,
+                        "height": 129
+                    }
+                },
+                "烟": {
+                    "烟": {
+                        "width": 208,
+                        "height": 134
+                    }
+                },
+                "烟3": {
+                    "烟": {
+                        "width": 208,
+                        "height": 134
+                    }
+                },
+                "烟4": {
+                    "烟": {
+                        "scaleX": 0.4669,
+                        "scaleY": 0.4669,
+                        "width": 208,
+                        "height": 134
+                    }
+                },
+                "烟5": {
+                    "烟": {
+                        "scaleX": 0.4669,
+                        "scaleY": 0.4669,
+                        "width": 208,
+                        "height": 134
+                    }
+                },
+                "绳": {
+                    "绳": {
+                        "x": -15.98,
+                        "y": 286.37,
+                        "width": 342,
+                        "height": 191
+                    }
+                },
+                "锅": {
+                    "锅": {
+                        "x": 9.52,
+                        "y": 188.37,
+                        "width": 279,
+                        "height": 173
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "烟": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffff87",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffff87"
+                        },
+                        {
+                            "time": 3.9333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "烟3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff87",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff87"
+                        },
+                        {
+                            "time": 1.9667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.0333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffff87",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffff87"
+                        }
+                    ]
+                },
+                "烟4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff87",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff87"
+                        },
+                        {
+                            "time": 2.5,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.9333,
+                            "color": "ffffff87",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffff87"
+                        }
+                    ]
+                },
+                "烟5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff5e"
+                        },
+                        {
+                            "time": 0.8667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffff87",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6333,
+                            "color": "ffffff87"
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffff5e"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "烟": {
+                    "translatex": [
+                        {
+                            "curve": [
+                                1.311,
+                                0,
+                                2.623,
+                                220.09
+                            ]
+                        },
+                        {
+                            "time": 3.9333,
+                            "value": 220.09,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4
+                        }
+                    ],
+                    "translatey": [
+                        {},
+                        {
+                            "time": 3.9333,
+                            "value": 243.79,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4
+                        }
+                    ],
+                    "scale": [
+                        {},
+                        {
+                            "time": 3.9333,
+                            "x": 2.235,
+                            "y": 2.235,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4
+                        }
+                    ]
+                },
+                "烟3": {
+                    "translatex": [
+                        {
+                            "value": 110.05,
+                            "curve": [
+                                0.663,
+                                164.7,
+                                1.316,
+                                220.09
+                            ]
+                        },
+                        {
+                            "time": 1.9667,
+                            "value": 220.09,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.0333,
+                            "curve": [
+                                2.693,
+                                0,
+                                3.355,
+                                54.66
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "value": 110.05
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 121.9
+                        },
+                        {
+                            "time": 1.9667,
+                            "value": 243.79,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.0333
+                        },
+                        {
+                            "time": 4,
+                            "value": 121.9
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.618,
+                            "y": 1.618
+                        },
+                        {
+                            "time": 1.9667,
+                            "x": 2.235,
+                            "y": 2.235,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.0333
+                        },
+                        {
+                            "time": 4,
+                            "x": 1.618,
+                            "y": 1.618
+                        }
+                    ]
+                },
+                "烟4": {
+                    "translatex": [
+                        {
+                            "value": 103.38,
+                            "curve": [
+                                0.046,
+                                104.53,
+                                0.093,
+                                105.75
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "value": 105.75,
+                            "curve": [
+                                0.506,
+                                105.75,
+                                0.861,
+                                40.34
+                            ]
+                        },
+                        {
+                            "time": 1.2333,
+                            "value": 40.34,
+                            "curve": [
+                                1.649,
+                                40.34,
+                                2.085,
+                                129.73
+                            ]
+                        },
+                        {
+                            "time": 2.5,
+                            "value": 129.73,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5667,
+                            "curve": [
+                                3.058,
+                                0,
+                                3.514,
+                                89.56
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "value": 103.38
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 154.68
+                        },
+                        {
+                            "time": 2.5,
+                            "value": 416.97,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5667
+                        },
+                        {
+                            "time": 4,
+                            "value": 154.68
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.586,
+                            "y": 1.586
+                        },
+                        {
+                            "time": 2.5,
+                            "x": 2.579,
+                            "y": 2.579,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5667
+                        },
+                        {
+                            "time": 4,
+                            "x": 1.586,
+                            "y": 1.586
+                        }
+                    ]
+                },
+                "烟5": {
+                    "translatex": [
+                        {
+                            "value": 57.85,
+                            "curve": [
+                                0.299,
+                                83.87,
+                                0.569,
+                                129.73
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "value": 129.73,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9667,
+                            "curve": [
+                                1.499,
+                                0,
+                                2.034,
+                                105.75
+                            ]
+                        },
+                        {
+                            "time": 2.5667,
+                            "value": 105.75,
+                            "curve": [
+                                2.939,
+                                105.75,
+                                3.327,
+                                40.34
+                            ]
+                        },
+                        {
+                            "time": 3.7,
+                            "value": 40.34,
+                            "curve": [
+                                3.818,
+                                40.34,
+                                3.884,
+                                47.56
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "value": 57.85
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 322.82
+                        },
+                        {
+                            "time": 0.8667,
+                            "value": 416.97,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9667
+                        },
+                        {
+                            "time": 4,
+                            "value": 322.82
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 2.222,
+                            "y": 2.222
+                        },
+                        {
+                            "time": 0.8667,
+                            "x": 2.579,
+                            "y": 2.579,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9667
+                        },
+                        {
+                            "time": 4,
+                            "x": 2.222,
+                            "y": 2.222
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,408 @@
+{
+    "skeleton": {
+        "hash": "cUuE+xvAn5Y",
+        "spine": "4.1.17",
+        "x": -918.32,
+        "y": -34.04,
+        "width": 284,
+        "height": 284
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -740.67,
+            "y": -123.02
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "x": -35.62,
+            "y": 230.96
+        },
+        {
+            "name": "bone3",
+            "parent": "bone",
+            "x": -35.62,
+            "y": 230.96
+        },
+        {
+            "name": "bone4",
+            "parent": "bone",
+            "x": -35.62,
+            "y": 230.96
+        },
+        {
+            "name": "bone5",
+            "parent": "bone",
+            "x": -35.62,
+            "y": 230.96
+        },
+        {
+            "name": "bone6",
+            "parent": "bone",
+            "x": -35.62,
+            "y": 230.96
+        },
+        {
+            "name": "bone7",
+            "parent": "bone",
+            "x": -35.62,
+            "y": 230.96
+        },
+        {
+            "name": "bone8",
+            "parent": "bone",
+            "x": -35.62,
+            "y": 230.96
+        },
+        {
+            "name": "bone9",
+            "parent": "bone",
+            "x": -35.62,
+            "y": 230.96
+        }
+    ],
+    "slots": [
+        {
+            "name": "未选中圈d",
+            "bone": "bone9",
+            "attachment": "未选中圈d"
+        },
+        {
+            "name": "未选中圈c",
+            "bone": "bone6",
+            "attachment": "未选中圈c"
+        },
+        {
+            "name": "未选中圈b",
+            "bone": "bone7",
+            "attachment": "未选中圈b"
+        },
+        {
+            "name": "未选中圈a",
+            "bone": "bone3",
+            "attachment": "未选中圈a"
+        },
+        {
+            "name": "未选中圈e",
+            "bone": "bone4",
+            "attachment": "未选中圈e"
+        },
+        {
+            "name": "未选中圈e2",
+            "bone": "bone4",
+            "attachment": "未选中圈e2"
+        },
+        {
+            "name": "金币未选中",
+            "bone": "bone",
+            "attachment": "金币未选中"
+        },
+        {
+            "name": "白底",
+            "bone": "bone",
+            "attachment": "白底"
+        },
+        {
+            "name": "圈d",
+            "bone": "bone9",
+            "attachment": "圈d"
+        },
+        {
+            "name": "圈d2",
+            "bone": "bone9",
+            "attachment": "圈d2"
+        },
+        {
+            "name": "圈c",
+            "bone": "bone6",
+            "attachment": "圈c"
+        },
+        {
+            "name": "圈c2",
+            "bone": "bone6",
+            "attachment": "圈c2"
+        },
+        {
+            "name": "圈b",
+            "bone": "bone7",
+            "attachment": "圈b"
+        },
+        {
+            "name": "圈b2",
+            "bone": "bone7",
+            "attachment": "圈b2"
+        },
+        {
+            "name": "圈a",
+            "bone": "bone3",
+            "attachment": "圈a"
+        },
+        {
+            "name": "圈a2",
+            "bone": "bone3",
+            "attachment": "圈a2"
+        },
+        {
+            "name": "金币选中",
+            "bone": "bone",
+            "attachment": "金币选中"
+        },
+        {
+            "name": "金币选中2",
+            "bone": "bone",
+            "attachment": "金币选中"
+        }
+    ],
+    "skins": [
+        {
+            "name": "抽中奖_亮",
+            "attachments": {
+                "圈a": {
+                    "圈a": {
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 204,
+                        "height": 204
+                    }
+                },
+                "圈b": {
+                    "圈b": {
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 248,
+                        "height": 248
+                    }
+                },
+                "圈c": {
+                    "圈c": {
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 284,
+                        "height": 284
+                    }
+                },
+                "圈d": {
+                    "圈d": {
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 270,
+                        "height": 270
+                    }
+                },
+                "白底": {
+                    "白底": {
+                        "x": -35.64,
+                        "y": 230.97,
+                        "width": 218,
+                        "height": 218
+                    }
+                },
+                "金币选中": {
+                    "金币选中": {
+                        "x": -32.64,
+                        "y": 221.97,
+                        "width": 174,
+                        "height": 178
+                    }
+                }
+            }
+        },
+        {
+            "name": "抽奖时&未抽奖_暗",
+            "attachments": {
+                "未选中圈a": {
+                    "未选中圈a": {
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 204,
+                        "height": 204
+                    }
+                },
+                "未选中圈b": {
+                    "未选中圈b": {
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 248,
+                        "height": 248
+                    }
+                },
+                "未选中圈c": {
+                    "未选中圈c": {
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 284,
+                        "height": 284
+                    }
+                },
+                "未选中圈d": {
+                    "未选中圈d": {
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 270,
+                        "height": 270
+                    }
+                },
+                "未选中圈e": {
+                    "未选中圈e": {
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 174,
+                        "height": 174
+                    }
+                },
+                "金币未选中": {
+                    "金币未选中": {
+                        "x": -28.14,
+                        "y": 221.47,
+                        "width": 165,
+                        "height": 175
+                    }
+                }
+            }
+        },
+        {
+            "name": "抽奖时_亮",
+            "attachments": {
+                "圈a2": {
+                    "圈a2": {
+                        "path": "圈a",
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 204,
+                        "height": 204
+                    }
+                },
+                "圈b2": {
+                    "圈b2": {
+                        "path": "圈b",
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 248,
+                        "height": 248
+                    }
+                },
+                "圈c2": {
+                    "圈c2": {
+                        "path": "圈c",
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 284,
+                        "height": 284
+                    }
+                },
+                "圈d2": {
+                    "圈d2": {
+                        "path": "圈d",
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 270,
+                        "height": 270
+                    }
+                },
+                "未选中圈e2": {
+                    "未选中圈e2": {
+                        "name": "ce",
+                        "x": -0.02,
+                        "y": 0.01,
+                        "width": 174,
+                        "height": 174
+                    }
+                },
+                "金币选中2": {
+                    "金币选中": {
+                        "x": -32.64,
+                        "y": 221.97,
+                        "width": 174,
+                        "height": 178
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone2": {
+                    "rotate": [
+                        {
+                            "value": 360
+                        },
+                        {
+                            "time": 18
+                        }
+                    ]
+                },
+                "bone3": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone4": {
+                    "rotate": [
+                        {
+                            "value": 360
+                        },
+                        {
+                            "time": 18
+                        }
+                    ]
+                },
+                "bone5": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone6": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone7": {
+                    "rotate": [
+                        {
+                            "value": 360
+                        },
+                        {
+                            "time": 18
+                        }
+                    ]
+                },
+                "bone8": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                },
+                "bone9": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 18,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,243 @@
+{
+    "skeleton": {
+        "hash": "ZgnKZfMaGjs",
+        "spine": "4.1.23",
+        "x": 814.2,
+        "y": -631.83,
+        "width": 174.21,
+        "height": 112.46
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.3513,
+            "scaleY": 0.3513
+        },
+        {
+            "name": "a",
+            "parent": "root",
+            "rotation": 147.24,
+            "x": 2778.6,
+            "y": -1771.39
+        },
+        {
+            "name": "chuan_1_3",
+            "parent": "a",
+            "x": 28.73,
+            "y": -2.6
+        },
+        {
+            "name": "chuan_1_1",
+            "parent": "a",
+            "x": 237.89,
+            "y": -4.66,
+            "scaleX": 0.9,
+            "scaleY": 0.9
+        },
+        {
+            "name": "chuan_1_4",
+            "parent": "chuan_1_1",
+            "x": -105.25,
+            "y": 0.58
+        }
+    ],
+    "slots": [
+        {
+            "name": "chuan_1_2",
+            "bone": "chuan_1_3",
+            "attachment": "chuan_1_2"
+        },
+        {
+            "name": "chuan_1_1",
+            "bone": "chuan_1_1",
+            "attachment": "chuan_1_1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "chuan_1_1": {
+                    "chuan_1_1": {
+                        "x": 44.15,
+                        "y": 15.76,
+                        "rotation": -147.24,
+                        "width": 494,
+                        "height": 335
+                    }
+                },
+                "chuan_1_2": {
+                    "chuan_1_2": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.09661,
+                            0.88884,
+                            1,
+                            1,
+                            1,
+                            1,
+                            0.82615,
+                            0.1155,
+                            0,
+                            0,
+                            0
+                        ],
+                        "triangles": [
+                            2,
+                            1,
+                            5,
+                            2,
+                            4,
+                            3,
+                            5,
+                            1,
+                            0,
+                            5,
+                            4,
+                            2
+                        ],
+                        "vertices": [
+                            2,
+                            4,
+                            0.73,
+                            20.77,
+                            0.99895,
+                            2,
+                            509.49,
+                            18.13,
+                            0.00105,
+                            1,
+                            2,
+                            -26.48,
+                            36.33,
+                            1,
+                            1,
+                            2,
+                            -72.85,
+                            6.5,
+                            1,
+                            1,
+                            2,
+                            -41.05,
+                            -42.91,
+                            1,
+                            2,
+                            4,
+                            -29.77,
+                            -37.69,
+                            0.98256,
+                            2,
+                            478.99,
+                            -40.33,
+                            0.01744,
+                            1,
+                            4,
+                            18.4,
+                            -6.69,
+                            1
+                        ],
+                        "hull": 6
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "chuan_1_1": {
+                    "attachment": [
+                        {
+                            "name": "chuan_1_1"
+                        },
+                        {
+                            "time": 2.4667
+                        },
+                        {
+                            "time": 4,
+                            "name": "chuan_1_1"
+                        }
+                    ]
+                },
+                "chuan_1_2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "chuan_1_1": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.83,
+                                0,
+                                2.455,
+                                4220.05,
+                                0.83,
+                                0,
+                                1.637,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.4667,
+                            "x": 4220.05,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4
+                        }
+                    ],
+                    "scale": [
+                        {},
+                        {
+                            "time": 2.4667,
+                            "x": 1.222,
+                            "y": 1.222,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4
+                        }
+                    ]
+                },
+                "chuan_1_3": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9667
+                        },
+                        {
+                            "time": 3.8333,
+                            "x": 1007.14,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

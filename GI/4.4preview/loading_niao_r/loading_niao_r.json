@@ -1,0 +1,402 @@
+{
+    "skeleton": {
+        "hash": "yF6EVUUQ+kE",
+        "spine": "4.0-from-4.1.24",
+        "x": -177.5,
+        "y": -84.5,
+        "width": 355,
+        "height": 169
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "a",
+            "parent": "root",
+            "x": -121.03,
+            "y": 53.05
+        },
+        {
+            "name": "b",
+            "parent": "root",
+            "x": 20.98,
+            "y": 41.83
+        },
+        {
+            "name": "c",
+            "parent": "root",
+            "x": 72.61,
+            "y": 22.74
+        },
+        {
+            "name": "d",
+            "parent": "root",
+            "x": 106.29,
+            "y": -2.52
+        },
+        {
+            "name": "e",
+            "parent": "root",
+            "x": 150.07,
+            "y": -51.35
+        }
+    ],
+    "slots": [
+        {
+            "name": "e",
+            "bone": "e",
+            "attachment": "e"
+        },
+        {
+            "name": "d",
+            "bone": "d",
+            "attachment": "d"
+        },
+        {
+            "name": "c",
+            "bone": "c",
+            "attachment": "c"
+        },
+        {
+            "name": "b",
+            "bone": "b",
+            "attachment": "b"
+        },
+        {
+            "name": "a",
+            "bone": "a",
+            "attachment": "a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": 13.03,
+                        "y": -7.05,
+                        "width": 139,
+                        "height": 77
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": 3.52,
+                        "y": -10.33,
+                        "width": 88,
+                        "height": 66
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": 1.39,
+                        "y": -5.24,
+                        "width": 37,
+                        "height": 28
+                    }
+                },
+                "d": {
+                    "d": {
+                        "x": 1.21,
+                        "y": -7.48,
+                        "width": 62,
+                        "height": 55
+                    }
+                },
+                "e": {
+                    "e": {
+                        "x": 3.93,
+                        "y": -8.15,
+                        "width": 47,
+                        "height": 50
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.389,
+                                1,
+                                0.711,
+                                1,
+                                0.389,
+                                1,
+                                0.711,
+                                1,
+                                0.389,
+                                1,
+                                0.711,
+                                1,
+                                0.389,
+                                0,
+                                0.711,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.489,
+                                1,
+                                0.811,
+                                1,
+                                0.489,
+                                1,
+                                0.811,
+                                1,
+                                0.489,
+                                1,
+                                0.811,
+                                1,
+                                0.489,
+                                0,
+                                0.811,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.589,
+                                1,
+                                0.911,
+                                1,
+                                0.589,
+                                1,
+                                0.911,
+                                1,
+                                0.589,
+                                1,
+                                0.911,
+                                1,
+                                0.589,
+                                0,
+                                0.911,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.656,
+                                1,
+                                0.978,
+                                1,
+                                0.656,
+                                1,
+                                0.978,
+                                1,
+                                0.656,
+                                1,
+                                0.978,
+                                1,
+                                0.656,
+                                0,
+                                0.978,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "e": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.722,
+                                1,
+                                1.044,
+                                1,
+                                0.722,
+                                1,
+                                1.044,
+                                1,
+                                0.722,
+                                1,
+                                1.044,
+                                1,
+                                0.722,
+                                0,
+                                1.044,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {}
+    },
+    "extra": {
+        "a": {
+            "rootBoneName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6961,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 5,
+                    "rotateFollowYMax": 5
+                }
+            }
+        },
+        "b": {
+            "rootBoneName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.60402949922029,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6955.6279861511675,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 5,
+                    "rotateFollowYMax": 5
+                }
+            }
+        },
+        "c": {
+            "rootBoneName": "c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.515516635222943,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6959.917427943346,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 5,
+                    "rotateFollowYMax": 5
+                }
+            }
+        },
+        "d": {
+            "rootBoneName": "d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.996735745824283,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6963.434179997581,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 5,
+                    "rotateFollowYMax": 5
+                }
+            }
+        },
+        "e": {
+            "rootBoneName": "e",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.6329652824687644,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6961.775400025751,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 5,
+                    "rotateFollowYMax": 5
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

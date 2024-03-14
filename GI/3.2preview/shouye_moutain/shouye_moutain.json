@@ -1,0 +1,115 @@
+{
+    "skeleton": {
+        "hash": "NlLjEKtPFfE",
+        "spine": "4.0.33",
+        "x": -1345.83,
+        "y": -486.34,
+        "width": 2743,
+        "height": 347
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone2",
+            "parent": "root",
+            "x": -12.5,
+            "y": -675.21
+        }
+    ],
+    "slots": [
+        {
+            "name": "山",
+            "bone": "bone2",
+            "attachment": "山"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "山": {
+                    "山": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1409.67,
+                            188.87,
+                            -1333.33,
+                            188.87,
+                            -1333.33,
+                            535.87,
+                            1409.67,
+                            535.87
+                        ],
+                        "hull": 4
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "山": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9333,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.174,
+                                1,
+                                2.559,
+                                1,
+                                2.174,
+                                1,
+                                2.559,
+                                1,
+                                2.174,
+                                1,
+                                2.559,
+                                1,
+                                2.174,
+                                0,
+                                2.559,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.8,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {}
+    }
+}

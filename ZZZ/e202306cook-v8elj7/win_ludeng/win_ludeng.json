@@ -1,0 +1,85 @@
+{
+    "skeleton": {
+        "hash": "nyRdgUXR9IY",
+        "spine": "4.0-from-4.1.21",
+        "x": -91,
+        "y": -323,
+        "width": 182,
+        "height": 647
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "灯a",
+            "bone": "root",
+            "attachment": "灯a"
+        },
+        {
+            "name": "灯b",
+            "bone": "root",
+            "attachment": "灯b",
+            "blend": "additive"
+        },
+        {
+            "name": "杆",
+            "bone": "root",
+            "attachment": "杆"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "杆": {
+                    "杆": {
+                        "x": 16,
+                        "y": -61.5,
+                        "width": 132,
+                        "height": 523
+                    }
+                },
+                "灯a": {
+                    "灯a": {
+                        "x": -0.5,
+                        "y": 233.5,
+                        "width": 111,
+                        "height": 111
+                    }
+                },
+                "灯b": {
+                    "灯b": {
+                        "y": 233,
+                        "width": 182,
+                        "height": 182
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {},
+    "extraSlot": {
+        "灯b": {
+            "slotName": "灯b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0,
+                    "min": 0.6,
+                    "max": 0.8
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

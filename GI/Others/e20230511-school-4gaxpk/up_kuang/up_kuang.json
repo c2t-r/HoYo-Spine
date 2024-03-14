@@ -1,0 +1,207 @@
+{
+    "skeleton": {
+        "hash": "ejGEpFlM36Y",
+        "spine": "4.1.17",
+        "x": -1249.54,
+        "y": -541.09,
+        "width": 2501,
+        "height": 1081
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "all",
+            "parent": "root",
+            "x": -1254.57,
+            "y": -548.07,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -0.89,
+            "y": -7.43,
+            "scaleX": 0.64,
+            "scaleY": 0.64
+        },
+        {
+            "name": "烟",
+            "parent": "all",
+            "x": 2516.62,
+            "y": 687.57
+        },
+        {
+            "name": "烟2",
+            "parent": "烟",
+            "x": -22.36,
+            "y": 89.46
+        },
+        {
+            "name": "烟3",
+            "parent": "烟",
+            "x": 23.91,
+            "y": 167.35
+        }
+    ],
+    "slots": [
+        {
+            "name": "all",
+            "bone": "all",
+            "color": "ffffff00",
+            "attachment": "圆框2"
+        },
+        {
+            "name": "中间锅炉",
+            "bone": "bone",
+            "attachment": "中间锅炉"
+        },
+        {
+            "name": "圆框",
+            "bone": "all",
+            "attachment": "圆框"
+        },
+        {
+            "name": "遮挡条",
+            "bone": "all",
+            "attachment": "遮挡条"
+        },
+        {
+            "name": "外框",
+            "bone": "all",
+            "attachment": "外框"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "all": {
+                    "圆框2": {
+                        "x": 2505.31,
+                        "y": 1087.46,
+                        "width": 1869,
+                        "height": 1502
+                    }
+                },
+                "中间锅炉": {
+                    "中间锅炉": {
+                        "x": 2.27,
+                        "y": 19.08,
+                        "width": 1440,
+                        "height": 1144
+                    }
+                },
+                "圆框": {
+                    "圆框": {
+                        "x": 2510.55,
+                        "y": 1033.47,
+                        "width": 2475,
+                        "height": 1812
+                    }
+                },
+                "外框": {
+                    "外框": {
+                        "x": 2511.05,
+                        "y": 1094.97,
+                        "width": 5002,
+                        "height": 2162
+                    }
+                },
+                "遮挡条": {
+                    "遮挡条": {
+                        "x": 3356.05,
+                        "y": 424.47,
+                        "width": 736,
+                        "height": 563
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "all": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.167,
+                                1,
+                                0.333,
+                                1,
+                                0.167,
+                                1,
+                                0.333,
+                                1,
+                                0.167,
+                                1,
+                                0.333,
+                                1,
+                                0.167,
+                                0,
+                                0.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "中间锅炉": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": [
+                                0.167,
+                                1,
+                                0.333,
+                                1,
+                                0.167,
+                                1,
+                                0.333,
+                                1,
+                                0.167,
+                                1,
+                                0.333,
+                                1,
+                                0.167,
+                                1,
+                                0.333,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "loading": {},
+        "mainweb": {
+            "slots": {
+                "all": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "中间锅炉": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "skeleton": {
+        "hash": "RE/hZTwP0x8",
+        "spine": "4.0-from-4.1.24",
+        "x": -77,
+        "y": -78,
+        "width": 155,
+        "height": 156,
+        "images": "./duodong_占位spine/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "hd_a_bg",
+            "bone": "bone",
+            "attachment": "hd_a_qiyin"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "hd_a_bg": {
+                    "hd_a_qiyin": {
+                        "x": 0.5,
+                        "width": 155,
+                        "height": 156
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "0": {
+            "slots": {
+                "hd_a_bg": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "scale": [
+                        {
+                            "x": 1.845,
+                            "y": 1.845
+                        }
+                    ]
+                }
+            }
+        },
+        "animation": {
+            "slots": {
+                "hd_a_bg": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "scale": [
+                        {
+                            "x": 1.845,
+                            "y": 1.845,
+                            "curve": [
+                                0.067,
+                                1.845,
+                                0.133,
+                                0.935,
+                                0.067,
+                                1.845,
+                                0.133,
+                                0.935
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 0.935,
+                            "y": 0.935,
+                            "curve": [
+                                0.3,
+                                0.935,
+                                0.4,
+                                1,
+                                0.3,
+                                0.935,
+                                0.4,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

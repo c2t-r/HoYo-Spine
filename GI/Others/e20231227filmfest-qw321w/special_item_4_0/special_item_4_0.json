@@ -1,0 +1,764 @@
+{
+    "skeleton": {
+        "hash": "dNPZvwGYg9g",
+        "spine": "4.1.24",
+        "x": -87.09,
+        "y": -53.11,
+        "width": 174.87,
+        "height": 215.36
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -3.94,
+            "y": -52.02,
+            "scaleX": 0.5868,
+            "scaleY": 0.5868
+        },
+        {
+            "name": "音符1",
+            "parent": "bone",
+            "x": 22.38,
+            "y": 219
+        },
+        {
+            "name": "音符3",
+            "parent": "bone",
+            "x": 45.43,
+            "y": 278.21
+        },
+        {
+            "name": "音符2",
+            "parent": "bone",
+            "x": 75.71,
+            "y": 332.45
+        },
+        {
+            "name": "泡泡2",
+            "parent": "bone",
+            "x": -48.73,
+            "y": 140.76
+        },
+        {
+            "name": "泡泡1",
+            "parent": "bone",
+            "x": -32.38,
+            "y": 194.33
+        },
+        {
+            "name": "泡泡3",
+            "parent": "bone",
+            "x": -6.64,
+            "y": 154.32
+        },
+        {
+            "name": "图层768",
+            "parent": "bone",
+            "x": -48.38,
+            "y": 179.02
+        },
+        {
+            "name": "海螺",
+            "parent": "bone",
+            "x": -6.94,
+            "y": 119.43
+        },
+        {
+            "name": "音符4",
+            "parent": "音符1",
+            "x": -22.9,
+            "y": -4
+        },
+        {
+            "name": "音符5",
+            "parent": "音符3",
+            "x": -18.63,
+            "y": -3.88
+        },
+        {
+            "name": "音符6",
+            "parent": "音符2",
+            "x": -24.65,
+            "y": 1.87
+        }
+    ],
+    "slots": [
+        {
+            "name": "海螺",
+            "bone": "海螺",
+            "attachment": "海螺"
+        },
+        {
+            "name": "音符1",
+            "bone": "音符1",
+            "attachment": "音符1"
+        },
+        {
+            "name": "音符2",
+            "bone": "音符2",
+            "attachment": "音符2"
+        },
+        {
+            "name": "音符3",
+            "bone": "音符3",
+            "attachment": "音符3"
+        },
+        {
+            "name": "泡泡3",
+            "bone": "泡泡3",
+            "attachment": "泡泡3"
+        },
+        {
+            "name": "泡泡2",
+            "bone": "泡泡2",
+            "attachment": "泡泡2"
+        },
+        {
+            "name": "泡泡1",
+            "bone": "泡泡1",
+            "attachment": "泡泡1"
+        },
+        {
+            "name": "图层768",
+            "bone": "图层768",
+            "attachment": "图层768"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "图层768": {
+                    "图层768": {
+                        "x": 5.69,
+                        "y": 9.62,
+                        "width": 34,
+                        "height": 61
+                    }
+                },
+                "泡泡1": {
+                    "泡泡1": {
+                        "x": -1.31,
+                        "y": -0.69,
+                        "width": 22,
+                        "height": 25
+                    }
+                },
+                "泡泡2": {
+                    "泡泡2": {
+                        "x": 0.54,
+                        "y": -0.12,
+                        "width": 27,
+                        "height": 27
+                    }
+                },
+                "泡泡3": {
+                    "泡泡3": {
+                        "x": 0.45,
+                        "y": -1.18,
+                        "width": 13,
+                        "height": 14
+                    }
+                },
+                "海螺": {
+                    "海螺": {
+                        "x": 14.24,
+                        "y": -28.28,
+                        "width": 298,
+                        "height": 186
+                    }
+                },
+                "音符1": {
+                    "音符1": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            10,
+                            27.82,
+                            -17.86,
+                            1,
+                            1,
+                            10,
+                            -21.18,
+                            -17.86,
+                            1,
+                            1,
+                            10,
+                            -21.18,
+                            33.14,
+                            1,
+                            1,
+                            10,
+                            27.82,
+                            33.14,
+                            1
+                        ],
+                        "hull": 4
+                    }
+                },
+                "音符2": {
+                    "音符2": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            12,
+                            30.24,
+                            -18.18,
+                            1,
+                            1,
+                            12,
+                            -20.76,
+                            -18.18,
+                            1,
+                            1,
+                            12,
+                            -20.76,
+                            30.82,
+                            1,
+                            1,
+                            12,
+                            30.24,
+                            30.82,
+                            1
+                        ],
+                        "hull": 4
+                    }
+                },
+                "音符3": {
+                    "音符3": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            11,
+                            22.5,
+                            -25.19,
+                            1,
+                            1,
+                            11,
+                            -35.5,
+                            -25.19,
+                            1,
+                            1,
+                            11,
+                            -35.5,
+                            28.81,
+                            1,
+                            1,
+                            11,
+                            22.5,
+                            28.81,
+                            1
+                        ],
+                        "hull": 4
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "1_stay": {
+            "slots": {
+                "图层768": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "泡泡1": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "泡泡2": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "泡泡3": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "音符1": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "音符2": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "音符3": {
+                    "attachment": [
+                        {}
+                    ]
+                }
+            }
+        },
+        "1_stay2": {},
+        "2_loop": {
+            "slots": {
+                "图层768": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "泡泡1": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "泡泡2": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "泡泡3": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "音符1": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "音符2": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "音符3": {
+                    "attachment": [
+                        {}
+                    ]
+                }
+            }
+        },
+        "3_act": {
+            "slots": {
+                "图层768": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "泡泡1": {
+                    "rgba": [
+                        {
+                            "time": 2.2,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.6333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.1,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "泡泡2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.5333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "泡泡3": {
+                    "rgba": [
+                        {
+                            "time": 0.8667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.7667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "音符1": {
+                    "rgba": [
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "音符2": {
+                    "rgba": [
+                        {
+                            "time": 2.3333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.6333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "音符3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "图层768": {
+                    "translate": [
+                        {
+                            "x": 3.89,
+                            "y": -56.16
+                        },
+                        {
+                            "time": 3
+                        }
+                    ]
+                },
+                "音符1": {
+                    "translate": [
+                        {
+                            "x": 33.58,
+                            "y": 45.55
+                        },
+                        {
+                            "time": 1.3,
+                            "x": 51.99,
+                            "y": 111.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": -4.18,
+                            "y": -88.9
+                        },
+                        {
+                            "time": 4,
+                            "x": 33.58,
+                            "y": 45.55
+                        }
+                    ]
+                },
+                "音符3": {
+                    "translate": [
+                        {
+                            "x": -22.03,
+                            "y": -147.03
+                        },
+                        {
+                            "time": 3.9667,
+                            "x": 28.97,
+                            "y": 56.15,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": -22.03,
+                            "y": -147.03
+                        }
+                    ]
+                },
+                "音符2": {
+                    "translate": [
+                        {
+                            "x": -35.89,
+                            "y": -133.85
+                        },
+                        {
+                            "time": 2.6333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "x": -54.06,
+                            "y": -201.62
+                        },
+                        {
+                            "time": 4,
+                            "x": -35.89,
+                            "y": -133.85
+                        }
+                    ]
+                },
+                "泡泡2": {
+                    "translate": [
+                        {
+                            "x": 4.45,
+                            "y": -23.91
+                        },
+                        {
+                            "time": 3.9667,
+                            "x": -7.44,
+                            "y": 20.71,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 4.45,
+                            "y": -23.91
+                        }
+                    ]
+                },
+                "泡泡3": {
+                    "translate": [
+                        {
+                            "x": -1.68,
+                            "y": 7.81
+                        },
+                        {
+                            "time": 1.3,
+                            "y": 27.52,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": -5.13,
+                            "y": -32.62
+                        },
+                        {
+                            "time": 4,
+                            "x": -1.68,
+                            "y": 7.81
+                        }
+                    ]
+                },
+                "泡泡1": {
+                    "translate": [
+                        {
+                            "x": 6.83,
+                            "y": -37.58
+                        },
+                        {
+                            "time": 2.6333,
+                            "x": 2.78,
+                            "y": 19.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "x": 8.88,
+                            "y": -66.46
+                        },
+                        {
+                            "time": 4,
+                            "x": 6.83,
+                            "y": -37.58
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "音符6": {
+            "rootBoneName": "音符6",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "3_act": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 3,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 1292,
+                    "rotateFreq": 1,
+                    "rotateAmp": 7,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "音符5": {
+            "rootBoneName": "音符5",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "3_act": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 3,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -10.586308491321796,
+                    "moveXCenter": 0,
+                    "moveXSeed": 1299.9213855748314,
+                    "rotateFreq": 1,
+                    "rotateAmp": 7,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.011565983056814305
+                }
+            }
+        },
+        "音符4": {
+            "rootBoneName": "音符4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "3_act": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 3,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -9.741975955083195,
+                    "moveXCenter": 0,
+                    "moveXSeed": 1296.5590080644947,
+                    "rotateFreq": 1,
+                    "rotateAmp": 7,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.11769745065834872
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

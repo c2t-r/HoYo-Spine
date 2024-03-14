@@ -1,0 +1,931 @@
+{
+    "skeleton": {
+        "hash": "gh21UO5A4V8",
+        "spine": "4.0-from-4.1.19",
+        "x": -1351,
+        "y": -364,
+        "width": 2702,
+        "height": 777
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "水8",
+            "parent": "root",
+            "x": -150.18,
+            "y": -158.98
+        },
+        {
+            "name": "水4",
+            "parent": "root",
+            "x": -540.74,
+            "y": -208.61
+        },
+        {
+            "name": "水5",
+            "parent": "root",
+            "x": -909.73,
+            "y": 0.7
+        },
+        {
+            "name": "水1",
+            "parent": "root",
+            "x": -860.1,
+            "y": 130.17
+        },
+        {
+            "name": "水7",
+            "parent": "root",
+            "x": -191.17,
+            "y": 276.9
+        },
+        {
+            "name": "水2",
+            "parent": "root",
+            "x": 849.5,
+            "y": 80.54
+        },
+        {
+            "name": "水3",
+            "parent": "root",
+            "x": 717.87,
+            "y": -197.82
+        },
+        {
+            "name": "水6",
+            "parent": "水1",
+            "x": 7.08,
+            "y": 28.05
+        },
+        {
+            "name": "水9",
+            "parent": "水7",
+            "x": -10.05,
+            "y": 25.89
+        },
+        {
+            "name": "水10",
+            "parent": "水5",
+            "x": -27.66
+        },
+        {
+            "name": "水11",
+            "parent": "水4",
+            "x": -12.56,
+            "y": -60.42
+        },
+        {
+            "name": "水12",
+            "parent": "水8",
+            "x": 65.12,
+            "y": 19.42
+        },
+        {
+            "name": "水13",
+            "parent": "水3",
+            "x": 50.03,
+            "y": -30.21
+        },
+        {
+            "name": "水14",
+            "parent": "水2",
+            "x": 17.67,
+            "y": 25.89
+        },
+        {
+            "name": "水15",
+            "parent": "root",
+            "x": 28.17,
+            "y": -74.82
+        },
+        {
+            "name": "水16",
+            "parent": "水15",
+            "x": -21.58,
+            "y": -10.79
+        }
+    ],
+    "slots": [
+        {
+            "name": "水8",
+            "bone": "水12",
+            "attachment": "水8"
+        },
+        {
+            "name": "水7",
+            "bone": "水9",
+            "attachment": "水7"
+        },
+        {
+            "name": "水6",
+            "bone": "水16",
+            "attachment": "水6"
+        },
+        {
+            "name": "水5",
+            "bone": "水10",
+            "attachment": "水5"
+        },
+        {
+            "name": "水4",
+            "bone": "水11",
+            "attachment": "水4"
+        },
+        {
+            "name": "水3",
+            "bone": "水13",
+            "attachment": "水3"
+        },
+        {
+            "name": "水2",
+            "bone": "水14",
+            "attachment": "水2"
+        },
+        {
+            "name": "水1",
+            "bone": "水6",
+            "attachment": "水1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "水1": {
+                    "水1": {
+                        "x": -101.48,
+                        "y": 151.28,
+                        "width": 71,
+                        "height": 203
+                    }
+                },
+                "水2": {
+                    "水2": {
+                        "x": 144.33,
+                        "y": 122.57,
+                        "width": 175,
+                        "height": 242
+                    }
+                },
+                "水3": {
+                    "水3": {
+                        "x": 341.09,
+                        "y": 299.53,
+                        "width": 484,
+                        "height": 597
+                    }
+                },
+                "水4": {
+                    "水4": {
+                        "x": -363.2,
+                        "y": 69.03,
+                        "width": 869,
+                        "height": 306
+                    }
+                },
+                "水5": {
+                    "水5": {
+                        "x": -225.61,
+                        "y": 153.3,
+                        "width": 296,
+                        "height": 184
+                    }
+                },
+                "水6": {
+                    "水6": {
+                        "x": -345.6,
+                        "y": -82.89,
+                        "width": 388,
+                        "height": 143
+                    }
+                },
+                "水7": {
+                    "水7": {
+                        "x": -40.78,
+                        "y": 83.71,
+                        "width": 56,
+                        "height": 53
+                    }
+                },
+                "水8": {
+                    "水8": {
+                        "x": -203.45,
+                        "y": -48.94,
+                        "width": 313,
+                        "height": 351
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "水1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "水2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.7667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "水3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff66"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.8667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.5333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 5.3333,
+                            "color": "ffffff66"
+                        }
+                    ]
+                },
+                "水4": {
+                    "rgba": [
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.6,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.9333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4.2667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "水5": {
+                    "rgba": [
+                        {
+                            "time": 1.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.5,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 5.1667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "水6": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "水7": {
+                    "rgba": [
+                        {
+                            "color": "ffffff7f"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.3333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 5.3333,
+                            "color": "ffffff7f"
+                        }
+                    ]
+                },
+                "水8": {
+                    "rgba": [
+                        {
+                            "color": "ffffffdf"
+                        },
+                        {
+                            "time": 1.1667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.8333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 5.3333,
+                            "color": "ffffffdf"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "水12": {
+                    "translate": [
+                        {
+                            "x": -55.64,
+                            "y": 28.21
+                        },
+                        {
+                            "time": 1.1667,
+                            "x": -78.56,
+                            "y": 39.83,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5
+                        },
+                        {
+                            "time": 5.3333,
+                            "x": -55.64,
+                            "y": 28.21
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.227,
+                            "y": 1.227
+                        },
+                        {
+                            "time": 1.1667,
+                            "x": 1.385,
+                            "y": 1.385,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5,
+                            "x": 0.844,
+                            "y": 0.844
+                        },
+                        {
+                            "time": 5.3333,
+                            "x": 1.227,
+                            "y": 1.227
+                        }
+                    ]
+                },
+                "水9": {
+                    "translate": [
+                        {
+                            "x": -6.3,
+                            "y": 19.25
+                        },
+                        {
+                            "time": 3.3333,
+                            "x": -37.82,
+                            "y": 115.48,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.6667
+                        },
+                        {
+                            "time": 5.3333,
+                            "x": -6.3,
+                            "y": 19.25
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.955,
+                            "y": 0.955
+                        },
+                        {
+                            "time": 3.3333,
+                            "x": 1.506,
+                            "y": 1.506,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.6667,
+                            "x": 0.844,
+                            "y": 0.844
+                        },
+                        {
+                            "time": 5.3333,
+                            "x": 0.955,
+                            "y": 0.955
+                        }
+                    ]
+                },
+                "水16": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 4,
+                            "x": -20.37,
+                            "y": 31.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.3333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.844,
+                            "y": 0.844
+                        },
+                        {
+                            "time": 4,
+                            "x": 1.421,
+                            "y": 1.421,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.3333,
+                            "x": 0.844,
+                            "y": 0.844
+                        }
+                    ]
+                },
+                "水10": {
+                    "translate": [
+                        {
+                            "x": -73.1,
+                            "y": 52.03
+                        },
+                        {
+                            "time": 2.5,
+                            "x": -194.94,
+                            "y": 138.75,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.8333
+                        },
+                        {
+                            "time": 5.3333,
+                            "x": -73.1,
+                            "y": 52.03
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.075,
+                            "y": 1.075
+                        },
+                        {
+                            "time": 2.5,
+                            "x": 1.46,
+                            "y": 1.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.8333,
+                            "x": 0.844,
+                            "y": 0.844
+                        },
+                        {
+                            "time": 5.3333,
+                            "x": 1.075,
+                            "y": 1.075
+                        }
+                    ]
+                },
+                "水11": {
+                    "translate": [
+                        {
+                            "y": 13.42
+                        },
+                        {
+                            "time": 1.6,
+                            "y": 22.37
+                        },
+                        {
+                            "time": 2.9333
+                        },
+                        {
+                            "time": 5.3333,
+                            "y": 13.42
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.362,
+                            "y": 1.362
+                        },
+                        {
+                            "time": 1.6,
+                            "x": 1.707,
+                            "y": 1.707,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.9333,
+                            "x": 0.844,
+                            "y": 0.844
+                        },
+                        {
+                            "time": 5.3333,
+                            "x": 1.362,
+                            "y": 1.362
+                        }
+                    ]
+                },
+                "水13": {
+                    "translate": [
+                        {
+                            "y": 19.39
+                        },
+                        {
+                            "time": 0.5333,
+                            "y": 22.37
+                        },
+                        {
+                            "time": 1.8667
+                        },
+                        {
+                            "time": 5.3333,
+                            "y": 19.39
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.383,
+                            "y": 1.383
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 1.465,
+                            "y": 1.465,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.8667,
+                            "x": 0.844,
+                            "y": 0.844
+                        },
+                        {
+                            "time": 5.3333,
+                            "x": 1.383,
+                            "y": 1.383
+                        }
+                    ]
+                },
+                "水14": {
+                    "translate": [
+                        {
+                            "x": 98.92,
+                            "y": 135.84,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667
+                        },
+                        {
+                            "time": 4.7667,
+                            "x": 98.92,
+                            "y": 135.84
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.788,
+                            "y": 1.788,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "x": 0.844,
+                            "y": 0.844
+                        },
+                        {
+                            "time": 4.7667,
+                            "x": 1.788,
+                            "y": 1.788
+                        }
+                    ]
+                },
+                "水6": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 4,
+                            "x": -79.84,
+                            "y": 78.47,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.3333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.844,
+                            "y": 0.844
+                        },
+                        {
+                            "time": 4,
+                            "x": 1.385,
+                            "y": 1.385,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.3333,
+                            "x": 0.844,
+                            "y": 0.844
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "水8": {
+            "rootBoneName": "水8",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 1,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "水4": {
+            "rootBoneName": "水4",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.29,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.38,
+                    "moveYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 1,
+                    "rotateDelay": -0.2179791161195001
+                }
+            }
+        },
+        "水5": {
+            "rootBoneName": "水5",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 5.99,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4.85,
+                    "moveYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 1,
+                    "rotateDelay": -0.2845702410043023
+                }
+            }
+        },
+        "水1": {
+            "rootBoneName": "水1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 5.26,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.67,
+                    "moveYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 1,
+                    "rotateDelay": 0.20431950328022322
+                }
+            }
+        },
+        "水7": {
+            "rootBoneName": "水7",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -0.52,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.3,
+                    "moveYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 1,
+                    "rotateDelay": -0.16794906040279164
+                }
+            }
+        },
+        "水2": {
+            "rootBoneName": "水2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.6,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -2.64,
+                    "moveYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 1,
+                    "rotateDelay": -0.062066025690578064
+                }
+            }
+        },
+        "水3": {
+            "rootBoneName": "水3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.15,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 6.17,
+                    "moveYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 1,
+                    "rotateDelay": 0.22093282324644248
+                }
+            }
+        },
+        "水15": {
+            "rootBoneName": "水15",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.7,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.24,
+                    "moveYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 1,
+                    "rotateDelay": 0.11
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

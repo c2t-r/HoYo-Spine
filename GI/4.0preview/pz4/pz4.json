@@ -1,0 +1,113 @@
+{
+    "skeleton": {
+        "hash": "/pAzJqlf3+k",
+        "spine": "4.0-from-4.1.23",
+        "x": -392.12,
+        "y": -255.7,
+        "width": 785,
+        "height": 512,
+        "images": "./deng_images/",
+        "audio": "C:/Users/xiankang.zhan/Desktop/需求/原神4.0前瞻页/动画PSD/sence/内页/灯spine"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 867.88,
+            "y": -293.7
+        },
+        {
+            "name": "拉杆",
+            "parent": "bone",
+            "length": 76.24,
+            "rotation": -79.44,
+            "x": -683.13,
+            "y": 372.15
+        }
+    ],
+    "slots": [
+        {
+            "name": "投影",
+            "bone": "bone",
+            "attachment": "投影"
+        },
+        {
+            "name": "拉杆",
+            "bone": "拉杆",
+            "attachment": "拉杆"
+        },
+        {
+            "name": "灯",
+            "bone": "bone",
+            "attachment": "灯"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "投影": {
+                    "投影": {
+                        "x": -940.5,
+                        "y": 294,
+                        "width": 639,
+                        "height": 512
+                    }
+                },
+                "拉杆": {
+                    "拉杆": {
+                        "x": 45.72,
+                        "y": 4.32,
+                        "rotation": 79.44,
+                        "width": 59,
+                        "height": 118
+                    }
+                },
+                "灯": {
+                    "灯": {
+                        "x": -867.5,
+                        "y": 327,
+                        "width": 785,
+                        "height": 446
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "拉杆": {
+                    "rotate": [
+                        {
+                            "value": -9.85,
+                            "curve": [
+                                0.444,
+                                -9.85,
+                                0.889,
+                                5.46
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "value": 5.46,
+                            "curve": [
+                                1.778,
+                                5.46,
+                                2.222,
+                                -9.85
+                            ]
+                        },
+                        {
+                            "time": 2.6667,
+                            "value": -9.85
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

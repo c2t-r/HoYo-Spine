@@ -1,0 +1,1477 @@
+{
+    "skeleton": {
+        "hash": "1pW5ry0cDV0",
+        "spine": "4.0.64",
+        "x": -86.11,
+        "y": 31.69,
+        "width": 156.34,
+        "height": 142.56
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.4825,
+            "scaleY": 0.4825
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 2.28,
+            "y": 332.69,
+            "scaleX": 0.2539,
+            "scaleY": 0.2539
+        },
+        {
+            "name": "草原核",
+            "parent": "bone",
+            "x": -0.03,
+            "y": -7.21,
+            "transform": "noRotationOrReflection"
+        },
+        {
+            "name": "爆",
+            "parent": "root",
+            "x": -18.81,
+            "y": 182.76
+        },
+        {
+            "name": "爆2",
+            "parent": "bone",
+            "x": -83.1,
+            "y": -590.58
+        },
+        {
+            "name": "发光",
+            "parent": "草原核"
+        },
+        {
+            "name": "a",
+            "parent": "bone",
+            "rotation": 5.82
+        },
+        {
+            "name": "草原核发光LZ",
+            "parent": "a",
+            "x": -0.76,
+            "y": -7.17,
+            "scaleX": 1.0087,
+            "scaleY": 1.0087
+        },
+        {
+            "name": "草原核发光LZ2",
+            "parent": "草原核发光LZ",
+            "x": 75.5,
+            "y": 0.52
+        },
+        {
+            "name": "草原核发光LZ3",
+            "parent": "a",
+            "rotation": 176.8,
+            "x": -0.76,
+            "y": -7.17,
+            "scaleX": 1.1126,
+            "scaleY": 1.1126
+        },
+        {
+            "name": "草原核发光LZ4",
+            "parent": "草原核发光LZ3",
+            "x": 75.5,
+            "y": 0.52
+        },
+        {
+            "name": "草原核发光LZ5",
+            "parent": "a",
+            "rotation": 133.49,
+            "x": -0.76,
+            "y": -7.17,
+            "scaleX": 0.8536,
+            "scaleY": 0.8536
+        },
+        {
+            "name": "草原核发光LZ6",
+            "parent": "草原核发光LZ5",
+            "x": 75.5,
+            "y": 0.52
+        },
+        {
+            "name": "草原核发光LZ7",
+            "parent": "a",
+            "rotation": -152.67,
+            "x": -0.76,
+            "y": -7.17,
+            "scaleX": 0.776,
+            "scaleY": 0.776
+        },
+        {
+            "name": "草原核发光LZ8",
+            "parent": "草原核发光LZ7",
+            "x": 75.5,
+            "y": 0.52
+        },
+        {
+            "name": "草原核发光LZ9",
+            "parent": "a",
+            "rotation": -41.14,
+            "x": -0.76,
+            "y": -7.17
+        },
+        {
+            "name": "草原核发光LZ10",
+            "parent": "草原核发光LZ9",
+            "x": 75.5,
+            "y": 0.52
+        },
+        {
+            "name": "草原核发光LZ11",
+            "parent": "a",
+            "rotation": 23.76,
+            "x": -0.76,
+            "y": -7.17,
+            "scaleX": 0.891,
+            "scaleY": 0.891
+        },
+        {
+            "name": "草原核发光LZ12",
+            "parent": "草原核发光LZ11",
+            "x": 75.5,
+            "y": 0.52
+        },
+        {
+            "name": "爆光",
+            "parent": "bone"
+        }
+    ],
+    "slots": [
+        {
+            "name": "草原核",
+            "bone": "草原核",
+            "color": "ffffff00",
+            "attachment": "草原核"
+        },
+        {
+            "name": "爆",
+            "bone": "爆",
+            "color": "ffffff00",
+            "attachment": "爆",
+            "blend": "additive"
+        },
+        {
+            "name": "爆2",
+            "bone": "爆2",
+            "color": "ffffff00",
+            "attachment": "爆",
+            "blend": "additive"
+        },
+        {
+            "name": "发光",
+            "bone": "发光",
+            "color": "ffffff00",
+            "attachment": "发光",
+            "blend": "additive"
+        },
+        {
+            "name": "草原核发光LZ",
+            "bone": "草原核发光LZ2",
+            "color": "ffffff00",
+            "attachment": "草原核发光LZ"
+        },
+        {
+            "name": "草原核发光LZ2",
+            "bone": "草原核发光LZ4",
+            "color": "ffffff00",
+            "attachment": "草原核发光LZ"
+        },
+        {
+            "name": "草原核发光LZ3",
+            "bone": "草原核发光LZ6",
+            "color": "ffffff00",
+            "attachment": "草原核发光LZ"
+        },
+        {
+            "name": "草原核发光LZ4",
+            "bone": "草原核发光LZ8",
+            "color": "ffffff00",
+            "attachment": "草原核发光LZ"
+        },
+        {
+            "name": "草原核发光LZ5",
+            "bone": "草原核发光LZ10",
+            "color": "ffffff00",
+            "attachment": "草原核发光LZ"
+        },
+        {
+            "name": "草原核发光LZ6",
+            "bone": "草原核发光LZ12",
+            "color": "ffffff00",
+            "attachment": "草原核发光LZ"
+        },
+        {
+            "name": "爆光",
+            "bone": "爆光",
+            "color": "ffffff00",
+            "attachment": "爆光",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "发光": {
+                    "发光": {
+                        "width": 200,
+                        "height": 200
+                    }
+                },
+                "爆": {
+                    "爆": {
+                        "x": 2.37,
+                        "y": 7.93,
+                        "width": 324,
+                        "height": 250
+                    }
+                },
+                "爆2": {
+                    "爆": {
+                        "x": 2.37,
+                        "y": 7.93,
+                        "width": 324,
+                        "height": 250
+                    }
+                },
+                "爆光": {
+                    "爆光": {
+                        "width": 200,
+                        "height": 200
+                    }
+                },
+                "草原核": {
+                    "草原核": {
+                        "x": -0.11,
+                        "y": 18.21,
+                        "width": 122,
+                        "height": 202
+                    }
+                },
+                "草原核发光LZ": {
+                    "草原核发光LZ": {
+                        "x": 1.48,
+                        "y": -0.78,
+                        "width": 25,
+                        "height": 23
+                    }
+                },
+                "草原核发光LZ2": {
+                    "草原核发光LZ": {
+                        "x": 1.48,
+                        "y": -0.78,
+                        "width": 25,
+                        "height": 23
+                    }
+                },
+                "草原核发光LZ3": {
+                    "草原核发光LZ": {
+                        "x": 1.48,
+                        "y": -0.78,
+                        "width": 25,
+                        "height": 23
+                    }
+                },
+                "草原核发光LZ4": {
+                    "草原核发光LZ": {
+                        "x": 1.48,
+                        "y": -0.78,
+                        "width": 25,
+                        "height": 23
+                    }
+                },
+                "草原核发光LZ5": {
+                    "草原核发光LZ": {
+                        "x": 1.48,
+                        "y": -0.78,
+                        "width": 25,
+                        "height": 23
+                    }
+                },
+                "草原核发光LZ6": {
+                    "草原核发光LZ": {
+                        "x": 1.48,
+                        "y": -0.78,
+                        "width": 25,
+                        "height": 23
+                    }
+                }
+            }
+        }
+    ],
+    "events": {
+        "boom": {}
+    },
+    "animations": {
+        "a": {},
+        "a2b": {
+            "slots": {
+                "发光": {
+                    "rgba": [
+                        {
+                            "time": 2.5,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.567,
+                                1,
+                                2.633,
+                                1,
+                                2.567,
+                                1,
+                                2.633,
+                                1,
+                                2.567,
+                                1,
+                                2.633,
+                                1,
+                                2.567,
+                                0.11,
+                                2.633,
+                                0.34
+                            ]
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff55",
+                            "curve": [
+                                2.8,
+                                1,
+                                2.9,
+                                1,
+                                2.8,
+                                1,
+                                2.9,
+                                1,
+                                2.8,
+                                1,
+                                2.9,
+                                1,
+                                2.8,
+                                0.34,
+                                2.9,
+                                0.26
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff38"
+                        },
+                        {
+                            "time": 3.3,
+                            "color": "ffffff55",
+                            "curve": [
+                                3.4,
+                                1,
+                                3.5,
+                                1,
+                                3.4,
+                                1,
+                                3.5,
+                                1,
+                                3.4,
+                                1,
+                                3.5,
+                                1,
+                                3.4,
+                                0.34,
+                                3.5,
+                                0.26
+                            ]
+                        },
+                        {
+                            "time": 3.6,
+                            "color": "ffffff38"
+                        },
+                        {
+                            "time": 3.8667,
+                            "color": "ffffff55",
+                            "curve": [
+                                3.967,
+                                1,
+                                4.067,
+                                1,
+                                3.967,
+                                1,
+                                4.067,
+                                1,
+                                3.967,
+                                1,
+                                4.067,
+                                1,
+                                3.967,
+                                0.34,
+                                4.067,
+                                0.26
+                            ]
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff38"
+                        },
+                        {
+                            "time": 4.4667,
+                            "color": "ffffff55",
+                            "curve": [
+                                4.567,
+                                1,
+                                4.667,
+                                1,
+                                4.567,
+                                1,
+                                4.667,
+                                1,
+                                4.567,
+                                1,
+                                4.667,
+                                1,
+                                4.567,
+                                0.34,
+                                4.667,
+                                0.26
+                            ]
+                        },
+                        {
+                            "time": 4.7667,
+                            "color": "ffffff38"
+                        },
+                        {
+                            "time": 4.9667,
+                            "color": "ffffff84"
+                        },
+                        {
+                            "time": 5.0333,
+                            "color": "ffffff4f"
+                        },
+                        {
+                            "time": 5.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "爆2": {
+                    "rgba": [
+                        {
+                            "time": 1.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.9667,
+                            "color": "ffffff76"
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.9333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 5.0333,
+                            "color": "ffffff8f"
+                        },
+                        {
+                            "time": 5.2333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "爆光": {
+                    "rgba": [
+                        {
+                            "time": 4.9667,
+                            "color": "ffffff00",
+                            "curve": [
+                                5,
+                                1,
+                                5.033,
+                                1,
+                                5,
+                                1,
+                                5.033,
+                                1,
+                                5,
+                                1,
+                                5.033,
+                                1,
+                                5,
+                                0.33,
+                                5.033,
+                                0.2
+                            ]
+                        },
+                        {
+                            "time": 5.0667,
+                            "color": "ffffff32",
+                            "curve": [
+                                5.167,
+                                1,
+                                5.267,
+                                1,
+                                5.167,
+                                1,
+                                5.267,
+                                1,
+                                5.167,
+                                1,
+                                5.267,
+                                1,
+                                5.167,
+                                0.2,
+                                5.267,
+                                0.33
+                            ]
+                        },
+                        {
+                            "time": 5.3667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "草原核": {
+                    "rgba": [
+                        {
+                            "time": 1.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.1667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.9333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 5.1333,
+                            "color": "ffffff58"
+                        },
+                        {
+                            "time": 5.4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "草原核发光LZ": {
+                    "rgba": [
+                        {
+                            "time": 2.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.0667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.8667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.9,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4.1333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.9,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "草原核发光LZ2": {
+                    "rgba": [
+                        {
+                            "time": 2.2667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.1,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.4667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.0667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 5.3,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "草原核发光LZ3": {
+                    "rgba": [
+                        {
+                            "time": 2.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.9,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.2,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.7333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.8,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.7667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "草原核发光LZ4": {
+                    "rgba": [
+                        {
+                            "time": 2.5667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.3,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.4333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.6333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.1333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 5.2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "草原核发光LZ5": {
+                    "rgba": [
+                        {
+                            "time": 2.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.2667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.7667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.6,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.8667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "草原核发光LZ6": {
+                    "rgba": [
+                        {
+                            "time": 2.1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.8667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.9667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.2,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.7667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.8,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.9,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "rotate": [
+                        {
+                            "time": 2.1667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.0333,
+                            "value": 53.86
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 1.8333,
+                            "y": -80.69,
+                            "curve": [
+                                2.024,
+                                0,
+                                2.27,
+                                0,
+                                2.024,
+                                -45.13,
+                                2.27,
+                                89.84
+                            ]
+                        },
+                        {
+                            "time": 2.5667,
+                            "y": 89.84,
+                            "curve": [
+                                2.986,
+                                0,
+                                2.973,
+                                0,
+                                2.986,
+                                89.84,
+                                2.973,
+                                72.52
+                            ]
+                        },
+                        {
+                            "time": 3.2667,
+                            "y": 63.86,
+                            "curve": [
+                                3.56,
+                                0,
+                                3.806,
+                                0,
+                                3.56,
+                                55.2,
+                                3.806,
+                                89.84
+                            ]
+                        },
+                        {
+                            "time": 4.1,
+                            "y": 89.84,
+                            "curve": [
+                                4.394,
+                                0,
+                                4.673,
+                                0,
+                                4.394,
+                                89.84,
+                                4.673,
+                                72.52
+                            ]
+                        },
+                        {
+                            "time": 4.9667,
+                            "y": 63.86,
+                            "curve": [
+                                5.233,
+                                0,
+                                5.5,
+                                0,
+                                5.233,
+                                56,
+                                5.5,
+                                81.18
+                            ]
+                        },
+                        {
+                            "time": 5.7667,
+                            "y": 89.84
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 1.8333,
+                            "curve": [
+                                1.913,
+                                2.21,
+                                2.121,
+                                4.629,
+                                1.913,
+                                2.21,
+                                2.121,
+                                4.629
+                            ]
+                        },
+                        {
+                            "time": 2.2,
+                            "x": 4.629,
+                            "y": 4.629,
+                            "curve": [
+                                2.279,
+                                4.629,
+                                2.354,
+                                3.749,
+                                2.279,
+                                4.629,
+                                2.354,
+                                3.749
+                            ]
+                        },
+                        {
+                            "time": 2.4333,
+                            "x": 3.749,
+                            "y": 3.749,
+                            "curve": [
+                                2.529,
+                                3.749,
+                                2.771,
+                                3.876,
+                                2.529,
+                                3.749,
+                                2.771,
+                                3.876
+                            ]
+                        },
+                        {
+                            "time": 2.8667,
+                            "x": 3.939,
+                            "y": 3.939,
+                            "curve": [
+                                4.041,
+                                4.719,
+                                4.111,
+                                3.939,
+                                4.041,
+                                4.719,
+                                4.111,
+                                3.939
+                            ]
+                        },
+                        {
+                            "time": 4.9333,
+                            "x": 3.939,
+                            "y": 3.939,
+                            "curve": [
+                                4.967,
+                                3.939,
+                                5,
+                                5.783,
+                                4.967,
+                                3.939,
+                                5,
+                                5.783
+                            ]
+                        },
+                        {
+                            "time": 5.0333,
+                            "x": 5.783,
+                            "y": 5.783
+                        }
+                    ]
+                },
+                "草原核": {
+                    "scale": [
+                        {
+                            "time": 4.9333,
+                            "x": 1.021,
+                            "y": 1.021
+                        },
+                        {
+                            "time": 5.4,
+                            "x": 1.351,
+                            "y": 1.351
+                        }
+                    ]
+                },
+                "爆": {
+                    "translate": [
+                        {
+                            "time": 1.7,
+                            "x": 50.99,
+                            "y": 125.66
+                        }
+                    ]
+                },
+                "爆2": {
+                    "rotate": [
+                        {
+                            "time": 1.8333,
+                            "value": -8.67,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.9333,
+                            "value": -48.88
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 1.8333,
+                            "x": 78.83,
+                            "y": 585.87
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 1.8333
+                        },
+                        {
+                            "time": 2.3667,
+                            "x": 1.977,
+                            "y": 1.977,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.9333,
+                            "x": 0.265,
+                            "y": 0.265
+                        },
+                        {
+                            "time": 5.0667,
+                            "x": 2.124,
+                            "y": 2.124
+                        },
+                        {
+                            "time": 5.2333,
+                            "x": 3,
+                            "y": 3
+                        }
+                    ]
+                },
+                "发光": {
+                    "scale": [
+                        {
+                            "time": 2.5,
+                            "curve": [
+                                2.567,
+                                1.143,
+                                2.633,
+                                1.428,
+                                2.567,
+                                1.143,
+                                2.633,
+                                1.428
+                            ]
+                        },
+                        {
+                            "time": 2.7,
+                            "x": 1.428,
+                            "y": 1.428,
+                            "curve": [
+                                2.8,
+                                1.428,
+                                2.9,
+                                1.236,
+                                2.8,
+                                1.428,
+                                2.9,
+                                1.236
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 1.14,
+                            "y": 1.14
+                        },
+                        {
+                            "time": 3.3,
+                            "x": 1.428,
+                            "y": 1.428,
+                            "curve": [
+                                3.4,
+                                1.428,
+                                3.5,
+                                1.236,
+                                3.4,
+                                1.428,
+                                3.5,
+                                1.236
+                            ]
+                        },
+                        {
+                            "time": 3.6,
+                            "x": 1.14,
+                            "y": 1.14
+                        },
+                        {
+                            "time": 3.8667,
+                            "x": 1.428,
+                            "y": 1.428,
+                            "curve": [
+                                3.967,
+                                1.428,
+                                4.067,
+                                1.236,
+                                3.967,
+                                1.428,
+                                4.067,
+                                1.236
+                            ]
+                        },
+                        {
+                            "time": 4.1667,
+                            "x": 1.14,
+                            "y": 1.14
+                        },
+                        {
+                            "time": 4.4667,
+                            "x": 1.428,
+                            "y": 1.428,
+                            "curve": [
+                                4.567,
+                                1.428,
+                                4.667,
+                                1.236,
+                                4.567,
+                                1.428,
+                                4.667,
+                                1.236
+                            ]
+                        },
+                        {
+                            "time": 4.7667,
+                            "x": 1.14,
+                            "y": 1.14,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.9667,
+                            "x": 1.14,
+                            "y": 1.14
+                        },
+                        {
+                            "time": 5.0333,
+                            "x": 2.781,
+                            "y": 2.781
+                        },
+                        {
+                            "time": 5.3333,
+                            "x": 1.428,
+                            "y": 1.428
+                        }
+                    ]
+                },
+                "草原核发光LZ2": {
+                    "translate": [
+                        {
+                            "time": 2.4
+                        },
+                        {
+                            "time": 3.0667,
+                            "x": 84.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1667
+                        },
+                        {
+                            "time": 3.8667,
+                            "x": 84.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.9
+                        },
+                        {
+                            "time": 4.9,
+                            "x": 84.18
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 2.4,
+                            "x": 0.665,
+                            "y": 0.665,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.9,
+                            "x": 0.736,
+                            "y": 0.736
+                        }
+                    ]
+                },
+                "草原核发光LZ4": {
+                    "translate": [
+                        {
+                            "time": 2.2667
+                        },
+                        {
+                            "time": 3.1,
+                            "x": 84.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.2
+                        },
+                        {
+                            "time": 4.0667,
+                            "x": 84.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1333
+                        },
+                        {
+                            "time": 5.3,
+                            "x": 84.18
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 2.2667,
+                            "x": 0.665,
+                            "y": 0.665,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1333,
+                            "x": 0.736,
+                            "y": 0.736
+                        }
+                    ]
+                },
+                "草原核发光LZ6": {
+                    "translate": [
+                        {
+                            "time": 2.2
+                        },
+                        {
+                            "time": 2.9,
+                            "x": 84.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3
+                        },
+                        {
+                            "time": 3.7333,
+                            "x": 84.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.8
+                        },
+                        {
+                            "time": 4.7667,
+                            "x": 84.18
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 2.2,
+                            "x": 0.665,
+                            "y": 0.665,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.8,
+                            "x": 0.736,
+                            "y": 0.736
+                        }
+                    ]
+                },
+                "草原核发光LZ8": {
+                    "translate": [
+                        {
+                            "time": 2.5667
+                        },
+                        {
+                            "time": 3.3,
+                            "x": 84.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.4333
+                        },
+                        {
+                            "time": 4.1333,
+                            "x": 84.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.2
+                        },
+                        {
+                            "time": 5.2,
+                            "x": 84.18
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 2.5667,
+                            "x": 0.665,
+                            "y": 0.665,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.4333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.2,
+                            "x": 0.736,
+                            "y": 0.736
+                        }
+                    ]
+                },
+                "草原核发光LZ10": {
+                    "translate": [
+                        {
+                            "time": 2.0667
+                        },
+                        {
+                            "time": 2.7667,
+                            "x": 84.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8667
+                        },
+                        {
+                            "time": 3.6,
+                            "x": 84.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667
+                        },
+                        {
+                            "time": 4.6667,
+                            "x": 84.18
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 2.0667,
+                            "x": 0.665,
+                            "y": 0.665,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667,
+                            "x": 0.736,
+                            "y": 0.736
+                        }
+                    ]
+                },
+                "草原核发光LZ12": {
+                    "translate": [
+                        {
+                            "time": 2.1
+                        },
+                        {
+                            "time": 2.8667,
+                            "x": 84.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.9667
+                        },
+                        {
+                            "time": 3.7667,
+                            "x": 84.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.8
+                        },
+                        {
+                            "time": 4.9,
+                            "x": 84.18
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 2.1,
+                            "x": 0.665,
+                            "y": 0.665,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.9667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.8,
+                            "x": 0.736,
+                            "y": 0.736
+                        }
+                    ]
+                },
+                "爆光": {
+                    "scale": [
+                        {
+                            "time": 4.9667,
+                            "curve": [
+                                5,
+                                1.61,
+                                5.033,
+                                2.226,
+                                5,
+                                1.61,
+                                5.033,
+                                2.226
+                            ]
+                        },
+                        {
+                            "time": 5.0667,
+                            "x": 2.504,
+                            "y": 2.504,
+                            "curve": [
+                                5.156,
+                                3.248,
+                                5.356,
+                                4.285,
+                                5.156,
+                                3.248,
+                                5.356,
+                                4.285
+                            ]
+                        },
+                        {
+                            "time": 5.3667,
+                            "x": 4.34,
+                            "y": 4.34
+                        }
+                    ]
+                }
+            },
+            "events": [
+                {
+                    "time": 5,
+                    "name": "boom",
+                    "int": 1
+                }
+            ]
+        }
+    }
+}

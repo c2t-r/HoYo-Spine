@@ -1,0 +1,1188 @@
+{
+    "skeleton": {
+        "hash": "d+yZoEQmUMk",
+        "spine": "4.0.33",
+        "x": -1387.68,
+        "y": -183.81,
+        "width": 2728.68,
+        "height": 373.12
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -213.37,
+            "y": -88.71,
+            "scaleX": 0.44,
+            "scaleY": 0.44
+        },
+        {
+            "name": "keli_cao_4ye_d2",
+            "parent": "bone",
+            "length": 242.42,
+            "rotation": 81.57,
+            "x": -2444.64,
+            "y": -213.16
+        },
+        {
+            "name": "keli_cao_4ye_d4",
+            "parent": "keli_cao_4ye_d2",
+            "length": 110.97,
+            "rotation": -11.46,
+            "x": 240.22,
+            "y": -0.33
+        },
+        {
+            "name": "keli_cao_4ye_d3",
+            "parent": "keli_cao_4ye_d4",
+            "x": 113.06,
+            "y": 0.76
+        },
+        {
+            "name": "keli_cao_4ye_ge_a",
+            "parent": "bone",
+            "length": 232.92,
+            "rotation": 77.31,
+            "x": -1913.84,
+            "y": -196.71
+        },
+        {
+            "name": "keli_cao_4ye_ge_a2",
+            "parent": "keli_cao_4ye_ge_a",
+            "length": 168.04,
+            "rotation": -7.21,
+            "x": 232.92
+        },
+        {
+            "name": "keli_cao_4ye_b",
+            "parent": "keli_cao_4ye_ge_a2",
+            "length": 82.2,
+            "rotation": -3.85,
+            "x": 170.87,
+            "y": 1.02
+        },
+        {
+            "name": "keli_cao_4ye_f2",
+            "parent": "bone",
+            "length": 199.42,
+            "rotation": 70.61,
+            "x": -1506.42,
+            "y": -205.74
+        },
+        {
+            "name": "keli_cao_4ye_f3",
+            "parent": "keli_cao_4ye_f2",
+            "length": 104.01,
+            "rotation": -12,
+            "x": 199.42
+        },
+        {
+            "name": "keli_cao_4ye_f5",
+            "parent": "keli_cao_4ye_f3",
+            "x": 104.01
+        },
+        {
+            "name": "keli_cao_4ye_ge_b",
+            "parent": "bone",
+            "length": 122.87,
+            "rotation": 85.79,
+            "x": 828.77,
+            "y": -91.48
+        },
+        {
+            "name": "keli_cao_4ye_ge_b2",
+            "parent": "keli_cao_4ye_ge_b",
+            "length": 84.74,
+            "rotation": -4.36,
+            "x": 122.87
+        },
+        {
+            "name": "keli_cao_4ye_c",
+            "parent": "keli_cao_4ye_ge_b2",
+            "length": 42.96,
+            "rotation": -1.1,
+            "x": 84.47,
+            "y": 1.78
+        },
+        {
+            "name": "keli_cao_4ye_ge_c",
+            "parent": "bone",
+            "length": 151.38,
+            "rotation": 114.74,
+            "x": 1663.46,
+            "y": -126.54
+        },
+        {
+            "name": "keli_cao_4ye_ge_c2",
+            "parent": "keli_cao_4ye_ge_c",
+            "length": 119.3,
+            "rotation": 7.33,
+            "x": 151.38
+        },
+        {
+            "name": "keli_cao_4ye_b2",
+            "parent": "keli_cao_4ye_ge_c2",
+            "length": 26.96,
+            "rotation": 4.8,
+            "x": 119.3
+        },
+        {
+            "name": "keli_cao_4ye_ge_d",
+            "parent": "bone",
+            "length": 192.77,
+            "rotation": 89.2,
+            "x": 2316.45,
+            "y": -145.41
+        },
+        {
+            "name": "keli_cao_4ye_ge_d2",
+            "parent": "keli_cao_4ye_ge_d",
+            "length": 148.88,
+            "rotation": 6,
+            "x": 192.77
+        },
+        {
+            "name": "keli_cao_4ye_a",
+            "parent": "keli_cao_4ye_ge_d2",
+            "length": 132.41,
+            "rotation": 9.55,
+            "x": 150.1,
+            "y": -1.46
+        },
+        {
+            "name": "keli_cao_4ye_ge_f",
+            "parent": "bone",
+            "length": 124.6,
+            "rotation": 95.59,
+            "x": 2740.25,
+            "y": -95.53
+        },
+        {
+            "name": "keli_cao_4ye_ge_f2",
+            "parent": "keli_cao_4ye_ge_f",
+            "length": 120.87,
+            "rotation": 1.46,
+            "x": 124.6
+        },
+        {
+            "name": "keli_cao_4ye_d5",
+            "parent": "keli_cao_4ye_ge_f2",
+            "length": 72.84,
+            "rotation": -4.92,
+            "x": 126.06,
+            "y": -2
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "length": 107.91,
+            "rotation": 92.15,
+            "x": 3208.12,
+            "y": -144.06
+        },
+        {
+            "name": "keli_cao_4ye_d",
+            "parent": "bone2",
+            "length": 84.45,
+            "rotation": 6.11,
+            "x": 109.2,
+            "y": -1.4
+        },
+        {
+            "name": "keli_cao_4ye_f",
+            "parent": "bone",
+            "length": 252.29,
+            "rotation": 92.45,
+            "x": 3294.38,
+            "y": -148.1
+        },
+        {
+            "name": "keli_cao_4ye_f4",
+            "parent": "keli_cao_4ye_f",
+            "length": 169.39,
+            "rotation": 3.49,
+            "x": 252.29
+        },
+        {
+            "name": "keli_cao_4ye_f7",
+            "parent": "keli_cao_4ye_f4",
+            "length": 28.34,
+            "rotation": -3.21,
+            "x": 180.12,
+            "y": -1.11
+        }
+    ],
+    "slots": [
+        {
+            "name": "keli_cao_4ye_ge_f",
+            "bone": "keli_cao_4ye_ge_f",
+            "attachment": "keli_cao_4ye_ge_f"
+        },
+        {
+            "name": "keli_cao_4ye_ge_d",
+            "bone": "keli_cao_4ye_ge_d",
+            "attachment": "keli_cao_4ye_ge_d"
+        },
+        {
+            "name": "keli_cao_4ye_ge_c",
+            "bone": "keli_cao_4ye_ge_c",
+            "attachment": "keli_cao_4ye_ge_c"
+        },
+        {
+            "name": "keli_cao_4ye_ge_b",
+            "bone": "keli_cao_4ye_ge_b",
+            "attachment": "keli_cao_4ye_ge_b"
+        },
+        {
+            "name": "keli_cao_4ye_ge_a",
+            "bone": "keli_cao_4ye_ge_a",
+            "attachment": "keli_cao_4ye_ge_a"
+        },
+        {
+            "name": "keli_cao_4ye_f",
+            "bone": "keli_cao_4ye_f7",
+            "attachment": "keli_cao_4ye_f"
+        },
+        {
+            "name": "keli_cao_4ye_f2",
+            "bone": "keli_cao_4ye_f5",
+            "attachment": "keli_cao_4ye_f"
+        },
+        {
+            "name": "keli_cao_4ye_d",
+            "bone": "keli_cao_4ye_d",
+            "attachment": "keli_cao_4ye_d"
+        },
+        {
+            "name": "keli_cao_4ye_d3",
+            "bone": "keli_cao_4ye_d5",
+            "attachment": "keli_cao_4ye_d"
+        },
+        {
+            "name": "keli_cao_4ye_d2",
+            "bone": "keli_cao_4ye_d3",
+            "attachment": "keli_cao_4ye_d"
+        },
+        {
+            "name": "keli_cao_4ye_c",
+            "bone": "keli_cao_4ye_c",
+            "attachment": "keli_cao_4ye_c"
+        },
+        {
+            "name": "keli_cao_4ye_b",
+            "bone": "keli_cao_4ye_b",
+            "attachment": "keli_cao_4ye_b"
+        },
+        {
+            "name": "keli_cao_4ye_b2",
+            "bone": "keli_cao_4ye_b2",
+            "attachment": "keli_cao_4ye_b"
+        },
+        {
+            "name": "keli_cao_4ye_a",
+            "bone": "keli_cao_4ye_a",
+            "attachment": "keli_cao_4ye_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "keli_cao_4ye_a": {
+                    "keli_cao_4ye_a": {
+                        "x": 124.36,
+                        "y": 15.2,
+                        "rotation": -104.74,
+                        "width": 654,
+                        "height": 637
+                    }
+                },
+                "keli_cao_4ye_b": {
+                    "keli_cao_4ye_b": {
+                        "x": 74.39,
+                        "y": 3.06,
+                        "rotation": -66.25,
+                        "width": 656,
+                        "height": 566
+                    }
+                },
+                "keli_cao_4ye_b2": {
+                    "keli_cao_4ye_b": {
+                        "x": 24.42,
+                        "y": 11.69,
+                        "scaleX": 0.7923,
+                        "scaleY": 0.7923,
+                        "rotation": -126.87,
+                        "width": 656,
+                        "height": 566
+                    }
+                },
+                "keli_cao_4ye_c": {
+                    "keli_cao_4ye_c": {
+                        "x": 41.78,
+                        "y": -1.08,
+                        "rotation": -80.34,
+                        "width": 406,
+                        "height": 260
+                    }
+                },
+                "keli_cao_4ye_d": {
+                    "keli_cao_4ye_d": {
+                        "x": 76.23,
+                        "y": 8.39,
+                        "rotation": -98.26,
+                        "width": 413,
+                        "height": 403
+                    }
+                },
+                "keli_cao_4ye_d2": {
+                    "keli_cao_4ye_d": {
+                        "x": 5,
+                        "y": 9.8,
+                        "scaleX": 1.4044,
+                        "scaleY": 1.4044,
+                        "rotation": -70.11,
+                        "width": 413,
+                        "height": 403
+                    }
+                },
+                "keli_cao_4ye_d3": {
+                    "keli_cao_4ye_d": {
+                        "x": 58.65,
+                        "y": -2.98,
+                        "scaleX": 1.1554,
+                        "scaleY": 1.1554,
+                        "rotation": 8.47,
+                        "width": 413,
+                        "height": 403
+                    }
+                },
+                "keli_cao_4ye_f": {
+                    "keli_cao_4ye_f": {
+                        "x": 6.12,
+                        "y": -0.39,
+                        "rotation": -92.73,
+                        "width": 533,
+                        "height": 503
+                    }
+                },
+                "keli_cao_4ye_f2": {
+                    "keli_cao_4ye_f": {
+                        "x": 0.65,
+                        "y": -6.85,
+                        "rotation": -58.61,
+                        "width": 533,
+                        "height": 503
+                    }
+                },
+                "keli_cao_4ye_ge_a": {
+                    "keli_cao_4ye_ge_a": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.88699,
+                            0.11807,
+                            0.64863,
+                            0.33562,
+                            0.4056,
+                            0.52209,
+                            0.19762,
+                            0.7614,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.08663,
+                            0.81734,
+                            0.2502,
+                            0.63708,
+                            0.43014,
+                            0.43197,
+                            0.66382,
+                            0.2859,
+                            0.89517,
+                            0.22063,
+                            1,
+                            0,
+                            1
+                        ],
+                        "triangles": [
+                            7,
+                            3,
+                            6,
+                            3,
+                            4,
+                            6,
+                            4,
+                            5,
+                            6,
+                            8,
+                            9,
+                            2,
+                            7,
+                            8,
+                            3,
+                            8,
+                            2,
+                            3,
+                            10,
+                            11,
+                            0,
+                            11,
+                            12,
+                            0,
+                            9,
+                            10,
+                            1,
+                            10,
+                            0,
+                            1,
+                            9,
+                            1,
+                            2
+                        ],
+                        "vertices": [
+                            1,
+                            5,
+                            35.19,
+                            24.83,
+                            1,
+                            1,
+                            5,
+                            162.15,
+                            29.57,
+                            1,
+                            1,
+                            6,
+                            60.41,
+                            23.5,
+                            1,
+                            2,
+                            6,
+                            175.39,
+                            26.04,
+                            0.03663,
+                            7,
+                            2.83,
+                            25.27,
+                            0.96337,
+                            1,
+                            7,
+                            116.6,
+                            23.82,
+                            1,
+                            1,
+                            7,
+                            135.53,
+                            -19.2,
+                            1,
+                            2,
+                            6,
+                            262.12,
+                            -42.69,
+                            0.00052,
+                            7,
+                            93.99,
+                            -37.48,
+                            0.99948,
+                            2,
+                            6,
+                            169.28,
+                            -38.02,
+                            0.88469,
+                            7,
+                            1.04,
+                            -39.07,
+                            0.11531,
+                            1,
+                            6,
+                            68.53,
+                            -36.72,
+                            1,
+                            1,
+                            5,
+                            167.97,
+                            -32.5,
+                            1,
+                            1,
+                            5,
+                            43.38,
+                            -31.06,
+                            1,
+                            1,
+                            5,
+                            -13.03,
+                            -30.58,
+                            1,
+                            1,
+                            5,
+                            -22.58,
+                            11.82,
+                            1
+                        ],
+                        "hull": 13
+                    }
+                },
+                "keli_cao_4ye_ge_b": {
+                    "keli_cao_4ye_ge_b": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.66667,
+                            0,
+                            0.33333,
+                            0,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.33333,
+                            1,
+                            0.66667
+                        ],
+                        "triangles": [
+                            3,
+                            4,
+                            5,
+                            6,
+                            3,
+                            5,
+                            2,
+                            3,
+                            6,
+                            7,
+                            2,
+                            6,
+                            1,
+                            2,
+                            7,
+                            0,
+                            1,
+                            7
+                        ],
+                        "vertices": [
+                            1,
+                            11,
+                            -48.61,
+                            -53.2,
+                            1,
+                            1,
+                            11,
+                            -53.75,
+                            16.61,
+                            1,
+                            1,
+                            11,
+                            73.8,
+                            23.58,
+                            1,
+                            2,
+                            12,
+                            43.23,
+                            33.93,
+                            0.79754,
+                            13,
+                            -41.85,
+                            31.35,
+                            0.20246,
+                            1,
+                            13,
+                            51.81,
+                            47.29,
+                            1,
+                            2,
+                            12,
+                            147.59,
+                            -21.15,
+                            0.02213,
+                            13,
+                            63.55,
+                            -21.72,
+                            0.97787,
+                            2,
+                            11,
+                            173.68,
+                            -39.27,
+                            0.00072,
+                            12,
+                            53.65,
+                            -35.29,
+                            0.99928,
+                            2,
+                            11,
+                            78.94,
+                            -46.23,
+                            0.92033,
+                            12,
+                            -40.29,
+                            -49.44,
+                            0.07967
+                        ],
+                        "hull": 8
+                    }
+                },
+                "keli_cao_4ye_ge_c": {
+                    "keli_cao_4ye_ge_c": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.11752,
+                            0.19024,
+                            0.30043,
+                            0.38217,
+                            0.50557,
+                            0.54161,
+                            0.69019,
+                            0.71582,
+                            0.91242,
+                            0.83689,
+                            1,
+                            1,
+                            1,
+                            1,
+                            0.84575,
+                            0.86051,
+                            0.60813,
+                            0.68334,
+                            0.3859,
+                            0.49732,
+                            0.18589,
+                            0.23453,
+                            0,
+                            0,
+                            0
+                        ],
+                        "triangles": [
+                            2,
+                            1,
+                            9,
+                            1,
+                            10,
+                            9,
+                            1,
+                            0,
+                            10,
+                            0,
+                            11,
+                            10,
+                            0,
+                            12,
+                            11,
+                            5,
+                            7,
+                            6,
+                            5,
+                            4,
+                            7,
+                            4,
+                            3,
+                            7,
+                            3,
+                            8,
+                            7,
+                            3,
+                            2,
+                            8,
+                            2,
+                            9,
+                            8
+                        ],
+                        "vertices": [
+                            2,
+                            15,
+                            113.91,
+                            22.36,
+                            0.88918,
+                            16,
+                            -3.5,
+                            22.74,
+                            0.11082,
+                            1,
+                            15,
+                            57.13,
+                            23.37,
+                            1,
+                            2,
+                            14,
+                            143.13,
+                            26.47,
+                            0.67166,
+                            15,
+                            -4.81,
+                            27.3,
+                            0.32834,
+                            1,
+                            14,
+                            88.25,
+                            24.72,
+                            1,
+                            1,
+                            14,
+                            23.33,
+                            25.09,
+                            1,
+                            1,
+                            14,
+                            -5.63,
+                            17.91,
+                            1,
+                            1,
+                            14,
+                            -16.14,
+                            -4.91,
+                            1,
+                            1,
+                            14,
+                            21.12,
+                            -22.08,
+                            1,
+                            1,
+                            14,
+                            87.52,
+                            -29.02,
+                            1,
+                            2,
+                            14,
+                            152.62,
+                            -28.98,
+                            0.50237,
+                            15,
+                            -2.46,
+                            -28.9,
+                            0.49763,
+                            1,
+                            15,
+                            57.83,
+                            -32.88,
+                            1,
+                            2,
+                            15,
+                            121.22,
+                            -24.84,
+                            0.67148,
+                            16,
+                            -0.16,
+                            -24.91,
+                            0.32852,
+                            1,
+                            16,
+                            21.51,
+                            3.98,
+                            1
+                        ],
+                        "hull": 13
+                    }
+                },
+                "keli_cao_4ye_ge_d": {
+                    "keli_cao_4ye_ge_d": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.75,
+                            0,
+                            0.5,
+                            0,
+                            0.25,
+                            0,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.25,
+                            1,
+                            0.5,
+                            1,
+                            0.75
+                        ],
+                        "triangles": [
+                            4,
+                            5,
+                            6,
+                            7,
+                            4,
+                            6,
+                            3,
+                            4,
+                            7,
+                            8,
+                            3,
+                            7,
+                            2,
+                            3,
+                            8,
+                            9,
+                            2,
+                            8,
+                            1,
+                            2,
+                            9,
+                            0,
+                            1,
+                            9
+                        ],
+                        "vertices": [
+                            1,
+                            17,
+                            -12.26,
+                            -34.39,
+                            1,
+                            1,
+                            17,
+                            -13.22,
+                            34.61,
+                            1,
+                            1,
+                            17,
+                            97.01,
+                            36.15,
+                            1,
+                            2,
+                            17,
+                            207.25,
+                            37.69,
+                            0.28234,
+                            18,
+                            18.34,
+                            35.97,
+                            0.71766,
+                            1,
+                            18,
+                            128.14,
+                            25.99,
+                            1,
+                            1,
+                            19,
+                            89.52,
+                            2.66,
+                            1,
+                            1,
+                            19,
+                            71.96,
+                            -64.07,
+                            1,
+                            2,
+                            18,
+                            121.89,
+                            -42.73,
+                            0.42757,
+                            19,
+                            -34.66,
+                            -36.01,
+                            0.57243,
+                            2,
+                            17,
+                            208.22,
+                            -31.3,
+                            0.18189,
+                            18,
+                            12.1,
+                            -32.75,
+                            0.81811,
+                            1,
+                            17,
+                            97.98,
+                            -32.85,
+                            1
+                        ],
+                        "hull": 10
+                    }
+                },
+                "keli_cao_4ye_ge_f": {
+                    "keli_cao_4ye_ge_f": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.75,
+                            0,
+                            0.5,
+                            0,
+                            0.25,
+                            0,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.25,
+                            1,
+                            0.5,
+                            1,
+                            0.75
+                        ],
+                        "triangles": [
+                            8,
+                            3,
+                            7,
+                            3,
+                            4,
+                            7,
+                            7,
+                            4,
+                            6,
+                            4,
+                            5,
+                            6,
+                            0,
+                            1,
+                            9,
+                            1,
+                            2,
+                            9,
+                            9,
+                            2,
+                            8,
+                            2,
+                            3,
+                            8
+                        ],
+                        "vertices": [
+                            1,
+                            20,
+                            -12.95,
+                            -13.23,
+                            1,
+                            1,
+                            20,
+                            -7.21,
+                            45.49,
+                            1,
+                            1,
+                            20,
+                            60.22,
+                            38.9,
+                            1,
+                            2,
+                            20,
+                            127.65,
+                            32.3,
+                            0.48232,
+                            21,
+                            3.87,
+                            32.21,
+                            0.51768,
+                            1,
+                            21,
+                            71.11,
+                            23.91,
+                            1,
+                            1,
+                            21,
+                            138.35,
+                            15.6,
+                            1,
+                            1,
+                            21,
+                            131.11,
+                            -42.96,
+                            1,
+                            1,
+                            21,
+                            63.87,
+                            -34.65,
+                            1,
+                            2,
+                            20,
+                            121.9,
+                            -26.42,
+                            0.31038,
+                            21,
+                            -3.37,
+                            -26.34,
+                            0.68962,
+                            1,
+                            20,
+                            54.48,
+                            -19.82,
+                            1
+                        ],
+                        "hull": 10
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "keli_cao_4ye_d2": {
+            "rootBoneName": "keli_cao_4ye_d2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 4,
+                    "rotateRange": 3,
+                    "rotateOffset": 0,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        },
+        "keli_cao_4ye_ge_a": {
+            "rootBoneName": "keli_cao_4ye_ge_a",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 4,
+                    "rotateRange": 3,
+                    "rotateOffset": 0.94,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        },
+        "keli_cao_4ye_f2": {
+            "rootBoneName": "keli_cao_4ye_f2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 4,
+                    "rotateRange": 3,
+                    "rotateOffset": 1.19,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        },
+        "keli_cao_4ye_ge_b": {
+            "rootBoneName": "keli_cao_4ye_ge_b",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 4,
+                    "rotateRange": 3,
+                    "rotateOffset": 1.09,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        },
+        "keli_cao_4ye_ge_c": {
+            "rootBoneName": "keli_cao_4ye_ge_c",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 4,
+                    "rotateRange": 3,
+                    "rotateOffset": 1.56,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        },
+        "keli_cao_4ye_ge_d": {
+            "rootBoneName": "keli_cao_4ye_ge_d",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 4,
+                    "rotateRange": 3,
+                    "rotateOffset": 2.39,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        },
+        "keli_cao_4ye_ge_f": {
+            "rootBoneName": "keli_cao_4ye_ge_f",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 4,
+                    "rotateRange": 3,
+                    "rotateOffset": 1.43,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        },
+        "bone2": {
+            "rootBoneName": "bone2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 4,
+                    "rotateRange": 3,
+                    "rotateOffset": 0.98,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        },
+        "keli_cao_4ye_f": {
+            "rootBoneName": "keli_cao_4ye_f",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 4,
+                    "rotateRange": 3,
+                    "rotateOffset": 1.61,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

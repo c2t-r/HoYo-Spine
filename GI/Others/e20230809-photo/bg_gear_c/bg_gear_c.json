@@ -1,0 +1,109 @@
+{
+    "skeleton": {
+        "hash": "a5O+FS9KZ3A",
+        "spine": "4.1.23",
+        "x": -842.5,
+        "y": -842,
+        "width": 1684,
+        "height": 1684,
+        "images": "./bg_gear_c/images/",
+        "audio": "./bg_gear_c/"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "A",
+            "parent": "root",
+            "length": 491.28
+        },
+        {
+            "name": "B",
+            "parent": "root",
+            "length": 648.1,
+            "rotation": 45
+        },
+        {
+            "name": "C",
+            "parent": "root",
+            "length": 813.25,
+            "rotation": 90
+        }
+    ],
+    "slots": [
+        {
+            "name": "刻度",
+            "bone": "C",
+            "attachment": "刻度"
+        },
+        {
+            "name": "齿",
+            "bone": "B",
+            "attachment": "齿"
+        },
+        {
+            "name": "指针",
+            "bone": "A",
+            "attachment": "指针"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "刻度": {
+                    "刻度": {
+                        "y": 0.5,
+                        "rotation": -90,
+                        "width": 1684,
+                        "height": 1684
+                    }
+                },
+                "指针": {
+                    "指针": {
+                        "width": 1023,
+                        "height": 1023
+                    }
+                },
+                "齿": {
+                    "齿": {
+                        "y": -0.71,
+                        "rotation": -45,
+                        "width": 1327,
+                        "height": 1327
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "C": {
+            "rootBoneName": "C",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.02
+                }
+            }
+        },
+        "B": {
+            "rootBoneName": "B",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": -0.02
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

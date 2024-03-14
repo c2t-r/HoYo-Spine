@@ -1,0 +1,38 @@
+{
+    "skeleton": {
+        "hash": "Pj/v3wakJnE",
+        "spine": "4.0-from-4.1.19",
+        "x": -427,
+        "y": -245,
+        "width": 854,
+        "height": 490
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "main_sky",
+            "bone": "root",
+            "attachment": "main_zw_b"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "main_sky": {
+                    "main_zw_b": {
+                        "width": 854,
+                        "height": 490
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

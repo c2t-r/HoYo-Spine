@@ -1,0 +1,109 @@
+{
+    "skeleton": {
+        "hash": "jWNU7r3Mjow",
+        "spine": "4.0-from-4.1.24",
+        "x": -277.5,
+        "y": -282,
+        "width": 555,
+        "height": 565
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone2",
+            "parent": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "bone2"
+        }
+    ],
+    "slots": [
+        {
+            "name": "天星发光",
+            "bone": "bone2",
+            "attachment": "天星发光",
+            "blend": "additive"
+        },
+        {
+            "name": "天星",
+            "bone": "bone",
+            "attachment": "天星"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "天星": {
+                    "天星": {
+                        "y": 0.5,
+                        "width": 307,
+                        "height": 313
+                    }
+                },
+                "天星发光": {
+                    "天星发光": {
+                        "y": 0.5,
+                        "width": 555,
+                        "height": 565
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.05
+                }
+            }
+        },
+        "bone2": {
+            "rootBoneName": "bone2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "天星发光": {
+            "slotName": "天星发光",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0,
+                    "min": 0.5,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

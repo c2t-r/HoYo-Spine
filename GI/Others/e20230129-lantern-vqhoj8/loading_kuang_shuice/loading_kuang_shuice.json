@@ -1,0 +1,85 @@
+{
+    "skeleton": {
+        "hash": "Y5BHU+Tu3dM",
+        "spine": "4.0-from-4.1.17",
+        "x": -327,
+        "y": -168,
+        "width": 654,
+        "height": 336
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 329,
+            "y": -105
+        }
+    ],
+    "slots": [
+        {
+            "name": "loading_kuang_shuice",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "loading_kuang_shuice"
+        },
+        {
+            "name": "loading_kuang_shuice1b",
+            "bone": "root",
+            "attachment": "loading_kuang_shuice1b"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "loading_kuang_shuice": {
+                    "loading_kuang_shuice": {
+                        "width": 654,
+                        "height": 336
+                    }
+                },
+                "loading_kuang_shuice1b": {
+                    "loading_kuang_shuice1b": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 653,
+                        "height": 335
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {},
+        "b": {
+            "slots": {
+                "loading_kuang_shuice": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "loading_kuang_shuice1b": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

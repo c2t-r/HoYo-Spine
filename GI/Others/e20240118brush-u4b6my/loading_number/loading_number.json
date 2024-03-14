@@ -1,0 +1,355 @@
+{
+    "skeleton": {
+        "hash": "qD19oa0ZXY0",
+        "spine": "4.0-from-4.1.24",
+        "x": -69.72,
+        "y": -62.07,
+        "width": 124.59,
+        "height": 124.25
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "big",
+            "parent": "root",
+            "x": -8
+        },
+        {
+            "name": "b",
+            "parent": "root",
+            "x": -61.42,
+            "y": -34.39
+        },
+        {
+            "name": "a",
+            "parent": "root",
+            "x": 71.12,
+            "y": -19.54
+        },
+        {
+            "name": "xiao",
+            "parent": "root",
+            "x": 31.5,
+            "y": -33.5
+        },
+        {
+            "name": "c",
+            "parent": "root",
+            "x": 42.78,
+            "y": 42.81
+        }
+    ],
+    "slots": [
+        {
+            "name": "big",
+            "bone": "big",
+            "attachment": "big"
+        },
+        {
+            "name": "xiao",
+            "bone": "xiao",
+            "attachment": "xiao"
+        },
+        {
+            "name": "a",
+            "bone": "a",
+            "attachment": "a"
+        },
+        {
+            "name": "c",
+            "bone": "c",
+            "attachment": "c"
+        },
+        {
+            "name": "b",
+            "bone": "b",
+            "attachment": "b"
+        },
+        {
+            "name": "xiaomask",
+            "bone": "xiao",
+            "attachment": "xiaomask"
+        },
+        {
+            "name": "dian",
+            "bone": "root",
+            "attachment": "dian"
+        },
+        {
+            "name": "big2_mask",
+            "bone": "big",
+            "attachment": "big2_mask"
+        },
+        {
+            "name": "dian2",
+            "bone": "root",
+            "attachment": "dian"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": 0.38,
+                        "y": -0.46,
+                        "width": 14,
+                        "height": 13
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": -0.08,
+                        "y": -0.11,
+                        "width": 18,
+                        "height": 18
+                    }
+                },
+                "big": {
+                    "big": {
+                        "width": 127,
+                        "height": 127
+                    }
+                },
+                "big2_mask": {
+                    "big2_mask": {
+                        "type": "clipping",
+                        "end": "dian2",
+                        "vertexCount": 18,
+                        "vertices": [
+                            -28.75,
+                            56.11,
+                            -7.33,
+                            62.18,
+                            14.56,
+                            60.49,
+                            33.76,
+                            52.43,
+                            52.07,
+                            33.69,
+                            60.95,
+                            12.68,
+                            61.66,
+                            -8.77,
+                            56.42,
+                            -27.81,
+                            40.11,
+                            -47.53,
+                            21.79,
+                            -58.54,
+                            5.81,
+                            -62.07,
+                            -14.1,
+                            -61.06,
+                            -32.16,
+                            -53.84,
+                            -52.95,
+                            -33.44,
+                            -60.44,
+                            -14.97,
+                            -61.72,
+                            9.01,
+                            -54.53,
+                            30.17,
+                            -42.39,
+                            46.11
+                        ]
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": 0.72,
+                        "y": -0.31,
+                        "width": 18,
+                        "height": 16
+                    }
+                },
+                "dian": {
+                    "dian": {
+                        "x": -5,
+                        "y": -2,
+                        "width": 185,
+                        "height": 149
+                    }
+                },
+                "dian2": {
+                    "dian": {
+                        "x": -5,
+                        "y": -2,
+                        "width": 185,
+                        "height": 149
+                    }
+                },
+                "xiao": {
+                    "xiao": {
+                        "width": 48,
+                        "height": 48
+                    }
+                },
+                "xiaomask": {
+                    "xiaomask": {
+                        "type": "clipping",
+                        "end": "dian",
+                        "vertexCount": 13,
+                        "vertices": [
+                            -11.67,
+                            -20.31,
+                            -2.57,
+                            -23.29,
+                            7.02,
+                            -22.38,
+                            16.17,
+                            -16.96,
+                            21.59,
+                            -8.74,
+                            23.37,
+                            1.94,
+                            19.33,
+                            13.34,
+                            10.52,
+                            21.4,
+                            -3.39,
+                            24.04,
+                            -14.52,
+                            18.48,
+                            -22.07,
+                            9.29,
+                            -23.42,
+                            -2.74,
+                            -19.38,
+                            -12.89
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "big": {
+            "rootBoneName": "big",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 7300,
+                    "scaleXFreq": 1.5,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "b": {
+            "rootBoneName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.0818404518481612,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1.5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.257545103189815,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 1,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.8354316845559486,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "xiao": {
+            "rootBoneName": "xiao",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.0469239801680919,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.286714873736262,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 1,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1.7222449254702012,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "c": {
+            "rootBoneName": "c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.3619412440260588,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1.5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.839903564991689,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 1,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1.2814071188316563,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "a": {
+            "rootBoneName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -0.043149969030956775,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1.5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.6741586960150583,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 1,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.6187649789031228,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

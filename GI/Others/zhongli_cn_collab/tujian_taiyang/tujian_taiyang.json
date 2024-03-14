@@ -1,0 +1,131 @@
+{
+    "skeleton": {
+        "hash": "IhaV1drLcEU",
+        "spine": "4.0-from-4.1.24",
+        "x": -275.5,
+        "y": -382,
+        "width": 630,
+        "height": 715
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "taiyang",
+            "parent": "root",
+            "x": 3,
+            "y": -12
+        },
+        {
+            "name": "a",
+            "parent": "root",
+            "y": -27.5
+        },
+        {
+            "name": "b",
+            "parent": "root",
+            "y": -27.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "taiyang_c",
+            "bone": "taiyang",
+            "attachment": "taiyang_c"
+        },
+        {
+            "name": "taiyang_b",
+            "bone": "b",
+            "attachment": "taiyang_b"
+        },
+        {
+            "name": "taiyang_a",
+            "bone": "a",
+            "attachment": "taiyang_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "taiyang_a": {
+                    "taiyang_a": {
+                        "x": 59,
+                        "y": 3,
+                        "width": 591,
+                        "height": 715
+                    }
+                },
+                "taiyang_b": {
+                    "taiyang_b": {
+                        "x": 177.5,
+                        "y": 216,
+                        "width": 238,
+                        "height": 197
+                    }
+                },
+                "taiyang_c": {
+                    "taiyang_c": {
+                        "width": 557,
+                        "height": 562
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "taiyang": {
+            "rootBoneName": "taiyang",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "a": {
+            "rootBoneName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1.069063102965146,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 15,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.2451979725461499
+                }
+            }
+        },
+        "b": {
+            "rootBoneName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateFreq": 12,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.14917584918612134
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

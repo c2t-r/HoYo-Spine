@@ -1,0 +1,1068 @@
+{
+    "skeleton": {
+        "hash": "KOAEvaQA2us",
+        "spine": "4.0.33",
+        "x": -624,
+        "y": -196.18,
+        "width": 1227.28,
+        "height": 321
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "title",
+            "parent": "root",
+            "x": 15.17,
+            "y": -22.06
+        },
+        {
+            "name": "海",
+            "parent": "title",
+            "x": -478.17,
+            "y": -13.61
+        },
+        {
+            "name": "上",
+            "parent": "title",
+            "x": -219.35,
+            "y": -42.77
+        },
+        {
+            "name": "绮",
+            "parent": "title",
+            "x": -1.87,
+            "y": 1.31
+        },
+        {
+            "name": "梦",
+            "parent": "title",
+            "x": 237.43,
+            "y": -18.91
+        },
+        {
+            "name": "录",
+            "parent": "title",
+            "x": 469.11,
+            "y": -12.74
+        },
+        {
+            "name": "海2",
+            "parent": "海",
+            "x": 2.18,
+            "y": -24.64
+        },
+        {
+            "name": "上2",
+            "parent": "上",
+            "x": 1.09,
+            "y": -8.72
+        },
+        {
+            "name": "录2",
+            "parent": "录",
+            "y": -9.81
+        },
+        {
+            "name": "梦2",
+            "parent": "梦",
+            "y": -5.45
+        },
+        {
+            "name": "绮2",
+            "parent": "绮"
+        }
+    ],
+    "slots": [
+        {
+            "name": "海",
+            "bone": "海2",
+            "attachment": "海"
+        },
+        {
+            "name": "上",
+            "bone": "上2",
+            "attachment": "上"
+        },
+        {
+            "name": "绮",
+            "bone": "绮2",
+            "attachment": "绮"
+        },
+        {
+            "name": "梦",
+            "bone": "梦2",
+            "attachment": "梦"
+        },
+        {
+            "name": "录",
+            "bone": "录2",
+            "attachment": "录"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "上": {
+                    "上": {
+                        "x": -1.09,
+                        "y": 8.72,
+                        "width": 232,
+                        "height": 215
+                    }
+                },
+                "录": {
+                    "录": {
+                        "y": 9.81,
+                        "width": 238,
+                        "height": 293
+                    }
+                },
+                "梦": {
+                    "梦": {
+                        "y": 5.45,
+                        "width": 293,
+                        "height": 308
+                    }
+                },
+                "海": {
+                    "海": {
+                        "x": -2.18,
+                        "y": 24.64,
+                        "width": 322,
+                        "height": 321
+                    }
+                },
+                "绮": {
+                    "绮": {
+                        "width": 247,
+                        "height": 243
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "上": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.467,
+                                1,
+                                0.7,
+                                1,
+                                0.467,
+                                1,
+                                0.7,
+                                1,
+                                0.467,
+                                1,
+                                0.7,
+                                1,
+                                0.467,
+                                0,
+                                0.7,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "录": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.833,
+                                1,
+                                1.067,
+                                1,
+                                0.833,
+                                1,
+                                1.067,
+                                1,
+                                0.833,
+                                1,
+                                1.067,
+                                1,
+                                0.833,
+                                0,
+                                1.067,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "梦": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.633,
+                                1,
+                                0.867,
+                                1,
+                                0.633,
+                                1,
+                                0.867,
+                                1,
+                                0.633,
+                                1,
+                                0.867,
+                                1,
+                                0.633,
+                                0,
+                                0.867,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "海": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.467,
+                                1,
+                                0.7,
+                                1,
+                                0.467,
+                                1,
+                                0.7,
+                                1,
+                                0.467,
+                                1,
+                                0.7,
+                                1,
+                                0.467,
+                                0,
+                                0.7,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "绮": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.567,
+                                1,
+                                0.8,
+                                1,
+                                0.567,
+                                1,
+                                0.8,
+                                1,
+                                0.567,
+                                1,
+                                0.8,
+                                1,
+                                0.567,
+                                0,
+                                0.8,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "上": {
+                    "translate": [
+                        {
+                            "x": 146.19,
+                            "y": 35.93,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 146.19,
+                            "y": 35.93,
+                            "curve": [
+                                0.556,
+                                146.19,
+                                0.644,
+                                -64.19,
+                                0.556,
+                                35.93,
+                                0.644,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "x": -64.19,
+                            "curve": [
+                                1.056,
+                                -64.19,
+                                1.244,
+                                6.42,
+                                1.056,
+                                0,
+                                1.244,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.4333,
+                            "x": 6.42,
+                            "curve": [
+                                1.7,
+                                6.42,
+                                1.967,
+                                2.14,
+                                1.7,
+                                0,
+                                1.967,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.2333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.233,
+                            "y": 0.233,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0.233,
+                            "y": 0.233,
+                            "curve": [
+                                0.485,
+                                0.233,
+                                0.681,
+                                1.27,
+                                0.485,
+                                0.233,
+                                0.681,
+                                1.27
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1.27,
+                            "y": 1.27,
+                            "curve": [
+                                1.001,
+                                1.27,
+                                1.199,
+                                0.912,
+                                1.001,
+                                1.27,
+                                1.199,
+                                0.912
+                            ]
+                        },
+                        {
+                            "time": 1.3667,
+                            "x": 0.912,
+                            "y": 0.912,
+                            "curve": [
+                                1.58,
+                                0.912,
+                                1.82,
+                                1.017,
+                                1.58,
+                                0.912,
+                                1.82,
+                                1.017
+                            ]
+                        },
+                        {
+                            "time": 2.0333,
+                            "x": 1.017,
+                            "y": 1.017,
+                            "curve": [
+                                2.277,
+                                1.017,
+                                2.423,
+                                1,
+                                2.277,
+                                1.017,
+                                2.423,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6667
+                        }
+                    ]
+                },
+                "录": {
+                    "translate": [
+                        {
+                            "x": -328.31,
+                            "y": 9.8,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7,
+                            "x": -328.31,
+                            "y": 9.8,
+                            "curve": [
+                                0.922,
+                                -328.31,
+                                1.011,
+                                161.55,
+                                0.922,
+                                9.8,
+                                1.011,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.2333,
+                            "x": 161.55,
+                            "curve": [
+                                1.422,
+                                161.55,
+                                1.611,
+                                -10.7,
+                                1.422,
+                                0,
+                                1.611,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.8,
+                            "x": -10.7,
+                            "curve": [
+                                2.067,
+                                -10.7,
+                                2.333,
+                                -3.57,
+                                2.067,
+                                0,
+                                2.333,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.6
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.233,
+                            "y": 0.233,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7,
+                            "x": 0.233,
+                            "y": 0.233,
+                            "curve": [
+                                0.852,
+                                0.233,
+                                1.048,
+                                1.27,
+                                0.852,
+                                0.233,
+                                1.048,
+                                1.27
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "x": 1.27,
+                            "y": 1.27,
+                            "curve": [
+                                1.367,
+                                1.27,
+                                1.566,
+                                0.912,
+                                1.367,
+                                1.27,
+                                1.566,
+                                0.912
+                            ]
+                        },
+                        {
+                            "time": 1.7333,
+                            "x": 0.912,
+                            "y": 0.912,
+                            "curve": [
+                                1.946,
+                                0.912,
+                                2.187,
+                                1.017,
+                                1.946,
+                                0.912,
+                                2.187,
+                                1.017
+                            ]
+                        },
+                        {
+                            "time": 2.4,
+                            "x": 1.017,
+                            "y": 1.017,
+                            "curve": [
+                                2.643,
+                                1.017,
+                                2.79,
+                                1,
+                                2.643,
+                                1.017,
+                                2.79,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3.0333
+                        }
+                    ]
+                },
+                "梦": {
+                    "translate": [
+                        {
+                            "x": -169.87,
+                            "y": 15.52,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "x": -169.87,
+                            "y": 15.52,
+                            "curve": [
+                                0.722,
+                                -169.87,
+                                0.811,
+                                82.35,
+                                0.722,
+                                15.52,
+                                0.811,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "x": 82.35,
+                            "curve": [
+                                1.222,
+                                82.35,
+                                1.411,
+                                -7.49,
+                                1.222,
+                                0,
+                                1.411,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.6,
+                            "x": -7.49,
+                            "curve": [
+                                1.867,
+                                -7.49,
+                                2.133,
+                                -2.5,
+                                1.867,
+                                0,
+                                2.133,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.4
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.233,
+                            "y": 0.233,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 0.233,
+                            "y": 0.233,
+                            "curve": [
+                                0.652,
+                                0.233,
+                                0.848,
+                                1.27,
+                                0.652,
+                                0.233,
+                                0.848,
+                                1.27
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 1.27,
+                            "y": 1.27,
+                            "curve": [
+                                1.167,
+                                1.27,
+                                1.366,
+                                0.912,
+                                1.167,
+                                1.27,
+                                1.366,
+                                0.912
+                            ]
+                        },
+                        {
+                            "time": 1.5333,
+                            "x": 0.912,
+                            "y": 0.912,
+                            "curve": [
+                                1.746,
+                                0.912,
+                                1.987,
+                                1.017,
+                                1.746,
+                                0.912,
+                                1.987,
+                                1.017
+                            ]
+                        },
+                        {
+                            "time": 2.2,
+                            "x": 1.017,
+                            "y": 1.017,
+                            "curve": [
+                                2.443,
+                                1.017,
+                                2.59,
+                                1,
+                                2.443,
+                                1.017,
+                                2.59,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.8333
+                        }
+                    ]
+                },
+                "海": {
+                    "translate": [
+                        {
+                            "x": 326.68,
+                            "y": 8.98,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": 326.68,
+                            "y": 8.98,
+                            "curve": [
+                                0.389,
+                                326.68,
+                                0.478,
+                                -125.8,
+                                0.389,
+                                8.98,
+                                0.478,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "x": -125.8,
+                            "curve": [
+                                0.889,
+                                -125.8,
+                                1.078,
+                                8.56,
+                                0.889,
+                                0,
+                                1.078,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "x": 8.56,
+                            "curve": [
+                                1.533,
+                                8.56,
+                                1.8,
+                                2.85,
+                                1.533,
+                                0,
+                                1.8,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.0667
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.233,
+                            "y": 0.233,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": 0.233,
+                            "y": 0.233,
+                            "curve": [
+                                0.319,
+                                0.233,
+                                0.515,
+                                1.27,
+                                0.319,
+                                0.233,
+                                0.515,
+                                1.27
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 1.27,
+                            "y": 1.27,
+                            "curve": [
+                                0.834,
+                                1.27,
+                                1.033,
+                                0.912,
+                                0.834,
+                                1.27,
+                                1.033,
+                                0.912
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "x": 0.912,
+                            "y": 0.912,
+                            "curve": [
+                                1.413,
+                                0.912,
+                                1.654,
+                                1.017,
+                                1.413,
+                                0.912,
+                                1.654,
+                                1.017
+                            ]
+                        },
+                        {
+                            "time": 1.8667,
+                            "x": 1.017,
+                            "y": 1.017,
+                            "curve": [
+                                2.11,
+                                1.017,
+                                2.257,
+                                1,
+                                2.11,
+                                1.017,
+                                2.257,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.5
+                        }
+                    ]
+                },
+                "绮": {
+                    "scale": [
+                        {
+                            "x": 0.233,
+                            "y": 0.233,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 0.233,
+                            "y": 0.233,
+                            "curve": [
+                                0.585,
+                                0.233,
+                                0.781,
+                                1.27,
+                                0.585,
+                                0.233,
+                                0.781,
+                                1.27
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "x": 1.27,
+                            "y": 1.27,
+                            "curve": [
+                                1.101,
+                                1.27,
+                                1.299,
+                                0.912,
+                                1.101,
+                                1.27,
+                                1.299,
+                                0.912
+                            ]
+                        },
+                        {
+                            "time": 1.4667,
+                            "x": 0.912,
+                            "y": 0.912,
+                            "curve": [
+                                1.68,
+                                0.912,
+                                1.92,
+                                1.017,
+                                1.68,
+                                0.912,
+                                1.92,
+                                1.017
+                            ]
+                        },
+                        {
+                            "time": 2.1333,
+                            "x": 1.017,
+                            "y": 1.017,
+                            "curve": [
+                                2.377,
+                                1.017,
+                                2.523,
+                                1,
+                                2.377,
+                                1.017,
+                                2.523,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.7667
+                        }
+                    ]
+                },
+                "海2": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "绮2": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333
+                        }
+                    ]
+                },
+                "梦2": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5
+                        }
+                    ]
+                },
+                "录2": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {}
+    },
+    "extra": {
+        "海2": {
+            "rootBoneName": "海2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 30,
+                    "rotateFollowSpeed": 0.05,
+                    "rotateFollowXMax": 20,
+                    "rotateFollowYMax": 4
+                }
+            }
+        },
+        "上2": {
+            "rootBoneName": "上2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.95,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -3.72,
+                    "scaleXCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 30,
+                    "rotateFollowSpeed": 0.05,
+                    "rotateFollowXMax": 20,
+                    "rotateFollowYMax": 4
+                }
+            }
+        },
+        "绮2": {
+            "rootBoneName": "绮2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 30,
+                    "rotateFollowSpeed": 0.05,
+                    "rotateFollowXMax": 20,
+                    "rotateFollowYMax": 4
+                }
+            }
+        },
+        "梦2": {
+            "rootBoneName": "梦2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.12,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 2.5,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.12,
+                    "scaleXCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 30,
+                    "rotateFollowSpeed": 0.05,
+                    "rotateFollowXMax": 20,
+                    "rotateFollowYMax": 4
+                }
+            }
+        },
+        "录2": {
+            "rootBoneName": "录2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 30,
+                    "rotateFollowSpeed": 0.05,
+                    "rotateFollowXMax": 20,
+                    "rotateFollowYMax": 4
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

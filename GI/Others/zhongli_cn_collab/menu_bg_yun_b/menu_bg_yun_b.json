@@ -1,0 +1,109 @@
+{
+    "skeleton": {
+        "hash": "taD0E7WAEng",
+        "spine": "4.0-from-4.1.24",
+        "x": -434.5,
+        "y": -270.5,
+        "width": 869,
+        "height": 541
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bb",
+            "parent": "root",
+            "x": -117.22,
+            "y": -236.21
+        },
+        {
+            "name": "ba",
+            "parent": "root",
+            "x": 345.88,
+            "y": 90.17
+        }
+    ],
+    "slots": [
+        {
+            "name": "bb",
+            "bone": "bb",
+            "attachment": "bb"
+        },
+        {
+            "name": "ba",
+            "bone": "ba",
+            "attachment": "ba"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "ba": {
+                    "ba": {
+                        "x": -35.38,
+                        "y": 46.83,
+                        "width": 248,
+                        "height": 267
+                    }
+                },
+                "bb": {
+                    "bb": {
+                        "x": 117.22,
+                        "y": 142.21,
+                        "width": 869,
+                        "height": 353
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "bb": {
+            "rootBoneName": "bb",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 15,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 7,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": -10
+                }
+            }
+        },
+        "ba": {
+            "rootBoneName": "ba",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 15,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.9687091784268265,
+                    "moveXCenter": 0,
+                    "moveYFreq": 7,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.14949496456009911,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

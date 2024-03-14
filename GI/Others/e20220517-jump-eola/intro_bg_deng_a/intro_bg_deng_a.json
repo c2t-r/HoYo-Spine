@@ -1,0 +1,169 @@
+{
+    "skeleton": {
+        "hash": "IBeKPBT3N/M",
+        "spine": "4.0.33",
+        "x": -231.4,
+        "y": -280.85,
+        "width": 412.7,
+        "height": 563
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -182.7,
+            "y": 282.15
+        },
+        {
+            "name": "灯A",
+            "parent": "root",
+            "length": 63.53,
+            "rotation": -89.12,
+            "x": 44.69,
+            "y": -111.16
+        },
+        {
+            "name": "灯A光",
+            "parent": "灯A",
+            "x": 70.66,
+            "y": 0.21
+        }
+    ],
+    "slots": [
+        {
+            "name": "秆A",
+            "bone": "root",
+            "attachment": "秆A"
+        },
+        {
+            "name": "灯A",
+            "bone": "灯A",
+            "attachment": "灯A"
+        },
+        {
+            "name": "灯A光",
+            "bone": "灯A光",
+            "color": "ffffff9c",
+            "attachment": "灯A光",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "灯A": {
+                    "灯A": {
+                        "x": 65.36,
+                        "y": 0.81,
+                        "rotation": 89.12,
+                        "width": 77,
+                        "height": 137
+                    }
+                },
+                "灯A光": {
+                    "灯A光": {
+                        "x": 0.89,
+                        "y": -0.2,
+                        "rotation": 89.12,
+                        "width": 189,
+                        "height": 190
+                    }
+                },
+                "秆A": {
+                    "秆A": {
+                        "x": 182,
+                        "y": -281.5,
+                        "width": 364,
+                        "height": 563
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "灯A光": {
+                    "alpha": [
+                        {
+                            "value": 0.6131
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": 0.4357
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": 0.5798
+                        },
+                        {
+                            "time": 0.7333,
+                            "value": 0.0942
+                        },
+                        {
+                            "time": 1,
+                            "value": 0.4357
+                        },
+                        {
+                            "time": 1.3333,
+                            "value": 0.2916
+                        },
+                        {
+                            "time": 1.5,
+                            "value": 0.4357
+                        },
+                        {
+                            "time": 1.7667,
+                            "value": 0.0942
+                        },
+                        {
+                            "time": 1.9333,
+                            "value": 0.6131
+                        },
+                        {
+                            "time": 2.3,
+                            "value": 0.2916
+                        },
+                        {
+                            "time": 2.4667,
+                            "value": 0.4357
+                        },
+                        {
+                            "time": 2.6667,
+                            "value": 0.6131
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "灯A": {
+                    "rotate": [
+                        {
+                            "value": -0.97,
+                            "curve": [
+                                0.444,
+                                -0.97,
+                                0.889,
+                                0.65
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "value": 0.65,
+                            "curve": [
+                                1.778,
+                                0.65,
+                                2.222,
+                                -0.97
+                            ]
+                        },
+                        {
+                            "time": 2.6667,
+                            "value": -0.97
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

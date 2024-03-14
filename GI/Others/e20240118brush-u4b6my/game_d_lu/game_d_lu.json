@@ -1,0 +1,240 @@
+{
+    "skeleton": {
+        "hash": "PDGj2j3jHD8",
+        "spine": "4.0-from-4.1.24",
+        "x": -488.5,
+        "y": -608.5,
+        "width": 920,
+        "height": 1098,
+        "images": "./game_d/tex/",
+        "audio": "D:/work_2024/0118_原神_4.3 洗刷刷/spine/game_d"
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "game_d_guan",
+            "bone": "root",
+            "attachment": "game_d_guan",
+            "blend": "additive"
+        },
+        {
+            "name": "炉",
+            "bone": "root",
+            "attachment": "炉"
+        },
+        {
+            "name": "光1",
+            "bone": "root",
+            "attachment": "光1",
+            "blend": "additive"
+        },
+        {
+            "name": "光2",
+            "bone": "root",
+            "attachment": "光2",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "game_d_guan": {
+                    "game_d_guan": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            431.5,
+                            -490.5,
+                            -488.5,
+                            -490.5,
+                            -488.5,
+                            383.5,
+                            431.5,
+                            383.5
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 460,
+                        "height": 437
+                    }
+                },
+                "光1": {
+                    "光1": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            190.5,
+                            -7.5,
+                            -166.5,
+                            -7.5,
+                            -166.5,
+                            358.5,
+                            190.5,
+                            358.5
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 179,
+                        "height": 183
+                    }
+                },
+                "光2": {
+                    "光2": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            336.5,
+                            -608.5,
+                            -310.5,
+                            -608.5,
+                            -310.5,
+                            36.5,
+                            336.5,
+                            36.5
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 324,
+                        "height": 323
+                    }
+                },
+                "炉": {
+                    "炉": {
+                        "y": 27,
+                        "width": 527,
+                        "height": 925
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {},
+    "extraSlot": {
+        "光1": {
+            "slotName": "光1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 4,
+                    "delay": 0,
+                    "max": 0.1
+                }
+            }
+        },
+        "光2": {
+            "slotName": "光2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0.08796722594703321,
+                    "max": 0.1
+                }
+            }
+        },
+        "game_d_guan": {
+            "slotName": "game_d_guan",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 3,
+                    "delay": 0.45550237758616285,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

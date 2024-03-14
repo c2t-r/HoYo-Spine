@@ -1,0 +1,124 @@
+{
+    "skeleton": {
+        "hash": "O9OWhD1mXSA",
+        "spine": "4.1.17",
+        "x": -400.17,
+        "y": -361.5,
+        "width": 1827,
+        "height": 973
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 1424.13,
+            "y": -148.91
+        }
+    ],
+    "slots": [
+        {
+            "name": "这个不用动",
+            "bone": "bone",
+            "attachment": "这个不用动"
+        },
+        {
+            "name": "树叶后2",
+            "bone": "bone",
+            "attachment": "树叶后2"
+        },
+        {
+            "name": "树叶后1",
+            "bone": "bone",
+            "attachment": "树叶后1"
+        },
+        {
+            "name": "树叶前3",
+            "bone": "bone",
+            "attachment": "树叶前3"
+        },
+        {
+            "name": "树叶前2",
+            "bone": "bone",
+            "attachment": "树叶前2"
+        },
+        {
+            "name": "树叶前1",
+            "bone": "bone",
+            "attachment": "树叶前1"
+        },
+        {
+            "name": "树干",
+            "bone": "bone",
+            "attachment": "树干"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "树叶前1": {
+                    "树叶前1": {
+                        "x": -673.8,
+                        "y": 280.41,
+                        "width": 169,
+                        "height": 90
+                    }
+                },
+                "树叶前2": {
+                    "树叶前2": {
+                        "x": -1154.3,
+                        "y": 532.91,
+                        "width": 420,
+                        "height": 289
+                    }
+                },
+                "树叶前3": {
+                    "树叶前3": {
+                        "x": -1615.3,
+                        "y": 595.41,
+                        "width": 242,
+                        "height": 180
+                    }
+                },
+                "树叶后1": {
+                    "树叶后1": {
+                        "x": -1584.3,
+                        "y": 560.41,
+                        "width": 480,
+                        "height": 286
+                    }
+                },
+                "树叶后2": {
+                    "树叶后2": {
+                        "x": -1145.3,
+                        "y": 570.91,
+                        "width": 428,
+                        "height": 205
+                    }
+                },
+                "树干": {
+                    "树干": {
+                        "x": -838.3,
+                        "y": 215.91,
+                        "width": 1682,
+                        "height": 857
+                    }
+                },
+                "这个不用动": {
+                    "这个不用动": {
+                        "x": -1584.3,
+                        "y": 326.91,
+                        "width": 292,
+                        "height": 867
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "skeleton": {
+        "hash": "uAN1O1d7vbY",
+        "spine": "4.1.17",
+        "x": -1363.58,
+        "y": -362.78,
+        "width": 615,
+        "height": 772
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -909.25,
+            "y": 333.9
+        }
+    ],
+    "slots": [
+        {
+            "name": "左后白色建筑",
+            "bone": "bone",
+            "attachment": "左后白色建筑"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "左后白色建筑": {
+                    "左后白色建筑": {
+                        "x": -146.83,
+                        "y": -310.68,
+                        "width": 615,
+                        "height": 772
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

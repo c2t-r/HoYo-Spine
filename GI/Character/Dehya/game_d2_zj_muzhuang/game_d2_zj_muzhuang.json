@@ -1,0 +1,38 @@
+{
+    "skeleton": {
+        "hash": "8RpVYv/jTng",
+        "spine": "4.0-from-4.1.19",
+        "x": -1652.5,
+        "y": -401,
+        "width": 3305,
+        "height": 802
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "game_d2_zj_an_a",
+            "bone": "root",
+            "attachment": "game_d2_zj_muzhuang"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "game_d2_zj_an_a": {
+                    "game_d2_zj_muzhuang": {
+                        "width": 3305,
+                        "height": 802
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

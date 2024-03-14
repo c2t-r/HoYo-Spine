@@ -1,0 +1,80 @@
+{
+    "skeleton": {
+        "hash": "+TNS+DPt1Mg",
+        "spine": "4.0-from-4.1.17",
+        "x": -189,
+        "y": -204,
+        "width": 379,
+        "height": 409
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "a",
+            "bone": "root",
+            "attachment": "loading_sitou"
+        },
+        {
+            "name": "b",
+            "bone": "root",
+            "attachment": "石头_单色"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "loading_sitou": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 379,
+                        "height": 409
+                    }
+                },
+                "b": {
+                    "石头_单色": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 379,
+                        "height": 409
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {},
+        "b": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

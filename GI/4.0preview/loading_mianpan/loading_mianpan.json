@@ -1,0 +1,86 @@
+{
+    "skeleton": {
+        "hash": "XohE8bckT2M",
+        "spine": "4.0-from-4.1.23",
+        "x": -198.75,
+        "y": -135.22,
+        "width": 396,
+        "height": 396,
+        "images": "./quanchilun_images/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -389.75,
+            "y": 430.78
+        },
+        {
+            "name": "面盘",
+            "parent": "bone",
+            "x": 389,
+            "y": -368
+        }
+    ],
+    "slots": [
+        {
+            "name": "面盘",
+            "bone": "面盘",
+            "attachment": "面盘"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "面盘": {
+                    "面盘": {
+                        "width": 396,
+                        "height": 396
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "loop1": {
+            "bones": {
+                "面盘": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.203,
+                                0,
+                                0.116,
+                                15
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 15
+                        }
+                    ]
+                }
+            }
+        },
+        "loop2": {
+            "bones": {
+                "面盘": {
+                    "rotate": [
+                        {
+                            "value": 15
+                        },
+                        {
+                            "time": 6,
+                            "value": 375
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

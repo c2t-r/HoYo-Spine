@@ -1,0 +1,170 @@
+{
+    "skeleton": {
+        "hash": "Qyp2BAtvIpU",
+        "spine": "4.1.17",
+        "x": -972,
+        "y": -1043.15,
+        "width": 1944,
+        "height": 1944
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 0.46,
+            "y": -677.28
+        },
+        {
+            "name": "js_quan_a - 1",
+            "parent": "bone",
+            "x": -0.46,
+            "y": 606.13
+        },
+        {
+            "name": "js_quan_b",
+            "parent": "bone",
+            "x": 0.03,
+            "y": 605.62
+        },
+        {
+            "name": "js_quan_a - 2",
+            "parent": "bone",
+            "x": -0.44,
+            "y": 606.13
+        },
+        {
+            "name": "js_quan_c",
+            "parent": "bone",
+            "x": -0.45,
+            "y": 606.13
+        },
+        {
+            "name": "js_quan_d",
+            "parent": "bone",
+            "x": -0.45,
+            "y": 606.13
+        }
+    ],
+    "slots": [
+        {
+            "name": "js_quan_d",
+            "bone": "js_quan_d",
+            "attachment": "js_quan_d"
+        },
+        {
+            "name": "js_quan_c",
+            "bone": "js_quan_c",
+            "attachment": "js_quan_c"
+        },
+        {
+            "name": "js_quan_b",
+            "bone": "js_quan_b",
+            "attachment": "js_quan_b"
+        },
+        {
+            "name": "js_quan_a - 2",
+            "bone": "js_quan_a - 2",
+            "attachment": "js_quan_a - 2"
+        },
+        {
+            "name": "js_quan_a - 1",
+            "bone": "js_quan_a - 1",
+            "attachment": "js_quan_a - 1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "js_quan_a - 1": {
+                    "js_quan_a - 1": {
+                        "width": 1944,
+                        "height": 1944
+                    }
+                },
+                "js_quan_a - 2": {
+                    "js_quan_a - 2": {
+                        "x": -0.02,
+                        "width": 1656,
+                        "height": 1656
+                    }
+                },
+                "js_quan_b": {
+                    "js_quan_b": {
+                        "y": 0.01,
+                        "width": 1445,
+                        "height": 1445
+                    }
+                },
+                "js_quan_c": {
+                    "js_quan_c": {
+                        "x": -0.01,
+                        "width": 1074,
+                        "height": 1074
+                    }
+                },
+                "js_quan_d": {
+                    "js_quan_d": {
+                        "x": -0.01,
+                        "width": 962,
+                        "height": 962
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "js_quan_a - 1": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 53.3333,
+                            "value": 360
+                        }
+                    ]
+                },
+                "js_quan_a - 2": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 53.3333,
+                            "value": -360
+                        }
+                    ]
+                },
+                "js_quan_b": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 53.3333,
+                            "value": 360
+                        }
+                    ]
+                },
+                "js_quan_c": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 53.3333,
+                            "value": -360
+                        }
+                    ]
+                },
+                "js_quan_d": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 53.3333,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "skeleton": {
+        "hash": "eCA5Z11Ncps",
+        "spine": "4.0-from-4.2.09-beta",
+        "x": -1099.6,
+        "y": -329.87,
+        "width": 2196.73,
+        "height": 356.79
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -35.14,
+            "y": -280.42,
+            "scaleX": 1.0039,
+            "scaleY": 1.0039
+        }
+    ],
+    "slots": [
+        {
+            "name": "loading_down_dots",
+            "bone": "bone",
+            "attachment": "loading_pc_down_dots2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "loading_down_dots": {
+                    "loading_pc_down_dots": {
+                        "x": 33.78,
+                        "y": 128.44,
+                        "scaleX": 0.9955,
+                        "scaleY": 0.9955,
+                        "width": 2198,
+                        "height": 357
+                    },
+                    "loading_pc_down_dots2": {
+                        "path": "loading_pc_down_dots",
+                        "x": 33.78,
+                        "y": 128.44,
+                        "scaleX": -0.9955,
+                        "scaleY": 0.9955,
+                        "width": 2198,
+                        "height": 357
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "loading_down_dots": {
+                    "attachment": [
+                        {
+                            "name": "loading_pc_down_dots"
+                        },
+                        {
+                            "time": 0.4,
+                            "name": "loading_pc_down_dots2"
+                        },
+                        {
+                            "time": 0.8,
+                            "name": "loading_pc_down_dots"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

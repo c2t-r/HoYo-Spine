@@ -1,0 +1,199 @@
+{
+    "skeleton": {
+        "hash": "r+Z1pstDEZg",
+        "spine": "4.0.33",
+        "x": -132.72,
+        "y": 0.4,
+        "width": 265.86,
+        "height": 68.55
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.42,
+            "scaleY": 0.42
+        }
+    ],
+    "slots": [
+        {
+            "name": "wanye_cao_g",
+            "bone": "root",
+            "attachment": "wanye_cao_g"
+        },
+        {
+            "name": "wanye_cao_f",
+            "bone": "root",
+            "attachment": "wanye_cao_f"
+        },
+        {
+            "name": "wanye_cao_e",
+            "bone": "root",
+            "attachment": "wanye_cao_e"
+        },
+        {
+            "name": "wanye_cao_d",
+            "bone": "root",
+            "attachment": "wanye_cao_d"
+        },
+        {
+            "name": "wanye_cao_c",
+            "bone": "root",
+            "attachment": "wanye_cao_c"
+        },
+        {
+            "name": "wanye_cao_b",
+            "bone": "root",
+            "attachment": "wanye_cao_b"
+        },
+        {
+            "name": "wanye_cao_a",
+            "bone": "root",
+            "attachment": "wanye_cao_a"
+        },
+        {
+            "name": "wanye_cao_h",
+            "bone": "root",
+            "attachment": "wanye_cao_h"
+        },
+        {
+            "name": "wanye_cao_i",
+            "bone": "root",
+            "attachment": "wanye_cao_i"
+        }
+    ],
+    "skins": [
+        {
+            "name": "a",
+            "attachments": {
+                "wanye_cao_a": {
+                    "wanye_cao_a": {
+                        "x": 0.5,
+                        "y": 100.15,
+                        "width": 835,
+                        "height": 198
+                    }
+                }
+            }
+        },
+        {
+            "name": "b",
+            "attachments": {
+                "wanye_cao_b": {
+                    "wanye_cao_b": {
+                        "x": 0.5,
+                        "y": 91.55,
+                        "width": 619,
+                        "height": 181
+                    }
+                }
+            }
+        },
+        {
+            "name": "c",
+            "attachments": {
+                "wanye_cao_c": {
+                    "wanye_cao_c": {
+                        "x": 0.5,
+                        "y": 76.48,
+                        "width": 245,
+                        "height": 150
+                    }
+                }
+            }
+        },
+        {
+            "name": "d",
+            "attachments": {
+                "wanye_cao_d": {
+                    "wanye_cao_d": {
+                        "y": 89.73,
+                        "width": 202,
+                        "height": 177
+                    }
+                }
+            }
+        },
+        {
+            "name": "e",
+            "attachments": {
+                "wanye_cao_e": {
+                    "wanye_cao_e": {
+                        "x": 0.91,
+                        "y": 106.52,
+                        "width": 280,
+                        "height": 210
+                    }
+                }
+            }
+        },
+        {
+            "name": "f",
+            "attachments": {
+                "wanye_cao_f": {
+                    "wanye_cao_f": {
+                        "x": 0.5,
+                        "y": 62.41,
+                        "width": 879,
+                        "height": 123
+                    }
+                }
+            }
+        },
+        {
+            "name": "g",
+            "attachments": {
+                "wanye_cao_g": {
+                    "wanye_cao_g": {
+                        "x": 0.5,
+                        "y": 82.44,
+                        "width": 633,
+                        "height": 163
+                    }
+                }
+            }
+        },
+        {
+            "name": "h",
+            "attachments": {
+                "wanye_cao_g": {
+                    "wanye_cao_g": {
+                        "x": 0.5,
+                        "y": 82.44,
+                        "width": 633,
+                        "height": 163
+                    }
+                },
+                "wanye_cao_h": {
+                    "wanye_cao_h": {
+                        "y": 82.65,
+                        "width": 561,
+                        "height": 163
+                    }
+                }
+            }
+        },
+        {
+            "name": "i",
+            "attachments": {
+                "wanye_cao_g": {
+                    "wanye_cao_g": {
+                        "x": 0.5,
+                        "y": 82.44,
+                        "width": 633,
+                        "height": 163
+                    }
+                },
+                "wanye_cao_i": {
+                    "wanye_cao_i": {
+                        "y": 82.12,
+                        "width": 557,
+                        "height": 161
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

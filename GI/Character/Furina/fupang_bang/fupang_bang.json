@@ -1,0 +1,173 @@
+{
+    "skeleton": {
+        "hash": "ROOdm3XFHaQ",
+        "spine": "4.0-from-4.1.23",
+        "x": -594.5,
+        "y": 244,
+        "width": 1184,
+        "height": 247,
+        "images": "./fupang/fupang_bang/tex/",
+        "audio": "D:/work_2023/原神_1103_水神/spine/fupang/fupang_bang"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -2.08,
+            "y": 218.23
+        }
+    ],
+    "slots": [
+        {
+            "name": "板",
+            "bone": "root",
+            "attachment": "板"
+        },
+        {
+            "name": "mask",
+            "bone": "root",
+            "attachment": "mask"
+        },
+        {
+            "name": "齿轮",
+            "bone": "bone",
+            "attachment": "齿轮"
+        },
+        {
+            "name": "线",
+            "bone": "root",
+            "attachment": "线"
+        },
+        {
+            "name": "顶",
+            "bone": "root",
+            "attachment": "顶"
+        },
+        {
+            "name": "fupage_a_ding2",
+            "bone": "root",
+            "attachment": "fupage_a_ding2"
+        },
+        {
+            "name": "fupage_a_ding",
+            "bone": "root",
+            "attachment": "fupage_a_ding"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "fupage_a_ding": {
+                    "fupage_a_ding": {
+                        "x": 574,
+                        "y": 259.5,
+                        "width": 31,
+                        "height": 31
+                    }
+                },
+                "fupage_a_ding2": {
+                    "fupage_a_ding2": {
+                        "x": -579,
+                        "y": 259.5,
+                        "width": 31,
+                        "height": 31
+                    }
+                },
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "齿轮",
+                        "vertexCount": 4,
+                        "vertices": [
+                            -179.06,
+                            325.78,
+                            194.93,
+                            326.31,
+                            189.61,
+                            428.45,
+                            -172.15,
+                            426.33
+                        ],
+                        "color": "ce3a3a00"
+                    }
+                },
+                "板": {
+                    "板": {
+                        "y": -21.5,
+                        "width": 1347,
+                        "height": 939
+                    }
+                },
+                "线": {
+                    "线": {
+                        "x": -0.5,
+                        "y": 335,
+                        "width": 336,
+                        "height": 24
+                    }
+                },
+                "顶": {
+                    "顶": {
+                        "x": -0.5,
+                        "y": 440,
+                        "width": 88,
+                        "height": 102
+                    }
+                },
+                "齿轮": {
+                    "齿轮": {
+                        "x": -0.42,
+                        "y": -0.23,
+                        "width": 344,
+                        "height": 348
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {},
+        "b": {
+            "slots": {
+                "fupage_a_ding": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "fupage_a_ding2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.1,
+                    "rotateFreq": 1,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

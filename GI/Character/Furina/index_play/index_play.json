@@ -1,0 +1,255 @@
+{
+    "skeleton": {
+        "hash": "aYMe0EU4gF0",
+        "spine": "4.0-from-4.1.23",
+        "x": -96.2,
+        "y": -244.55,
+        "width": 460,
+        "height": 342,
+        "images": "./index/index_play/tex/",
+        "audio": "D:/work_2023/原神_1103_水神/spine/index/index_play"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "三角形 1",
+            "parent": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "三角形 1"
+        },
+        {
+            "name": "bone2",
+            "parent": "三角形 1"
+        },
+        {
+            "name": "pa",
+            "parent": "三角形 1",
+            "x": 6.01,
+            "y": 72.62
+        },
+        {
+            "name": "pb",
+            "parent": "三角形 1",
+            "x": 38.81,
+            "y": 70.68
+        },
+        {
+            "name": "pc",
+            "parent": "三角形 1",
+            "x": 26.29,
+            "y": -50.16
+        }
+    ],
+    "slots": [
+        {
+            "name": "b2",
+            "bone": "bone2",
+            "attachment": "b"
+        },
+        {
+            "name": "a",
+            "bone": "bone",
+            "attachment": "a"
+        },
+        {
+            "name": "pc",
+            "bone": "pc",
+            "attachment": "pc"
+        },
+        {
+            "name": "pb",
+            "bone": "pb",
+            "attachment": "pb"
+        },
+        {
+            "name": "pa",
+            "bone": "pa",
+            "attachment": "pa"
+        },
+        {
+            "name": "三角形 1",
+            "bone": "三角形 1",
+            "attachment": "三角形 1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": 133.8,
+                        "y": -73.55,
+                        "width": 460,
+                        "height": 342
+                    }
+                },
+                "b2": {
+                    "b": {
+                        "x": -0.2,
+                        "y": 2.95,
+                        "width": 186,
+                        "height": 185
+                    }
+                },
+                "pa": {
+                    "pa": {
+                        "x": 0.79,
+                        "y": 4.33,
+                        "width": 24,
+                        "height": 27
+                    }
+                },
+                "pb": {
+                    "pb": {
+                        "x": -4.01,
+                        "y": 6.27,
+                        "width": 24,
+                        "height": 21
+                    }
+                },
+                "pc": {
+                    "pc": {
+                        "x": -0.99,
+                        "y": -0.39,
+                        "width": 13,
+                        "height": 12
+                    }
+                },
+                "三角形 1": {
+                    "三角形 1": {
+                        "x": 7.3,
+                        "y": -0.05,
+                        "width": 71,
+                        "height": 79
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "三角形 1": {
+            "rootBoneName": "三角形 1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "pa": {
+            "rootBoneName": "pa",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.6911652088211917,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4.0418980608176724,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "pb": {
+            "rootBoneName": "pb",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.1869173800313786,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.787256100054977,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "pc": {
+            "rootBoneName": "pc",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -2.6683791160777246,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.5948466979881637,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 4.5,
+                    "rotateAmp": 6,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "bone2": {
+            "rootBoneName": "bone2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 4.5,
+                    "rotateAmp": 6,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.18000849156779614
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

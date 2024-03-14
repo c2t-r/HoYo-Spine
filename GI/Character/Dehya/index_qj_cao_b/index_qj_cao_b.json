@@ -1,0 +1,38 @@
+{
+    "skeleton": {
+        "hash": "8lS14LNqIkM",
+        "spine": "4.0-from-4.1.19",
+        "x": -391,
+        "y": -230.5,
+        "width": 782,
+        "height": 461
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "index_cao",
+            "bone": "root",
+            "attachment": "index_chezi"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "index_cao": {
+                    "index_chezi": {
+                        "width": 782,
+                        "height": 461
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

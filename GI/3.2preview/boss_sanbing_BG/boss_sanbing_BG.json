@@ -1,0 +1,1881 @@
+{
+    "skeleton": {
+        "hash": "oArKeIq4Aok",
+        "spine": "4.0.33",
+        "x": -948.22,
+        "y": -831.41,
+        "width": 2004,
+        "height": 1902
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 78.77,
+            "y": -719.75
+        },
+        {
+            "name": "suipian12",
+            "parent": "bone",
+            "x": -98.79,
+            "y": 1118.4
+        },
+        {
+            "name": "suipian13",
+            "parent": "suipian12",
+            "x": -5.68,
+            "y": 6.81
+        },
+        {
+            "name": "suipian14",
+            "parent": "suipian12",
+            "x": -5.68,
+            "y": 6.81
+        }
+    ],
+    "slots": [
+        {
+            "name": "图层 0",
+            "bone": "bone",
+            "attachment": "图层 0"
+        },
+        {
+            "name": "heidong",
+            "bone": "bone",
+            "attachment": "heidong"
+        },
+        {
+            "name": "liangguang",
+            "bone": "bone",
+            "attachment": "liangguang"
+        },
+        {
+            "name": "fangsheguang04",
+            "bone": "bone",
+            "attachment": "fangsheguang04"
+        },
+        {
+            "name": "fangsheguang03",
+            "bone": "bone",
+            "attachment": "fangsheguang03"
+        },
+        {
+            "name": "fangsheguang02",
+            "bone": "bone",
+            "attachment": "fangsheguang02"
+        },
+        {
+            "name": "fangsheguang01",
+            "bone": "bone",
+            "attachment": "fangsheguang01"
+        },
+        {
+            "name": "suipian12",
+            "bone": "suipian12",
+            "attachment": "suipian12"
+        },
+        {
+            "name": "suipian11",
+            "bone": "suipian13",
+            "attachment": "suipian11"
+        },
+        {
+            "name": "suipian13",
+            "bone": "suipian14",
+            "attachment": "suipian11"
+        },
+        {
+            "name": "suipian10",
+            "bone": "suipian13",
+            "attachment": "suipian10"
+        },
+        {
+            "name": "suipian14",
+            "bone": "suipian14",
+            "attachment": "suipian10"
+        },
+        {
+            "name": "suipian09",
+            "bone": "suipian13",
+            "attachment": "suipian09"
+        },
+        {
+            "name": "suipian010",
+            "bone": "suipian14",
+            "attachment": "suipian09"
+        },
+        {
+            "name": "suipian08",
+            "bone": "suipian13",
+            "attachment": "suipian08"
+        },
+        {
+            "name": "suipian011",
+            "bone": "suipian14",
+            "attachment": "suipian08"
+        },
+        {
+            "name": "suipian07",
+            "bone": "suipian13",
+            "attachment": "suipian07"
+        },
+        {
+            "name": "suipian012",
+            "bone": "suipian14",
+            "attachment": "suipian07"
+        },
+        {
+            "name": "suipian06",
+            "bone": "suipian13",
+            "attachment": "suipian06"
+        },
+        {
+            "name": "suipian013",
+            "bone": "suipian14",
+            "attachment": "suipian06"
+        },
+        {
+            "name": "suipian05",
+            "bone": "suipian13",
+            "attachment": "suipian05"
+        },
+        {
+            "name": "suipian014",
+            "bone": "suipian14",
+            "attachment": "suipian05"
+        },
+        {
+            "name": "suipian04",
+            "bone": "suipian13",
+            "attachment": "suipian04"
+        },
+        {
+            "name": "suipian015",
+            "bone": "suipian14",
+            "attachment": "suipian04"
+        },
+        {
+            "name": "suipian03",
+            "bone": "suipian13",
+            "attachment": "suipian03"
+        },
+        {
+            "name": "suipian016",
+            "bone": "suipian14",
+            "attachment": "suipian03"
+        },
+        {
+            "name": "suipian02",
+            "bone": "suipian13",
+            "attachment": "suipian02"
+        },
+        {
+            "name": "suipian017",
+            "bone": "suipian14",
+            "attachment": "suipian02"
+        },
+        {
+            "name": "suipian01",
+            "bone": "suipian13",
+            "attachment": "suipian01"
+        },
+        {
+            "name": "suipian018",
+            "bone": "suipian14",
+            "attachment": "suipian01"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "fangsheguang01": {
+                    "fangsheguang01": {
+                        "x": -312.49,
+                        "y": 990.84,
+                        "width": 439,
+                        "height": 279
+                    }
+                },
+                "fangsheguang02": {
+                    "fangsheguang02": {
+                        "x": -288.99,
+                        "y": 1116.34,
+                        "width": 380,
+                        "height": 192
+                    }
+                },
+                "fangsheguang03": {
+                    "fangsheguang03": {
+                        "x": -77.99,
+                        "y": 1356.34,
+                        "width": 668,
+                        "height": 492
+                    }
+                },
+                "fangsheguang04": {
+                    "fangsheguang04": {
+                        "x": 282.51,
+                        "y": 1129.84,
+                        "width": 799,
+                        "height": 499
+                    }
+                },
+                "heidong": {
+                    "heidong": {
+                        "x": -81.49,
+                        "y": 1124.84,
+                        "width": 797,
+                        "height": 709
+                    }
+                },
+                "liangguang": {
+                    "liangguang": {
+                        "x": -339.99,
+                        "y": 1146.84,
+                        "width": 1098,
+                        "height": 625
+                    }
+                },
+                "suipian01": {
+                    "suipian01": {
+                        "x": -87.03,
+                        "y": 54.14,
+                        "width": 17,
+                        "height": 32
+                    }
+                },
+                "suipian02": {
+                    "suipian02": {
+                        "x": -52.53,
+                        "y": 103.64,
+                        "width": 12,
+                        "height": 17
+                    }
+                },
+                "suipian03": {
+                    "suipian03": {
+                        "x": -44.53,
+                        "y": 70.64,
+                        "width": 46,
+                        "height": 39
+                    }
+                },
+                "suipian04": {
+                    "suipian04": {
+                        "x": -7.03,
+                        "y": 72.14,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "suipian05": {
+                    "suipian05": {
+                        "x": -75.53,
+                        "y": -29.86,
+                        "width": 52,
+                        "height": 54
+                    }
+                },
+                "suipian06": {
+                    "suipian06": {
+                        "x": 60.47,
+                        "y": -45.86,
+                        "width": 106,
+                        "height": 66
+                    }
+                },
+                "suipian07": {
+                    "suipian07": {
+                        "x": -28.53,
+                        "y": -62.86,
+                        "width": 76,
+                        "height": 58
+                    }
+                },
+                "suipian08": {
+                    "suipian08": {
+                        "x": 92.47,
+                        "y": 30.64,
+                        "width": 50,
+                        "height": 51
+                    }
+                },
+                "suipian09": {
+                    "suipian09": {
+                        "x": 56.97,
+                        "y": -9.86,
+                        "width": 51,
+                        "height": 34
+                    }
+                },
+                "suipian10": {
+                    "suipian10": {
+                        "x": 46.47,
+                        "y": 23.14,
+                        "width": 30,
+                        "height": 46
+                    }
+                },
+                "suipian010": {
+                    "suipian09": {
+                        "x": 56.97,
+                        "y": -9.86,
+                        "width": 51,
+                        "height": 34
+                    }
+                },
+                "suipian11": {
+                    "suipian11": {
+                        "x": -40.53,
+                        "y": 43.14,
+                        "width": 68,
+                        "height": 52
+                    }
+                },
+                "suipian011": {
+                    "suipian08": {
+                        "x": 92.47,
+                        "y": 30.64,
+                        "width": 50,
+                        "height": 51
+                    }
+                },
+                "suipian12": {
+                    "suipian12": {
+                        "x": 2.8,
+                        "y": 8.45,
+                        "width": 220,
+                        "height": 163
+                    }
+                },
+                "suipian012": {
+                    "suipian07": {
+                        "x": -28.53,
+                        "y": -62.86,
+                        "width": 76,
+                        "height": 58
+                    }
+                },
+                "suipian13": {
+                    "suipian11": {
+                        "x": -40.53,
+                        "y": 43.14,
+                        "width": 68,
+                        "height": 52
+                    }
+                },
+                "suipian013": {
+                    "suipian06": {
+                        "x": 60.47,
+                        "y": -45.86,
+                        "width": 106,
+                        "height": 66
+                    }
+                },
+                "suipian14": {
+                    "suipian10": {
+                        "x": 46.47,
+                        "y": 23.14,
+                        "width": 30,
+                        "height": 46
+                    }
+                },
+                "suipian014": {
+                    "suipian05": {
+                        "x": -75.53,
+                        "y": -29.86,
+                        "width": 52,
+                        "height": 54
+                    }
+                },
+                "suipian015": {
+                    "suipian04": {
+                        "x": -7.03,
+                        "y": 72.14,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "suipian016": {
+                    "suipian03": {
+                        "x": -44.53,
+                        "y": 70.64,
+                        "width": 46,
+                        "height": 39
+                    }
+                },
+                "suipian017": {
+                    "suipian02": {
+                        "x": -52.53,
+                        "y": 103.64,
+                        "width": 12,
+                        "height": 17
+                    }
+                },
+                "suipian018": {
+                    "suipian01": {
+                        "x": -87.03,
+                        "y": 54.14,
+                        "width": 17,
+                        "height": 32
+                    }
+                },
+                "图层 0": {
+                    "图层 0": {
+                        "x": -24.99,
+                        "y": 839.34,
+                        "width": 2004,
+                        "height": 1902
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "suipian01": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                0,
+                                1.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "suipian02": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                0,
+                                1.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "suipian03": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                0,
+                                1.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "suipian04": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                0,
+                                1.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "suipian05": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                0,
+                                1.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "suipian06": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                0,
+                                1.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "suipian07": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                0,
+                                1.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "suipian08": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                0,
+                                1.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "suipian09": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                0,
+                                1.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "suipian10": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                0,
+                                1.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "suipian010": {
+                    "rgba": [
+                        {
+                            "color": "fffffffd",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                0.96,
+                                1.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                0,
+                                3.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff",
+                            "curve": [
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "fffffffd"
+                        }
+                    ]
+                },
+                "suipian11": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                1,
+                                1.333,
+                                1,
+                                0.667,
+                                0,
+                                1.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                1,
+                                2.678,
+                                1,
+                                3.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "suipian011": {
+                    "rgba": [
+                        {
+                            "color": "fffffffd",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                0.96,
+                                1.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                0,
+                                3.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff",
+                            "curve": [
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "fffffffd"
+                        }
+                    ]
+                },
+                "suipian012": {
+                    "rgba": [
+                        {
+                            "color": "fffffffd",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                0.96,
+                                1.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                0,
+                                3.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff",
+                            "curve": [
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "fffffffd"
+                        }
+                    ]
+                },
+                "suipian13": {
+                    "rgba": [
+                        {
+                            "color": "fffffffd",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                0.96,
+                                1.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                0,
+                                3.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff",
+                            "curve": [
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "fffffffd"
+                        }
+                    ]
+                },
+                "suipian013": {
+                    "rgba": [
+                        {
+                            "color": "fffffffd",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                0.96,
+                                1.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                0,
+                                3.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff",
+                            "curve": [
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "fffffffd"
+                        }
+                    ]
+                },
+                "suipian14": {
+                    "rgba": [
+                        {
+                            "color": "fffffffd",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                0.96,
+                                1.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                0,
+                                3.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff",
+                            "curve": [
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "fffffffd"
+                        }
+                    ]
+                },
+                "suipian014": {
+                    "rgba": [
+                        {
+                            "color": "fffffffd",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                0.96,
+                                1.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                0,
+                                3.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff",
+                            "curve": [
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "fffffffd"
+                        }
+                    ]
+                },
+                "suipian015": {
+                    "rgba": [
+                        {
+                            "color": "fffffffd",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                0.96,
+                                1.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                0,
+                                3.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff",
+                            "curve": [
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "fffffffd"
+                        }
+                    ]
+                },
+                "suipian016": {
+                    "rgba": [
+                        {
+                            "color": "fffffffd",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                0.96,
+                                1.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                0,
+                                3.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff",
+                            "curve": [
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "fffffffd"
+                        }
+                    ]
+                },
+                "suipian017": {
+                    "rgba": [
+                        {
+                            "color": "fffffffd",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                0.96,
+                                1.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                0,
+                                3.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff",
+                            "curve": [
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "fffffffd"
+                        }
+                    ]
+                },
+                "suipian018": {
+                    "rgba": [
+                        {
+                            "color": "fffffffd",
+                            "curve": [
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                1,
+                                1.334,
+                                1,
+                                0.667,
+                                0.96,
+                                1.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                1,
+                                3.333,
+                                1,
+                                2.667,
+                                0,
+                                3.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff",
+                            "curve": [
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1,
+                                4.011,
+                                1,
+                                4.023,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "fffffffd"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "suipian13": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 4,
+                            "x": -12.78,
+                            "y": 26.42
+                        },
+                        {
+                            "time": 4.0333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.896,
+                            "y": 0.896
+                        },
+                        {
+                            "time": 4,
+                            "x": 1.05,
+                            "y": 1.05
+                        },
+                        {
+                            "time": 4.0333,
+                            "x": 0.896,
+                            "y": 0.896
+                        }
+                    ]
+                },
+                "suipian14": {
+                    "translate": [
+                        {
+                            "x": -6.5,
+                            "y": 13.43
+                        },
+                        {
+                            "time": 1.9667,
+                            "x": -12.78,
+                            "y": 26.42
+                        },
+                        {
+                            "time": 2
+                        },
+                        {
+                            "time": 4.0333,
+                            "x": -6.5,
+                            "y": 13.43
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.975,
+                            "y": 0.975
+                        },
+                        {
+                            "time": 1.9667,
+                            "x": 1.05,
+                            "y": 1.05
+                        },
+                        {
+                            "time": 2,
+                            "x": 0.896,
+                            "y": 0.896
+                        },
+                        {
+                            "time": 4.0333,
+                            "x": 0.975,
+                            "y": 0.975
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

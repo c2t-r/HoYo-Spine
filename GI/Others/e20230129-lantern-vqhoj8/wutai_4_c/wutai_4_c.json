@@ -1,0 +1,248 @@
+{
+    "skeleton": {
+        "hash": "a684UddOGFo",
+        "spine": "4.0-from-4.1.17",
+        "x": -725.91,
+        "y": 273.37,
+        "width": 1667,
+        "height": 221
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "c_1",
+            "parent": "root",
+            "x": -680.32,
+            "y": 452.9
+        },
+        {
+            "name": "c_2",
+            "parent": "root",
+            "x": -32.48,
+            "y": 343.08
+        },
+        {
+            "name": "c_3",
+            "parent": "root",
+            "x": 417.34,
+            "y": 446.73
+        },
+        {
+            "name": "c_4",
+            "parent": "root",
+            "x": 735.71,
+            "y": 333.21
+        },
+        {
+            "name": "c_5",
+            "parent": "root",
+            "x": 907.23,
+            "y": 444.26
+        }
+    ],
+    "slots": [
+        {
+            "name": "c_5",
+            "bone": "c_5",
+            "attachment": "c_5"
+        },
+        {
+            "name": "c_4",
+            "bone": "c_4",
+            "attachment": "c_4"
+        },
+        {
+            "name": "c_3",
+            "bone": "c_3",
+            "attachment": "c_3"
+        },
+        {
+            "name": "c_2",
+            "bone": "c_2",
+            "attachment": "c_2"
+        },
+        {
+            "name": "c_1",
+            "bone": "c_1",
+            "attachment": "c_1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "c_1": {
+                    "c_1": {
+                        "x": 1.91,
+                        "y": -0.53,
+                        "width": 95,
+                        "height": 84
+                    }
+                },
+                "c_2": {
+                    "c_2": {
+                        "x": -1.43,
+                        "y": 6.8,
+                        "width": 174,
+                        "height": 153
+                    }
+                },
+                "c_3": {
+                    "c_3": {
+                        "x": 1.75,
+                        "y": -7.86,
+                        "width": 72,
+                        "height": 95
+                    }
+                },
+                "c_4": {
+                    "c_4": {
+                        "x": 1.88,
+                        "y": -6.33,
+                        "width": 77,
+                        "height": 91
+                    }
+                },
+                "c_5": {
+                    "c_5": {
+                        "x": -0.14,
+                        "y": -7.39,
+                        "width": 68,
+                        "height": 81
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "c_1": {
+            "rootBoneName": "c_1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 10,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 2.2
+                }
+            }
+        },
+        "c_2": {
+            "rootBoneName": "c_2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 9,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.35,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 25,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4.51,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.69
+                }
+            }
+        },
+        "c_3": {
+            "rootBoneName": "c_3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 10,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.4
+                }
+            }
+        },
+        "c_4": {
+            "rootBoneName": "c_4",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.45,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.97,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.52
+                }
+            }
+        },
+        "c_5": {
+            "rootBoneName": "c_5",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 15,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 1.1
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

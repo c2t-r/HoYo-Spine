@@ -1,0 +1,223 @@
+{
+    "skeleton": {
+        "hash": "vo33eMRrgzg",
+        "spine": "4.1.23",
+        "x": -1097.21,
+        "y": -1097.21,
+        "width": 2194.41,
+        "height": 2194.41,
+        "images": "./其他/images_a/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "length": 984.7
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "length": 100,
+            "rotation": 90
+        },
+        {
+            "name": "bone3",
+            "parent": "bone",
+            "length": 100,
+            "rotation": 45
+        },
+        {
+            "name": "bone4",
+            "parent": "bone",
+            "length": 100
+        },
+        {
+            "name": "bone5",
+            "parent": "bone",
+            "length": 100,
+            "rotation": -45
+        },
+        {
+            "name": "bone6",
+            "parent": "bone",
+            "length": 100,
+            "rotation": -90
+        },
+        {
+            "name": "bone7",
+            "parent": "bone",
+            "length": 100,
+            "rotation": -135
+        },
+        {
+            "name": "bone8",
+            "parent": "bone",
+            "length": 100,
+            "rotation": 180
+        },
+        {
+            "name": "bone9",
+            "parent": "bone",
+            "length": 100,
+            "rotation": 135
+        }
+    ],
+    "slots": [
+        {
+            "name": "图层 3",
+            "bone": "bone2",
+            "attachment": "图层 3"
+        },
+        {
+            "name": "图层 4",
+            "bone": "bone3",
+            "attachment": "图层 3"
+        },
+        {
+            "name": "图层 5",
+            "bone": "bone4",
+            "attachment": "图层 3"
+        },
+        {
+            "name": "图层 6",
+            "bone": "bone5",
+            "attachment": "图层 3"
+        },
+        {
+            "name": "图层 7",
+            "bone": "bone6",
+            "attachment": "图层 3"
+        },
+        {
+            "name": "图层 8",
+            "bone": "bone7",
+            "attachment": "图层 3"
+        },
+        {
+            "name": "图层 9",
+            "bone": "bone8",
+            "attachment": "图层 3"
+        },
+        {
+            "name": "图层 10",
+            "bone": "bone9",
+            "attachment": "图层 3"
+        },
+        {
+            "name": "图层 2",
+            "bone": "bone",
+            "color": "ffffff67",
+            "attachment": "图层 2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "图层 2": {
+                    "图层 2": {
+                        "x": -0.1,
+                        "y": -0.15,
+                        "width": 142,
+                        "height": 142
+                    }
+                },
+                "图层 3": {
+                    "图层 3": {
+                        "x": 462.22,
+                        "y": -288.46,
+                        "rotation": -90,
+                        "width": 648,
+                        "height": 954
+                    }
+                },
+                "图层 4": {
+                    "图层 3": {
+                        "x": 462.22,
+                        "y": -288.46,
+                        "rotation": -90,
+                        "width": 648,
+                        "height": 954
+                    }
+                },
+                "图层 5": {
+                    "图层 3": {
+                        "x": 462.22,
+                        "y": -288.46,
+                        "rotation": -90,
+                        "width": 648,
+                        "height": 954
+                    }
+                },
+                "图层 6": {
+                    "图层 3": {
+                        "x": 462.22,
+                        "y": -288.46,
+                        "rotation": -90,
+                        "width": 648,
+                        "height": 954
+                    }
+                },
+                "图层 7": {
+                    "图层 3": {
+                        "x": 462.22,
+                        "y": -288.46,
+                        "rotation": -90,
+                        "width": 648,
+                        "height": 954
+                    }
+                },
+                "图层 8": {
+                    "图层 3": {
+                        "x": 462.22,
+                        "y": -288.46,
+                        "rotation": -90,
+                        "width": 648,
+                        "height": 954
+                    }
+                },
+                "图层 9": {
+                    "图层 3": {
+                        "x": 462.22,
+                        "y": -288.46,
+                        "rotation": -90,
+                        "width": 648,
+                        "height": 954
+                    }
+                },
+                "图层 10": {
+                    "图层 3": {
+                        "x": 462.22,
+                        "y": -288.46,
+                        "rotation": -90,
+                        "width": 648,
+                        "height": 954
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": -0.025
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

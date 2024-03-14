@@ -1,0 +1,86 @@
+{
+    "skeleton": {
+        "hash": "Eu4CvDzOi70",
+        "spine": "4.1.17",
+        "x": -188.15,
+        "y": -69.15,
+        "width": 507.7,
+        "height": 169.91
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "laoding_tinali_xx_b",
+            "parent": "root",
+            "x": -132.8,
+            "y": -4.49
+        },
+        {
+            "name": "laoding_tinali_xx_a",
+            "parent": "root",
+            "x": 275.13,
+            "y": 62.78
+        }
+    ],
+    "slots": [
+        {
+            "name": "laoding_tinali_xx_b",
+            "bone": "laoding_tinali_xx_b",
+            "attachment": "laoding_tinali_xx_b"
+        },
+        {
+            "name": "laoding_tinali_xx_a",
+            "bone": "laoding_tinali_xx_a",
+            "attachment": "laoding_tinali_xx_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "laoding_tinali_xx_a": {
+                    "laoding_tinali_xx_a": {
+                        "x": -1.08,
+                        "y": -4.02,
+                        "width": 91,
+                        "height": 84
+                    }
+                },
+                "laoding_tinali_xx_b": {
+                    "laoding_tinali_xx_b": {
+                        "x": 3.15,
+                        "y": -3.66,
+                        "width": 117,
+                        "height": 122
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "laoding_tinali_xx_b": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 12,
+                            "value": -360
+                        }
+                    ]
+                },
+                "laoding_tinali_xx_a": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 12,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

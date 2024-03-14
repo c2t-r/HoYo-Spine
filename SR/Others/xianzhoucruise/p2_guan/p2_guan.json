@@ -1,0 +1,168 @@
+{
+    "skeleton": {
+        "hash": "/Q0LkJ56k7M",
+        "spine": "4.0-from-4.1.21",
+        "x": -1995,
+        "y": -791,
+        "width": 3991,
+        "height": 1583
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "e",
+            "bone": "root",
+            "attachment": "e",
+            "blend": "additive"
+        },
+        {
+            "name": "d",
+            "bone": "root",
+            "attachment": "d",
+            "blend": "additive"
+        },
+        {
+            "name": "c",
+            "bone": "root",
+            "attachment": "c",
+            "blend": "additive"
+        },
+        {
+            "name": "b",
+            "bone": "root",
+            "attachment": "b",
+            "blend": "additive"
+        },
+        {
+            "name": "a",
+            "bone": "root",
+            "attachment": "a",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": -1929,
+                        "y": -330,
+                        "width": 132,
+                        "height": 182
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": -194.5,
+                        "y": 202,
+                        "width": 1517,
+                        "height": 1180
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": -741,
+                        "y": -466.5,
+                        "width": 958,
+                        "height": 649
+                    }
+                },
+                "d": {
+                    "d": {
+                        "x": 414,
+                        "y": -208,
+                        "width": 436,
+                        "height": 478
+                    }
+                },
+                "e": {
+                    "e": {
+                        "x": 1292.5,
+                        "y": 198.5,
+                        "width": 1407,
+                        "height": 1187
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {},
+    "extraSlot": {
+        "e": {
+            "slotName": "e",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0,
+                    "min": 0.3,
+                    "max": 0.5
+                }
+            }
+        },
+        "d": {
+            "slotName": "d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": -0.17370255410636526,
+                    "min": 0.3,
+                    "max": 0.5
+                }
+            }
+        },
+        "c": {
+            "slotName": "c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0.02193202126711924,
+                    "min": 0.3,
+                    "max": 0.5
+                }
+            }
+        },
+        "b": {
+            "slotName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0.2479340402933261,
+                    "min": 0.3,
+                    "max": 0.5
+                }
+            }
+        },
+        "a": {
+            "slotName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0.7453141724292214,
+                    "min": 0.3,
+                    "max": 0.5
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

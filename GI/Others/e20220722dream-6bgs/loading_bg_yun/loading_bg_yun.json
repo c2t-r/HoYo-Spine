@@ -1,0 +1,230 @@
+{
+    "skeleton": {
+        "hash": "dzZo4rt/KRI",
+        "spine": "4.0.33",
+        "x": -1209.84,
+        "y": -191.2,
+        "width": 2423,
+        "height": 648.87
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 21.61,
+            "y": -10.46
+        },
+        {
+            "name": "loading_yun_j",
+            "parent": "bone",
+            "x": -144.7,
+            "y": 152.73
+        },
+        {
+            "name": "loading_yun_k",
+            "parent": "bone",
+            "x": -130.96,
+            "y": 310.79
+        },
+        {
+            "name": "loading_sky_yun_i",
+            "parent": "bone",
+            "x": -2.11,
+            "y": 379.51
+        },
+        {
+            "name": "loading_sky_yun_h",
+            "parent": "bone",
+            "x": 207.5,
+            "y": 341.71
+        },
+        {
+            "name": "loading_sky_yun_g",
+            "parent": "bone",
+            "x": 489.26,
+            "y": 283.3
+        },
+        {
+            "name": "loading_sky_yun_f",
+            "parent": "bone",
+            "x": 412.51,
+            "y": 185.37
+        },
+        {
+            "name": "loading_sky_yun_e",
+            "parent": "bone",
+            "x": 477.79,
+            "y": 159.6
+        },
+        {
+            "name": "loading_sky_yun_d",
+            "parent": "bone",
+            "x": 790.48,
+            "y": 173.34
+        },
+        {
+            "name": "loading_sky_yun_b",
+            "parent": "bone",
+            "x": 639.29,
+            "y": 53.08
+        }
+    ],
+    "slots": [
+        {
+            "name": "loading_yun_k",
+            "bone": "loading_yun_k",
+            "attachment": "loading_yun_k"
+        },
+        {
+            "name": "loading_yun_j",
+            "bone": "loading_yun_j",
+            "attachment": "loading_yun_j"
+        },
+        {
+            "name": "loading_sky_yun_i",
+            "bone": "loading_sky_yun_i",
+            "attachment": "loading_sky_yun_i"
+        },
+        {
+            "name": "loading_sky_yun_h",
+            "bone": "loading_sky_yun_h",
+            "attachment": "loading_sky_yun_h"
+        },
+        {
+            "name": "loading_sky_yun_g",
+            "bone": "loading_sky_yun_g",
+            "attachment": "loading_sky_yun_g"
+        },
+        {
+            "name": "loading_sky_yun_f",
+            "bone": "loading_sky_yun_f",
+            "attachment": "loading_sky_yun_f"
+        },
+        {
+            "name": "loading_sky_yun_e",
+            "bone": "loading_sky_yun_e",
+            "attachment": "loading_sky_yun_e"
+        },
+        {
+            "name": "loading_sky_yun_d",
+            "bone": "loading_sky_yun_d",
+            "attachment": "loading_sky_yun_d"
+        },
+        {
+            "name": "loading_sky_yun_c",
+            "bone": "bone",
+            "attachment": "loading_sky_yun_c"
+        },
+        {
+            "name": "loading_sky_yun_b",
+            "bone": "loading_sky_yun_b",
+            "attachment": "loading_sky_yun_b"
+        },
+        {
+            "name": "loading_sky_yun_a1",
+            "bone": "bone",
+            "attachment": "loading_sky_yun_a1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "loading_sky_yun_a1": {
+                    "loading_sky_yun_a1": {
+                        "x": -547.95,
+                        "y": 12.26,
+                        "width": 1367,
+                        "height": 386
+                    }
+                },
+                "loading_sky_yun_b": {
+                    "loading_sky_yun_b": {
+                        "x": 240.26,
+                        "y": 73.18,
+                        "width": 624,
+                        "height": 248
+                    }
+                },
+                "loading_sky_yun_c": {
+                    "loading_sky_yun_c": {
+                        "x": -977.95,
+                        "y": 249.13,
+                        "width": 271,
+                        "height": 72
+                    }
+                },
+                "loading_sky_yun_d": {
+                    "loading_sky_yun_d": {
+                        "x": 154.57,
+                        "y": 81.79,
+                        "width": 375,
+                        "height": 180
+                    }
+                },
+                "loading_sky_yun_e": {
+                    "loading_sky_yun_e": {
+                        "x": 232.76,
+                        "y": 98.53,
+                        "width": 534,
+                        "height": 224
+                    }
+                },
+                "loading_sky_yun_f": {
+                    "loading_sky_yun_f": {
+                        "x": 305.54,
+                        "y": 132.76,
+                        "width": 779,
+                        "height": 300
+                    }
+                },
+                "loading_sky_yun_g": {
+                    "loading_sky_yun_g": {
+                        "x": 76.79,
+                        "y": 50.33,
+                        "width": 445,
+                        "height": 269
+                    }
+                },
+                "loading_sky_yun_h": {
+                    "loading_sky_yun_h": {
+                        "x": 134.05,
+                        "y": 39.42,
+                        "width": 416,
+                        "height": 174
+                    }
+                },
+                "loading_sky_yun_i": {
+                    "loading_sky_yun_i": {
+                        "x": 64.15,
+                        "y": 26.12,
+                        "width": 153,
+                        "height": 125
+                    }
+                },
+                "loading_yun_j": {
+                    "loading_yun_j": {
+                        "x": -266.25,
+                        "y": 130.9,
+                        "width": 1207,
+                        "height": 369
+                    }
+                },
+                "loading_yun_k": {
+                    "loading_yun_k": {
+                        "x": -95.99,
+                        "y": 44.84,
+                        "width": 373,
+                        "height": 225
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "skeleton": {
+        "hash": "PfbWm5HKaTY",
+        "spine": "4.0-from-4.1.23",
+        "images": "./fupang/fupang_b_photo/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -55.74,
+            "y": 6.24
+        },
+        {
+            "name": "bone2",
+            "parent": "root",
+            "x": -44.1,
+            "y": 4.58
+        }
+    ],
+    "slots": [
+        {
+            "name": "mask",
+            "bone": "root",
+            "attachment": "mask"
+        },
+        {
+            "name": "fupang_b_jiaodai1",
+            "bone": "root",
+            "attachment": "fupang_b_jiaodai1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "fupang_b_jiaodai1": {
+                    "fupang_b_jiaodai1": {
+                        "width": 71,
+                        "height": 43
+                    },
+                    "fupang_b_jiaodai2": {
+                        "width": 73,
+                        "height": 44
+                    }
+                },
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "mask",
+                        "vertexCount": 4,
+                        "vertices": [
+                            1,
+                            1,
+                            12.89,
+                            35.33,
+                            1,
+                            1,
+                            1,
+                            -2.49,
+                            -32.01,
+                            1,
+                            1,
+                            2,
+                            -0.83,
+                            -33.25,
+                            1,
+                            1,
+                            2,
+                            11.64,
+                            34.5,
+                            1
+                        ],
+                        "color": "ce3a3a9f"
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "bones": {
+                "bone2": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.089,
+                                0,
+                                0.178,
+                                87.29,
+                                0.089,
+                                0,
+                                0.178,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 87.29
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "fupang_b_jiaodai1": {
+                    "attachment": [
+                        {
+                            "name": "fupang_b_jiaodai2"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone2": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.089,
+                                0,
+                                0.178,
+                                87.29,
+                                0.089,
+                                0,
+                                0.178,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 87.29
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,155 @@
+{
+    "skeleton": {
+        "hash": "DAMBoCyQEpM",
+        "spine": "4.1.17",
+        "x": -500.53,
+        "y": -387.48,
+        "width": 1956.17,
+        "height": 617
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 19.97,
+            "y": -16.2
+        },
+        {
+            "name": "bone2",
+            "parent": "root",
+            "x": 19.97,
+            "y": -16.2
+        }
+    ],
+    "slots": [
+        {
+            "name": "bone3",
+            "bone": "bone2",
+            "attachment": "都市xx"
+        },
+        {
+            "name": "bone4",
+            "bone": "bone2",
+            "attachment": "都市xx"
+        },
+        {
+            "name": "都市",
+            "bone": "bone",
+            "attachment": "都市"
+        },
+        {
+            "name": "都市2",
+            "bone": "bone",
+            "attachment": "都市"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bone3": {
+                    "都市xx": {
+                        "x": -48.45,
+                        "y": 173.43,
+                        "width": 453,
+                        "height": 59
+                    }
+                },
+                "bone4": {
+                    "都市xx": {
+                        "x": 862.45,
+                        "y": 173.43,
+                        "width": 453,
+                        "height": 59
+                    }
+                },
+                "都市": {
+                    "都市": {
+                        "y": -62.78,
+                        "width": 1041,
+                        "height": 617
+                    }
+                },
+                "都市2": {
+                    "都市": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0.01101,
+                            0.99999,
+                            0.0085,
+                            0.00001,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1435.67,
+                            -371.28,
+                            406.13,
+                            -371.27,
+                            403.51,
+                            245.71,
+                            1435.67,
+                            245.72
+                        ],
+                        "hull": 4
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone": {
+                    "translate": [
+                        {
+                            "x": 0.78
+                        },
+                        {
+                            "time": 6.6333,
+                            "x": -910.63,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.6667,
+                            "x": 0.78
+                        },
+                        {
+                            "time": 13.3,
+                            "x": -910.63,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 13.3333,
+                            "x": 0.78
+                        }
+                    ]
+                },
+                "bone2": {
+                    "translate": [
+                        {
+                            "x": 2.33
+                        },
+                        {
+                            "time": 13.3333,
+                            "x": -909.45
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

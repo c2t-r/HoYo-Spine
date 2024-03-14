@@ -1,0 +1,143 @@
+{
+    "skeleton": {
+        "hash": "dTCk6ESZr9I",
+        "spine": "4.0-from-4.1.20",
+        "x": -1403.62,
+        "y": -778.5,
+        "width": 2802,
+        "height": 1557
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -1402.62,
+            "y": 777.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "d",
+            "bone": "root",
+            "attachment": "d",
+            "blend": "additive"
+        },
+        {
+            "name": "c",
+            "bone": "root",
+            "attachment": "c",
+            "blend": "additive"
+        },
+        {
+            "name": "b",
+            "bone": "root",
+            "attachment": "b",
+            "blend": "additive"
+        },
+        {
+            "name": "a",
+            "bone": "root",
+            "attachment": "a",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": 324.5,
+                        "y": -780.5,
+                        "width": 651,
+                        "height": 1551
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": 1050,
+                        "y": -777.5,
+                        "width": 2098,
+                        "height": 1557
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": 1662.5,
+                        "y": -777.5,
+                        "width": 1367,
+                        "height": 1557
+                    }
+                },
+                "d": {
+                    "d": {
+                        "x": 1959,
+                        "y": -777.5,
+                        "width": 1684,
+                        "height": 1557
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {},
+    "extraSlot": {
+        "d": {
+            "slotName": "d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        },
+        "c": {
+            "slotName": "c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.35459496806859825,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        },
+        "b": {
+            "slotName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0.09077101506117535,
+                    "min": 0.75,
+                    "max": 1
+                }
+            }
+        },
+        "a": {
+            "slotName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.23758741919921866,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "skeleton": {
+        "hash": "+wCgbUvHB2Y",
+        "spine": "4.0-from-4.1.20",
+        "x": -1407.5,
+        "y": -376,
+        "width": 2815,
+        "height": 752
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "p1_yun_a",
+            "bone": "root",
+            "attachment": "p1_yun_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "p1_yun_a": {
+                    "p1_yun_a": {
+                        "width": 2815,
+                        "height": 752
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

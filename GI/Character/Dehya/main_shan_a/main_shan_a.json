@@ -1,0 +1,294 @@
+{
+    "skeleton": {
+        "hash": "3yVtr1J4IcE",
+        "spine": "4.0-from-4.1.19",
+        "x": -147.5,
+        "y": -289.5,
+        "width": 295,
+        "height": 589
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "影_展开",
+            "bone": "bone",
+            "color": "ffffff00",
+            "attachment": "影_展开"
+        },
+        {
+            "name": "影_tips",
+            "bone": "bone",
+            "attachment": "影_tips"
+        },
+        {
+            "name": "book",
+            "bone": "bone",
+            "attachment": "book"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "book": {
+                    "book": {
+                        "x": 7,
+                        "y": 0.5,
+                        "width": 244,
+                        "height": 555
+                    }
+                },
+                "影_tips": {
+                    "影_tips": {
+                        "y": 5,
+                        "width": 295,
+                        "height": 589
+                    }
+                },
+                "影_展开": {
+                    "影_展开": {
+                        "x": 19.5,
+                        "y": -2,
+                        "width": 251,
+                        "height": 562
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "open": {
+            "slots": {
+                "影_tips": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "影_展开": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "rotate": [
+                        {}
+                    ],
+                    "translatex": [
+                        {}
+                    ],
+                    "translatey": [
+                        {}
+                    ]
+                }
+            }
+        },
+        "tips": {
+            "bones": {
+                "bone": {
+                    "rotate": [
+                        {
+                            "value": -0.18,
+                            "curve": [
+                                0.085,
+                                -0.06,
+                                0.599,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "curve": [
+                                0.918,
+                                0,
+                                1.015,
+                                7.92
+                            ]
+                        },
+                        {
+                            "time": 1.0667,
+                            "value": 7.92,
+                            "curve": [
+                                1.133,
+                                7.92,
+                                1.2,
+                                -4.4
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "value": -4.4,
+                            "curve": [
+                                1.344,
+                                -4.4,
+                                1.422,
+                                3.6
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "value": 3.6,
+                            "curve": [
+                                1.589,
+                                3.6,
+                                1.678,
+                                -0.47
+                            ]
+                        },
+                        {
+                            "time": 1.7667,
+                            "value": -0.47,
+                            "curve": [
+                                1.891,
+                                -0.47,
+                                1.904,
+                                -0.31
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "value": -0.18
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8667,
+                            "curve": [
+                                0.922,
+                                0,
+                                0.978,
+                                -27.36
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "value": -27.36,
+                            "curve": [
+                                1.1,
+                                -27.36,
+                                1.167,
+                                22.32
+                            ]
+                        },
+                        {
+                            "time": 1.2333,
+                            "value": 22.32,
+                            "curve": [
+                                1.3,
+                                22.32,
+                                1.367,
+                                -10.85
+                            ]
+                        },
+                        {
+                            "time": 1.4333,
+                            "value": -10.85,
+                            "curve": [
+                                1.511,
+                                -10.85,
+                                1.589,
+                                4.48
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "value": 4.48,
+                            "curve": [
+                                1.778,
+                                4.48,
+                                1.889,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "toopen": {
+            "slots": {
+                "影_tips": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "影_展开": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "rotate": [
+                        {}
+                    ],
+                    "translatex": [
+                        {}
+                    ],
+                    "translatey": [
+                        {}
+                    ]
+                }
+            }
+        }
+    }
+}

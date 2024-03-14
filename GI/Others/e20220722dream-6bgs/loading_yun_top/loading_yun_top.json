@@ -1,0 +1,266 @@
+{
+    "skeleton": {
+        "hash": "A7hkl/86hK4",
+        "spine": "4.0.33",
+        "x": -541.5,
+        "y": -377.5,
+        "width": 1083,
+        "height": 755
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "loading_yun_top_a",
+            "parent": "root",
+            "x": 4.08,
+            "y": 26.69
+        },
+        {
+            "name": "loading_yun_top_c",
+            "parent": "root",
+            "x": 12.83,
+            "y": 26.69
+        },
+        {
+            "name": "loading_yun_top_b",
+            "parent": "root",
+            "x": 28.86,
+            "y": 3.36
+        }
+    ],
+    "slots": [
+        {
+            "name": "loading_yun_top_a",
+            "bone": "loading_yun_top_a",
+            "attachment": "loading_yun_top_a2"
+        },
+        {
+            "name": "loading_yun_top_b",
+            "bone": "loading_yun_top_b",
+            "attachment": "loading_yun_top_b2"
+        },
+        {
+            "name": "loading_yun_top_c",
+            "bone": "loading_yun_top_c",
+            "attachment": "loading_yun_top_c2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "loading_yun_top_a": {
+                    "loading_yun_top_a2": {
+                        "path": "loading_yun_top_a",
+                        "x": -4.08,
+                        "y": -26.69,
+                        "width": 717,
+                        "height": 606
+                    }
+                },
+                "loading_yun_top_b": {
+                    "loading_yun_top_b2": {
+                        "path": "loading_yun_top_b",
+                        "x": -28.86,
+                        "y": -3.36,
+                        "width": 306,
+                        "height": 76
+                    }
+                },
+                "loading_yun_top_c": {
+                    "loading_yun_top_c2": {
+                        "path": "loading_yun_top_c",
+                        "x": -12.83,
+                        "y": -26.69,
+                        "width": 1083,
+                        "height": 755
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "loading_yun_top_a": {
+                    "attachment": [
+                        {
+                            "name": "loading_yun_top_a2"
+                        }
+                    ]
+                },
+                "loading_yun_top_b": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "loading_yun_top_c": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "loading_yun_top_a": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.833,
+                                0,
+                                1.667,
+                                0,
+                                0.833,
+                                0,
+                                1.667,
+                                -24.78
+                            ]
+                        },
+                        {
+                            "time": 2.5,
+                            "y": -24.78,
+                            "curve": [
+                                3.333,
+                                0,
+                                4.167,
+                                0,
+                                3.333,
+                                -24.78,
+                                4.167,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 5
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "loading_yun_top_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "loading_yun_top_b": {
+                    "attachment": [
+                        {
+                            "name": "loading_yun_top_b2"
+                        }
+                    ]
+                },
+                "loading_yun_top_c": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "loading_yun_top_b": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.891,
+                                0,
+                                1.776,
+                                0,
+                                0.891,
+                                0,
+                                1.776,
+                                4.37
+                            ]
+                        },
+                        {
+                            "time": 2.6667,
+                            "y": 4.37,
+                            "curve": [
+                                3.558,
+                                0,
+                                4.442,
+                                0,
+                                3.558,
+                                4.37,
+                                4.442,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 5.3333
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "loading_yun_top_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "loading_yun_top_b": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "loading_yun_top_c": {
+                    "attachment": [
+                        {
+                            "name": "loading_yun_top_c2"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "loading_yun_top_c": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.777,
+                                0,
+                                1.556,
+                                0,
+                                0.777,
+                                0,
+                                1.556,
+                                -32.07
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "y": -32.07,
+                            "curve": [
+                                3.11,
+                                0,
+                                3.89,
+                                0,
+                                3.11,
+                                -32.07,
+                                3.89,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.6667
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

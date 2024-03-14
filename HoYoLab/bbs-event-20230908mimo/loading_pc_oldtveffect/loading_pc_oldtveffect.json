@@ -1,0 +1,59 @@
+{
+    "skeleton": {
+        "hash": "k6ocqfZk13Y",
+        "spine": "4.0-from-4.2.09-beta",
+        "x": -1250,
+        "y": -540,
+        "width": 2500,
+        "height": 1080
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -28.5,
+            "y": -134.25
+        }
+    ],
+    "slots": [
+        {
+            "name": "loading_pc_oldtveffect2",
+            "bone": "bone",
+            "attachment": "loading_pc_oldtveffect"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "loading_pc_oldtveffect2": {
+                    "loading_pc_oldtveffect": {
+                        "x": 28.5,
+                        "y": 134.25,
+                        "width": 2500,
+                        "height": 1080
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone": {
+                    "translate": [
+                        {
+                            "y": -12.7
+                        },
+                        {
+                            "time": 0.6667
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

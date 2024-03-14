@@ -1,0 +1,2119 @@
+{
+    "skeleton": {
+        "hash": "FHext8VsujE",
+        "spine": "4.0-from-4.1.24",
+        "x": -139.68,
+        "y": -372.28,
+        "width": 285.64,
+        "height": 795.7
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "wiggle",
+            "parent": "root"
+        },
+        {
+            "name": "game_gw",
+            "parent": "wiggle",
+            "x": -5,
+            "y": 137
+        },
+        {
+            "name": "game_di",
+            "parent": "wiggle",
+            "x": -5,
+            "y": -13
+        },
+        {
+            "name": "huan",
+            "parent": "wiggle",
+            "x": -5,
+            "y": 257
+        },
+        {
+            "name": "a",
+            "parent": "huan",
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "name": "b",
+            "parent": "huan",
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "name": "c",
+            "parent": "huan",
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "name": "d",
+            "parent": "huan",
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "name": "a_wiggle",
+            "parent": "a"
+        },
+        {
+            "name": "b_wiggle",
+            "parent": "b"
+        },
+        {
+            "name": "c_wiggle",
+            "parent": "c"
+        },
+        {
+            "name": "d_wiggle",
+            "parent": "d"
+        },
+        {
+            "name": "gw_wiggle",
+            "parent": "game_gw"
+        },
+        {
+            "name": "game_di_wiggle",
+            "parent": "game_di"
+        }
+    ],
+    "slots": [
+        {
+            "name": "huan_a",
+            "bone": "a_wiggle",
+            "color": "ffffff00",
+            "attachment": "huan_a"
+        },
+        {
+            "name": "huan_b",
+            "bone": "b_wiggle",
+            "color": "ffffff00",
+            "attachment": "huan_b"
+        },
+        {
+            "name": "huan_c",
+            "bone": "c_wiggle",
+            "color": "ffffff00",
+            "attachment": "huan_c"
+        },
+        {
+            "name": "huan_d",
+            "bone": "d_wiggle",
+            "color": "ffffff00",
+            "attachment": "huan_d"
+        },
+        {
+            "name": "di_b",
+            "bone": "game_di_wiggle",
+            "attachment": "di"
+        },
+        {
+            "name": "di_click",
+            "bone": "game_di_wiggle",
+            "color": "ffffff32",
+            "attachment": "di_click"
+        },
+        {
+            "name": "a_g",
+            "bone": "gw_wiggle",
+            "color": "fff2f200",
+            "attachment": "a_g",
+            "blend": "additive"
+        },
+        {
+            "name": "b_g",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "b_g",
+            "blend": "additive"
+        },
+        {
+            "name": "c_g",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "c_g",
+            "blend": "additive"
+        },
+        {
+            "name": "d_g",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "d_g",
+            "blend": "additive"
+        },
+        {
+            "name": "a",
+            "bone": "gw_wiggle",
+            "color": "fff2f200",
+            "attachment": "a"
+        },
+        {
+            "name": "b",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "b"
+        },
+        {
+            "name": "c",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "c"
+        },
+        {
+            "name": "d",
+            "bone": "gw_wiggle",
+            "color": "ffffff00",
+            "attachment": "d"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": -21.54,
+                        "y": 58.92,
+                        "width": 161,
+                        "height": 353
+                    }
+                },
+                "a_g": {
+                    "a_g": {
+                        "x": -22.04,
+                        "y": 58.42,
+                        "width": 164,
+                        "height": 356
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": 7.96,
+                        "y": -9.58,
+                        "width": 258,
+                        "height": 174
+                    }
+                },
+                "b_g": {
+                    "b_g": {
+                        "x": 8.46,
+                        "y": -9.58,
+                        "width": 261,
+                        "height": 178
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": 38.46,
+                        "y": 30.92,
+                        "width": 225,
+                        "height": 305
+                    }
+                },
+                "c_g": {
+                    "c_g": {
+                        "x": 37.46,
+                        "y": 29.92,
+                        "width": 227,
+                        "height": 307
+                    }
+                },
+                "d": {
+                    "d": {
+                        "x": 10.96,
+                        "y": 87.92,
+                        "width": 162,
+                        "height": 395
+                    }
+                },
+                "di_b": {
+                    "di": {
+                        "x": 5.32,
+                        "y": -138.78,
+                        "width": 186,
+                        "height": 358
+                    }
+                },
+                "di_click": {
+                    "di_click": {
+                        "x": 4.32,
+                        "y": -136.78,
+                        "width": 278,
+                        "height": 445
+                    }
+                },
+                "d_g": {
+                    "d_g": {
+                        "x": 10.46,
+                        "y": 87.92,
+                        "width": 165,
+                        "height": 397
+                    }
+                },
+                "huan_a": {
+                    "huan_a": {
+                        "x": -0.5,
+                        "width": 392,
+                        "height": 385
+                    }
+                },
+                "huan_b": {
+                    "huan_b": {
+                        "x": -0.5,
+                        "y": 0.5,
+                        "width": 298,
+                        "height": 298
+                    }
+                },
+                "huan_c": {
+                    "huan_c": {
+                        "x": -0.5,
+                        "width": 294,
+                        "height": 295
+                    }
+                },
+                "huan_d": {
+                    "huan_d": {
+                        "x": -0.5,
+                        "y": 1.5,
+                        "width": 208,
+                        "height": 206
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "a_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "alpha0": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "a_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "b_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "c_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "di_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "di_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff32"
+                        }
+                    ]
+                },
+                "d_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "a_click": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "a_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "di_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "a": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.133,
+                                1,
+                                0.267,
+                                3.203,
+                                0.133,
+                                1,
+                                0.267,
+                                3.203
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333,
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "b": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.256,
+                                1,
+                                0.378,
+                                3.197,
+                                0.256,
+                                1,
+                                0.378,
+                                3.197
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333,
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "c": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "curve": [
+                                0.322,
+                                1,
+                                0.444,
+                                3.189,
+                                0.322,
+                                1,
+                                0.444,
+                                3.189
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333,
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "d": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "curve": [
+                                0.389,
+                                1,
+                                0.511,
+                                3.176,
+                                0.389,
+                                1,
+                                0.511,
+                                3.176
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333,
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "x": -7.57,
+                            "y": 45.95
+                        }
+                    ]
+                }
+            }
+        },
+        "a_error": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff59"
+                        }
+                    ]
+                },
+                "a_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "a_mouseover": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "a_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "di_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff64"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "x": -7.57,
+                            "y": 45.95
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "b": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "b_click": {
+            "slots": {
+                "b": {
+                    "rgba": [
+                        {
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "b_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "di_click": {
+                    "rgba": [
+                        {
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "fffffffe"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "a": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.133,
+                                1,
+                                0.267,
+                                3.203,
+                                0.133,
+                                1,
+                                0.267,
+                                3.203
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333,
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "b": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.256,
+                                1,
+                                0.378,
+                                3.197,
+                                0.256,
+                                1,
+                                0.378,
+                                3.197
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333,
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "c": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "curve": [
+                                0.322,
+                                1,
+                                0.444,
+                                3.189,
+                                0.322,
+                                1,
+                                0.444,
+                                3.189
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333,
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "d": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "curve": [
+                                0.389,
+                                1,
+                                0.511,
+                                3.176,
+                                0.389,
+                                1,
+                                0.511,
+                                3.176
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333,
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "x": -7.55,
+                            "y": -71.65
+                        }
+                    ]
+                }
+            }
+        },
+        "b_error": {
+            "slots": {
+                "b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff59"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "b_mouseover": {
+            "slots": {
+                "b": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "b_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "di_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffff32"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "x": -7.55,
+                            "y": -71.65
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "c": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "c_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "c_click": {
+            "slots": {
+                "c": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "c_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "di_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "a": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.133,
+                                1,
+                                0.267,
+                                3.203,
+                                0.133,
+                                1,
+                                0.267,
+                                3.203
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333,
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "b": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.256,
+                                1,
+                                0.378,
+                                3.197,
+                                0.256,
+                                1,
+                                0.378,
+                                3.197
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333,
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "c": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "curve": [
+                                0.322,
+                                1,
+                                0.444,
+                                3.189,
+                                0.322,
+                                1,
+                                0.444,
+                                3.189
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333,
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "d": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "curve": [
+                                0.389,
+                                1,
+                                0.511,
+                                3.176,
+                                0.389,
+                                1,
+                                0.511,
+                                3.176
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333,
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "x": -1.89,
+                            "y": -21.04
+                        }
+                    ]
+                }
+            }
+        },
+        "c_error": {
+            "slots": {
+                "c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff59"
+                        }
+                    ]
+                },
+                "c_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "c_mouseover": {
+            "slots": {
+                "c": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "c_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "x": -1.89,
+                            "y": -21.04
+                        }
+                    ]
+                }
+            }
+        },
+        "d": {
+            "slots": {
+                "d": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "d_click": {
+            "slots": {
+                "d": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "di_click": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "d_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "a": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.133,
+                                1,
+                                0.267,
+                                3.203,
+                                0.133,
+                                1,
+                                0.267,
+                                3.203
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333,
+                                0.6,
+                                3.333,
+                                0.8,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "b": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.256,
+                                1,
+                                0.378,
+                                3.197,
+                                0.256,
+                                1,
+                                0.378,
+                                3.197
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333,
+                                0.667,
+                                3.333,
+                                0.833,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "c": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "curve": [
+                                0.322,
+                                1,
+                                0.444,
+                                3.189,
+                                0.322,
+                                1,
+                                0.444,
+                                3.189
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333,
+                                0.711,
+                                3.333,
+                                0.856,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "d": {
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "curve": [
+                                0.389,
+                                1,
+                                0.511,
+                                3.176,
+                                0.389,
+                                1,
+                                0.511,
+                                3.176
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 3.255,
+                            "y": 3.255,
+                            "curve": [
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333,
+                                0.756,
+                                3.333,
+                                0.878,
+                                3.333
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 3.333,
+                            "y": 3.333
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "x": -9.71,
+                            "y": 69.07
+                        }
+                    ]
+                }
+            }
+        },
+        "d_error": {
+            "slots": {
+                "d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff59"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "d_mouseover": {
+            "slots": {
+                "d": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "d_g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff95"
+                        }
+                    ]
+                },
+                "huan_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "huan_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "game_gw": {
+                    "translate": [
+                        {
+                            "y": 37.19
+                        }
+                    ]
+                },
+                "game_di": {
+                    "translate": [
+                        {
+                            "y": 25.08
+                        }
+                    ]
+                },
+                "huan": {
+                    "translate": [
+                        {
+                            "x": -9.71,
+                            "y": 69.07
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "a_wiggle": {
+            "rootBoneName": "a_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": 0.01
+                }
+            }
+        },
+        "b_wiggle": {
+            "rootBoneName": "b_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -5.792015387807632,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": -0.01
+                }
+            }
+        },
+        "c_wiggle": {
+            "rootBoneName": "c_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.840026449451062,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": 0.01
+                }
+            }
+        },
+        "d_wiggle": {
+            "rootBoneName": "d_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.022976951622074,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": -0.01
+                }
+            }
+        },
+        "gw_wiggle": {
+            "rootBoneName": "gw_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "game_di_wiggle": {
+            "rootBoneName": "game_di_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 3,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.5,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
