@@ -92,6 +92,17 @@ google: ```site:act.hoyoverse.com/ys/event```
 ### hoyofest
 - 2023 https://act.hoyoverse.com/ys/event/hoyofest2023-xrdqyw/index.html
 
+## BH3 | HI3
+google: ```site:act.hoyoverse.com/bh3/event```
+
+### Events
+- https://act.hoyoverse.com/bh3/event/e20220808fanwork/index.html
+- https://act.hoyoverse.com/bh3/event/e20220818twisted/index.html
+- https://act.hoyoverse.com/bh3/event/e20220820concert/index.html
+- https://act.hoyoverse.com/bh3/event/e20230724music/index.html
+- https://act.hoyoverse.com/bh3/event/e20231026studio/index.html
+- https://act.hoyoverse.com/bh3/event/e20231225divination-k7s8la/index.html
+
 ## ZZZ
 google: ```site:act.hoyoverse.com/zzz/event```
 

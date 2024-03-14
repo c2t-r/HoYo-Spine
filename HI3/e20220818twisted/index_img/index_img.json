@@ -1,0 +1,3188 @@
+{
+    "skeleton": {
+        "hash": "Mjcv6Ubl1xI",
+        "spine": "4.0.33",
+        "x": -1703.83,
+        "y": -908.09,
+        "width": 3062.4,
+        "height": 1800.08
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "点缀",
+            "parent": "bone"
+        },
+        {
+            "name": "a11",
+            "parent": "点缀"
+        },
+        {
+            "name": "点缀5",
+            "parent": "a11",
+            "x": -1019.38,
+            "y": 207.76
+        },
+        {
+            "name": "a10",
+            "parent": "点缀"
+        },
+        {
+            "name": "点缀4",
+            "parent": "a10",
+            "x": -896.48,
+            "y": 114.18
+        },
+        {
+            "name": "a3",
+            "parent": "点缀"
+        },
+        {
+            "name": "图形7",
+            "parent": "a3",
+            "x": -347.66,
+            "y": 269.58
+        },
+        {
+            "name": "a4",
+            "parent": "点缀"
+        },
+        {
+            "name": "图形9",
+            "parent": "a4",
+            "x": 150.71,
+            "y": 389.1
+        },
+        {
+            "name": "a8",
+            "parent": "点缀"
+        },
+        {
+            "name": "点缀2",
+            "parent": "a8",
+            "x": 458.52,
+            "y": 277.48
+        },
+        {
+            "name": "a7",
+            "parent": "点缀"
+        },
+        {
+            "name": "点缀1",
+            "parent": "a7",
+            "x": 397.63,
+            "y": -175.79
+        },
+        {
+            "name": "a5",
+            "parent": "点缀"
+        },
+        {
+            "name": "图形10",
+            "parent": "a5",
+            "x": 157.47,
+            "y": -208.49
+        },
+        {
+            "name": "a12",
+            "parent": "点缀"
+        },
+        {
+            "name": "点缀7",
+            "parent": "a12",
+            "x": -305.94,
+            "y": -423.51
+        },
+        {
+            "name": "a9",
+            "parent": "点缀"
+        },
+        {
+            "name": "点缀3",
+            "parent": "a9",
+            "x": -785.14,
+            "y": -261.14
+        },
+        {
+            "name": "a13",
+            "parent": "点缀"
+        },
+        {
+            "name": "点缀8",
+            "parent": "a13",
+            "x": 823.65,
+            "y": -152.9
+        },
+        {
+            "name": "a",
+            "parent": "点缀"
+        },
+        {
+            "name": "图形1",
+            "parent": "a",
+            "x": -20.93,
+            "y": -123.34
+        },
+        {
+            "name": "a2",
+            "parent": "点缀"
+        },
+        {
+            "name": "图形3",
+            "parent": "a2",
+            "x": 231.77,
+            "y": 160.87
+        },
+        {
+            "name": "a6",
+            "parent": "点缀"
+        },
+        {
+            "name": "图形11",
+            "parent": "a6",
+            "x": -193.66,
+            "y": 133.5
+        },
+        {
+            "name": "title",
+            "parent": "bone",
+            "x": 2,
+            "y": 73
+        },
+        {
+            "name": "title3",
+            "parent": "title"
+        },
+        {
+            "name": "title4",
+            "parent": "title"
+        },
+        {
+            "name": "图形6",
+            "parent": "title4",
+            "x": -276.07,
+            "y": 108.1
+        },
+        {
+            "name": "f2",
+            "parent": "title3",
+            "x": -2,
+            "y": 8.5
+        },
+        {
+            "name": "bg",
+            "parent": "bone",
+            "x": 12.56,
+            "y": 43.87
+        },
+        {
+            "name": "圆圈",
+            "parent": "bg",
+            "x": -1288.94,
+            "y": -513.77
+        },
+        {
+            "name": "圆圈2",
+            "parent": "bg",
+            "rotation": 180,
+            "x": 809.06,
+            "y": 521.93,
+            "scaleX": 0.7664,
+            "scaleY": 0.7664
+        },
+        {
+            "name": "圆圈3",
+            "parent": "bg",
+            "x": -1003.72,
+            "y": -471.9
+        },
+        {
+            "name": "圆圈5",
+            "parent": "bg",
+            "x": 1092.39,
+            "y": -352.17
+        },
+        {
+            "name": "圆圈4",
+            "parent": "bg",
+            "x": 1225.41,
+            "y": 168.53
+        },
+        {
+            "name": "左边",
+            "parent": "bone",
+            "x": -702.3,
+            "y": -517.35
+        },
+        {
+            "name": "右边",
+            "parent": "bg",
+            "x": 862.44,
+            "y": -521.31
+        },
+        {
+            "name": "b",
+            "parent": "bg",
+            "x": -10.56,
+            "y": 29.13
+        },
+        {
+            "name": "大圆1",
+            "parent": "b",
+            "x": -499.06,
+            "y": 0.67
+        },
+        {
+            "name": "b2",
+            "parent": "bg",
+            "x": -10.56,
+            "y": 29.13
+        },
+        {
+            "name": "大圆2",
+            "parent": "b2",
+            "x": 652.56,
+            "y": -134.26
+        },
+        {
+            "name": "bg2",
+            "parent": "bg",
+            "x": -16.99,
+            "y": 6
+        },
+        {
+            "name": "圆圈7",
+            "parent": "圆圈4",
+            "x": 12.29,
+            "y": 15.75
+        },
+        {
+            "name": "圆圈8",
+            "parent": "圆圈5",
+            "x": 15.69,
+            "y": -7.96
+        },
+        {
+            "name": "圆圈9",
+            "parent": "圆圈3",
+            "x": 3.8,
+            "y": -28.53
+        }
+    ],
+    "slots": [
+        {
+            "name": "大圆3",
+            "bone": "bg2",
+            "attachment": "大圆3"
+        },
+        {
+            "name": "大圆2",
+            "bone": "大圆2",
+            "attachment": "大圆2"
+        },
+        {
+            "name": "大圆1",
+            "bone": "大圆1",
+            "attachment": "大圆1"
+        },
+        {
+            "name": "圆圈4",
+            "bone": "圆圈7",
+            "attachment": "圆圈4"
+        },
+        {
+            "name": "圆圈2",
+            "bone": "圆圈8",
+            "attachment": "圆圈2"
+        },
+        {
+            "name": "圆圈3",
+            "bone": "圆圈9",
+            "attachment": "圆圈3"
+        },
+        {
+            "name": "圆圈",
+            "bone": "圆圈",
+            "attachment": "圆圈"
+        },
+        {
+            "name": "圆圈5",
+            "bone": "圆圈2",
+            "attachment": "圆圈"
+        },
+        {
+            "name": "左边",
+            "bone": "左边",
+            "attachment": "左边"
+        },
+        {
+            "name": "右边",
+            "bone": "右边",
+            "attachment": "右边"
+        },
+        {
+            "name": "点缀7",
+            "bone": "点缀7",
+            "attachment": "点缀7"
+        },
+        {
+            "name": "点缀6",
+            "bone": "点缀8",
+            "attachment": "点缀6"
+        },
+        {
+            "name": "点缀5",
+            "bone": "点缀5",
+            "attachment": "点缀5"
+        },
+        {
+            "name": "点缀4",
+            "bone": "点缀4",
+            "attachment": "点缀4"
+        },
+        {
+            "name": "点缀3",
+            "bone": "点缀3",
+            "attachment": "点缀3"
+        },
+        {
+            "name": "点缀2",
+            "bone": "点缀2",
+            "attachment": "点缀2"
+        },
+        {
+            "name": "点缀1",
+            "bone": "点缀1",
+            "attachment": "点缀1"
+        },
+        {
+            "name": "图形bg",
+            "bone": "title4",
+            "attachment": "图形bg"
+        },
+        {
+            "name": "图形8",
+            "bone": "f2",
+            "attachment": "图形8"
+        },
+        {
+            "name": "图形10",
+            "bone": "图形10",
+            "attachment": "图形10"
+        },
+        {
+            "name": "图形9",
+            "bone": "图形9",
+            "attachment": "图形9"
+        },
+        {
+            "name": "图形7",
+            "bone": "图形7",
+            "attachment": "图形7"
+        },
+        {
+            "name": "图形6",
+            "bone": "图形6",
+            "attachment": "图形6"
+        },
+        {
+            "name": "图形11",
+            "bone": "图形11",
+            "attachment": "图形11"
+        },
+        {
+            "name": "图形1",
+            "bone": "图形1",
+            "attachment": "图形1"
+        },
+        {
+            "name": "图形2",
+            "bone": "图形3",
+            "attachment": "图形2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "右边": {
+                    "右边": {
+                        "x": -7.44,
+                        "y": 94.85,
+                        "width": 758,
+                        "height": 313
+                    }
+                },
+                "图形1": {
+                    "图形1": {
+                        "x": -1.07,
+                        "y": -2.16,
+                        "width": 64,
+                        "height": 65
+                    }
+                },
+                "图形2": {
+                    "图形2": {
+                        "width": 77,
+                        "height": 77
+                    }
+                },
+                "图形6": {
+                    "图形6": {
+                        "x": 1.07,
+                        "y": -1.6,
+                        "width": 30,
+                        "height": 31
+                    }
+                },
+                "图形7": {
+                    "图形7": {
+                        "x": -0.34,
+                        "y": -5.58,
+                        "width": 112,
+                        "height": 114
+                    }
+                },
+                "图形8": {
+                    "图形8": {
+                        "x": 2,
+                        "y": -8.5,
+                        "width": 484,
+                        "height": 484
+                    }
+                },
+                "图形9": {
+                    "图形9": {
+                        "x": 1.29,
+                        "y": -1.6,
+                        "width": 72,
+                        "height": 71
+                    }
+                },
+                "图形10": {
+                    "图形10": {
+                        "x": 0.53,
+                        "y": -0.51,
+                        "width": 74,
+                        "height": 74
+                    }
+                },
+                "图形11": {
+                    "图形11": {
+                        "x": -2.34,
+                        "y": -0.5,
+                        "width": 54,
+                        "height": 54
+                    }
+                },
+                "图形bg": {
+                    "图形bg": {
+                        "x": 17.5,
+                        "y": 7,
+                        "width": 575,
+                        "height": 586
+                    }
+                },
+                "圆圈": {
+                    "圆圈": {
+                        "x": 10.55,
+                        "y": -0.19,
+                        "width": 876,
+                        "height": 876
+                    }
+                },
+                "圆圈2": {
+                    "圆圈2": {
+                        "x": -11.57,
+                        "y": -4.33,
+                        "width": 453,
+                        "height": 453
+                    }
+                },
+                "圆圈3": {
+                    "圆圈3": {
+                        "x": -0.58,
+                        "y": 15.97,
+                        "width": 453,
+                        "height": 453
+                    }
+                },
+                "圆圈4": {
+                    "圆圈4": {
+                        "x": -21.2,
+                        "y": -24.23,
+                        "width": 259,
+                        "height": 248
+                    }
+                },
+                "圆圈5": {
+                    "圆圈": {
+                        "x": 4.96,
+                        "y": 12.4,
+                        "width": 876,
+                        "height": 876
+                    }
+                },
+                "大圆1": {
+                    "大圆1": {
+                        "x": -1.87,
+                        "y": -0.76,
+                        "width": 267,
+                        "height": 290
+                    }
+                },
+                "大圆2": {
+                    "大圆2": {
+                        "x": 18.01,
+                        "y": 8.67,
+                        "width": 426,
+                        "height": 445
+                    }
+                },
+                "大圆3": {
+                    "大圆3": {
+                        "y": 0.04,
+                        "width": 1114,
+                        "height": 1114
+                    }
+                },
+                "左边": {
+                    "左边": {
+                        "x": -117.63,
+                        "y": 175.26,
+                        "width": 871,
+                        "height": 394
+                    }
+                },
+                "点缀1": {
+                    "点缀1": {
+                        "x": -2.13,
+                        "y": -1.71,
+                        "width": 157,
+                        "height": 157
+                    }
+                },
+                "点缀2": {
+                    "点缀2": {
+                        "x": -1.52,
+                        "y": -0.48,
+                        "width": 92,
+                        "height": 92
+                    }
+                },
+                "点缀3": {
+                    "点缀3": {
+                        "x": 0.14,
+                        "y": -1.36,
+                        "width": 66,
+                        "height": 65
+                    }
+                },
+                "点缀4": {
+                    "点缀4": {
+                        "x": -0.52,
+                        "y": -3.18,
+                        "width": 140,
+                        "height": 140
+                    }
+                },
+                "点缀5": {
+                    "点缀5": {
+                        "x": -3.12,
+                        "y": -2.26,
+                        "width": 261,
+                        "height": 261
+                    }
+                },
+                "点缀6": {
+                    "点缀6": {
+                        "x": 4.85,
+                        "y": 1.4,
+                        "width": 109,
+                        "height": 111
+                    }
+                },
+                "点缀7": {
+                    "点缀7": {
+                        "x": 1.44,
+                        "y": 0.01,
+                        "width": 39,
+                        "height": 39
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "右边": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.256,
+                                1,
+                                0.344,
+                                1,
+                                0.256,
+                                1,
+                                0.344,
+                                1,
+                                0.256,
+                                1,
+                                0.344,
+                                1,
+                                0.256,
+                                0,
+                                0.344,
+                                0.67
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "图形1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "图形2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "图形6": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "图形7": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "图形8": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "图形9": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "图形10": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "图形11": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "图形bg": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "圆圈": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.383,
+                                1,
+                                0.45,
+                                1,
+                                0.383,
+                                1,
+                                0.45,
+                                1,
+                                0.383,
+                                1,
+                                0.45,
+                                1,
+                                0.383,
+                                0,
+                                0.45,
+                                0.67
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "圆圈2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.156,
+                                1,
+                                0.178,
+                                1,
+                                0.156,
+                                1,
+                                0.178,
+                                1,
+                                0.156,
+                                1,
+                                0.178,
+                                1,
+                                0.156,
+                                0,
+                                0.178,
+                                0.67
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "圆圈3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.256,
+                                1,
+                                0.344,
+                                1,
+                                0.256,
+                                1,
+                                0.344,
+                                1,
+                                0.256,
+                                1,
+                                0.344,
+                                1,
+                                0.256,
+                                0,
+                                0.344,
+                                0.67
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "圆圈4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.517,
+                                1,
+                                0.583,
+                                1,
+                                0.517,
+                                1,
+                                0.583,
+                                1,
+                                0.517,
+                                1,
+                                0.583,
+                                1,
+                                0.517,
+                                0,
+                                0.583,
+                                0.67
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "圆圈5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.403,
+                                1,
+                                0.497,
+                                1,
+                                0.403,
+                                1,
+                                0.497,
+                                1,
+                                0.403,
+                                1,
+                                0.497,
+                                1,
+                                0.403,
+                                0,
+                                0.497,
+                                0.67
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "大圆1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "大圆2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "大圆3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "左边": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.144,
+                                1,
+                                0.189,
+                                1,
+                                0.144,
+                                1,
+                                0.189,
+                                1,
+                                0.144,
+                                1,
+                                0.189,
+                                1,
+                                0.144,
+                                0,
+                                0.189,
+                                0.67
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "点缀1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "点缀2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "点缀3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "点缀4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "点缀5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "点缀6": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "点缀7": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "title3": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.789,
+                                0.1,
+                                0.911,
+                                1.2,
+                                0.789,
+                                0.1,
+                                0.911,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 1.0667,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": [
+                                1.222,
+                                1.2,
+                                1.378,
+                                0.95,
+                                1.222,
+                                1.2,
+                                1.378,
+                                0.95
+                            ]
+                        },
+                        {
+                            "time": 1.5333,
+                            "x": 0.95,
+                            "y": 0.95,
+                            "curve": [
+                                1.733,
+                                0.95,
+                                1.933,
+                                1,
+                                1.733,
+                                0.95,
+                                1.933,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.1333
+                        }
+                    ]
+                },
+                "title4": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.622,
+                                0.1,
+                                0.744,
+                                1.2,
+                                0.622,
+                                0.1,
+                                0.744,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 0.9,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": [
+                                1.056,
+                                1.2,
+                                1.211,
+                                0.95,
+                                1.056,
+                                1.2,
+                                1.211,
+                                0.95
+                            ]
+                        },
+                        {
+                            "time": 1.3667,
+                            "x": 0.95,
+                            "y": 0.95,
+                            "curve": [
+                                1.567,
+                                0.95,
+                                1.767,
+                                1,
+                                1.567,
+                                0.95,
+                                1.767,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.9667
+                        }
+                    ]
+                },
+                "a": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.41,
+                                0.1,
+                                0.523,
+                                1.15,
+                                0.41,
+                                0.1,
+                                0.523,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                0.81,
+                                1.15,
+                                0.956,
+                                0.97,
+                                0.81,
+                                1.15,
+                                0.956,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.285,
+                                0.97,
+                                1.482,
+                                1,
+                                1.285,
+                                0.97,
+                                1.482,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6667
+                        }
+                    ]
+                },
+                "a2": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.177,
+                                0.1,
+                                0.29,
+                                1.15,
+                                0.177,
+                                0.1,
+                                0.29,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                0.577,
+                                1.15,
+                                0.723,
+                                0.97,
+                                0.577,
+                                1.15,
+                                0.723,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.052,
+                                0.97,
+                                1.248,
+                                1,
+                                1.052,
+                                0.97,
+                                1.248,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.4333
+                        }
+                    ]
+                },
+                "a3": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.344,
+                                0.1,
+                                0.456,
+                                1.15,
+                                0.344,
+                                0.1,
+                                0.456,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                0.744,
+                                1.15,
+                                0.89,
+                                0.97,
+                                0.744,
+                                1.15,
+                                0.89,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.218,
+                                0.97,
+                                1.382,
+                                1,
+                                1.218,
+                                0.97,
+                                1.382,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5667
+                        }
+                    ]
+                },
+                "a4": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.444,
+                                0.1,
+                                0.556,
+                                1.15,
+                                0.444,
+                                0.1,
+                                0.556,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                0.844,
+                                1.15,
+                                0.99,
+                                0.97,
+                                0.844,
+                                1.15,
+                                0.99,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 1.1333,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.318,
+                                0.97,
+                                1.515,
+                                1,
+                                1.318,
+                                0.97,
+                                1.515,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.7
+                        }
+                    ]
+                },
+                "a5": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.51,
+                                0.1,
+                                0.623,
+                                1.15,
+                                0.51,
+                                0.1,
+                                0.623,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 0.7667,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                0.91,
+                                1.15,
+                                1.056,
+                                0.97,
+                                0.91,
+                                1.15,
+                                1.056,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.385,
+                                0.97,
+                                1.582,
+                                1,
+                                1.385,
+                                0.97,
+                                1.582,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.7667
+                        }
+                    ]
+                },
+                "a6": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.577,
+                                0.1,
+                                0.69,
+                                1.15,
+                                0.577,
+                                0.1,
+                                0.69,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                0.977,
+                                1.15,
+                                1.123,
+                                0.97,
+                                0.977,
+                                1.15,
+                                1.123,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.452,
+                                0.97,
+                                1.648,
+                                1,
+                                1.452,
+                                0.97,
+                                1.648,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.8333
+                        }
+                    ]
+                },
+                "a7": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.51,
+                                0.1,
+                                0.623,
+                                1.15,
+                                0.51,
+                                0.1,
+                                0.623,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 0.7667,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                0.91,
+                                1.15,
+                                1.056,
+                                0.97,
+                                0.91,
+                                1.15,
+                                1.056,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.385,
+                                0.97,
+                                1.582,
+                                1,
+                                1.385,
+                                0.97,
+                                1.582,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.7667
+                        }
+                    ]
+                },
+                "a8": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.677,
+                                0.1,
+                                0.79,
+                                1.15,
+                                0.677,
+                                0.1,
+                                0.79,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                1.077,
+                                1.15,
+                                1.223,
+                                0.97,
+                                1.077,
+                                1.15,
+                                1.223,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 1.3667,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.552,
+                                0.97,
+                                1.715,
+                                1,
+                                1.552,
+                                0.97,
+                                1.715,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.9
+                        }
+                    ]
+                },
+                "a9": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.744,
+                                0.1,
+                                0.89,
+                                1.15,
+                                0.744,
+                                0.1,
+                                0.89,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                1.177,
+                                1.15,
+                                1.29,
+                                0.97,
+                                1.177,
+                                1.15,
+                                1.29,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 1.4333,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.618,
+                                0.97,
+                                1.815,
+                                1,
+                                1.618,
+                                0.97,
+                                1.815,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "a10": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.51,
+                                0.1,
+                                0.623,
+                                1.15,
+                                0.51,
+                                0.1,
+                                0.623,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 0.7667,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                0.91,
+                                1.15,
+                                1.056,
+                                0.97,
+                                0.91,
+                                1.15,
+                                1.056,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.385,
+                                0.97,
+                                1.582,
+                                1,
+                                1.385,
+                                0.97,
+                                1.582,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.7667
+                        }
+                    ]
+                },
+                "a11": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.41,
+                                0.1,
+                                0.523,
+                                1.15,
+                                0.41,
+                                0.1,
+                                0.523,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                0.81,
+                                1.15,
+                                0.956,
+                                0.97,
+                                0.81,
+                                1.15,
+                                0.956,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.285,
+                                0.97,
+                                1.482,
+                                1,
+                                1.285,
+                                0.97,
+                                1.482,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6667
+                        }
+                    ]
+                },
+                "a12": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.244,
+                                0.1,
+                                0.356,
+                                1.15,
+                                0.244,
+                                0.1,
+                                0.356,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                0.644,
+                                1.15,
+                                0.79,
+                                0.97,
+                                0.644,
+                                1.15,
+                                0.79,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.118,
+                                0.97,
+                                1.282,
+                                1,
+                                1.118,
+                                0.97,
+                                1.282,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.4667
+                        }
+                    ]
+                },
+                "a13": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.744,
+                                0.1,
+                                0.856,
+                                1.15,
+                                0.744,
+                                0.1,
+                                0.856,
+                                1.15
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                1.144,
+                                1.15,
+                                1.29,
+                                0.97,
+                                1.144,
+                                1.15,
+                                1.29,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 1.4333,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                1.618,
+                                0.97,
+                                1.782,
+                                1,
+                                1.618,
+                                0.97,
+                                1.782,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.9667
+                        }
+                    ]
+                },
+                "bg2": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.456,
+                                0.1,
+                                0.578,
+                                1.2,
+                                0.456,
+                                0.1,
+                                0.578,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": [
+                                0.889,
+                                1.2,
+                                1.044,
+                                0.95,
+                                0.889,
+                                1.2,
+                                1.044,
+                                0.95
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "x": 0.95,
+                            "y": 0.95,
+                            "curve": [
+                                1.4,
+                                0.95,
+                                1.6,
+                                1,
+                                1.4,
+                                0.95,
+                                1.6,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.8
+                        }
+                    ]
+                },
+                "圆圈4": {
+                    "translate": [
+                        {
+                            "y": 564.95,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "y": 564.95,
+                            "curve": [
+                                0.581,
+                                0,
+                                0.719,
+                                0,
+                                0.581,
+                                564.95,
+                                0.719,
+                                -49.85
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "y": -49.85,
+                            "curve": [
+                                1.024,
+                                0,
+                                1.209,
+                                0,
+                                1.024,
+                                -49.85,
+                                1.209,
+                                7.38
+                            ]
+                        },
+                        {
+                            "time": 1.3667,
+                            "y": 7.38,
+                            "curve": [
+                                1.556,
+                                0,
+                                1.744,
+                                0,
+                                1.556,
+                                7.38,
+                                1.744,
+                                2.46
+                            ]
+                        },
+                        {
+                            "time": 1.9333
+                        }
+                    ]
+                },
+                "圆圈5": {
+                    "translate": [
+                        {
+                            "y": -339.71,
+                            "curve": [
+                                0.022,
+                                0,
+                                0.044,
+                                0,
+                                0.022,
+                                -339.71,
+                                0.044,
+                                -283.88
+                            ]
+                        },
+                        {
+                            "time": 0.0667,
+                            "y": -267.7,
+                            "curve": [
+                                0.2,
+                                0,
+                                0.267,
+                                0,
+                                0.2,
+                                -170.64,
+                                0.267,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "curve": [
+                                0.556,
+                                0,
+                                0.711,
+                                0,
+                                0.556,
+                                0,
+                                0.711,
+                                -22.15
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "y": -22.15,
+                            "curve": [
+                                1,
+                                0,
+                                1.133,
+                                0,
+                                1,
+                                -22.15,
+                                1.133,
+                                -13.81
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "y": -9.78,
+                            "curve": [
+                                1.378,
+                                0,
+                                1.822,
+                                0,
+                                1.378,
+                                -6.43,
+                                1.822,
+                                -3.26
+                            ]
+                        },
+                        {
+                            "time": 1.9333
+                        }
+                    ]
+                },
+                "圆圈3": {
+                    "translate": [
+                        {
+                            "y": -339.71,
+                            "curve": [
+                                0.022,
+                                0,
+                                0.144,
+                                0,
+                                0.022,
+                                -339.71,
+                                0.144,
+                                -283.88
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "y": -267.7,
+                            "curve": [
+                                0.3,
+                                0,
+                                0.433,
+                                0,
+                                0.3,
+                                -170.64,
+                                0.433,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "curve": [
+                                0.722,
+                                0,
+                                0.878,
+                                0,
+                                0.722,
+                                0,
+                                0.878,
+                                -22.15
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "y": -22.15,
+                            "curve": [
+                                1.167,
+                                0,
+                                1.3,
+                                0,
+                                1.167,
+                                -22.15,
+                                1.3,
+                                -13.81
+                            ]
+                        },
+                        {
+                            "time": 1.4333,
+                            "y": -9.78,
+                            "curve": [
+                                1.544,
+                                0,
+                                1.989,
+                                0,
+                                1.544,
+                                -6.43,
+                                1.989,
+                                -3.26
+                            ]
+                        },
+                        {
+                            "time": 2.1
+                        }
+                    ]
+                },
+                "圆圈": {
+                    "translate": [
+                        {
+                            "y": -339.71,
+                            "curve": [
+                                0.022,
+                                0,
+                                0.279,
+                                0,
+                                0.022,
+                                -339.71,
+                                0.279,
+                                -283.88
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "y": -267.7,
+                            "curve": [
+                                0.425,
+                                0,
+                                0.542,
+                                0,
+                                0.425,
+                                -170.64,
+                                0.542,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "curve": [
+                                0.812,
+                                0,
+                                0.955,
+                                0,
+                                0.812,
+                                0,
+                                0.955,
+                                -22.15
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "y": -22.15,
+                            "curve": [
+                                1.225,
+                                0,
+                                1.375,
+                                0,
+                                1.225,
+                                -22.15,
+                                1.375,
+                                -13.81
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "y": -9.78,
+                            "curve": [
+                                1.604,
+                                0,
+                                1.996,
+                                0,
+                                1.604,
+                                -6.43,
+                                1.996,
+                                -3.26
+                            ]
+                        },
+                        {
+                            "time": 2.1
+                        }
+                    ]
+                },
+                "圆圈2": {
+                    "translate": [
+                        {
+                            "y": 564.94,
+                            "curve": [
+                                0.022,
+                                0,
+                                0.274,
+                                0,
+                                0.022,
+                                564.94,
+                                0.291,
+                                571.79
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "y": 564.94,
+                            "curve": [
+                                0.556,
+                                0,
+                                0.811,
+                                0,
+                                0.556,
+                                367.4,
+                                0.811,
+                                -53.54
+                            ]
+                        },
+                        {
+                            "time": 1.0667,
+                            "y": -53.54,
+                            "curve": [
+                                1.422,
+                                0,
+                                1.778,
+                                0,
+                                1.422,
+                                -53.54,
+                                1.778,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.1333
+                        }
+                    ]
+                },
+                "右边": {
+                    "translate": [
+                        {
+                            "y": -339.71,
+                            "curve": [
+                                0.022,
+                                0,
+                                0.144,
+                                0,
+                                0.022,
+                                -339.71,
+                                0.144,
+                                -283.88
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "y": -267.7,
+                            "curve": [
+                                0.3,
+                                0,
+                                0.433,
+                                0,
+                                0.3,
+                                -170.64,
+                                0.433,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "curve": [
+                                0.722,
+                                0,
+                                0.878,
+                                0,
+                                0.722,
+                                0,
+                                0.878,
+                                -22.15
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "y": -22.15,
+                            "curve": [
+                                1.167,
+                                0,
+                                1.3,
+                                0,
+                                1.167,
+                                -22.15,
+                                1.3,
+                                -13.81
+                            ]
+                        },
+                        {
+                            "time": 1.4333,
+                            "y": -9.78,
+                            "curve": [
+                                1.544,
+                                0,
+                                1.989,
+                                0,
+                                1.544,
+                                -6.43,
+                                1.989,
+                                -3.26
+                            ]
+                        },
+                        {
+                            "time": 2.1
+                        }
+                    ]
+                },
+                "b": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.556,
+                                0.1,
+                                0.678,
+                                1.2,
+                                0.556,
+                                0.1,
+                                0.678,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": [
+                                0.989,
+                                1.2,
+                                1.144,
+                                0.95,
+                                0.989,
+                                1.2,
+                                1.144,
+                                0.95
+                            ]
+                        },
+                        {
+                            "time": 1.3,
+                            "x": 0.95,
+                            "y": 0.95,
+                            "curve": [
+                                1.5,
+                                0.95,
+                                1.7,
+                                1,
+                                1.5,
+                                0.95,
+                                1.7,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.9
+                        }
+                    ]
+                },
+                "b2": {
+                    "scale": [
+                        {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 0.1,
+                            "y": 0.1,
+                            "curve": [
+                                0.656,
+                                0.1,
+                                0.778,
+                                1.2,
+                                0.656,
+                                0.1,
+                                0.778,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "x": 1.2,
+                            "y": 1.2,
+                            "curve": [
+                                1.089,
+                                1.2,
+                                1.244,
+                                0.95,
+                                1.089,
+                                1.2,
+                                1.244,
+                                0.95
+                            ]
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 0.95,
+                            "y": 0.95,
+                            "curve": [
+                                1.6,
+                                0.95,
+                                1.8,
+                                1,
+                                1.6,
+                                0.95,
+                                1.8,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "左边": {
+                    "translate": [
+                        {
+                            "y": -339.71,
+                            "curve": [
+                                0.022,
+                                0,
+                                0.044,
+                                0,
+                                0.022,
+                                -339.71,
+                                0.044,
+                                -283.88
+                            ]
+                        },
+                        {
+                            "time": 0.0667,
+                            "y": -267.7,
+                            "curve": [
+                                0.2,
+                                0,
+                                0.333,
+                                0,
+                                0.2,
+                                -170.64,
+                                0.333,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "curve": [
+                                0.622,
+                                0,
+                                0.778,
+                                0,
+                                0.622,
+                                0,
+                                0.778,
+                                -22.15
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "y": -22.15,
+                            "curve": [
+                                1.067,
+                                0,
+                                1.2,
+                                0,
+                                1.067,
+                                -22.15,
+                                1.2,
+                                -13.81
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "y": -9.78,
+                            "curve": [
+                                1.444,
+                                0,
+                                1.889,
+                                0,
+                                1.444,
+                                -6.43,
+                                1.889,
+                                -3.26
+                            ]
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {
+            "bones": {
+                "title3": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.332,
+                                1,
+                                0.634,
+                                1.031,
+                                0.332,
+                                1,
+                                0.634,
+                                1.031
+                            ]
+                        },
+                        {
+                            "time": 0.9667,
+                            "x": 1.031,
+                            "y": 1.031,
+                            "curve": [
+                                1.299,
+                                1.031,
+                                1.668,
+                                1,
+                                1.299,
+                                1.031,
+                                1.668,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "a11": {
+            "rootBoneName": "a11",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3115
+                }
+            }
+        },
+        "点缀4": {
+            "rootBoneName": "点缀4",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -3.92,
+                    "moveXCenter": 0,
+                    "moveXSeed": 0
+                }
+            }
+        },
+        "图形7": {
+            "rootBoneName": "图形7",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3906,
+                    "rotateSpeed": 0.05
+                }
+            }
+        },
+        "图形9": {
+            "rootBoneName": "图形9",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5.5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "点缀2": {
+            "rootBoneName": "点缀2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5.5,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.6,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.23,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "点缀1": {
+            "rootBoneName": "点缀1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.81,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.12,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "图形10": {
+            "rootBoneName": "图形10",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5.5,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 5.87,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "点缀7": {
+            "rootBoneName": "点缀7",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5.5,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.79,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6.5,
+                    "moveYAmp": 50,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.15,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 3,
+                    "scaleYAmp": 0.05,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 6.21,
+                    "scaleYCenter": 0,
+                    "rotateSpeed": 0.2
+                }
+            }
+        },
+        "点缀3": {
+            "rootBoneName": "点缀3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4.5,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.79,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "点缀8": {
+            "rootBoneName": "点缀8",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -2.28,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.87,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.03,
+                    "rotateFollowXMax": 2,
+                    "rotateFollowYMax": 2
+                }
+            }
+        },
+        "图形1": {
+            "rootBoneName": "图形1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5.5,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.9,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": -0.3
+                }
+            }
+        },
+        "图形3": {
+            "rootBoneName": "图形3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5.5,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.35,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -6.08,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": 0.25
+                }
+            }
+        },
+        "图形11": {
+            "rootBoneName": "图形11",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5.5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "f2": {
+            "rootBoneName": "f2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.03
+                }
+            }
+        },
+        "图形6": {
+            "rootBoneName": "图形6",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5.5,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.86,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.16,
+                    "moveYCenter": 0,
+                    "rotateSpeed": -0.5
+                }
+            }
+        },
+        "圆圈": {
+            "rootBoneName": "圆圈",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.1
+                }
+            }
+        },
+        "圆圈2": {
+            "rootBoneName": "圆圈2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.61,
+                    "moveYCenter": 0,
+                    "rotateSpeed": 0.1
+                }
+            }
+        },
+        "圆圈9": {
+            "rootBoneName": "圆圈9",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "圆圈8": {
+            "rootBoneName": "圆圈8",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 50,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.87,
+                    "moveXCenter": 0,
+                    "moveYFreq": 8,
+                    "moveYAmp": 30,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.92,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "圆圈7": {
+            "rootBoneName": "圆圈7",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "大圆1": {
+            "rootBoneName": "大圆1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 5.03,
+                    "moveXCenter": 0,
+                    "moveYFreq": 8,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.94,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "大圆2": {
+            "rootBoneName": "大圆2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 7,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "bg2": {
+            "rootBoneName": "bg2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 0,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.54,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.18,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

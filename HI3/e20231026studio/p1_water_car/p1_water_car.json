@@ -1,0 +1,112 @@
+{
+    "skeleton": {
+        "hash": "RkrTb81ZuTs",
+        "spine": "4.1.23",
+        "x": -172.21,
+        "y": -138.26,
+        "width": 343.46,
+        "height": 278.45,
+        "images": "./p1_water_roll/image/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -100.02,
+            "y": -161.55,
+            "scaleX": 0.5119,
+            "scaleY": 0.5119
+        },
+        {
+            "name": "水车本体",
+            "parent": "bone",
+            "length": 187.75,
+            "x": 129.68,
+            "y": 320.28
+        }
+    ],
+    "slots": [
+        {
+            "name": "白线",
+            "bone": "bone",
+            "attachment": "白线"
+        },
+        {
+            "name": "小房子",
+            "bone": "bone",
+            "attachment": "小房子"
+        },
+        {
+            "name": "水车本体",
+            "bone": "水车本体",
+            "attachment": "水车本体"
+        },
+        {
+            "name": "图层 2",
+            "bone": "bone",
+            "attachment": "图层 2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "图层 2": {
+                    "图层 2": {
+                        "x": 130.98,
+                        "y": 208.99,
+                        "width": 214,
+                        "height": 299
+                    }
+                },
+                "小房子": {
+                    "小房子": {
+                        "x": 361.98,
+                        "y": 189.99,
+                        "width": 270,
+                        "height": 197
+                    }
+                },
+                "水车本体": {
+                    "水车本体": {
+                        "x": 55.8,
+                        "y": -35.79,
+                        "width": 527,
+                        "height": 478
+                    }
+                },
+                "白线": {
+                    "白线": {
+                        "x": 194.48,
+                        "y": 330.49,
+                        "width": 671,
+                        "height": 518
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "loop": {}
+    },
+    "extra": {
+        "水车本体": {
+            "rootBoneName": "水车本体",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.02
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

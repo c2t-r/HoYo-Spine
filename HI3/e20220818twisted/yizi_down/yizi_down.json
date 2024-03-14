@@ -1,0 +1,75 @@
+{
+    "skeleton": {
+        "hash": "DqIfs9OOPzU",
+        "spine": "4.0.33",
+        "x": -255.29,
+        "y": -0.29,
+        "width": 442.21,
+        "height": 428.18
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.151,
+            "scaleY": 0.151
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 680,
+            "y": 170.18
+        }
+    ],
+    "slots": [
+        {
+            "name": "椅子L2",
+            "bone": "bone",
+            "attachment": "椅子L"
+        },
+        {
+            "name": "椅子R",
+            "bone": "bone",
+            "attachment": "椅子R"
+        },
+        {
+            "name": "遮阳伞",
+            "bone": "bone",
+            "attachment": "遮阳伞B"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "椅子L2": {
+                    "椅子L": {
+                        "x": 145.42,
+                        "y": 439.34,
+                        "width": 809,
+                        "height": 1215
+                    }
+                },
+                "椅子R": {
+                    "椅子R": {
+                        "x": -1435.96,
+                        "y": 435.4,
+                        "width": 809,
+                        "height": 1215
+                    }
+                },
+                "遮阳伞": {
+                    "遮阳伞B": {
+                        "x": -906.4,
+                        "y": 1349.45,
+                        "width": 2929,
+                        "height": 2629
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "动作_待机": {},
+        "动作_说话": {}
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "skeleton": {
+        "hash": "BUojpq+lnps",
+        "spine": "4.0.33",
+        "x": -893.87,
+        "y": -124.1,
+        "width": 1788.99,
+        "height": 183
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone3",
+            "parent": "root",
+            "rotation": 180
+        },
+        {
+            "name": "bone",
+            "parent": "bone3",
+            "rotation": 180,
+            "x": -11.12,
+            "y": -18.9
+        },
+        {
+            "name": "bone2",
+            "parent": "bone3",
+            "rotation": 180,
+            "x": 9.87,
+            "y": -18.9,
+            "scaleX": -1
+        }
+    ],
+    "slots": [
+        {
+            "name": "灯1 拷贝",
+            "bone": "bone",
+            "attachment": "灯1"
+        },
+        {
+            "name": "灯1 拷贝2",
+            "bone": "bone2",
+            "attachment": "灯1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "灯1 拷贝": {
+                    "灯1": {
+                        "x": -633.49,
+                        "y": -51.5,
+                        "width": 543,
+                        "height": 183
+                    },
+                    "灯1 拷贝": {
+                        "x": -633.49,
+                        "y": -51.5,
+                        "width": 543,
+                        "height": 183
+                    },
+                    "灯1 拷贝 2": {
+                        "x": -633.49,
+                        "y": -51.5,
+                        "width": 543,
+                        "height": 183
+                    }
+                },
+                "灯1 拷贝2": {
+                    "灯1": {
+                        "x": -633.49,
+                        "y": -51.5,
+                        "width": 543,
+                        "height": 183
+                    },
+                    "灯1 拷贝": {
+                        "x": -633.49,
+                        "y": -51.5,
+                        "width": 543,
+                        "height": 183
+                    },
+                    "灯1 拷贝 2": {
+                        "x": -633.49,
+                        "y": -51.5,
+                        "width": 543,
+                        "height": 183
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "灯1 拷贝": {
+                    "attachment": [
+                        {
+                            "name": "灯1"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "灯1 拷贝"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": "灯1 拷贝 2"
+                        },
+                        {
+                            "time": 1,
+                            "name": "灯1"
+                        }
+                    ]
+                },
+                "灯1 拷贝2": {
+                    "attachment": [
+                        {
+                            "name": "灯1"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "灯1 拷贝"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": "灯1 拷贝 2"
+                        },
+                        {
+                            "time": 1,
+                            "name": "灯1"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
