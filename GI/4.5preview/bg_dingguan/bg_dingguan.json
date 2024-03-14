@@ -1,0 +1,1076 @@
+{
+    "skeleton": {
+        "hash": "QVVcqHKNH8w",
+        "spine": "4.0-from-4.1.24",
+        "x": -454.87,
+        "y": -725.84,
+        "width": 907,
+        "height": 740
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "光线b",
+            "parent": "bone",
+            "length": 379.23,
+            "rotation": -122.8,
+            "x": -162.95,
+            "y": 57.94
+        },
+        {
+            "name": "光线e",
+            "parent": "bone",
+            "length": 340,
+            "rotation": -117.59,
+            "x": -95.52,
+            "y": 50.92
+        },
+        {
+            "name": "光线f",
+            "parent": "bone",
+            "length": 325.25,
+            "rotation": -103.66,
+            "x": -56.51,
+            "y": 40.28
+        },
+        {
+            "name": "光线g",
+            "parent": "bone",
+            "length": 450,
+            "rotation": -67.98,
+            "x": 24.88,
+            "y": 46.82
+        },
+        {
+            "name": "光线i",
+            "parent": "bone",
+            "length": 396.39,
+            "rotation": -60.53,
+            "x": 81.69,
+            "y": 40.88
+        },
+        {
+            "name": "光线k",
+            "parent": "bone",
+            "length": 372.68,
+            "rotation": -54.54,
+            "x": 150.37,
+            "y": 50.21
+        },
+        {
+            "name": "光线k2",
+            "parent": "光线k",
+            "x": 17.15,
+            "y": 0.15
+        },
+        {
+            "name": "光线j",
+            "parent": "光线k",
+            "x": 10.82,
+            "y": -17.66
+        },
+        {
+            "name": "光线l",
+            "parent": "光线k",
+            "x": 24.27,
+            "y": 22.11
+        },
+        {
+            "name": "光线g2",
+            "parent": "光线g",
+            "x": -1.49,
+            "y": -9.6
+        },
+        {
+            "name": "光线h",
+            "parent": "光线g",
+            "x": 15.73,
+            "y": 8.57
+        },
+        {
+            "name": "光线e2",
+            "parent": "光线e",
+            "x": 50.18,
+            "y": 14.61
+        },
+        {
+            "name": "光线a",
+            "parent": "光线b",
+            "x": 43.13,
+            "y": -15.24
+        },
+        {
+            "name": "光线c",
+            "parent": "光线b",
+            "x": 25.7,
+            "y": 15.53
+        },
+        {
+            "name": "光线b2",
+            "parent": "光线b",
+            "x": 9.44,
+            "y": 4.45
+        }
+    ],
+    "slots": [
+        {
+            "name": "guang",
+            "bone": "bone",
+            "attachment": "guang"
+        },
+        {
+            "name": "光线l",
+            "bone": "光线l",
+            "attachment": "光线l"
+        },
+        {
+            "name": "光线k",
+            "bone": "光线k2",
+            "attachment": "光线k"
+        },
+        {
+            "name": "光线j",
+            "bone": "光线j",
+            "attachment": "光线j"
+        },
+        {
+            "name": "光线i",
+            "bone": "光线i",
+            "attachment": "光线i"
+        },
+        {
+            "name": "光线h",
+            "bone": "光线h",
+            "attachment": "光线h"
+        },
+        {
+            "name": "光线g",
+            "bone": "光线g2",
+            "attachment": "光线g"
+        },
+        {
+            "name": "光线f",
+            "bone": "光线f",
+            "attachment": "光线f"
+        },
+        {
+            "name": "光线e",
+            "bone": "光线e2",
+            "attachment": "光线e"
+        },
+        {
+            "name": "光线d",
+            "bone": "光线e",
+            "attachment": "光线d"
+        },
+        {
+            "name": "光线c",
+            "bone": "光线c",
+            "attachment": "光线c"
+        },
+        {
+            "name": "光线b",
+            "bone": "光线b2",
+            "attachment": "光线b"
+        },
+        {
+            "name": "光线a",
+            "bone": "光线a",
+            "attachment": "光线a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "guang": {
+                    "guang": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.13866,
+                            0,
+                            0,
+                            0.38823,
+                            0,
+                            0.72517,
+                            0.31706,
+                            1,
+                            0.6521,
+                            1,
+                            0.95777,
+                            0.75843,
+                            1,
+                            0.48078,
+                            1,
+                            0,
+                            0.49763,
+                            0
+                        ],
+                        "triangles": [
+                            8,
+                            7,
+                            6,
+                            8,
+                            2,
+                            1,
+                            5,
+                            8,
+                            6,
+                            0,
+                            8,
+                            1,
+                            4,
+                            3,
+                            8,
+                            3,
+                            2,
+                            8,
+                            5,
+                            4,
+                            8
+                        ],
+                        "vertices": [
+                            -323.08,
+                            14.16,
+                            -447.87,
+                            -248.67,
+                            -447.87,
+                            -476.78,
+                            -162.52,
+                            -662.84,
+                            139.02,
+                            -662.84,
+                            414.13,
+                            -499.3,
+                            452.13,
+                            -311.33,
+                            452.13,
+                            14.16,
+                            0,
+                            14.16
+                        ],
+                        "hull": 9
+                    }
+                },
+                "光线a": {
+                    "光线a": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.92502,
+                            0,
+                            0,
+                            0.75469,
+                            0,
+                            1,
+                            0.14316,
+                            1,
+                            1,
+                            0.02593
+                        ],
+                        "triangles": [
+                            3,
+                            2,
+                            1,
+                            1,
+                            4,
+                            3,
+                            4,
+                            1,
+                            0
+                        ],
+                        "vertices": [
+                            25.25,
+                            -10.03,
+                            350.38,
+                            -70.12,
+                            416.15,
+                            -27.73,
+                            397.15,
+                            1.75,
+                            22.25,
+                            9.89
+                        ],
+                        "hull": 5
+                    }
+                },
+                "光线b": {
+                    "光线b": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.89999,
+                            0,
+                            0,
+                            0.97257,
+                            0,
+                            1,
+                            0.10288,
+                            1,
+                            1,
+                            0.04246
+                        ],
+                        "triangles": [
+                            3,
+                            1,
+                            0,
+                            3,
+                            2,
+                            1,
+                            0,
+                            4,
+                            3
+                        ],
+                        "vertices": [
+                            105.02,
+                            -7.08,
+                            264,
+                            -4.21,
+                            267.2,
+                            -2.14,
+                            262.02,
+                            5.9,
+                            104.94,
+                            3.93
+                        ],
+                        "hull": 5
+                    }
+                },
+                "光线c": {
+                    "光线c": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.95542,
+                            0,
+                            0,
+                            0.97674,
+                            0,
+                            1,
+                            0.04907,
+                            1,
+                            1,
+                            0.00971
+                        ],
+                        "triangles": [
+                            3,
+                            2,
+                            1,
+                            1,
+                            4,
+                            3,
+                            4,
+                            1,
+                            0
+                        ],
+                        "vertices": [
+                            23.87,
+                            -4.25,
+                            444.76,
+                            26.03,
+                            452.17,
+                            30.8,
+                            446.54,
+                            39.55,
+                            21.85,
+                            5.69
+                        ],
+                        "hull": 5
+                    }
+                },
+                "光线d": {
+                    "光线d": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.93954,
+                            0,
+                            0,
+                            0.98628,
+                            0,
+                            1,
+                            0.1106,
+                            1,
+                            1,
+                            0.0017
+                        ],
+                        "triangles": [
+                            3,
+                            2,
+                            1,
+                            0,
+                            3,
+                            1,
+                            3,
+                            0,
+                            4
+                        ],
+                        "vertices": [
+                            45.84,
+                            -8.35,
+                            739.22,
+                            -19.14,
+                            746.74,
+                            -15.21,
+                            728.7,
+                            19.29,
+                            36.92,
+                            11
+                        ],
+                        "hull": 5
+                    }
+                },
+                "光线e": {
+                    "光线e": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.95074,
+                            0,
+                            0,
+                            0.99234,
+                            0.0563,
+                            1,
+                            1,
+                            0.01091
+                        ],
+                        "triangles": [
+                            2,
+                            1,
+                            0,
+                            2,
+                            0,
+                            3
+                        ],
+                        "vertices": [
+                            -13.73,
+                            -5,
+                            390.51,
+                            9.95,
+                            388.23,
+                            20.38,
+                            -14.34,
+                            4.85
+                        ],
+                        "hull": 4
+                    }
+                },
+                "光线f": {
+                    "光线f": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.84518,
+                            0,
+                            0,
+                            1,
+                            0.36559,
+                            1,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            2,
+                            1,
+                            0,
+                            2,
+                            0,
+                            3
+                        ],
+                        "vertices": [
+                            28.73,
+                            -7.59,
+                            425.79,
+                            -11.09,
+                            415.86,
+                            29.76,
+                            24.52,
+                            9.71
+                        ],
+                        "hull": 4
+                    }
+                },
+                "光线g": {
+                    "光线g": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0,
+                            0.93807,
+                            1,
+                            1,
+                            1,
+                            0.06453,
+                            0
+                        ],
+                        "triangles": [
+                            2,
+                            1,
+                            3,
+                            0,
+                            3,
+                            1
+                        ],
+                        "vertices": [
+                            31.12,
+                            -4.26,
+                            431.74,
+                            -16.54,
+                            435.18,
+                            -8.05,
+                            34.7,
+                            4.59
+                        ],
+                        "hull": 4
+                    }
+                },
+                "光线h": {
+                    "光线h": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0,
+                            0.86705,
+                            1,
+                            1,
+                            1,
+                            1,
+                            0.89875,
+                            0.06834,
+                            0
+                        ],
+                        "triangles": [
+                            3,
+                            0,
+                            4,
+                            1,
+                            0,
+                            3,
+                            1,
+                            3,
+                            2
+                        ],
+                        "vertices": [
+                            18.01,
+                            -12.24,
+                            809.36,
+                            -29.28,
+                            825.51,
+                            10.65,
+                            756.06,
+                            38.74,
+                            26.32,
+                            8.29
+                        ],
+                        "hull": 5
+                    }
+                },
+                "光线i": {
+                    "光线i": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.00694,
+                            0.91916,
+                            1,
+                            1,
+                            1,
+                            1,
+                            0.89558,
+                            0.07184,
+                            0
+                        ],
+                        "triangles": [
+                            3,
+                            0,
+                            4,
+                            1,
+                            0,
+                            3,
+                            1,
+                            3,
+                            2
+                        ],
+                        "vertices": [
+                            29.78,
+                            -9.42,
+                            651.72,
+                            -23.04,
+                            664.45,
+                            -0.52,
+                            614.27,
+                            27.84,
+                            37.75,
+                            12.48
+                        ],
+                        "hull": 5
+                    }
+                },
+                "光线j": {
+                    "光线j": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.02497,
+                            0.93873,
+                            1,
+                            1,
+                            1,
+                            1,
+                            0.96714,
+                            0.05644,
+                            0
+                        ],
+                        "triangles": [
+                            0,
+                            4,
+                            3,
+                            1,
+                            0,
+                            3,
+                            1,
+                            3,
+                            2
+                        ],
+                        "vertices": [
+                            55.2,
+                            -6.33,
+                            441.08,
+                            -46.07,
+                            448.33,
+                            -35.89,
+                            439.07,
+                            -29.3,
+                            54.84,
+                            8.06
+                        ],
+                        "hull": 5
+                    }
+                },
+                "光线k": {
+                    "光线k": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.03608,
+                            0.90364,
+                            1,
+                            1,
+                            1,
+                            1,
+                            0.92774,
+                            0.10405,
+                            0
+                        ],
+                        "triangles": [
+                            3,
+                            0,
+                            4,
+                            1,
+                            0,
+                            3,
+                            1,
+                            3,
+                            2
+                        ],
+                        "vertices": [
+                            101.35,
+                            -5.05,
+                            298.52,
+                            -19.01,
+                            304.89,
+                            -10.06,
+                            294.59,
+                            -2.73,
+                            103.09,
+                            8.27
+                        ],
+                        "hull": 5
+                    }
+                },
+                "光线l": {
+                    "光线l": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.03877,
+                            0.88491,
+                            1,
+                            1,
+                            1,
+                            1,
+                            0.71409,
+                            0.0809,
+                            0
+                        ],
+                        "triangles": [
+                            3,
+                            0,
+                            4,
+                            1,
+                            0,
+                            3,
+                            1,
+                            3,
+                            2
+                        ],
+                        "vertices": [
+                            42.27,
+                            -12.09,
+                            417.02,
+                            -12.84,
+                            433.38,
+                            10.13,
+                            359.32,
+                            62.87,
+                            43.73,
+                            11.21
+                        ],
+                        "hull": 5
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "光线b": {
+            "rootBoneName": "光线b",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1.8,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 2.5,
+                    "scaleYAmp": 0.03,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": -2.2,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "光线e": {
+            "rootBoneName": "光线e",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.4302600858730421,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 2.5,
+                    "scaleYAmp": 0.03,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": -18.30371332374576,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.5
+                }
+            }
+        },
+        "光线f": {
+            "rootBoneName": "光线f",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1.2489855936860368,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 2.5,
+                    "scaleYAmp": 0.03,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 3.6742336014861103,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 1
+                }
+            }
+        },
+        "光线g": {
+            "rootBoneName": "光线g",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -3.6312681703115106,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 2.5,
+                    "scaleYAmp": 0.03,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": -4.121539935516798,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 2
+                }
+            }
+        },
+        "光线i": {
+            "rootBoneName": "光线i",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 5.1451461338695665,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 2.5,
+                    "scaleYAmp": 0.03,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 1.0389426060669174,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 2.5
+                }
+            }
+        },
+        "光线k": {
+            "rootBoneName": "光线k",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.03705554927906,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 2.5,
+                    "scaleYAmp": 0.03,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": -2.1613399024264117,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 3
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "guang": {
+            "slotName": "guang",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0,
+                    "min": 0.5,
+                    "max": 0.3
+                }
+            }
+        },
+        "光线l": {
+            "slotName": "光线l",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.26348508032415885,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光线k": {
+            "slotName": "光线k",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.3045729240247932,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光线j": {
+            "slotName": "光线j",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.11547991844469596,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光线i": {
+            "slotName": "光线i",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.15913386094007498,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光线g": {
+            "slotName": "光线g",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.10405352342528262,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光线f": {
+            "slotName": "光线f",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.39386988468015804,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光线e": {
+            "slotName": "光线e",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.8408109637951338,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光线d": {
+            "slotName": "光线d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -1.2334685909582288,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光线c": {
+            "slotName": "光线c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -1.4433379325746605,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光线a": {
+            "slotName": "光线a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -1.519937144299356,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光线b": {
+            "slotName": "光线b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -1.161767947388973,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "光线h": {
+            "slotName": "光线h",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.705726818351764,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "skeleton": {
+        "hash": "LIj3Ev4A13o",
+        "spine": "4.0-from-4.1.24",
+        "x": -159,
+        "y": -260.5,
+        "width": 320,
+        "height": 522
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -23.84,
+            "y": 28.57
+        },
+        {
+            "name": "wuqi",
+            "parent": "bone",
+            "x": -0.31,
+            "y": -5.62
+        }
+    ],
+    "slots": [
+        {
+            "name": "报纸",
+            "bone": "bone",
+            "attachment": "报纸"
+        },
+        {
+            "name": "bg",
+            "bone": "bone",
+            "attachment": "bg"
+        },
+        {
+            "name": "mask",
+            "bone": "bone",
+            "attachment": "mask"
+        },
+        {
+            "name": "wuqi_b",
+            "bone": "wuqi",
+            "attachment": "wuqi_b"
+        },
+        {
+            "name": "t2",
+            "bone": "bone",
+            "attachment": "t2"
+        },
+        {
+            "name": "t",
+            "bone": "bone",
+            "attachment": "t"
+        },
+        {
+            "name": "星",
+            "bone": "bone",
+            "attachment": "星"
+        },
+        {
+            "name": "jp1",
+            "bone": "bone",
+            "attachment": "jp1"
+        },
+        {
+            "name": "jp2",
+            "bone": "bone",
+            "attachment": "jp2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bg": {
+                    "bg": {
+                        "x": -1.66,
+                        "y": -28.07,
+                        "width": 267,
+                        "height": 522
+                    }
+                },
+                "jp1": {
+                    "jp1": {
+                        "x": -45.16,
+                        "y": -207.57,
+                        "width": 106,
+                        "height": 91
+                    }
+                },
+                "jp2": {
+                    "jp2": {
+                        "x": 47.84,
+                        "y": -207.57,
+                        "width": 100,
+                        "height": 91
+                    }
+                },
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "wuqi_b",
+                        "vertexCount": 7,
+                        "vertices": [
+                            -126.75,
+                            -54.57,
+                            -95.65,
+                            -85.09,
+                            -1.17,
+                            -131.44,
+                            101.52,
+                            -75.11,
+                            127.33,
+                            -45.18,
+                            122.05,
+                            262.3,
+                            -130.86,
+                            261.71
+                        ]
+                    }
+                },
+                "t": {
+                    "t": {
+                        "x": -1.16,
+                        "y": -108.07,
+                        "width": 272,
+                        "height": 150
+                    }
+                },
+                "t2": {
+                    "t2": {
+                        "x": -0.66,
+                        "y": -80.57,
+                        "width": 233,
+                        "height": 139
+                    }
+                },
+                "wuqi_b": {
+                    "wuqi_b": {
+                        "x": -0.35,
+                        "y": 37.05,
+                        "width": 157,
+                        "height": 285
+                    }
+                },
+                "报纸": {
+                    "报纸": {
+                        "x": 94.34,
+                        "y": -24.57,
+                        "width": 181,
+                        "height": 397
+                    }
+                },
+                "星": {
+                    "星": {
+                        "x": -0.66,
+                        "y": -82.57,
+                        "width": 111,
+                        "height": 33
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "wuqi": {
+            "rootBoneName": "wuqi",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 3,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 1,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 1
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

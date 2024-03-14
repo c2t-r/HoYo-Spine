@@ -1,0 +1,309 @@
+{
+    "skeleton": {
+        "hash": "XoLptYjXmG4",
+        "spine": "4.1.24",
+        "x": -300,
+        "y": -563.5,
+        "width": 600,
+        "height": 1127
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "h",
+            "parent": "root",
+            "y": 147.5
+        },
+        {
+            "name": "a",
+            "parent": "h"
+        },
+        {
+            "name": "b",
+            "parent": "h"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "length": 61.85,
+            "rotation": 56.52,
+            "x": -136.98,
+            "y": -70.85
+        },
+        {
+            "name": "单手剑",
+            "parent": "bone",
+            "x": 289,
+            "y": 9.54
+        },
+        {
+            "name": "单手剑2",
+            "parent": "单手剑",
+            "x": -14.51,
+            "y": -17.89
+        }
+    ],
+    "slots": [
+        {
+            "name": "旗帜",
+            "bone": "root",
+            "attachment": "旗帜"
+        },
+        {
+            "name": "环a",
+            "bone": "b",
+            "attachment": "环a"
+        },
+        {
+            "name": "环b",
+            "bone": "h",
+            "attachment": "环b"
+        },
+        {
+            "name": "环c",
+            "bone": "a",
+            "attachment": "环c"
+        },
+        {
+            "name": "mask",
+            "bone": "h",
+            "attachment": "mask"
+        },
+        {
+            "name": "单手剑",
+            "bone": "单手剑2",
+            "attachment": "单手剑"
+        },
+        {
+            "name": "边线",
+            "bone": "h",
+            "attachment": "边线"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "单手剑",
+                        "vertexCount": 15,
+                        "vertices": [
+                            -136.71,
+                            -218.36,
+                            -120.66,
+                            -228.32,
+                            -102.59,
+                            -236.43,
+                            -75.57,
+                            -246.9,
+                            -39.43,
+                            -255.01,
+                            186.96,
+                            -249.58,
+                            276.04,
+                            16.89,
+                            246.35,
+                            352.63,
+                            -28.49,
+                            384.61,
+                            -260.7,
+                            169.91,
+                            -239.38,
+                            -97.31,
+                            -217.67,
+                            -138.48,
+                            -193.83,
+                            -170.74,
+                            -172.56,
+                            -191.09,
+                            -155.12,
+                            -206.43
+                        ]
+                    }
+                },
+                "单手剑": {
+                    "单手剑": {
+                        "x": -67.26,
+                        "y": 18.33,
+                        "rotation": -56.52,
+                        "width": 402,
+                        "height": 594
+                    }
+                },
+                "旗帜": {
+                    "旗帜": {
+                        "width": 600,
+                        "height": 1127
+                    }
+                },
+                "环a": {
+                    "环a": {
+                        "width": 476,
+                        "height": 476
+                    }
+                },
+                "环b": {
+                    "环b": {
+                        "x": 0.5,
+                        "width": 557,
+                        "height": 526
+                    }
+                },
+                "环c": {
+                    "环c": {
+                        "width": 396,
+                        "height": 396
+                    }
+                },
+                "边线": {
+                    "边线": {
+                        "x": -141.5,
+                        "y": -162,
+                        "width": 227,
+                        "height": 200
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "bones": {
+                "单手剑": {
+                    "translate": [
+                        {
+                            "x": -572.52,
+                            "curve": [
+                                0.141,
+                                -572.52,
+                                0.257,
+                                62.17,
+                                0.141,
+                                0,
+                                0.257,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 62.17,
+                            "curve": [
+                                0.575,
+                                62.17,
+                                0.51,
+                                -4.99,
+                                0.575,
+                                0,
+                                0.51,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": -4.99,
+                            "curve": [
+                                1.319,
+                                -4.99,
+                                1.612,
+                                0,
+                                1.319,
+                                0,
+                                1.612,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "bone": {
+                    "rotate": [
+                        {
+                            "value": -36.21,
+                            "curve": [
+                                0.129,
+                                -36.21,
+                                0.302,
+                                4.2
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "value": 4.2,
+                            "curve": [
+                                0.483,
+                                4.2,
+                                0.572,
+                                -1.12
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "value": -1.12,
+                            "curve": [
+                                0.93,
+                                -1.12,
+                                1.141,
+                                -0.37
+                            ]
+                        },
+                        {
+                            "time": 1.3667
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {}
+    },
+    "extra": {
+        "单手剑2": {
+            "rootBoneName": "单手剑2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "b": {
+            "rootBoneName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": -0.03
+                }
+            }
+        },
+        "a": {
+            "rootBoneName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.02
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

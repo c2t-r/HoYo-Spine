@@ -1,0 +1,119 @@
+{
+    "skeleton": {
+        "hash": "9fheVbhyc/Q",
+        "spine": "4.0-from-4.1.24",
+        "x": -287.5,
+        "y": -194,
+        "width": 567,
+        "height": 388
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "ab",
+            "parent": "root",
+            "x": -43.38,
+            "y": -130.98
+        },
+        {
+            "name": "aa",
+            "parent": "root",
+            "x": 177.12,
+            "y": 143.76
+        }
+    ],
+    "slots": [
+        {
+            "name": "ab",
+            "bone": "ab",
+            "attachment": "ab"
+        },
+        {
+            "name": "aa",
+            "bone": "aa",
+            "attachment": "aa"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "aa": {
+                    "aa": {
+                        "x": -22.62,
+                        "y": 4.74,
+                        "width": 250,
+                        "height": 91
+                    }
+                },
+                "ab": {
+                    "ab": {
+                        "x": -24.62,
+                        "y": 8.48,
+                        "width": 439,
+                        "height": 143
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "ab": {
+            "rootBoneName": "ab",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 6,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3118,
+                    "scaleXFreq": 10,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "aa": {
+            "rootBoneName": "aa",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 6,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.543368699325499,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3113.626162472428,
+                    "scaleXFreq": 10,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -2.65006877011249,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
