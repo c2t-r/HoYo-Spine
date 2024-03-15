@@ -1,6 +1,8 @@
 # HoYo-Spine
 Collections of web event spines made by HoYo  
 note: there are not all spines used on following events  
+   
+if you have a request, feel free to tell me it  
 
 ## SR
 google: ```site:act.hoyoverse.com/sr/event```
