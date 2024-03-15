@@ -1,5 +1,6 @@
 # HoYo-Spine
 Collections of web event spines made by HoYo  
+currently supporting `SR`, `GI`, `HI3/BH3` and `HoYoLab`  
 note: there are not all spines used on following events  
    
 if you have a request, feel free to tell me it  
@@ -106,7 +107,7 @@ google: ```site:act.hoyoverse.com/bh3/event```
 - https://act.hoyoverse.com/bh3/event/e20231225divination-k7s8la/index.html
 
 ## ZZZ
-google: ```site:act.hoyoverse.com/zzz/event```
+google: ```site:act.hoyoverse.com/zzz/event OR site:act.hoyoverse.com/nap/event```
 
 ### Events
 - https://act.hoyoverse.com/zzz/event/e202306cook-v8elj7/index.html
