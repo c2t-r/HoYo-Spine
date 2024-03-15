@@ -1,6 +1,6 @@
 # HoYo-Spine
 Collections of web event spines made by HoYo  
-currently supporting `SR`, `GI`, `HI3/BH3` and `HoYoLab`  
+currently supporting `SR`, `GI`, `HI3/BH3`, `ZZZ` and `HoYoLab`  
 note: there are not all spines used on following events  
    
 if you have a request, feel free to tell me it  
@@ -95,7 +95,7 @@ google: ```site:act.hoyoverse.com/ys/event```
 ### hoyofest
 - 2023 https://act.hoyoverse.com/ys/event/hoyofest2023-xrdqyw/index.html
 
-## BH3 | HI3
+## HI3 | BH3
 google: ```site:act.hoyoverse.com/bh3/event```
 
 ### Events
