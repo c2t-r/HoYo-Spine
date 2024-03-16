@@ -1,0 +1,281 @@
+{
+    "skeleton": {
+        "hash": "yLU5JDLMeJY",
+        "spine": "4.1.24",
+        "x": -2832.03,
+        "y": -1619.7,
+        "width": 5707,
+        "height": 3271,
+        "images": "./images/Back/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": 30.55,
+            "y": 188.01
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 7.72,
+            "y": -202.09,
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "length": 2097.74,
+            "rotation": 62.79,
+            "x": -1122.43,
+            "y": -104.54
+        },
+        {
+            "name": "bone3",
+            "parent": "bone",
+            "length": 2601.19,
+            "rotation": 46.17,
+            "x": -1126.86,
+            "y": -106.76
+        },
+        {
+            "name": "bone4",
+            "parent": "bone",
+            "length": 3159.85,
+            "rotation": 33.16,
+            "x": -1131.29,
+            "y": -111.19
+        },
+        {
+            "name": "bone5",
+            "parent": "bone",
+            "length": 1753.01,
+            "rotation": 27.47,
+            "x": 1363.45,
+            "y": -106.76
+        }
+    ],
+    "slots": [
+        {
+            "name": "beijing",
+            "bone": "bone",
+            "attachment": "beijing"
+        },
+        {
+            "name": "sheguang_1",
+            "bone": "bone5",
+            "attachment": "sheguang_1"
+        },
+        {
+            "name": "sheguang_4",
+            "bone": "bone2",
+            "attachment": "sheguang_4"
+        },
+        {
+            "name": "sheguang_3",
+            "bone": "bone3",
+            "attachment": "sheguang_3"
+        },
+        {
+            "name": "sheguang_2",
+            "bone": "bone4",
+            "attachment": "sheguang_2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "beijing": {
+                    "beijing": {
+                        "x": 30.55,
+                        "y": 160.51,
+                        "width": 5707,
+                        "height": 3238
+                    }
+                },
+                "sheguang_1": {
+                    "sheguang_1": {
+                        "x": 856.77,
+                        "y": 2.29,
+                        "rotation": -27.47,
+                        "width": 1523,
+                        "height": 840
+                    }
+                },
+                "sheguang_2": {
+                    "sheguang_2": {
+                        "x": 1676.77,
+                        "y": -14.75,
+                        "rotation": -33.16,
+                        "width": 2735,
+                        "height": 1906
+                    }
+                },
+                "sheguang_3": {
+                    "sheguang_3": {
+                        "x": 1491.44,
+                        "y": 37.95,
+                        "rotation": -46.17,
+                        "width": 1701,
+                        "height": 1634
+                    }
+                },
+                "sheguang_4": {
+                    "sheguang_4": {
+                        "x": 1152.91,
+                        "y": -68.29,
+                        "rotation": -62.79,
+                        "width": 1057,
+                        "height": 1778
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "loop": {
+            "bones": {
+                "bone4": {
+                    "rotate": [
+                        {
+                            "value": -1.18,
+                            "curve": [
+                                0.594,
+                                -0.66,
+                                1.211,
+                                -0.18
+                            ]
+                        },
+                        {
+                            "time": 1.8,
+                            "value": -0.18,
+                            "curve": [
+                                3.129,
+                                -0.18,
+                                4.404,
+                                -2.58
+                            ]
+                        },
+                        {
+                            "time": 5.7333,
+                            "value": -2.58,
+                            "curve": [
+                                6.473,
+                                -2.58,
+                                7.264,
+                                -1.84
+                            ]
+                        },
+                        {
+                            "time": 8,
+                            "value": -1.18
+                        }
+                    ]
+                },
+                "bone3": {
+                    "rotate": [
+                        {
+                            "value": -0.18,
+                            "curve": [
+                                0.301,
+                                0.02,
+                                0.574,
+                                0.17
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "value": 0.17,
+                            "curve": [
+                                2.196,
+                                0.17,
+                                3.537,
+                                -2.58
+                            ]
+                        },
+                        {
+                            "time": 4.8667,
+                            "value": -2.58,
+                            "curve": [
+                                5.904,
+                                -2.58,
+                                6.972,
+                                -0.92
+                            ]
+                        },
+                        {
+                            "time": 8,
+                            "value": -0.18
+                        }
+                    ]
+                },
+                "bone2": {
+                    "rotate": [
+                        {
+                            "value": -0.69,
+                            "curve": [
+                                1.329,
+                                -0.69,
+                                2.671,
+                                -2.58
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "value": -2.58,
+                            "curve": [
+                                5.329,
+                                -2.58,
+                                6.671,
+                                -0.69
+                            ]
+                        },
+                        {
+                            "time": 8,
+                            "value": -0.69
+                        }
+                    ]
+                },
+                "bone5": {
+                    "rotate": [
+                        {
+                            "value": -1.85,
+                            "curve": [
+                                0.886,
+                                -1.03,
+                                1.78,
+                                0.2
+                            ]
+                        },
+                        {
+                            "time": 2.6667,
+                            "value": 0.2,
+                            "curve": [
+                                3.996,
+                                0.2,
+                                5.337,
+                                -2.57
+                            ]
+                        },
+                        {
+                            "time": 6.6667,
+                            "value": -2.57,
+                            "curve": [
+                                7.11,
+                                -2.57,
+                                7.557,
+                                -2.26
+                            ]
+                        },
+                        {
+                            "time": 8,
+                            "value": -1.85
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

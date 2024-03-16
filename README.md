@@ -16,6 +16,7 @@ google: ```site:act.hoyoverse.com/sr/event```
 - 1.5 https://act.hoyoverse.com/sr/event/e20231018version-5kx3qh/index.html
 - 1.6 https://act.hoyoverse.com/sr/event/e20231215version-92kbcf/index.html
 - 2.0 https://act.hoyoverse.com/sr/event/e20240126version-pp3ay8/index.html
+- 2.1 https://act.hoyoverse.com/sr/event/e20240316version-hyue7h/index.html
 
 ### others
 - https://act.hoyoverse.com/sr/event/e20220908jump-4odj/index.html
