@@ -1,0 +1,286 @@
+{
+    "skeleton": {
+        "hash": "UsZyLgHJtc8",
+        "spine": "4.0.19",
+        "x": -394.5,
+        "y": -69.5,
+        "width": 789,
+        "height": 139
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "tex/ice3",
+            "parent": "root",
+            "x": -361.82,
+            "y": -18.91
+        },
+        {
+            "name": "tex/ice4",
+            "parent": "root",
+            "x": -102.68,
+            "y": -30.15
+        },
+        {
+            "name": "tex/ice5",
+            "parent": "root",
+            "x": 365.02,
+            "y": 20.43
+        }
+    ],
+    "slots": [
+        {
+            "name": "tex/ice3",
+            "bone": "tex/ice5",
+            "attachment": "tex/ice3"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "tex/ice3": {
+                    "tex/ice3": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            0.81208,
+                            0.91098,
+                            0.61511,
+                            0.42807,
+                            0.58686,
+                            0.40727,
+                            1,
+                            0.3284,
+                            1,
+                            0.08368,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.25101,
+                            0.08789,
+                            0.27289,
+                            0.08418,
+                            0.91429,
+                            0.2965,
+                            0.8081,
+                            0.40271,
+                            0.24703,
+                            0.43075,
+                            0.53353,
+                            0.91384,
+                            0.55679,
+                            0.94112,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            13,
+                            0,
+                            0,
+                            13,
+                            15,
+                            13,
+                            14,
+                            15,
+                            1,
+                            12,
+                            13,
+                            3,
+                            4,
+                            2,
+                            4,
+                            5,
+                            10,
+                            4,
+                            10,
+                            2,
+                            10,
+                            11,
+                            2,
+                            2,
+                            12,
+                            1,
+                            2,
+                            11,
+                            12,
+                            5,
+                            9,
+                            10,
+                            5,
+                            6,
+                            9,
+                            6,
+                            7,
+                            9,
+                            9,
+                            7,
+                            8
+                        ],
+                        "vertices": [
+                            1,
+                            3,
+                            29.48,
+                            -63.81,
+                            1,
+                            1,
+                            3,
+                            -40.76,
+                            -36.43,
+                            1,
+                            1,
+                            2,
+                            45.92,
+                            18.08,
+                            1,
+                            1,
+                            2,
+                            29.51,
+                            -39.35,
+                            1,
+                            1,
+                            2,
+                            -32.71,
+                            -39.35,
+                            1,
+                            1,
+                            1,
+                            33.35,
+                            -50.59,
+                            1,
+                            1,
+                            1,
+                            -32.68,
+                            -50.59,
+                            1,
+                            1,
+                            1,
+                            -32.68,
+                            53.52,
+                            1,
+                            1,
+                            1,
+                            36.67,
+                            50.48,
+                            1,
+                            1,
+                            1,
+                            33.74,
+                            -38.67,
+                            1,
+                            1,
+                            2,
+                            -57.88,
+                            -12.67,
+                            1,
+                            1,
+                            2,
+                            25.92,
+                            65.32,
+                            1,
+                            1,
+                            2,
+                            48.04,
+                            25.49,
+                            1,
+                            1,
+                            3,
+                            -38.5,
+                            -28.32,
+                            1,
+                            1,
+                            3,
+                            -16.97,
+                            49.07,
+                            1,
+                            1,
+                            3,
+                            29.48,
+                            49.07,
+                            1
+                        ],
+                        "hull": 16
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "ice3": {}
+    },
+    "extra": {
+        "tex/ice3": {
+            "rootBoneName": "tex/ice3",
+            "endBoneName": "tex/guanmu4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6.93,
+                    "rotateFreq": 6,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 2,
+                    "rotateDelay": 0,
+                    "rotateCenter": 0
+                }
+            }
+        },
+        "tex/ice5": {
+            "rootBoneName": "tex/ice5",
+            "endBoneName": "tex/guanmu4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 2,
+                    "moveXCenter": 0,
+                    "moveXSeed": 5,
+                    "scaleYFreq": 1,
+                    "scaleYAmp": 0,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": -0.02,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 6,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 2,
+                    "rotateDelay": 2,
+                    "rotateCenter": 0
+                }
+            }
+        },
+        "tex/ice4": {
+            "rootBoneName": "tex/ice4",
+            "endBoneName": "tex/guanmu4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 2,
+                    "moveXDelay": 4,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6,
+                    "rotateFreq": 6,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 2,
+                    "rotateDelay": 3,
+                    "rotateCenter": 0
+                }
+            }
+        }
+    }
+}

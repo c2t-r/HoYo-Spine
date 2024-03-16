@@ -1,0 +1,78 @@
+{
+    "skeleton": {
+        "hash": "2yD4e/Ib6ss",
+        "spine": "4.0.33",
+        "x": 196.32,
+        "y": -307.95,
+        "width": 219,
+        "height": 167
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -1250,
+            "y": 547.05
+        }
+    ],
+    "slots": [
+        {
+            "name": "desk_box",
+            "bone": "root",
+            "attachment": "desk_box"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "desk_box": {
+                    "desk_box": {
+                        "x": 1555.82,
+                        "y": -771.5,
+                        "width": 219,
+                        "height": 167
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "desk_box": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "a2b": {
+            "slots": {
+                "desk_box": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "desk_box": {
+                    "attachment": [
+                        {
+                            "name": "desk_box"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

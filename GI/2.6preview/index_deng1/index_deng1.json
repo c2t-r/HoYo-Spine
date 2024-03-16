@@ -1,0 +1,85 @@
+{
+    "skeleton": {
+        "hash": "L6FkeFgXqyU",
+        "spine": "4.0.33",
+        "x": -48.58,
+        "y": -162.49,
+        "width": 94,
+        "height": 163
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 4.25,
+            "y": 36.44
+        },
+        {
+            "name": "light_1_",
+            "parent": "bone",
+            "length": 161.65,
+            "rotation": -91.92,
+            "x": -2.95,
+            "y": -37.52
+        }
+    ],
+    "slots": [
+        {
+            "name": "light_1_",
+            "bone": "light_1_",
+            "attachment": "light_1_"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "light_1_": {
+                    "light_1_": {
+                        "x": 79.97,
+                        "y": -0.2,
+                        "rotation": 91.92,
+                        "width": 94,
+                        "height": 163
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "light_1_": {
+                    "rotate": [
+                        {
+                            "value": -5.61,
+                            "curve": [
+                                0.667,
+                                -5.61,
+                                1.333,
+                                8.74
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "value": 8.74,
+                            "curve": [
+                                2.667,
+                                8.74,
+                                3.333,
+                                -5.61
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "value": -5.61
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "skeleton": {
+        "hash": "pN/aMlEn0OQ8sbkGliVm+u+Sy5Q",
+        "spine": "3.8.99",
+        "x": -1250,
+        "y": -432.66,
+        "width": 2500,
+        "height": 470
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -1250,
+            "y": 540
+        },
+        {
+            "name": "sha",
+            "parent": "root",
+            "x": 1250,
+            "y": -540
+        }
+    ],
+    "slots": [
+        {
+            "name": "山石_近山和雾_夜",
+            "bone": "sha",
+            "attachment": "山石_近山和雾_夜"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "山石_近山和雾_夜": {
+                    "山石_近山和雾_夜": {
+                        "y": -197.66,
+                        "width": 2500,
+                        "height": 470
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

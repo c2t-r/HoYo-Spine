@@ -1,0 +1,280 @@
+{
+    "skeleton": {
+        "hash": "ooxoHAvt6QGGAgsu/4tNbZ0iBWw",
+        "spine": "3.8.99",
+        "x": -8959.09,
+        "y": -1689.22,
+        "width": 10292.74,
+        "height": 9310.1
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "云",
+            "parent": "root",
+            "rotation": -34.67,
+            "x": -3775.33,
+            "y": 2460.65,
+            "scaleX": 5.832,
+            "scaleY": 5.832
+        },
+        {
+            "name": "云2",
+            "parent": "root",
+            "rotation": -34.67,
+            "x": -3719.45,
+            "y": 2335.83,
+            "scaleX": 5.1855,
+            "scaleY": 5.1855
+        },
+        {
+            "name": "云3",
+            "parent": "root",
+            "rotation": -34.67,
+            "x": -3719.45,
+            "y": 2335.83,
+            "scaleX": 5.1855,
+            "scaleY": 5.1855
+        }
+    ],
+    "slots": [
+        {
+            "name": "云",
+            "bone": "云",
+            "attachment": "云"
+        },
+        {
+            "name": "云2",
+            "bone": "云2",
+            "attachment": "云"
+        },
+        {
+            "name": "云3",
+            "bone": "云3",
+            "attachment": "云"
+        },
+        {
+            "name": "过场反白",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "过场反白"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "云": {
+                    "云": {
+                        "x": -92.52,
+                        "y": 41.33,
+                        "rotation": 12.12,
+                        "width": 1321,
+                        "height": 1180
+                    }
+                },
+                "云2": {
+                    "云": {
+                        "x": -92.52,
+                        "y": 41.33,
+                        "rotation": 137.06,
+                        "width": 1321,
+                        "height": 1180
+                    }
+                },
+                "云3": {
+                    "云": {
+                        "x": -92.52,
+                        "y": 41.33,
+                        "rotation": -177.1,
+                        "width": 1321,
+                        "height": 1180
+                    }
+                },
+                "过场反白": {
+                    "过场反白": {
+                        "scaleX": 26.673,
+                        "scaleY": 14.5812,
+                        "width": 100,
+                        "height": 100
+                    }
+                }
+            }
+        }
+    ],
+    "events": {
+        "page": {}
+    },
+    "animations": {
+        "animation": {
+            "slots": {
+                "云": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.6667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 6.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "云2": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.8333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.8333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 7.8333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "云3": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.5333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.5333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "过场反白": {
+                    "color": [
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": 0.25
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.8333,
+                            "color": "ffffffff",
+                            "curve": 0.505,
+                            "c3": 0.465
+                        },
+                        {
+                            "time": 7.8333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "云": {
+                    "translate": [
+                        {
+                            "time": 0.6667
+                        },
+                        {
+                            "time": 3.8,
+                            "x": 4132.19,
+                            "y": -2858.36
+                        },
+                        {
+                            "time": 6.6667,
+                            "x": 8264.38,
+                            "y": -5716.72
+                        }
+                    ]
+                },
+                "云2": {
+                    "translate": [
+                        {
+                            "time": 1.8333
+                        },
+                        {
+                            "time": 4.6667,
+                            "x": 3674.09,
+                            "y": -2541.48
+                        },
+                        {
+                            "time": 7.8333,
+                            "x": 6269.16,
+                            "y": -4336.57
+                        }
+                    ]
+                },
+                "云3": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 3.8,
+                            "x": 3674.09,
+                            "y": -2541.48
+                        },
+                        {
+                            "time": 5.5333,
+                            "x": 6405.88,
+                            "y": -4431.15
+                        }
+                    ]
+                }
+            },
+            "events": [
+                {
+                    "time": 3.6667,
+                    "name": "page",
+                    "int": 1
+                }
+            ]
+        }
+    }
+}

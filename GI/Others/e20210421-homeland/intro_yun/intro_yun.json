@@ -1,0 +1,921 @@
+{
+    "skeleton": {
+        "hash": "lVmz5LQxfwxR1SeKe4wwdcaaKtQ",
+        "spine": "3.8.99",
+        "x": -2265.04,
+        "y": -1437.15,
+        "width": 4268.43,
+        "height": 3395.92
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "out_云play",
+            "parent": "root",
+            "x": -5,
+            "y": -1253.81
+        },
+        {
+            "name": "out_云",
+            "parent": "out_云play",
+            "x": 9.05,
+            "y": 244.46,
+            "scaleX": 2.5,
+            "scaleY": 2.5
+        },
+        {
+            "name": "out_云play2",
+            "parent": "root",
+            "x": -699.85,
+            "y": -1269.6,
+            "scaleX": 1.4043,
+            "scaleY": 1.4043
+        },
+        {
+            "name": "out_云2",
+            "parent": "out_云play2",
+            "x": 9.05,
+            "y": 244.46,
+            "scaleX": 2.5,
+            "scaleY": 2.5
+        },
+        {
+            "name": "out_云play3",
+            "parent": "root",
+            "x": -1461.81,
+            "y": -1241.96,
+            "scaleX": 1.1507,
+            "scaleY": 1.1507
+        },
+        {
+            "name": "out_云3",
+            "parent": "out_云play3",
+            "x": 9.05,
+            "y": 244.46,
+            "scaleX": 2.5,
+            "scaleY": 2.5
+        },
+        {
+            "name": "out_云play4",
+            "parent": "root",
+            "x": 662.21,
+            "y": -1261.7,
+            "scaleX": 0.8577,
+            "scaleY": 0.8577
+        },
+        {
+            "name": "out_云4",
+            "parent": "out_云play4",
+            "x": 9.05,
+            "y": 244.46,
+            "scaleX": 3.2957,
+            "scaleY": 3.2957
+        },
+        {
+            "name": "out_云play5",
+            "parent": "root",
+            "x": -577.46,
+            "y": -1241.96
+        },
+        {
+            "name": "out_云5",
+            "parent": "out_云play5",
+            "x": 9.05,
+            "y": 244.46,
+            "scaleX": 2.5,
+            "scaleY": 2.5
+        },
+        {
+            "name": "out_云play6",
+            "parent": "root",
+            "x": -1319.68,
+            "y": -1202.48
+        },
+        {
+            "name": "out_云6",
+            "parent": "out_云play6",
+            "x": 9.05,
+            "y": 244.46,
+            "scaleX": 2.0586,
+            "scaleY": 2.0586
+        },
+        {
+            "name": "out_云play8",
+            "parent": "root",
+            "x": -577.46,
+            "y": -1241.96
+        },
+        {
+            "name": "out_云8",
+            "parent": "out_云play8",
+            "x": 9.05,
+            "y": 244.46,
+            "scaleX": 2.5,
+            "scaleY": 2.5
+        },
+        {
+            "name": "out_云play9",
+            "parent": "root",
+            "x": 662.21,
+            "y": -1261.7,
+            "scaleX": 0.8577,
+            "scaleY": 0.8577
+        },
+        {
+            "name": "out_云9",
+            "parent": "out_云play9",
+            "x": 9.05,
+            "y": 244.46,
+            "scaleX": 3.2957,
+            "scaleY": 3.2957
+        },
+        {
+            "name": "out_云play10",
+            "parent": "root",
+            "x": -1461.81,
+            "y": -1241.96,
+            "scaleX": 1.1507,
+            "scaleY": 1.1507
+        },
+        {
+            "name": "out_云10",
+            "parent": "out_云play10",
+            "x": 9.05,
+            "y": 244.46,
+            "scaleX": 2.5,
+            "scaleY": 2.5
+        },
+        {
+            "name": "out_云play11",
+            "parent": "root",
+            "x": -699.85,
+            "y": -1269.6,
+            "scaleX": 1.4043,
+            "scaleY": 1.4043
+        },
+        {
+            "name": "out_云11",
+            "parent": "out_云play11",
+            "x": 9.05,
+            "y": 244.46,
+            "scaleX": 2.5,
+            "scaleY": 2.5
+        },
+        {
+            "name": "out_云play12",
+            "parent": "root",
+            "x": -5,
+            "y": -1253.81
+        },
+        {
+            "name": "out_云12",
+            "parent": "out_云play12",
+            "x": 9.05,
+            "y": 244.46,
+            "scaleX": 2.5,
+            "scaleY": 2.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "out_云",
+            "bone": "out_云",
+            "attachment": "out_云"
+        },
+        {
+            "name": "out_云12",
+            "bone": "out_云12",
+            "attachment": "out_云"
+        },
+        {
+            "name": "out_云2",
+            "bone": "out_云2",
+            "attachment": "out_云"
+        },
+        {
+            "name": "out_云11",
+            "bone": "out_云11",
+            "attachment": "out_云"
+        },
+        {
+            "name": "out_云3",
+            "bone": "out_云3",
+            "attachment": "out_云"
+        },
+        {
+            "name": "out_云10",
+            "bone": "out_云10",
+            "attachment": "out_云"
+        },
+        {
+            "name": "out_云4",
+            "bone": "out_云4",
+            "attachment": "out_云"
+        },
+        {
+            "name": "out_云9",
+            "bone": "out_云9",
+            "attachment": "out_云"
+        },
+        {
+            "name": "out_云5",
+            "bone": "out_云5",
+            "attachment": "out_云"
+        },
+        {
+            "name": "out_云8",
+            "bone": "out_云8",
+            "attachment": "out_云"
+        },
+        {
+            "name": "out_云6",
+            "bone": "out_云6",
+            "attachment": "out_云"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "out_云": {
+                    "out_云": {
+                        "x": -21.13,
+                        "y": 24.14,
+                        "width": 685,
+                        "height": 400
+                    }
+                },
+                "out_云2": {
+                    "out_云": {
+                        "x": -21.13,
+                        "y": 24.14,
+                        "width": 685,
+                        "height": 400
+                    }
+                },
+                "out_云3": {
+                    "out_云": {
+                        "x": -21.13,
+                        "y": 24.14,
+                        "width": 685,
+                        "height": 400
+                    }
+                },
+                "out_云4": {
+                    "out_云": {
+                        "x": -21.13,
+                        "y": 24.14,
+                        "width": 685,
+                        "height": 400
+                    }
+                },
+                "out_云5": {
+                    "out_云": {
+                        "x": -21.13,
+                        "y": 24.14,
+                        "width": 685,
+                        "height": 400
+                    }
+                },
+                "out_云6": {
+                    "out_云": {
+                        "x": -21.13,
+                        "y": 24.14,
+                        "width": 685,
+                        "height": 400
+                    }
+                },
+                "out_云8": {
+                    "out_云": {
+                        "x": -21.13,
+                        "y": 24.14,
+                        "width": 685,
+                        "height": 400
+                    }
+                },
+                "out_云9": {
+                    "out_云": {
+                        "x": -21.13,
+                        "y": 24.14,
+                        "width": 685,
+                        "height": 400
+                    }
+                },
+                "out_云10": {
+                    "out_云": {
+                        "x": -21.13,
+                        "y": 24.14,
+                        "width": 685,
+                        "height": 400
+                    }
+                },
+                "out_云11": {
+                    "out_云": {
+                        "x": -21.13,
+                        "y": 24.14,
+                        "width": 685,
+                        "height": 400
+                    }
+                },
+                "out_云12": {
+                    "out_云": {
+                        "x": -21.13,
+                        "y": 24.14,
+                        "width": 685,
+                        "height": 400
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "out": {
+            "slots": {
+                "out_云": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.4333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "out_云2": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.1,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.4,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.2333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "out_云3": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.1667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "out_云4": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "out_云5": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.1667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.4333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "out_云6": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.1667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.7,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "out_云8": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.3333,
+                            "color": "ffffff6a",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 6,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "out_云9": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.4667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.0667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "out_云10": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.0333,
+                            "color": "ffffff91",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.9,
+                            "color": "ffffff91",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.7333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "out_云11": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.7667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.6,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "out_云12": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffff8a",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.3667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "out_云": {
+                    "translate": [
+                        {
+                            "time": 0.6333,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.4333,
+                            "x": 869.83,
+                            "y": 2277.86
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.6333,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.4333,
+                            "x": 1.2,
+                            "y": 1.2
+                        }
+                    ]
+                },
+                "out_云2": {
+                    "translate": [
+                        {
+                            "time": 0.4333,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.2333,
+                            "x": 923.69,
+                            "y": 2275.33
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.4333,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.2333,
+                            "x": 1.2,
+                            "y": 1.2
+                        }
+                    ]
+                },
+                "out_云3": {
+                    "translate": [
+                        {
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3,
+                            "x": 1101.92,
+                            "y": 2442.38
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3,
+                            "x": 1.2,
+                            "y": 1.2
+                        }
+                    ]
+                },
+                "out_云4": {
+                    "translate": [
+                        {
+                            "time": 0.6667,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.6667,
+                            "x": 841.11,
+                            "y": 2675.92
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.6667,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.6667,
+                            "x": 1.2,
+                            "y": 1.2
+                        }
+                    ]
+                },
+                "out_云5": {
+                    "translate": [
+                        {
+                            "time": 0.4333,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.4333,
+                            "x": 844.51,
+                            "y": 2247.48
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.4333,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.4333,
+                            "x": 1.2,
+                            "y": 1.2
+                        }
+                    ]
+                },
+                "out_云6": {
+                    "translate": [
+                        {
+                            "time": 0.9,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.7,
+                            "x": 793.87,
+                            "y": 2156.33
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.9,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.7,
+                            "x": 1.2,
+                            "y": 1.2
+                        }
+                    ]
+                },
+                "out_云8": {
+                    "translate": [
+                        {
+                            "time": 2.3,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 6,
+                            "x": 844.51,
+                            "y": 2247.48
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 2.3,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 6,
+                            "x": 1.2,
+                            "y": 1.2
+                        }
+                    ]
+                },
+                "out_云9": {
+                    "translate": [
+                        {
+                            "time": 1.0667,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.0667,
+                            "x": 841.11,
+                            "y": 2675.92
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 1.0667,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.0667,
+                            "x": 1.2,
+                            "y": 1.2
+                        }
+                    ]
+                },
+                "out_云10": {
+                    "translate": [
+                        {
+                            "time": 1.0667,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.7333,
+                            "x": 1101.92,
+                            "y": 2442.38
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 1.0667,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.7333,
+                            "x": 1.2,
+                            "y": 1.2
+                        }
+                    ]
+                },
+                "out_云11": {
+                    "translate": [
+                        {
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.6,
+                            "x": 923.69,
+                            "y": 2275.33
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.6,
+                            "x": 1.2,
+                            "y": 1.2
+                        }
+                    ]
+                },
+                "out_云12": {
+                    "translate": [
+                        {
+                            "time": 1.3667,
+                            "curve": 0.243,
+                            "c3": 0.677,
+                            "c4": 0.71
+                        },
+                        {
+                            "time": 5.3667,
+                            "x": 869.83,
+                            "y": 2277.86
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 1.3667,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.3667,
+                            "x": 1.2,
+                            "y": 1.2
+                        }
+                    ]
+                },
+                "out_云play6": {
+                    "translate": [
+                        {
+                            "x": 731.7,
+                            "y": -92.68
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1071 @@
+{
+    "skeleton": {
+        "hash": "VoBj+K8sujv+teo/s6nHxl9A8Fk",
+        "spine": "3.8.99",
+        "x": -2293.26,
+        "y": -539,
+        "width": 3082.4,
+        "height": 1563.18
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 173.43,
+            "y": 565.81
+        },
+        {
+            "name": "bone2",
+            "parent": "root",
+            "x": -67.45,
+            "y": 584.44
+        },
+        {
+            "name": "bone3",
+            "parent": "root",
+            "x": -252.81,
+            "y": 445.84
+        },
+        {
+            "name": "bone4",
+            "parent": "root",
+            "x": 224.38,
+            "y": 514.38
+        },
+        {
+            "name": "bone5",
+            "parent": "root",
+            "rotation": 8.62,
+            "x": 266.78,
+            "y": 505.74
+        },
+        {
+            "name": "雷",
+            "parent": "root",
+            "x": -373.05,
+            "y": 542.45
+        },
+        {
+            "name": "拷贝",
+            "parent": "root",
+            "x": -962.18,
+            "y": 933.15
+        }
+    ],
+    "slots": [
+        {
+            "name": "lei1",
+            "bone": "bone",
+            "attachment": "lei_00000"
+        },
+        {
+            "name": "lei02",
+            "bone": "bone2",
+            "attachment": "leiII_00000"
+        },
+        {
+            "name": "lei03",
+            "bone": "bone3",
+            "attachment": "leiIII_00000"
+        },
+        {
+            "name": "lei4",
+            "bone": "bone4",
+            "attachment": "leiIIII_00000"
+        },
+        {
+            "name": "lei5",
+            "bone": "bone5",
+            "attachment": "leiIIIII_00000"
+        },
+        {
+            "name": "雷",
+            "bone": "雷",
+            "attachment": "雷"
+        },
+        {
+            "name": "雷 拷贝",
+            "bone": "拷贝",
+            "attachment": "雷 拷贝"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "lei1": {
+                    "lei_00000": {
+                        "x": 278.71,
+                        "y": -304.11,
+                        "width": 674,
+                        "height": 600
+                    },
+                    "lei_00001": {
+                        "x": 278.71,
+                        "y": -304.11,
+                        "width": 674,
+                        "height": 600
+                    },
+                    "lei_00002": {
+                        "x": 278.71,
+                        "y": -304.11,
+                        "width": 674,
+                        "height": 600
+                    },
+                    "lei_00003": {
+                        "x": 278.71,
+                        "y": -304.11,
+                        "width": 674,
+                        "height": 600
+                    },
+                    "lei_00004": {
+                        "x": 278.71,
+                        "y": -304.11,
+                        "width": 674,
+                        "height": 600
+                    }
+                },
+                "lei02": {
+                    "leiII_00000": {
+                        "x": -190.38,
+                        "y": -267.85,
+                        "width": 559,
+                        "height": 561
+                    },
+                    "leiII_00001": {
+                        "x": -190.38,
+                        "y": -267.85,
+                        "width": 559,
+                        "height": 561
+                    },
+                    "leiII_00002": {
+                        "x": -190.38,
+                        "y": -267.85,
+                        "width": 559,
+                        "height": 561
+                    },
+                    "leiII_00003": {
+                        "x": -190.38,
+                        "y": -267.85,
+                        "width": 559,
+                        "height": 561
+                    }
+                },
+                "lei03": {
+                    "leiIII_00000": {
+                        "x": -214.75,
+                        "y": -205.88,
+                        "width": 527,
+                        "height": 455
+                    },
+                    "leiIII_00001": {
+                        "x": -214.75,
+                        "y": -205.88,
+                        "width": 527,
+                        "height": 455
+                    },
+                    "leiIII_00002": {
+                        "x": -214.75,
+                        "y": -205.88,
+                        "width": 527,
+                        "height": 455
+                    },
+                    "leiIII_00003": {
+                        "x": -214.75,
+                        "y": -205.88,
+                        "width": 527,
+                        "height": 455
+                    },
+                    "leiIII_00004": {
+                        "x": -214.75,
+                        "y": -205.88,
+                        "width": 527,
+                        "height": 455
+                    }
+                },
+                "lei4": {
+                    "leiIIII_00000": {
+                        "x": 229.06,
+                        "y": -235.51,
+                        "width": 498,
+                        "height": 482
+                    },
+                    "leiIIII_00001": {
+                        "x": 229.06,
+                        "y": -235.51,
+                        "width": 498,
+                        "height": 482
+                    },
+                    "leiIIII_00002": {
+                        "x": 229.06,
+                        "y": -235.51,
+                        "width": 498,
+                        "height": 482
+                    },
+                    "leiIIII_00003": {
+                        "x": 229.06,
+                        "y": -235.51,
+                        "width": 498,
+                        "height": 482
+                    },
+                    "leiIIII_00004": {
+                        "x": 229.06,
+                        "y": -235.51,
+                        "width": 498,
+                        "height": 482
+                    }
+                },
+                "lei5": {
+                    "leiIIIII_00000": {
+                        "x": 98.17,
+                        "y": -323.53,
+                        "width": 398,
+                        "height": 622
+                    },
+                    "leiIIIII_00001": {
+                        "x": 98.17,
+                        "y": -323.53,
+                        "width": 398,
+                        "height": 622
+                    },
+                    "leiIIIII_00002": {
+                        "x": 98.17,
+                        "y": -323.53,
+                        "width": 398,
+                        "height": 622
+                    },
+                    "leiIIIII_00003": {
+                        "x": 98.17,
+                        "y": -323.53,
+                        "width": 398,
+                        "height": 622
+                    },
+                    "leiIIIII_00004": {
+                        "x": 98.17,
+                        "y": -323.53,
+                        "width": 398,
+                        "height": 622
+                    }
+                },
+                "雷": {
+                    "雷": {
+                        "x": -363.07,
+                        "y": -542.95,
+                        "width": 720,
+                        "height": 1077
+                    }
+                },
+                "雷 拷贝": {
+                    "雷 拷贝": {
+                        "x": -594.07,
+                        "y": -583.48,
+                        "width": 1474,
+                        "height": 1349
+                    }
+                }
+            }
+        }
+    ],
+    "events": {
+        "light": {}
+    },
+    "animations": {
+        "animation": {
+            "slots": {
+                "lei1": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.1333,
+                            "name": "lei_00002"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "lei_00004"
+                        }
+                    ]
+                },
+                "lei02": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffff",
+                            "curve": 0.265,
+                            "c3": 0.618,
+                            "c4": 0.43
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.6,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.7,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.8333,
+                            "color": "ffffffff",
+                            "curve": 0.265,
+                            "c3": 0.618,
+                            "c4": 0.43
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.2,
+                            "name": "leiII_00001"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "leiII_00002"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "leiII_00003"
+                        },
+                        {
+                            "time": 4.6,
+                            "name": "leiII_00000"
+                        },
+                        {
+                            "time": 4.7333,
+                            "name": "leiII_00001"
+                        },
+                        {
+                            "time": 4.7667,
+                            "name": "leiII_00002"
+                        },
+                        {
+                            "time": 4.8333,
+                            "name": "leiII_00003"
+                        }
+                    ]
+                },
+                "lei03": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.8,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.9333,
+                            "color": "ffffffff",
+                            "curve": 0.382,
+                            "c2": 0.57,
+                            "c3": 0.735
+                        },
+                        {
+                            "time": 3.1,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.0667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.1667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.3,
+                            "color": "ffffffff",
+                            "curve": 0.382,
+                            "c2": 0.57,
+                            "c3": 0.735
+                        },
+                        {
+                            "time": 5.4667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 2.8333,
+                            "name": "leiIII_00001"
+                        },
+                        {
+                            "time": 2.8667,
+                            "name": "leiIII_00002"
+                        },
+                        {
+                            "time": 2.9,
+                            "name": "leiIII_00003"
+                        },
+                        {
+                            "time": 2.9333,
+                            "name": "leiIII_00004"
+                        },
+                        {
+                            "time": 5.0667,
+                            "name": "leiIII_00000"
+                        },
+                        {
+                            "time": 5.2,
+                            "name": "leiIII_00001"
+                        },
+                        {
+                            "time": 5.2333,
+                            "name": "leiIII_00002"
+                        },
+                        {
+                            "time": 5.2667,
+                            "name": "leiIII_00003"
+                        },
+                        {
+                            "time": 5.3,
+                            "name": "leiIII_00004"
+                        }
+                    ]
+                },
+                "lei4": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.1,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.3,
+                            "color": "ffffffff",
+                            "curve": 0.382,
+                            "c2": 0.57,
+                            "c3": 0.735
+                        },
+                        {
+                            "time": 3.4333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.4333,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.5333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.7333,
+                            "color": "ffffffff",
+                            "curve": 0.382,
+                            "c2": 0.57,
+                            "c3": 0.735
+                        },
+                        {
+                            "time": 5.8667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 3.1667,
+                            "name": "leiIIII_00001"
+                        },
+                        {
+                            "time": 3.2,
+                            "name": "leiIIII_00002"
+                        },
+                        {
+                            "time": 3.2667,
+                            "name": "leiIIII_00003"
+                        },
+                        {
+                            "time": 3.3,
+                            "name": "leiIIII_00004"
+                        },
+                        {
+                            "time": 5.4333,
+                            "name": "leiIIII_00000"
+                        },
+                        {
+                            "time": 5.6,
+                            "name": "leiIIII_00001"
+                        },
+                        {
+                            "time": 5.6333,
+                            "name": "leiIIII_00002"
+                        },
+                        {
+                            "time": 5.7,
+                            "name": "leiIIII_00003"
+                        },
+                        {
+                            "time": 5.7333,
+                            "name": "leiIIII_00004"
+                        }
+                    ]
+                },
+                "lei5": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.6333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8333,
+                            "color": "ffffffff",
+                            "curve": 0.382,
+                            "c2": 0.57,
+                            "c3": 0.735
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.8667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.9667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.1667,
+                            "color": "ffffffff",
+                            "curve": 0.382,
+                            "c2": 0.57,
+                            "c3": 0.735
+                        },
+                        {
+                            "time": 5.3333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 2.7,
+                            "name": "leiIIIII_00001"
+                        },
+                        {
+                            "time": 2.7333,
+                            "name": "leiIIIII_00002"
+                        },
+                        {
+                            "time": 2.7667,
+                            "name": "leiIIIII_00003"
+                        },
+                        {
+                            "time": 2.8333,
+                            "name": "leiIIIII_00004"
+                        },
+                        {
+                            "time": 4.8667,
+                            "name": "leiIIIII_00000"
+                        },
+                        {
+                            "time": 5.0333,
+                            "name": "leiIIIII_00001"
+                        },
+                        {
+                            "time": 5.0667,
+                            "name": "leiIIIII_00002"
+                        },
+                        {
+                            "time": 5.1,
+                            "name": "leiIIIII_00003"
+                        },
+                        {
+                            "time": 5.1667,
+                            "name": "leiIIIII_00004"
+                        }
+                    ]
+                },
+                "雷": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff",
+                            "curve": 0.724,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.4667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.0667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.2,
+                            "color": "ffffffff",
+                            "curve": 0.724,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.1667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "雷 拷贝": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.9,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9333,
+                            "color": "ffffffff",
+                            "curve": 0.724,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.9,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.4667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.5667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6,
+                            "color": "ffffffff",
+                            "curve": 0.724,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.5667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "雷": {
+                    "rotate": [
+                        {
+                            "angle": 1.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "angle": 1.18,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4667
+                        },
+                        {
+                            "time": 4.0667,
+                            "angle": 1.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1667,
+                            "angle": 1.18,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.1667
+                        },
+                        {
+                            "time": 7,
+                            "angle": 1.18
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.468,
+                            "y": 0.21,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 0.468,
+                            "y": 0.21,
+                            "curve": 0.243,
+                            "c3": 0.649,
+                            "c4": 0.6
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4667
+                        },
+                        {
+                            "time": 4.0667,
+                            "x": 0.468,
+                            "y": 0.21,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1667,
+                            "x": 0.468,
+                            "y": 0.21,
+                            "curve": 0.243,
+                            "c3": 0.649,
+                            "c4": 0.6
+                        },
+                        {
+                            "time": 4.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.1667
+                        },
+                        {
+                            "time": 7,
+                            "x": 0.468,
+                            "y": 0.21
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "x": 36.96,
+                            "y": -28.44,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 36.96,
+                            "y": -28.44,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4667
+                        },
+                        {
+                            "time": 4.0667,
+                            "x": 36.96,
+                            "y": -28.44,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1667,
+                            "x": 36.96,
+                            "y": -28.44,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.1667
+                        },
+                        {
+                            "time": 7,
+                            "x": 36.96,
+                            "y": -28.44
+                        }
+                    ]
+                },
+                "拷贝": {
+                    "rotate": [
+                        {
+                            "angle": 1.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9,
+                            "angle": 1.18,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.9333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9
+                        },
+                        {
+                            "time": 3.4667,
+                            "angle": 1.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.5667,
+                            "angle": 1.18,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.6,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.5667
+                        },
+                        {
+                            "time": 7,
+                            "angle": 1.18
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.468,
+                            "y": 0.21,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9,
+                            "x": 0.468,
+                            "y": 0.21,
+                            "curve": 0.243,
+                            "c3": 0.649,
+                            "c4": 0.6
+                        },
+                        {
+                            "time": 0.9333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9
+                        },
+                        {
+                            "time": 3.4667,
+                            "x": 0.468,
+                            "y": 0.21,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.5667,
+                            "x": 0.468,
+                            "y": 0.21,
+                            "curve": 0.243,
+                            "c3": 0.649,
+                            "c4": 0.6
+                        },
+                        {
+                            "time": 3.6,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.5667
+                        },
+                        {
+                            "time": 7,
+                            "x": 0.468,
+                            "y": 0.21
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "x": 36.96,
+                            "y": -28.44,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9,
+                            "x": 36.96,
+                            "y": -28.44,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.9333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9
+                        },
+                        {
+                            "time": 3.4667,
+                            "x": 36.96,
+                            "y": -28.44,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.5667,
+                            "x": 36.96,
+                            "y": -28.44,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.6,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.5667
+                        },
+                        {
+                            "time": 7,
+                            "x": 36.96,
+                            "y": -28.44
+                        }
+                    ]
+                }
+            },
+            "events": [
+                {
+                    "time": 0.1333,
+                    "name": "light"
+                },
+                {
+                    "time": 2.7333,
+                    "name": "light"
+                },
+                {
+                    "time": 3.1667,
+                    "name": "light"
+                },
+                {
+                    "time": 4.7667,
+                    "name": "light"
+                },
+                {
+                    "time": 5.5333,
+                    "name": "light"
+                }
+            ]
+        }
+    }
+}

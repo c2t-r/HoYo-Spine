@@ -1,0 +1,120 @@
+{
+    "skeleton": {
+        "hash": "NecnGW253Y0",
+        "spine": "4.0.33",
+        "x": -818.04,
+        "y": -433.03,
+        "width": 702,
+        "height": 452
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "灯笼光",
+            "bone": "root",
+            "attachment": "灯笼光"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "灯笼光": {
+                    "灯笼光": {
+                        "x": -467.04,
+                        "y": -207.03,
+                        "width": 702,
+                        "height": 452
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "turned_off_light": {
+            "slots": {
+                "灯笼光": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "turn_on_the_light": {
+            "slots": {
+                "灯笼光": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "turn_on_the_light_loop": {
+            "slots": {
+                "灯笼光": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": [
+                                0.222,
+                                1,
+                                0.444,
+                                1,
+                                0.222,
+                                1,
+                                0.444,
+                                1,
+                                0.222,
+                                1,
+                                0.444,
+                                1,
+                                0.222,
+                                1,
+                                0.444,
+                                0.86
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffdc",
+                            "curve": [
+                                0.889,
+                                1,
+                                1.111,
+                                1,
+                                0.889,
+                                1,
+                                1.111,
+                                1,
+                                0.889,
+                                1,
+                                1.111,
+                                1,
+                                0.889,
+                                0.86,
+                                1.111,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

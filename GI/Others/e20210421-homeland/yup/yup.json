@@ -1,0 +1,1535 @@
+{
+    "skeleton": {
+        "hash": "DTE8u+rUzYdd6HCr2CA1v7jlih4",
+        "spine": "3.8.99",
+        "x": -318.28,
+        "y": -350.12,
+        "width": 644,
+        "height": 571.92
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "all",
+            "parent": "root",
+            "x": 8.29,
+            "y": -300.85
+        },
+        {
+            "name": "bone4",
+            "parent": "all",
+            "x": -4.53,
+            "y": 366.41
+        },
+        {
+            "name": "qi1",
+            "parent": "bone4",
+            "length": 32.31,
+            "rotation": 90.81,
+            "x": 13.22,
+            "y": 52.38
+        },
+        {
+            "name": "qi2",
+            "parent": "bone4",
+            "length": 117.62,
+            "rotation": 89.53,
+            "x": -54.01,
+            "y": 41.01,
+            "scaleY": -1.0558
+        },
+        {
+            "name": "qi4",
+            "parent": "bone4",
+            "length": 117.62,
+            "rotation": 89.53,
+            "x": 54.01,
+            "y": 36.73
+        },
+        {
+            "name": "qi5",
+            "parent": "bone4",
+            "length": 32.31,
+            "rotation": 90.81,
+            "x": -41.36,
+            "y": 51.76
+        },
+        {
+            "name": "qi6",
+            "parent": "bone4",
+            "length": 117.62,
+            "rotation": 89.53,
+            "x": 54.01,
+            "y": 36.73
+        },
+        {
+            "name": "all2",
+            "parent": "all",
+            "x": 94.91,
+            "y": 406.01
+        },
+        {
+            "name": "all3",
+            "parent": "all",
+            "x": -8.4,
+            "y": 387.57
+        },
+        {
+            "name": "all4",
+            "parent": "all",
+            "x": -86.42,
+            "y": 387.57,
+            "scaleX": -1
+        },
+        {
+            "name": "all5",
+            "parent": "all",
+            "x": -8.4,
+            "y": 387.57
+        }
+    ],
+    "slots": [
+        {
+            "name": "阴影浴盆",
+            "bone": "all",
+            "attachment": "阴影浴盆"
+        },
+        {
+            "name": "垫高用的石头（后",
+            "bone": "all",
+            "attachment": "垫高用的石头（后"
+        },
+        {
+            "name": "锅后",
+            "bone": "all",
+            "attachment": "锅后"
+        },
+        {
+            "name": "水",
+            "bone": "all",
+            "attachment": "水"
+        },
+        {
+            "name": "锅前",
+            "bone": "all",
+            "attachment": "锅前"
+        },
+        {
+            "name": "洗浴罐",
+            "bone": "all",
+            "attachment": "洗浴罐"
+        },
+        {
+            "name": "火酱",
+            "bone": "all2",
+            "attachment": "火酱"
+        },
+        {
+            "name": "小黄鸭",
+            "bone": "all",
+            "attachment": "小黄鸭"
+        },
+        {
+            "name": "气5",
+            "bone": "qi2",
+            "attachment": "气01"
+        },
+        {
+            "name": "气6",
+            "bone": "qi4",
+            "attachment": "气01"
+        },
+        {
+            "name": "气8",
+            "bone": "qi6",
+            "attachment": "气01"
+        },
+        {
+            "name": "气4",
+            "bone": "qi1",
+            "attachment": "气02"
+        },
+        {
+            "name": "气7",
+            "bone": "qi5",
+            "attachment": "气02"
+        },
+        {
+            "name": "水雾",
+            "bone": "all3",
+            "attachment": "水雾"
+        },
+        {
+            "name": "水雾2",
+            "bone": "all4",
+            "attachment": "水雾"
+        },
+        {
+            "name": "水雾3",
+            "bone": "all5",
+            "attachment": "水雾"
+        },
+        {
+            "name": "垫高用的石头",
+            "bone": "all",
+            "attachment": "垫高用的石头"
+        },
+        {
+            "name": "火光",
+            "bone": "all",
+            "attachment": "火光"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "垫高用的石头": {
+                    "垫高用的石头": {
+                        "x": -9.35,
+                        "y": 68.65,
+                        "width": 531,
+                        "height": 116
+                    }
+                },
+                "垫高用的石头（后": {
+                    "垫高用的石头（后": {
+                        "x": -11.35,
+                        "y": 111.65,
+                        "width": 507,
+                        "height": 62
+                    }
+                },
+                "小黄鸭": {
+                    "小黄鸭": {
+                        "x": 118.65,
+                        "y": 432.65,
+                        "width": 85,
+                        "height": 82
+                    }
+                },
+                "气4": {
+                    "气02": {
+                        "x": 8.04,
+                        "y": -0.89,
+                        "rotation": -90.81,
+                        "width": 64,
+                        "height": 37
+                    }
+                },
+                "气5": {
+                    "气01": {
+                        "x": 30.88,
+                        "y": -3.71,
+                        "rotation": -89.53,
+                        "width": 252,
+                        "height": 126
+                    }
+                },
+                "气6": {
+                    "气01": {
+                        "x": 30.88,
+                        "y": -3.71,
+                        "rotation": -89.53,
+                        "width": 252,
+                        "height": 126
+                    }
+                },
+                "气7": {
+                    "气02": {
+                        "x": 8.04,
+                        "y": -0.89,
+                        "rotation": -90.81,
+                        "width": 64,
+                        "height": 37
+                    }
+                },
+                "气8": {
+                    "气01": {
+                        "x": 30.88,
+                        "y": -3.71,
+                        "rotation": -89.53,
+                        "width": 252,
+                        "height": 126
+                    }
+                },
+                "水": {
+                    "水": {
+                        "x": -8.85,
+                        "y": 332.65,
+                        "width": 360,
+                        "height": 140
+                    }
+                },
+                "水雾": {
+                    "水雾": {
+                        "x": -38.45,
+                        "y": 4.08,
+                        "width": 370,
+                        "height": 202
+                    }
+                },
+                "水雾2": {
+                    "水雾": {
+                        "x": -38.45,
+                        "y": 4.08,
+                        "width": 370,
+                        "height": 202
+                    }
+                },
+                "水雾3": {
+                    "水雾": {
+                        "x": -38.45,
+                        "y": 4.08,
+                        "width": 370,
+                        "height": 202
+                    }
+                },
+                "洗浴罐": {
+                    "洗浴罐": {
+                        "x": 48.65,
+                        "y": 468.65,
+                        "width": 41,
+                        "height": 60
+                    }
+                },
+                "火光": {
+                    "火光": {
+                        "color": "ffffffb9",
+                        "x": -4.57,
+                        "y": 104.73,
+                        "width": 644,
+                        "height": 308
+                    }
+                },
+                "火酱": {
+                    "火酱": {
+                        "x": 4.24,
+                        "y": 21.64,
+                        "width": 80,
+                        "height": 62
+                    }
+                },
+                "锅前": {
+                    "锅前": {
+                        "x": -8.35,
+                        "y": 288.15,
+                        "width": 565,
+                        "height": 469
+                    }
+                },
+                "锅后": {
+                    "锅后": {
+                        "x": 16.65,
+                        "y": 328.15,
+                        "width": 459,
+                        "height": 237
+                    }
+                },
+                "阴影浴盆": {
+                    "阴影浴盆": {
+                        "x": -8.85,
+                        "y": 56.65,
+                        "width": 572,
+                        "height": 126
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "气4": {
+                    "color": [
+                        {
+                            "color": "ffffffd2",
+                            "curve": 0.379,
+                            "c2": 0.6,
+                            "c3": 0.723
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.2333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.8,
+                            "color": "ffffff00",
+                            "curve": 0.242,
+                            "c3": 0.669,
+                            "c4": 0.67
+                        },
+                        {
+                            "time": 5.5333,
+                            "color": "ffffffd2"
+                        }
+                    ]
+                },
+                "气5": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.5667,
+                            "color": "ffffffff",
+                            "curve": 0.243,
+                            "c3": 0.682,
+                            "c4": 0.72
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffff1f",
+                            "curve": 0.374,
+                            "c2": 0.62,
+                            "c3": 0.715
+                        },
+                        {
+                            "time": 4.3,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "气6": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.4333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.8333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "气7": {
+                    "color": [
+                        {
+                            "color": "ffffff1c",
+                            "curve": 0.373,
+                            "c2": 0.62,
+                            "c3": 0.713
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.3667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffffff",
+                            "curve": 0.243,
+                            "c3": 0.684,
+                            "c4": 0.73
+                        },
+                        {
+                            "time": 5.5333,
+                            "color": "ffffff1c"
+                        }
+                    ]
+                },
+                "气8": {
+                    "color": [
+                        {
+                            "color": "ffffff4f",
+                            "curve": 0.382,
+                            "c2": 0.56,
+                            "c3": 0.738
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.2,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.6333,
+                            "color": "ffffffff",
+                            "curve": 0.244,
+                            "c3": 0.644,
+                            "c4": 0.58
+                        },
+                        {
+                            "time": 5.5333,
+                            "color": "ffffff4f"
+                        }
+                    ]
+                },
+                "水雾": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.0667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.4667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "水雾2": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.3333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.7667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "水雾3": {
+                    "color": [
+                        {
+                            "color": "ffffffa6",
+                            "curve": 0.36,
+                            "c2": 0.43,
+                            "c3": 0.755
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.7667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.2,
+                            "color": "ffffffff",
+                            "curve": 0.259,
+                            "c3": 0.618,
+                            "c4": 0.45
+                        },
+                        {
+                            "time": 5.5333,
+                            "color": "ffffffa6"
+                        }
+                    ]
+                },
+                "火光": {
+                    "color": [
+                        {
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.9333,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.1,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.1333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.2333,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.4,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.4667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.6,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.7,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.7667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.9,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.9333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.0667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.1333,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.2,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.2333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.3,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.3667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.4667,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.5,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.6333,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.7667,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.8333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.9333,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.0667,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.1667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.2333,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.3,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.3667,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.4333,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.4667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.5333,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.6,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.7,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.7333,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.7667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.8667,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.9,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.0333,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.0667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.2,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.3,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.3667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.4667,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.5333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.6333,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.6667,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.7,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.8,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.8333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.9333,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.9667,
+                            "color": "ffffffe5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.1,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.1333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.2333,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.3,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.4,
+                            "color": "ffffffa5",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.4667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.5333,
+                            "color": "ffffffa5"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "qi1": {
+                    "translate": [
+                        {
+                            "y": -67.13,
+                            "curve": 0.358,
+                            "c2": 0.43,
+                            "c3": 0.756
+                        },
+                        {
+                            "time": 1.2333,
+                            "y": 5.27
+                        },
+                        {
+                            "time": 1.2667,
+                            "y": -103.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.8,
+                            "y": -103.29,
+                            "curve": 0.26,
+                            "c3": 0.618,
+                            "c4": 0.44
+                        },
+                        {
+                            "time": 5.5333,
+                            "y": -67.13
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.166,
+                            "y": 1.166
+                        },
+                        {
+                            "time": 1.2333,
+                            "x": 1.444,
+                            "y": 1.444
+                        },
+                        {
+                            "time": 1.2667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.8
+                        },
+                        {
+                            "time": 5.5333,
+                            "x": 1.166,
+                            "y": 1.166
+                        }
+                    ]
+                },
+                "qi2": {
+                    "translate": [
+                        {
+                            "y": -89.21,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2667,
+                            "y": -89.21,
+                            "curve": 0.245,
+                            "c3": 0.707,
+                            "c4": 0.82
+                        },
+                        {
+                            "time": 3.9667,
+                            "x": -10.72,
+                            "y": 21.48,
+                            "curve": 0.362,
+                            "c2": 0.64,
+                            "c3": 0.697
+                        },
+                        {
+                            "time": 4.3,
+                            "x": -11.3,
+                            "y": 27.38
+                        },
+                        {
+                            "time": 4.3333,
+                            "y": -89.21
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.575,
+                            "y": 0.575,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2667,
+                            "x": 0.575,
+                            "y": 0.575,
+                            "curve": 0.245,
+                            "c3": 0.707,
+                            "c4": 0.82
+                        },
+                        {
+                            "time": 3.9667,
+                            "x": 0.979,
+                            "y": 0.979,
+                            "curve": 0.362,
+                            "c2": 0.64,
+                            "c3": 0.697
+                        },
+                        {
+                            "time": 4.3
+                        },
+                        {
+                            "time": 4.3333,
+                            "x": 0.575,
+                            "y": 0.575
+                        }
+                    ]
+                },
+                "qi4": {
+                    "translate": [
+                        {
+                            "y": -89.21,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.8333,
+                            "x": 9.44,
+                            "y": 27.38
+                        },
+                        {
+                            "time": 2.9,
+                            "y": -89.21
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.575,
+                            "y": 0.575,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.8333,
+                            "x": 1.015,
+                            "y": 1.015
+                        },
+                        {
+                            "time": 2.9,
+                            "x": 0.575,
+                            "y": 0.575
+                        }
+                    ]
+                },
+                "qi5": {
+                    "translate": [
+                        {
+                            "y": -0.48,
+                            "curve": 0.362,
+                            "c2": 0.64,
+                            "c3": 0.698
+                        },
+                        {
+                            "time": 0.5,
+                            "y": 5.27
+                        },
+                        {
+                            "time": 0.5333,
+                            "y": -103.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.3667,
+                            "y": -103.29,
+                            "curve": 0.245,
+                            "c3": 0.706,
+                            "c4": 0.82
+                        },
+                        {
+                            "time": 5.5333,
+                            "y": -0.48
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.343,
+                            "y": 1.343
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 1.444,
+                            "y": 1.444
+                        },
+                        {
+                            "time": 0.5333
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 0.543,
+                            "y": 0.543,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.3667,
+                            "x": 0.543,
+                            "y": 0.543
+                        },
+                        {
+                            "time": 5.5333,
+                            "x": 1.343,
+                            "y": 1.343
+                        }
+                    ]
+                },
+                "qi6": {
+                    "translate": [
+                        {
+                            "x": 8.45,
+                            "y": 15.19,
+                            "curve": 0.372,
+                            "c2": 0.62,
+                            "c3": 0.712
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 9.44,
+                            "y": 27.38
+                        },
+                        {
+                            "time": 0.5667,
+                            "y": -89.21,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.2,
+                            "y": -89.21,
+                            "curve": 0.243,
+                            "c3": 0.686,
+                            "c4": 0.74
+                        },
+                        {
+                            "time": 5.5333,
+                            "x": 8.45,
+                            "y": 15.19
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.956,
+                            "y": 0.956,
+                            "curve": 0.372,
+                            "c2": 0.62,
+                            "c3": 0.712
+                        },
+                        {
+                            "time": 0.5
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 0.575,
+                            "y": 0.575,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.2,
+                            "x": 0.575,
+                            "y": 0.575,
+                            "curve": 0.243,
+                            "c3": 0.686,
+                            "c4": 0.74
+                        },
+                        {
+                            "time": 5.5333,
+                            "x": 0.956,
+                            "y": 0.956
+                        }
+                    ]
+                },
+                "bone4": {
+                    "translate": [
+                        {
+                            "x": -57.49,
+                            "y": 82.3
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": -1.382,
+                            "y": 1.382
+                        }
+                    ]
+                },
+                "all2": {
+                    "scale": [
+                        {
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.3667,
+                            "y": 0.986,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.7667,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.1333,
+                            "y": 0.986,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5.5333
+                        }
+                    ]
+                },
+                "all3": {
+                    "translate": [
+                        {
+                            "curve": 0.25
+                        },
+                        {
+                            "time": 2.4667,
+                            "y": 30.71
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.837,
+                            "y": 0.837,
+                            "curve": 0.25,
+                            "c3": 0.543
+                        },
+                        {
+                            "time": 2.4667,
+                            "x": 1.087,
+                            "y": 1.087
+                        }
+                    ]
+                },
+                "all4": {
+                    "translate": [
+                        {
+                            "time": 2,
+                            "curve": 0.25
+                        },
+                        {
+                            "time": 4.7667,
+                            "y": 19.45
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.837,
+                            "y": 0.837,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0.837,
+                            "y": 0.837,
+                            "curve": 0.25,
+                            "c3": 0.543
+                        },
+                        {
+                            "time": 4.7667,
+                            "x": 1.182,
+                            "y": 1.182
+                        }
+                    ]
+                },
+                "all5": {
+                    "scale": [
+                        {
+                            "x": 1.065,
+                            "y": 1.065,
+                            "curve": 0.307,
+                            "c2": 0.61,
+                            "c3": 0.638
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 1.087,
+                            "y": 1.087
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 0.837,
+                            "y": 0.837,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.7667,
+                            "x": 0.837,
+                            "y": 0.837,
+                            "curve": 0.272,
+                            "c3": 0.579,
+                            "c4": 0.68
+                        },
+                        {
+                            "time": 5.5333,
+                            "x": 1.065,
+                            "y": 1.065
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "offsets": [
+                        {
+                            "slot": "气6",
+                            "offset": -5
+                        },
+                        {
+                            "slot": "气8",
+                            "offset": -5
+                        }
+                    ]
+                },
+                {
+                    "time": 4.8,
+                    "offsets": [
+                        {
+                            "slot": "气6",
+                            "offset": -4
+                        },
+                        {
+                            "slot": "气8",
+                            "offset": -6
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "skeleton": {
+        "hash": "rIde9YkjfrY",
+        "spine": "4.0.33",
+        "x": -474.55,
+        "y": -623.09,
+        "width": 993.3,
+        "height": 1501.08
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "环光点13",
+            "parent": "root",
+            "x": -8.74,
+            "y": -605.13,
+            "scaleX": 0.14,
+            "scaleY": 0.14
+        }
+    ],
+    "slots": [
+        {
+            "name": "背景",
+            "bone": "环光点13",
+            "attachment": "背景"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "背景": {
+                    "背景": {
+                        "x": 220.24,
+                        "y": 5232.71,
+                        "width": 7095,
+                        "height": 10722
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

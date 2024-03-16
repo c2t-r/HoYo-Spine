@@ -1,0 +1,479 @@
+{
+    "skeleton": {
+        "hash": "oxAVof3yw+o",
+        "spine": "4.0.33",
+        "x": -1250.86,
+        "y": -653.71,
+        "width": 2501.71,
+        "height": 1317.75
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "all",
+            "parent": "root",
+            "x": 19.27,
+            "y": 5.17,
+            "scaleX": 0.92,
+            "scaleY": 0.92
+        },
+        {
+            "name": "BG",
+            "parent": "all",
+            "scaleX": 10.9281,
+            "scaleY": 10.9281
+        },
+        {
+            "name": "门槛",
+            "parent": "all",
+            "y": -608.97
+        },
+        {
+            "name": "房梁",
+            "parent": "all",
+            "y": 624.49
+        },
+        {
+            "name": "R_DOOR",
+            "parent": "all",
+            "x": 100
+        },
+        {
+            "name": "L_DOOR",
+            "parent": "all",
+            "x": -100
+        },
+        {
+            "name": "L_暗角_small",
+            "parent": "all",
+            "x": -863.95,
+            "y": -5.62,
+            "scaleX": 4.3597,
+            "scaleY": 4.3597
+        },
+        {
+            "name": "R_暗角_small2",
+            "parent": "all",
+            "x": 822.06,
+            "y": -5.62,
+            "scaleX": 4.3597,
+            "scaleY": 4.3597
+        }
+    ],
+    "slots": [
+        {
+            "name": "touming 拷贝2",
+            "bone": "L_DOOR",
+            "color": "160a06ff",
+            "attachment": "touming 拷贝"
+        },
+        {
+            "name": "touming 拷贝5",
+            "bone": "R_DOOR",
+            "color": "160a06ff",
+            "attachment": "touming 拷贝"
+        },
+        {
+            "name": "touming 拷贝",
+            "bone": "L_DOOR",
+            "attachment": "touming 拷贝"
+        },
+        {
+            "name": "touming 拷贝4",
+            "bone": "R_DOOR",
+            "attachment": "touming 拷贝"
+        },
+        {
+            "name": "门槛",
+            "bone": "门槛",
+            "attachment": "门槛"
+        },
+        {
+            "name": "门槛2",
+            "bone": "门槛",
+            "attachment": "门槛"
+        },
+        {
+            "name": "房梁",
+            "bone": "房梁",
+            "attachment": "房梁"
+        },
+        {
+            "name": "房梁2",
+            "bone": "房梁",
+            "attachment": "房梁"
+        },
+        {
+            "name": "door",
+            "bone": "L_DOOR",
+            "attachment": "door"
+        },
+        {
+            "name": "door2",
+            "bone": "R_DOOR",
+            "attachment": "door"
+        },
+        {
+            "name": "暗角_small",
+            "bone": "L_暗角_small",
+            "attachment": "暗角_small"
+        },
+        {
+            "name": "暗角_small2",
+            "bone": "R_暗角_small2",
+            "attachment": "暗角_small"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "door": {
+                    "door": {
+                        "x": -525,
+                        "y": -17.5,
+                        "width": 1252,
+                        "height": 1232
+                    }
+                },
+                "door2": {
+                    "door": {
+                        "x": 524.63,
+                        "y": -17.5,
+                        "scaleX": -1,
+                        "width": 1252,
+                        "height": 1232
+                    }
+                },
+                "touming 拷贝": {
+                    "touming 拷贝": {
+                        "x": -534.7,
+                        "scaleX": 4.9916,
+                        "scaleY": 9.2563,
+                        "width": 252,
+                        "height": 127
+                    }
+                },
+                "touming 拷贝2": {
+                    "touming 拷贝": {
+                        "x": -551.38,
+                        "scaleX": 4.9916,
+                        "scaleY": 11.2783,
+                        "width": 252,
+                        "height": 127
+                    }
+                },
+                "touming 拷贝4": {
+                    "touming 拷贝": {
+                        "x": 562.02,
+                        "scaleX": 4.9916,
+                        "scaleY": 9.2563,
+                        "width": 252,
+                        "height": 127
+                    }
+                },
+                "touming 拷贝5": {
+                    "touming 拷贝": {
+                        "x": 550.41,
+                        "scaleX": 4.9916,
+                        "scaleY": 11.2783,
+                        "width": 252,
+                        "height": 127
+                    }
+                },
+                "房梁": {
+                    "房梁": {
+                        "x": -625,
+                        "y": -42.49,
+                        "width": 1252,
+                        "height": 107
+                    }
+                },
+                "房梁2": {
+                    "房梁": {
+                        "x": 624.63,
+                        "y": -42.49,
+                        "scaleX": -1,
+                        "width": 1252,
+                        "height": 107
+                    }
+                },
+                "暗角_small": {
+                    "暗角_small": {
+                        "width": 237,
+                        "height": 270
+                    }
+                },
+                "暗角_small2": {
+                    "暗角_small": {
+                        "scaleX": -1,
+                        "width": 237,
+                        "height": 270
+                    }
+                },
+                "门槛": {
+                    "门槛": {
+                        "x": -625,
+                        "y": 20.47,
+                        "width": 1252,
+                        "height": 90
+                    }
+                },
+                "门槛2": {
+                    "门槛": {
+                        "x": 624.63,
+                        "y": 20.47,
+                        "scaleX": -1,
+                        "width": 1252,
+                        "height": 90
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "door_in": {
+            "slots": {
+                "暗角_small": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "暗角_small2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "R_DOOR": {
+                    "translatex": [
+                        {
+                            "value": 1340,
+                            "curve": [
+                                0.072,
+                                1293.35,
+                                0.267,
+                                442.2
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "curve": [
+                                0.36,
+                                2.64,
+                                0.44,
+                                8
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": 8,
+                            "curve": [
+                                0.511,
+                                8,
+                                0.573,
+                                2.64
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "curve": [
+                                0.627,
+                                0.99,
+                                0.689,
+                                3
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "value": 3,
+                            "curve": [
+                                0.778,
+                                3,
+                                0.84,
+                                0.99
+                            ]
+                        },
+                        {
+                            "time": 0.8667
+                        }
+                    ]
+                },
+                "L_DOOR": {
+                    "translatex": [
+                        {
+                            "value": -1383.05,
+                            "curve": [
+                                0.069,
+                                -1375.32,
+                                0.267,
+                                -456.41
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "curve": [
+                                0.36,
+                                -2.64,
+                                0.44,
+                                -8
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": -8,
+                            "curve": [
+                                0.511,
+                                -8,
+                                0.573,
+                                -2.64
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "curve": [
+                                0.627,
+                                -0.99,
+                                0.689,
+                                -3
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "value": -3,
+                            "curve": [
+                                0.778,
+                                -3,
+                                0.84,
+                                -0.99
+                            ]
+                        },
+                        {
+                            "time": 0.8667
+                        }
+                    ]
+                },
+                "all": {
+                    "scale": [
+                        {
+                            "x": 1.311,
+                            "y": 1.311,
+                            "curve": [
+                                0.067,
+                                1.209,
+                                0.159,
+                                1,
+                                0.067,
+                                1.209,
+                                0.159,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                }
+            }
+        },
+        "door_loop": {},
+        "door_out": {
+            "slots": {
+                "暗角_small": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "暗角_small2": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "R_DOOR": {
+                    "translatex": [
+                        {
+                            "curve": [
+                                0.111,
+                                0,
+                                0.267,
+                                897.8
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 1340
+                        }
+                    ]
+                },
+                "L_DOOR": {
+                    "translatex": [
+                        {
+                            "curve": [
+                                0.111,
+                                0,
+                                0.267,
+                                -926.64
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -1383.05
+                        }
+                    ]
+                },
+                "all": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.111,
+                                1,
+                                0.267,
+                                1.209,
+                                0.111,
+                                1,
+                                0.267,
+                                1.209
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 1.311,
+                            "y": 1.311
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,369 @@
+{
+    "skeleton": {
+        "hash": "oPhVvsd4phy8E6J8XtvOfq4YMNc",
+        "spine": "3.8.99",
+        "x": -552,
+        "y": -478,
+        "width": 605,
+        "height": 941
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -960,
+            "y": 540
+        },
+        {
+            "name": "bone5",
+            "parent": "root",
+            "x": 360,
+            "y": -540
+        },
+        {
+            "name": "武器页_剑",
+            "parent": "bone5",
+            "length": 401.93,
+            "rotation": -120.57,
+            "x": 413.74,
+            "y": 102.79
+        }
+    ],
+    "slots": [
+        {
+            "name": "武器页_剑_发光",
+            "bone": "武器页_剑",
+            "attachment": "武器页_剑_发光"
+        },
+        {
+            "name": "武器页_剑",
+            "bone": "武器页_剑",
+            "attachment": "武器页_剑"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "武器页_剑": {
+                    "武器页_剑": {
+                        "x": 139.04,
+                        "y": 1.14,
+                        "rotation": 120.57,
+                        "width": 518,
+                        "height": 867
+                    }
+                },
+                "武器页_剑_发光": {
+                    "武器页_剑_发光": {
+                        "x": 127.12,
+                        "y": 1.65,
+                        "rotation": 120.57,
+                        "width": 605,
+                        "height": 941
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "武器页_剑_发光": {
+                    "color": [
+                        {
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffff44",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4.5,
+                            "color": "ffffff44",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 6,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 7.5,
+                            "color": "ffffff44",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 9,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 10.5,
+                            "color": "ffffff44",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 12,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 13.5,
+                            "color": "ffffff44",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 15,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 16.5,
+                            "color": "ffffff44",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 18,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 19.5,
+                            "color": "ffffff44",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 21,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 22.5,
+                            "color": "ffffff44",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 24,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 25.5,
+                            "color": "ffffff44",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 27,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 28.5,
+                            "color": "ffffff44",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 30,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone5": {
+                    "translate": [
+                        {
+                            "y": -15,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.5,
+                            "y": 15,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 5,
+                            "y": -15,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 7.5,
+                            "y": 15,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 10,
+                            "y": -15,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 12.5,
+                            "y": 15,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 15,
+                            "y": -15,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 17.5,
+                            "y": 15,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 20,
+                            "y": -15,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 22.5,
+                            "y": 15,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 25,
+                            "y": -15,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 27.5,
+                            "y": 15,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 30,
+                            "y": -15
+                        }
+                    ]
+                },
+                "武器页_剑": {
+                    "rotate": [
+                        {
+                            "angle": 0.19,
+                            "curve": 0.376,
+                            "c2": 0.51,
+                            "c3": 0.749
+                        },
+                        {
+                            "time": 1.2333,
+                            "angle": 1.4,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.7333,
+                            "angle": -1.1,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 6.2333,
+                            "angle": 1.4,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 8.7333,
+                            "angle": -1.1,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 11.2333,
+                            "angle": 1.4,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 13.7333,
+                            "angle": -1.1,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 16.2333,
+                            "angle": 1.4,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 18.7333,
+                            "angle": -1.1,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 21.2333,
+                            "angle": 1.4,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 23.7333,
+                            "angle": -1.1,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 26.2333,
+                            "angle": 1.4,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 28.7333,
+                            "angle": -1.1,
+                            "curve": 0.249,
+                            "c3": 0.626,
+                            "c4": 0.51
+                        },
+                        {
+                            "time": 30,
+                            "angle": 0.19
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

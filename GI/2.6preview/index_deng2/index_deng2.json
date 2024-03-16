@@ -1,0 +1,95 @@
+{
+    "skeleton": {
+        "hash": "fAPYSQTTeT8",
+        "spine": "4.0.33",
+        "x": -35.19,
+        "y": -162,
+        "width": 96,
+        "height": 163
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -0.12,
+            "y": 16.05
+        },
+        {
+            "name": "light_3",
+            "parent": "bone",
+            "length": 159.09,
+            "rotation": -83.16,
+            "x": 0.86,
+            "y": -17.54
+        }
+    ],
+    "slots": [
+        {
+            "name": "light_3",
+            "bone": "light_3",
+            "attachment": "light_3"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "light_3": {
+                    "light_3": {
+                        "x": 79.89,
+                        "y": 2.57,
+                        "rotation": 83.16,
+                        "width": 96,
+                        "height": 163
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "light_3": {
+                    "rotate": [
+                        {
+                            "value": -3.86,
+                            "curve": [
+                                0.338,
+                                -7.42,
+                                0.669,
+                                -11.03
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "value": -11.03,
+                            "curve": [
+                                1.667,
+                                -11.03,
+                                2.333,
+                                3.32
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "value": 3.32,
+                            "curve": [
+                                3.336,
+                                3.32,
+                                3.671,
+                                -0.25
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "value": -3.86
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

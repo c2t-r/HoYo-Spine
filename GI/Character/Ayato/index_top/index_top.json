@@ -1,0 +1,148 @@
+{
+    "skeleton": {
+        "hash": "cf4/dugxdOY",
+        "spine": "4.0.33",
+        "x": -1279.71,
+        "y": -557.2,
+        "width": 2559.42,
+        "height": 1127.26
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -1250,
+            "y": 540
+        },
+        {
+            "name": "top",
+            "parent": "root",
+            "x": 1250,
+            "y": -69.95,
+            "scaleX": 36.3073
+        }
+    ],
+    "slots": [
+        {
+            "name": "index_down",
+            "bone": "root",
+            "attachment": "index_down"
+        },
+        {
+            "name": "index_night_top2",
+            "bone": "top",
+            "attachment": "index_night_top2"
+        },
+        {
+            "name": "index_day_top1",
+            "bone": "top",
+            "attachment": "index_day_top1"
+        },
+        {
+            "name": "top阴影",
+            "bone": "top",
+            "attachment": "top阴影"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "index_day_top1": {
+                    "index_day_top1": {
+                        "width": 70,
+                        "height": 200
+                    }
+                },
+                "index_down": {
+                    "index_down": {
+                        "x": 1250,
+                        "y": -992.2,
+                        "width": 2502,
+                        "height": 210
+                    }
+                },
+                "index_night_top2": {
+                    "index_night_top2": {
+                        "width": 70,
+                        "height": 200
+                    }
+                },
+                "top阴影": {
+                    "top阴影": {
+                        "y": -35.28,
+                        "scaleX": 0.6077,
+                        "width": 116,
+                        "height": 252
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "day": {
+            "slots": {
+                "index_night_top2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "day2night": {
+            "slots": {
+                "index_night_top2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "offsets": [
+                        {
+                            "slot": "index_night_top2",
+                            "offset": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "night": {
+            "slots": {
+                "index_day_top1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "index_night_top2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "offsets": [
+                        {
+                            "slot": "index_night_top2",
+                            "offset": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "night2day": {}
+    }
+}

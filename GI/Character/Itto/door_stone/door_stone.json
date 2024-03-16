@@ -1,0 +1,364 @@
+{
+    "skeleton": {
+        "hash": "w1lB32t1X7c",
+        "spine": "4.0.33",
+        "x": -1251.04,
+        "y": -541.03,
+        "width": 2502,
+        "height": 511
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "all",
+            "parent": "root",
+            "y": -750
+        },
+        {
+            "name": "no_move",
+            "parent": "all",
+            "y": 150
+        }
+    ],
+    "slots": [
+        {
+            "name": "day_左门",
+            "bone": "no_move",
+            "attachment": "day_左门"
+        },
+        {
+            "name": "night_左门",
+            "bone": "no_move",
+            "attachment": "night_左门"
+        },
+        {
+            "name": "day_石墙",
+            "bone": "no_move",
+            "attachment": "day_石墙"
+        },
+        {
+            "name": "night_石墙",
+            "bone": "no_move",
+            "attachment": "night_石墙"
+        },
+        {
+            "name": "day_前草",
+            "bone": "no_move",
+            "attachment": "day_前草"
+        },
+        {
+            "name": "night_前草",
+            "bone": "no_move",
+            "attachment": "night_前草"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "day_前草": {
+                    "day_前草": {
+                        "x": -0.04,
+                        "y": 149.97,
+                        "scaleX": 2,
+                        "scaleY": 2,
+                        "width": 1251,
+                        "height": 91
+                    }
+                },
+                "day_左门": {
+                    "day_左门": {
+                        "x": -987.54,
+                        "y": 347.47,
+                        "width": 527,
+                        "height": 295
+                    }
+                },
+                "day_石墙": {
+                    "day_石墙": {
+                        "x": 286.96,
+                        "y": 327.97,
+                        "width": 1928,
+                        "height": 484
+                    }
+                },
+                "night_前草": {
+                    "night_前草": {
+                        "x": -0.04,
+                        "y": 147.97,
+                        "scaleX": 2,
+                        "scaleY": 2,
+                        "width": 1251,
+                        "height": 89
+                    }
+                },
+                "night_左门": {
+                    "night_左门": {
+                        "x": -987.54,
+                        "y": 347.47,
+                        "width": 527,
+                        "height": 295
+                    }
+                },
+                "night_石墙": {
+                    "night_石墙": {
+                        "x": 286.96,
+                        "y": 327.97,
+                        "width": 1928,
+                        "height": 484
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "day": {
+            "slots": {
+                "night_前草": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "night_左门": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "night_石墙": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "night": {
+            "slots": {
+                "day_前草": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "day_左门": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "day_石墙": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "turn": {
+            "slots": {
+                "day_前草": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.933,
+                                1,
+                                1.1,
+                                1,
+                                0.933,
+                                1,
+                                1.1,
+                                1,
+                                0.933,
+                                1,
+                                1.1,
+                                1,
+                                0.933,
+                                0,
+                                1.1,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "day_左门": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.933,
+                                1,
+                                1.1,
+                                1,
+                                0.933,
+                                1,
+                                1.1,
+                                1,
+                                0.933,
+                                1,
+                                1.1,
+                                1,
+                                0.933,
+                                0,
+                                1.1,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "day_石墙": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.933,
+                                1,
+                                1.1,
+                                1,
+                                0.933,
+                                1,
+                                1.1,
+                                1,
+                                0.933,
+                                1,
+                                1.1,
+                                1,
+                                0.933,
+                                0,
+                                1.1,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "night_前草": {
+                    "rgba": [
+                        {
+                            "time": 0.7667,
+                            "color": "fffffffe",
+                            "curve": [
+                                1.267,
+                                1,
+                                1.767,
+                                1,
+                                1.267,
+                                1,
+                                1.767,
+                                1,
+                                1.267,
+                                1,
+                                1.767,
+                                1,
+                                1.267,
+                                1,
+                                1.767,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "night_左门": {
+                    "rgba": [
+                        {
+                            "time": 0.7667,
+                            "color": "fffffffe",
+                            "curve": [
+                                1.267,
+                                1,
+                                1.767,
+                                1,
+                                1.267,
+                                1,
+                                1.767,
+                                1,
+                                1.267,
+                                1,
+                                1.767,
+                                1,
+                                1.267,
+                                1,
+                                1.767,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "night_石墙": {
+                    "rgba": [
+                        {
+                            "time": 0.7667,
+                            "color": "fffffffe",
+                            "curve": [
+                                1.267,
+                                1,
+                                1.767,
+                                1,
+                                1.267,
+                                1,
+                                1.767,
+                                1,
+                                1.267,
+                                1,
+                                1.767,
+                                1,
+                                1.267,
+                                1,
+                                1.767,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "skeleton": {
+        "hash": "eo4Zl9TIRkfXDKtW+hzL1u6Zcdk",
+        "spine": "3.8.99",
+        "x": -251.6,
+        "y": -464.27,
+        "width": 1026,
+        "height": 999
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 236.24,
+            "y": -307.06
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "x": -48.61,
+            "y": 426.73
+        }
+    ],
+    "slots": [
+        {
+            "name": "图层 1",
+            "bone": "bone2",
+            "attachment": "图层 1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "图层 1": {
+                    "图层 1": {
+                        "x": 73.77,
+                        "y": -84.43,
+                        "width": 1026,
+                        "height": 999
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone": {
+                    "translate": [
+                        {
+                            "x": 5.66,
+                            "y": -29.61,
+                            "curve": 0.353,
+                            "c3": 0.667
+                        },
+                        {
+                            "time": 2.5,
+                            "y": 20.12,
+                            "curve": 0.353,
+                            "c3": 0.667
+                        },
+                        {
+                            "time": 5,
+                            "x": 5.66,
+                            "y": -29.61
+                        }
+                    ]
+                },
+                "bone2": {
+                    "rotate": [
+                        {
+                            "angle": -0.78,
+                            "curve": 0.331,
+                            "c2": 0.56,
+                            "c3": 0.662
+                        },
+                        {
+                            "time": 0.9,
+                            "angle": -2,
+                            "curve": 0.353,
+                            "c3": 0.667
+                        },
+                        {
+                            "time": 3.4,
+                            "angle": 2,
+                            "curve": 0.35,
+                            "c3": 0.675,
+                            "c4": 0.58
+                        },
+                        {
+                            "time": 5,
+                            "angle": -0.78
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

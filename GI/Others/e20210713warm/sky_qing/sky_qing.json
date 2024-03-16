@@ -1,0 +1,269 @@
+{
+    "skeleton": {
+        "hash": "x3NDZCs5KjIIYsngXCcIUaC/onc",
+        "spine": "3.8.99",
+        "x": -389,
+        "y": -371.6,
+        "width": 778,
+        "height": 657.6
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -1250,
+            "y": 540
+        },
+        {
+            "name": "moon",
+            "parent": "root",
+            "x": 1250,
+            "y": -560.36
+        },
+        {
+            "name": "yun",
+            "parent": "root",
+            "x": 1250,
+            "y": -743.6
+        }
+    ],
+    "slots": [
+        {
+            "name": "moon",
+            "bone": "moon",
+            "attachment": "moon"
+        },
+        {
+            "name": "雾",
+            "bone": "yun",
+            "attachment": "雾"
+        },
+        {
+            "name": "雾2",
+            "bone": "yun",
+            "attachment": "雾night"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "moon": {
+                    "moon": {
+                        "x": -1,
+                        "y": 5.36,
+                        "width": 602,
+                        "height": 602
+                    }
+                }
+            }
+        },
+        {
+            "name": "day",
+            "attachments": {
+                "雾": {
+                    "雾": {
+                        "x": 25,
+                        "y": -9.9,
+                        "width": 778,
+                        "height": 337
+                    }
+                }
+            }
+        },
+        {
+            "name": "night",
+            "attachments": {
+                "雾2": {
+                    "雾night": {
+                        "y": 0.5,
+                        "width": 778,
+                        "height": 337
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "雾": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "雾2": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "moon": {
+                    "translate": [
+                        {
+                            "y": -741.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": -741.1,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.3333,
+                            "y": 40.36,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.3333,
+                            "y": -4.64,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.3333
+                        }
+                    ]
+                },
+                "yun": {
+                    "scale": [
+                        {
+                            "x": 0.9,
+                            "y": 0.9,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 0.9,
+                            "y": 0.9,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3.3333
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {
+            "bones": {
+                "yun": {
+                    "translate": [
+                        {
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2,
+                            "y": 13.2,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.99,
+                            "y": 0.99,
+                            "curve": 0.375,
+                            "c2": 0.5,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.98,
+                            "y": 0.98,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 3,
+                            "curve": 0.25,
+                            "c3": 0.625,
+                            "c4": 0.5
+                        },
+                        {
+                            "time": 4,
+                            "x": 0.99,
+                            "y": 0.99
+                        }
+                    ]
+                }
+            }
+        },
+        "out": {
+            "slots": {
+                "雾": {
+                    "color": [
+                        {
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "雾2": {
+                    "color": [
+                        {
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "moon": {
+                    "translate": [
+                        {
+                            "curve": 0.5
+                        },
+                        {
+                            "time": 1,
+                            "y": -783.75
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

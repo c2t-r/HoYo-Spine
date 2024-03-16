@@ -1,0 +1,93 @@
+{
+    "skeleton": {
+        "hash": "yXZ/AKin0YtquJOda4NEZDT+jqk",
+        "spine": "3.8.99",
+        "x": -267.34,
+        "y": -528.27,
+        "width": 1084,
+        "height": 1068
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": 15.26
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 308.21,
+            "y": 5.73
+        }
+    ],
+    "slots": [
+        {
+            "name": "锘挎鍣_鏆楀贩闂厜",
+            "bone": "bone",
+            "attachment": "UI_EquipIcon_Claymore_Widsith_Awaken"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "锘挎鍣_鏆楀贩闂厜": {
+                    "UI_EquipIcon_Claymore_Widsith_Awaken": {
+                        "x": -48.81,
+                        "width": 1084,
+                        "height": 1068
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone": {
+                    "rotate": [
+                        {
+                            "angle": 0.34,
+                            "curve": 0.377,
+                            "c2": 0.51,
+                            "c3": 0.748
+                        },
+                        {
+                            "time": 0.9667,
+                            "angle": -2,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.9333,
+                            "angle": 3,
+                            "curve": 0.249,
+                            "c3": 0.627,
+                            "c4": 0.51
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0.34
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "y": -16.66,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.9667,
+                            "y": 15.78,
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 4,
+                            "y": -16.66
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

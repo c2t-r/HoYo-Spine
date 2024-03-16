@@ -1,0 +1,68 @@
+{
+    "skeleton": {
+        "hash": "syYDqBsoU3A",
+        "spine": "4.0.33",
+        "x": 399.32,
+        "y": -294.95,
+        "width": 381,
+        "height": 249
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -1250,
+            "y": 547.05
+        }
+    ],
+    "slots": [
+        {
+            "name": "desk_caju",
+            "bone": "root",
+            "attachment": "desk_caju"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "desk_caju": {
+                    "desk_caju": {
+                        "x": 1839.82,
+                        "y": -717.5,
+                        "width": 381,
+                        "height": 249
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "desk_caju": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "a2b": {
+            "slots": {
+                "desk_caju": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {}
+    }
+}

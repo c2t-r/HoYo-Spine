@@ -1,0 +1,86 @@
+{
+    "skeleton": {
+        "hash": "hb0hhP3clEs",
+        "spine": "4.0.33",
+        "x": -277.35,
+        "y": -303.73,
+        "width": 406.16,
+        "height": 88.8
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.4,
+            "scaleY": 0.4
+        }
+    ],
+    "slots": [
+        {
+            "name": "desk_bi",
+            "bone": "root",
+            "attachment": "desk_bi"
+        },
+        {
+            "name": "墨台",
+            "bone": "root",
+            "attachment": "墨台"
+        },
+        {
+            "name": "手_写字_书",
+            "bone": "root",
+            "attachment": "手_写字_书"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "desk_bi": {
+                    "desk_bi": {
+                        "x": -382.69,
+                        "y": -612.72,
+                        "width": 325,
+                        "height": 65
+                    }
+                },
+                "墨台": {
+                    "墨台": {
+                        "x": -527.37,
+                        "y": -667.06,
+                        "width": 332,
+                        "height": 167
+                    }
+                },
+                "手_写字_书": {
+                    "手_写字_书": {
+                        "x": 40.04,
+                        "y": -648.32,
+                        "width": 564,
+                        "height": 222
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "all": {},
+        "bi_book_x": {
+            "slots": {
+                "desk_bi": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "手_写字_书": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

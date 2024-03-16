@@ -1,0 +1,83 @@
+{
+    "skeleton": {
+        "hash": "se8j/amX/6mvGM4VcLiZiho3s1E",
+        "spine": "3.8.99",
+        "x": 39.34,
+        "y": 12.92,
+        "width": 545,
+        "height": 526
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -1250,
+            "y": 540
+        },
+        {
+            "name": "月亮白",
+            "parent": "root",
+            "x": 1552,
+            "y": -271.89
+        }
+    ],
+    "slots": [
+        {
+            "name": "月亮",
+            "bone": "月亮白",
+            "attachment": "月亮"
+        },
+        {
+            "name": "月亮白",
+            "bone": "月亮白",
+            "attachment": "月亮白"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "月亮": {
+                    "月亮": {
+                        "x": 9.85,
+                        "y": 7.81,
+                        "width": 545,
+                        "height": 526
+                    }
+                },
+                "月亮白": {
+                    "月亮白": {
+                        "x": 0.85,
+                        "y": 4.81,
+                        "width": 267,
+                        "height": 268
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "月亮": {
+                    "color": [
+                        {
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffd3",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

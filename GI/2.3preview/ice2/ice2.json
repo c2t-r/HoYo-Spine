@@ -1,0 +1,293 @@
+{
+    "skeleton": {
+        "hash": "UsZyLgHJtc8",
+        "spine": "4.0.19",
+        "x": -744.5,
+        "y": -426,
+        "width": 1489,
+        "height": 852
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "tex/ice2",
+            "parent": "root",
+            "x": -619.04,
+            "y": -250.95
+        },
+        {
+            "name": "tex/ice6",
+            "parent": "root",
+            "x": 457.16,
+            "y": -122.31
+        },
+        {
+            "name": "tex/ice7",
+            "parent": "root",
+            "x": 708.46,
+            "y": 297.89
+        },
+        {
+            "name": "tex/ice8",
+            "parent": "root",
+            "x": 296.79,
+            "y": 388.39
+        }
+    ],
+    "slots": [
+        {
+            "name": "tex/ice2",
+            "bone": "tex/ice2",
+            "attachment": "tex/ice2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "tex/ice2": {
+                    "tex/ice2": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.91931,
+                            0.18249,
+                            1,
+                            0.04592,
+                            1,
+                            0.26541,
+                            0.72426,
+                            0.06529,
+                            0.89596,
+                            0.63464,
+                            0.76646,
+                            0.76438,
+                            0.77986,
+                            0.54782,
+                            0.68544,
+                            0.13469,
+                            0.11886,
+                            0.6122,
+                            0.25114,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.64927,
+                            0.63074,
+                            0,
+                            0.76079,
+                            0
+                        ],
+                        "triangles": [
+                            8,
+                            12,
+                            7,
+                            7,
+                            3,
+                            6,
+                            3,
+                            13,
+                            0,
+                            7,
+                            12,
+                            3,
+                            3,
+                            12,
+                            13,
+                            3,
+                            0,
+                            2,
+                            0,
+                            1,
+                            2,
+                            5,
+                            6,
+                            4,
+                            4,
+                            6,
+                            3,
+                            10,
+                            8,
+                            9,
+                            10,
+                            11,
+                            8,
+                            11,
+                            12,
+                            8
+                        ],
+                        "vertices": [
+                            1,
+                            3,
+                            -84.11,
+                            -27.38,
+                            1,
+                            1,
+                            3,
+                            36.04,
+                            88.98,
+                            1,
+                            1,
+                            3,
+                            36.04,
+                            -98.02,
+                            1,
+                            1,
+                            4,
+                            37.14,
+                            -18.02,
+                            1,
+                            1,
+                            2,
+                            132.42,
+                            7.59,
+                            1,
+                            1,
+                            2,
+                            -60.4,
+                            -102.94,
+                            1,
+                            1,
+                            2,
+                            -40.45,
+                            81.56,
+                            1,
+                            1,
+                            4,
+                            -20.67,
+                            -77.15,
+                            1,
+                            1,
+                            1,
+                            51.52,
+                            155.36,
+                            1,
+                            1,
+                            1,
+                            248.5,
+                            -175.05,
+                            1,
+                            1,
+                            1,
+                            -125.46,
+                            -175.05,
+                            1,
+                            1,
+                            1,
+                            -125.46,
+                            123.77,
+                            1,
+                            1,
+                            4,
+                            -102.12,
+                            37.61,
+                            1,
+                            1,
+                            4,
+                            91.53,
+                            37.61,
+                            1
+                        ],
+                        "hull": 14
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "ice2": {}
+    },
+    "extra": {
+        "tex/ice2": {
+            "rootBoneName": "tex/ice2",
+            "endBoneName": "tex/guanmu4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 14,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 2,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3.05,
+                    "rotateFreq": 6,
+                    "rotateAmp": 3,
+                    "rotateOctaves": 1,
+                    "rotateDelay": 0,
+                    "rotateCenter": 0
+                }
+            }
+        },
+        "tex/ice6": {
+            "rootBoneName": "tex/ice6",
+            "endBoneName": "tex/guanmu4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 14,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 2,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4.77,
+                    "scaleYFreq": 1,
+                    "scaleYAmp": 0,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 0.3,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 6,
+                    "rotateAmp": 3,
+                    "rotateOctaves": 1,
+                    "rotateDelay": -0.12,
+                    "rotateCenter": 0
+                }
+            }
+        },
+        "tex/ice7": {
+            "rootBoneName": "tex/ice7",
+            "endBoneName": "tex/guanmu4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 14,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 4,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3.85,
+                    "rotateFreq": 6,
+                    "rotateAmp": 3,
+                    "rotateOctaves": 1,
+                    "rotateDelay": 0,
+                    "rotateCenter": 0
+                }
+            }
+        },
+        "tex/ice8": {
+            "rootBoneName": "tex/ice8",
+            "endBoneName": "tex/guanmu4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 14,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 5,
+                    "moveXCenter": 0,
+                    "moveXSeed": 0.29,
+                    "rotateFreq": 6,
+                    "rotateAmp": 3,
+                    "rotateOctaves": 1,
+                    "rotateDelay": 3,
+                    "rotateCenter": 0
+                }
+            }
+        }
+    }
+}

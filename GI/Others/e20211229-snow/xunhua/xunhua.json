@@ -1,0 +1,905 @@
+{
+    "skeleton": {
+        "hash": "bxBgy1JyCF8",
+        "spine": "4.0.33"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "index_xingxing_a",
+            "parent": "root",
+            "x": 1089.83,
+            "y": -9.79
+        },
+        {
+            "name": "index_xingxing_b",
+            "parent": "root",
+            "x": -849.2,
+            "y": -134.31
+        },
+        {
+            "name": "index_xingxing_c",
+            "parent": "root",
+            "x": -889.78,
+            "y": -155.29
+        },
+        {
+            "name": "index_xunhua_a",
+            "parent": "root",
+            "x": 993.3,
+            "y": -173.48
+        },
+        {
+            "name": "index_xunhua_b",
+            "parent": "root",
+            "x": -68.55,
+            "y": 374.94
+        },
+        {
+            "name": "index_xunhua_a2",
+            "parent": "index_xunhua_a"
+        },
+        {
+            "name": "index_xunhua_a_r",
+            "parent": "index_xunhua_a2"
+        },
+        {
+            "name": "index_xunhua_a3",
+            "parent": "index_xunhua_a"
+        },
+        {
+            "name": "index_xunhua_a_r2",
+            "parent": "index_xunhua_a3"
+        },
+        {
+            "name": "index_xunhua_a4",
+            "parent": "index_xunhua_a"
+        },
+        {
+            "name": "index_xunhua_a_r3",
+            "parent": "index_xunhua_a4"
+        },
+        {
+            "name": "index_xunhua_b2",
+            "parent": "index_xunhua_b"
+        },
+        {
+            "name": "index_xunhua_b3",
+            "parent": "root",
+            "x": -68.55,
+            "y": 374.94
+        },
+        {
+            "name": "index_xunhua_b4",
+            "parent": "index_xunhua_b3"
+        },
+        {
+            "name": "index_xunhua_b5",
+            "parent": "root",
+            "x": -68.55,
+            "y": 374.94
+        },
+        {
+            "name": "index_xunhua_b6",
+            "parent": "index_xunhua_b5"
+        },
+        {
+            "name": "index_xingxing_a2",
+            "parent": "index_xingxing_a"
+        },
+        {
+            "name": "index_xingxing_a3",
+            "parent": "root",
+            "x": 1089.83,
+            "y": -9.79
+        },
+        {
+            "name": "index_xingxing_a4",
+            "parent": "index_xingxing_a3"
+        },
+        {
+            "name": "index_xingxing_b2",
+            "parent": "index_xingxing_b"
+        },
+        {
+            "name": "index_xingxing_b3",
+            "parent": "root",
+            "x": -849.2,
+            "y": -134.31
+        },
+        {
+            "name": "index_xingxing_b4",
+            "parent": "index_xingxing_b3"
+        }
+    ],
+    "slots": [
+        {
+            "name": "index_xingxing_a",
+            "bone": "index_xingxing_a2"
+        },
+        {
+            "name": "index_xingxing_a2",
+            "bone": "index_xingxing_a4"
+        },
+        {
+            "name": "index_xingxing_b",
+            "bone": "index_xingxing_b2"
+        },
+        {
+            "name": "index_xingxing_b2",
+            "bone": "index_xingxing_b4"
+        },
+        {
+            "name": "index_xingxing_c",
+            "bone": "index_xingxing_c"
+        },
+        {
+            "name": "index_xunhua_a",
+            "bone": "index_xunhua_a_r"
+        },
+        {
+            "name": "index_xunhua_a2",
+            "bone": "index_xunhua_a_r2"
+        },
+        {
+            "name": "index_xunhua_a3",
+            "bone": "index_xunhua_a_r3"
+        },
+        {
+            "name": "index_xunhua_b",
+            "bone": "index_xunhua_b2"
+        },
+        {
+            "name": "index_xunhua_b2",
+            "bone": "index_xunhua_b4"
+        },
+        {
+            "name": "index_xunhua_b3",
+            "bone": "index_xunhua_b6"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "index_xingxing_a": {
+                    "index_xingxing_a": {
+                        "width": 88,
+                        "height": 89
+                    }
+                },
+                "index_xingxing_a2": {
+                    "index_xingxing_a": {
+                        "width": 88,
+                        "height": 89
+                    }
+                },
+                "index_xingxing_b": {
+                    "index_xingxing_b": {
+                        "width": 57,
+                        "height": 56
+                    }
+                },
+                "index_xingxing_b2": {
+                    "index_xingxing_b": {
+                        "width": 57,
+                        "height": 56
+                    }
+                },
+                "index_xingxing_c": {
+                    "index_xingxing_c": {
+                        "width": 63,
+                        "height": 63
+                    }
+                },
+                "index_xunhua_a": {
+                    "index_xunhua_a": {
+                        "width": 184,
+                        "height": 183
+                    }
+                },
+                "index_xunhua_a2": {
+                    "index_xunhua_a": {
+                        "width": 184,
+                        "height": 183
+                    }
+                },
+                "index_xunhua_a3": {
+                    "index_xunhua_a": {
+                        "width": 184,
+                        "height": 183
+                    }
+                },
+                "index_xunhua_b": {
+                    "index_xunhua_b": {
+                        "width": 178,
+                        "height": 179
+                    }
+                },
+                "index_xunhua_b2": {
+                    "index_xunhua_b": {
+                        "width": 178,
+                        "height": 179
+                    }
+                },
+                "index_xunhua_b3": {
+                    "index_xunhua_b": {
+                        "width": 178,
+                        "height": 179
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "index_xingxing_a": {
+            "slots": {
+                "index_xingxing_a": {
+                    "attachment": [
+                        {
+                            "name": "index_xingxing_a"
+                        }
+                    ]
+                },
+                "index_xingxing_a2": {
+                    "attachment": [
+                        {
+                            "name": "index_xingxing_a"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "index_xingxing_a": {
+                    "translate": [
+                        {
+                            "x": -310.16,
+                            "y": -387.88
+                        },
+                        {
+                            "time": 1.2,
+                            "x": -474.52,
+                            "y": -594.95,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2667,
+                            "x": 210.3,
+                            "y": 267.82
+                        },
+                        {
+                            "time": 5.0667,
+                            "x": -310.16,
+                            "y": -387.88
+                        }
+                    ]
+                },
+                "index_xingxing_a3": {
+                    "translate": [
+                        {
+                            "x": 65.25,
+                            "y": 125.24
+                        },
+                        {
+                            "time": 2.9667,
+                            "x": -335.54,
+                            "y": -626.02,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.9,
+                            "x": 222.86,
+                            "y": 420.68
+                        },
+                        {
+                            "time": 5.0667,
+                            "x": 65.25,
+                            "y": 125.24
+                        }
+                    ]
+                }
+            }
+        },
+        "index_xingxing_b": {
+            "slots": {
+                "index_xingxing_b": {
+                    "attachment": [
+                        {
+                            "name": "index_xingxing_b"
+                        }
+                    ]
+                },
+                "index_xingxing_b2": {
+                    "attachment": [
+                        {
+                            "name": "index_xingxing_b"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "index_xingxing_b": {
+                    "translate": [
+                        {
+                            "x": 198.61,
+                            "y": 484.3
+                        },
+                        {
+                            "time": 4.3,
+                            "x": -437.35,
+                            "y": -433.45,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.9667,
+                            "x": 351.44,
+                            "y": 704.84
+                        },
+                        {
+                            "time": 6,
+                            "x": 198.61,
+                            "y": 484.3
+                        }
+                    ]
+                },
+                "index_xingxing_b3": {
+                    "translate": [
+                        {
+                            "x": 123.37,
+                            "y": -190.3
+                        },
+                        {
+                            "time": 1.5,
+                            "x": -46.86,
+                            "y": -546.69,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.1667,
+                            "x": 558.41,
+                            "y": 720.46
+                        },
+                        {
+                            "time": 4.9667,
+                            "x": 240.64,
+                            "y": 55.21
+                        },
+                        {
+                            "time": 6,
+                            "x": 123.37,
+                            "y": -190.3
+                        }
+                    ]
+                }
+            }
+        },
+        "index_xingxing_c": {
+            "slots": {
+                "index_xingxing_c": {
+                    "attachment": [
+                        {
+                            "name": "index_xingxing_c"
+                        }
+                    ]
+                }
+            }
+        },
+        "index_xunhua_a": {
+            "slots": {
+                "index_xunhua_a": {
+                    "attachment": [
+                        {
+                            "name": "index_xunhua_a"
+                        }
+                    ]
+                },
+                "index_xunhua_a2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffca"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "index_xunhua_a"
+                        }
+                    ]
+                },
+                "index_xunhua_a3": {
+                    "rgba": [
+                        {
+                            "color": "ffffffd9"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "index_xunhua_a"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "index_xunhua_a2": {
+                    "translate": [
+                        {
+                            "x": -185.37,
+                            "y": -434.71,
+                            "curve": [
+                                0.075,
+                                -192.29,
+                                0.151,
+                                -199.52,
+                                0.095,
+                                -480.57,
+                                0.172,
+                                -514.33
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": -200.31,
+                            "y": -513.32,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 385.56,
+                            "y": 748.86,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7667,
+                            "x": 385.56,
+                            "y": 748.86,
+                            "curve": [
+                                2.935,
+                                385.56,
+                                3.136,
+                                -102.04,
+                                2.525,
+                                748.86,
+                                3.483,
+                                -167.9
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "x": -185.37,
+                            "y": -434.71
+                        }
+                    ]
+                },
+                "index_xunhua_a_r2": {
+                    "scale": [
+                        {
+                            "x": 1.029,
+                            "y": 1.029
+                        }
+                    ]
+                },
+                "index_xunhua_a3": {
+                    "translate": [
+                        {
+                            "x": -2212.24,
+                            "y": -284.57,
+                            "curve": [
+                                0.309,
+                                -2276.42,
+                                0.578,
+                                -2319.48,
+                                0.395,
+                                -419.6,
+                                0.69,
+                                -514.97
+                            ]
+                        },
+                        {
+                            "time": 0.8,
+                            "x": -2321.41,
+                            "y": -513.32,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1667,
+                            "x": -1356.21,
+                            "y": 783.63,
+                            "curve": [
+                                1.252,
+                                -1356.21,
+                                2.823,
+                                -1960.77,
+                                1.236,
+                                783.63,
+                                2.942,
+                                86.75
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "x": -2212.24,
+                            "y": -284.57
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.776,
+                            "y": 0.776
+                        }
+                    ]
+                },
+                "index_xunhua_a4": {
+                    "translate": [
+                        {
+                            "x": 13.26,
+                            "y": 453.5,
+                            "curve": [
+                                0.61,
+                                -168.53,
+                                1.115,
+                                -421.34,
+                                0.766,
+                                48.62,
+                                1.536,
+                                -511.36
+                            ]
+                        },
+                        {
+                            "time": 1.8,
+                            "x": -427.91,
+                            "y": -507,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.8333,
+                            "x": 195.89,
+                            "y": 862.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8333,
+                            "x": 195.89,
+                            "y": 862.66,
+                            "curve": [
+                                3.289,
+                                195.89,
+                                3.662,
+                                115.51,
+                                3.156,
+                                862.66,
+                                3.581,
+                                684.55
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "x": 13.26,
+                            "y": 453.5
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.842,
+                            "y": 0.842
+                        }
+                    ]
+                }
+            }
+        },
+        "index_xunhua_b": {
+            "slots": {
+                "index_xunhua_b": {
+                    "attachment": [
+                        {
+                            "name": "index_xunhua_b"
+                        }
+                    ]
+                },
+                "index_xunhua_b2": {
+                    "attachment": [
+                        {
+                            "name": "index_xunhua_b"
+                        }
+                    ]
+                },
+                "index_xunhua_b3": {
+                    "attachment": [
+                        {
+                            "name": "index_xunhua_b"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "index_xunhua_b": {
+                    "translate": [
+                        {
+                            "x": -761.33,
+                            "y": -1025.13,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 122.65,
+                            "y": 247.6
+                        },
+                        {
+                            "time": 4.1667,
+                            "x": -761.33,
+                            "y": -1025.13
+                        }
+                    ]
+                },
+                "index_xunhua_b3": {
+                    "translate": [
+                        {
+                            "x": -858.88,
+                            "y": -486.66
+                        },
+                        {
+                            "time": 1.8333,
+                            "x": -1232.86,
+                            "y": -1025.13,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.1667,
+                            "x": -348.89,
+                            "y": 247.6
+                        },
+                        {
+                            "time": 4.6667,
+                            "x": -858.88,
+                            "y": -486.66
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.765,
+                            "y": 0.765
+                        }
+                    ]
+                },
+                "index_xunhua_b5": {
+                    "translate": [
+                        {
+                            "x": 1014.11,
+                            "y": -134.22
+                        },
+                        {
+                            "time": 2.8,
+                            "x": 764.24,
+                            "y": -1025.13,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.4667,
+                            "x": 1121.2,
+                            "y": 247.6
+                        },
+                        {
+                            "time": 4.6667,
+                            "x": 1014.11,
+                            "y": -134.22
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.765,
+                            "y": 0.765
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "index_xingxing_a2": {
+            "rootBoneName": "index_xingxing_a2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 50,
+                    "moveXOctaves": 3,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4595,
+                    "scaleXFreq": 0.5,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 4,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "index_xingxing_a4": {
+            "rootBoneName": "index_xingxing_a4",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 60,
+                    "moveXOctaves": 3,
+                    "moveXDelay": -0.07,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 50,
+                    "moveYOctaves": 3,
+                    "moveYDelay": 4.38,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 0.5,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 4,
+                    "scaleXDelay": -1.34,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "index_xingxing_b2": {
+            "rootBoneName": "index_xingxing_b2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 9458,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "index_xingxing_b4": {
+            "rootBoneName": "index_xingxing_b4",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 100,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6778,
+                    "scaleXFreq": 1,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "index_xingxing_c": {
+            "rootBoneName": "index_xingxing_c",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 3,
+                    "moveXDelay": 3,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 40,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "index_xunhua_a_r": {
+            "rootBoneName": "index_xunhua_a_r",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 2,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4273,
+                    "rotateSpeed": 0.3
+                }
+            }
+        },
+        "index_xunhua_a_r2": {
+            "rootBoneName": "index_xunhua_a_r2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 3,
+                    "moveXDelay": 0.52,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 30,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4.45,
+                    "moveYCenter": 0,
+                    "scaleYFreq": 1,
+                    "scaleYAmp": 0,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": -0.7,
+                    "scaleYCenter": 0,
+                    "rotateSpeed": -0.2
+                }
+            }
+        },
+        "index_xunhua_a_r3": {
+            "rootBoneName": "index_xunhua_a_r3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 100,
+                    "moveXOctaves": 3,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6,
+                    "scaleYFreq": 1,
+                    "scaleYAmp": 0,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 0,
+                    "scaleYCenter": 0,
+                    "rotateSpeed": -0.1
+                }
+            }
+        },
+        "index_xunhua_b2": {
+            "rootBoneName": "index_xunhua_b2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.25
+                }
+            }
+        },
+        "index_xunhua_b4": {
+            "rootBoneName": "index_xunhua_b4",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": -0.3
+                }
+            }
+        },
+        "index_xunhua_b6": {
+            "rootBoneName": "index_xunhua_b6",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.15
+                }
+            }
+        }
+    }
+}

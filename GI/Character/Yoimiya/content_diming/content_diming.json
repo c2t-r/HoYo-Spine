@@ -1,0 +1,468 @@
+{
+    "skeleton": {
+        "hash": "0tEoLdLUufLizTOQdU8eEOYsGtY",
+        "spine": "3.8.99",
+        "x": -376,
+        "y": -834.5,
+        "width": 752,
+        "height": 1189
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -375,
+            "y": 833.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "地面",
+            "bone": "root",
+            "attachment": "地面"
+        },
+        {
+            "name": "灯光",
+            "bone": "root",
+            "attachment": "灯光",
+            "blend": "additive"
+        },
+        {
+            "name": "灯光1",
+            "bone": "root",
+            "attachment": "灯光1",
+            "blend": "additive"
+        },
+        {
+            "name": "灯光2",
+            "bone": "root",
+            "attachment": "灯光2",
+            "blend": "additive"
+        },
+        {
+            "name": "灯光3",
+            "bone": "root",
+            "attachment": "灯光3",
+            "blend": "additive"
+        },
+        {
+            "name": "灯光4",
+            "bone": "root",
+            "attachment": "灯光4",
+            "blend": "additive"
+        },
+        {
+            "name": "灯光5",
+            "bone": "root",
+            "attachment": "灯光5",
+            "blend": "additive"
+        },
+        {
+            "name": "灯光6",
+            "bone": "root",
+            "attachment": "灯光6",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "地面": {
+                    "地面": {
+                        "x": 375,
+                        "y": -1073.5,
+                        "width": 752,
+                        "height": 1189
+                    }
+                },
+                "灯光": {
+                    "灯光": {
+                        "x": 445.5,
+                        "y": -1108.5,
+                        "width": 413,
+                        "height": 677
+                    }
+                },
+                "灯光1": {
+                    "灯光1": {
+                        "x": 426.5,
+                        "y": -884.5,
+                        "width": 99,
+                        "height": 91
+                    }
+                },
+                "灯光2": {
+                    "灯光2": {
+                        "x": 464.5,
+                        "y": -831.5,
+                        "width": 103,
+                        "height": 119
+                    }
+                },
+                "灯光3": {
+                    "灯光3": {
+                        "x": 380.5,
+                        "y": -814,
+                        "width": 153,
+                        "height": 106
+                    }
+                },
+                "灯光4": {
+                    "灯光4": {
+                        "x": 459.5,
+                        "y": -734,
+                        "width": 85,
+                        "height": 80
+                    }
+                },
+                "灯光5": {
+                    "灯光5": {
+                        "x": 635,
+                        "y": -731,
+                        "width": 84,
+                        "height": 82
+                    }
+                },
+                "灯光6": {
+                    "灯光6": {
+                        "x": 349.29,
+                        "y": -1380.52,
+                        "width": 114,
+                        "height": 141
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "灯光": {
+                    "color": [
+                        {
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffffaf",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffffe3",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffba",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffdd",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffc7",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "灯光1": {
+                    "color": [
+                        {
+                            "color": "ffffffaf",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffffe3",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffba",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffdd",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffc7",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffaf"
+                        }
+                    ]
+                },
+                "灯光2": {
+                    "color": [
+                        {
+                            "color": "ffffffe3",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffffba",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffdd",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffc7",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffaf",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffe3"
+                        }
+                    ]
+                },
+                "灯光3": {
+                    "color": [
+                        {
+                            "color": "ffffffcd",
+                            "curve": 0.382,
+                            "c2": 0.57,
+                            "c3": 0.735
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffc7",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffaf",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffe3",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffba",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffdd",
+                            "curve": 0.243,
+                            "c3": 0.649,
+                            "c4": 0.6
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffcd"
+                        }
+                    ]
+                },
+                "灯光4": {
+                    "color": [
+                        {
+                            "color": "ffffffd3",
+                            "curve": 0.382,
+                            "c2": 0.57,
+                            "c3": 0.735
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffdd",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffffc7",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffaf",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffe3",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffba",
+                            "curve": 0.243,
+                            "c3": 0.649,
+                            "c4": 0.6
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffd3"
+                        }
+                    ]
+                },
+                "灯光5": {
+                    "color": [
+                        {
+                            "color": "fffffff4",
+                            "curve": 0.379,
+                            "c2": 0.6,
+                            "c3": 0.724
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffffaf",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffe3",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffba",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffdd",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffc7",
+                            "curve": 0.242,
+                            "c3": 0.667,
+                            "c4": 0.67
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "fffffff4"
+                        }
+                    ]
+                },
+                "灯光6": {
+                    "color": [
+                        {
+                            "color": "ffffffba",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffffdd",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffc7",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffaf",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffe3",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffba"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
