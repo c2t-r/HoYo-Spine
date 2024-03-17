@@ -1,0 +1,39 @@
+{
+    "skeleton": {
+        "hash": "z2Y3oy/hyno",
+        "spine": "4.0-from-4.2.09-beta",
+        "x": -689,
+        "y": -726,
+        "width": 1378,
+        "height": 1452
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "color_b",
+            "bone": "root",
+            "attachment": "color_b",
+            "blend": "screen"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "color_b": {
+                    "color_b": {
+                        "width": 1378,
+                        "height": 1452
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

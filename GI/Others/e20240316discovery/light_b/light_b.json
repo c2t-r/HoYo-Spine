@@ -1,0 +1,39 @@
+{
+    "skeleton": {
+        "hash": "QiDMktZGU5Y",
+        "spine": "4.0-from-4.2.09-beta",
+        "x": -607.5,
+        "y": -726,
+        "width": 1215,
+        "height": 1452
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "lightb",
+            "bone": "root",
+            "attachment": "light-b",
+            "blend": "screen"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "lightb": {
+                    "light-b": {
+                        "width": 1215,
+                        "height": 1452
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

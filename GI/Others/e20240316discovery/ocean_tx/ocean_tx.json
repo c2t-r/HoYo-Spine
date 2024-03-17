@@ -1,0 +1,40 @@
+{
+    "skeleton": {
+        "hash": "8eXg/4LMV1s",
+        "spine": "4.2.26-beta",
+        "x": -1824.5,
+        "y": -870,
+        "width": 3649,
+        "height": 1740,
+        "images": "./tex/",
+        "audio": "D:/工作用文件/2024 0220 Discovery KV/网页场景/spine/海底"
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "ocean_tx",
+            "bone": "root",
+            "attachment": "ocean_tx"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "ocean_tx": {
+                    "ocean_tx": {
+                        "width": 3649,
+                        "height": 1740
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

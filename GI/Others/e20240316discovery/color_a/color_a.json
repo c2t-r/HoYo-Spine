@@ -1,0 +1,39 @@
+{
+    "skeleton": {
+        "hash": "KCqSeACABpk",
+        "spine": "4.0-from-4.2.09-beta",
+        "x": -587.5,
+        "y": -584,
+        "width": 1175,
+        "height": 1168
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "color_a",
+            "bone": "root",
+            "attachment": "color_a",
+            "blend": "screen"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "color_a": {
+                    "color_a": {
+                        "width": 1175,
+                        "height": 1168
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

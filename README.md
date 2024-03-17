@@ -119,6 +119,7 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - https://act.hoyoverse.com/ys/event/e20240116draw-aa1853b1/index.html
 - https://act.hoyoverse.com/ys/event/e20240118brush-u4b6my/index.html
 - https://act.hoyoverse.com/ys/event/e20240208lantern-vc7vnh/index.html <lantern2024>
+- https://act.hoyoverse.com/ys/event/e20240316discovery/index.html
 
 ### hoyofest
 - 2023 https://act.hoyoverse.com/ys/event/hoyofest2023-xrdqyw/index.html
