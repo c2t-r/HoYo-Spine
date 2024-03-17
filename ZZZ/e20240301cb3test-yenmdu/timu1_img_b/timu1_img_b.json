@@ -1,0 +1,174 @@
+{
+    "skeleton": {
+        "hash": "RWYJ/tnDqgM",
+        "spine": "4.0-from-4.1.24",
+        "x": -373.5,
+        "y": -366.5,
+        "width": 747,
+        "height": 733
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "timu1_img_b",
+            "parent": "root",
+            "x": -7.06,
+            "y": -224.07
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "timu1_img_d",
+            "bone": "bone"
+        },
+        {
+            "name": "timu1_img_b",
+            "bone": "timu1_img_b",
+            "attachment": "timu1_img_b"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "timu1_img_b": {
+                    "timu1_img_b": {
+                        "x": 7.06,
+                        "y": 224.07,
+                        "width": 747,
+                        "height": 733
+                    },
+                    "timu1_img_c": {
+                        "x": 7.06,
+                        "y": 224.07,
+                        "width": 742,
+                        "height": 554
+                    }
+                },
+                "timu1_img_d": {
+                    "timu1_img_d": {
+                        "width": 742,
+                        "height": 826
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "b": {
+            "slots": {
+                "timu1_img_b": {
+                    "attachment": [
+                        {
+                            "name": "timu1_img_b"
+                        }
+                    ]
+                },
+                "timu1_img_d": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "timu1_img_b": {
+                    "attachment": [
+                        {
+                            "name": "timu1_img_c"
+                        }
+                    ]
+                },
+                "timu1_img_d": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "d": {
+            "slots": {
+                "timu1_img_b": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "timu1_img_d": {
+                    "attachment": [
+                        {
+                            "name": "timu1_img_d"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "timu1_img_b": {
+            "rootBoneName": "timu1_img_b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 1.5,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                },
+                "c": {
+                    "name": "c",
+                    "mode": 3,
+                    "moveYFreq": 2,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                },
+                "d": {
+                    "name": "d",
+                    "mode": 0
+                }
+            }
+        },
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "d": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0.02
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

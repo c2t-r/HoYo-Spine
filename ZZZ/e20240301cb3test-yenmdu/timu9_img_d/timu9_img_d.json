@@ -1,0 +1,107 @@
+{
+    "skeleton": {
+        "hash": "fHnSfmC/5aQ",
+        "spine": "4.0-from-4.1.24",
+        "x": -376,
+        "y": -259,
+        "width": 752,
+        "height": 518
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "timu9_img_d",
+            "parent": "root",
+            "x": 2.64,
+            "y": -191.95
+        },
+        {
+            "name": "img",
+            "parent": "timu9_img_d",
+            "x": -286.97,
+            "y": 306.12
+        }
+    ],
+    "slots": [
+        {
+            "name": "timu9_img_d",
+            "bone": "timu9_img_d",
+            "attachment": "timu9_img_d"
+        },
+        {
+            "name": "img",
+            "bone": "img",
+            "attachment": "img"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "img": {
+                    "img": {
+                        "x": 1.82,
+                        "y": -1.67,
+                        "width": 149,
+                        "height": 149
+                    }
+                },
+                "timu9_img_d": {
+                    "timu9_img_d": {
+                        "x": -2.64,
+                        "y": 191.95,
+                        "width": 752,
+                        "height": 518
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "timu9_img_d": {
+            "rootBoneName": "timu9_img_d",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "img": {
+            "rootBoneName": "img",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 3,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

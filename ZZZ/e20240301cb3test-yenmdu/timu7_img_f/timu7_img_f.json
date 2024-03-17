@@ -1,0 +1,70 @@
+{
+    "skeleton": {
+        "hash": "KiDayRwJZ5o",
+        "spine": "4.0-from-4.1.24",
+        "x": -370,
+        "y": -295,
+        "width": 741,
+        "height": 590
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "timu7_img_f",
+            "parent": "root",
+            "x": 19.83,
+            "y": -233.1
+        }
+    ],
+    "slots": [
+        {
+            "name": "timu7_img_f",
+            "bone": "timu7_img_f",
+            "attachment": "timu7_img_f"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "timu7_img_f": {
+                    "timu7_img_f": {
+                        "x": -19.33,
+                        "y": 233.1,
+                        "width": 741,
+                        "height": 590
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "timu7_img_f": {
+            "rootBoneName": "timu7_img_f",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.5,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

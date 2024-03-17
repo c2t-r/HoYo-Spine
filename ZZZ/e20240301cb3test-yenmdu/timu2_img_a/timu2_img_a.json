@@ -1,0 +1,262 @@
+{
+    "skeleton": {
+        "hash": "71rdSNKZA3Q",
+        "spine": "4.0-from-4.1.24",
+        "x": -346.5,
+        "y": -178.5,
+        "width": 693,
+        "height": 357
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "ab",
+            "parent": "root",
+            "x": -251.97,
+            "y": 74.99
+        },
+        {
+            "name": "ab2",
+            "parent": "ab",
+            "x": -2.6,
+            "y": -18.2
+        },
+        {
+            "name": "aa",
+            "parent": "root",
+            "x": 216.95,
+            "y": -40.29
+        },
+        {
+            "name": "aa2",
+            "parent": "aa",
+            "x": 6.07,
+            "y": -11.27
+        }
+    ],
+    "slots": [
+        {
+            "name": "ab",
+            "bone": "ab2",
+            "attachment": "ab"
+        },
+        {
+            "name": "aa",
+            "bone": "aa2",
+            "attachment": "aa"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "aa": {
+                    "aa": {
+                        "x": -11.52,
+                        "y": 9.56,
+                        "width": 270,
+                        "height": 273
+                    }
+                },
+                "ab": {
+                    "ab": {
+                        "x": 4.57,
+                        "y": 3.71,
+                        "width": 193,
+                        "height": 236
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "0": {
+            "bones": {
+                "aa": {
+                    "translate": [
+                        {
+                            "y": -483.43
+                        }
+                    ]
+                },
+                "ab": {
+                    "translate": [
+                        {
+                            "y": -483.43
+                        }
+                    ]
+                }
+            }
+        },
+        "in": {
+            "bones": {
+                "aa": {
+                    "translate": [
+                        {
+                            "y": -483.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "y": -483.43,
+                            "curve": [
+                                0.314,
+                                0,
+                                0.48,
+                                0,
+                                0.314,
+                                -483.43,
+                                0.48,
+                                46.31
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "y": 46.31,
+                            "curve": [
+                                0.838,
+                                0,
+                                0.982,
+                                0,
+                                0.838,
+                                46.31,
+                                0.982,
+                                -22.23
+                            ]
+                        },
+                        {
+                            "time": 1.1333,
+                            "y": -22.23,
+                            "curve": [
+                                1.372,
+                                0,
+                                1.489,
+                                0,
+                                1.372,
+                                -22.23,
+                                1.489,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.6667
+                        }
+                    ]
+                },
+                "ab": {
+                    "translate": [
+                        {
+                            "y": -483.43,
+                            "curve": [
+                                0.189,
+                                0,
+                                0.313,
+                                0,
+                                0.189,
+                                -483.43,
+                                0.313,
+                                46.31
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "y": 46.31,
+                            "curve": [
+                                0.671,
+                                0,
+                                0.815,
+                                0,
+                                0.671,
+                                46.31,
+                                0.815,
+                                -22.23
+                            ]
+                        },
+                        {
+                            "time": 0.9667,
+                            "y": -22.23,
+                            "curve": [
+                                1.205,
+                                0,
+                                1.322,
+                                0,
+                                1.205,
+                                -22.23,
+                                1.322,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.5
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {}
+    },
+    "extra": {
+        "ab2": {
+            "rootBoneName": "ab2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 3,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 5
+                }
+            }
+        },
+        "aa2": {
+            "rootBoneName": "aa2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.3656512162202117,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.4200362071461607,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 5.267861638272589,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 3,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

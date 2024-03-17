@@ -1,0 +1,302 @@
+{
+    "skeleton": {
+        "hash": "G9NjTM9Atfo",
+        "spine": "4.0-from-4.1.24",
+        "x": -328.63,
+        "y": -82.01,
+        "width": 579.89,
+        "height": 167
+    },
+    "bones": [
+        {
+            "name": "root",
+            "y": 1.49
+        },
+        {
+            "name": "list",
+            "parent": "root",
+            "x": -252.61
+        },
+        {
+            "name": "cn",
+            "parent": "list"
+        },
+        {
+            "name": "win_jiangpin_cn1",
+            "parent": "cn"
+        },
+        {
+            "name": "win_jiangpin_cn2",
+            "parent": "cn",
+            "x": 1512
+        }
+    ],
+    "slots": [
+        {
+            "name": "mask",
+            "bone": "root",
+            "attachment": "mask"
+        },
+        {
+            "name": "win_jiangpin_cn9",
+            "bone": "win_jiangpin_cn1",
+            "attachment": "win_jiangpin_cn9"
+        },
+        {
+            "name": "win_jiangpin_cn10",
+            "bone": "win_jiangpin_cn2",
+            "attachment": "win_jiangpin_cn9"
+        },
+        {
+            "name": "win_jiangpin_cn8",
+            "bone": "win_jiangpin_cn1",
+            "attachment": "win_jiangpin_cn8"
+        },
+        {
+            "name": "win_jiangpin_cn11",
+            "bone": "win_jiangpin_cn2",
+            "attachment": "win_jiangpin_cn8"
+        },
+        {
+            "name": "win_jiangpin_cn7",
+            "bone": "win_jiangpin_cn1",
+            "attachment": "win_jiangpin_cn7"
+        },
+        {
+            "name": "win_jiangpin_cn12",
+            "bone": "win_jiangpin_cn2",
+            "attachment": "win_jiangpin_cn7"
+        },
+        {
+            "name": "win_jiangpin_cn6",
+            "bone": "win_jiangpin_cn1",
+            "attachment": "win_jiangpin_cn6"
+        },
+        {
+            "name": "win_jiangpin_cn13",
+            "bone": "win_jiangpin_cn2",
+            "attachment": "win_jiangpin_cn6"
+        },
+        {
+            "name": "win_jiangpin_cn5",
+            "bone": "win_jiangpin_cn1",
+            "attachment": "win_jiangpin_cn5"
+        },
+        {
+            "name": "win_jiangpin_cn14",
+            "bone": "win_jiangpin_cn2",
+            "attachment": "win_jiangpin_cn5"
+        },
+        {
+            "name": "win_jiangpin_cn4",
+            "bone": "win_jiangpin_cn1",
+            "attachment": "win_jiangpin_cn4"
+        },
+        {
+            "name": "win_jiangpin_cn15",
+            "bone": "win_jiangpin_cn2",
+            "attachment": "win_jiangpin_cn4"
+        },
+        {
+            "name": "win_jiangpin_cn3",
+            "bone": "win_jiangpin_cn1",
+            "attachment": "win_jiangpin_cn3"
+        },
+        {
+            "name": "win_jiangpin_cn16",
+            "bone": "win_jiangpin_cn2",
+            "attachment": "win_jiangpin_cn3"
+        },
+        {
+            "name": "win_jiangpin_cn2",
+            "bone": "win_jiangpin_cn1",
+            "attachment": "win_jiangpin_cn2"
+        },
+        {
+            "name": "win_jiangpin_cn17",
+            "bone": "win_jiangpin_cn2",
+            "attachment": "win_jiangpin_cn2"
+        },
+        {
+            "name": "win_jiangpin_cn1",
+            "bone": "win_jiangpin_cn1",
+            "attachment": "win_jiangpin_cn1"
+        },
+        {
+            "name": "win_jiangpin_cn18",
+            "bone": "win_jiangpin_cn2",
+            "attachment": "win_jiangpin_cn1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "mask",
+                        "vertexCount": 4,
+                        "vertices": [
+                            -328.51,
+                            98.16,
+                            -328.63,
+                            -84.18,
+                            251.26,
+                            -87.9,
+                            251.26,
+                            98.16
+                        ]
+                    }
+                },
+                "win_jiangpin_cn1": {
+                    "win_jiangpin_cn1": {
+                        "width": 156,
+                        "height": 167
+                    }
+                },
+                "win_jiangpin_cn2": {
+                    "win_jiangpin_cn2": {
+                        "x": 168,
+                        "y": 4.5,
+                        "width": 156,
+                        "height": 158
+                    }
+                },
+                "win_jiangpin_cn3": {
+                    "win_jiangpin_cn3": {
+                        "x": 336,
+                        "width": 156,
+                        "height": 167
+                    }
+                },
+                "win_jiangpin_cn4": {
+                    "win_jiangpin_cn4": {
+                        "x": 504,
+                        "y": 4.5,
+                        "width": 156,
+                        "height": 158
+                    }
+                },
+                "win_jiangpin_cn5": {
+                    "win_jiangpin_cn5": {
+                        "x": 672,
+                        "width": 156,
+                        "height": 167
+                    }
+                },
+                "win_jiangpin_cn6": {
+                    "win_jiangpin_cn6": {
+                        "x": 840,
+                        "y": 4.5,
+                        "width": 156,
+                        "height": 158
+                    }
+                },
+                "win_jiangpin_cn7": {
+                    "win_jiangpin_cn7": {
+                        "x": 1008,
+                        "width": 156,
+                        "height": 167
+                    }
+                },
+                "win_jiangpin_cn8": {
+                    "win_jiangpin_cn8": {
+                        "x": 1176,
+                        "y": 4.5,
+                        "width": 156,
+                        "height": 158
+                    }
+                },
+                "win_jiangpin_cn9": {
+                    "win_jiangpin_cn9": {
+                        "x": 1344,
+                        "width": 156,
+                        "height": 167
+                    }
+                },
+                "win_jiangpin_cn10": {
+                    "win_jiangpin_cn9": {
+                        "x": 1344,
+                        "width": 156,
+                        "height": 167
+                    }
+                },
+                "win_jiangpin_cn11": {
+                    "win_jiangpin_cn8": {
+                        "x": 1176,
+                        "y": 4.5,
+                        "width": 156,
+                        "height": 158
+                    }
+                },
+                "win_jiangpin_cn12": {
+                    "win_jiangpin_cn7": {
+                        "x": 1008,
+                        "width": 156,
+                        "height": 167
+                    }
+                },
+                "win_jiangpin_cn13": {
+                    "win_jiangpin_cn6": {
+                        "x": 840,
+                        "y": 4.5,
+                        "width": 156,
+                        "height": 158
+                    }
+                },
+                "win_jiangpin_cn14": {
+                    "win_jiangpin_cn5": {
+                        "x": 672,
+                        "width": 156,
+                        "height": 167
+                    }
+                },
+                "win_jiangpin_cn15": {
+                    "win_jiangpin_cn4": {
+                        "x": 504,
+                        "y": 4.5,
+                        "width": 156,
+                        "height": 158
+                    }
+                },
+                "win_jiangpin_cn16": {
+                    "win_jiangpin_cn3": {
+                        "x": 336,
+                        "width": 156,
+                        "height": 167
+                    }
+                },
+                "win_jiangpin_cn17": {
+                    "win_jiangpin_cn2": {
+                        "x": 168,
+                        "y": 4.5,
+                        "width": 156,
+                        "height": 158
+                    }
+                },
+                "win_jiangpin_cn18": {
+                    "win_jiangpin_cn1": {
+                        "width": 156,
+                        "height": 167
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "cn": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 12,
+                            "x": -1512
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

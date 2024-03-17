@@ -1,0 +1,269 @@
+{
+    "skeleton": {
+        "hash": "x86RvCd6AVg",
+        "spine": "4.0-from-4.1.24",
+        "x": -427,
+        "y": -69,
+        "width": 854,
+        "height": 165.33
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "指针",
+            "parent": "root",
+            "y": -27
+        },
+        {
+            "name": "指针2",
+            "parent": "指针"
+        }
+    ],
+    "slots": [
+        {
+            "name": "bg",
+            "bone": "root",
+            "attachment": "bg"
+        },
+        {
+            "name": "指针_bai",
+            "bone": "指针2",
+            "attachment": "指针_bai"
+        },
+        {
+            "name": "灰字",
+            "bone": "root",
+            "attachment": "灰字"
+        },
+        {
+            "name": "baizhi",
+            "bone": "指针2",
+            "attachment": "baizhi"
+        },
+        {
+            "name": "黄字",
+            "bone": "root",
+            "attachment": "黄字"
+        },
+        {
+            "name": "指针",
+            "bone": "指针2",
+            "attachment": "指针"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "baizhi": {
+                    "baizhi": {
+                        "type": "clipping",
+                        "end": "黄字",
+                        "vertexCount": 6,
+                        "vertices": [
+                            -14.36,
+                            11.46,
+                            -13.97,
+                            -12.75,
+                            1.38,
+                            -17.08,
+                            15.55,
+                            -9.4,
+                            15.94,
+                            9.49,
+                            0.59,
+                            16.97
+                        ]
+                    }
+                },
+                "bg": {
+                    "bg": {
+                        "width": 854,
+                        "height": 278
+                    }
+                },
+                "指针": {
+                    "指针": {
+                        "x": -0.5,
+                        "y": -7.5,
+                        "width": 59,
+                        "height": 69
+                    }
+                },
+                "指针_bai": {
+                    "指针_bai": {
+                        "type": "clipping",
+                        "end": "灰字",
+                        "vertexCount": 8,
+                        "vertices": [
+                            -14.13,
+                            19.07,
+                            -14.07,
+                            -20.15,
+                            -620.21,
+                            -25.46,
+                            -620.72,
+                            123.43,
+                            576.6,
+                            122.79,
+                            574.04,
+                            -29.29,
+                            13.34,
+                            -21.93,
+                            13.57,
+                            19.43
+                        ]
+                    }
+                },
+                "灰字": {
+                    "灰字": {
+                        "x": 99.5,
+                        "y": -26.5,
+                        "width": 459,
+                        "height": 23
+                    }
+                },
+                "黄字": {
+                    "黄字": {
+                        "x": 99.5,
+                        "y": -26.5,
+                        "width": 459,
+                        "height": 23
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "1": {
+            "bones": {
+                "指针": {
+                    "translate": [
+                        {
+                            "x": -120
+                        }
+                    ]
+                }
+            }
+        },
+        "2": {
+            "bones": {
+                "指针": {
+                    "translate": [
+                        {
+                            "x": -75
+                        }
+                    ]
+                }
+            }
+        },
+        "3": {
+            "bones": {
+                "指针": {
+                    "translate": [
+                        {
+                            "x": -26.17
+                        }
+                    ]
+                }
+            }
+        },
+        "4": {
+            "bones": {
+                "指针": {
+                    "translate": [
+                        {
+                            "x": 23.12
+                        }
+                    ]
+                }
+            }
+        },
+        "5": {
+            "bones": {
+                "指针": {
+                    "translate": [
+                        {
+                            "x": 70.84
+                        }
+                    ]
+                }
+            }
+        },
+        "6": {
+            "bones": {
+                "指针": {
+                    "translate": [
+                        {
+                            "x": 120.13
+                        }
+                    ]
+                }
+            }
+        },
+        "7": {
+            "bones": {
+                "指针": {
+                    "translate": [
+                        {
+                            "x": 167.08
+                        }
+                    ]
+                }
+            }
+        },
+        "8": {
+            "bones": {
+                "指针": {
+                    "translate": [
+                        {
+                            "x": 214.41
+                        }
+                    ]
+                }
+            }
+        },
+        "9": {
+            "bones": {
+                "指针": {
+                    "translate": [
+                        {
+                            "x": 263.31
+                        }
+                    ]
+                }
+            }
+        },
+        "10": {
+            "bones": {
+                "指针": {
+                    "translate": [
+                        {
+                            "x": 316.12
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "指针2": {
+            "rootBoneName": "指针2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 5,
+                    "elasticFriction": 0.65,
+                    "elasticSpring": 0.25,
+                    "elasticSoftness": 1
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

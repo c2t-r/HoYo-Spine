@@ -1,0 +1,427 @@
+{
+    "skeleton": {
+        "hash": "5Z3d6yIgZ2Y",
+        "spine": "4.0-from-4.1.24",
+        "x": -292.5,
+        "y": -126.5,
+        "width": 585,
+        "height": 253
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "圆b",
+            "parent": "root",
+            "x": 178.24,
+            "y": -41.18
+        },
+        {
+            "name": "圆a",
+            "parent": "root",
+            "x": 66.16,
+            "y": -40.71
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -153.35,
+            "y": 2.69
+        },
+        {
+            "name": "bone2",
+            "parent": "bone"
+        },
+        {
+            "name": "bone3",
+            "parent": "bone2"
+        },
+        {
+            "name": "bone5",
+            "parent": "bone"
+        },
+        {
+            "name": "bone4",
+            "parent": "bone5"
+        },
+        {
+            "name": "皮带1",
+            "parent": "root",
+            "x": 116.44,
+            "y": -32.85
+        },
+        {
+            "name": "皮带2",
+            "parent": "root",
+            "x": 116.78,
+            "y": -48.71
+        }
+    ],
+    "slots": [
+        {
+            "name": "bg",
+            "bone": "root",
+            "attachment": "bg"
+        },
+        {
+            "name": "皮带2",
+            "bone": "皮带2",
+            "attachment": "皮带2"
+        },
+        {
+            "name": "皮带1",
+            "bone": "皮带1",
+            "attachment": "皮带1"
+        },
+        {
+            "name": "圆b",
+            "bone": "圆b",
+            "attachment": "圆b"
+        },
+        {
+            "name": "圆a",
+            "bone": "圆a",
+            "attachment": "圆a"
+        },
+        {
+            "name": "音响b",
+            "bone": "bone3",
+            "attachment": "音响b"
+        },
+        {
+            "name": "音响a",
+            "bone": "bone4",
+            "attachment": "音响a"
+        },
+        {
+            "name": "前盖",
+            "bone": "root",
+            "attachment": "前盖"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bg": {
+                    "bg": {
+                        "y": 5.5,
+                        "width": 515,
+                        "height": 204
+                    }
+                },
+                "前盖": {
+                    "前盖": {
+                        "width": 585,
+                        "height": 253
+                    }
+                },
+                "圆a": {
+                    "圆a": {
+                        "x": -0.16,
+                        "y": -4.29,
+                        "width": 63,
+                        "height": 63
+                    }
+                },
+                "圆b": {
+                    "圆b": {
+                        "x": 0.26,
+                        "y": 0.18,
+                        "width": 94,
+                        "height": 95
+                    }
+                },
+                "皮带1": {
+                    "皮带1": {
+                        "x": 6.56,
+                        "y": -9.65,
+                        "width": 129,
+                        "height": 24
+                    }
+                },
+                "皮带2": {
+                    "皮带2": {
+                        "x": 6.22,
+                        "y": -9.79,
+                        "width": 129,
+                        "height": 24
+                    }
+                },
+                "音响a": {
+                    "音响a": {
+                        "x": -0.15,
+                        "y": -1.69,
+                        "width": 124,
+                        "height": 125
+                    }
+                },
+                "音响b": {
+                    "音响b": {
+                        "x": -0.15,
+                        "y": -4.69,
+                        "width": 134,
+                        "height": 135
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone5": {
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.1,
+                            "x": 1.02,
+                            "y": 1.02
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 0.99,
+                            "y": 0.99
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 1.005,
+                            "y": 1.005
+                        },
+                        {
+                            "time": 0.3333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333
+                        },
+                        {
+                            "time": 0.9333,
+                            "x": 1.02,
+                            "y": 1.02
+                        },
+                        {
+                            "time": 1.0333,
+                            "x": 0.99,
+                            "y": 0.99
+                        },
+                        {
+                            "time": 1.1,
+                            "x": 1.005,
+                            "y": 1.005
+                        },
+                        {
+                            "time": 1.1667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2667
+                        },
+                        {
+                            "time": 1.3667,
+                            "x": 1.02,
+                            "y": 1.02
+                        },
+                        {
+                            "time": 1.4667,
+                            "x": 0.99,
+                            "y": 0.99
+                        },
+                        {
+                            "time": 1.5333,
+                            "x": 1.005,
+                            "y": 1.005
+                        },
+                        {
+                            "time": 1.6
+                        }
+                    ]
+                },
+                "bone2": {
+                    "scale": [
+                        {
+                            "x": 1.002,
+                            "y": 1.002
+                        },
+                        {
+                            "time": 0.0333
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 1.02,
+                            "y": 1.02
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": 0.99,
+                            "y": 0.99
+                        },
+                        {
+                            "time": 0.3,
+                            "x": 1.005,
+                            "y": 1.005
+                        },
+                        {
+                            "time": 0.3667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8667
+                        },
+                        {
+                            "time": 0.9667,
+                            "x": 1.02,
+                            "y": 1.02
+                        },
+                        {
+                            "time": 1.0667,
+                            "x": 0.99,
+                            "y": 0.99
+                        },
+                        {
+                            "time": 1.1333,
+                            "x": 1.005,
+                            "y": 1.005
+                        },
+                        {
+                            "time": 1.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 1.02,
+                            "y": 1.02
+                        },
+                        {
+                            "time": 1.5,
+                            "x": 0.99,
+                            "y": 0.99
+                        },
+                        {
+                            "time": 1.5667,
+                            "x": 1.005,
+                            "y": 1.005
+                        },
+                        {
+                            "time": 1.6,
+                            "x": 1.002,
+                            "y": 1.002
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "bone3": {
+            "rootBoneName": "bone3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.1,
+                    "scaleXAmp": 0.005,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.918941648812095,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "bone4": {
+            "rootBoneName": "bone4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.1,
+                    "scaleXAmp": 0.005,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1.5112919710009554,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "皮带1": {
+            "rootBoneName": "皮带1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 0.2,
+                    "moveXAmp": 1,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.0113768664625202,
+                    "moveXCenter": 0,
+                    "moveXSeed": 1720.5795320913755
+                }
+            }
+        },
+        "皮带2": {
+            "rootBoneName": "皮带2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 0.2,
+                    "moveXAmp": 1,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.05,
+                    "moveXCenter": 0,
+                    "moveXSeed": 1717.813052528985
+                }
+            }
+        },
+        "圆b": {
+            "rootBoneName": "圆b",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": -1.4
+                }
+            }
+        },
+        "圆a": {
+            "rootBoneName": "圆a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": -2
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

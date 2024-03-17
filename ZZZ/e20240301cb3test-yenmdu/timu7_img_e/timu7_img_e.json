@@ -1,0 +1,151 @@
+{
+    "skeleton": {
+        "hash": "170DCBG33K0",
+        "spine": "4.0-from-4.1.24",
+        "x": -102,
+        "y": -242,
+        "width": 205,
+        "height": 484
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "timu7_img_e",
+            "parent": "root",
+            "x": -7.01,
+            "y": -204.59
+        },
+        {
+            "name": "timu7_img_e2",
+            "parent": "timu7_img_e",
+            "length": 144.78,
+            "rotation": 86.92,
+            "x": 1.11,
+            "y": 10.01
+        }
+    ],
+    "slots": [
+        {
+            "name": "timu7_img_e",
+            "bone": "timu7_img_e2",
+            "attachment": "timu7_img_e"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "timu7_img_e": {
+                    "timu7_img_e": {
+                        "x": 194.65,
+                        "y": 4.07,
+                        "rotation": -86.92,
+                        "width": 205,
+                        "height": 484
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "bones": {
+                "timu7_img_e": {
+                    "rotate": [
+                        {
+                            "value": -76.7,
+                            "curve": [
+                                0.122,
+                                -76.7,
+                                0.222,
+                                9.43
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "value": 9.43,
+                            "curve": [
+                                0.467,
+                                9.43,
+                                0.514,
+                                -4.74
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -4.74,
+                            "curve": [
+                                0.802,
+                                -4.74,
+                                0.889,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 130.56,
+                            "curve": [
+                                0.103,
+                                130.56,
+                                0.164,
+                                -12.1,
+                                0.103,
+                                0,
+                                0.164,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": -12.1,
+                            "curve": [
+                                0.37,
+                                -12.1,
+                                0.511,
+                                -4.03,
+                                0.37,
+                                0,
+                                0.511,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.6333
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {}
+    },
+    "extra": {
+        "timu7_img_e2": {
+            "rootBoneName": "timu7_img_e2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 3,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

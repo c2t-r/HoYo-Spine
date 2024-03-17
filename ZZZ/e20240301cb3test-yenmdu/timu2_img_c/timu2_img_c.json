@@ -1,0 +1,301 @@
+{
+    "skeleton": {
+        "hash": "47DGZ9dD/fU",
+        "spine": "4.0-from-4.1.24",
+        "x": -368,
+        "y": -320,
+        "width": 736,
+        "height": 640
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "cd",
+            "parent": "root",
+            "x": 3.79,
+            "y": 127.28
+        },
+        {
+            "name": "cb",
+            "parent": "cd",
+            "x": 247.38,
+            "y": -403.96
+        },
+        {
+            "name": "cb2",
+            "parent": "cb",
+            "x": -0.93,
+            "y": 62.08
+        },
+        {
+            "name": "ca",
+            "parent": "root",
+            "x": -289.92,
+            "y": 89.29
+        },
+        {
+            "name": "ca2",
+            "parent": "ca",
+            "x": 0.93,
+            "y": 19.46
+        }
+    ],
+    "slots": [
+        {
+            "name": "cbyy",
+            "bone": "cb2",
+            "attachment": "cbyy"
+        },
+        {
+            "name": "cd",
+            "bone": "cd",
+            "attachment": "cd"
+        },
+        {
+            "name": "cb",
+            "bone": "cb2",
+            "attachment": "cb"
+        },
+        {
+            "name": "ca",
+            "bone": "ca2",
+            "attachment": "ca"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "ca": {
+                    "ca": {
+                        "x": 7.49,
+                        "y": -68.75,
+                        "width": 173,
+                        "height": 356
+                    }
+                },
+                "cb": {
+                    "cb": {
+                        "x": 21.26,
+                        "y": 167.61,
+                        "width": 193,
+                        "height": 488
+                    }
+                },
+                "cbyy": {
+                    "cbyy": {
+                        "x": 28.76,
+                        "y": 148.11,
+                        "width": 178,
+                        "height": 507
+                    }
+                },
+                "cd": {
+                    "cd": {
+                        "x": -3.29,
+                        "y": -116.78,
+                        "width": 525,
+                        "height": 619
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "bones": {
+                "cb": {
+                    "rotate": [
+                        {
+                            "value": -66.71,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -66.71,
+                            "curve": [
+                                0.249,
+                                -66.71,
+                                0.433,
+                                2.59
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 2.59,
+                            "curve": [
+                                0.689,
+                                2.59,
+                                0.811,
+                                -1.38
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "value": -1.38,
+                            "curve": [
+                                1.067,
+                                -1.38,
+                                1.2,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.3333
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 176.04,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": 176.04,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 176.04,
+                            "curve": [
+                                0.4,
+                                176.04,
+                                0.533,
+                                -21.31,
+                                0.4,
+                                0,
+                                0.533,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": -21.31,
+                            "curve": [
+                                0.789,
+                                -21.31,
+                                0.911,
+                                12.04,
+                                0.789,
+                                0,
+                                0.911,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "x": 12.04,
+                            "curve": [
+                                1.167,
+                                12.04,
+                                1.3,
+                                0,
+                                1.167,
+                                0,
+                                1.3,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.4333
+                        }
+                    ]
+                },
+                "ca": {
+                    "translate": [
+                        {
+                            "y": -414.15,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "y": -414.15,
+                            "curve": [
+                                0.685,
+                                0,
+                                0.789,
+                                0,
+                                0.685,
+                                -297.41,
+                                0.789,
+                                25.02
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "y": 25.02,
+                            "curve": [
+                                1.052,
+                                0,
+                                1.182,
+                                0,
+                                1.052,
+                                25.02,
+                                1.182,
+                                -7.41
+                            ]
+                        },
+                        {
+                            "time": 1.3,
+                            "y": -7.41,
+                            "curve": [
+                                1.471,
+                                0,
+                                1.629,
+                                0,
+                                1.471,
+                                -7.41,
+                                1.629,
+                                -2.47
+                            ]
+                        },
+                        {
+                            "time": 1.8
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {}
+    },
+    "extra": {
+        "cb2": {
+            "rootBoneName": "cb2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 2,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 1,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "ca2": {
+            "rootBoneName": "ca2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 3,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.7930447429199666,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

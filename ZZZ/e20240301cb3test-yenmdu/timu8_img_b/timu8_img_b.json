@@ -1,0 +1,158 @@
+{
+    "skeleton": {
+        "hash": "yxsB3SHat2w",
+        "spine": "4.0-from-4.1.24",
+        "x": -372,
+        "y": -164,
+        "width": 744,
+        "height": 328
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "timu8_img_b",
+            "parent": "root",
+            "x": 0.32,
+            "y": -86
+        }
+    ],
+    "slots": [
+        {
+            "name": "timu8_img_b",
+            "bone": "timu8_img_b",
+            "attachment": "timu8_img_b"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "timu8_img_b": {
+                    "timu8_img_b": {
+                        "x": -0.32,
+                        "y": 86,
+                        "width": 744,
+                        "height": 328
+                    },
+                    "timu8_img_c": {
+                        "x": -0.32,
+                        "y": 86,
+                        "width": 175,
+                        "height": 308
+                    },
+                    "timu8_img_d": {
+                        "x": -0.32,
+                        "y": 86,
+                        "width": 751,
+                        "height": 530
+                    },
+                    "timu8_img_e": {
+                        "x": -0.32,
+                        "y": 86,
+                        "width": 395,
+                        "height": 217
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "b": {
+            "slots": {
+                "timu8_img_b": {
+                    "attachment": [
+                        {
+                            "name": "timu8_img_b"
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "timu8_img_b": {
+                    "attachment": [
+                        {
+                            "name": "timu8_img_c"
+                        }
+                    ]
+                }
+            }
+        },
+        "d": {
+            "slots": {
+                "timu8_img_b": {
+                    "attachment": [
+                        {
+                            "name": "timu8_img_d"
+                        }
+                    ]
+                }
+            }
+        },
+        "e": {
+            "slots": {
+                "timu8_img_b": {
+                    "attachment": [
+                        {
+                            "name": "timu8_img_e"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "timu8_img_b": {
+            "rootBoneName": "timu8_img_b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                },
+                "b": {
+                    "name": "b",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.3502814459787946,
+                    "scaleXCenter": 0
+                },
+                "d": {
+                    "name": "d",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                },
+                "e": {
+                    "name": "e",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -0.622895220719595,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

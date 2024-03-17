@@ -1,0 +1,107 @@
+{
+    "skeleton": {
+        "hash": "BabyUDiFfz4",
+        "spine": "4.0-from-4.1.24",
+        "x": -352.5,
+        "y": -275,
+        "width": 705,
+        "height": 550
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 1.31,
+            "y": -156.23
+        }
+    ],
+    "slots": [
+        {
+            "name": "timu2_img_b",
+            "bone": "bone",
+            "attachment": "timu2_img_b"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "timu2_img_b": {
+                    "timu2_img_b": {
+                        "x": -1.31,
+                        "y": 156.23,
+                        "width": 705,
+                        "height": 550
+                    },
+                    "timu2_img_d": {
+                        "x": -1.31,
+                        "y": 156.23,
+                        "width": 731,
+                        "height": 662
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "b": {
+            "slots": {
+                "timu2_img_b": {
+                    "attachment": [
+                        {
+                            "name": "timu2_img_b"
+                        }
+                    ]
+                }
+            }
+        },
+        "d": {
+            "slots": {
+                "timu2_img_b": {
+                    "attachment": [
+                        {
+                            "name": "timu2_img_d"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 2,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                },
+                "d": {
+                    "name": "d",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.01,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.81,
+                    "scaleXCenter": 0.01
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

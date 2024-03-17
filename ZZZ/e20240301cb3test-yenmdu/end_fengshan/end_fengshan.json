@@ -1,0 +1,66 @@
+{
+    "skeleton": {
+        "hash": "nP09MdqS+SE",
+        "spine": "4.0-from-4.1.24",
+        "x": -73,
+        "y": -73,
+        "width": 146,
+        "height": 146
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "end_fengshan",
+            "parent": "root",
+            "x": -0.05,
+            "y": 5.23
+        }
+    ],
+    "slots": [
+        {
+            "name": "end_fengshan",
+            "bone": "end_fengshan",
+            "attachment": "end_fengshan"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "end_fengshan": {
+                    "end_fengshan": {
+                        "x": 0.05,
+                        "y": -5.23,
+                        "width": 146,
+                        "height": 146
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "end_fengshan": {
+            "rootBoneName": "end_fengshan",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.4
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

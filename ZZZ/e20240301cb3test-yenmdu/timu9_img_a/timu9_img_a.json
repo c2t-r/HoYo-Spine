@@ -1,0 +1,243 @@
+{
+    "skeleton": {
+        "hash": "PTp5zy7vNww",
+        "spine": "4.0-from-4.1.24",
+        "x": -367.5,
+        "y": -157,
+        "width": 735,
+        "height": 314
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "a",
+            "parent": "root",
+            "x": -1.13,
+            "y": -142.64
+        },
+        {
+            "name": "ac",
+            "parent": "a",
+            "x": 157.81,
+            "y": 23.83
+        },
+        {
+            "name": "ab",
+            "parent": "a",
+            "x": -124.96,
+            "y": 38.65
+        },
+        {
+            "name": "aa",
+            "parent": "a",
+            "x": -327.86,
+            "y": 57.33
+        }
+    ],
+    "slots": [
+        {
+            "name": "ac",
+            "bone": "ac",
+            "attachment": "ac"
+        },
+        {
+            "name": "ab",
+            "bone": "ab",
+            "attachment": "ab"
+        },
+        {
+            "name": "aa",
+            "bone": "aa",
+            "attachment": "aa"
+        },
+        {
+            "name": "timu9_img_c",
+            "bone": "a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "aa": {
+                    "aa": {
+                        "x": 12.49,
+                        "y": 18.31,
+                        "width": 102,
+                        "height": 170
+                    }
+                },
+                "ab": {
+                    "ab": {
+                        "x": -11.41,
+                        "y": 26.49,
+                        "width": 284,
+                        "height": 159
+                    }
+                },
+                "ac": {
+                    "ac": {
+                        "x": 22.31,
+                        "y": 118.8,
+                        "width": 377,
+                        "height": 314
+                    }
+                },
+                "timu9_img_c": {
+                    "timu9_img_c": {
+                        "x": 1.13,
+                        "y": 142.64,
+                        "width": 738,
+                        "height": 312
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "aa": {
+                    "attachment": [
+                        {
+                            "name": "aa"
+                        }
+                    ]
+                },
+                "ab": {
+                    "attachment": [
+                        {
+                            "name": "ab"
+                        }
+                    ]
+                },
+                "ac": {
+                    "attachment": [
+                        {
+                            "name": "ac"
+                        }
+                    ]
+                },
+                "timu9_img_c": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "aa": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "ab": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "ac": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "timu9_img_c": {
+                    "attachment": [
+                        {
+                            "name": "timu9_img_c"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "aa": {
+            "rootBoneName": "aa",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 2,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                },
+                "c": {
+                    "name": "c",
+                    "mode": 0
+                }
+            }
+        },
+        "ab": {
+            "rootBoneName": "ab",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 2,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.684691041180749,
+                    "moveYCenter": 0
+                },
+                "c": {
+                    "name": "c",
+                    "mode": 0
+                }
+            }
+        },
+        "ac": {
+            "rootBoneName": "ac",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 2,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.5526750133267736,
+                    "moveYCenter": 0
+                },
+                "c": {
+                    "name": "c",
+                    "mode": 0
+                }
+            }
+        },
+        "a": {
+            "rootBoneName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "c": {
+                    "name": "c",
+                    "mode": 3,
+                    "moveYFreq": 3,
+                    "moveYAmp": 3,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -3.3423509993168885,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "skeleton": {
+        "hash": "mq98qkU8LXE",
+        "spine": "4.0-from-4.1.24",
+        "x": -115,
+        "y": -114,
+        "width": 230,
+        "height": 229
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 0.06,
+            "y": 5.65
+        }
+    ],
+    "slots": [
+        {
+            "name": "end_yuan_l",
+            "bone": "bone",
+            "attachment": "end_yuan_l"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "end_yuan_l": {
+                    "end_yuan_l": {
+                        "x": -0.06,
+                        "y": -5.15,
+                        "width": 230,
+                        "height": 229
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": -0.2
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
