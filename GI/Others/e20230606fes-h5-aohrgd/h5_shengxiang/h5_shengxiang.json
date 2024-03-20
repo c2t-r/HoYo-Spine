@@ -1,0 +1,100 @@
+{
+    "skeleton": {
+        "hash": "5vX8h7Sjxmo",
+        "spine": "4.1.17",
+        "x": 8.79,
+        "y": -511.3,
+        "width": 386,
+        "height": 650
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone2",
+            "parent": "root",
+            "x": 211.42,
+            "y": -431.72
+        }
+    ],
+    "slots": [
+        {
+            "name": "岩",
+            "bone": "bone2",
+            "attachment": "岩"
+        },
+        {
+            "name": "草",
+            "bone": "bone2",
+            "attachment": "草"
+        },
+        {
+            "name": "雷",
+            "bone": "bone2",
+            "attachment": "雷"
+        },
+        {
+            "name": "风",
+            "bone": "bone2",
+            "attachment": "风"
+        }
+    ],
+    "skins": [
+        {
+            "name": "cao",
+            "attachments": {
+                "草": {
+                    "草": {
+                        "x": -89.06,
+                        "y": 265.58,
+                        "width": 413,
+                        "height": 682
+                    }
+                }
+            }
+        },
+        {
+            "name": "feng",
+            "attachments": {
+                "风": {
+                    "风": {
+                        "x": -9.63,
+                        "y": 245.43,
+                        "width": 386,
+                        "height": 650
+                    }
+                }
+            }
+        },
+        {
+            "name": "lei",
+            "attachments": {
+                "雷": {
+                    "雷": {
+                        "x": -18.37,
+                        "y": 294.94,
+                        "width": 330,
+                        "height": 747
+                    }
+                }
+            }
+        },
+        {
+            "name": "yan",
+            "attachments": {
+                "岩": {
+                    "岩": {
+                        "x": -5.54,
+                        "y": 279.75,
+                        "width": 360,
+                        "height": 710
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "daiji": {}
+    }
+}

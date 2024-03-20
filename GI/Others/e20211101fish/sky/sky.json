@@ -1,0 +1,226 @@
+{
+    "skeleton": {
+        "hash": "UsZyLgHJtc8",
+        "spine": "4.0.16",
+        "x": -2060.5,
+        "y": 1,
+        "width": 4179,
+        "height": 1443
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "天空底",
+            "bone": "bone",
+            "attachment": "天空底"
+        },
+        {
+            "name": "云层9",
+            "bone": "bone",
+            "attachment": "云层9"
+        },
+        {
+            "name": "云层8",
+            "bone": "bone",
+            "attachment": "云层8"
+        },
+        {
+            "name": "云层7",
+            "bone": "bone",
+            "attachment": "云层7"
+        },
+        {
+            "name": "云层6",
+            "bone": "bone",
+            "attachment": "云层6"
+        },
+        {
+            "name": "云层5",
+            "bone": "bone",
+            "attachment": "云层5"
+        },
+        {
+            "name": "云层4",
+            "bone": "bone",
+            "attachment": "云层4"
+        },
+        {
+            "name": "云层3",
+            "bone": "bone",
+            "attachment": "云层3"
+        },
+        {
+            "name": "月亮",
+            "bone": "bone",
+            "attachment": "月亮"
+        },
+        {
+            "name": "云层2",
+            "bone": "bone",
+            "attachment": "云层2"
+        },
+        {
+            "name": "云层1",
+            "bone": "bone",
+            "attachment": "云层1"
+        },
+        {
+            "name": "星尘",
+            "bone": "bone",
+            "attachment": "星尘"
+        },
+        {
+            "name": "星星 3",
+            "bone": "bone",
+            "attachment": "星星 3"
+        },
+        {
+            "name": "星星 2",
+            "bone": "bone",
+            "attachment": "星星 2"
+        },
+        {
+            "name": "星星 1",
+            "bone": "bone",
+            "attachment": "星星 1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "云层1": {
+                    "云层1": {
+                        "x": -227.5,
+                        "y": 292,
+                        "width": 3496,
+                        "height": 582
+                    }
+                },
+                "云层2": {
+                    "云层2": {
+                        "x": 458.5,
+                        "y": 274.5,
+                        "width": 3320,
+                        "height": 547
+                    }
+                },
+                "云层3": {
+                    "云层3": {
+                        "x": -417.5,
+                        "y": 477.5,
+                        "width": 3106,
+                        "height": 695
+                    }
+                },
+                "云层4": {
+                    "云层4": {
+                        "x": 188,
+                        "y": 509.5,
+                        "width": 2759,
+                        "height": 717
+                    }
+                },
+                "云层5": {
+                    "云层5": {
+                        "x": 84.5,
+                        "y": 577,
+                        "width": 3950,
+                        "height": 872
+                    }
+                },
+                "云层6": {
+                    "云层6": {
+                        "x": -909,
+                        "y": 610,
+                        "width": 2303,
+                        "height": 632
+                    }
+                },
+                "云层7": {
+                    "云层7": {
+                        "x": 356,
+                        "y": 644,
+                        "width": 2647,
+                        "height": 856
+                    }
+                },
+                "云层8": {
+                    "云层8": {
+                        "x": -261.5,
+                        "y": 752,
+                        "width": 3572,
+                        "height": 846
+                    }
+                },
+                "云层9": {
+                    "云层9": {
+                        "x": -304.5,
+                        "y": 941,
+                        "width": 2934,
+                        "height": 1006
+                    }
+                },
+                "天空底": {
+                    "天空底": {
+                        "x": -1078.5,
+                        "y": 1157.5,
+                        "width": 72,
+                        "height": 35
+                    }
+                },
+                "星尘": {
+                    "星尘": {
+                        "x": -582,
+                        "y": 938.5,
+                        "width": 1193,
+                        "height": 297
+                    }
+                },
+                "星星 1": {
+                    "星星 1": {
+                        "x": -961.5,
+                        "y": 985.5,
+                        "width": 38,
+                        "height": 37
+                    }
+                },
+                "星星 2": {
+                    "星星 2": {
+                        "x": -145.5,
+                        "y": 1052.5,
+                        "width": 24,
+                        "height": 25
+                    }
+                },
+                "星星 3": {
+                    "星星 3": {
+                        "x": 35,
+                        "y": 873.5,
+                        "width": 23,
+                        "height": 25
+                    }
+                },
+                "月亮": {
+                    "月亮": {
+                        "x": -487.5,
+                        "y": 610,
+                        "width": 752,
+                        "height": 752
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

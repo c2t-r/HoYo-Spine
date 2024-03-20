@@ -1,0 +1,45 @@
+{
+    "skeleton": {
+        "hash": "UsZyLgHJtc8",
+        "spine": "4.0.16",
+        "x": -100.79,
+        "y": 6.96,
+        "width": 201.59,
+        "height": 256.27
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "P1_SXJ",
+            "parent": "root",
+            "scaleX": 0.6588,
+            "scaleY": 0.6588
+        }
+    ],
+    "slots": [
+        {
+            "name": "p2_SXJ",
+            "bone": "P1_SXJ",
+            "attachment": "p2_SXJ"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "p2_SXJ": {
+                    "p2_SXJ": {
+                        "y": 205.07,
+                        "width": 306,
+                        "height": 389
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}
