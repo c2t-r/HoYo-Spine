@@ -170,6 +170,8 @@ google: ```site:act.hoyolab.com/bbs/event OR site:webstatic-sea.hoyolab.com/bbs/
 - https://act.hoyolab.com/bbs/event/bbs-event-20230908mimo/index.html
 - https://act.hoyolab.com/bbs/event/epiaol0820v2/index.html
 
-## Others
-
+### Others
+- https://act.hoyolab.com/ys/event/hoyofair202209/index.html
 - https://act.hoyolab.com/ys/event/e20221024music_ost/index.html
+- https://act.hoyolab.com/ys/event/hoyofair202212-m5d1mk/index.html
+- https://act.hoyolab.com/ys/event/hoyofair202304-wds1p6/index.html

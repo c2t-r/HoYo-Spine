@@ -1,0 +1,80 @@
+{
+    "skeleton": {
+        "hash": "nn0PLkwipQU",
+        "spine": "4.0-from-4.1.19",
+        "x": -1038,
+        "y": -781,
+        "width": 2076,
+        "height": 1562
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "index_guan_quanju",
+            "bone": "root",
+            "attachment": "index_guan_quanju",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "index_guan_quanju": {
+                    "index_guan_quanju": {
+                        "width": 2076,
+                        "height": 1562
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "root": {
+            "rootBoneName": "root",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 9608,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "index_guan_quanju": {
+            "slotName": "index_guan_quanju",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.6,
+                    "delay": 0,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

@@ -1,0 +1,254 @@
+{
+    "skeleton": {
+        "hash": "En3dIMnN4/k",
+        "spine": "4.0.33",
+        "x": 413.19,
+        "y": -457.85,
+        "width": 498.81,
+        "height": 103.69
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "关闭",
+            "parent": "root",
+            "x": 869.75,
+            "y": -407.8
+        },
+        {
+            "name": "分享",
+            "parent": "root",
+            "x": 737.95,
+            "y": -407.8
+        },
+        {
+            "name": "返回首页",
+            "parent": "root",
+            "x": 526.07,
+            "y": -407.8
+        }
+    ],
+    "slots": [
+        {
+            "name": "关闭",
+            "bone": "关闭",
+            "attachment": "关闭"
+        },
+        {
+            "name": "分享",
+            "bone": "分享",
+            "attachment": "分享"
+        },
+        {
+            "name": "返回首页",
+            "bone": "返回首页",
+            "attachment": "返回首页"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "关闭": {
+                    "关闭": {
+                        "x": 0.75,
+                        "y": 2.3,
+                        "width": 83,
+                        "height": 102
+                    }
+                },
+                "分享": {
+                    "分享": {
+                        "x": -0.75,
+                        "y": 2.63,
+                        "width": 83,
+                        "height": 102
+                    }
+                },
+                "返回首页": {
+                    "返回首页": {
+                        "x": 3.62,
+                        "y": 0.94,
+                        "width": 233,
+                        "height": 102
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "1_back": {
+            "slots": {
+                "关闭": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "分享": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "返回首页": {
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "返回首页"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "返回首页": {
+                    "translatey": [
+                        {
+                            "value": 82.61,
+                            "curve": [
+                                0.067,
+                                82.61,
+                                0.133,
+                                -6.94
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "value": -6.94,
+                            "curve": [
+                                0.244,
+                                -6.94,
+                                0.289,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                }
+            }
+        },
+        "2_share": {
+            "slots": {
+                "关闭": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "分享": {
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "分享"
+                        }
+                    ]
+                },
+                "返回首页": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "分享": {
+                    "translatey": [
+                        {
+                            "value": 82.61,
+                            "curve": [
+                                0.067,
+                                82.61,
+                                0.133,
+                                -6.94
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "value": -6.94,
+                            "curve": [
+                                0.244,
+                                -6.94,
+                                0.289,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                }
+            }
+        },
+        "3_close3": {
+            "slots": {
+                "关闭": {
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "关闭"
+                        }
+                    ]
+                },
+                "分享": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "返回首页": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "关闭": {
+                    "translatey": [
+                        {
+                            "value": 82.61,
+                            "curve": [
+                                0.067,
+                                82.61,
+                                0.133,
+                                -6.94
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "value": -6.94,
+                            "curve": [
+                                0.244,
+                                -6.94,
+                                0.289,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

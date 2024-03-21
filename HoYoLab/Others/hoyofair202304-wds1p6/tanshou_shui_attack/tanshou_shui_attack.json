@@ -1,0 +1,916 @@
+{
+    "skeleton": {
+        "hash": "HsSrquYdI94",
+        "spine": "4.0-from-4.1.19",
+        "x": -142.5,
+        "y": -141.9,
+        "width": 286.2,
+        "height": 283.2
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.6,
+            "scaleY": 0.6
+        },
+        {
+            "name": "pop",
+            "parent": "root"
+        },
+        {
+            "name": "pop2",
+            "parent": "pop"
+        },
+        {
+            "name": "碎",
+            "parent": "root"
+        },
+        {
+            "name": "碎3",
+            "parent": "碎"
+        },
+        {
+            "name": "碎4",
+            "parent": "碎"
+        },
+        {
+            "name": "碎6",
+            "parent": "碎"
+        },
+        {
+            "name": "碎7",
+            "parent": "碎"
+        },
+        {
+            "name": "碎8",
+            "parent": "碎"
+        },
+        {
+            "name": "碎9",
+            "parent": "碎"
+        },
+        {
+            "name": "碎11",
+            "parent": "碎"
+        },
+        {
+            "name": "碎12",
+            "parent": "碎"
+        }
+    ],
+    "slots": [
+        {
+            "name": "发光",
+            "bone": "pop2",
+            "attachment": "发光"
+        },
+        {
+            "name": "蓝泡",
+            "bone": "pop2",
+            "attachment": "蓝泡"
+        },
+        {
+            "name": "碎2",
+            "bone": "碎3",
+            "attachment": "碎"
+        },
+        {
+            "name": "碎3",
+            "bone": "碎4",
+            "attachment": "碎"
+        },
+        {
+            "name": "碎5",
+            "bone": "碎6",
+            "attachment": "碎"
+        },
+        {
+            "name": "碎6",
+            "bone": "碎7",
+            "attachment": "碎"
+        },
+        {
+            "name": "碎7",
+            "bone": "碎8",
+            "attachment": "碎"
+        },
+        {
+            "name": "碎8",
+            "bone": "碎9",
+            "attachment": "碎"
+        },
+        {
+            "name": "碎10",
+            "bone": "碎11",
+            "attachment": "碎"
+        },
+        {
+            "name": "碎11",
+            "bone": "碎12",
+            "attachment": "碎"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "发光": {
+                    "发光": {
+                        "x": 1,
+                        "y": -0.5,
+                        "width": 477,
+                        "height": 472
+                    }
+                },
+                "碎2": {
+                    "碎": {
+                        "width": 34,
+                        "height": 34
+                    }
+                },
+                "碎3": {
+                    "碎": {
+                        "width": 34,
+                        "height": 34
+                    }
+                },
+                "碎5": {
+                    "碎": {
+                        "width": 34,
+                        "height": 34
+                    }
+                },
+                "碎6": {
+                    "碎": {
+                        "width": 34,
+                        "height": 34
+                    }
+                },
+                "碎7": {
+                    "碎": {
+                        "width": 34,
+                        "height": 34
+                    }
+                },
+                "碎8": {
+                    "碎": {
+                        "width": 34,
+                        "height": 34
+                    }
+                },
+                "碎10": {
+                    "碎": {
+                        "width": 34,
+                        "height": 34
+                    }
+                },
+                "碎11": {
+                    "碎": {
+                        "width": 34,
+                        "height": 34
+                    }
+                },
+                "蓝泡": {
+                    "蓝泡": {
+                        "width": 303,
+                        "height": 303
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "发光": {
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "发光"
+                        }
+                    ]
+                },
+                "碎2": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎3": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎5": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎6": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎7": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎8": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎10": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎11": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "蓝泡": {
+                    "attachment": [
+                        {
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "蓝泡"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "pop2": {
+                    "scalex": [
+                        {
+                            "value": 0.124,
+                            "curve": [
+                                0.089,
+                                0.124,
+                                0.178,
+                                1.194
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": 1.194,
+                            "curve": [
+                                0.389,
+                                1.194,
+                                0.511,
+                                0.943
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": 0.943,
+                            "curve": [
+                                0.756,
+                                0.943,
+                                0.878,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ],
+                    "scaley": [
+                        {
+                            "value": 0.124,
+                            "curve": [
+                                0.089,
+                                0.124,
+                                0.178,
+                                1.194
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": 1.194,
+                            "curve": [
+                                0.389,
+                                1.194,
+                                0.511,
+                                0.943
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": 0.943,
+                            "curve": [
+                                0.756,
+                                0.943,
+                                0.878,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {
+            "slots": {
+                "碎2": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎3": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎5": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎6": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎7": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎8": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎10": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "碎11": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "pop2": {
+                    "scale": [
+                        {}
+                    ]
+                }
+            }
+        },
+        "out": {
+            "slots": {
+                "发光": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "碎2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffe3"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "碎"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": null
+                        }
+                    ]
+                },
+                "碎3": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "碎"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": null
+                        }
+                    ]
+                },
+                "碎5": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "碎"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": null
+                        }
+                    ]
+                },
+                "碎6": {
+                    "rgba": [
+                        {
+                            "color": "ffffff86"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "碎"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": null
+                        }
+                    ]
+                },
+                "碎7": {
+                    "rgba": [
+                        {
+                            "color": "ffffff80"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "碎"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": null
+                        }
+                    ]
+                },
+                "碎8": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "碎"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": null
+                        }
+                    ]
+                },
+                "碎10": {
+                    "rgba": [
+                        {
+                            "color": "ffffffc8"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "碎"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": null
+                        }
+                    ]
+                },
+                "碎11": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "碎"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": null
+                        }
+                    ]
+                },
+                "蓝泡": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "pop2": {
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.1333,
+                            "x": 1.545,
+                            "y": 1.545
+                        }
+                    ]
+                },
+                "碎3": {
+                    "translatex": [
+                        {
+                            "value": 96.82,
+                            "curve": [
+                                0.068,
+                                198.8,
+                                0.149,
+                                323.97
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "value": 340.05
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 42.5,
+                            "curve": [
+                                0.064,
+                                54.03,
+                                0.152,
+                                24.38
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "value": -23.36
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.622,
+                            "y": 0.622
+                        }
+                    ]
+                },
+                "碎4": {
+                    "translatex": [
+                        {
+                            "value": -98.42,
+                            "curve": [
+                                0.06,
+                                -181.39,
+                                0.147,
+                                -285.31
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "value": -274.2
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 7.92,
+                            "curve": [
+                                0.077,
+                                -13.64,
+                                0.161,
+                                -127.43
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "value": -241.47
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.731,
+                            "y": 0.731
+                        }
+                    ]
+                },
+                "碎6": {
+                    "translatex": [
+                        {
+                            "value": 54.65,
+                            "curve": [
+                                0.105,
+                                112.08,
+                                0.271,
+                                132.65
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 132.65
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 1.63,
+                            "curve": [
+                                0.128,
+                                -28.92,
+                                0.299,
+                                -226.99
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -381.21
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.423,
+                            "y": 0.423
+                        }
+                    ]
+                },
+                "碎7": {
+                    "translatex": [
+                        {
+                            "value": 59.52,
+                            "curve": [
+                                0.088,
+                                118.92,
+                                0.202,
+                                139.92
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": 139.92
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 90.84,
+                            "curve": [
+                                0.086,
+                                175.23,
+                                0.21,
+                                228.83
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": 228.83
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.48,
+                            "y": 0.48
+                        }
+                    ]
+                },
+                "碎8": {
+                    "translatex": [
+                        {
+                            "value": -116.63,
+                            "curve": [
+                                0.082,
+                                -250.77,
+                                0.217,
+                                -450.54
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -433.1
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 17.4,
+                            "curve": [
+                                0.104,
+                                22.86,
+                                0.236,
+                                -49.44
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -171.82
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.612,
+                            "y": 0.612
+                        }
+                    ]
+                },
+                "碎9": {
+                    "translatex": [
+                        {
+                            "value": -86.37,
+                            "curve": [
+                                0.075,
+                                -177.07,
+                                0.194,
+                                -304.8
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": -289.49
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 52.98,
+                            "curve": [
+                                0.099,
+                                111.78,
+                                0.208,
+                                109.94
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": 109.94
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.576,
+                            "y": 0.576
+                        }
+                    ]
+                },
+                "碎11": {
+                    "translatex": [
+                        {
+                            "curve": [
+                                0.055,
+                                102.87,
+                                0.146,
+                                276.17
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "value": 294.49
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "curve": [
+                                0.086,
+                                151.53,
+                                0.183,
+                                209.3
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "value": 209.3
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.634,
+                            "y": 0.634
+                        }
+                    ]
+                },
+                "碎12": {
+                    "translatex": [
+                        {
+                            "curve": [
+                                0.032,
+                                0,
+                                0.167,
+                                -173.23
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": -173.23
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "curve": [
+                                0.074,
+                                0,
+                                0.198,
+                                -42.66
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": -191.52
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.556,
+                            "y": 0.556
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "pop": {
+            "rootBoneName": "pop",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 6,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 3,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1,
+                    "scaleXCenter": -0.02
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "发光": {
+            "slotName": "发光",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1.5,
+                    "delay": 0,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
