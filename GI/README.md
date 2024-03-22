@@ -1,0 +1,105 @@
+# GI
+google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/ys/event OR site:webstatic-sea.mihoyo.com/ys/event```
+
+## version
+- 1.2 https://webstatic-sea.mihoyo.com/ys/event/e20201216new/index.html
+- 1.3 https://webstatic-sea.mihoyo.com/ys/event/e20210128warmup/index.html
+- 1.4 https://webstatic-sea.mihoyo.com/ys/event/e20210309prediction/index.html
+- 1.5 https://webstatic-sea.mihoyo.com/ys/event/e20210422newver/index.html
+- 1.6 https://webstatic-sea.mihoyo.com/ys/event/e20210603prepage/index.html#/index.html
+- 2.0 https://webstatic-sea.mihoyo.com/ys/event/e20210715-prepage/index.html
+- 2.1 https://webstatic-sea.mihoyo.com/ys/event/e20210820-preview/index.html
+- 2.2 https://webstatic-sea.mihoyo.com/ys/event/e20211004-preview/index.html
+- 2.3 https://webstatic-sea.hoyoverse.com/ys/event/e20211113pre/index.html
+- 2.4 https://webstatic-sea.hoyoverse.com/ys/event/e20211227-pre/index.html
+- 2.5 https://webstatic-sea.hoyoverse.com/ys/event/e20220207-previ/index.html
+- 2.6 https://webstatic-sea.hoyoverse.com/ys/event/e20220319-previ-fd5q/index.html
+- 2.7 https://act.hoyoverse.com/ys/event/e20220430-previ-xozn/index.html
+- 2.8 https://act.hoyoverse.com/ys/event/e20220703prev-wiz6/index.html
+- 3.0 https://act.hoyoverse.com/ys/event/e20220814prev/index.html
+- 3.1 https://act.hoyoverse.com/ys/event/e20220917prev/index.html
+- 3.2 https://act.hoyoverse.com/ys/event/e20221024prev/index.html
+- 3.3 https://act.hoyoverse.com/ys/event/e20221126prev-18kfmk/index.html
+- 3.4 https://act.hoyoverse.com/ys/event/e20230107preview-x2wqn1/index.html
+- 3.5 https://act.hoyoverse.com/ys/event/e20230218preview-z6n9lj/index.html
+- 3.6 https://act.hoyoverse.com/ys/event/e20230401preview-84u4sh/index.html
+- 3.7 https://act.hoyoverse.com/ys/event/e20230514preview-a9v8et/index.html
+- 3.8 https://act.hoyoverse.com/ys/event/e20230624preview/index.html
+- 4.0 https://act.hoyoverse.com/ys/event/e20230805preview/index.html
+- 4.1 https://act.hoyoverse.com/ys/event/e20230916preview/index.html
+- 4.2 https://act.hoyoverse.com/ys/event/e20231028preview/index.html
+- 4.3 https://act.hoyoverse.com/ys/event/e20231209preview-yh731z/index.html
+- 4.4 https://act.hoyoverse.com/ys/event/e20240120preview/index.html
+- 4.5 https://act.hoyoverse.com/ys/event/e20230302preview-2hu94k/index.html
+
+## Characters
+- https://webstatic-sea.mihoyo.com/ys/event/e20210624-boat/index.html <Kazuha>
+- https://webstatic-sea.mihoyo.com/ys/event/e20210726ayaka/index.html <Ayaka>
+- https://webstatic-sea.mihoyo.com/ys/event/e20210805-yoimiya/index.html <Yoimiya>
+- https://webstatic-sea.mihoyo.com/ys/event/e20211013-aloy/index.html <Aloy>
+- https://webstatic-sea.mihoyo.com/ys/event/e20211208itto/index.html <Itto>
+- https://webstatic-sea.mihoyo.com/ys/event/e20211231shenh/index.html <Shenhe>
+- https://webstatic-sea.mihoyo.com/ys/event/e20220211bac/index.html <Yae>
+- https://webstatic-sea.hoyoverse.com/ys/event/e20220325-ayato-c0xp/index.html <Ayato>
+- https://act.hoyoverse.com/ys/event/e20220526yelan-q8ne/index.html <Yelan>
+- https://act.hoyoverse.com/ys/event/e20220819tighnari-wmke/index.html <Tighnari>
+- https://act.hoyoverse.com/ys/event/e20221202wanderer-dwvz/index.html <Wanderer>
+- https://act.hoyoverse.com/ys/event/e20230113alhaitham-mayqbr/index.html <Alhaitham>
+- https://act.hoyoverse.com/ys/event/e20230427baizhu-eyecio/index.html <Baizhu>
+- https://act.hoyoverse.com/ys/event/e20230811lyney/index.html <Lyney>
+- https://act.hoyoverse.com/ys/event/e20220923cyno/index.html <Cyno>
+- https://act.hoyoverse.com/ys/event/e20221028nahida/index.html <Nahida>
+- https://act.hoyoverse.com/ys/event/e20230224dehya-tilwsu/index.html <Dehya>
+- https://act.hoyoverse.com/ys/event/e20230922neuvillette/index.html <Neuvillte>
+- https://act.hoyoverse.com/ys/event/e20231012wriothesley/index.html <Wriothesley>
+- https://act.hoyoverse.com/ys/event/e20231103furina/index.html <Furina>
+- https://act.hoyoverse.com/ys/event/e20231215navia/index.html <Navia>
+- https://act.hoyoverse.com/ys/event/e20240308chiori-cuesme/index.html <Chiori>
+
+## others
+- https://webstatic-sea.mihoyo.com/ys/event/e20201028-invite-sea/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20210122-slime/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20210219lantern/index.html <lantern2021>
+- https://webstatic-sea.mihoyo.com/ys/event/e20210316cooking-sea/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20210421-homeland/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20210428invite/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20210713warm/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20210901people/index.html
+- https://webstatic-sea.hoyoverse.com/ys/event/e20210907-wish/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20210928review/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20210930card/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20211101fish/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20211203-album/index.html
+- https://webstatic-sea.hoyoverse.com/ys/event/e20211229-snow/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20220129-postcard/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20220211bac/index.html
+- https://act.hoyoverse.com/ys/event/e20220415travel-tq8y/index.html
+- https://act.hoyoverse.com/ys/event/e20220429-chess-gop5/index.html
+- https://act.hoyoverse.com/ys/event/e20220517-jump-eola/index.html <sogankyoen>
+- https://act.hoyoverse.com/ys/event/e20220722dream-6bgs/index.html
+- https://act.hoyoverse.com/ys/event/20220817puzzle-qgrp/index.html
+- https://act.hoyoverse.com/ys/event/e20220928review_data/index.html
+- https://act.hoyoverse.com/ys/event/e20220929-chess/index.html
+- https://act.hoyoverse.com/ys/event/e20221125aranara/index.html
+- https://act.hoyoverse.com/ys/event/e20221205-card-cnhdui/index.html
+- https://act.hoyoverse.com/ys/event/e20221220-wish-f9somk/index.html
+- https://act.hoyoverse.com/ys/event/e20221221novel-mf6wnm/index.html
+- https://act.hoyoverse.com/ys/event/e20230129-lantern-vqhoj8/index.html <lantern2023>
+- https://act.hoyoverse.com/ys/event/e20230205-firework-xm7wly/index.html
+- https://act.hoyoverse.com/ys/event/e20230511-school-4gaxpk/index.html
+- https://act.hoyoverse.com/ys/event/e20230704concert-h5/index.html <Concert> <no>
+- https://act.hoyoverse.com/ys/event/e20230804reserve/index.html
+- https://act.hoyoverse.com/ys/event/e20230809-photo/index.html
+- https://act.hoyoverse.com/ys/event/e20230827exhibition/index.html <fontaine>
+- https://act.hoyoverse.com/ys/event/e20230927celebration/index.html
+- https://act.hoyoverse.com/ys/event/e20230928review/index.html
+- https://act.hoyoverse.com/ys/event/e20231220sanxingdui/index.html <Zhongli cn collab>
+- https://act.hoyoverse.com/ys/event/e20231225melusine-questionnaire/index.html <melusine>
+- https://act.hoyoverse.com/ys/event/e20231227filmfest-qw321w/index.html
+- https://act.hoyoverse.com/ys/event/e20240116draw-aa1853b1/index.html
+- https://act.hoyoverse.com/ys/event/e20240118brush-u4b6my/index.html
+- https://act.hoyoverse.com/ys/event/e20240208lantern-vc7vnh/index.html <lantern2024>
+- https://act.hoyoverse.com/ys/event/e20240316discovery/index.html
+
+## hoyofest
+- 2023 https://act.hoyoverse.com/ys/event/hoyofest2023-xrdqyw/index.html
