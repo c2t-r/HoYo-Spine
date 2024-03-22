@@ -158,8 +158,10 @@ google: ```site:act.hoyoverse.com/zzz/event OR site:act.hoyoverse.com/nap/event`
 google: ```site:act.hoyolab.com/bbs/event OR site:webstatic-sea.hoyolab.com/bbs/event```
 
 ### Events
+- https://webstatic.mihoyo.com/bbs/event/bbs-event-e0519yyh/index.html
 - https://act.hoyolab.com/bbs/event/e20220708magazines/index.html
 - https://act.hoyolab.com/bbs/event/e20220906yka/index.html
+- https://webstatic.mihoyo.com/bbs/event/e20221020miyosummer/index.html
 - https://act.hoyolab.com/bbs/event/20230111ost/index.html
 - https://act.hoyolab.com/bbs/event/20230320ost-sea-vja90g/index.html
 - https://act.hoyolab.com/bbs/event/20230417mimo-sea/index.html

@@ -1,0 +1,95 @@
+{
+    "skeleton": {
+        "hash": "BXZhDdJYRZA",
+        "spine": "4.0.33",
+        "x": -1308.31,
+        "y": -604.56,
+        "width": 2620.75,
+        "height": 1211.1
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 24.81,
+            "y": 7.33,
+            "scaleX": 0.55,
+            "scaleY": 0.55
+        }
+    ],
+    "slots": [
+        {
+            "name": "1",
+            "bone": "bone",
+            "attachment": "1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "1": {
+                    "1": {
+                        "x": -41.35,
+                        "y": -11.53,
+                        "width": 4765,
+                        "height": 2202
+                    },
+                    "2": {
+                        "x": -41.35,
+                        "y": -11.53,
+                        "width": 4765,
+                        "height": 2202
+                    },
+                    "3": {
+                        "x": -41.35,
+                        "y": -11.53,
+                        "width": 4765,
+                        "height": 2202
+                    },
+                    "4": {
+                        "x": -41.35,
+                        "y": -11.53,
+                        "width": 4765,
+                        "height": 2202
+                    },
+                    "5": {
+                        "x": -41.35,
+                        "y": -11.53,
+                        "width": 4765,
+                        "height": 2202
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "hei": {
+            "slots": {
+                "1": {
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "2"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "3"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "4"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "5"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

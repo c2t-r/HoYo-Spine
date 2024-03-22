@@ -1,0 +1,311 @@
+{
+    "skeleton": {
+        "hash": "3iYZssmxqMI",
+        "spine": "4.0.33",
+        "x": -1359.05,
+        "y": 171.37,
+        "width": 349.97,
+        "height": 198.59
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 2.59,
+            "scaleY": 2.59
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 59.88,
+            "y": -630.84,
+            "scaleX": 0.3875,
+            "scaleY": 0.3875
+        },
+        {
+            "name": "广告牌",
+            "parent": "bone",
+            "x": -1357.78,
+            "y": 1885.65
+        }
+    ],
+    "slots": [
+        {
+            "name": "广告牌",
+            "bone": "广告牌",
+            "attachment": "广告牌"
+        },
+        {
+            "name": "广告牌3",
+            "bone": "广告牌",
+            "attachment": "广告牌3"
+        },
+        {
+            "name": "广告牌2",
+            "bone": "广告牌",
+            "attachment": "广告牌"
+        },
+        {
+            "name": "光02",
+            "bone": "广告牌",
+            "attachment": "光02"
+        },
+        {
+            "name": "光01",
+            "bone": "广告牌",
+            "attachment": "光01"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "光01": {
+                    "光01": {
+                        "x": -20.39,
+                        "y": 37.22,
+                        "width": 360,
+                        "height": 230
+                    }
+                },
+                "光02": {
+                    "光02": {
+                        "x": -20.89,
+                        "y": 37.22,
+                        "width": 365,
+                        "height": 236
+                    }
+                },
+                "广告牌": {
+                    "广告牌": {
+                        "x": -21.39,
+                        "y": 37.22,
+                        "width": 304,
+                        "height": 174
+                    }
+                },
+                "广告牌2": {
+                    "广告牌": {
+                        "x": -21.39,
+                        "y": 37.22,
+                        "width": 304,
+                        "height": 174
+                    }
+                },
+                "广告牌3": {
+                    "广告牌3": {
+                        "type": "clipping",
+                        "end": "光01",
+                        "vertexCount": 4,
+                        "vertices": [
+                            -199.65,
+                            -79.94,
+                            144.1,
+                            55.84,
+                            174.91,
+                            -8.51,
+                            -193.3,
+                            -170.25
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "光01": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.9,
+                            "color": "ffffff92"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.0333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.1,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "光02": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.9,
+                            "color": "ffffff8c"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.0333,
+                            "color": "ffffff8c"
+                        },
+                        {
+                            "time": 1.1,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "广告牌": {
+                    "rgba": [
+                        {
+                            "color": "c3dbd6ff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "广告牌"
+                        }
+                    ]
+                }
+            },
+            "deform": {
+                "default": {
+                    "广告牌3": {
+                        "广告牌3": [
+                            {
+                                "vertices": [
+                                    -42.39722,
+                                    221.59665,
+                                    -352.7943,
+                                    98.24356,
+                                    -377.51624,
+                                    -109.29259,
+                                    -44.06238,
+                                    41.08084
+                                ],
+                                "curve": "stepped"
+                            },
+                            {
+                                "time": 0.3333,
+                                "vertices": [
+                                    -42.39722,
+                                    221.59665,
+                                    -352.7943,
+                                    98.24356,
+                                    -377.51624,
+                                    -109.29259,
+                                    -44.06238,
+                                    41.08084
+                                ],
+                                "curve": [
+                                    0.4,
+                                    0,
+                                    0.467,
+                                    1
+                                ]
+                            },
+                            {
+                                "time": 0.5333,
+                                "vertices": [
+                                    -42.39722,
+                                    200.41849,
+                                    16.57458,
+                                    214.10706,
+                                    -8.70251,
+                                    13.47282,
+                                    -15.36914,
+                                    23.31836
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "loop": {
+            "slots": {
+                "光01": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "光02": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "广告牌": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "广告牌2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "deform": {
+                "default": {
+                    "广告牌3": {
+                        "广告牌3": [
+                            {
+                                "vertices": [
+                                    -99.85718,
+                                    223.81769,
+                                    13.08484,
+                                    235.525,
+                                    34.43359,
+                                    4.82065,
+                                    -78.50842,
+                                    -6.88666
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
