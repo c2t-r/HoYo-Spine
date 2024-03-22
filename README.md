@@ -6,7 +6,7 @@ note: there are not all spines used on following events
 if you have a request, feel free to tell me it  
   
 - [Honkai: StarRail](SR)
-- [Gensin Imapct / Yuanshen](GI)
+- [Genshin Imapct / Yuanshen](GI)
 - [Zenless Zone Zero](ZZZ)
 - [Honkai Impact 3rd / BH3](HI3)
 - [HoYoLab](HoYoLab)
