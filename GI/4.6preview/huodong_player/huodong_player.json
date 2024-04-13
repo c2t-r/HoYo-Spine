@@ -1,0 +1,1247 @@
+{
+    "skeleton": {
+        "hash": "hQdYCEXaF3s",
+        "spine": "4.0-from-4.1.24",
+        "x": -457,
+        "y": -514,
+        "width": 910.2,
+        "height": 1028
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "yifu",
+            "parent": "root",
+            "x": -40.08,
+            "y": -72.08
+        },
+        {
+            "name": "yifu2",
+            "parent": "yifu",
+            "x": -360.78,
+            "y": -292.98,
+            "scaleX": 1.0955,
+            "scaleY": 1.0955
+        },
+        {
+            "name": "yinfu_a2",
+            "parent": "yifu2",
+            "x": 7.59,
+            "y": 38.35
+        },
+        {
+            "name": "yinfu_a",
+            "parent": "yinfu_a2"
+        },
+        {
+            "name": "yinfu_b2",
+            "parent": "yifu2",
+            "x": 28.21,
+            "y": 66.99
+        },
+        {
+            "name": "yinfu_b",
+            "parent": "yinfu_b2"
+        },
+        {
+            "name": "唱片针",
+            "parent": "root",
+            "x": -259.05,
+            "y": 503.68
+        },
+        {
+            "name": "唱片针2",
+            "parent": "唱片针",
+            "length": 37.55,
+            "rotation": -59.04,
+            "y": 1.29
+        },
+        {
+            "name": "img",
+            "parent": "root",
+            "x": -34,
+            "y": -90
+        },
+        {
+            "name": "img2",
+            "parent": "img"
+        },
+        {
+            "name": "img3",
+            "parent": "img"
+        },
+        {
+            "name": "yifu3",
+            "parent": "yifu",
+            "x": -377.49,
+            "y": 253.59,
+            "scaleX": 0.9284,
+            "scaleY": 0.9284
+        },
+        {
+            "name": "yinfu_c3",
+            "parent": "yifu3",
+            "x": 11.72,
+            "y": 36.65
+        },
+        {
+            "name": "yinfu_c4",
+            "parent": "yinfu_c3"
+        },
+        {
+            "name": "yinfu_b3",
+            "parent": "yifu3",
+            "x": 28.21,
+            "y": 66.99
+        },
+        {
+            "name": "yinfu_b4",
+            "parent": "yinfu_b3"
+        },
+        {
+            "name": "yifu4",
+            "parent": "yifu",
+            "x": 441.17,
+            "y": -113.97,
+            "scaleX": 0.7961,
+            "scaleY": 0.7961
+        },
+        {
+            "name": "yinfu_c5",
+            "parent": "yifu4",
+            "x": 11.72,
+            "y": 36.65
+        },
+        {
+            "name": "yinfu_c6",
+            "parent": "yinfu_c5"
+        },
+        {
+            "name": "yinfu_a5",
+            "parent": "yifu4",
+            "x": 7.59,
+            "y": 38.35
+        },
+        {
+            "name": "yinfu_a6",
+            "parent": "yinfu_a5"
+        }
+    ],
+    "slots": [
+        {
+            "name": "盘",
+            "bone": "img2",
+            "attachment": "盘"
+        },
+        {
+            "name": "img",
+            "bone": "img3",
+            "attachment": "img"
+        },
+        {
+            "name": "唱片针",
+            "bone": "唱片针2",
+            "attachment": "唱片针"
+        },
+        {
+            "name": "video_btn",
+            "bone": "root",
+            "attachment": "video_btn"
+        },
+        {
+            "name": "yinfu_c2",
+            "bone": "yinfu_c4",
+            "attachment": "yinfu_c"
+        },
+        {
+            "name": "yinfu_c3",
+            "bone": "yinfu_c6",
+            "attachment": "yinfu_c"
+        },
+        {
+            "name": "yinfu_b",
+            "bone": "yinfu_b",
+            "attachment": "yinfu_b"
+        },
+        {
+            "name": "yinfu_b2",
+            "bone": "yinfu_b4",
+            "attachment": "yinfu_b"
+        },
+        {
+            "name": "yinfu_a",
+            "bone": "yinfu_a",
+            "attachment": "yinfu_a"
+        },
+        {
+            "name": "yinfu_a3",
+            "bone": "yinfu_a6",
+            "attachment": "yinfu_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "img": {
+                    "img": {
+                        "width": 598,
+                        "height": 598
+                    }
+                },
+                "video_btn": {
+                    "video_btn": {
+                        "x": -34.5,
+                        "y": -307.5,
+                        "width": 117,
+                        "height": 117
+                    }
+                },
+                "yinfu_a": {
+                    "yinfu_a": {
+                        "x": 1.58,
+                        "y": -2.67,
+                        "width": 41,
+                        "height": 64
+                    }
+                },
+                "yinfu_a3": {
+                    "yinfu_a": {
+                        "x": 1.58,
+                        "y": -2.67,
+                        "width": 41,
+                        "height": 64
+                    }
+                },
+                "yinfu_b": {
+                    "yinfu_b": {
+                        "x": -12.26,
+                        "y": -6.17,
+                        "width": 99,
+                        "height": 103
+                    }
+                },
+                "yinfu_b2": {
+                    "yinfu_b": {
+                        "x": -12.26,
+                        "y": -6.17,
+                        "width": 99,
+                        "height": 103
+                    }
+                },
+                "yinfu_c2": {
+                    "yinfu_c": {
+                        "x": -3.85,
+                        "y": -1.09,
+                        "width": 88,
+                        "height": 75
+                    }
+                },
+                "yinfu_c3": {
+                    "yinfu_c": {
+                        "x": -3.85,
+                        "y": -1.09,
+                        "width": 88,
+                        "height": 75
+                    }
+                },
+                "唱片针": {
+                    "唱片针": {
+                        "x": 156.75,
+                        "y": -3.03,
+                        "rotation": 59.04,
+                        "width": 178,
+                        "height": 290
+                    }
+                },
+                "盘": {
+                    "盘": {
+                        "x": -0.5,
+                        "y": -1.5,
+                        "width": 845,
+                        "height": 845
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "yinfu_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "yinfu_a3": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "yinfu_b": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "yinfu_b2": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "yinfu_c2": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "yinfu_c3": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "yinfu": {
+            "slots": {
+                "img": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "video_btn": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "yinfu_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 1,
+                            "name": "yinfu_a"
+                        }
+                    ]
+                },
+                "yinfu_a3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff8c"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.7,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff8c"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 2,
+                            "name": "yinfu_a"
+                        }
+                    ]
+                },
+                "yinfu_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff9f"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff9f"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 2.6667,
+                            "name": "yinfu_b"
+                        }
+                    ]
+                },
+                "yinfu_b2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "yinfu_b"
+                        }
+                    ]
+                },
+                "yinfu_c2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 1.6667,
+                            "name": "yinfu_c"
+                        }
+                    ]
+                },
+                "yinfu_c3": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 2,
+                            "name": "yinfu_c"
+                        }
+                    ]
+                },
+                "唱片针": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "盘": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "yinfu_a2": {
+                    "translate": [
+                        {
+                            "x": 64.11,
+                            "y": 132.72,
+                            "curve": [
+                                0.403,
+                                80.83,
+                                0.694,
+                                94.51,
+                                0.403,
+                                167.33,
+                                0.694,
+                                195.66
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "x": 94.51,
+                            "y": 195.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "curve": [
+                                1.411,
+                                0,
+                                2.353,
+                                36.45,
+                                1.411,
+                                0,
+                                2.353,
+                                75.46
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 64.11,
+                            "y": 132.72
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.9,
+                            "y": 0.9,
+                            "curve": [
+                                0.238,
+                                0.958,
+                                0.469,
+                                1,
+                                0.238,
+                                0.958,
+                                0.469,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.416,
+                            "y": 0.416,
+                            "curve": [
+                                1.669,
+                                0.416,
+                                2.338,
+                                0.735,
+                                1.669,
+                                0.416,
+                                2.338,
+                                0.735
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 0.9,
+                            "y": 0.9
+                        }
+                    ]
+                },
+                "yinfu_b2": {
+                    "translate": [
+                        {
+                            "x": 4.85,
+                            "y": 14.49,
+                            "curve": [
+                                0.316,
+                                12.8,
+                                0.676,
+                                29.48,
+                                0.316,
+                                38.24,
+                                0.676,
+                                88.03
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 47.07,
+                            "y": 140.58,
+                            "curve": [
+                                1.531,
+                                75,
+                                1.972,
+                                105.2,
+                                1.531,
+                                223.99,
+                                1.972,
+                                314.18
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 105.2,
+                            "y": 314.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "curve": [
+                                2.768,
+                                0,
+                                2.882,
+                                1.76,
+                                2.768,
+                                0,
+                                2.882,
+                                5.26
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 4.85,
+                            "y": 14.49
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.449,
+                            "y": 0.449,
+                            "curve": [
+                                0.335,
+                                0.51,
+                                0.669,
+                                0.647,
+                                0.335,
+                                0.51,
+                                0.669,
+                                0.647
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.77,
+                            "y": 0.77,
+                            "curve": [
+                                1.336,
+                                0.892,
+                                1.668,
+                                1,
+                                1.336,
+                                0.892,
+                                1.668,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "x": 0.416,
+                            "y": 0.416,
+                            "curve": [
+                                2.778,
+                                0.416,
+                                2.89,
+                                0.428,
+                                2.778,
+                                0.416,
+                                2.89,
+                                0.428
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 0.449,
+                            "y": 0.449
+                        }
+                    ]
+                },
+                "yinfu_c3": {
+                    "translate": [
+                        {
+                            "x": 55.99,
+                            "y": 97.14,
+                            "curve": [
+                                0.531,
+                                89.2,
+                                0.972,
+                                125.12,
+                                0.531,
+                                154.78,
+                                0.972,
+                                217.1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 125.12,
+                            "y": 217.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6667,
+                            "curve": [
+                                2.03,
+                                0,
+                                2.55,
+                                26.92,
+                                2.03,
+                                0,
+                                2.55,
+                                46.71
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 55.99,
+                            "y": 97.14
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.77,
+                            "y": 0.77,
+                            "curve": [
+                                0.336,
+                                0.892,
+                                0.668,
+                                1,
+                                0.336,
+                                0.892,
+                                0.668,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6667,
+                            "x": 0.416,
+                            "y": 0.416,
+                            "curve": [
+                                2.113,
+                                0.416,
+                                2.559,
+                                0.606,
+                                2.113,
+                                0.416,
+                                2.559,
+                                0.606
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 0.77,
+                            "y": 0.77
+                        }
+                    ]
+                },
+                "yinfu_b3": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.778,
+                                0,
+                                2.281,
+                                105.2,
+                                0.778,
+                                0,
+                                2.281,
+                                314.18
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 105.2,
+                            "y": 314.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.416,
+                            "y": 0.416,
+                            "curve": [
+                                0.778,
+                                0.416,
+                                1.556,
+                                1,
+                                0.778,
+                                0.416,
+                                1.556,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "x": 0.416,
+                            "y": 0.416
+                        }
+                    ]
+                },
+                "yinfu_c5": {
+                    "translate": [
+                        {
+                            "x": 36.11,
+                            "y": 62.66,
+                            "curve": [
+                                0.659,
+                                73.09,
+                                1.299,
+                                125.12,
+                                0.659,
+                                126.82,
+                                1.299,
+                                217.1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 125.12,
+                            "y": 217.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "curve": [
+                                2.275,
+                                0,
+                                2.64,
+                                15.91,
+                                2.275,
+                                0,
+                                2.64,
+                                27.61
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 36.11,
+                            "y": 62.66
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.646,
+                            "y": 0.646,
+                            "curve": [
+                                0.447,
+                                0.809,
+                                0.89,
+                                1,
+                                0.447,
+                                0.809,
+                                0.89,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0.416,
+                            "y": 0.416,
+                            "curve": [
+                                2.334,
+                                0.416,
+                                2.669,
+                                0.523,
+                                2.334,
+                                0.416,
+                                2.669,
+                                0.523
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 0.646,
+                            "y": 0.646
+                        }
+                    ]
+                },
+                "yinfu_a5": {
+                    "translate": [
+                        {
+                            "x": 78.37,
+                            "y": 162.24,
+                            "curve": [
+                                0.222,
+                                87.88,
+                                0.362,
+                                94.51,
+                                0.222,
+                                181.92,
+                                0.362,
+                                195.66
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "x": 94.51,
+                            "y": 195.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "curve": [
+                                0.95,
+                                0,
+                                1.486,
+                                17.32,
+                                0.95,
+                                0,
+                                1.486,
+                                35.86
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 37.25,
+                            "y": 77.1,
+                            "curve": [
+                                2.378,
+                                51.59,
+                                2.746,
+                                67.06,
+                                2.378,
+                                106.81,
+                                2.746,
+                                138.82
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 78.37,
+                            "y": 162.24
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.969,
+                            "y": 0.969,
+                            "curve": [
+                                0.125,
+                                0.988,
+                                0.246,
+                                1,
+                                0.125,
+                                0.988,
+                                0.246,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 0.416,
+                            "y": 0.416,
+                            "curve": [
+                                1.114,
+                                0.416,
+                                1.561,
+                                0.557,
+                                1.114,
+                                0.416,
+                                1.561,
+                                0.557
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0.702,
+                            "y": 0.702,
+                            "curve": [
+                                2.338,
+                                0.81,
+                                2.672,
+                                0.919,
+                                2.338,
+                                0.81,
+                                2.672,
+                                0.919
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 0.969,
+                            "y": 0.969
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "img2": {
+            "rootBoneName": "img2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.2
+                },
+                "yinfu": {
+                    "name": "yinfu",
+                    "mode": 0
+                }
+            }
+        },
+        "唱片针2": {
+            "rootBoneName": "唱片针2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateFreq": 1,
+                    "rotateAmp": 0.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                },
+                "animation": {
+                    "name": "animation",
+                    "mode": 3,
+                    "rotateFreq": 1,
+                    "rotateAmp": 0.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.028252726595674193
+                },
+                "yinfu": {
+                    "name": "yinfu",
+                    "mode": 0
+                }
+            }
+        },
+        "img3": {
+            "rootBoneName": "img3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "animation",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 3,
+                    "rotateRange": 1,
+                    "rotateOffset": 0.5,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        },
+        "yinfu_a": {
+            "rootBoneName": "yinfu_a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "yinfu": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.126134437910727,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 40,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.2352617131449306,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.15,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.630216085444273,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.1378224034553297,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 20,
+                    "rotateFollowYMax": 20
+                }
+            }
+        },
+        "yinfu_b": {
+            "rootBoneName": "yinfu_b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "yinfu": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 30,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.8552432736830886,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 40,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -2.06061736663385,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.15,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.4465281113066712,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.09069426804091955,
+                    "rotateFollowFlip": 1,
+                    "rotateFollowLimit": 90,
+                    "rotateFollowSpeed": 0.1,
+                    "rotateFollowXMax": 20,
+                    "rotateFollowYMax": 20
+                }
+            }
+        },
+        "唱片针": {
+            "rootBoneName": "唱片针",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateFreq": 3,
+                    "rotateAmp": 1,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.00868623506158075
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

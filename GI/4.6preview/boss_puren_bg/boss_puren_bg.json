@@ -1,0 +1,2374 @@
+{
+    "skeleton": {
+        "hash": "Y+L4wDI+7DI",
+        "spine": "4.0-from-4.1.24",
+        "x": -1142.9,
+        "y": -785.18,
+        "width": 2459.62,
+        "height": 1511.86,
+        "images": "./images/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "boss_puren",
+            "parent": "root",
+            "length": 410.17,
+            "x": -271.26,
+            "y": 125.3,
+            "color": "f7ff00ff"
+        },
+        {
+            "name": "boss_puren2",
+            "parent": "boss_puren",
+            "length": 150.75,
+            "x": -55.04,
+            "y": -68.16,
+            "color": "f7ff00ff"
+        },
+        {
+            "name": "boss_puren9",
+            "parent": "boss_puren2",
+            "length": 85.22,
+            "rotation": 116.35,
+            "x": 10.68,
+            "y": 36.36,
+            "color": "f7ff00ff"
+        },
+        {
+            "name": "boss_puren10",
+            "parent": "boss_puren9",
+            "length": 137.74,
+            "rotation": -62.33,
+            "x": 84.85,
+            "y": -0.2,
+            "color": "f7ff00ff"
+        },
+        {
+            "name": "boss_puren_bg",
+            "parent": "boss_puren10",
+            "length": 178.59,
+            "rotation": -54.02,
+            "x": -2.42,
+            "y": -79.78,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg2",
+            "parent": "boss_puren_bg",
+            "length": 277.46,
+            "rotation": -10.06,
+            "x": -28.25,
+            "y": 34.76,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg3",
+            "parent": "boss_puren_bg2",
+            "length": 407.12,
+            "rotation": 42.63,
+            "x": 277.46,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg4",
+            "parent": "boss_puren_bg3",
+            "length": 412.29,
+            "rotation": -25.68,
+            "x": 429.27,
+            "y": 7.72,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg5",
+            "parent": "boss_puren_bg",
+            "length": 206.61,
+            "rotation": 40.95,
+            "x": 24.7,
+            "y": 48.6,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg6",
+            "parent": "boss_puren_bg5",
+            "length": 343.45,
+            "rotation": 1.28,
+            "x": 654.95,
+            "y": 123.7,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg7",
+            "parent": "boss_puren_bg",
+            "length": 465.86,
+            "rotation": -26.57,
+            "x": 26.27,
+            "y": -6.18,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg8",
+            "parent": "boss_puren_bg7",
+            "length": 235.65,
+            "rotation": 14.17,
+            "x": 521.17,
+            "y": 38.41,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg9",
+            "parent": "boss_puren_bg",
+            "length": 177.72,
+            "rotation": -155.94,
+            "x": -46.58,
+            "y": 12.34,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg15",
+            "parent": "boss_puren_bg9",
+            "length": 167.83,
+            "rotation": -55.26,
+            "x": 175.65,
+            "y": -0.03,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg10",
+            "parent": "boss_puren_bg15",
+            "length": 102.73,
+            "rotation": 41.09,
+            "x": 167.56,
+            "y": 0.27,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg11",
+            "parent": "boss_puren_bg",
+            "length": 184.36,
+            "rotation": 143.43,
+            "x": -49.69,
+            "y": 52.93,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg12",
+            "parent": "boss_puren_bg11",
+            "length": 269.14,
+            "rotation": -37.27,
+            "x": 405.96,
+            "y": -103.1,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg13",
+            "parent": "boss_puren_bg",
+            "length": 214.48,
+            "rotation": -123.41,
+            "x": -30.1,
+            "y": -54.43,
+            "color": "d800ffff"
+        },
+        {
+            "name": "boss_puren_bg14",
+            "parent": "boss_puren_bg13",
+            "length": 170.23,
+            "rotation": 9.77,
+            "x": 371.61,
+            "y": -81.31,
+            "color": "d800ffff"
+        }
+    ],
+    "slots": [
+        {
+            "name": "boss_puren_bg_22",
+            "bone": "boss_puren_bg4",
+            "attachment": "boss_puren_bg_22"
+        },
+        {
+            "name": "boss_puren_bg_21",
+            "bone": "boss_puren_bg4",
+            "attachment": "boss_puren_bg_21"
+        },
+        {
+            "name": "boss_puren_bg_20",
+            "bone": "boss_puren_bg",
+            "attachment": "boss_puren_bg_20"
+        },
+        {
+            "name": "boss_puren_bg_18",
+            "bone": "boss_puren_bg5",
+            "attachment": "boss_puren_bg_18"
+        },
+        {
+            "name": "boss_puren_bg_17",
+            "bone": "boss_puren_bg11",
+            "attachment": "boss_puren_bg_17"
+        },
+        {
+            "name": "boss_puren_bg_16",
+            "bone": "boss_puren_bg12",
+            "attachment": "boss_puren_bg_16"
+        },
+        {
+            "name": "boss_puren_bg_19",
+            "bone": "boss_puren_bg6",
+            "attachment": "boss_puren_bg_19"
+        },
+        {
+            "name": "boss_puren_bg_14",
+            "bone": "boss_puren_bg10",
+            "attachment": "boss_puren_bg_14"
+        },
+        {
+            "name": "boss_puren_bg_15",
+            "bone": "boss_puren_bg10",
+            "attachment": "boss_puren_bg_15"
+        },
+        {
+            "name": "boss_puren_bg_13",
+            "bone": "boss_puren_bg9",
+            "attachment": "boss_puren_bg_13"
+        },
+        {
+            "name": "boss_puren_bg_12",
+            "bone": "boss_puren_bg14",
+            "attachment": "boss_puren_bg_12"
+        },
+        {
+            "name": "boss_puren_bg_11",
+            "bone": "boss_puren_bg14",
+            "attachment": "boss_puren_bg_11"
+        },
+        {
+            "name": "boss_puren_bg_10",
+            "bone": "boss_puren_bg13",
+            "attachment": "boss_puren_bg_10"
+        },
+        {
+            "name": "boss_puren_bg_9",
+            "bone": "boss_puren_bg8",
+            "attachment": "boss_puren_bg_9"
+        },
+        {
+            "name": "boss_puren_bg_8",
+            "bone": "boss_puren_bg7",
+            "attachment": "boss_puren_bg_8"
+        },
+        {
+            "name": "boss_puren_bg_7",
+            "bone": "boss_puren_bg8",
+            "attachment": "boss_puren_bg_7"
+        },
+        {
+            "name": "boss_puren_bg_6",
+            "bone": "boss_puren_bg8",
+            "attachment": "boss_puren_bg_6"
+        },
+        {
+            "name": "boss_puren_bg_5",
+            "bone": "boss_puren_bg5",
+            "attachment": "boss_puren_bg_5"
+        },
+        {
+            "name": "boss_puren_bg_4",
+            "bone": "boss_puren_bg5",
+            "attachment": "boss_puren_bg_4"
+        },
+        {
+            "name": "boss_puren_bg_3",
+            "bone": "boss_puren_bg12",
+            "attachment": "boss_puren_bg_3"
+        },
+        {
+            "name": "boss_puren_bg_2",
+            "bone": "boss_puren_bg11",
+            "attachment": "boss_puren_bg_2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "boss_puren_bg_2": {
+                    "boss_puren_bg_2": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.99035,
+                            0.59724,
+                            1,
+                            0.88097,
+                            1,
+                            0.93696,
+                            0.9312,
+                            0.98488,
+                            0.84451,
+                            1,
+                            0.80369,
+                            1,
+                            0.6672,
+                            0.98451,
+                            0.1141,
+                            0.659,
+                            0.08393,
+                            0.62053
+                        ],
+                        "triangles": [
+                            7,
+                            8,
+                            0,
+                            6,
+                            7,
+                            0,
+                            1,
+                            6,
+                            0,
+                            6,
+                            1,
+                            5,
+                            2,
+                            3,
+                            1,
+                            1,
+                            4,
+                            5,
+                            3,
+                            4,
+                            1
+                        ],
+                        "vertices": [
+                            268.72,
+                            -416.68,
+                            13.23,
+                            -87.25,
+                            -35.78,
+                            -21.2,
+                            -26.79,
+                            73.13,
+                            24.18,
+                            138.6,
+                            54.39,
+                            161.02,
+                            169.02,
+                            217.74,
+                            863.48,
+                            137.57,
+                            919.49,
+                            108.76
+                        ],
+                        "hull": 9,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            6,
+                            8,
+                            8,
+                            10,
+                            10,
+                            12,
+                            12,
+                            14,
+                            14,
+                            16,
+                            16,
+                            0
+                        ],
+                        "width": 922,
+                        "height": 1469
+                    }
+                },
+                "boss_puren_bg_3": {
+                    "boss_puren_bg_3": {
+                        "x": 82.99,
+                        "y": 139.45,
+                        "rotation": -106.16,
+                        "width": 354,
+                        "height": 297
+                    }
+                },
+                "boss_puren_bg_4": {
+                    "boss_puren_bg_4": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.37608,
+                            0.72207,
+                            0.26021,
+                            0.93279,
+                            0.14973,
+                            1,
+                            0.09536,
+                            1,
+                            0.0275,
+                            0.98909,
+                            0,
+                            0.93071,
+                            0,
+                            0.90321,
+                            0.02938,
+                            0.72595
+                        ],
+                        "triangles": [
+                            5,
+                            3,
+                            4,
+                            1,
+                            7,
+                            0,
+                            1,
+                            6,
+                            7,
+                            5,
+                            6,
+                            3,
+                            6,
+                            2,
+                            3,
+                            1,
+                            2,
+                            6
+                        ],
+                        "vertices": [
+                            726.62,
+                            -32.68,
+                            342.6,
+                            -187.42,
+                            129.71,
+                            -158.33,
+                            62.85,
+                            -100.32,
+                            -8.09,
+                            -13.51,
+                            25.02,
+                            92.96,
+                            56.54,
+                            129.29,
+                            295.86,
+                            332.11
+                        ],
+                        "hull": 8,
+                        "edges": [
+                            2,
+                            4,
+                            4,
+                            6,
+                            6,
+                            8,
+                            8,
+                            10,
+                            10,
+                            12,
+                            12,
+                            14,
+                            0,
+                            2,
+                            14,
+                            0
+                        ],
+                        "width": 1628,
+                        "height": 1749
+                    }
+                },
+                "boss_puren_bg_5": {
+                    "boss_puren_bg_5": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.88268,
+                            0.68207,
+                            0.81092,
+                            0.74555,
+                            0.37152,
+                            0.9277,
+                            0.0625,
+                            1,
+                            0.03686,
+                            1,
+                            0,
+                            0.87266,
+                            0,
+                            0.80302,
+                            0.03167,
+                            0.69394
+                        ],
+                        "triangles": [
+                            1,
+                            7,
+                            0,
+                            6,
+                            3,
+                            5,
+                            2,
+                            7,
+                            1,
+                            7,
+                            3,
+                            6,
+                            3,
+                            4,
+                            5,
+                            3,
+                            7,
+                            2
+                        ],
+                        "vertices": [
+                            1286.75,
+                            -471.31,
+                            1168.86,
+                            -458.61,
+                            591.24,
+                            -214.47,
+                            224,
+                            2.14,
+                            197.72,
+                            24.94,
+                            248.91,
+                            160.26,
+                            297.56,
+                            216.32,
+                            406.22,
+                            275.99
+                        ],
+                        "hull": 8,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            6,
+                            8,
+                            8,
+                            10,
+                            10,
+                            12,
+                            12,
+                            14,
+                            14,
+                            0
+                        ],
+                        "width": 1357,
+                        "height": 1066
+                    }
+                },
+                "boss_puren_bg_6": {
+                    "boss_puren_bg_6": {
+                        "x": 423.92,
+                        "y": -120.9,
+                        "rotation": 12.4,
+                        "width": 1418,
+                        "height": 984
+                    }
+                },
+                "boss_puren_bg_7": {
+                    "boss_puren_bg_7": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0,
+                            0.00268,
+                            0,
+                            0.37892,
+                            0.1853,
+                            1,
+                            0.99188,
+                            1,
+                            1,
+                            0.96021,
+                            1,
+                            0.73847,
+                            0.85633,
+                            0.20237,
+                            0.40053,
+                            0.02006,
+                            0.08375,
+                            0,
+                            0.01193
+                        ],
+                        "triangles": [
+                            9,
+                            0,
+                            1,
+                            2,
+                            8,
+                            1,
+                            9,
+                            1,
+                            8,
+                            7,
+                            8,
+                            2,
+                            3,
+                            6,
+                            2,
+                            7,
+                            2,
+                            6,
+                            5,
+                            6,
+                            3,
+                            5,
+                            3,
+                            4
+                        ],
+                        "vertices": [
+                            -142.86,
+                            91.39,
+                            -140.67,
+                            91.87,
+                            187.53,
+                            63.83,
+                            786.07,
+                            -240.66,
+                            786.99,
+                            -244.85,
+                            754.5,
+                            -251.99,
+                            557.16,
+                            -217.69,
+                            67.77,
+                            -78.84,
+                            -116.99,
+                            51.8,
+                            -141.51,
+                            85.24
+                        ],
+                        "hull": 10,
+                        "edges": [
+                            0,
+                            18,
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            6,
+                            8,
+                            8,
+                            10,
+                            10,
+                            12,
+                            12,
+                            14,
+                            14,
+                            16,
+                            16,
+                            18
+                        ],
+                        "width": 836,
+                        "height": 528
+                    }
+                },
+                "boss_puren_bg_8": {
+                    "boss_puren_bg_8": {
+                        "x": 276.2,
+                        "y": 7.52,
+                        "rotation": 26.57,
+                        "width": 524,
+                        "height": 266
+                    }
+                },
+                "boss_puren_bg_9": {
+                    "boss_puren_bg_9": {
+                        "x": 528.11,
+                        "y": -91.85,
+                        "rotation": 12.4,
+                        "width": 1092,
+                        "height": 912
+                    }
+                },
+                "boss_puren_bg_10": {
+                    "boss_puren_bg_10": {
+                        "x": 194.27,
+                        "y": -37.43,
+                        "rotation": 123.41,
+                        "width": 322,
+                        "height": 340
+                    }
+                },
+                "boss_puren_bg_11": {
+                    "boss_puren_bg_11": {
+                        "x": 52.8,
+                        "y": -18.05,
+                        "rotation": 113.65,
+                        "width": 198,
+                        "height": 452
+                    }
+                },
+                "boss_puren_bg_12": {
+                    "boss_puren_bg_12": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.82061,
+                            0,
+                            1,
+                            0.21074,
+                            1,
+                            0.2218,
+                            0.8254,
+                            0.695,
+                            0.12956,
+                            0.68563,
+                            0.21671,
+                            0.35601,
+                            0.81488,
+                            0
+                        ],
+                        "triangles": [
+                            6,
+                            0,
+                            1,
+                            1,
+                            2,
+                            6,
+                            2,
+                            5,
+                            6,
+                            3,
+                            5,
+                            2,
+                            4,
+                            5,
+                            3
+                        ],
+                        "vertices": [
+                            -506.59,
+                            -51.88,
+                            -321.72,
+                            213.15,
+                            -308.47,
+                            218.95,
+                            324.34,
+                            316.85,
+                            575.45,
+                            -287.24,
+                            147.65,
+                            -385.12,
+                            -504.43,
+                            -56.82
+                        ],
+                        "hull": 7,
+                        "edges": [
+                            0,
+                            12,
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            10,
+                            12,
+                            6,
+                            8,
+                            8,
+                            10
+                        ],
+                        "width": 940,
+                        "height": 1308
+                    }
+                },
+                "boss_puren_bg_13": {
+                    "boss_puren_bg_13": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.1778,
+                            0.3042,
+                            0.36332,
+                            0.57395,
+                            0.44586,
+                            0.61396,
+                            0.52105,
+                            0.63719,
+                            0.56927,
+                            0.67075,
+                            1,
+                            0.32837,
+                            1,
+                            0.59449,
+                            0.58551,
+                            0.85758,
+                            0.59788,
+                            1,
+                            0.56437,
+                            1,
+                            0.47529,
+                            1,
+                            0.31019,
+                            0.72366,
+                            0,
+                            0.48618,
+                            0,
+                            0.25903,
+                            0.4761,
+                            0.78303,
+                            0.4238,
+                            0.77271
+                        ],
+                        "triangles": [
+                            12,
+                            13,
+                            0,
+                            11,
+                            0,
+                            1,
+                            12,
+                            0,
+                            11,
+                            15,
+                            1,
+                            2,
+                            11,
+                            1,
+                            15,
+                            14,
+                            2,
+                            3,
+                            15,
+                            2,
+                            14,
+                            10,
+                            15,
+                            14,
+                            9,
+                            10,
+                            14,
+                            11,
+                            15,
+                            10,
+                            7,
+                            9,
+                            14,
+                            9,
+                            7,
+                            8,
+                            6,
+                            4,
+                            5,
+                            7,
+                            4,
+                            6,
+                            14,
+                            3,
+                            4,
+                            14,
+                            4,
+                            7
+                        ],
+                        "vertices": [
+                            1,
+                            14,
+                            132.98,
+                            -35,
+                            1,
+                            1,
+                            14,
+                            54.14,
+                            -19.05,
+                            1,
+                            2,
+                            13,
+                            134.43,
+                            -36.91,
+                            0.11254,
+                            14,
+                            30.04,
+                            -22.08,
+                            0.88746,
+                            2,
+                            13,
+                            140.53,
+                            -22.95,
+                            0.77092,
+                            14,
+                            23.52,
+                            -8.12,
+                            0.22908,
+                            2,
+                            13,
+                            138.47,
+                            -10.72,
+                            0.99155,
+                            14,
+                            12.82,
+                            -1.77,
+                            0.00845,
+                            1,
+                            13,
+                            -14.83,
+                            -17.86,
+                            1,
+                            1,
+                            13,
+                            7.09,
+                            31.23,
+                            1,
+                            2,
+                            13,
+                            126.98,
+                            25.8,
+                            0.50747,
+                            14,
+                            -22.99,
+                            12.34,
+                            0.49253,
+                            1,
+                            14,
+                            -54.45,
+                            15.81,
+                            1,
+                            1,
+                            14,
+                            -45.3,
+                            21.35,
+                            1,
+                            2,
+                            13,
+                            156.42,
+                            39.7,
+                            0.20774,
+                            14,
+                            -15.07,
+                            43.74,
+                            0.79226,
+                            2,
+                            13,
+                            178.62,
+                            -30.65,
+                            0.01119,
+                            14,
+                            53.26,
+                            15.95,
+                            0.98881,
+                            1,
+                            14,
+                            162.46,
+                            25.82,
+                            1,
+                            1,
+                            14,
+                            186.23,
+                            -13.42,
+                            1,
+                            2,
+                            13,
+                            144.13,
+                            -1.19,
+                            0.28163,
+                            14,
+                            8.73,
+                            8.25,
+                            0.71837,
+                            2,
+                            13,
+                            154.95,
+                            -9.06,
+                            0.18482,
+                            14,
+                            21.65,
+                            11.53,
+                            0.81518
+                        ],
+                        "hull": 14,
+                        "edges": [
+                            6,
+                            28,
+                            28,
+                            18,
+                            6,
+                            4,
+                            4,
+                            30,
+                            18,
+                            20,
+                            30,
+                            20,
+                            4,
+                            2,
+                            2,
+                            22,
+                            22,
+                            24,
+                            22,
+                            20,
+                            2,
+                            0,
+                            24,
+                            26,
+                            0,
+                            26,
+                            6,
+                            8,
+                            16,
+                            18,
+                            8,
+                            10,
+                            16,
+                            14,
+                            14,
+                            8,
+                            10,
+                            12,
+                            14,
+                            12
+                        ],
+                        "width": 319,
+                        "height": 202
+                    }
+                },
+                "boss_puren_bg_14": {
+                    "boss_puren_bg_14": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.251,
+                            0.45087,
+                            0.90038,
+                            0.62042,
+                            1,
+                            0.68742,
+                            0.94569,
+                            0.82997,
+                            0.47379,
+                            1,
+                            0.39723,
+                            1,
+                            0.03196,
+                            0.86488,
+                            0,
+                            0.7998,
+                            0,
+                            0.73705
+                        ],
+                        "triangles": [
+                            6,
+                            7,
+                            8,
+                            3,
+                            1,
+                            2,
+                            0,
+                            6,
+                            8,
+                            4,
+                            5,
+                            0,
+                            1,
+                            4,
+                            0,
+                            6,
+                            0,
+                            5,
+                            3,
+                            4,
+                            1
+                        ],
+                        "vertices": [
+                            200.89,
+                            -144.48,
+                            -200.34,
+                            11.73,
+                            -258.36,
+                            55.92,
+                            -211.31,
+                            120.21,
+                            105.5,
+                            151.42,
+                            154.52,
+                            142.87,
+                            376.78,
+                            35.39,
+                            391.65,
+                            -0.3,
+                            386.25,
+                            -31.27
+                        ],
+                        "hull": 9,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            6,
+                            8,
+                            8,
+                            10,
+                            10,
+                            12,
+                            12,
+                            14,
+                            14,
+                            16,
+                            16,
+                            0,
+                            4,
+                            6
+                        ],
+                        "width": 650,
+                        "height": 501
+                    }
+                },
+                "boss_puren_bg_15": {
+                    "boss_puren_bg_15": {
+                        "x": 42.24,
+                        "y": -24.83,
+                        "rotation": 170.11,
+                        "width": 270,
+                        "height": 153
+                    }
+                },
+                "boss_puren_bg_16": {
+                    "boss_puren_bg_16": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.73345,
+                            0.59077,
+                            1,
+                            0.97938,
+                            0.99828,
+                            1,
+                            0.69495,
+                            0.99703,
+                            0.42491,
+                            0.61637
+                        ],
+                        "triangles": [
+                            3,
+                            4,
+                            0,
+                            3,
+                            0,
+                            1,
+                            2,
+                            3,
+                            1
+                        ],
+                        "vertices": [
+                            221.34,
+                            -56.31,
+                            -46.99,
+                            -95.66,
+                            -59.36,
+                            -91.32,
+                            -21.93,
+                            31.1,
+                            241.96,
+                            73.28
+                        ],
+                        "hull": 5,
+                        "edges": [
+                            2,
+                            4,
+                            4,
+                            6,
+                            6,
+                            8,
+                            0,
+                            2,
+                            8,
+                            0
+                        ],
+                        "width": 422,
+                        "height": 635
+                    }
+                },
+                "boss_puren_bg_17": {
+                    "boss_puren_bg_17": {
+                        "x": 202.12,
+                        "y": -48.14,
+                        "rotation": -143.43,
+                        "width": 308,
+                        "height": 360
+                    }
+                },
+                "boss_puren_bg_18": {
+                    "boss_puren_bg_18": {
+                        "x": 329.25,
+                        "y": 29.31,
+                        "rotation": -40.95,
+                        "width": 513,
+                        "height": 593
+                    }
+                },
+                "boss_puren_bg_19": {
+                    "boss_puren_bg_19": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.46173,
+                            0.8583,
+                            0.41081,
+                            0.91527,
+                            0.03938,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.99386,
+                            0.16518,
+                            0.87056
+                        ],
+                        "triangles": [
+                            1,
+                            5,
+                            0,
+                            2,
+                            3,
+                            4,
+                            5,
+                            2,
+                            4,
+                            2,
+                            5,
+                            1
+                        ],
+                        "vertices": [
+                            135.3,
+                            -144,
+                            54.33,
+                            -146.29,
+                            -317.2,
+                            78.28,
+                            -350.65,
+                            108.63,
+                            -346.58,
+                            113.11,
+                            -124.67,
+                            75.69
+                        ],
+                        "hull": 6,
+                        "edges": [
+                            2,
+                            4,
+                            4,
+                            6,
+                            6,
+                            8,
+                            8,
+                            10,
+                            0,
+                            2,
+                            10,
+                            0
+                        ],
+                        "width": 1147,
+                        "height": 985
+                    }
+                },
+                "boss_puren_bg_20": {
+                    "boss_puren_bg_20": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            0.16792,
+                            0.46751,
+                            0.95562,
+                            0.41561,
+                            1,
+                            0.37409,
+                            1,
+                            0,
+                            0.87326,
+                            0,
+                            0.58606,
+                            0.15516,
+                            0.44457,
+                            0.37207,
+                            0.65287,
+                            0.40806,
+                            0.68742,
+                            0.43637,
+                            0.68109,
+                            0.77042,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            8,
+                            8,
+                            9,
+                            1,
+                            1,
+                            10,
+                            0,
+                            1,
+                            9,
+                            10,
+                            10,
+                            11,
+                            0,
+                            4,
+                            6,
+                            3,
+                            6,
+                            7,
+                            3,
+                            2,
+                            3,
+                            8,
+                            3,
+                            7,
+                            8,
+                            4,
+                            5,
+                            6
+                        ],
+                        "vertices": [
+                            1,
+                            7,
+                            395.01,
+                            -36.81,
+                            1,
+                            2,
+                            6,
+                            314.43,
+                            -24.22,
+                            0.12448,
+                            7,
+                            10.8,
+                            -42.86,
+                            0.87552,
+                            2,
+                            6,
+                            285.76,
+                            -41.44,
+                            0.64852,
+                            7,
+                            -21.96,
+                            -36.11,
+                            0.35148,
+                            2,
+                            6,
+                            261.15,
+                            -45.81,
+                            0.93091,
+                            7,
+                            -43.02,
+                            -22.65,
+                            0.06909,
+                            1,
+                            6,
+                            33.45,
+                            -51.59,
+                            1,
+                            1,
+                            6,
+                            19.95,
+                            24.48,
+                            1,
+                            1,
+                            6,
+                            105.27,
+                            78.28,
+                            1,
+                            2,
+                            6,
+                            243.64,
+                            45.92,
+                            0.76088,
+                            7,
+                            6.21,
+                            56.7,
+                            0.23912,
+                            2,
+                            6,
+                            266.59,
+                            40.56,
+                            0.37292,
+                            7,
+                            19.47,
+                            37.2,
+                            0.62708,
+                            2,
+                            6,
+                            283.07,
+                            45.21,
+                            0.08474,
+                            7,
+                            34.75,
+                            29.47,
+                            0.91526,
+                            1,
+                            7,
+                            302.84,
+                            75.65,
+                            1,
+                            1,
+                            7,
+                            419.33,
+                            1.26,
+                            1
+                        ],
+                        "hull": 12,
+                        "edges": [
+                            16,
+                            4,
+                            12,
+                            14,
+                            14,
+                            16,
+                            4,
+                            6,
+                            14,
+                            6,
+                            16,
+                            18,
+                            18,
+                            2,
+                            2,
+                            4,
+                            0,
+                            22,
+                            2,
+                            0,
+                            20,
+                            22,
+                            20,
+                            18,
+                            6,
+                            8,
+                            8,
+                            10,
+                            12,
+                            10
+                        ],
+                        "width": 602,
+                        "height": 269
+                    }
+                },
+                "boss_puren_bg_21": {
+                    "boss_puren_bg_21": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.64122,
+                            0,
+                            0.90714,
+                            0.04804,
+                            0.98672,
+                            0.12937,
+                            1,
+                            0.20309,
+                            1,
+                            0.26613,
+                            0.9421,
+                            0.40854,
+                            0.61551,
+                            0.88258,
+                            0.22975,
+                            0.85617,
+                            0.127,
+                            0.79397,
+                            0.00493,
+                            0.66233,
+                            0.39388,
+                            0.42039,
+                            0.46619,
+                            0.17841,
+                            0.5763,
+                            0
+                        ],
+                        "triangles": [
+                            3,
+                            1,
+                            2,
+                            3,
+                            5,
+                            1,
+                            4,
+                            5,
+                            3,
+                            8,
+                            9,
+                            10,
+                            7,
+                            8,
+                            10,
+                            0,
+                            11,
+                            12,
+                            5,
+                            6,
+                            0,
+                            5,
+                            0,
+                            1,
+                            6,
+                            11,
+                            0,
+                            10,
+                            11,
+                            6,
+                            7,
+                            10,
+                            6
+                        ],
+                        "vertices": [
+                            217.26,
+                            233.86,
+                            501.91,
+                            171.09,
+                            582.39,
+                            113.28,
+                            591.58,
+                            68.59,
+                            587.14,
+                            31.85,
+                            514.41,
+                            -43.57,
+                            127.31,
+                            -277.12,
+                            -288.66,
+                            -211.29,
+                            -395.57,
+                            -161.6,
+                            -518.53,
+                            -68.92,
+                            -80.22,
+                            21.21,
+                            15.13,
+                            152.78,
+                            146.94,
+                            242.35
+                        ],
+                        "hull": 13,
+                        "edges": [
+                            0,
+                            24,
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            6,
+                            8,
+                            8,
+                            10,
+                            10,
+                            12,
+                            12,
+                            14,
+                            14,
+                            16,
+                            20,
+                            22,
+                            22,
+                            24,
+                            20,
+                            18,
+                            18,
+                            16
+                        ],
+                        "width": 1091,
+                        "height": 587
+                    }
+                },
+                "boss_puren_bg_22": {
+                    "boss_puren_bg_22": {
+                        "x": 101.29,
+                        "y": 53.96,
+                        "rotation": -6.88,
+                        "width": 748,
+                        "height": 237
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "boss_puren10": {
+                    "rotate": [
+                        {
+                            "value": -0.59,
+                            "curve": [
+                                0.171,
+                                -0.25,
+                                0.339,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                1.054,
+                                0,
+                                1.612,
+                                -2.85
+                            ]
+                        },
+                        {
+                            "time": 2.1667,
+                            "value": -2.85,
+                            "curve": [
+                                2.503,
+                                -2.85,
+                                2.923,
+                                -1.42
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": -0.59
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 1.94,
+                            "y": -2.45,
+                            "curve": [
+                                0.171,
+                                0.81,
+                                0.339,
+                                0,
+                                0.171,
+                                -1.03,
+                                0.339,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                1.054,
+                                0,
+                                1.612,
+                                9.39,
+                                1.054,
+                                0,
+                                1.612,
+                                -11.87
+                            ]
+                        },
+                        {
+                            "time": 2.1667,
+                            "x": 9.39,
+                            "y": -11.87,
+                            "curve": [
+                                2.503,
+                                9.39,
+                                2.923,
+                                4.68,
+                                2.503,
+                                -11.87,
+                                2.923,
+                                -5.92
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "x": 1.94,
+                            "y": -2.45
+                        }
+                    ]
+                },
+                "boss_puren9": {
+                    "rotate": [
+                        {
+                            "value": -0.02,
+                            "curve": [
+                                0.08,
+                                -0.01,
+                                0.157,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "curve": [
+                                0.788,
+                                0,
+                                1.346,
+                                -0.41
+                            ]
+                        },
+                        {
+                            "time": 1.9,
+                            "value": -0.41,
+                            "curve": [
+                                2.312,
+                                -0.41,
+                                2.841,
+                                -0.11
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": -0.02
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 0.49,
+                            "y": 0.23,
+                            "curve": [
+                                0.08,
+                                0.21,
+                                0.157,
+                                0,
+                                0.08,
+                                0.1,
+                                0.157,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "curve": [
+                                0.788,
+                                0,
+                                1.346,
+                                8.65,
+                                0.788,
+                                0,
+                                1.346,
+                                3.98
+                            ]
+                        },
+                        {
+                            "time": 1.9,
+                            "x": 8.65,
+                            "y": 3.98,
+                            "curve": [
+                                2.312,
+                                8.65,
+                                2.841,
+                                2.25,
+                                2.312,
+                                3.98,
+                                2.841,
+                                1.04
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "x": 0.49,
+                            "y": 0.23
+                        }
+                    ]
+                },
+                "boss_puren2": {
+                    "rotate": [
+                        {
+                            "value": -1.03,
+                            "curve": [
+                                0.554,
+                                -1.03,
+                                1.112,
+                                -1.11
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "value": -1.11,
+                            "curve": [
+                                2.221,
+                                -1.11,
+                                2.778,
+                                -1.03
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": -1.03
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "curve": [
+                                0.554,
+                                0,
+                                1.112,
+                                5.57,
+                                0.554,
+                                0,
+                                1.112,
+                                32.96
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "x": 5.57,
+                            "y": 32.96,
+                            "curve": [
+                                2.221,
+                                5.57,
+                                2.778,
+                                0,
+                                2.221,
+                                32.96,
+                                2.778,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3.3333
+                        }
+                    ]
+                },
+                "boss_puren_bg5": {
+                    "rotate": [
+                        {
+                            "value": 1.35,
+                            "curve": [
+                                0.556,
+                                1.35,
+                                1.111,
+                                -5.57
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "value": -5.57,
+                            "curve": [
+                                2.222,
+                                -5.57,
+                                2.778,
+                                1.35
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": 1.35
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 5.37,
+                            "y": 5.21,
+                            "curve": [
+                                0.17,
+                                2.29,
+                                0.335,
+                                0,
+                                0.17,
+                                2.22,
+                                0.335,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                1.056,
+                                0,
+                                1.611,
+                                24.88,
+                                1.056,
+                                0,
+                                1.611,
+                                24.12
+                            ]
+                        },
+                        {
+                            "time": 2.1667,
+                            "x": 24.88,
+                            "y": 24.12,
+                            "curve": [
+                                2.557,
+                                24.88,
+                                2.948,
+                                12.68,
+                                2.557,
+                                24.12,
+                                2.948,
+                                12.29
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "x": 5.37,
+                            "y": 5.21
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.556,
+                                1,
+                                1.111,
+                                0.974,
+                                0.556,
+                                1,
+                                1.111,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "x": 0.974,
+                            "curve": [
+                                2.222,
+                                0.974,
+                                2.778,
+                                1,
+                                2.222,
+                                1,
+                                2.778,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3.3333
+                        }
+                    ]
+                },
+                "boss_puren_bg11": {
+                    "rotate": [
+                        {
+                            "value": -4.29,
+                            "curve": [
+                                0.556,
+                                -4.29,
+                                1.111,
+                                3.43
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "value": 3.43,
+                            "curve": [
+                                2.222,
+                                3.43,
+                                2.778,
+                                -4.29
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": -4.29
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 2.2,
+                            "y": 6.13,
+                            "curve": [
+                                0.17,
+                                2.76,
+                                0.335,
+                                3.18,
+                                0.17,
+                                2.64,
+                                0.335,
+                                0.03
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 3.18,
+                            "y": 0.03,
+                            "curve": [
+                                1.056,
+                                3.18,
+                                1.611,
+                                -1.33,
+                                1.056,
+                                0.03,
+                                1.611,
+                                28.25
+                            ]
+                        },
+                        {
+                            "time": 2.1667,
+                            "x": -1.33,
+                            "y": 28.25,
+                            "curve": [
+                                2.557,
+                                -1.33,
+                                2.948,
+                                0.88,
+                                2.557,
+                                28.25,
+                                2.948,
+                                14.41
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "x": 2.2,
+                            "y": 6.13
+                        }
+                    ]
+                },
+                "boss_puren_bg9": {
+                    "rotate": [
+                        {
+                            "value": -7.69,
+                            "curve": [
+                                0.556,
+                                -7.69,
+                                1.111,
+                                17.7
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "value": 17.7,
+                            "curve": [
+                                2.222,
+                                17.7,
+                                2.778,
+                                -7.69
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": -7.69
+                        }
+                    ]
+                },
+                "boss_puren_bg10": {
+                    "rotate": [
+                        {
+                            "value": -10.98,
+                            "curve": [
+                                0.115,
+                                -12.16,
+                                0.224,
+                                -12.94
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -12.94,
+                            "curve": [
+                                0.889,
+                                -12.94,
+                                1.444,
+                                5.91
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "value": 5.91,
+                            "curve": [
+                                2.446,
+                                5.91,
+                                2.893,
+                                -6.2
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": -10.98
+                        }
+                    ]
+                },
+                "boss_puren_bg15": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.556,
+                                0,
+                                1.111,
+                                -27.79
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "value": -27.79,
+                            "curve": [
+                                2.222,
+                                -27.79,
+                                2.778,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3.3333
+                        }
+                    ]
+                },
+                "boss_puren_bg": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.556,
+                                0,
+                                1.111,
+                                -11.17,
+                                0.556,
+                                0,
+                                1.111,
+                                13.45
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "x": -11.17,
+                            "y": 13.45,
+                            "curve": [
+                                2.222,
+                                -11.17,
+                                2.778,
+                                0,
+                                2.222,
+                                13.45,
+                                2.778,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3.3333
+                        }
+                    ]
+                },
+                "boss_puren_bg6": {
+                    "rotate": [
+                        {
+                            "value": -8.42,
+                            "curve": [
+                                0.556,
+                                -8.42,
+                                1.111,
+                                1.65
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "value": 1.65,
+                            "curve": [
+                                2.222,
+                                1.65,
+                                2.778,
+                                -8.42
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": -8.42
+                        }
+                    ]
+                },
+                "boss_puren_bg2": {
+                    "rotate": [
+                        {
+                            "value": 5.92,
+                            "curve": [
+                                0.556,
+                                5.92,
+                                1.111,
+                                -11.08
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "value": -11.08,
+                            "curve": [
+                                2.222,
+                                -11.08,
+                                2.778,
+                                5.92
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": 5.92
+                        }
+                    ]
+                },
+                "boss_puren_bg3": {
+                    "rotate": [
+                        {
+                            "value": -11.2,
+                            "curve": [
+                                0.556,
+                                -11.2,
+                                1.111,
+                                18.59
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "value": 18.59,
+                            "curve": [
+                                2.222,
+                                18.59,
+                                2.778,
+                                -11.2
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": -11.2
+                        }
+                    ]
+                },
+                "boss_puren_bg4": {
+                    "rotate": [
+                        {
+                            "value": -1.53,
+                            "curve": [
+                                0.115,
+                                -0.61,
+                                0.224,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "curve": [
+                                0.889,
+                                0,
+                                1.444,
+                                -14.69
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "value": -14.69,
+                            "curve": [
+                                2.446,
+                                -14.69,
+                                2.893,
+                                -5.26
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": -1.53
+                        }
+                    ]
+                },
+                "boss_puren_bg7": {
+                    "rotate": [
+                        {
+                            "value": 1.45,
+                            "curve": [
+                                0.556,
+                                1.45,
+                                1.111,
+                                -1.79
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "value": -1.79,
+                            "curve": [
+                                2.222,
+                                -1.79,
+                                2.778,
+                                1.45
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": 1.45
+                        }
+                    ]
+                },
+                "boss_puren_bg8": {
+                    "rotate": [
+                        {
+                            "value": 8.43,
+                            "curve": [
+                                0.235,
+                                8.16,
+                                0.467,
+                                7.94
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": 7.94,
+                            "curve": [
+                                1.222,
+                                7.94,
+                                1.778,
+                                9.57
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "value": 9.57,
+                            "curve": [
+                                2.532,
+                                9.57,
+                                2.931,
+                                8.92
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": 8.43
+                        }
+                    ]
+                },
+                "boss_puren_bg13": {
+                    "rotate": [
+                        {
+                            "value": -3.95,
+                            "curve": [
+                                0.556,
+                                -3.95,
+                                1.111,
+                                5.91
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "value": 5.91,
+                            "curve": [
+                                2.222,
+                                5.91,
+                                2.778,
+                                -3.95
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": -3.95
+                        }
+                    ]
+                },
+                "boss_puren_bg14": {
+                    "rotate": [
+                        {
+                            "value": -14.26,
+                            "curve": [
+                                0.234,
+                                -14.75,
+                                0.467,
+                                -15.15
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -15.15,
+                            "curve": [
+                                1.222,
+                                -15.15,
+                                1.778,
+                                -12.21
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "value": -12.21,
+                            "curve": [
+                                2.53,
+                                -12.21,
+                                2.93,
+                                -13.4
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "value": -14.26
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
