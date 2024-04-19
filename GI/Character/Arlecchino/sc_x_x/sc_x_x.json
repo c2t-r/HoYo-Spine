@@ -1,0 +1,2105 @@
+{
+    "skeleton": {
+        "hash": "h5uYa/rc44E",
+        "spine": "4.0-from-4.1.24",
+        "x": -606.86,
+        "y": -566.67,
+        "width": 1221.76,
+        "height": 1148.22
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 4.68,
+            "y": -0.51,
+            "scaleX": 0.4447,
+            "scaleY": 0.4447
+        },
+        {
+            "name": "x_blood_a",
+            "parent": "bone",
+            "length": 100.6,
+            "rotation": -49.09,
+            "x": -1114.29,
+            "y": 1169.75,
+            "scaleY": -1
+        },
+        {
+            "name": "x_blood_b",
+            "parent": "bone",
+            "length": 154.77,
+            "rotation": -132.98,
+            "x": 1236.79,
+            "y": 1215.72,
+            "scaleY": -1
+        },
+        {
+            "name": "x_blood_d",
+            "parent": "bone",
+            "length": 237.14,
+            "rotation": 138.16,
+            "x": 1149.11,
+            "y": -1064.85,
+            "scaleY": -1
+        },
+        {
+            "name": "x_blood_c",
+            "parent": "bone",
+            "length": 193.51,
+            "rotation": 40.18,
+            "x": -1160.02,
+            "y": -1044.94
+        },
+        {
+            "name": "x_blood_a2",
+            "parent": "bone",
+            "length": 100.6,
+            "rotation": -49.09,
+            "x": -1114.29,
+            "y": 1169.75
+        },
+        {
+            "name": "x_blood_a3",
+            "parent": "bone",
+            "length": 100.6,
+            "rotation": -49.09,
+            "x": -1114.29,
+            "y": 1169.75
+        },
+        {
+            "name": "x_blood_b2",
+            "parent": "bone",
+            "length": 154.77,
+            "rotation": -132.98,
+            "x": 1236.79,
+            "y": 1215.72
+        },
+        {
+            "name": "x_blood_b3",
+            "parent": "bone",
+            "length": 154.77,
+            "rotation": -132.98,
+            "x": 1236.79,
+            "y": 1215.72
+        },
+        {
+            "name": "x_blood_c2",
+            "parent": "bone",
+            "length": 193.51,
+            "rotation": 40.18,
+            "x": -1160.02,
+            "y": -1044.94
+        },
+        {
+            "name": "x_blood_c3",
+            "parent": "bone",
+            "length": 193.51,
+            "rotation": 40.18,
+            "x": -1160.02,
+            "y": -1044.94
+        },
+        {
+            "name": "x_blood_d2",
+            "parent": "bone",
+            "length": 237.14,
+            "rotation": 138.16,
+            "x": 1149.11,
+            "y": -1064.85
+        },
+        {
+            "name": "x_blood_d3",
+            "parent": "bone",
+            "length": 237.14,
+            "rotation": 138.16,
+            "x": 1149.11,
+            "y": -1064.85
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "x": 0.39,
+            "y": 1.58
+        }
+    ],
+    "slots": [
+        {
+            "name": "x",
+            "bone": "bone",
+            "attachment": "x"
+        },
+        {
+            "name": "x_blood_d",
+            "bone": "x_blood_d",
+            "attachment": "x_blood_d"
+        },
+        {
+            "name": "x_blood_d2",
+            "bone": "x_blood_d2",
+            "attachment": "x_blood_d"
+        },
+        {
+            "name": "x_blood_d3",
+            "bone": "x_blood_d3",
+            "attachment": "x_blood_d"
+        },
+        {
+            "name": "x_blood_c",
+            "bone": "x_blood_c",
+            "attachment": "x_blood_c"
+        },
+        {
+            "name": "x_blood_c2",
+            "bone": "x_blood_c2",
+            "attachment": "x_blood_c"
+        },
+        {
+            "name": "x_blood_c3",
+            "bone": "x_blood_c3",
+            "attachment": "x_blood_c"
+        },
+        {
+            "name": "x_blood_b",
+            "bone": "x_blood_b",
+            "attachment": "x_blood_b"
+        },
+        {
+            "name": "x_blood_b2",
+            "bone": "x_blood_b2",
+            "attachment": "x_blood_b"
+        },
+        {
+            "name": "x_blood_b3",
+            "bone": "x_blood_b3",
+            "attachment": "x_blood_b"
+        },
+        {
+            "name": "x_blood_a",
+            "bone": "x_blood_a",
+            "attachment": "x_blood_a"
+        },
+        {
+            "name": "x_blood_a2",
+            "bone": "x_blood_a2",
+            "attachment": "x_blood_a"
+        },
+        {
+            "name": "x_blood_a3",
+            "bone": "x_blood_a3",
+            "attachment": "x_blood_a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "x": {
+                    "x": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            0.10496,
+                            0.67916,
+                            0.51806,
+                            1,
+                            0.91353,
+                            1,
+                            1,
+                            0.86207,
+                            1,
+                            0.50101,
+                            0.69439,
+                            0.11422,
+                            0.99999,
+                            1e-05,
+                            0.99999,
+                            0,
+                            0.86637,
+                            0.3276,
+                            0.49791,
+                            1e-05,
+                            0.0868,
+                            0.05387,
+                            1e-05,
+                            0.15824,
+                            1e-05,
+                            0.51548,
+                            0.31712,
+                            0.91013,
+                            0,
+                            1,
+                            0,
+                            0.50584,
+                            0.50801
+                        ],
+                        "triangles": [
+                            9,
+                            16,
+                            8,
+                            11,
+                            16,
+                            9,
+                            14,
+                            16,
+                            13,
+                            13,
+                            16,
+                            12,
+                            3,
+                            16,
+                            1,
+                            1,
+                            16,
+                            0,
+                            5,
+                            6,
+                            16,
+                            16,
+                            4,
+                            5,
+                            3,
+                            1,
+                            2,
+                            7,
+                            16,
+                            6,
+                            16,
+                            3,
+                            4,
+                            16,
+                            7,
+                            8,
+                            16,
+                            15,
+                            0,
+                            11,
+                            9,
+                            10,
+                            11,
+                            12,
+                            16,
+                            16,
+                            14,
+                            15
+                        ],
+                        "vertices": [
+                            2,
+                            1,
+                            1362.82,
+                            1037.87,
+                            0.8,
+                            14,
+                            1362.42,
+                            1036.29,
+                            0.2,
+                            2,
+                            1,
+                            484.36,
+                            -28.76,
+                            0.46746,
+                            14,
+                            483.97,
+                            -30.34,
+                            0.53254,
+                            2,
+                            1,
+                            1362.82,
+                            -1049.87,
+                            0.8,
+                            14,
+                            1362.42,
+                            -1051.45,
+                            0.2,
+                            1,
+                            1,
+                            1362.82,
+                            -1273.13,
+                            1,
+                            2,
+                            1,
+                            985.16,
+                            -1273.13,
+                            0.8,
+                            14,
+                            984.77,
+                            -1274.71,
+                            0.2,
+                            2,
+                            1,
+                            -3.43,
+                            -484.03,
+                            0.38327,
+                            14,
+                            -3.82,
+                            -485.62,
+                            0.61673,
+                            2,
+                            1,
+                            -1062.46,
+                            -1273.1,
+                            0.8,
+                            14,
+                            -1062.85,
+                            -1274.68,
+                            0.2,
+                            1,
+                            1,
+                            -1375.15,
+                            -1273.1,
+                            1,
+                            2,
+                            1,
+                            -1375.18,
+                            -928.08,
+                            0.8,
+                            14,
+                            -1375.58,
+                            -929.66,
+                            0.2,
+                            2,
+                            1,
+                            -478.21,
+                            23.27,
+                            0.45461,
+                            14,
+                            -478.6,
+                            21.69,
+                            0.54539,
+                            2,
+                            1,
+                            -1375.15,
+                            1084.75,
+                            0.8,
+                            14,
+                            -1375.54,
+                            1083.17,
+                            0.2,
+                            1,
+                            1,
+                            -1227.69,
+                            1308.85,
+                            1,
+                            2,
+                            1,
+                            -941.93,
+                            1308.84,
+                            0.8,
+                            14,
+                            -942.33,
+                            1307.26,
+                            0.2,
+                            2,
+                            1,
+                            36.21,
+                            490.08,
+                            0.33558,
+                            14,
+                            35.82,
+                            488.5,
+                            0.66442,
+                            2,
+                            1,
+                            1116.75,
+                            1308.87,
+                            0.8,
+                            14,
+                            1116.35,
+                            1307.29,
+                            0.2,
+                            1,
+                            1,
+                            1362.82,
+                            1308.87,
+                            1,
+                            2,
+                            1,
+                            9.8,
+                            -2.81,
+                            0.01978,
+                            14,
+                            9.41,
+                            -4.39,
+                            0.98022
+                        ],
+                        "hull": 16
+                    },
+                    "x 拷贝": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            0.10496,
+                            0.67916,
+                            0.51806,
+                            1,
+                            0.91353,
+                            1,
+                            1,
+                            0.86207,
+                            1,
+                            0.50101,
+                            0.69439,
+                            0.11422,
+                            0.99999,
+                            1e-05,
+                            0.99999,
+                            0,
+                            0.86637,
+                            0.3276,
+                            0.49791,
+                            1e-05,
+                            0.0868,
+                            0.05387,
+                            1e-05,
+                            0.15824,
+                            1e-05,
+                            0.51548,
+                            0.31712,
+                            0.91013,
+                            0,
+                            1,
+                            0,
+                            0.50584,
+                            0.50801
+                        ],
+                        "triangles": [
+                            9,
+                            16,
+                            8,
+                            11,
+                            16,
+                            9,
+                            14,
+                            16,
+                            13,
+                            13,
+                            16,
+                            12,
+                            3,
+                            16,
+                            1,
+                            1,
+                            16,
+                            0,
+                            5,
+                            6,
+                            16,
+                            16,
+                            4,
+                            5,
+                            3,
+                            1,
+                            2,
+                            7,
+                            16,
+                            6,
+                            16,
+                            3,
+                            4,
+                            16,
+                            7,
+                            8,
+                            16,
+                            15,
+                            0,
+                            11,
+                            9,
+                            10,
+                            11,
+                            12,
+                            16,
+                            16,
+                            14,
+                            15
+                        ],
+                        "vertices": [
+                            2,
+                            1,
+                            1362.82,
+                            1037.87,
+                            0.8,
+                            14,
+                            1362.42,
+                            1036.29,
+                            0.2,
+                            2,
+                            1,
+                            484.36,
+                            -28.76,
+                            0.46746,
+                            14,
+                            483.97,
+                            -30.34,
+                            0.53254,
+                            2,
+                            1,
+                            1362.82,
+                            -1049.87,
+                            0.8,
+                            14,
+                            1362.42,
+                            -1051.45,
+                            0.2,
+                            1,
+                            1,
+                            1362.82,
+                            -1273.13,
+                            1,
+                            2,
+                            1,
+                            985.16,
+                            -1273.13,
+                            0.8,
+                            14,
+                            984.77,
+                            -1274.71,
+                            0.2,
+                            2,
+                            1,
+                            -3.43,
+                            -484.03,
+                            0.38327,
+                            14,
+                            -3.82,
+                            -485.62,
+                            0.61673,
+                            2,
+                            1,
+                            -1062.46,
+                            -1273.1,
+                            0.8,
+                            14,
+                            -1062.85,
+                            -1274.68,
+                            0.2,
+                            1,
+                            1,
+                            -1375.15,
+                            -1273.1,
+                            1,
+                            2,
+                            1,
+                            -1375.18,
+                            -928.08,
+                            0.8,
+                            14,
+                            -1375.58,
+                            -929.66,
+                            0.2,
+                            2,
+                            1,
+                            -478.21,
+                            23.27,
+                            0.45461,
+                            14,
+                            -478.6,
+                            21.69,
+                            0.54539,
+                            2,
+                            1,
+                            -1375.15,
+                            1084.75,
+                            0.8,
+                            14,
+                            -1375.54,
+                            1083.17,
+                            0.2,
+                            1,
+                            1,
+                            -1227.69,
+                            1308.85,
+                            1,
+                            2,
+                            1,
+                            -941.93,
+                            1308.84,
+                            0.8,
+                            14,
+                            -942.33,
+                            1307.26,
+                            0.2,
+                            2,
+                            1,
+                            36.21,
+                            490.08,
+                            0.33558,
+                            14,
+                            35.82,
+                            488.5,
+                            0.66442,
+                            2,
+                            1,
+                            1116.75,
+                            1308.87,
+                            0.8,
+                            14,
+                            1116.35,
+                            1307.29,
+                            0.2,
+                            1,
+                            1,
+                            1362.82,
+                            1308.87,
+                            1,
+                            2,
+                            1,
+                            9.8,
+                            -2.81,
+                            0.01978,
+                            14,
+                            9.41,
+                            -4.39,
+                            0.98022
+                        ],
+                        "hull": 16
+                    }
+                },
+                "x_blood_a": {
+                    "x_blood_a": {
+                        "x": 713.95,
+                        "y": 48.32,
+                        "rotation": 49.09,
+                        "width": 1084,
+                        "height": 1090
+                    },
+                    "x_blood_a 拷贝": {
+                        "x": 713.95,
+                        "y": 48.32,
+                        "rotation": 49.09,
+                        "width": 1084,
+                        "height": 1090
+                    }
+                },
+                "x_blood_a2": {
+                    "x_blood_a": {
+                        "x": 713.95,
+                        "y": 48.32,
+                        "rotation": 49.09,
+                        "width": 1084,
+                        "height": 1090
+                    },
+                    "x_blood_a 拷贝": {
+                        "x": 713.95,
+                        "y": 48.32,
+                        "rotation": 49.09,
+                        "width": 1084,
+                        "height": 1090
+                    }
+                },
+                "x_blood_a3": {
+                    "x_blood_a": {
+                        "x": 713.95,
+                        "y": 48.32,
+                        "rotation": 49.09,
+                        "width": 1084,
+                        "height": 1090
+                    },
+                    "x_blood_a 拷贝": {
+                        "x": 713.95,
+                        "y": 48.32,
+                        "rotation": 49.09,
+                        "width": 1084,
+                        "height": 1090
+                    }
+                },
+                "x_blood_b": {
+                    "x_blood_b": {
+                        "x": 858.27,
+                        "y": -66.11,
+                        "rotation": 132.98,
+                        "width": 1353,
+                        "height": 1252
+                    },
+                    "x_blood_b 拷贝": {
+                        "x": 858.27,
+                        "y": -66.11,
+                        "rotation": 132.98,
+                        "width": 1353,
+                        "height": 1252
+                    }
+                },
+                "x_blood_b2": {
+                    "x_blood_b": {
+                        "x": 858.27,
+                        "y": -66.11,
+                        "rotation": 132.98,
+                        "width": 1353,
+                        "height": 1252
+                    },
+                    "x_blood_b 拷贝": {
+                        "x": 858.27,
+                        "y": -66.11,
+                        "rotation": 132.98,
+                        "width": 1353,
+                        "height": 1252
+                    }
+                },
+                "x_blood_b3": {
+                    "x_blood_b": {
+                        "x": 858.27,
+                        "y": -66.11,
+                        "rotation": 132.98,
+                        "width": 1353,
+                        "height": 1252
+                    },
+                    "x_blood_b 拷贝": {
+                        "x": 858.27,
+                        "y": -66.11,
+                        "rotation": 132.98,
+                        "width": 1353,
+                        "height": 1252
+                    }
+                },
+                "x_blood_c": {
+                    "x_blood_c": {
+                        "x": 852.13,
+                        "y": -11.18,
+                        "scaleY": -1,
+                        "rotation": 46.08,
+                        "width": 1254,
+                        "height": 1307
+                    },
+                    "x_blood_c 拷贝": {
+                        "x": 858.46,
+                        "y": -3.68,
+                        "scaleY": -1,
+                        "rotation": 46.08,
+                        "width": 1254,
+                        "height": 1307
+                    }
+                },
+                "x_blood_c2": {
+                    "x_blood_c": {
+                        "x": 847.71,
+                        "y": 80.35,
+                        "rotation": -40.18,
+                        "width": 1254,
+                        "height": 1307
+                    },
+                    "x_blood_c 拷贝": {
+                        "x": 847.71,
+                        "y": 80.35,
+                        "rotation": -40.18,
+                        "width": 1254,
+                        "height": 1307
+                    }
+                },
+                "x_blood_c3": {
+                    "x_blood_c": {
+                        "x": 847.71,
+                        "y": 80.35,
+                        "rotation": -40.18,
+                        "width": 1254,
+                        "height": 1307
+                    },
+                    "x_blood_c 拷贝": {
+                        "x": 847.71,
+                        "y": 80.35,
+                        "rotation": -40.18,
+                        "width": 1254,
+                        "height": 1307
+                    }
+                },
+                "x_blood_d": {
+                    "x_blood_d": {
+                        "x": 790.63,
+                        "y": 11.63,
+                        "rotation": -138.16,
+                        "width": 1137,
+                        "height": 1008
+                    },
+                    "x_blood_d 拷贝": {
+                        "x": 790.63,
+                        "y": 11.63,
+                        "rotation": -138.16,
+                        "width": 1137,
+                        "height": 1008
+                    }
+                },
+                "x_blood_d2": {
+                    "x_blood_d": {
+                        "x": 790.63,
+                        "y": 11.63,
+                        "rotation": -138.16,
+                        "width": 1137,
+                        "height": 1008
+                    },
+                    "x_blood_d 拷贝": {
+                        "x": 790.63,
+                        "y": 11.63,
+                        "rotation": -138.16,
+                        "width": 1137,
+                        "height": 1008
+                    }
+                },
+                "x_blood_d3": {
+                    "x_blood_d": {
+                        "x": 790.63,
+                        "y": 11.63,
+                        "rotation": -138.16,
+                        "width": 1137,
+                        "height": 1008
+                    },
+                    "x_blood_d 拷贝": {
+                        "x": 790.63,
+                        "y": 11.63,
+                        "rotation": -138.16,
+                        "width": 1137,
+                        "height": 1008
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "x": {
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x 拷贝"
+                        }
+                    ]
+                },
+                "x_blood_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.7333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.4333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x_blood_a 拷贝"
+                        }
+                    ]
+                },
+                "x_blood_a2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffa9",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffffa9"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.2667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffffa9"
+                        },
+                        {
+                            "time": 3.0333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.2667,
+                            "color": "ffffffa9"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x_blood_a 拷贝"
+                        }
+                    ]
+                },
+                "x_blood_a3": {
+                    "rgba": [
+                        {
+                            "color": "ffffffa2",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffffa2"
+                        },
+                        {
+                            "time": 1.1333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.9,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffffa2"
+                        },
+                        {
+                            "time": 2.8667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.6,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4.2667,
+                            "color": "ffffffa2"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x_blood_a 拷贝"
+                        }
+                    ]
+                },
+                "x_blood_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.4333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x_blood_b 拷贝"
+                        }
+                    ]
+                },
+                "x_blood_b2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff99",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.0333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.2667,
+                            "color": "ffffff99"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x_blood_b 拷贝"
+                        }
+                    ]
+                },
+                "x_blood_b3": {
+                    "rgba": [
+                        {
+                            "color": "ffffffb2",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffffb2"
+                        },
+                        {
+                            "time": 1.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.9,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffffb2"
+                        },
+                        {
+                            "time": 2.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.6,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4.2667,
+                            "color": "ffffffb2"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x_blood_b 拷贝"
+                        }
+                    ]
+                },
+                "x_blood_c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.4333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x_blood_c 拷贝"
+                        },
+                        {
+                            "time": 2.5333,
+                            "name": "x_blood_c"
+                        },
+                        {
+                            "time": 2.6333,
+                            "name": "x_blood_c 拷贝"
+                        }
+                    ]
+                },
+                "x_blood_c2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff99",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.0333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.2667,
+                            "color": "ffffff99"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x_blood_c 拷贝"
+                        }
+                    ]
+                },
+                "x_blood_c3": {
+                    "rgba": [
+                        {
+                            "color": "ffffffb2",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffffb2"
+                        },
+                        {
+                            "time": 1.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.9,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffffb2"
+                        },
+                        {
+                            "time": 2.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.6,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4.2667,
+                            "color": "ffffffb2"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x_blood_c 拷贝"
+                        }
+                    ]
+                },
+                "x_blood_d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.4333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.1667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x_blood_d 拷贝"
+                        }
+                    ]
+                },
+                "x_blood_d2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff99",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffff99"
+                        },
+                        {
+                            "time": 3.0333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 3.9667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 4.2667,
+                            "color": "ffffff99"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x_blood_d 拷贝"
+                        }
+                    ]
+                },
+                "x_blood_d3": {
+                    "rgba": [
+                        {
+                            "color": "ffffffb2",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffffb2"
+                        },
+                        {
+                            "time": 1.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.9,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.5333,
+                            "color": "ffffffb2"
+                        },
+                        {
+                            "time": 2.8,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3.6,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 4.2667,
+                            "color": "ffffffb2"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.9333,
+                            "name": "x_blood_d 拷贝"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "x_blood_a": {
+                    "scale": [
+                        {
+                            "x": 0.496,
+                            "y": 0.496,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.496,
+                            "y": 0.496
+                        },
+                        {
+                            "time": 2.4333,
+                            "x": 1.274,
+                            "y": 1.274
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 0.496,
+                            "y": 0.496
+                        },
+                        {
+                            "time": 4.1667,
+                            "x": 1.274,
+                            "y": 1.274,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.2667,
+                            "x": 0.496,
+                            "y": 0.496
+                        }
+                    ]
+                },
+                "x_blood_b": {
+                    "scale": [
+                        {
+                            "x": 0.497,
+                            "y": 0.497,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.497,
+                            "y": 0.497
+                        },
+                        {
+                            "time": 2.4333,
+                            "x": 0.948,
+                            "y": 0.948,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 0.497,
+                            "y": 0.497
+                        },
+                        {
+                            "time": 4.1667,
+                            "x": 0.948,
+                            "y": 0.948,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.2667,
+                            "x": 0.497,
+                            "y": 0.497
+                        }
+                    ]
+                },
+                "x_blood_d": {
+                    "scale": [
+                        {
+                            "x": 0.499,
+                            "y": 0.499,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.499,
+                            "y": 0.499
+                        },
+                        {
+                            "time": 2.4333,
+                            "x": 1.262,
+                            "y": 1.262,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 0.499,
+                            "y": 0.499
+                        },
+                        {
+                            "time": 4.1667,
+                            "x": 1.262,
+                            "y": 1.262,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.2667,
+                            "x": 0.499,
+                            "y": 0.499
+                        }
+                    ]
+                },
+                "x_blood_c": {
+                    "scale": [
+                        {
+                            "x": 0.497,
+                            "y": 0.497,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.497,
+                            "y": 0.497
+                        },
+                        {
+                            "time": 2.4333,
+                            "x": 1.07,
+                            "y": 1.07,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 0.497,
+                            "y": 0.497
+                        },
+                        {
+                            "time": 4.1667,
+                            "x": 1.07,
+                            "y": 1.07,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.2667,
+                            "x": 0.497,
+                            "y": 0.497
+                        }
+                    ]
+                },
+                "x_blood_a2": {
+                    "scale": [
+                        {
+                            "x": 1.041,
+                            "y": 1.041,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1.041,
+                            "y": 1.041
+                        },
+                        {
+                            "time": 1.3,
+                            "x": 1.274,
+                            "y": 1.274,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 0.496,
+                            "y": 0.496
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 1.041,
+                            "y": 1.041
+                        },
+                        {
+                            "time": 3.0333,
+                            "x": 1.274,
+                            "y": 1.274,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1333,
+                            "x": 0.496,
+                            "y": 0.496
+                        },
+                        {
+                            "time": 4.2667,
+                            "x": 1.041,
+                            "y": 1.041
+                        }
+                    ]
+                },
+                "x_blood_a3": {
+                    "scale": [
+                        {
+                            "x": 0.768,
+                            "y": 0.768,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.768,
+                            "y": 0.768
+                        },
+                        {
+                            "time": 1.9,
+                            "x": 1.274,
+                            "y": 1.274,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9667,
+                            "x": 0.496,
+                            "y": 0.496
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 0.768,
+                            "y": 0.768
+                        },
+                        {
+                            "time": 3.6,
+                            "x": 1.274,
+                            "y": 1.274,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667,
+                            "x": 0.496,
+                            "y": 0.496
+                        },
+                        {
+                            "time": 4.2667,
+                            "x": 0.768,
+                            "y": 0.768
+                        }
+                    ]
+                },
+                "x_blood_b2": {
+                    "scale": [
+                        {
+                            "x": 0.813,
+                            "y": 0.813,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.813,
+                            "y": 0.813
+                        },
+                        {
+                            "time": 1.3,
+                            "x": 0.948,
+                            "y": 0.948,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 0.497,
+                            "y": 0.497
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 0.813,
+                            "y": 0.813
+                        },
+                        {
+                            "time": 3.0333,
+                            "x": 0.948,
+                            "y": 0.948,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1333,
+                            "x": 0.497,
+                            "y": 0.497
+                        },
+                        {
+                            "time": 4.2667,
+                            "x": 0.813,
+                            "y": 0.813
+                        }
+                    ]
+                },
+                "x_blood_b3": {
+                    "scale": [
+                        {
+                            "x": 0.655,
+                            "y": 0.655,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.655,
+                            "y": 0.655
+                        },
+                        {
+                            "time": 1.9,
+                            "x": 0.948,
+                            "y": 0.948,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9667,
+                            "x": 0.497,
+                            "y": 0.497
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 0.655,
+                            "y": 0.655
+                        },
+                        {
+                            "time": 3.6,
+                            "x": 0.948,
+                            "y": 0.948,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667,
+                            "x": 0.497,
+                            "y": 0.497
+                        },
+                        {
+                            "time": 4.2667,
+                            "x": 0.655,
+                            "y": 0.655
+                        }
+                    ]
+                },
+                "x_blood_c2": {
+                    "scale": [
+                        {
+                            "x": 0.898,
+                            "y": 0.898,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.898,
+                            "y": 0.898
+                        },
+                        {
+                            "time": 1.3,
+                            "x": 1.07,
+                            "y": 1.07,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 0.497,
+                            "y": 0.497
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 0.898,
+                            "y": 0.898
+                        },
+                        {
+                            "time": 3.0333,
+                            "x": 1.07,
+                            "y": 1.07,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1333,
+                            "x": 0.497,
+                            "y": 0.497
+                        },
+                        {
+                            "time": 4.2667,
+                            "x": 0.898,
+                            "y": 0.898
+                        }
+                    ]
+                },
+                "x_blood_c3": {
+                    "scale": [
+                        {
+                            "x": 0.697,
+                            "y": 0.697,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.697,
+                            "y": 0.697
+                        },
+                        {
+                            "time": 1.9,
+                            "x": 1.07,
+                            "y": 1.07,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9667,
+                            "x": 0.497,
+                            "y": 0.497
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 0.697,
+                            "y": 0.697
+                        },
+                        {
+                            "time": 3.6,
+                            "x": 1.07,
+                            "y": 1.07,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667,
+                            "x": 0.497,
+                            "y": 0.497
+                        },
+                        {
+                            "time": 4.2667,
+                            "x": 0.697,
+                            "y": 0.697
+                        }
+                    ]
+                },
+                "x_blood_d2": {
+                    "scale": [
+                        {
+                            "x": 1.033,
+                            "y": 1.033,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1.033,
+                            "y": 1.033
+                        },
+                        {
+                            "time": 1.3,
+                            "x": 1.262,
+                            "y": 1.262,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 0.499,
+                            "y": 0.499
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 1.033,
+                            "y": 1.033
+                        },
+                        {
+                            "time": 3.0333,
+                            "x": 1.262,
+                            "y": 1.262,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1333,
+                            "x": 0.499,
+                            "y": 0.499
+                        },
+                        {
+                            "time": 4.2667,
+                            "x": 1.033,
+                            "y": 1.033
+                        }
+                    ]
+                },
+                "x_blood_d3": {
+                    "scale": [
+                        {
+                            "x": 0.766,
+                            "y": 0.766,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.766,
+                            "y": 0.766
+                        },
+                        {
+                            "time": 1.9,
+                            "x": 1.262,
+                            "y": 1.262,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9667,
+                            "x": 0.499,
+                            "y": 0.499
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 0.766,
+                            "y": 0.766
+                        },
+                        {
+                            "time": 3.6,
+                            "x": 1.262,
+                            "y": 1.262,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667,
+                            "x": 0.499,
+                            "y": 0.499
+                        },
+                        {
+                            "time": 4.2667,
+                            "x": 0.766,
+                            "y": 0.766
+                        }
+                    ]
+                },
+                "bone": {
+                    "scalex": [
+                        {
+                            "value": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "value": 0,
+                            "curve": [
+                                0.787,
+                                0.343,
+                                0.813,
+                                0.876
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "value": 1.06,
+                            "curve": [
+                                0.881,
+                                1.108,
+                                0.911,
+                                0.976
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "value": 0.976,
+                            "curve": [
+                                1.597,
+                                0.986,
+                                2.623,
+                                1.037
+                            ]
+                        },
+                        {
+                            "time": 4.2667,
+                            "value": 1.044
+                        }
+                    ],
+                    "scaley": [
+                        {
+                            "value": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "value": 0,
+                            "curve": [
+                                0.787,
+                                0.343,
+                                0.813,
+                                0.876
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "value": 1.06,
+                            "curve": [
+                                0.881,
+                                1.108,
+                                0.911,
+                                0.976
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "value": 0.976,
+                            "curve": [
+                                1.597,
+                                0.986,
+                                2.623,
+                                1.037
+                            ]
+                        },
+                        {
+                            "time": 4.2667,
+                            "value": 1.044
+                        }
+                    ]
+                },
+                "bone2": {
+                    "scalex": [
+                        {
+                            "value": -0.006,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "value": -0.006,
+                            "curve": [
+                                0.817,
+                                1.256,
+                                0.823,
+                                1.859
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "value": 1.858,
+                            "curve": [
+                                0.893,
+                                1.857,
+                                0.872,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9333
+                        }
+                    ],
+                    "scaley": [
+                        {
+                            "value": -0.006,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "value": -0.006,
+                            "curve": [
+                                0.817,
+                                1.256,
+                                0.823,
+                                1.859
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "value": 1.858,
+                            "curve": [
+                                0.893,
+                                1.857,
+                                0.872,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9333
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

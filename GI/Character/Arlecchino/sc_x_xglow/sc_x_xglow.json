@@ -1,0 +1,129 @@
+{
+    "skeleton": {
+        "hash": "AG3PXn0Fypg",
+        "spine": "4.0-from-4.1.24",
+        "x": -952.36,
+        "y": -900.67,
+        "width": 1901.01,
+        "height": 1814.17
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -3.4,
+            "y": 11.77,
+            "scaleX": 0.4547,
+            "scaleY": 0.4547
+        }
+    ],
+    "slots": [
+        {
+            "name": "sc_x_xglow",
+            "bone": "bone",
+            "color": "ffffffc7",
+            "attachment": "sc_x_xglow",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "sc_x_xglow": {
+                    "sc_x_xglow": {
+                        "x": 3.4,
+                        "y": -11.77,
+                        "width": 4181,
+                        "height": 3990
+                    },
+                    "sc_x_xglow 拷贝": {
+                        "x": 3.4,
+                        "y": -11.77,
+                        "width": 4181,
+                        "height": 3990
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "sc_x_xglow": {
+                    "rgba": [
+                        {
+                            "time": 0.8,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.9,
+                            "color": "ffffffc7"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.8667,
+                            "name": "sc_x_xglow 拷贝"
+                        },
+                        {
+                            "time": 0.9333,
+                            "name": "sc_x_xglow"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "scale": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.8,
+                                0.305,
+                                0.8,
+                                0.934,
+                                0.8,
+                                0.305,
+                                0.8,
+                                0.934
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "x": 0.966,
+                            "y": 0.966,
+                            "curve": [
+                                1.488,
+                                1.005,
+                                3.496,
+                                1,
+                                1.488,
+                                1.005,
+                                3.496,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.2667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.3
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

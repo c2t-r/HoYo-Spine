@@ -31,6 +31,7 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - 4.3 https://act.hoyoverse.com/ys/event/e20231209preview-yh731z/index.html
 - 4.4 https://act.hoyoverse.com/ys/event/e20240120preview/index.html
 - 4.5 https://act.hoyoverse.com/ys/event/e20230302preview-2hu94k/index.html
+- 4.6 https://act.hoyoverse.com/ys/event/e20240413preview-pvtga2/index.html
 
 ## Characters
 - https://webstatic-sea.mihoyo.com/ys/event/e20210624-boat/index.html <Kazuha>
@@ -55,6 +56,7 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - https://act.hoyoverse.com/ys/event/e20231103furina/index.html <Furina>
 - https://act.hoyoverse.com/ys/event/e20231215navia/index.html <Navia>
 - https://act.hoyoverse.com/ys/event/e20240308chiori-cuesme/index.html <Chiori>
+- https://act.hoyoverse.com/ys/event/e20240419arlecchino-vn0wpz/index.html <Arlecchino>
 
 ## others
 - https://webstatic-sea.mihoyo.com/ys/event/e20201028-invite-sea/index.html

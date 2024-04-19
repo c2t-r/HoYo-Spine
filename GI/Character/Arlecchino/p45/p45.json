@@ -1,0 +1,184 @@
+{
+    "skeleton": {
+        "hash": "0PUi/Ni4saI",
+        "spine": "4.0-from-4.1.24",
+        "x": -826,
+        "y": -388.5,
+        "width": 1652,
+        "height": 777,
+        "images": "./p45_images/",
+        "audio": "D:/需求/仆人/漫画分镜"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "4p",
+            "parent": "root",
+            "x": -136.32,
+            "y": -17.36
+        },
+        {
+            "name": "5p",
+            "parent": "root",
+            "x": 497.56,
+            "y": -68.24
+        }
+    ],
+    "slots": [
+        {
+            "name": "5p",
+            "bone": "5p",
+            "attachment": "5p"
+        },
+        {
+            "name": "4p",
+            "bone": "4p",
+            "attachment": "4p"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "4p": {
+                    "4p": {
+                        "x": -92.18,
+                        "y": 32.86,
+                        "width": 1195,
+                        "height": 628
+                    }
+                },
+                "5p": {
+                    "5p": {
+                        "x": -10.56,
+                        "y": 68.24,
+                        "width": 678,
+                        "height": 777
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "4p": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.533,
+                                1,
+                                0.567,
+                                1,
+                                0.533,
+                                1,
+                                0.567,
+                                1,
+                                0.533,
+                                1,
+                                0.567,
+                                1,
+                                0.533,
+                                0,
+                                0.567,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "5p": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.111,
+                                1,
+                                0.222,
+                                1,
+                                0.111,
+                                1,
+                                0.222,
+                                1,
+                                0.111,
+                                1,
+                                0.222,
+                                1,
+                                0.111,
+                                0,
+                                0.222,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "4p": {
+                    "scale": [
+                        {
+                            "x": 1.451,
+                            "y": 1.451,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 1.451,
+                            "y": 1.451,
+                            "curve": [
+                                0.595,
+                                1.451,
+                                0.565,
+                                1,
+                                0.595,
+                                1.451,
+                                0.565,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6667
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {}
+    },
+    "extra": {
+        "4p": {
+            "rootBoneName": "4p",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 0.25,
+                    "moveXAmp": 3,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6680
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

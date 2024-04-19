@@ -1,0 +1,202 @@
+{
+    "skeleton": {
+        "hash": "o1ZgzY6X+Uc",
+        "spine": "4.0-from-4.1.24",
+        "x": -875.39,
+        "y": -197.28,
+        "width": 1771.24,
+        "height": 425.58
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 14.01,
+            "y": 20.84,
+            "scaleX": 0.4447,
+            "scaleY": 0.4447
+        },
+        {
+            "name": "sc_x_line_h",
+            "parent": "bone",
+            "length": 1999.99,
+            "rotation": -13.14,
+            "x": 1.82,
+            "y": 4.35
+        }
+    ],
+    "slots": [
+        {
+            "name": "sc_x_line_h",
+            "bone": "sc_x_line_h",
+            "attachment": "sc_x_line_h 拷贝"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "sc_x_line_h": {
+                    "sc_x_line_h": {
+                        "x": -6.34,
+                        "y": -18.26,
+                        "rotation": 13.14,
+                        "width": 3983,
+                        "height": 957
+                    },
+                    "sc_x_line_h 拷贝": {
+                        "x": -6.34,
+                        "y": -18.26,
+                        "rotation": 13.14,
+                        "width": 3983,
+                        "height": 957
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "sc_x_line_h": {
+                    "attachment": [
+                        {
+                            "name": "sc_x_line_h"
+                        },
+                        {
+                            "time": 0.9333,
+                            "name": "sc_x_line_h 拷贝"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "sc_x_line_h": {
+                    "translate": [
+                        {
+                            "x": -7595.63,
+                            "y": 1773,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": -7595.63,
+                            "y": 1773,
+                            "curve": [
+                                0.167,
+                                -7186.04,
+                                0.193,
+                                -345.73,
+                                0.167,
+                                1677.18,
+                                0.193,
+                                80.64
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "x": -152.48,
+                            "y": 35.56,
+                            "curve": [
+                                0.426,
+                                54.11,
+                                0.839,
+                                0,
+                                0.422,
+                                -11.09,
+                                0.839,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.1
+                        }
+                    ],
+                    "scalex": [
+                        {
+                            "value": 0.041,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 0.041,
+                            "curve": [
+                                0.167,
+                                0.931,
+                                0.161,
+                                0.99
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 0.999,
+                            "curve": [
+                                0.634,
+                                1.013,
+                                0.753,
+                                1.011
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "value": 1.038,
+                            "curve": [
+                                1.468,
+                                1.067,
+                                2.167,
+                                1.087
+                            ]
+                        },
+                        {
+                            "time": 4.2667,
+                            "value": 1.184
+                        }
+                    ],
+                    "scaley": [
+                        {
+                            "value": 0.018,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 0.018,
+                            "curve": [
+                                0.167,
+                                0.511,
+                                0.16,
+                                0.982
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 0.993,
+                            "curve": [
+                                0.644,
+                                1.012,
+                                0.769,
+                                1.007
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "value": 1.034,
+                            "curve": [
+                                1.468,
+                                1.064,
+                                2.167,
+                                1.085
+                            ]
+                        },
+                        {
+                            "time": 4.2667,
+                            "value": 1.184
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
