@@ -60,9 +60,25 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 
 ## Home
 https://genshin.hoyoverse.com/en/
+- 2.4 https://webstatic-sea.mihoyo.com/hk4e/event/puzzle/pz_qAnK5jc28b/index.html
+- 2.5 https://webstatic-sea.mihoyo.com/hk4e/event/puzzle/pz_Krq936NqqA/index.html
+- 2.6 https://act.hoyoverse.com/puzzle/hk4e/pz_casu320aO7/index.html
+- 2.7 https://act.hoyoverse.com/puzzle/hk4e/pz_7rz3BHkRfh/index.html
+- 2.8 https://act.hoyoverse.com/puzzle/hk4e/pz_jt9ErqKVGr/index.html
+- 3.0 https://act.hoyoverse.com/puzzle/hk4e/pz_ik6m8SmrTQ/index.html
+- 3.1 https://act.hoyoverse.com/puzzle/hk4e/fab31test/index.html
+- 3.2 https://act.hoyoverse.com/puzzle/hk4e/pz_cFEgLf_Fia/index.html
+- 3.3 https://act.hoyoverse.com/puzzle/hk4e/pz_nEKbAK4rMj/index.html
+- 3.4 https://act.hoyoverse.com/puzzle/hk4e/pz_uvk1_kLeGL/index.html
 - 3.5 https://act.hoyoverse.com/puzzle/hk4e/pz_UC0cqRGvg9/index.html
+- 3.6 https://act.hoyoverse.com/puzzle/hk4e/pz_XTJ1OGjEZX/index.html
+- 3.7 https://act.hoyoverse.com/puzzle/hk4e/pz_VCMexIthmV/index.html
+- 3.8 https://act.hoyoverse.com/puzzle/hk4e/pz_PbzaVP0uHL/index.html
 - 4.0 https://act.hoyoverse.com/puzzle/hk4e/pz_qU_XDEsGGe/index.html
+- 4.1 https://act.hoyoverse.com/puzzle/hk4e/pz_wY19_dy4do/index.html
+- 4.2 https://act.hoyoverse.com/puzzle/hk4e/pz_PMxRCJehNA/index.html
 - 4.3 https://act.hoyoverse.com/puzzle/hk4e/pz_MbGXG2vgVO/index.html
+- 4.4 https://act.hoyoverse.com/puzzle/hk4e/pz_I4DPYNZuP5/index.html
 - 4.5 https://act.hoyoverse.com/puzzle/hk4e/pz_uGaXg8gTdF/index.html
 - 4.6 https://act.hoyoverse.com/puzzle/hk4e/pz_HdmXQ1MHiy/index.html
 
