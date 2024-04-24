@@ -59,8 +59,9 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - https://act.hoyoverse.com/ys/event/e20240419arlecchino-vn0wpz/index.html <Arlecchino>
 
 ## Home
-https://genshin.hoyoverse.com/ja/
-- https://act.hoyoverse.com/puzzle/hk4e/pz_uGaXg8gTdF/index.html
+https://genshin.hoyoverse.com/en/
+- 4.5 https://act.hoyoverse.com/puzzle/hk4e/pz_uGaXg8gTdF/index.html
+- 4.6 https://act.hoyoverse.com/puzzle/hk4e/pz_HdmXQ1MHiy/index.html
 
 ## others
 - https://webstatic-sea.mihoyo.com/ys/event/e20201028-invite-sea/index.html
