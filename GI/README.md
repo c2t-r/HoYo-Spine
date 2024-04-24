@@ -60,6 +60,9 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 
 ## Home
 https://genshin.hoyoverse.com/en/
+- 3.5 https://act.hoyoverse.com/puzzle/hk4e/pz_UC0cqRGvg9/index.html
+- 4.0 https://act.hoyoverse.com/puzzle/hk4e/pz_qU_XDEsGGe/index.html
+- 4.3 https://act.hoyoverse.com/puzzle/hk4e/pz_MbGXG2vgVO/index.html
 - 4.5 https://act.hoyoverse.com/puzzle/hk4e/pz_uGaXg8gTdF/index.html
 - 4.6 https://act.hoyoverse.com/puzzle/hk4e/pz_HdmXQ1MHiy/index.html
 
