@@ -1,0 +1,168 @@
+{
+    "skeleton": {
+        "hash": "f+yd+DsheNU",
+        "spine": "4.1.24",
+        "x": -219,
+        "y": -140,
+        "width": 438,
+        "height": 281,
+        "images": "../../2_p1/tex/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "p1_fish_lightb",
+            "parent": "root",
+            "x": 130.02,
+            "y": 58.89
+        },
+        {
+            "name": "p1_fish_lightb2",
+            "parent": "p1_fish_lightb",
+            "length": 166.36,
+            "rotation": -168.05,
+            "x": -8.7,
+            "y": -2.54
+        }
+    ],
+    "slots": [
+        {
+            "name": "p1_fish_lightb",
+            "bone": "p1_fish_lightb2",
+            "attachment": "p1_fish_lightb"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "p1_fish_lightb": {
+                    "p1_fish_lightb": {
+                        "x": 130.26,
+                        "y": 29.53,
+                        "rotation": 168.05,
+                        "width": 438,
+                        "height": 281
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "bones": {
+                "p1_fish_lightb": {
+                    "rotate": [
+                        {
+                            "value": -38.31
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -81.09,
+                            "y": -82.74
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.528,
+                            "y": 0.528
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "bones": {
+                "p1_fish_lightb": {
+                    "translate": [
+                        {}
+                    ]
+                }
+            }
+        },
+        "c": {
+            "bones": {
+                "p1_fish_lightb": {
+                    "rotate": [
+                        {
+                            "value": -11.9
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -45.51,
+                            "y": -27.96
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.668,
+                            "y": 0.668
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "p1_fish_lightb2": {
+            "rootBoneName": "p1_fish_lightb2",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "c": {
+                    "name": "c",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 26.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.0734327530082697,
+                    "moveXCenter": 0,
+                    "moveXSeed": 5745.05963635985,
+                    "rotateFreq": 8,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.1856356322799427
+                },
+                "b": {
+                    "name": "b",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 30.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 5213,
+                    "rotateFreq": 9.5,
+                    "rotateAmp": 7.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -1.7000000000000002
+                },
+                "a": {
+                    "name": "a",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 13.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 5948,
+                    "rotateFreq": 6,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

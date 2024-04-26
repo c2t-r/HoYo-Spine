@@ -20,6 +20,7 @@ google: ```site:act.hoyoverse.com/sr/event```
 - https://act.hoyoverse.com/sr/event/20230802action/index.html
 - https://act.hoyoverse.com/sr/event/e20231230card-d0a2c0/index.html <BlackSwan>
 - https://act.hoyoverse.com/sr/event/xianzhoucruise/index.html
+- https://act.hoyoverse.com/sr/event/e20240426anniversary-so6swc/index.html
 
 ## Puzzle
 - https://act.mihoyo.com/puzzle/hkrpg/pz_stKK3ccUXV/index.html

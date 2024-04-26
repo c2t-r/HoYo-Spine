@@ -1,0 +1,332 @@
+{
+    "skeleton": {
+        "hash": "TpEzBfExh/8",
+        "spine": "4.1.24",
+        "x": -790,
+        "y": -504.54,
+        "width": 1584,
+        "height": 827,
+        "images": "./拱门/images/",
+        "audio": "./拱门/"
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "p_7拱门",
+            "bone": "root",
+            "attachment": "p_7拱门"
+        },
+        {
+            "name": "p_8拱门",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "p_8拱门"
+        },
+        {
+            "name": "p_9拱门",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "p_7拱门"
+        },
+        {
+            "name": "p_10拱门",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "p_10拱门"
+        },
+        {
+            "name": "p_7三角",
+            "bone": "root",
+            "attachment": "p_7三角"
+        },
+        {
+            "name": "p_8三角",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "p_8三角"
+        },
+        {
+            "name": "p_9三角",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "p_7三角"
+        },
+        {
+            "name": "p_10三角",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "p_10三角"
+        },
+        {
+            "name": "p_7地台",
+            "bone": "root",
+            "attachment": "p_7地台"
+        },
+        {
+            "name": "p_8地台",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "p_8地台"
+        },
+        {
+            "name": "p_9地台",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "p_7地台"
+        },
+        {
+            "name": "p_10地台",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "p_10地台"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "p_7三角": {
+                    "p_7三角": {
+                        "x": -1.5,
+                        "y": -90.04,
+                        "width": 861,
+                        "height": 825
+                    }
+                },
+                "p_7地台": {
+                    "p_7地台": {
+                        "x": 2,
+                        "y": -380.04,
+                        "width": 1584,
+                        "height": 163
+                    }
+                },
+                "p_7拱门": {
+                    "p_7拱门": {
+                        "x": 1,
+                        "y": -1.04,
+                        "width": 1476,
+                        "height": 633
+                    }
+                },
+                "p_8三角": {
+                    "p_8三角": {
+                        "x": -2.5,
+                        "y": -91.54,
+                        "width": 865,
+                        "height": 826
+                    }
+                },
+                "p_8地台": {
+                    "p_8地台": {
+                        "x": 2,
+                        "y": -380.04,
+                        "width": 1584,
+                        "height": 163
+                    }
+                },
+                "p_8拱门": {
+                    "p_8拱门": {
+                        "x": 1,
+                        "y": -1.04,
+                        "width": 1476,
+                        "height": 633
+                    }
+                },
+                "p_9三角": {
+                    "p_7三角": {
+                        "x": -1.5,
+                        "y": -90.04,
+                        "width": 861,
+                        "height": 825
+                    }
+                },
+                "p_9地台": {
+                    "p_7地台": {
+                        "x": 2,
+                        "y": -380.04,
+                        "width": 1584,
+                        "height": 163
+                    }
+                },
+                "p_9拱门": {
+                    "p_7拱门": {
+                        "x": 1,
+                        "y": -1.04,
+                        "width": 1476,
+                        "height": 633
+                    }
+                },
+                "p_10三角": {
+                    "p_10三角": {
+                        "x": -1.5,
+                        "y": -90.04,
+                        "width": 861,
+                        "height": 825
+                    }
+                },
+                "p_10地台": {
+                    "p_10地台": {
+                        "x": 2,
+                        "y": -380.04,
+                        "width": 1584,
+                        "height": 163
+                    }
+                },
+                "p_10拱门": {
+                    "p_10拱门": {
+                        "x": 0.5,
+                        "y": -0.54,
+                        "width": 1477,
+                        "height": 634
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "p7": {},
+        "p8": {
+            "slots": {
+                "p_8三角": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_8地台": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_8拱门": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "p9": {
+            "slots": {
+                "p_8三角": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_8地台": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_8拱门": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_9三角": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_9地台": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_9拱门": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "p10": {
+            "slots": {
+                "p_8三角": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_8地台": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_8拱门": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_9三角": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_9地台": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_9拱门": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_10三角": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_10地台": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "p_10拱门": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
