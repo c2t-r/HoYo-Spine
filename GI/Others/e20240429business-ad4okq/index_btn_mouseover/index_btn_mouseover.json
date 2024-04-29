@@ -1,0 +1,1362 @@
+{
+    "skeleton": {
+        "hash": "5ymH9yxSrPk",
+        "spine": "4.0-from-4.1.24",
+        "x": -114.31,
+        "y": -112.64,
+        "width": 220.56,
+        "height": 246.14
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "lizi",
+            "parent": "root",
+            "x": -88.84,
+            "y": -69.28
+        },
+        {
+            "name": "lizi_b",
+            "parent": "lizi",
+            "x": 28.75,
+            "y": -14.87
+        },
+        {
+            "name": "lizi_c",
+            "parent": "lizi",
+            "y": 14.25,
+            "scaleX": 1.0607,
+            "scaleY": 1.0607
+        },
+        {
+            "name": "lizi_d",
+            "parent": "lizi",
+            "x": -22.61,
+            "y": -5.27
+        },
+        {
+            "name": "lizi_b_wiggle",
+            "parent": "lizi_b"
+        },
+        {
+            "name": "lizi_c_wiggle",
+            "parent": "lizi_c"
+        },
+        {
+            "name": "lizi_d_wiggle",
+            "parent": "lizi_d"
+        },
+        {
+            "name": "lizi2",
+            "parent": "root",
+            "x": 76.14,
+            "y": -68.25,
+            "scaleX": 0.8319,
+            "scaleY": 0.8319
+        },
+        {
+            "name": "lizi_b2",
+            "parent": "lizi2",
+            "x": 23.23,
+            "y": -0.31
+        },
+        {
+            "name": "lizi_b_wiggle2",
+            "parent": "lizi_b2"
+        },
+        {
+            "name": "lizi_c2",
+            "parent": "lizi2",
+            "y": 14.25,
+            "scaleX": 1.0341,
+            "scaleY": 1.0341
+        },
+        {
+            "name": "lizi_c_wiggle2",
+            "parent": "lizi_c2"
+        },
+        {
+            "name": "lizi_d2",
+            "parent": "lizi2",
+            "x": -22.61,
+            "y": -5.27
+        },
+        {
+            "name": "lizi_d_wiggle2",
+            "parent": "lizi_d2"
+        },
+        {
+            "name": "lizi3",
+            "parent": "root",
+            "x": -15.55,
+            "y": -99.54,
+            "scaleX": 0.9945,
+            "scaleY": 0.9945
+        },
+        {
+            "name": "lizi_b3",
+            "parent": "lizi3",
+            "x": 23.23,
+            "y": -0.31
+        },
+        {
+            "name": "lizi_b_wiggle3",
+            "parent": "lizi_b3"
+        },
+        {
+            "name": "lizi_c3",
+            "parent": "lizi3",
+            "y": 14.25,
+            "scaleX": 0.8175,
+            "scaleY": 0.8175
+        },
+        {
+            "name": "lizi_c_wiggle3",
+            "parent": "lizi_c3"
+        },
+        {
+            "name": "lizi_d3",
+            "parent": "lizi3",
+            "x": -22.61,
+            "y": -5.27
+        },
+        {
+            "name": "lizi_d_wiggle3",
+            "parent": "lizi_d3"
+        },
+        {
+            "name": "lizi4",
+            "parent": "root",
+            "x": 30.17,
+            "y": -86.76,
+            "scaleX": 1.1984,
+            "scaleY": 1.1984
+        },
+        {
+            "name": "lizi_b4",
+            "parent": "lizi4",
+            "x": 23.23,
+            "y": -0.31
+        },
+        {
+            "name": "lizi_b_wiggle4",
+            "parent": "lizi_b4"
+        },
+        {
+            "name": "lizi_c4",
+            "parent": "lizi4",
+            "x": 0.42,
+            "y": 27.23,
+            "scaleX": 0.6041,
+            "scaleY": 0.6041
+        },
+        {
+            "name": "lizi_c_wiggle4",
+            "parent": "lizi_c4"
+        },
+        {
+            "name": "lizi_d4",
+            "parent": "lizi4",
+            "x": -18,
+            "y": 10.65
+        },
+        {
+            "name": "lizi_d_wiggle4",
+            "parent": "lizi_d4"
+        }
+    ],
+    "slots": [
+        {
+            "name": "发光",
+            "bone": "root",
+            "color": "ffffff24",
+            "attachment": "发光",
+            "blend": "additive"
+        },
+        {
+            "name": "lizi_d",
+            "bone": "lizi_d_wiggle",
+            "attachment": "lizi_d"
+        },
+        {
+            "name": "lizi_d2",
+            "bone": "lizi_d_wiggle2",
+            "attachment": "lizi_d"
+        },
+        {
+            "name": "lizi_d3",
+            "bone": "lizi_d_wiggle3",
+            "attachment": "lizi_d"
+        },
+        {
+            "name": "lizi_d4",
+            "bone": "lizi_d_wiggle4",
+            "attachment": "lizi_d"
+        },
+        {
+            "name": "lizi_c",
+            "bone": "lizi_c_wiggle",
+            "attachment": "lizi_c"
+        },
+        {
+            "name": "lizi_c2",
+            "bone": "lizi_c_wiggle2",
+            "attachment": "lizi_c"
+        },
+        {
+            "name": "lizi_c3",
+            "bone": "lizi_c_wiggle3",
+            "attachment": "lizi_c"
+        },
+        {
+            "name": "lizi_c4",
+            "bone": "lizi_c_wiggle4",
+            "attachment": "lizi_c"
+        },
+        {
+            "name": "lizi_b",
+            "bone": "lizi_b_wiggle",
+            "attachment": "lizi_b"
+        },
+        {
+            "name": "lizi_b2",
+            "bone": "lizi_b_wiggle2",
+            "attachment": "lizi_b"
+        },
+        {
+            "name": "lizi_b3",
+            "bone": "lizi_b_wiggle3",
+            "attachment": "lizi_b"
+        },
+        {
+            "name": "lizi_b4",
+            "bone": "lizi_b_wiggle4",
+            "attachment": "lizi_b"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "lizi_b": {
+                    "lizi_b": {
+                        "x": 0.46,
+                        "y": -0.37,
+                        "width": 25,
+                        "height": 25
+                    }
+                },
+                "lizi_b2": {
+                    "lizi_b": {
+                        "x": 0.46,
+                        "y": -0.37,
+                        "width": 25,
+                        "height": 25
+                    }
+                },
+                "lizi_b3": {
+                    "lizi_b": {
+                        "x": 0.46,
+                        "y": -0.37,
+                        "width": 25,
+                        "height": 25
+                    }
+                },
+                "lizi_b4": {
+                    "lizi_b": {
+                        "x": 0.46,
+                        "y": -0.37,
+                        "width": 25,
+                        "height": 25
+                    }
+                },
+                "lizi_c": {
+                    "lizi_c": {
+                        "x": 0.5,
+                        "y": -0.37,
+                        "width": 33,
+                        "height": 33
+                    }
+                },
+                "lizi_c2": {
+                    "lizi_c": {
+                        "x": 0.5,
+                        "y": -0.37,
+                        "width": 33,
+                        "height": 33
+                    }
+                },
+                "lizi_c3": {
+                    "lizi_c": {
+                        "x": 0.5,
+                        "y": -0.37,
+                        "width": 33,
+                        "height": 33
+                    }
+                },
+                "lizi_c4": {
+                    "lizi_c": {
+                        "x": 0.5,
+                        "y": -0.37,
+                        "width": 33,
+                        "height": 33
+                    }
+                },
+                "lizi_d": {
+                    "lizi_d": {
+                        "x": 0.13,
+                        "y": -0.44,
+                        "width": 6,
+                        "height": 7
+                    }
+                },
+                "lizi_d2": {
+                    "lizi_d": {
+                        "x": 0.13,
+                        "y": -0.44,
+                        "width": 6,
+                        "height": 7
+                    }
+                },
+                "lizi_d3": {
+                    "lizi_d": {
+                        "x": 0.13,
+                        "y": -0.44,
+                        "width": 6,
+                        "height": 7
+                    }
+                },
+                "lizi_d4": {
+                    "lizi_d": {
+                        "x": 0.13,
+                        "y": -0.44,
+                        "width": 6,
+                        "height": 7
+                    }
+                },
+                "发光": {
+                    "发光": {
+                        "x": -8,
+                        "y": 21,
+                        "width": 197,
+                        "height": 225
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "lizi_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "fff7f7ff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "fff7f7ff"
+                        },
+                        {
+                            "time": 1.4667,
+                            "color": "fff7f700",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "lizi_b2": {
+                    "rgba": [
+                        {
+                            "color": "fff7f7fd"
+                        },
+                        {
+                            "time": 0.83,
+                            "color": "fff7f700",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7634,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.2333,
+                            "color": "fff7f7ff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "fff7f7ff"
+                        },
+                        {
+                            "time": 2.67,
+                            "color": "fff7f7fd"
+                        }
+                    ]
+                },
+                "lizi_b3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "fff7f7ff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "fff7f7ff"
+                        },
+                        {
+                            "time": 1.8,
+                            "color": "fff7f700",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "lizi_b4": {
+                    "rgba": [
+                        {
+                            "color": "fff7f7ff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "fff7f7ff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "fff7f700",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.2367,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.4033,
+                            "color": "fff7f7ff"
+                        }
+                    ]
+                },
+                "lizi_c": {
+                    "rgba": [
+                        {
+                            "color": "fff7f74b"
+                        },
+                        {
+                            "time": 0.2967,
+                            "color": "fff7f700",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1634,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3667,
+                            "color": "fff7f7ff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9667,
+                            "color": "fff7f7ff"
+                        },
+                        {
+                            "time": 2.67,
+                            "color": "fff7f74b"
+                        }
+                    ]
+                },
+                "lizi_c2": {
+                    "rgba": [
+                        {
+                            "color": "fff7f7e9"
+                        },
+                        {
+                            "time": 0.7634,
+                            "color": "fff7f700",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0634,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2,
+                            "color": "fff7f7ff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6,
+                            "color": "fff7f7ff"
+                        },
+                        {
+                            "time": 2.67,
+                            "color": "fff7f7e9"
+                        }
+                    ]
+                },
+                "lizi_c3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.689,
+                                1,
+                                0.744,
+                                1,
+                                0.689,
+                                1,
+                                0.744,
+                                0.97,
+                                0.689,
+                                1,
+                                0.744,
+                                0.97,
+                                0.689,
+                                0,
+                                0.744,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "fff7f7ff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "color": "fff7f7ff",
+                            "curve": [
+                                1.678,
+                                1,
+                                1.956,
+                                1,
+                                1.678,
+                                0.97,
+                                1.956,
+                                0.97,
+                                1.678,
+                                0.97,
+                                1.956,
+                                0.97,
+                                1.678,
+                                1,
+                                1.956,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.2333,
+                            "color": "fff7f700",
+                            "curve": [
+                                2.378,
+                                1,
+                                2.522,
+                                1,
+                                2.378,
+                                0.97,
+                                2.522,
+                                0.99,
+                                2.378,
+                                0.97,
+                                2.522,
+                                0.99,
+                                2.378,
+                                0,
+                                2.522,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "lizi_c4": {
+                    "rgba": [
+                        {
+                            "color": "fff7f764"
+                        },
+                        {
+                            "time": 0.33,
+                            "color": "fff7f700",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3634,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.1333,
+                            "color": "fff7f7ff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.1667,
+                            "color": "fff7f7ff"
+                        },
+                        {
+                            "time": 2.67,
+                            "color": "fff7f764"
+                        }
+                    ]
+                },
+                "lizi_d": {
+                    "rgba": [
+                        {
+                            "color": "fff7f7ff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "fff7f7ff"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "fff7f700",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.1367,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.27,
+                            "color": "fff7f7ff"
+                        }
+                    ]
+                },
+                "lizi_d2": {
+                    "rgba": [
+                        {
+                            "color": "fff7f783"
+                        },
+                        {
+                            "time": 0.43,
+                            "color": "fff7f700",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5634,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.7,
+                            "color": "fff7f7ff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.2667,
+                            "color": "fff7f7ff"
+                        },
+                        {
+                            "time": 2.67,
+                            "color": "fff7f783"
+                        }
+                    ]
+                },
+                "lizi_d3": {
+                    "rgba": [
+                        {
+                            "color": "fff7f7ff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "fff7f7ff"
+                        },
+                        {
+                            "time": 1.4667,
+                            "color": "fff7f700",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.4033,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.57,
+                            "color": "fff7f7ff"
+                        }
+                    ]
+                },
+                "lizi_d4": {
+                    "rgba": [
+                        {
+                            "color": "fff7f700",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "fff7f7ff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4333,
+                            "color": "fff7f7ff"
+                        },
+                        {
+                            "time": 2.2667,
+                            "color": "fff7f700"
+                        }
+                    ]
+                },
+                "发光": {
+                    "rgba": [
+                        {
+                            "color": "ffffff2a",
+                            "curve": [
+                                0.144,
+                                1,
+                                0.289,
+                                1,
+                                0.144,
+                                1,
+                                0.289,
+                                1,
+                                0.144,
+                                1,
+                                0.289,
+                                1,
+                                0.144,
+                                0.17,
+                                0.289,
+                                0.25
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff3e",
+                            "curve": [
+                                0.589,
+                                1,
+                                0.744,
+                                1,
+                                0.589,
+                                1,
+                                0.744,
+                                1,
+                                0.589,
+                                1,
+                                0.744,
+                                1,
+                                0.589,
+                                0.25,
+                                0.744,
+                                0.17
+                            ]
+                        },
+                        {
+                            "time": 0.9,
+                            "color": "ffffff2a",
+                            "curve": [
+                                1.044,
+                                1,
+                                1.189,
+                                1,
+                                1.044,
+                                1,
+                                1.189,
+                                1,
+                                1.044,
+                                1,
+                                1.189,
+                                1,
+                                1.044,
+                                0.17,
+                                1.189,
+                                0.25
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffff3e",
+                            "curve": [
+                                1.478,
+                                1,
+                                1.622,
+                                1,
+                                1.478,
+                                1,
+                                1.622,
+                                1,
+                                1.478,
+                                1,
+                                1.622,
+                                1,
+                                1.478,
+                                0.25,
+                                1.622,
+                                0.17
+                            ]
+                        },
+                        {
+                            "time": 1.7667,
+                            "color": "ffffff2a",
+                            "curve": [
+                                1.922,
+                                1,
+                                2.078,
+                                1,
+                                1.922,
+                                1,
+                                2.078,
+                                1,
+                                1.922,
+                                1,
+                                2.078,
+                                1,
+                                1.922,
+                                0.17,
+                                2.078,
+                                0.25
+                            ]
+                        },
+                        {
+                            "time": 2.2333,
+                            "color": "ffffff3e",
+                            "curve": [
+                                2.378,
+                                1,
+                                2.522,
+                                1,
+                                2.378,
+                                1,
+                                2.522,
+                                1,
+                                2.378,
+                                1,
+                                2.522,
+                                1,
+                                2.378,
+                                0.25,
+                                2.522,
+                                0.21
+                            ]
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffff2a"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "lizi_d": {
+                    "translate": [
+                        {
+                            "y": 33.67,
+                            "curve": [
+                                0.256,
+                                0,
+                                0.435,
+                                0,
+                                0.313,
+                                73.93,
+                                0.534,
+                                140.81
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "y": 180.53,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.1367,
+                            "curve": [
+                                2.359,
+                                0,
+                                2.528,
+                                0,
+                                2.341,
+                                0,
+                                2.518,
+                                13.55
+                            ]
+                        },
+                        {
+                            "time": 2.67,
+                            "y": 33.67
+                        }
+                    ]
+                },
+                "lizi_c": {
+                    "translate": [
+                        {
+                            "y": 158.73,
+                            "curve": [
+                                0.105,
+                                0,
+                                0.203,
+                                0,
+                                0.123,
+                                179.47,
+                                0.224,
+                                199.33
+                            ]
+                        },
+                        {
+                            "time": 0.2967,
+                            "y": 215.19,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1634,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2,
+                            "curve": [
+                                1.648,
+                                0,
+                                2.192,
+                                0,
+                                1.62,
+                                0,
+                                2.258,
+                                86.61
+                            ]
+                        },
+                        {
+                            "time": 2.67,
+                            "y": 158.73
+                        }
+                    ]
+                },
+                "lizi_b": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.489,
+                                0,
+                                0.978,
+                                0,
+                                0.489,
+                                0,
+                                1.173,
+                                149.36
+                            ]
+                        },
+                        {
+                            "time": 1.4667,
+                            "y": 222.93,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667
+                        }
+                    ]
+                },
+                "lizi_b2": {
+                    "translate": [
+                        {
+                            "y": 18.14,
+                            "curve": [
+                                0.666,
+                                0,
+                                0.706,
+                                0,
+                                0.666,
+                                63.97,
+                                0.706,
+                                180.53
+                            ]
+                        },
+                        {
+                            "time": 0.83,
+                            "y": 180.53,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7634,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.0667,
+                            "curve": [
+                                2.313,
+                                0,
+                                2.513,
+                                0,
+                                2.313,
+                                0,
+                                2.513,
+                                6.93
+                            ]
+                        },
+                        {
+                            "time": 2.67,
+                            "y": 18.14
+                        }
+                    ]
+                },
+                "lizi_c2": {
+                    "translate": [
+                        {
+                            "y": 128.38,
+                            "curve": [
+                                0.27,
+                                0,
+                                0.548,
+                                0,
+                                0.311,
+                                185.87,
+                                0.62,
+                                250.38
+                            ]
+                        },
+                        {
+                            "time": 0.7654,
+                            "y": 294.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.8353,
+                            "curve": [
+                                2.253,
+                                0,
+                                2.288,
+                                0,
+                                2.22,
+                                0,
+                                2.297,
+                                59.06
+                            ]
+                        },
+                        {
+                            "time": 2.67,
+                            "y": 128.38
+                        }
+                    ]
+                },
+                "lizi_d2": {
+                    "translate": [
+                        {
+                            "y": 100.48,
+                            "curve": [
+                                0.149,
+                                0,
+                                0.294,
+                                0,
+                                0.179,
+                                122.7,
+                                0.331,
+                                145
+                            ]
+                        },
+                        {
+                            "time": 0.43,
+                            "y": 161.52,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5634,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5333,
+                            "curve": [
+                                2.142,
+                                0,
+                                2.247,
+                                0,
+                                2.099,
+                                0,
+                                2.287,
+                                51.03
+                            ]
+                        },
+                        {
+                            "time": 2.67,
+                            "y": 100.48
+                        }
+                    ]
+                },
+                "lizi_b3": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "x": 1.43,
+                            "y": 1.43,
+                            "curve": [
+                                0.071,
+                                1.43,
+                                1.211,
+                                1.43,
+                                0.071,
+                                1.43,
+                                1.475,
+                                122.38
+                            ]
+                        },
+                        {
+                            "time": 1.8,
+                            "x": 1.43,
+                            "y": 181.96,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "x": 1.43,
+                            "y": 1.43
+                        }
+                    ]
+                },
+                "lizi_c3": {
+                    "translate": [
+                        {
+                            "time": 0.6333,
+                            "curve": [
+                                1.167,
+                                0,
+                                1.7,
+                                0,
+                                1.167,
+                                0,
+                                1.913,
+                                181.74
+                            ]
+                        },
+                        {
+                            "time": 2.2333,
+                            "y": 271.25,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667
+                        }
+                    ]
+                },
+                "lizi_d3": {
+                    "translate": [
+                        {
+                            "y": 26.39,
+                            "curve": [
+                                0.392,
+                                0,
+                                1.038,
+                                0,
+                                0.438,
+                                76.02,
+                                1.201,
+                                183.97
+                            ]
+                        },
+                        {
+                            "time": 1.4667,
+                            "y": 244.84,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.4033,
+                            "curve": [
+                                2.475,
+                                0,
+                                2.545,
+                                0,
+                                2.469,
+                                0,
+                                2.541,
+                                10.14
+                            ]
+                        },
+                        {
+                            "time": 2.67,
+                            "y": 26.39
+                        }
+                    ]
+                },
+                "lizi_b4": {
+                    "translate": [
+                        {
+                            "y": 29.45,
+                            "curve": [
+                                0.621,
+                                0,
+                                1.351,
+                                0,
+                                0.621,
+                                80.66,
+                                1.351,
+                                180.53
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "y": 180.53,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.2367,
+                            "curve": [
+                                2.648,
+                                0,
+                                2.511,
+                                0,
+                                2.648,
+                                0,
+                                2.511,
+                                11.77
+                            ]
+                        },
+                        {
+                            "time": 2.67,
+                            "y": 29.45
+                        }
+                    ]
+                },
+                "lizi_c4": {
+                    "translate": [
+                        {
+                            "y": 166.01,
+                            "curve": [
+                                0.118,
+                                0,
+                                0.229,
+                                0,
+                                0.137,
+                                190.14,
+                                0.253,
+                                212.88
+                            ]
+                        },
+                        {
+                            "time": 0.33,
+                            "y": 231.19,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3634,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9667,
+                            "curve": [
+                                1.568,
+                                0,
+                                2.019,
+                                0,
+                                1.53,
+                                0,
+                                2.093,
+                                89.57
+                            ]
+                        },
+                        {
+                            "time": 2.67,
+                            "y": 166.01
+                        }
+                    ]
+                },
+                "lizi_d4": {
+                    "translate": [
+                        {
+                            "y": 180.53,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "curve": [
+                                0.836,
+                                0,
+                                1.733,
+                                0,
+                                0.836,
+                                0,
+                                1.947,
+                                120.95
+                            ]
+                        },
+                        {
+                            "time": 2.2667,
+                            "y": 180.53
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

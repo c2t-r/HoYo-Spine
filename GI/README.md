@@ -126,6 +126,7 @@ https://genshin.hoyoverse.com/en/
 - https://act.hoyoverse.com/ys/event/e20240118brush-u4b6my/index.html
 - https://act.hoyoverse.com/ys/event/e20240208lantern-vc7vnh/index.html <lantern2024>
 - https://act.hoyoverse.com/ys/event/e20240316discovery/index.html
+- https://act.hoyoverse.com/ys/event/e20240429business-ad4okq/index.html
 
 ## hoyofest
 - 2023 https://act.hoyoverse.com/ys/event/hoyofest2023-xrdqyw/index.html
