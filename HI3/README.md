@@ -12,3 +12,4 @@ google: ```site:act.hoyoverse.com/bh3/event OR site:webstatic-sea.hoyoverse.com/
 - https://act.hoyoverse.com/bh3/event/e20230109idol-aa465e/index.html
 - https://act.hoyoverse.com/bh3/event/e20231026studio/index.html
 - https://act.hoyoverse.com/bh3/event/e20231225divination-k7s8la/index.html
+- https://act.hoyoverse.com/bh3/event/e20240405shop-k3g7zq/index.html
