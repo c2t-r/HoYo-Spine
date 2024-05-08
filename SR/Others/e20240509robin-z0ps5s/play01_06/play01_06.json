@@ -1,0 +1,523 @@
+{
+    "skeleton": {
+        "hash": "r4LQYeMgo/k",
+        "spine": "4.1.24",
+        "x": -301.46,
+        "y": -83.28,
+        "width": 602.92,
+        "height": 553.18
+    },
+    "bones": [
+        {
+            "name": "root",
+            "rotation": -0.3,
+            "y": 193.31
+        }
+    ],
+    "slots": [
+        {
+            "name": "loop",
+            "bone": "root",
+            "attachment": "loop (1)"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "loop": {
+                    "loop (1)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (3)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (4)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (5)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (7)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (8)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (9)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (11)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (13)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (21)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (23)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (31)": {
+                        "width": 600,
+                        "height": 550
+                    }
+                }
+            }
+        }
+    ],
+    "events": {
+        "1_01_Chinese recee bass": {
+            "audio": "1_01_Chinese recee bass.wav"
+        },
+        "1_02_Chinese strings": {
+            "audio": "1_02_Chinese strings.wav"
+        },
+        "1_03_chant": {
+            "audio": "1_03_chant.wav"
+        },
+        "1_04_trap hihat perc": {
+            "audio": "1_04_trap hihat perc.wav"
+        },
+        "1_05_trap lead": {
+            "audio": "1_05_trap lead.wav"
+        },
+        "1_06_trap piano": {
+            "audio": "1_06_trap piano.wav"
+        },
+        "1_07_hit+t house bass": {
+            "audio": "1_07_hit+t house bass.wav"
+        },
+        "1_08_melody": {
+            "audio": "1_08_melody.wav"
+        },
+        "1_09_perc": {
+            "audio": "1_09_perc.wav"
+        },
+        "1_10_pluck": {
+            "audio": "1_10_pluck.wav"
+        },
+        "1_11_epiano+piano": {
+            "audio": "1_11_epiano+piano.wav"
+        },
+        "1_12_guitar+pluck": {
+            "audio": "1_12_guitar+pluck.wav"
+        },
+        "1_13_pad+strings": {
+            "audio": "1_13_pad+strings.wav"
+        },
+        "1_14_bass_1": {
+            "audio": "1_14_bass_1.wav"
+        },
+        "1_15_drums_1": {
+            "audio": "1_15_drums_1.wav"
+        }
+    },
+    "animations": {
+        "animation": {
+            "slots": {
+                "loop": {
+                    "attachment": [
+                        {
+                            "time": 0.1333,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "loop (5)"
+                        },
+                        {
+                            "time": 0.4,
+                            "name": "loop (7)"
+                        },
+                        {
+                            "time": 0.4667,
+                            "name": "loop (8)"
+                        },
+                        {
+                            "time": 0.5333,
+                            "name": "loop (9)"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": "loop (11)"
+                        },
+                        {
+                            "time": 0.8,
+                            "name": "loop (13)"
+                        },
+                        {
+                            "time": 0.8667,
+                            "name": "loop (1)"
+                        },
+                        {
+                            "time": 1,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 1.0667,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 1.2,
+                            "name": "loop (5)"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "loop (21)"
+                        },
+                        {
+                            "time": 1.4,
+                            "name": "loop (8)"
+                        },
+                        {
+                            "time": 1.4667,
+                            "name": "loop (23)"
+                        },
+                        {
+                            "time": 1.6,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 1.6667,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 1.8,
+                            "name": "loop (5)"
+                        },
+                        {
+                            "time": 1.9333,
+                            "name": "loop (7)"
+                        },
+                        {
+                            "time": 2,
+                            "name": "loop (31)"
+                        },
+                        {
+                            "time": 2.0667,
+                            "name": "loop (9)"
+                        },
+                        {
+                            "time": 2.2,
+                            "name": "loop (11)"
+                        },
+                        {
+                            "time": 2.2667,
+                            "name": "loop (1)"
+                        },
+                        {
+                            "time": 2.4,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 2.4667,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 2.5333,
+                            "name": "loop (5)"
+                        },
+                        {
+                            "time": 2.6667,
+                            "name": "loop (7)"
+                        },
+                        {
+                            "time": 2.7333,
+                            "name": "loop (8)"
+                        },
+                        {
+                            "time": 2.8,
+                            "name": "loop (9)"
+                        },
+                        {
+                            "time": 2.9333,
+                            "name": "loop (11)"
+                        },
+                        {
+                            "time": 3.0667,
+                            "name": "loop (13)"
+                        },
+                        {
+                            "time": 3.1333,
+                            "name": "loop (1)"
+                        },
+                        {
+                            "time": 3.2667,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 3.3333,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 3.4667,
+                            "name": "loop (5)"
+                        },
+                        {
+                            "time": 3.6,
+                            "name": "loop (21)"
+                        },
+                        {
+                            "time": 3.6667,
+                            "name": "loop (8)"
+                        },
+                        {
+                            "time": 3.7333,
+                            "name": "loop (23)"
+                        },
+                        {
+                            "time": 3.8667,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 3.9333,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 4.0667,
+                            "name": "loop (5)"
+                        },
+                        {
+                            "time": 4.2,
+                            "name": "loop (7)"
+                        },
+                        {
+                            "time": 4.2667,
+                            "name": "loop (31)"
+                        },
+                        {
+                            "time": 4.3333,
+                            "name": "loop (9)"
+                        },
+                        {
+                            "time": 4.4667,
+                            "name": "loop (1)"
+                        },
+                        {
+                            "time": 4.5333,
+                            "name": "loop (11)"
+                        },
+                        {
+                            "time": 4.6,
+                            "name": "loop (1)"
+                        },
+                        {
+                            "time": 4.7333,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 4.8,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 4.8667,
+                            "name": "loop (5)"
+                        },
+                        {
+                            "time": 5,
+                            "name": "loop (7)"
+                        },
+                        {
+                            "time": 5.0667,
+                            "name": "loop (8)"
+                        },
+                        {
+                            "time": 5.1333,
+                            "name": "loop (9)"
+                        },
+                        {
+                            "time": 5.2667,
+                            "name": "loop (11)"
+                        },
+                        {
+                            "time": 5.4,
+                            "name": "loop (13)"
+                        },
+                        {
+                            "time": 5.4667,
+                            "name": "loop (1)"
+                        },
+                        {
+                            "time": 5.6,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 5.6667,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 5.8,
+                            "name": "loop (5)"
+                        },
+                        {
+                            "time": 5.9333,
+                            "name": "loop (21)"
+                        },
+                        {
+                            "time": 6,
+                            "name": "loop (8)"
+                        },
+                        {
+                            "time": 6.0667,
+                            "name": "loop (23)"
+                        },
+                        {
+                            "time": 6.2,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 6.2667,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 6.4,
+                            "name": "loop (5)"
+                        },
+                        {
+                            "time": 6.5333,
+                            "name": "loop (7)"
+                        },
+                        {
+                            "time": 6.6,
+                            "name": "loop (31)"
+                        },
+                        {
+                            "time": 6.6667,
+                            "name": "loop (9)"
+                        },
+                        {
+                            "time": 6.8,
+                            "name": "loop (11)"
+                        },
+                        {
+                            "time": 7,
+                            "name": "loop (13)"
+                        },
+                        {
+                            "time": 7.0667,
+                            "name": "loop (1)"
+                        },
+                        {
+                            "time": 7.2,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 7.2667,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 7.3333,
+                            "name": "loop (5)"
+                        },
+                        {
+                            "time": 7.4667,
+                            "name": "loop (7)"
+                        },
+                        {
+                            "time": 7.5333,
+                            "name": "loop (8)"
+                        },
+                        {
+                            "time": 7.6,
+                            "name": "loop (9)"
+                        },
+                        {
+                            "time": 7.7333,
+                            "name": "loop (11)"
+                        },
+                        {
+                            "time": 7.8667,
+                            "name": "loop (13)"
+                        },
+                        {
+                            "time": 7.9333,
+                            "name": "loop (1)"
+                        },
+                        {
+                            "time": 8.0667,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 8.1333,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 8.2667,
+                            "name": "loop (5)"
+                        },
+                        {
+                            "time": 8.4,
+                            "name": "loop (21)"
+                        },
+                        {
+                            "time": 8.4667,
+                            "name": "loop (8)"
+                        },
+                        {
+                            "time": 8.5333,
+                            "name": "loop (23)"
+                        },
+                        {
+                            "time": 8.6667,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 8.7333,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 8.8667,
+                            "name": "loop (5)"
+                        },
+                        {
+                            "time": 9,
+                            "name": "loop (7)"
+                        },
+                        {
+                            "time": 9.0667,
+                            "name": "loop (31)"
+                        },
+                        {
+                            "time": 9.1333,
+                            "name": "loop (9)"
+                        },
+                        {
+                            "time": 9.2667,
+                            "name": "loop (11)"
+                        },
+                        {
+                            "time": 9.5333,
+                            "name": "loop (13)"
+                        },
+                        {
+                            "time": 9.6,
+                            "name": "loop (1)"
+                        }
+                    ]
+                }
+            },
+            "events": [
+                {
+                    "name": "1_06_trap piano"
+                }
+            ]
+        }
+    }
+}

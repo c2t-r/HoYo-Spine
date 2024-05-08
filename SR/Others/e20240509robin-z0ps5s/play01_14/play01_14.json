@@ -1,0 +1,552 @@
+{
+    "skeleton": {
+        "hash": "xg1RlRW9NiA",
+        "spine": "4.1.24",
+        "x": -319.96,
+        "y": -73.41,
+        "width": 602.2,
+        "height": 552.4
+    },
+    "bones": [
+        {
+            "name": "root",
+            "rotation": -0.23,
+            "x": -18.86,
+            "y": 202.79
+        }
+    ],
+    "slots": [
+        {
+            "name": "loop",
+            "bone": "root",
+            "attachment": "loop (1)"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "loop": {
+                    "loop (1)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (3)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (4)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (6)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (8)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (9)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (10)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (11)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (12)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (13)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (14)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (16)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (18)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (21)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (22)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (24)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (26)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (27)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (28)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (29)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (30)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (31)": {
+                        "width": 600,
+                        "height": 550
+                    },
+                    "loop (32)": {
+                        "width": 600,
+                        "height": 550
+                    }
+                }
+            }
+        }
+    ],
+    "events": {
+        "1_01_Chinese recee bass": {
+            "audio": "1_01_Chinese recee bass.wav"
+        },
+        "1_02_Chinese strings": {
+            "audio": "1_02_Chinese strings.wav"
+        },
+        "1_03_chant": {
+            "audio": "1_03_chant.wav"
+        },
+        "1_04_trap hihat perc": {
+            "audio": "1_04_trap hihat perc.wav"
+        },
+        "1_05_trap lead": {
+            "audio": "1_05_trap lead.wav"
+        },
+        "1_06_trap piano": {
+            "audio": "1_06_trap piano.wav"
+        },
+        "1_07_hit+t house bass": {
+            "audio": "1_07_hit+t house bass.wav"
+        },
+        "1_08_melody": {
+            "audio": "1_08_melody.wav"
+        },
+        "1_09_perc": {
+            "audio": "1_09_perc.wav"
+        },
+        "1_10_pluck": {
+            "audio": "1_10_pluck.wav"
+        },
+        "1_11_epiano+piano": {
+            "audio": "1_11_epiano+piano.wav"
+        },
+        "1_12_guitar+pluck": {
+            "audio": "1_12_guitar+pluck.wav"
+        },
+        "1_13_pad+strings": {
+            "audio": "1_13_pad+strings.wav"
+        },
+        "1_14_bass_1": {
+            "audio": "1_14_bass_1.wav"
+        },
+        "1_15_drums_1": {
+            "audio": "1_15_drums_1.wav"
+        }
+    },
+    "animations": {
+        "animation": {
+            "slots": {
+                "loop": {
+                    "attachment": [
+                        {
+                            "time": 0.1333,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "loop (6)"
+                        },
+                        {
+                            "time": 0.4667,
+                            "name": "loop (8)"
+                        },
+                        {
+                            "time": 0.5333,
+                            "name": "loop (9)"
+                        },
+                        {
+                            "time": 0.6,
+                            "name": "loop (10)"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": "loop (11)"
+                        },
+                        {
+                            "time": 0.7333,
+                            "name": "loop (12)"
+                        },
+                        {
+                            "time": 0.8,
+                            "name": "loop (13)"
+                        },
+                        {
+                            "time": 0.8667,
+                            "name": "loop (14)"
+                        },
+                        {
+                            "time": 1,
+                            "name": "loop (16)"
+                        },
+                        {
+                            "time": 1.1333,
+                            "name": "loop (18)"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "loop (21)"
+                        },
+                        {
+                            "time": 1.4,
+                            "name": "loop (22)"
+                        },
+                        {
+                            "time": 1.5333,
+                            "name": "loop (24)"
+                        },
+                        {
+                            "time": 1.6667,
+                            "name": "loop (26)"
+                        },
+                        {
+                            "time": 1.7333,
+                            "name": "loop (27)"
+                        },
+                        {
+                            "time": 1.8,
+                            "name": "loop (28)"
+                        },
+                        {
+                            "time": 1.8667,
+                            "name": "loop (29)"
+                        },
+                        {
+                            "time": 1.9333,
+                            "name": "loop (30)"
+                        },
+                        {
+                            "time": 2,
+                            "name": "loop (31)"
+                        },
+                        {
+                            "time": 2.0667,
+                            "name": "loop (32)"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "loop (1)"
+                        },
+                        {
+                            "time": 2.5333,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 2.6,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 2.7333,
+                            "name": "loop (6)"
+                        },
+                        {
+                            "time": 2.8,
+                            "name": "loop (8)"
+                        },
+                        {
+                            "time": 2.9333,
+                            "name": "loop (9)"
+                        },
+                        {
+                            "time": 3,
+                            "name": "loop (10)"
+                        },
+                        {
+                            "time": 3.0667,
+                            "name": "loop (11)"
+                        },
+                        {
+                            "time": 3.1,
+                            "name": "loop (12)"
+                        },
+                        {
+                            "time": 3.2,
+                            "name": "loop (13)"
+                        },
+                        {
+                            "time": 3.2667,
+                            "name": "loop (14)"
+                        },
+                        {
+                            "time": 3.4,
+                            "name": "loop (16)"
+                        },
+                        {
+                            "time": 3.5333,
+                            "name": "loop (18)"
+                        },
+                        {
+                            "time": 3.7333,
+                            "name": "loop (21)"
+                        },
+                        {
+                            "time": 3.8,
+                            "name": "loop (22)"
+                        },
+                        {
+                            "time": 3.9333,
+                            "name": "loop (24)"
+                        },
+                        {
+                            "time": 4.0333,
+                            "name": "loop (26)"
+                        },
+                        {
+                            "time": 4.1333,
+                            "name": "loop (27)"
+                        },
+                        {
+                            "time": 4.2,
+                            "name": "loop (28)"
+                        },
+                        {
+                            "time": 4.2667,
+                            "name": "loop (29)"
+                        },
+                        {
+                            "time": 4.3333,
+                            "name": "loop (30)"
+                        },
+                        {
+                            "time": 4.4,
+                            "name": "loop (31)"
+                        },
+                        {
+                            "time": 4.4667,
+                            "name": "loop (32)"
+                        },
+                        {
+                            "time": 4.7333,
+                            "name": "loop (1)"
+                        },
+                        {
+                            "time": 4.9333,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 5,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 5.1333,
+                            "name": "loop (6)"
+                        },
+                        {
+                            "time": 5.2667,
+                            "name": "loop (8)"
+                        },
+                        {
+                            "time": 5.3333,
+                            "name": "loop (9)"
+                        },
+                        {
+                            "time": 5.4,
+                            "name": "loop (10)"
+                        },
+                        {
+                            "time": 5.4667,
+                            "name": "loop (11)"
+                        },
+                        {
+                            "time": 5.5333,
+                            "name": "loop (12)"
+                        },
+                        {
+                            "time": 5.6,
+                            "name": "loop (13)"
+                        },
+                        {
+                            "time": 5.6667,
+                            "name": "loop (14)"
+                        },
+                        {
+                            "time": 5.8,
+                            "name": "loop (16)"
+                        },
+                        {
+                            "time": 5.9333,
+                            "name": "loop (18)"
+                        },
+                        {
+                            "time": 6.1333,
+                            "name": "loop (21)"
+                        },
+                        {
+                            "time": 6.2,
+                            "name": "loop (22)"
+                        },
+                        {
+                            "time": 6.3333,
+                            "name": "loop (24)"
+                        },
+                        {
+                            "time": 6.4667,
+                            "name": "loop (26)"
+                        },
+                        {
+                            "time": 6.5333,
+                            "name": "loop (27)"
+                        },
+                        {
+                            "time": 6.6,
+                            "name": "loop (28)"
+                        },
+                        {
+                            "time": 6.6667,
+                            "name": "loop (29)"
+                        },
+                        {
+                            "time": 6.7333,
+                            "name": "loop (30)"
+                        },
+                        {
+                            "time": 6.8,
+                            "name": "loop (31)"
+                        },
+                        {
+                            "time": 6.8667,
+                            "name": "loop (32)"
+                        },
+                        {
+                            "time": 7.1333,
+                            "name": "loop (1)"
+                        },
+                        {
+                            "time": 7.3333,
+                            "name": "loop (3)"
+                        },
+                        {
+                            "time": 7.4,
+                            "name": "loop (4)"
+                        },
+                        {
+                            "time": 7.5333,
+                            "name": "loop (6)"
+                        },
+                        {
+                            "time": 7.6667,
+                            "name": "loop (8)"
+                        },
+                        {
+                            "time": 7.7333,
+                            "name": "loop (9)"
+                        },
+                        {
+                            "time": 7.8,
+                            "name": "loop (10)"
+                        },
+                        {
+                            "time": 7.8667,
+                            "name": "loop (11)"
+                        },
+                        {
+                            "time": 7.9333,
+                            "name": "loop (12)"
+                        },
+                        {
+                            "time": 8,
+                            "name": "loop (13)"
+                        },
+                        {
+                            "time": 8.0667,
+                            "name": "loop (14)"
+                        },
+                        {
+                            "time": 8.2,
+                            "name": "loop (16)"
+                        },
+                        {
+                            "time": 8.3333,
+                            "name": "loop (18)"
+                        },
+                        {
+                            "time": 8.5333,
+                            "name": "loop (21)"
+                        },
+                        {
+                            "time": 8.6,
+                            "name": "loop (22)"
+                        },
+                        {
+                            "time": 8.7333,
+                            "name": "loop (24)"
+                        },
+                        {
+                            "time": 8.8667,
+                            "name": "loop (26)"
+                        },
+                        {
+                            "time": 8.9333,
+                            "name": "loop (27)"
+                        },
+                        {
+                            "time": 9.0667,
+                            "name": "loop (30)"
+                        },
+                        {
+                            "time": 9.2,
+                            "name": "loop (31)"
+                        },
+                        {
+                            "time": 9.3,
+                            "name": "loop (32)"
+                        },
+                        {
+                            "time": 9.5333,
+                            "name": "loop (1)"
+                        },
+                        {
+                            "time": 9.6,
+                            "name": "loop (1)"
+                        }
+                    ]
+                }
+            },
+            "events": [
+                {
+                    "name": "1_14_bass_1"
+                }
+            ]
+        }
+    }
+}

@@ -14,14 +14,13 @@ google: ```site:act.hoyoverse.com/sr/event```
 
 ## others
 - https://act.hoyoverse.com/sr/event/e20220908jump-4odj/index.html
-- https://act.hoyoverse.com/sr/event/e20221021fission/index.html
 - https://act.hoyoverse.com/sr/event/e20230115draw-wtn7k1/index.html
-- https://act.hoyoverse.com/sr/event/e20230513fancontest-3mqumw/index.html
 - https://act.hoyoverse.com/sr/event/e20230625luocha-fki8ca/index.html
 - https://act.hoyoverse.com/sr/event/20230802action/index.html
 - https://act.hoyoverse.com/sr/event/e20231230card-d0a2c0/index.html <BlackSwan>
 - https://act.hoyoverse.com/sr/event/xianzhoucruise/index.html
 - https://act.hoyoverse.com/sr/event/e20240426anniversary-so6swc/index.html
+- https://act.hoyoverse.com/sr/event/e20240509robin-z0ps5s/index.html <Robin>
 
 ## Puzzle
 - https://act.mihoyo.com/puzzle/hkrpg/pz_stKK3ccUXV/index.html
