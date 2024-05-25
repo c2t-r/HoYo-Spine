@@ -1,0 +1,1 @@
+https://webstatic.mihoyo.com/sr/event/e20221102exam/index.html
