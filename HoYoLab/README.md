@@ -22,6 +22,10 @@ google: ```site:act.hoyolab.com/bbs/event OR site:webstatic-sea.hoyolab.com/bbs/
 - https://act.hoyolab.com/ys/event/hoyofair202212-m5d1mk/index.html
 - https://act.hoyolab.com/ys/event/hoyofair202304-wds1p6/index.html
 - https://act.hoyoverse.com/puzzle/hk4e/pz__c87PstZRJ/index.html
-- https://webstatic.mihoyo.com/ys/event/e20220303-birthday/index.html
+- https://webstatic.mihoyo.com/ys/event/e20220303-birthday/index.html?activity_id=20220301153521
 - https://act.hoyoverse.com/ys/event/bbs-achievements-search/index.html
 - https://act.hoyoverse.com/ys/event/e20240118ost-10646b17/index.html
+
+## HI3
+
+- https://webstatic.mihoyo.com/bh3/event/birthday/index.html?act_id=e202210127066
