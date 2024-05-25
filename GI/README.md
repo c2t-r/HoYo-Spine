@@ -44,6 +44,7 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - https://webstatic-sea.hoyoverse.com/ys/event/e20220325-ayato-c0xp/index.html <Ayato>
 - https://act.hoyoverse.com/ys/event/e20220526yelan-q8ne/index.html <Yelan>
 - https://act.hoyoverse.com/ys/event/e20220819tighnari-wmke/index.html <Tighnari>
+- https://act.hoyoverse.com/ys/event/e20221008nilou/index.html <Nilou>
 - https://act.hoyoverse.com/ys/event/e20221202wanderer-dwvz/index.html <Wanderer>
 - https://act.hoyoverse.com/ys/event/e20230113alhaitham-mayqbr/index.html <Alhaitham>
 - https://act.hoyoverse.com/ys/event/e20230427baizhu-eyecio/index.html <Baizhu>
@@ -55,6 +56,7 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - https://act.hoyoverse.com/ys/event/e20231012wriothesley/index.html <Wriothesley>
 - https://act.hoyoverse.com/ys/event/e20231103furina/index.html <Furina>
 - https://act.hoyoverse.com/ys/event/e20231215navia/index.html <Navia>
+- https://act.hoyoverse.com/ys/event/e20240126xianyun-yzdnly/index.html <Xianyun>
 - https://act.hoyoverse.com/ys/event/e20240308chiori-cuesme/index.html <Chiori>
 - https://act.hoyoverse.com/ys/event/e20240419arlecchino-vn0wpz/index.html <Arlecchino>
 
@@ -83,6 +85,7 @@ https://genshin.hoyoverse.com/en/
 - 4.6 https://act.hoyoverse.com/puzzle/hk4e/pz_HdmXQ1MHiy/index.html
 
 ## others
+- https://webstatic.mihoyo.com/ys/event/e20201101work/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20201028-invite-sea/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20210122-slime/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20210219lantern/index.html <lantern2021>
@@ -91,11 +94,13 @@ https://genshin.hoyoverse.com/en/
 - https://webstatic-sea.mihoyo.com/ys/event/e20210428invite/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20210713warm/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20210901people/index.html
+- https://webstatic.mihoyo.com/ys/event/e20210902anniversary/index.html
 - https://webstatic-sea.hoyoverse.com/ys/event/e20210907-wish/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20210928review/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20210930card/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20211101fish/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20211203-album/index.html
+- https://webstatic-sea.mihoyo.com/ys/event/e20220128lantern/index.html
 - https://webstatic-sea.hoyoverse.com/ys/event/e20211229-snow/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20220129-postcard/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20220211bac/index.html
@@ -104,6 +109,7 @@ https://genshin.hoyoverse.com/en/
 - https://act.hoyoverse.com/ys/event/e20220517-jump-eola/index.html <sogankyoen>
 - https://act.hoyoverse.com/ys/event/e20220722dream-6bgs/index.html
 - https://act.hoyoverse.com/ys/event/20220817puzzle-qgrp/index.html
+- https://act.hoyoverse.com/ys/event/e20220916music/index.html
 - https://act.hoyoverse.com/ys/event/e20220928review_data/index.html
 - https://act.hoyoverse.com/ys/event/e20220929-chess/index.html
 - https://act.hoyoverse.com/ys/event/e20221125aranara/index.html
@@ -113,12 +119,16 @@ https://genshin.hoyoverse.com/en/
 - https://act.hoyoverse.com/ys/event/e20230129-lantern-vqhoj8/index.html <lantern2023>
 - https://act.hoyoverse.com/ys/event/e20230205-firework-xm7wly/index.html
 - https://act.hoyoverse.com/ys/event/e20230511-school-4gaxpk/index.html
+- https://act.mihoyo.com/ys/event/e20230606fes-h5-aohrgd/index.html
+- https://act.mihoyo.com/ys/event/e20230623fes-land-ud46if/index.html
+- https://act.mihoyo.com/ys/event/e20230701alipay-mg/index.html
 - https://act.hoyoverse.com/ys/event/e20230704concert-h5/index.html <Concert> <no>
 - https://act.hoyoverse.com/ys/event/e20230804reserve/index.html
 - https://act.hoyoverse.com/ys/event/e20230809-photo/index.html
 - https://act.hoyoverse.com/ys/event/e20230827exhibition/index.html <fontaine>
 - https://act.hoyoverse.com/ys/event/e20230927celebration/index.html
 - https://act.hoyoverse.com/ys/event/e20230928review/index.html
+- https://act.mihoyo.com/ys/event/e20231115ich-852iqo/index.html
 - https://act.hoyoverse.com/ys/event/e20231220sanxingdui/index.html <Zhongli cn collab>
 - https://act.hoyoverse.com/ys/event/e20231225melusine-questionnaire/index.html <melusine>
 - https://act.hoyoverse.com/ys/event/e20231227filmfest-qw321w/index.html
