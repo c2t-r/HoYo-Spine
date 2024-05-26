@@ -1,0 +1,230 @@
+{
+    "skeleton": {
+        "hash": "eVipZaEmOko",
+        "spine": "4.2.20",
+        "x": -448,
+        "y": -383,
+        "width": 896,
+        "height": 766,
+        "images": "./xiaohuodong_1_img/tex/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "b",
+            "parent": "root",
+            "x": 11.62,
+            "y": -34.98
+        },
+        {
+            "name": "wiggle",
+            "parent": "b",
+            "y": 1.85
+        }
+    ],
+    "slots": [
+        {
+            "name": "a",
+            "bone": "wiggle",
+            "attachment": "a"
+        },
+        {
+            "name": "b",
+            "bone": "wiggle",
+            "attachment": "b"
+        },
+        {
+            "name": "bgbg",
+            "bone": "root",
+            "attachment": "bgbg"
+        },
+        {
+            "name": "c",
+            "bone": "wiggle",
+            "attachment": "c"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": 141.88,
+                        "y": -279.37,
+                        "width": 301,
+                        "height": 141
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": 25.88,
+                        "y": 303.13,
+                        "width": 569,
+                        "height": 226
+                    }
+                },
+                "bgbg": {
+                    "bgbg": {
+                        "y": -46,
+                        "width": 896,
+                        "height": 570
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": -35.12,
+                        "y": 33.13,
+                        "width": 725,
+                        "height": 766
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "0": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "b": {
+                    "scale": [
+                        {
+                            "x": 0.2,
+                            "y": 0.2
+                        }
+                    ]
+                }
+            }
+        },
+        "in": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "b": {
+                    "scale": [
+                        {
+                            "x": 0.2,
+                            "y": 0.2,
+                            "curve": [
+                                0.156,
+                                0.415,
+                                0.311,
+                                1.04,
+                                0.156,
+                                0.415,
+                                0.311,
+                                1.04
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 1.04,
+                            "y": 1.04,
+                            "curve": [
+                                0.656,
+                                1.04,
+                                0.844,
+                                1.013,
+                                0.656,
+                                1.04,
+                                0.844,
+                                1.013
+                            ]
+                        },
+                        {
+                            "time": 1.0333
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {}
+    },
+    "extra": {
+        "wiggle": {
+            "rootBoneName": "wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 8,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 1,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 1
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

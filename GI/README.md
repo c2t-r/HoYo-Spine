@@ -32,6 +32,7 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - 4.4 https://act.hoyoverse.com/ys/event/e20240120preview/index.html
 - 4.5 https://act.hoyoverse.com/ys/event/e20230302preview-2hu94k/index.html
 - 4.6 https://act.hoyoverse.com/ys/event/e20240413preview-pvtga2/index.html
+- 4.7 https://act.hoyoverse.com/ys/event/e20240525preview-d6s2mc/index.html
 
 ## Characters
 - https://webstatic-sea.mihoyo.com/ys/event/e20210624-boat/index.html <Kazuha>

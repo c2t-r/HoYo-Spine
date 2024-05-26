@@ -1,0 +1,363 @@
+{
+    "skeleton": {
+        "hash": "vKLhYveWHTM",
+        "spine": "4.0-from-4.1-from-4.2.20",
+        "x": -253.5,
+        "y": -72.5,
+        "width": 507,
+        "height": 145,
+        "images": "./xiaohuodong_btn/tex/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "btn_bg",
+            "parent": "root",
+            "x": -179
+        },
+        {
+            "name": "size",
+            "parent": "btn_bg"
+        },
+        {
+            "name": "btn_bg_move",
+            "parent": "size",
+            "icon": "circle"
+        }
+    ],
+    "slots": [
+        {
+            "name": "btn_bg_mask",
+            "bone": "size",
+            "attachment": "btn_bg_mask"
+        },
+        {
+            "name": "btn_bg",
+            "bone": "btn_bg_move",
+            "attachment": "btn_bg"
+        },
+        {
+            "name": "btn_kuang",
+            "bone": "size",
+            "attachment": "btn_kuang"
+        },
+        {
+            "name": "a1",
+            "bone": "root",
+            "attachment": "a1"
+        },
+        {
+            "name": "b1",
+            "bone": "root",
+            "attachment": "b0"
+        },
+        {
+            "name": "c1",
+            "bone": "root",
+            "attachment": "c0"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a1": {
+                    "a0": {
+                        "x": -181,
+                        "width": 135,
+                        "height": 135
+                    },
+                    "a1": {
+                        "x": -181,
+                        "width": 135,
+                        "height": 135
+                    }
+                },
+                "b1": {
+                    "b0": {
+                        "x": 3,
+                        "width": 135,
+                        "height": 135
+                    },
+                    "b1": {
+                        "x": 3,
+                        "width": 135,
+                        "height": 135
+                    }
+                },
+                "btn_bg": {
+                    "btn_bg": {
+                        "width": 213,
+                        "height": 213
+                    }
+                },
+                "btn_bg_mask": {
+                    "btn_bg_mask": {
+                        "type": "clipping",
+                        "end": "btn_bg",
+                        "vertexCount": 4,
+                        "vertices": [
+                            -72.98,
+                            71.16,
+                            69.15,
+                            71.01,
+                            68.97,
+                            -70.92,
+                            -72.98,
+                            -70.98
+                        ],
+                        "color": "ce3a3a00"
+                    }
+                },
+                "btn_kuang": {
+                    "btn_kuang": {
+                        "x": -2,
+                        "width": 145,
+                        "height": 145
+                    }
+                },
+                "c1": {
+                    "c0": {
+                        "x": 186,
+                        "width": 135,
+                        "height": 135
+                    },
+                    "c1": {
+                        "x": 186,
+                        "width": 135,
+                        "height": 135
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "0": {},
+        "a": {
+            "bones": {
+                "size": {
+                    "scale": [
+                        {
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                0.333,
+                                0.97,
+                                0.667,
+                                1.02,
+                                0.333,
+                                0.97,
+                                0.667,
+                                1.02
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 1.02,
+                            "y": 1.02,
+                            "curve": [
+                                1.333,
+                                1.02,
+                                1.667,
+                                0.97,
+                                1.333,
+                                1.02,
+                                1.667,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0.97,
+                            "y": 0.97
+                        }
+                    ]
+                },
+                "btn_bg_move": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 2,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "a1": {
+                    "attachment": [
+                        {
+                            "name": "a0"
+                        }
+                    ]
+                },
+                "b1": {
+                    "attachment": [
+                        {
+                            "name": "b1"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "btn_bg": {
+                    "translate": [
+                        {
+                            "x": 184
+                        }
+                    ]
+                },
+                "size": {
+                    "scale": [
+                        {
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                0.333,
+                                0.97,
+                                0.667,
+                                1.02,
+                                0.333,
+                                0.97,
+                                0.667,
+                                1.02
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 1.02,
+                            "y": 1.02,
+                            "curve": [
+                                1.333,
+                                1.02,
+                                1.667,
+                                0.97,
+                                1.333,
+                                1.02,
+                                1.667,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0.97,
+                            "y": 0.97
+                        }
+                    ]
+                },
+                "btn_bg_move": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 2,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "a1": {
+                    "attachment": [
+                        {
+                            "name": "a0"
+                        }
+                    ]
+                },
+                "c1": {
+                    "attachment": [
+                        {
+                            "name": "c1"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "btn_bg": {
+                    "translate": [
+                        {
+                            "x": 366.85
+                        }
+                    ]
+                },
+                "size": {
+                    "scale": [
+                        {
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                0.333,
+                                0.97,
+                                0.667,
+                                1.02,
+                                0.333,
+                                0.97,
+                                0.667,
+                                1.02
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 1.02,
+                            "y": 1.02,
+                            "curve": [
+                                1.333,
+                                1.02,
+                                1.667,
+                                0.97,
+                                1.333,
+                                1.02,
+                                1.667,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0.97,
+                            "y": 0.97
+                        }
+                    ]
+                },
+                "btn_bg_move": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 2,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "btn_bg_move": {
+            "rootBoneName": "btn_bg_move",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                }
+            }
+        },
+        "size": {
+            "rootBoneName": "size",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

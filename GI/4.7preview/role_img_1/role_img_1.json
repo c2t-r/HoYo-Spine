@@ -1,0 +1,416 @@
+{
+    "skeleton": {
+        "hash": "S3099R/4gdI",
+        "spine": "4.0-from-4.1-from-4.2.20",
+        "x": -486,
+        "y": -473.5,
+        "width": 972,
+        "height": 947,
+        "images": "./role_img_1/tex/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "f",
+            "parent": "root",
+            "x": -366.25,
+            "y": 396.43
+        },
+        {
+            "name": "c",
+            "parent": "root",
+            "x": -428.48,
+            "y": 161.22
+        },
+        {
+            "name": "a",
+            "parent": "root",
+            "x": -359.92,
+            "y": -405.19
+        },
+        {
+            "name": "e",
+            "parent": "root",
+            "x": -312.46,
+            "y": -435.78
+        },
+        {
+            "name": "d",
+            "parent": "root",
+            "x": 383.68,
+            "y": -134.12
+        },
+        {
+            "name": "b",
+            "parent": "root",
+            "x": 362.59,
+            "y": -262.8
+        }
+    ],
+    "slots": [
+        {
+            "name": "玻璃",
+            "bone": "root",
+            "attachment": "玻璃"
+        },
+        {
+            "name": "f",
+            "bone": "f",
+            "attachment": "f"
+        },
+        {
+            "name": "e",
+            "bone": "e",
+            "attachment": "e"
+        },
+        {
+            "name": "d",
+            "bone": "d",
+            "attachment": "d"
+        },
+        {
+            "name": "c",
+            "bone": "c",
+            "attachment": "c"
+        },
+        {
+            "name": "b",
+            "bone": "b",
+            "attachment": "b"
+        },
+        {
+            "name": "a",
+            "bone": "a",
+            "attachment": "a"
+        },
+        {
+            "name": "弹孔1",
+            "bone": "root",
+            "attachment": "弹孔1"
+        },
+        {
+            "name": "弹孔2",
+            "bone": "root",
+            "attachment": "弹孔2"
+        },
+        {
+            "name": "弹孔3",
+            "bone": "root",
+            "attachment": "弹孔3"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": -2.08,
+                        "y": -10.31,
+                        "width": 120,
+                        "height": 78
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": -10.59,
+                        "y": 0.3,
+                        "width": 120,
+                        "height": 76
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": 0.48,
+                        "y": -3.22,
+                        "width": 32,
+                        "height": 55
+                    }
+                },
+                "d": {
+                    "d": {
+                        "x": 0.82,
+                        "y": -10.88,
+                        "width": 193,
+                        "height": 103
+                    }
+                },
+                "e": {
+                    "e": {
+                        "x": -5.54,
+                        "y": 2.78,
+                        "width": 42,
+                        "height": 33
+                    }
+                },
+                "f": {
+                    "f": {
+                        "x": -5.75,
+                        "y": -1.43,
+                        "width": 72,
+                        "height": 85
+                    }
+                },
+                "弹孔1": {
+                    "弹孔1": {
+                        "x": -226.5,
+                        "y": 373.5,
+                        "width": 267,
+                        "height": 200
+                    }
+                },
+                "弹孔2": {
+                    "弹孔2": {
+                        "x": 299,
+                        "y": -3.5,
+                        "width": 184,
+                        "height": 140
+                    }
+                },
+                "弹孔3": {
+                    "弹孔3": {
+                        "x": -250.5,
+                        "y": -370,
+                        "width": 101,
+                        "height": 109
+                    }
+                },
+                "玻璃": {
+                    "玻璃": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.27014,
+                            0,
+                            0.81005,
+                            0.47478,
+                            1,
+                            0.51385,
+                            1,
+                            1,
+                            0.85219,
+                            1,
+                            0.82144,
+                            0.73088,
+                            0.13687,
+                            0.30876,
+                            0,
+                            0.27295,
+                            0
+                        ],
+                        "triangles": [
+                            7,
+                            1,
+                            0,
+                            3,
+                            2,
+                            6,
+                            2,
+                            7,
+                            6,
+                            6,
+                            5,
+                            3,
+                            7,
+                            0,
+                            8,
+                            2,
+                            1,
+                            7,
+                            4,
+                            3,
+                            5
+                        ],
+                        "vertices": [
+                            -486,
+                            202.35,
+                            -486,
+                            -297.6,
+                            -24.51,
+                            -473.5,
+                            13.46,
+                            -473.5,
+                            486,
+                            -336.63,
+                            486,
+                            -308.15,
+                            224.41,
+                            325.76,
+                            -185.89,
+                            452.5,
+                            -220.7,
+                            452.5
+                        ],
+                        "hull": 9,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            6,
+                            8,
+                            8,
+                            10,
+                            10,
+                            12,
+                            12,
+                            14,
+                            14,
+                            16,
+                            0,
+                            16
+                        ],
+                        "width": 972,
+                        "height": 926
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "f": {
+            "rootBoneName": "f",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 1,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 8,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 3.5
+                }
+            }
+        },
+        "a": {
+            "rootBoneName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -3,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 8,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.027226473830406748
+                }
+            }
+        },
+        "e": {
+            "rootBoneName": "e",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 8,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.057252292625341726
+                }
+            }
+        },
+        "d": {
+            "rootBoneName": "d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 7,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 8,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.2234175409762782
+                }
+            }
+        },
+        "b": {
+            "rootBoneName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.25,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 8,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.298103736193962
+                }
+            }
+        },
+        "c": {
+            "rootBoneName": "c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 8,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.06457268065296055
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

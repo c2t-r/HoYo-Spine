@@ -1,0 +1,262 @@
+{
+    "skeleton": {
+        "hash": "Nw5HtruuVrM",
+        "spine": "4.0-from-4.1-from-4.2.20",
+        "x": -539.5,
+        "y": -468.5,
+        "width": 1199,
+        "height": 949,
+        "images": "./map_bg_img/tex/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "灯c",
+            "parent": "root",
+            "x": -452.56,
+            "y": 364.62
+        },
+        {
+            "name": "底纹星a",
+            "parent": "root",
+            "x": 421.19,
+            "y": 299.85
+        },
+        {
+            "name": "底纹星b",
+            "parent": "root",
+            "x": 238.94,
+            "y": 423.77
+        },
+        {
+            "name": "灯a",
+            "parent": "root",
+            "x": 610.87,
+            "y": 436.36
+        },
+        {
+            "name": "灯b",
+            "parent": "root",
+            "x": 292.71,
+            "y": -397.22
+        },
+        {
+            "name": "黑点",
+            "parent": "root",
+            "x": 473.05,
+            "y": -456.9
+        }
+    ],
+    "slots": [
+        {
+            "name": "黑点",
+            "bone": "黑点",
+            "attachment": "黑点"
+        },
+        {
+            "name": "底纹星a",
+            "bone": "底纹星a",
+            "attachment": "底纹星a"
+        },
+        {
+            "name": "底纹星b",
+            "bone": "底纹星b",
+            "attachment": "底纹星b"
+        },
+        {
+            "name": "灯c",
+            "bone": "灯c",
+            "attachment": "灯c"
+        },
+        {
+            "name": "灯b",
+            "bone": "灯b",
+            "attachment": "灯b"
+        },
+        {
+            "name": "灯a",
+            "bone": "灯a",
+            "attachment": "灯a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "底纹星a": {
+                    "底纹星a": {
+                        "x": -8.69,
+                        "y": -7.35,
+                        "width": 374,
+                        "height": 376
+                    }
+                },
+                "底纹星b": {
+                    "底纹星b": {
+                        "x": -0.94,
+                        "y": -2.27,
+                        "width": 77,
+                        "height": 72
+                    }
+                },
+                "灯a": {
+                    "灯a": {
+                        "x": -0.37,
+                        "y": -0.36,
+                        "width": 98,
+                        "height": 89
+                    }
+                },
+                "灯b": {
+                    "灯b": {
+                        "x": -3.71,
+                        "y": 2.22,
+                        "width": 117,
+                        "height": 109
+                    }
+                },
+                "灯c": {
+                    "灯c": {
+                        "x": 0.06,
+                        "y": -0.12,
+                        "width": 174,
+                        "height": 152
+                    }
+                },
+                "黑点": {
+                    "黑点": {
+                        "x": -1.05,
+                        "y": 0.9,
+                        "width": 37,
+                        "height": 25
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "底纹星a": {
+            "rootBoneName": "底纹星a",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": -20,
+                    "rotateSpeed": 0.05
+                }
+            }
+        },
+        "底纹星b": {
+            "rootBoneName": "底纹星b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -3.2494133486739583,
+                    "moveYCenter": 10,
+                    "rotateSpeed": 0.05
+                }
+            }
+        },
+        "灯a": {
+            "rootBoneName": "灯a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -6.1252494591166275,
+                    "moveYCenter": 3,
+                    "rotateSpeed": 0.05
+                }
+            }
+        },
+        "灯b": {
+            "rootBoneName": "灯b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -2.931931464954348,
+                    "moveYCenter": 0,
+                    "rotateSpeed": 0.05
+                }
+            }
+        },
+        "灯c": {
+            "rootBoneName": "灯c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.7432884146779201,
+                    "moveYCenter": 0,
+                    "rotateSpeed": 0.05
+                }
+            }
+        },
+        "黑点": {
+            "rootBoneName": "黑点",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 6,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

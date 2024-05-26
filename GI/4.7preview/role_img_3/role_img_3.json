@@ -1,0 +1,327 @@
+{
+    "skeleton": {
+        "hash": "GgKg6bjgzto",
+        "spine": "4.0-from-4.1-from-4.2.20",
+        "x": -428.5,
+        "y": -441.5,
+        "width": 857,
+        "height": 883,
+        "images": "./role_img_3/tex/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "石子b",
+            "parent": "root",
+            "x": 300.17,
+            "y": 212.7
+        },
+        {
+            "name": "石子c",
+            "parent": "root",
+            "x": 153.35,
+            "y": -274.89
+        },
+        {
+            "name": "石子a",
+            "parent": "root",
+            "x": 222.91,
+            "y": -256.14
+        },
+        {
+            "name": "石子d",
+            "parent": "root",
+            "x": -246.26,
+            "y": -175.72
+        },
+        {
+            "name": "石子e",
+            "parent": "root",
+            "x": -287.23,
+            "y": 103.03
+        }
+    ],
+    "slots": [
+        {
+            "name": "沙子颗粒",
+            "bone": "root",
+            "attachment": "沙子颗粒"
+        },
+        {
+            "name": "石子b",
+            "bone": "石子b",
+            "attachment": "石子b"
+        },
+        {
+            "name": "石子a",
+            "bone": "石子a",
+            "attachment": "石子a"
+        },
+        {
+            "name": "石子c",
+            "bone": "石子c",
+            "attachment": "石子c"
+        },
+        {
+            "name": "石子d",
+            "bone": "石子d",
+            "attachment": "石子d"
+        },
+        {
+            "name": "石子e",
+            "bone": "石子e",
+            "attachment": "石子e"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "沙子颗粒": {
+                    "沙子颗粒": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.45997,
+                            0.45122,
+                            0,
+                            0.54323,
+                            0,
+                            1,
+                            0.42085,
+                            1,
+                            0.53057,
+                            0.53424,
+                            1,
+                            0.43434,
+                            1,
+                            0,
+                            0.55263
+                        ],
+                        "triangles": [
+                            2,
+                            3,
+                            4,
+                            7,
+                            5,
+                            6,
+                            7,
+                            0,
+                            4,
+                            0,
+                            1,
+                            2,
+                            2,
+                            4,
+                            0,
+                            4,
+                            5,
+                            7
+                        ],
+                        "vertices": [
+                            -428.5,
+                            35.34,
+                            -41.81,
+                            441.5,
+                            37.05,
+                            441.5,
+                            428.5,
+                            69.89,
+                            428.5,
+                            -26.99,
+                            29.34,
+                            -441.5,
+                            -56.27,
+                            -441.5,
+                            -428.5,
+                            -46.47
+                        ],
+                        "hull": 8,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            6,
+                            8,
+                            8,
+                            10,
+                            10,
+                            12,
+                            12,
+                            14,
+                            0,
+                            14
+                        ],
+                        "width": 857,
+                        "height": 883
+                    }
+                },
+                "石子a": {
+                    "石子a": {
+                        "x": -1.91,
+                        "y": -0.86,
+                        "width": 29,
+                        "height": 19
+                    }
+                },
+                "石子b": {
+                    "石子b": {
+                        "x": 2.83,
+                        "y": -0.2,
+                        "width": 47,
+                        "height": 36
+                    }
+                },
+                "石子c": {
+                    "石子c": {
+                        "x": -0.85,
+                        "y": 0.39,
+                        "width": 68,
+                        "height": 62
+                    }
+                },
+                "石子d": {
+                    "石子d": {
+                        "x": -2.24,
+                        "y": -0.78,
+                        "width": 56,
+                        "height": 34
+                    }
+                },
+                "石子e": {
+                    "石子e": {
+                        "x": 0.73,
+                        "y": -1.03,
+                        "width": 20,
+                        "height": 41
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "石子b": {
+            "rootBoneName": "石子b",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 2
+                }
+            }
+        },
+        "石子c": {
+            "rootBoneName": "石子c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.5380541881705887,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.0963465413759784
+                }
+            }
+        },
+        "石子a": {
+            "rootBoneName": "石子a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 8,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.342457863781432,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.18518363229817794
+                }
+            }
+        },
+        "石子d": {
+            "rootBoneName": "石子d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 15,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.07331980348202931,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.2592094191401751
+                }
+            }
+        },
+        "石子e": {
+            "rootBoneName": "石子e",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 8,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.968226614458997,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.04954199311199958
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

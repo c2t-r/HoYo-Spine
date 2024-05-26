@@ -1,0 +1,298 @@
+{
+    "skeleton": {
+        "hash": "fesgaghETIE",
+        "spine": "4.1-from-4.2.20",
+        "x": -495.5,
+        "y": -474,
+        "width": 981,
+        "height": 960
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "all",
+            "parent": "root",
+            "x": -3.5,
+            "y": 16
+        },
+        {
+            "name": "a",
+            "parent": "all"
+        },
+        {
+            "name": "b",
+            "parent": "all"
+        },
+        {
+            "name": "c",
+            "parent": "all"
+        }
+    ],
+    "slots": [
+        {
+            "name": "loading_bg",
+            "bone": "root",
+            "attachment": "loading_bg"
+        },
+        {
+            "name": "cc",
+            "bone": "c",
+            "attachment": "cc"
+        },
+        {
+            "name": "cb",
+            "bone": "c",
+            "attachment": "cb"
+        },
+        {
+            "name": "ca",
+            "bone": "c",
+            "attachment": "ca"
+        },
+        {
+            "name": "bc",
+            "bone": "b",
+            "attachment": "bc"
+        },
+        {
+            "name": "bd",
+            "bone": "b",
+            "attachment": "bd"
+        },
+        {
+            "name": "bb",
+            "bone": "b",
+            "attachment": "bb"
+        },
+        {
+            "name": "ba",
+            "bone": "b",
+            "attachment": "ba"
+        },
+        {
+            "name": "ag",
+            "bone": "b",
+            "attachment": "ag"
+        },
+        {
+            "name": "af",
+            "bone": "a",
+            "attachment": "af"
+        },
+        {
+            "name": "ae",
+            "bone": "a",
+            "attachment": "ae"
+        },
+        {
+            "name": "ad",
+            "bone": "a",
+            "attachment": "ad"
+        },
+        {
+            "name": "ac",
+            "bone": "a",
+            "attachment": "ac"
+        },
+        {
+            "name": "ab",
+            "bone": "a",
+            "attachment": "ab"
+        },
+        {
+            "name": "aa",
+            "bone": "a",
+            "attachment": "aa"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "aa": {
+                    "aa": {
+                        "x": 420.5,
+                        "y": -157,
+                        "width": 137,
+                        "height": 304
+                    }
+                },
+                "ab": {
+                    "ab": {
+                        "x": 236,
+                        "y": 230,
+                        "width": 470,
+                        "height": 480
+                    }
+                },
+                "ac": {
+                    "ac": {
+                        "x": -413,
+                        "y": -95,
+                        "width": 158,
+                        "height": 476
+                    }
+                },
+                "ad": {
+                    "ad": {
+                        "x": -227,
+                        "y": -395,
+                        "width": 216,
+                        "height": 128
+                    }
+                },
+                "ae": {
+                    "ae": {
+                        "x": 139.5,
+                        "y": -412.5,
+                        "width": 373,
+                        "height": 155
+                    }
+                },
+                "af": {
+                    "af": {
+                        "x": -219.5,
+                        "y": 311.5,
+                        "width": 453,
+                        "height": 317
+                    }
+                },
+                "ag": {
+                    "ag": {
+                        "x": -11,
+                        "y": -222.5,
+                        "width": 402,
+                        "height": 107
+                    }
+                },
+                "ba": {
+                    "ba": {
+                        "x": -78,
+                        "y": 250.5,
+                        "width": 80,
+                        "height": 29
+                    }
+                },
+                "bb": {
+                    "bb": {
+                        "x": 91.5,
+                        "y": 207.5,
+                        "width": 275,
+                        "height": 141
+                    }
+                },
+                "bc": {
+                    "bc": {
+                        "x": 230,
+                        "y": -26.5,
+                        "width": 86,
+                        "height": 339
+                    }
+                },
+                "bd": {
+                    "bd": {
+                        "x": -201.5,
+                        "y": 48.5,
+                        "width": 161,
+                        "height": 381
+                    }
+                },
+                "ca": {
+                    "ca": {
+                        "x": -128.5,
+                        "y": -38,
+                        "width": 127,
+                        "height": 276
+                    }
+                },
+                "cb": {
+                    "cb": {
+                        "x": 75.5,
+                        "y": -98.5,
+                        "width": 231,
+                        "height": 187
+                    }
+                },
+                "cc": {
+                    "cc": {
+                        "x": 16,
+                        "y": 91.5,
+                        "width": 342,
+                        "height": 189
+                    }
+                },
+                "loading_bg": {
+                    "loading_bg": {
+                        "x": -3.5,
+                        "y": 16,
+                        "width": 372,
+                        "height": 372
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "a": {
+            "rootBoneName": "a",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 7,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": 0.01
+                }
+            }
+        },
+        "b": {
+            "rootBoneName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 7,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.1699098445419414,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": 0.013
+                }
+            }
+        },
+        "c": {
+            "rootBoneName": "c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.015
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
