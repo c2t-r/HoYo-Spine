@@ -1,0 +1,1 @@
+https://act.hoyoverse.com/sr/event/e20220908jump-4odj/index.html

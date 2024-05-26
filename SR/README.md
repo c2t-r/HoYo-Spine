@@ -13,11 +13,16 @@ google: ```site:act.hoyoverse.com/sr/event```
 - 2.2 https://act.hoyoverse.com/sr/event/e20240426version-48v1wy/index.html
 
 ## others
+- https://act.hoyoverse.com/sr/event/march7thARinvitation/index.html
 - https://act.hoyoverse.com/sr/event/e20220908jump-4odj/index.html
+- https://webstatic.mihoyo.com/sr/event/e20221102exam/index.html
+- https://webstatic.mihoyo.com/sr/event/e20230105openingh5-qlg2th/index.html
 - https://act.hoyoverse.com/sr/event/e20230115draw-wtn7k1/index.html
 - https://act.hoyoverse.com/sr/event/e20230625luocha-fki8ca/index.html
 - https://act.hoyoverse.com/sr/event/20230802action/index.html
+- https://act.hoyoverse.com/sr/event/e20231025topaz/index.html
 - https://act.hoyoverse.com/sr/event/e20231230card-d0a2c0/index.html <BlackSwan>
+- https://act.hoyoverse.com/sr/event/e20240206relow-lxxr53/index.html
 - https://act.hoyoverse.com/sr/event/xianzhoucruise/index.html
 - https://act.hoyoverse.com/sr/event/e20240426anniversary-so6swc/index.html
 - https://act.hoyoverse.com/sr/event/e20240509robin-z0ps5s/index.html <Robin>
