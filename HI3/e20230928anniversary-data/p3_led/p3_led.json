@@ -1,0 +1,1272 @@
+{
+    "skeleton": {
+        "hash": "FawNR9tp5Lg",
+        "spine": "4.1.23",
+        "x": -503.54,
+        "y": -314.7,
+        "width": 1008.92,
+        "height": 635.99,
+        "images": "./p3_led/tex/",
+        "audio": "F:/【崩3】20230815 周年数据回顾/spine工程/环境/P3/p3_led"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "length": 100,
+            "x": 0.21,
+            "y": -327.85,
+            "scaleX": 0.7737,
+            "scaleY": 0.7737
+        },
+        {
+            "name": "箭头_6",
+            "parent": "bone",
+            "x": -223.59,
+            "y": 240.02
+        },
+        {
+            "name": "箭头_4",
+            "parent": "bone",
+            "x": -224.68,
+            "y": 350.34
+        },
+        {
+            "name": "箭头_2",
+            "parent": "bone",
+            "x": -224.22,
+            "y": 454.02
+        },
+        {
+            "name": "箭头_1",
+            "parent": "bone",
+            "x": 14.51,
+            "y": 455.84
+        },
+        {
+            "name": "箭头_3",
+            "parent": "bone",
+            "x": 14.51,
+            "y": 351.25
+        },
+        {
+            "name": "箭头_5",
+            "parent": "bone",
+            "x": 15.42,
+            "y": 240.75
+        },
+        {
+            "name": "光",
+            "parent": "bone",
+            "x": -420.79,
+            "y": 771.23
+        },
+        {
+            "name": "光2",
+            "parent": "bone",
+            "x": -286.46,
+            "y": 771.23
+        },
+        {
+            "name": "光3",
+            "parent": "bone",
+            "x": -146.18,
+            "y": 771.23
+        },
+        {
+            "name": "光4",
+            "parent": "bone",
+            "x": -1.65,
+            "y": 771.23
+        },
+        {
+            "name": "光5",
+            "parent": "bone",
+            "x": 141.19,
+            "y": 771.23
+        },
+        {
+            "name": "光6",
+            "parent": "bone",
+            "x": 278.07,
+            "y": 771.23
+        },
+        {
+            "name": "光7",
+            "parent": "bone",
+            "x": 414.95,
+            "y": 771.23
+        },
+        {
+            "name": "兔兔2",
+            "parent": "bone",
+            "x": 441.99,
+            "y": 183.96
+        },
+        {
+            "name": "兔兔1",
+            "parent": "bone",
+            "x": 506.06,
+            "y": 192.96
+        },
+        {
+            "name": "光带_2",
+            "parent": "bone",
+            "x": -465.33,
+            "y": 133.28
+        },
+        {
+            "name": "光带_3",
+            "parent": "bone",
+            "x": -231.56,
+            "y": 133.78
+        },
+        {
+            "name": "光带_4",
+            "parent": "bone",
+            "x": 235.97,
+            "y": 133.78
+        },
+        {
+            "name": "光带_1",
+            "parent": "bone",
+            "x": 457.23,
+            "y": 133.78
+        }
+    ],
+    "slots": [
+        {
+            "name": "底屏",
+            "bone": "bone",
+            "attachment": "底屏"
+        },
+        {
+            "name": "mask",
+            "bone": "bone",
+            "attachment": "mask"
+        },
+        {
+            "name": "光带_4",
+            "bone": "光带_4",
+            "attachment": "光带_4"
+        },
+        {
+            "name": "光带_3",
+            "bone": "光带_3",
+            "attachment": "光带_3"
+        },
+        {
+            "name": "光带_2",
+            "bone": "光带_2",
+            "attachment": "光带_2"
+        },
+        {
+            "name": "光带_1",
+            "bone": "光带_1",
+            "attachment": "光带_1"
+        },
+        {
+            "name": "图层 7",
+            "bone": "bone",
+            "attachment": "图层 7"
+        },
+        {
+            "name": "兔兔2",
+            "bone": "兔兔2",
+            "attachment": "兔兔2"
+        },
+        {
+            "name": "兔兔1",
+            "bone": "兔兔1",
+            "attachment": "兔兔1"
+        },
+        {
+            "name": "箭头_6",
+            "bone": "箭头_6",
+            "attachment": "箭头_6"
+        },
+        {
+            "name": "箭头_5",
+            "bone": "箭头_5",
+            "attachment": "箭头_5"
+        },
+        {
+            "name": "箭头_4",
+            "bone": "箭头_4",
+            "attachment": "箭头_4"
+        },
+        {
+            "name": "箭头_3",
+            "bone": "箭头_3",
+            "attachment": "箭头_3"
+        },
+        {
+            "name": "箭头_2",
+            "bone": "箭头_2",
+            "attachment": "箭头_2"
+        },
+        {
+            "name": "箭头_1",
+            "bone": "箭头_1",
+            "attachment": "箭头_1"
+        },
+        {
+            "name": "跑马",
+            "bone": "bone",
+            "attachment": "跑马"
+        },
+        {
+            "name": "光",
+            "bone": "光",
+            "attachment": "光"
+        },
+        {
+            "name": "光2",
+            "bone": "光2",
+            "attachment": "光"
+        },
+        {
+            "name": "光3",
+            "bone": "光3",
+            "attachment": "光"
+        },
+        {
+            "name": "光4",
+            "bone": "光4",
+            "attachment": "光"
+        },
+        {
+            "name": "光5",
+            "bone": "光5",
+            "attachment": "光"
+        },
+        {
+            "name": "光6",
+            "bone": "光6",
+            "attachment": "光"
+        },
+        {
+            "name": "光7",
+            "bone": "光7",
+            "attachment": "光"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "光带_1",
+                        "vertexCount": 4,
+                        "vertices": [
+                            -540.13,
+                            159.24,
+                            -539.23,
+                            115.54,
+                            542.5,
+                            117.32,
+                            541.61,
+                            158.35
+                        ],
+                        "color": "ce3a3aff"
+                    }
+                },
+                "光": {
+                    "光": {
+                        "x": 0.21,
+                        "y": 0.78,
+                        "width": 133,
+                        "height": 134
+                    }
+                },
+                "光2": {
+                    "光": {
+                        "x": 0.21,
+                        "y": 0.78,
+                        "width": 133,
+                        "height": 134
+                    }
+                },
+                "光3": {
+                    "光": {
+                        "x": 0.21,
+                        "y": 0.78,
+                        "width": 133,
+                        "height": 134
+                    }
+                },
+                "光4": {
+                    "光": {
+                        "x": 0.21,
+                        "y": 0.78,
+                        "width": 133,
+                        "height": 134
+                    }
+                },
+                "光5": {
+                    "光": {
+                        "x": 0.21,
+                        "y": 0.78,
+                        "width": 133,
+                        "height": 134
+                    }
+                },
+                "光6": {
+                    "光": {
+                        "x": 0.21,
+                        "y": 0.78,
+                        "width": 133,
+                        "height": 134
+                    }
+                },
+                "光7": {
+                    "光": {
+                        "x": 0.21,
+                        "y": 0.78,
+                        "width": 133,
+                        "height": 134
+                    }
+                },
+                "光带_1": {
+                    "光带_1": {
+                        "x": 3.69,
+                        "y": 0.22,
+                        "width": 168,
+                        "height": 18
+                    }
+                },
+                "光带_2": {
+                    "光带_2": {
+                        "x": 8.75,
+                        "y": 0.22,
+                        "width": 169,
+                        "height": 17
+                    }
+                },
+                "光带_3": {
+                    "光带_3": {
+                        "x": -0.52,
+                        "y": 0.22,
+                        "width": 68,
+                        "height": 16
+                    }
+                },
+                "光带_4": {
+                    "光带_4": {
+                        "x": -1.05,
+                        "y": 0.22,
+                        "width": 68,
+                        "height": 16
+                    }
+                },
+                "兔兔1": {
+                    "兔兔1": {
+                        "x": -9.65,
+                        "y": 24.04,
+                        "width": 87,
+                        "height": 122
+                    }
+                },
+                "兔兔2": {
+                    "兔兔2": {
+                        "x": 2.43,
+                        "y": 16.05,
+                        "width": 61,
+                        "height": 94
+                    }
+                },
+                "图层 7": {
+                    "图层 7": {
+                        "x": 547.42,
+                        "y": 224.5,
+                        "width": 75,
+                        "height": 49
+                    }
+                },
+                "底屏": {
+                    "底屏": {
+                        "x": 0.92,
+                        "y": 344,
+                        "width": 1304,
+                        "height": 654
+                    }
+                },
+                "箭头_1": {
+                    "箭头_1": {
+                        "x": 1.9,
+                        "y": -1.34,
+                        "width": 23,
+                        "height": 33
+                    }
+                },
+                "箭头_2": {
+                    "箭头_2": {
+                        "x": 2.14,
+                        "y": -1.02,
+                        "width": 24,
+                        "height": 34
+                    }
+                },
+                "箭头_3": {
+                    "箭头_3": {
+                        "x": 1.9,
+                        "y": 0.25,
+                        "width": 23,
+                        "height": 33
+                    }
+                },
+                "箭头_4": {
+                    "箭头_4": {
+                        "x": 2.59,
+                        "y": -0.34,
+                        "width": 24,
+                        "height": 34
+                    }
+                },
+                "箭头_5": {
+                    "箭头_5": {
+                        "x": 0.99,
+                        "y": 0.75,
+                        "width": 23,
+                        "height": 33
+                    }
+                },
+                "箭头_6": {
+                    "箭头_6": {
+                        "x": 1.5,
+                        "y": -0.02,
+                        "width": 24,
+                        "height": 34
+                    }
+                },
+                "跑马": {
+                    "跑马": {
+                        "x": 1.92,
+                        "y": 770,
+                        "width": 1032,
+                        "height": 132
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "光": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.444,
+                                1,
+                                0.556,
+                                1,
+                                0.444,
+                                1,
+                                0.556,
+                                1,
+                                0.444,
+                                1,
+                                0.556,
+                                1,
+                                0.444,
+                                0,
+                                0.556,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.889,
+                                1,
+                                1.111,
+                                1,
+                                0.889,
+                                1,
+                                1.111,
+                                1,
+                                0.889,
+                                1,
+                                1.111,
+                                1,
+                                0.889,
+                                1,
+                                1.111,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "光2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.778,
+                                1,
+                                0.889,
+                                1,
+                                0.778,
+                                1,
+                                0.889,
+                                1,
+                                0.778,
+                                1,
+                                0.889,
+                                1,
+                                0.778,
+                                0,
+                                0.889,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff",
+                            "curve": [
+                                1.222,
+                                1,
+                                1.444,
+                                1,
+                                1.222,
+                                1,
+                                1.444,
+                                1,
+                                1.222,
+                                1,
+                                1.444,
+                                1,
+                                1.222,
+                                1,
+                                1.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "光3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.111,
+                                1,
+                                1.222,
+                                1,
+                                1.111,
+                                1,
+                                1.222,
+                                1,
+                                1.111,
+                                1,
+                                1.222,
+                                1,
+                                1.111,
+                                0,
+                                1.222,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff",
+                            "curve": [
+                                1.556,
+                                1,
+                                1.778,
+                                1,
+                                1.556,
+                                1,
+                                1.778,
+                                1,
+                                1.556,
+                                1,
+                                1.778,
+                                1,
+                                1.556,
+                                1,
+                                1.778,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "光4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.444,
+                                1,
+                                1.556,
+                                1,
+                                1.444,
+                                1,
+                                1.556,
+                                1,
+                                1.444,
+                                1,
+                                1.556,
+                                1,
+                                1.444,
+                                0,
+                                1.556,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffffff",
+                            "curve": [
+                                1.889,
+                                1,
+                                2.111,
+                                1,
+                                1.889,
+                                1,
+                                2.111,
+                                1,
+                                1.889,
+                                1,
+                                2.111,
+                                1,
+                                1.889,
+                                1,
+                                2.111,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "光5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.778,
+                                1,
+                                1.889,
+                                1,
+                                1.778,
+                                1,
+                                1.889,
+                                1,
+                                1.778,
+                                1,
+                                1.889,
+                                1,
+                                1.778,
+                                0,
+                                1.889,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.222,
+                                1,
+                                2.444,
+                                1,
+                                2.222,
+                                1,
+                                2.444,
+                                1,
+                                2.222,
+                                1,
+                                2.444,
+                                1,
+                                2.222,
+                                1,
+                                2.444,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "光6": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.111,
+                                1,
+                                2.222,
+                                1,
+                                2.111,
+                                1,
+                                2.222,
+                                1,
+                                2.111,
+                                1,
+                                2.222,
+                                1,
+                                2.111,
+                                0,
+                                2.222,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.556,
+                                1,
+                                2.778,
+                                1,
+                                2.556,
+                                1,
+                                2.778,
+                                1,
+                                2.556,
+                                1,
+                                2.778,
+                                1,
+                                2.556,
+                                1,
+                                2.778,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "光7": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffff00",
+                            "curve": [
+                                2.444,
+                                1,
+                                2.556,
+                                1,
+                                2.444,
+                                1,
+                                2.556,
+                                1,
+                                2.444,
+                                1,
+                                2.556,
+                                1,
+                                2.444,
+                                0,
+                                2.556,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffffff",
+                            "curve": [
+                                2.889,
+                                1,
+                                3.111,
+                                1,
+                                2.889,
+                                1,
+                                3.111,
+                                1,
+                                2.889,
+                                1,
+                                3.111,
+                                1,
+                                2.889,
+                                1,
+                                3.111,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "光带_2": {
+                    "translate": [
+                        {
+                            "x": -165.28,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "x": -165.28,
+                            "curve": [
+                                1.155,
+                                -165.28,
+                                0.811,
+                                1088.82,
+                                1.155,
+                                0,
+                                0.811,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.4667,
+                            "x": 1088.82,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5,
+                            "x": -165.28,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.4,
+                            "x": -165.28,
+                            "curve": [
+                                4.067,
+                                -165.28,
+                                4.733,
+                                1088.82,
+                                4.067,
+                                0,
+                                4.733,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 5.4,
+                            "x": 1088.82,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.4333,
+                            "x": -165.28
+                        }
+                    ]
+                },
+                "光带_3": {
+                    "translate": [
+                        {
+                            "x": 65.5,
+                            "curve": [
+                                0.27,
+                                399.71,
+                                0.535,
+                                819.61,
+                                0.27,
+                                0,
+                                0.535,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.8,
+                            "x": 819.61,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": -344.15,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.2667,
+                            "x": -344.15,
+                            "curve": [
+                                2.711,
+                                -344.15,
+                                3.156,
+                                819.61,
+                                2.711,
+                                0,
+                                3.156,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3.6,
+                            "x": 819.61,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6333,
+                            "x": -344.15,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.4667,
+                            "x": -344.15,
+                            "curve": [
+                                5.646,
+                                -344.15,
+                                5.825,
+                                -160.42,
+                                5.646,
+                                0,
+                                5.825,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 6,
+                            "x": 65.5
+                        }
+                    ]
+                },
+                "光带_4": {
+                    "translate": [
+                        {
+                            "x": -808.3,
+                            "curve": [
+                                0.699,
+                                -742.3,
+                                0.619,
+                                350.18,
+                                0.699,
+                                0,
+                                0.619,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.3667,
+                            "x": 350.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "x": -818.86,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8667,
+                            "x": -818.86,
+                            "curve": [
+                                3.644,
+                                -818.86,
+                                4.422,
+                                350.18,
+                                3.644,
+                                0,
+                                4.422,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 5.2,
+                            "x": 350.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.2333,
+                            "x": -818.86,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.9333,
+                            "x": -818.86,
+                            "curve": [
+                                5.956,
+                                -818.86,
+                                5.979,
+                                -810.34,
+                                5.956,
+                                0,
+                                5.979,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 6,
+                            "x": -808.3
+                        }
+                    ]
+                },
+                "光带_1": {
+                    "translate": [
+                        {
+                            "x": -1088.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": -1088.29,
+                            "curve": [
+                                1.111,
+                                -1088.29,
+                                1.889,
+                                185.66,
+                                1.111,
+                                0,
+                                1.889,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.6667,
+                            "x": 185.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.7,
+                            "x": -1088.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.3333,
+                            "x": -1088.29,
+                            "curve": [
+                                4.111,
+                                -1088.29,
+                                4.889,
+                                185.66,
+                                4.111,
+                                0,
+                                4.889,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 5.6667,
+                            "x": 185.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.7,
+                            "x": -1088.29
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "箭头_2": {
+            "rootBoneName": "箭头_2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "箭头_1": {
+            "rootBoneName": "箭头_1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.9050358903213407,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.4452504542666205,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "箭头_3": {
+            "rootBoneName": "箭头_3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.444182103241896,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.8298940978151803,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "箭头_5": {
+            "rootBoneName": "箭头_5",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -6.520424638153234,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.117535865374679,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "箭头_6": {
+            "rootBoneName": "箭头_6",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.9131501806116313,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.36060955608619505,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "箭头_4": {
+            "rootBoneName": "箭头_4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -6.178683054908166,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.9001459551139792,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "兔兔2": {
+            "rootBoneName": "兔兔2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 2.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.9656632157634695,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 1.5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -3.882027849129652,
+                    "moveYCenter": 0,
+                    "rotateFreq": 1,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.19471219045378896
+                }
+            }
+        },
+        "兔兔1": {
+            "rootBoneName": "兔兔1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 1,
+                    "moveXAmp": 2.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.6502219368035695,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 1.5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.634224888834638,
+                    "moveYCenter": 0,
+                    "rotateFreq": 1,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.048646714619507314
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

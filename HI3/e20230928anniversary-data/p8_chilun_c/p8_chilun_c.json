@@ -1,0 +1,123 @@
+{
+    "skeleton": {
+        "hash": "vXQRkQDTn/M",
+        "spine": "4.1.23",
+        "x": -245.93,
+        "y": -244.76,
+        "width": 491.87,
+        "height": 489.52,
+        "images": "./p8_chilun_c/tex/",
+        "audio": "F:/【崩3】20230815 周年数据回顾/spine工程/环境/p8/p8_chilun_c"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.7807,
+            "scaleY": 0.7807
+        },
+        {
+            "name": "齿轮6",
+            "parent": "root",
+            "length": 100,
+            "x": 24.35,
+            "y": 31.58
+        },
+        {
+            "name": "齿轮5",
+            "parent": "root",
+            "length": 100,
+            "x": -42.96,
+            "y": -31.87
+        },
+        {
+            "name": "齿轮4",
+            "parent": "root",
+            "length": 271.67
+        }
+    ],
+    "slots": [
+        {
+            "name": "齿轮4",
+            "bone": "齿轮4",
+            "attachment": "齿轮4"
+        },
+        {
+            "name": "齿轮6",
+            "bone": "齿轮6",
+            "attachment": "齿轮6"
+        },
+        {
+            "name": "齿轮5",
+            "bone": "齿轮5",
+            "attachment": "齿轮5"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "齿轮4": {
+                    "齿轮4": {
+                        "width": 630,
+                        "height": 627
+                    }
+                },
+                "齿轮5": {
+                    "齿轮5": {
+                        "x": 0.46,
+                        "y": 0.37,
+                        "width": 87,
+                        "height": 86
+                    }
+                },
+                "齿轮6": {
+                    "齿轮6": {
+                        "x": 1.15,
+                        "y": -0.08,
+                        "width": 123,
+                        "height": 122
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "齿轮5": {
+            "rootBoneName": "齿轮5",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.3
+                }
+            }
+        },
+        "齿轮6": {
+            "rootBoneName": "齿轮6",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": -0.21
+                }
+            }
+        },
+        "齿轮4": {
+            "rootBoneName": "齿轮4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.05
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

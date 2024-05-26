@@ -1,0 +1,78 @@
+{
+    "skeleton": {
+        "hash": "R1wXyw9YREo",
+        "spine": "4.1.23",
+        "x": -170.2,
+        "y": -153.81,
+        "width": 340.4,
+        "height": 307.61,
+        "images": "./p8_chilun_a/tex/",
+        "audio": "F:/【崩3】20230815 周年数据回顾/spine工程/环境/p8/p8_chilun_a"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.7807,
+            "scaleY": 0.7807
+        },
+        {
+            "name": "齿轮1",
+            "parent": "root",
+            "length": 100,
+            "x": 45.18,
+            "y": -76.22
+        }
+    ],
+    "slots": [
+        {
+            "name": "绳子 的複製",
+            "bone": "root",
+            "attachment": "绳子 的複製"
+        },
+        {
+            "name": "齿轮1",
+            "bone": "齿轮1",
+            "attachment": "齿轮1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "绳子 的複製": {
+                    "绳子 的複製": {
+                        "width": 436,
+                        "height": 394
+                    }
+                },
+                "齿轮1": {
+                    "齿轮1": {
+                        "x": 1.32,
+                        "y": 0.22,
+                        "width": 123,
+                        "height": 122
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "齿轮1": {
+            "rootBoneName": "齿轮1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.2
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

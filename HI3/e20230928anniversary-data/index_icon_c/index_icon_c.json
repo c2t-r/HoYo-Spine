@@ -1,0 +1,103 @@
+{
+    "skeleton": {
+        "hash": "Zdt8YGTWYGY",
+        "spine": "4.0-from-4.1.23",
+        "x": -331,
+        "y": -323.5,
+        "width": 662,
+        "height": 647
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "椭圆 4 拷贝 4",
+            "parent": "root",
+            "x": -17.9,
+            "y": 7.34
+        },
+        {
+            "name": "bb",
+            "parent": "椭圆 4 拷贝 4",
+            "x": -25.91,
+            "y": -102.07,
+            "transform": "noRotationOrReflection"
+        }
+    ],
+    "slots": [
+        {
+            "name": "椭圆 4 拷贝 4",
+            "bone": "椭圆 4 拷贝 4",
+            "attachment": "椭圆 4 拷贝 4"
+        },
+        {
+            "name": "bb",
+            "bone": "bb",
+            "attachment": "bb"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bb": {
+                    "bb": {
+                        "x": -2.69,
+                        "y": -6.78,
+                        "width": 347,
+                        "height": 348
+                    }
+                },
+                "椭圆 4 拷贝 4": {
+                    "椭圆 4 拷贝 4": {
+                        "x": 17.9,
+                        "y": -7.34,
+                        "width": 662,
+                        "height": 647
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "椭圆 4 拷贝 4": {
+            "rootBoneName": "椭圆 4 拷贝 4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 8157,
+                    "rotateFreq": 3,
+                    "rotateAmp": 20,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "bb": {
+            "rootBoneName": "bb",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 5,
+                    "elasticFriction": 0.8,
+                    "elasticSpring": 0.01,
+                    "elasticSoftness": 1
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

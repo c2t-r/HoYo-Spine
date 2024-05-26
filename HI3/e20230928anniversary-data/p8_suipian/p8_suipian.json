@@ -1,0 +1,633 @@
+{
+    "skeleton": {
+        "hash": "kzycCUEZ090",
+        "spine": "4.1.23",
+        "x": -1017.08,
+        "y": -307.51,
+        "width": 2034.16,
+        "height": 615.01,
+        "images": "./p8_suipian/tex/",
+        "audio": "F:/【崩3】20230815 周年数据回顾/spine工程/环境/p8/p8_suipian"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.7815,
+            "scaleY": 0.7815
+        },
+        {
+            "name": "片5",
+            "parent": "root",
+            "x": -1276.69,
+            "y": -25.06
+        },
+        {
+            "name": "片8",
+            "parent": "root",
+            "x": -1201.43,
+            "y": -157.56
+        },
+        {
+            "name": "片10",
+            "parent": "root",
+            "x": -515.57,
+            "y": -125.76
+        },
+        {
+            "name": "片7",
+            "parent": "root",
+            "x": -446.67,
+            "y": -50.5
+        },
+        {
+            "name": "片6",
+            "parent": "root",
+            "x": -386.25,
+            "y": -54.74
+        },
+        {
+            "name": "片12",
+            "parent": "root",
+            "x": 350.05,
+            "y": -138.48
+        },
+        {
+            "name": "片15",
+            "parent": "root",
+            "x": 415.78,
+            "y": -225.41
+        },
+        {
+            "name": "片13",
+            "parent": "root",
+            "x": 482.56,
+            "y": -260.39
+        },
+        {
+            "name": "片4",
+            "parent": "root",
+            "x": 815.42,
+            "y": 183.78
+        },
+        {
+            "name": "片2",
+            "parent": "root",
+            "x": 872.66,
+            "y": 242.08
+        },
+        {
+            "name": "片1",
+            "parent": "root",
+            "x": 980.79,
+            "y": 302.5
+        },
+        {
+            "name": "片3",
+            "parent": "root",
+            "x": 1068.77,
+            "y": 160.45
+        },
+        {
+            "name": "片9",
+            "parent": "root",
+            "x": 1130.26,
+            "y": -175.58
+        },
+        {
+            "name": "片17",
+            "parent": "root",
+            "x": 1250.04,
+            "y": -226.47
+        },
+        {
+            "name": "片11",
+            "parent": "root",
+            "x": 1282.9,
+            "y": -136.36
+        }
+    ],
+    "slots": [
+        {
+            "name": "片17",
+            "bone": "片17",
+            "attachment": "片17"
+        },
+        {
+            "name": "片16",
+            "bone": "root",
+            "attachment": "片16"
+        },
+        {
+            "name": "片15",
+            "bone": "片15",
+            "attachment": "片15"
+        },
+        {
+            "name": "片14",
+            "bone": "root",
+            "attachment": "片14"
+        },
+        {
+            "name": "片13",
+            "bone": "片13",
+            "attachment": "片13"
+        },
+        {
+            "name": "片12",
+            "bone": "片12",
+            "attachment": "片12"
+        },
+        {
+            "name": "片11",
+            "bone": "片11",
+            "attachment": "片11"
+        },
+        {
+            "name": "片10",
+            "bone": "片10",
+            "attachment": "片10"
+        },
+        {
+            "name": "片9",
+            "bone": "片9",
+            "attachment": "片9"
+        },
+        {
+            "name": "片8",
+            "bone": "片8",
+            "attachment": "片8"
+        },
+        {
+            "name": "片7",
+            "bone": "片7",
+            "attachment": "片7"
+        },
+        {
+            "name": "片6",
+            "bone": "片6",
+            "attachment": "片6"
+        },
+        {
+            "name": "片5",
+            "bone": "片5",
+            "attachment": "片5"
+        },
+        {
+            "name": "片4",
+            "bone": "片4",
+            "attachment": "片4"
+        },
+        {
+            "name": "片3",
+            "bone": "片3",
+            "attachment": "片3"
+        },
+        {
+            "name": "片2",
+            "bone": "片2",
+            "attachment": "片2"
+        },
+        {
+            "name": "片1",
+            "bone": "片1",
+            "attachment": "片1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "片1": {
+                    "片1": {
+                        "x": -3.79,
+                        "y": -10.5,
+                        "width": 65,
+                        "height": 203
+                    }
+                },
+                "片2": {
+                    "片2": {
+                        "x": 11.34,
+                        "y": -13.58,
+                        "width": 73,
+                        "height": 148
+                    }
+                },
+                "片3": {
+                    "片3": {
+                        "x": -5.27,
+                        "y": 9.55,
+                        "width": 48,
+                        "height": 107
+                    }
+                },
+                "片4": {
+                    "片4": {
+                        "x": 5.08,
+                        "y": -1.78,
+                        "width": 44,
+                        "height": 75
+                    }
+                },
+                "片5": {
+                    "片5": {
+                        "x": 2.69,
+                        "y": -7.94,
+                        "width": 55,
+                        "height": 83
+                    }
+                },
+                "片6": {
+                    "片6": {
+                        "x": 0.75,
+                        "y": 1.74,
+                        "width": 56,
+                        "height": 111
+                    }
+                },
+                "片7": {
+                    "片7": {
+                        "x": -6.33,
+                        "y": 7.5,
+                        "width": 49,
+                        "height": 57
+                    }
+                },
+                "片8": {
+                    "片8": {
+                        "x": 0.93,
+                        "y": -13.44,
+                        "width": 72,
+                        "height": 215
+                    }
+                },
+                "片9": {
+                    "片9": {
+                        "x": -0.26,
+                        "y": 2.08,
+                        "width": 121,
+                        "height": 162
+                    }
+                },
+                "片10": {
+                    "片10": {
+                        "x": -2.93,
+                        "y": 0.76,
+                        "width": 44,
+                        "height": 47
+                    }
+                },
+                "片11": {
+                    "片11": {
+                        "x": -4.91,
+                        "y": 0.86,
+                        "width": 47,
+                        "height": 52
+                    }
+                },
+                "片12": {
+                    "片12": {
+                        "x": -3.55,
+                        "y": -0.02,
+                        "width": 106,
+                        "height": 46
+                    }
+                },
+                "片13": {
+                    "片13": {
+                        "x": 0.44,
+                        "y": -4.11,
+                        "width": 59,
+                        "height": 258
+                    }
+                },
+                "片14": {
+                    "片14": {
+                        "x": 403.5,
+                        "y": -180.5,
+                        "width": 24,
+                        "height": 24
+                    }
+                },
+                "片15": {
+                    "片15": {
+                        "x": 1.22,
+                        "y": 2.91,
+                        "width": 43,
+                        "height": 102
+                    }
+                },
+                "片16": {
+                    "片16": {
+                        "x": 1273,
+                        "y": -182.5,
+                        "width": 5,
+                        "height": 4
+                    }
+                },
+                "片17": {
+                    "片17": {
+                        "x": -10.04,
+                        "y": -0.03,
+                        "width": 69,
+                        "height": 74
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "片12": {
+            "rootBoneName": "片12",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3794,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.6
+                }
+            }
+        },
+        "片5": {
+            "rootBoneName": "片5",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -3.862472442957448,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3798.172420486157,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.2834763728316119
+                }
+            }
+        },
+        "片8": {
+            "rootBoneName": "片8",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.760713626664026,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3801.8075185737994,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.02851114250643999
+                }
+            }
+        },
+        "片10": {
+            "rootBoneName": "片10",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -8.706725142198671,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3797.0625518578217,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.3090179545635633
+                }
+            }
+        },
+        "片7": {
+            "rootBoneName": "片7",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -7.923539038086953,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3800.7717948283994,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.11389386683392883
+                }
+            }
+        },
+        "片6": {
+            "rootBoneName": "片6",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -13.92126218857171,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3801.770360173633,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.3796977045681587
+                }
+            }
+        },
+        "片15": {
+            "rootBoneName": "片15",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -19.24501764226472,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3796.2028351939252,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.19735939003736835
+                }
+            }
+        },
+        "片13": {
+            "rootBoneName": "片13",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -13.596270539000166,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3796.5599312881345,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.4142944024568027
+                }
+            }
+        },
+        "片4": {
+            "rootBoneName": "片4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -18.10518682084867,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3795.4493561797,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.28607687004638926
+                }
+            }
+        },
+        "片2": {
+            "rootBoneName": "片2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -19.665001332784467,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3789.780432209984,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.4180249694518987
+                }
+            }
+        },
+        "片1": {
+            "rootBoneName": "片1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -21.798499697926612,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3788.628193410968,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.28312395981922456
+                }
+            }
+        },
+        "片3": {
+            "rootBoneName": "片3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -16.65122307933015,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3786.3478295893283,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.2802249651823859
+                }
+            }
+        },
+        "片9": {
+            "rootBoneName": "片9",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -11.552871295504541,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3792.544534962238,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.02987314044007855
+                }
+            }
+        },
+        "片17": {
+            "rootBoneName": "片17",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -8.897842362841773,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3795.5696936809804,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.06735904935788548
+                }
+            }
+        },
+        "片11": {
+            "rootBoneName": "片11",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -8.445446870411347,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3793.7840985550088,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.11487341452596357
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

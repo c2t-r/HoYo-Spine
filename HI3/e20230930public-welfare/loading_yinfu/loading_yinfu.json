@@ -1,0 +1,240 @@
+{
+    "skeleton": {
+        "hash": "vQO1b2zmPpk",
+        "spine": "4.1.23",
+        "x": -780,
+        "y": -300,
+        "width": 1585,
+        "height": 365
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "音符a",
+            "parent": "root",
+            "x": -713.02,
+            "y": 26.79
+        },
+        {
+            "name": "音符a2",
+            "parent": "音符a",
+            "length": 55.07,
+            "rotation": 128.33,
+            "x": -34.16,
+            "y": -4.02
+        },
+        {
+            "name": "音符b",
+            "parent": "root",
+            "x": -489.45,
+            "y": -241.09
+        },
+        {
+            "name": "音符b2",
+            "parent": "音符b",
+            "length": 37.07,
+            "rotation": 71.92,
+            "x": -52.5
+        },
+        {
+            "name": "音符c",
+            "parent": "root",
+            "x": 515.88,
+            "y": -257.89
+        },
+        {
+            "name": "音符c2",
+            "parent": "音符c",
+            "length": 48.94,
+            "rotation": 68.81,
+            "x": 38.18,
+            "y": -21.42
+        },
+        {
+            "name": "音符d",
+            "parent": "root",
+            "x": 722.34,
+            "y": -93.4
+        },
+        {
+            "name": "音符d2",
+            "parent": "音符d",
+            "length": 53.07,
+            "rotation": 108.07,
+            "x": 44.61,
+            "y": 7.44
+        }
+    ],
+    "slots": [
+        {
+            "name": "音符d",
+            "bone": "音符d2",
+            "attachment": "音符d"
+        },
+        {
+            "name": "音符c",
+            "bone": "音符c2",
+            "attachment": "音符c"
+        },
+        {
+            "name": "音符b",
+            "bone": "音符b2",
+            "attachment": "音符b"
+        },
+        {
+            "name": "音符a",
+            "bone": "音符a2",
+            "attachment": "音符a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "音符a": {
+                    "音符a": {
+                        "x": 4.97,
+                        "y": 3.49,
+                        "rotation": -128.33,
+                        "width": 54,
+                        "height": 81
+                    }
+                },
+                "音符b": {
+                    "音符b": {
+                        "x": 1.98,
+                        "y": 3.86,
+                        "rotation": -71.92,
+                        "width": 88,
+                        "height": 68
+                    }
+                },
+                "音符c": {
+                    "音符c": {
+                        "x": 17.1,
+                        "y": 2.4,
+                        "rotation": -68.81,
+                        "width": 76,
+                        "height": 75
+                    }
+                },
+                "音符d": {
+                    "音符d": {
+                        "x": 8.04,
+                        "y": -4.25,
+                        "rotation": -108.07,
+                        "width": 73,
+                        "height": 88
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "loop": {}
+    },
+    "extra": {
+        "音符d2": {
+            "rootBoneName": "音符d2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 9460,
+                    "scaleXFreq": 1,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 9.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "音符c2": {
+            "rootBoneName": "音符c2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.57,
+                    "moveXCenter": 0,
+                    "moveXSeed": 9462.09,
+                    "scaleXFreq": 1,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 5.27,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 9.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.08
+                }
+            }
+        },
+        "音符b2": {
+            "rootBoneName": "音符b2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.28,
+                    "moveXCenter": 0,
+                    "moveXSeed": 9455.78,
+                    "scaleXFreq": 1,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -3.61,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 9.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.14
+                }
+            }
+        },
+        "音符a2": {
+            "rootBoneName": "音符a2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -0.5919065100492835,
+                    "moveXCenter": 0,
+                    "moveXSeed": 9460.333929606024,
+                    "scaleXFreq": 1,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -2.9176359140182315,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 2,
+                    "rotateAmp": 9.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.04444483849325101
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

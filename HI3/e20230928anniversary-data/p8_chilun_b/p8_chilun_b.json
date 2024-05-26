@@ -1,0 +1,125 @@
+{
+    "skeleton": {
+        "hash": "C/0/O4OYeIU",
+        "spine": "4.1.23",
+        "x": -380.19,
+        "y": -110.73,
+        "width": 758.1,
+        "height": 222.51,
+        "images": "./p8_chilun_b/tex/",
+        "audio": "F:/【崩3】20230815 周年数据回顾/spine工程/环境/p8/p8_chilun_b"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -3.87,
+            "y": 14.19,
+            "scaleX": 0.7807,
+            "scaleY": 0.7807
+        },
+        {
+            "name": "齿轮3",
+            "parent": "root",
+            "length": 100,
+            "x": 47.1,
+            "y": 17.13
+        },
+        {
+            "name": "齿轮2",
+            "parent": "root",
+            "length": 100,
+            "x": -429.01,
+            "y": 73.67
+        }
+    ],
+    "slots": [
+        {
+            "name": "绳子4",
+            "bone": "root",
+            "attachment": "绳子4"
+        },
+        {
+            "name": "绳子3",
+            "bone": "root",
+            "attachment": "绳子3"
+        },
+        {
+            "name": "齿轮3",
+            "bone": "齿轮3",
+            "attachment": "齿轮3"
+        },
+        {
+            "name": "齿轮2",
+            "bone": "齿轮2",
+            "attachment": "齿轮2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "绳子3": {
+                    "绳子3": {
+                        "x": 236,
+                        "y": -39,
+                        "width": 506,
+                        "height": 242
+                    }
+                },
+                "绳子4": {
+                    "绳子4": {
+                        "x": -185,
+                        "y": 38,
+                        "width": 594,
+                        "height": 174
+                    }
+                },
+                "齿轮2": {
+                    "齿轮2": {
+                        "x": 1.01,
+                        "y": -0.17,
+                        "width": 100,
+                        "height": 99
+                    }
+                },
+                "齿轮3": {
+                    "齿轮3": {
+                        "x": 1.4,
+                        "y": -0.13,
+                        "width": 123,
+                        "height": 122
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "齿轮2": {
+            "rootBoneName": "齿轮2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.3
+                }
+            }
+        },
+        "齿轮3": {
+            "rootBoneName": "齿轮3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": -0.2
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

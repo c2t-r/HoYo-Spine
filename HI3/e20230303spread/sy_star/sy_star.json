@@ -1,0 +1,958 @@
+{
+    "skeleton": {
+        "hash": "51TJ4ZpbO1s",
+        "spine": "4.0-from-4.1.19",
+        "x": -1136.3,
+        "y": -340.44,
+        "width": 2273,
+        "height": 680.51,
+        "images": "./images/",
+        "audio": "F:/【崩3】20230130 终章H5/spine动画/loading"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -104.08,
+            "y": -5.02
+        },
+        {
+            "name": "紫色行星",
+            "parent": "bone",
+            "x": -988.31,
+            "y": 297.27
+        },
+        {
+            "name": "bone3",
+            "parent": "bone",
+            "x": -897.2,
+            "y": 146.81
+        },
+        {
+            "name": "星座B_B1",
+            "parent": "bone3",
+            "x": -74.28,
+            "y": 38.16
+        },
+        {
+            "name": "蓝色",
+            "parent": "bone",
+            "x": -879.92,
+            "y": -34.23
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "x": -526.62,
+            "y": -348.17
+        },
+        {
+            "name": "黄色大",
+            "parent": "bone",
+            "x": 1185.3,
+            "y": -159.12
+        },
+        {
+            "name": "bone4",
+            "parent": "bone",
+            "x": 1046.24,
+            "y": -47.73
+        },
+        {
+            "name": "星座A_b3",
+            "parent": "bone4",
+            "x": 69.91,
+            "y": 99.68
+        },
+        {
+            "name": "星座C_b04",
+            "parent": "bone2",
+            "x": -50.95,
+            "y": 60.25
+        },
+        {
+            "name": "bone5",
+            "parent": "星座C_b04",
+            "length": 50.62,
+            "rotation": 25.69,
+            "x": 0.1
+        },
+        {
+            "name": "bone6",
+            "parent": "bone5",
+            "length": 83.24,
+            "rotation": -74.2,
+            "x": 50.62
+        },
+        {
+            "name": "bone7",
+            "parent": "bone6",
+            "length": 55.02,
+            "rotation": 132.89,
+            "x": 83.24
+        },
+        {
+            "name": "target",
+            "parent": "root",
+            "x": -635.94,
+            "y": -271.01,
+            "color": "ff3f00ff"
+        },
+        {
+            "name": "target2",
+            "parent": "root",
+            "x": -580.8,
+            "y": -333.37,
+            "color": "ff3f00ff"
+        },
+        {
+            "name": "target3",
+            "parent": "root",
+            "x": -575.41,
+            "y": -278.61,
+            "color": "ff3f00ff"
+        },
+        {
+            "name": "星座B_B2",
+            "parent": "星座B_B1",
+            "length": 53.84,
+            "rotation": 57.25,
+            "x": 0.78,
+            "y": 0.61
+        },
+        {
+            "name": "target4",
+            "parent": "root",
+            "x": -1045.65,
+            "y": 225.84,
+            "color": "ff3f00ff"
+        },
+        {
+            "name": "星座A_L2",
+            "parent": "星座A_b3",
+            "length": 60.32,
+            "rotation": -147.2,
+            "x": -0.12,
+            "y": -0.08
+        },
+        {
+            "name": "target5",
+            "parent": "root",
+            "x": 961.24,
+            "y": 14.17,
+            "color": "ff3f00ff"
+        },
+        {
+            "name": "星座A_b4",
+            "parent": "星座A_b3",
+            "length": 90.28,
+            "rotation": -94.44,
+            "x": 0.03,
+            "y": 0.14
+        },
+        {
+            "name": "target6",
+            "parent": "root",
+            "x": 1005.1,
+            "y": -42.95,
+            "color": "ff3f00ff"
+        }
+    ],
+    "slots": [
+        {
+            "name": "紫色行星",
+            "bone": "紫色行星",
+            "attachment": "紫色行星"
+        },
+        {
+            "name": "黄色大",
+            "bone": "黄色大",
+            "attachment": "黄色大"
+        },
+        {
+            "name": "蓝色",
+            "bone": "蓝色",
+            "attachment": "蓝色"
+        },
+        {
+            "name": "星座A_b3",
+            "bone": "target5",
+            "attachment": "星座A_b3"
+        },
+        {
+            "name": "星座A_b2",
+            "bone": "星座A_b3",
+            "attachment": "星座A_b2"
+        },
+        {
+            "name": "星座A_b1",
+            "bone": "target6",
+            "attachment": "星座A_b1"
+        },
+        {
+            "name": "星座A_L2",
+            "bone": "星座A_L2",
+            "attachment": "星座A_L2"
+        },
+        {
+            "name": "星座A_L1",
+            "bone": "bone4",
+            "attachment": "星座A_L1"
+        },
+        {
+            "name": "星座B_B2",
+            "bone": "target4",
+            "attachment": "星座B_B2"
+        },
+        {
+            "name": "星座B_B1",
+            "bone": "星座B_B1",
+            "attachment": "星座B_B1"
+        },
+        {
+            "name": "星座B_L",
+            "bone": "星座B_B2",
+            "attachment": "星座B_L"
+        },
+        {
+            "name": "星座C_L3",
+            "bone": "bone7",
+            "attachment": "星座C_L3"
+        },
+        {
+            "name": "星座C_L2",
+            "bone": "bone5",
+            "attachment": "星座C_L2"
+        },
+        {
+            "name": "星座C_L1",
+            "bone": "bone6",
+            "attachment": "星座C_L1"
+        },
+        {
+            "name": "星座C_b01",
+            "bone": "target2",
+            "attachment": "星座C_b01"
+        },
+        {
+            "name": "星座C_b02",
+            "bone": "target3",
+            "attachment": "星座C_b02"
+        },
+        {
+            "name": "星座C_b03",
+            "bone": "target",
+            "attachment": "星座C_b03"
+        },
+        {
+            "name": "星座C_b04",
+            "bone": "星座C_b04",
+            "attachment": "星座C_b04"
+        }
+    ],
+    "ik": [
+        {
+            "name": "target",
+            "bones": [
+                "bone5"
+            ],
+            "target": "target",
+            "compress": true,
+            "stretch": true
+        },
+        {
+            "name": "target2",
+            "order": 1,
+            "bones": [
+                "bone6"
+            ],
+            "target": "target2",
+            "compress": true,
+            "stretch": true
+        },
+        {
+            "name": "target3",
+            "order": 2,
+            "bones": [
+                "bone7"
+            ],
+            "target": "target3",
+            "compress": true,
+            "stretch": true
+        },
+        {
+            "name": "target4",
+            "order": 3,
+            "bones": [
+                "星座B_B2"
+            ],
+            "target": "target4"
+        },
+        {
+            "name": "target5",
+            "order": 4,
+            "bones": [
+                "星座A_L2"
+            ],
+            "target": "target5"
+        },
+        {
+            "name": "target6",
+            "order": 5,
+            "bones": [
+                "星座A_b4"
+            ],
+            "target": "target6"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "星座A_b1": {
+                    "星座A_b1": {
+                        "x": -0.28,
+                        "y": 0.86,
+                        "width": 17,
+                        "height": 18
+                    }
+                },
+                "星座A_b2": {
+                    "星座A_b2": {
+                        "x": -0.05,
+                        "y": 0.17,
+                        "width": 17,
+                        "height": 17
+                    }
+                },
+                "星座A_b3": {
+                    "星座A_b3": {
+                        "x": 0.87,
+                        "y": 0.85,
+                        "width": 23,
+                        "height": 23
+                    }
+                },
+                "星座A_L1": {
+                    "星座A_L1": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.46768,
+                            1,
+                            0,
+                            1,
+                            0.57861,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            0,
+                            0,
+                            2,
+                            3
+                        ],
+                        "vertices": [
+                            1,
+                            22,
+                            2.67,
+                            -0.99,
+                            1,
+                            1,
+                            22,
+                            -3.4,
+                            -0.99,
+                            1,
+                            1,
+                            21,
+                            -0.1,
+                            -2.9,
+                            1,
+                            1,
+                            21,
+                            -0.53,
+                            2.57,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            0,
+                            6,
+                            4,
+                            6,
+                            4,
+                            2
+                        ],
+                        "width": 13,
+                        "height": 86
+                    }
+                },
+                "星座A_L2": {
+                    "星座A_L2": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.88626,
+                            0.05398,
+                            0.94817,
+                            0.15687,
+                            0.03645,
+                            0.98724,
+                            0,
+                            0.88295
+                        ],
+                        "triangles": [
+                            2,
+                            3,
+                            0,
+                            2,
+                            0,
+                            1
+                        ],
+                        "vertices": [
+                            1,
+                            19,
+                            0.21,
+                            -2.65,
+                            1,
+                            1,
+                            19,
+                            -0.53,
+                            2.6,
+                            1,
+                            1,
+                            20,
+                            1.5,
+                            -1.61,
+                            1,
+                            1,
+                            20,
+                            -0.54,
+                            2.46,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            6,
+                            4,
+                            6,
+                            0,
+                            2,
+                            4,
+                            0,
+                            2
+                        ],
+                        "width": 56,
+                        "height": 39
+                    }
+                },
+                "星座B_B1": {
+                    "星座B_B1": {
+                        "x": 0.26,
+                        "y": 0.62,
+                        "width": 22,
+                        "height": 21
+                    }
+                },
+                "星座B_B2": {
+                    "星座B_B2": {
+                        "x": -0.15,
+                        "y": 0.23,
+                        "width": 15,
+                        "height": 14
+                    }
+                },
+                "星座B_L": {
+                    "星座B_L": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            0.06314,
+                            0.15545,
+                            1,
+                            0,
+                            0.9497,
+                            0.91176,
+                            0
+                        ],
+                        "triangles": [
+                            2,
+                            3,
+                            0,
+                            1,
+                            2,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            18,
+                            2.35,
+                            -0.93,
+                            1,
+                            1,
+                            17,
+                            -0.6,
+                            -3.67,
+                            1,
+                            1,
+                            17,
+                            -1.34,
+                            2.14,
+                            1,
+                            1,
+                            18,
+                            -0.65,
+                            2.23,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            2,
+                            0,
+                            4,
+                            6,
+                            6,
+                            0,
+                            4,
+                            2
+                        ],
+                        "width": 34,
+                        "height": 50
+                    }
+                },
+                "星座C_b01": {
+                    "星座C_b01": {
+                        "x": -0.09,
+                        "y": -0.08,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "星座C_b02": {
+                    "星座C_b02": {
+                        "x": 0.11,
+                        "y": -0.33,
+                        "width": 10,
+                        "height": 10
+                    }
+                },
+                "星座C_b03": {
+                    "星座C_b03": {
+                        "x": -0.36,
+                        "y": -0.43,
+                        "width": 12,
+                        "height": 11
+                    }
+                },
+                "星座C_b04": {
+                    "星座C_b04": {
+                        "x": 0.35,
+                        "y": 0.02,
+                        "width": 10,
+                        "height": 10
+                    }
+                },
+                "星座C_L1": {
+                    "星座C_L1": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.07841,
+                            0.02283,
+                            1,
+                            0.96516,
+                            1,
+                            0.97947,
+                            0.92598,
+                            0.99469,
+                            0.00948,
+                            0.06579
+                        ],
+                        "triangles": [
+                            3,
+                            0,
+                            1,
+                            2,
+                            3,
+                            1,
+                            4,
+                            0,
+                            3
+                        ],
+                        "vertices": [
+                            0.33,
+                            2.69,
+                            84.35,
+                            2.06,
+                            85.03,
+                            1.45,
+                            82.92,
+                            -2.41,
+                            -0.3,
+                            -2.12
+                        ],
+                        "hull": 5,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            6,
+                            8,
+                            8,
+                            0
+                        ],
+                        "width": 58,
+                        "height": 64
+                    }
+                },
+                "星座C_L2": {
+                    "星座C_L2": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.98697,
+                            0.13567,
+                            0.07323,
+                            1,
+                            0,
+                            0.89298,
+                            0.93585,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            3,
+                            0,
+                            1,
+                            2,
+                            3
+                        ],
+                        "vertices": [
+                            1,
+                            14,
+                            1.99,
+                            -1.59,
+                            1,
+                            1,
+                            11,
+                            0.43,
+                            -3.52,
+                            1,
+                            1,
+                            11,
+                            -1.61,
+                            0.67,
+                            1,
+                            1,
+                            14,
+                            -0.57,
+                            2.07,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            2,
+                            0,
+                            0,
+                            6,
+                            6,
+                            4,
+                            2,
+                            4
+                        ],
+                        "width": 50,
+                        "height": 27
+                    }
+                },
+                "星座C_L3": {
+                    "星座C_L3": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.00091,
+                            0.05913,
+                            1,
+                            0.06299,
+                            0.98429,
+                            0.95478,
+                            0.00642,
+                            0.9414
+                        ],
+                        "triangles": [
+                            3,
+                            0,
+                            1,
+                            2,
+                            3,
+                            1
+                        ],
+                        "vertices": [
+                            54.26,
+                            7.85,
+                            55.1,
+                            -3.11,
+                            0.05,
+                            -8.36,
+                            -0.17,
+                            2.43
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            4,
+                            6,
+                            4,
+                            2,
+                            0,
+                            2,
+                            6,
+                            0
+                        ],
+                        "width": 11,
+                        "height": 62
+                    }
+                },
+                "紫色行星": {
+                    "紫色行星": {
+                        "x": 1.58,
+                        "y": -5.18,
+                        "width": 91,
+                        "height": 106
+                    }
+                },
+                "蓝色": {
+                    "蓝色": {
+                        "x": -3.31,
+                        "y": -3.18,
+                        "width": 44,
+                        "height": 55
+                    }
+                },
+                "黄色大": {
+                    "黄色大": {
+                        "x": 0.98,
+                        "y": -2.29,
+                        "width": 109,
+                        "height": 113
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone": {
+                    "translate": [
+                        {
+                            "time": 8
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "紫色行星": {
+            "rootBoneName": "紫色行星",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6722
+                }
+            }
+        },
+        "target4": {
+            "rootBoneName": "target4",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.39,
+                    "moveXCenter": 0,
+                    "moveXSeed": 5507
+                }
+            }
+        },
+        "星座B_B1": {
+            "rootBoneName": "星座B_B1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.49,
+                    "moveXCenter": 0,
+                    "moveXSeed": 5706
+                }
+            }
+        },
+        "蓝色": {
+            "rootBoneName": "蓝色",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.9,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4134
+                }
+            }
+        },
+        "星座C_b04": {
+            "rootBoneName": "星座C_b04",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 40,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.16,
+                    "moveXCenter": 0,
+                    "moveXSeed": 7031
+                }
+            }
+        },
+        "target": {
+            "rootBoneName": "target",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.08,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4087
+                }
+            }
+        },
+        "target2": {
+            "rootBoneName": "target2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 40,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.53,
+                    "moveXCenter": 0,
+                    "moveXSeed": 119
+                }
+            }
+        },
+        "target3": {
+            "rootBoneName": "target3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 5.93,
+                    "moveXCenter": 0,
+                    "moveXSeed": 6916
+                }
+            }
+        },
+        "target6": {
+            "rootBoneName": "target6",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 40,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1,
+                    "moveXCenter": 0,
+                    "moveXSeed": 8556
+                }
+            }
+        },
+        "target5": {
+            "rootBoneName": "target5",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.15,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3818
+                }
+            }
+        },
+        "星座A_b3": {
+            "rootBoneName": "星座A_b3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 3081
+                }
+            }
+        },
+        "黄色大": {
+            "rootBoneName": "黄色大",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.02,
+                    "moveXCenter": 0,
+                    "moveXSeed": 8926.18
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
