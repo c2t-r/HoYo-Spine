@@ -17,3 +17,4 @@ google: ```site:act.hoyoverse.com/bh3/event OR site:webstatic-sea.hoyoverse.com/
 - https://act.hoyoverse.com/bh3/event/e20231026studio/index.html
 - https://act.hoyoverse.com/bh3/event/e20231225divination-k7s8la/index.html
 - https://act.hoyoverse.com/bh3/event/e20240405shop-k3g7zq/index.html
+- https://act.hoyoverse.com/bh3/event/e20240426play-i2k5ue/index.html
