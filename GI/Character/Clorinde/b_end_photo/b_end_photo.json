@@ -1,0 +1,146 @@
+{
+    "skeleton": {
+        "hash": "3UcofSm7dIY",
+        "spine": "4.0-from-4.1-from-4.2.20",
+        "x": -627,
+        "y": -353,
+        "width": 1255,
+        "height": 706
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 316.5,
+            "y": -207.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "b_end_photo",
+            "bone": "root",
+            "attachment": "b_end_photo"
+        },
+        {
+            "name": "tips",
+            "bone": "bone",
+            "attachment": "tips"
+        },
+        {
+            "name": "狗狗",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "狗狗"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "b_end_photo": {
+                    "b_end_photo": {
+                        "x": 0.5,
+                        "width": 1255,
+                        "height": 706
+                    }
+                },
+                "tips": {
+                    "tips": {
+                        "width": 167,
+                        "height": 167
+                    }
+                },
+                "狗狗": {
+                    "狗狗": {
+                        "x": 302,
+                        "y": -195.5,
+                        "width": 206,
+                        "height": 203
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "狗狗": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "a2b": {
+            "slots": {
+                "tips": {
+                    "rgba": [
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "狗狗": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "tips": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "狗狗": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": -0.03
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

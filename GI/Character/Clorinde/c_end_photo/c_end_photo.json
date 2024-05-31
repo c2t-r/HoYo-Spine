@@ -1,0 +1,188 @@
+{
+    "skeleton": {
+        "hash": "WPb5+pJsVHU",
+        "spine": "4.0-from-4.1-from-4.2.23",
+        "x": -626.76,
+        "y": -352.21,
+        "width": 1253,
+        "height": 704,
+        "images": "./DD/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 139.11,
+            "y": 183
+        }
+    ],
+    "slots": [
+        {
+            "name": "组 71",
+            "bone": "root",
+            "attachment": "组 71"
+        },
+        {
+            "name": "tips",
+            "bone": "bone",
+            "attachment": "tips"
+        },
+        {
+            "name": "气球",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "气球"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "tips": {
+                    "tips": {
+                        "x": -1.49,
+                        "y": 4.6,
+                        "width": 180,
+                        "height": 180
+                    }
+                },
+                "气球": {
+                    "气球": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            225.71,
+                            -10.95,
+                            56.05,
+                            -10.95,
+                            56.05,
+                            285.84,
+                            225.71,
+                            285.84
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 343,
+                        "height": 600
+                    }
+                },
+                "组 71": {
+                    "组 71": {
+                        "x": -0.26,
+                        "y": -0.21,
+                        "width": 1253,
+                        "height": 704
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "气球": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "a2b": {
+            "slots": {
+                "tips": {
+                    "rgba": [
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "气球": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "tips": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "气球": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

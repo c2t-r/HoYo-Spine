@@ -60,6 +60,7 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - https://act.hoyoverse.com/ys/event/e20240126xianyun-yzdnly/index.html <Xianyun>
 - https://act.hoyoverse.com/ys/event/e20240308chiori-cuesme/index.html <Chiori>
 - https://act.hoyoverse.com/ys/event/e20240419arlecchino-vn0wpz/index.html <Arlecchino>
+- https://act.hoyoverse.com/ys/event/e20240531clorinde-5k96dd/index.html <Clorinde>
 
 ## Home
 https://genshin.hoyoverse.com/en/

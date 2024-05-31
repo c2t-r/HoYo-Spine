@@ -1,0 +1,929 @@
+{
+    "skeleton": {
+        "hash": "2zWUlSOvn8w",
+        "spine": "4.0-from-4.1-from-4.2.20",
+        "x": -518.5,
+        "y": -155.5,
+        "width": 2073,
+        "height": 311
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "g",
+            "parent": "root",
+            "x": 79.26,
+            "y": 75.7
+        },
+        {
+            "name": "guan",
+            "parent": "g",
+            "x": -179.49,
+            "y": -9.97,
+            "scaleX": 2.2366,
+            "scaleY": 1.6888
+        },
+        {
+            "name": "guan2",
+            "parent": "g",
+            "x": -107.84,
+            "y": 24.32,
+            "scaleX": 1.4815,
+            "scaleY": 1.2366
+        },
+        {
+            "name": "guan3",
+            "parent": "g",
+            "x": -57.63,
+            "y": 12.69,
+            "scaleX": 1.5971,
+            "scaleY": 1.3037
+        },
+        {
+            "name": "guan4",
+            "parent": "g",
+            "x": -8.64,
+            "y": 16.36,
+            "scaleX": 1.3544,
+            "scaleY": 1.1056
+        },
+        {
+            "name": "guan5",
+            "parent": "g",
+            "x": 47.08,
+            "y": 29.22,
+            "scaleX": 1.3556,
+            "scaleY": 0.7912
+        },
+        {
+            "name": "guan6",
+            "parent": "g",
+            "x": 80.15,
+            "y": 16.97,
+            "scaleX": 0.7451,
+            "scaleY": 0.5352
+        },
+        {
+            "name": "guan7",
+            "parent": "g",
+            "x": 146.28,
+            "y": -1.4,
+            "scaleX": 1.2903,
+            "scaleY": 0.8479
+        },
+        {
+            "name": "g2",
+            "parent": "root",
+            "x": 44.97,
+            "y": -22.89,
+            "scaleX": 1.7623,
+            "scaleY": 1.7623
+        },
+        {
+            "name": "guan8",
+            "parent": "g2",
+            "x": -197.46,
+            "y": 8.08,
+            "scaleX": 2.0328,
+            "scaleY": 1.5349
+        },
+        {
+            "name": "guan9",
+            "parent": "g2",
+            "x": -136.75,
+            "y": 32.3,
+            "scaleX": 1.6269,
+            "scaleY": 1.3579
+        },
+        {
+            "name": "guan10",
+            "parent": "g2",
+            "x": -57.26,
+            "y": -0.85,
+            "scaleX": 1.4061,
+            "scaleY": 1.1478
+        },
+        {
+            "name": "guan11",
+            "parent": "g2",
+            "x": -133.11,
+            "y": -3.8,
+            "scaleX": 1.3637,
+            "scaleY": 1.1132
+        },
+        {
+            "name": "guan12",
+            "parent": "g2",
+            "x": 10.85,
+            "y": 32.57,
+            "scaleX": 1.3637,
+            "scaleY": 0.7959
+        },
+        {
+            "name": "guan13",
+            "parent": "g2",
+            "x": 74.64,
+            "y": 23.71,
+            "scaleX": 1.3637,
+            "scaleY": 0.9796
+        },
+        {
+            "name": "guan14",
+            "parent": "g2",
+            "x": 130.36,
+            "y": -3.85,
+            "scaleX": 0.8711,
+            "scaleY": 0.5724
+        },
+        {
+            "name": "g3",
+            "parent": "root",
+            "x": 160.71,
+            "y": -5.74,
+            "scaleX": 1.7623,
+            "scaleY": 1.7623
+        },
+        {
+            "name": "guan15",
+            "parent": "g3",
+            "x": -169.69,
+            "y": 2.28,
+            "scaleX": 1.4231,
+            "scaleY": 1.0745
+        },
+        {
+            "name": "guan16",
+            "parent": "g3",
+            "x": -126.89,
+            "y": 16.07,
+            "scaleX": 1.7987,
+            "scaleY": 1.5013
+        },
+        {
+            "name": "guan17",
+            "parent": "g3",
+            "x": -74.78,
+            "y": 10.24,
+            "scaleX": 1.4231,
+            "scaleY": 1.1616
+        },
+        {
+            "name": "guan18",
+            "parent": "g3",
+            "x": -25.79,
+            "y": 13.91,
+            "scaleX": 1.4942,
+            "scaleY": 1.2197
+        },
+        {
+            "name": "guan19",
+            "parent": "g3",
+            "x": 29.93,
+            "y": 26.77,
+            "scaleX": 1.4942,
+            "scaleY": 0.872
+        },
+        {
+            "name": "guan20",
+            "parent": "g3",
+            "x": 74.64,
+            "y": 23.71,
+            "scaleX": 1.4942,
+            "scaleY": 1.0733
+        },
+        {
+            "name": "guan21",
+            "parent": "g3",
+            "x": 130.36,
+            "y": -3.85,
+            "scaleX": 1.1699,
+            "scaleY": 0.7687
+        },
+        {
+            "name": "guan22",
+            "parent": "g",
+            "x": 55.04,
+            "y": -13.03,
+            "scaleX": 1.3745,
+            "scaleY": 1.122
+        },
+        {
+            "name": "guan23",
+            "parent": "g",
+            "x": 6.05,
+            "y": -16.71,
+            "scaleX": 1.7967,
+            "scaleY": 1.4667
+        },
+        {
+            "name": "guan24",
+            "parent": "g",
+            "x": -44.16,
+            "y": -5.07,
+            "scaleX": 1.3745,
+            "scaleY": 1.1473
+        },
+        {
+            "name": "guan25",
+            "parent": "g",
+            "x": -87.38,
+            "y": -23.12,
+            "scaleX": 2.8393,
+            "scaleY": 2.1439
+        }
+    ],
+    "slots": [
+        {
+            "name": "main_bg_hai",
+            "bone": "root",
+            "attachment": "main_bg_hai"
+        },
+        {
+            "name": "main_bg_hai2",
+            "bone": "root",
+            "attachment": "main_bg_hai"
+        },
+        {
+            "name": "guan",
+            "bone": "guan",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan25",
+            "bone": "guan25",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan8",
+            "bone": "guan8",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan15",
+            "bone": "guan15",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan2",
+            "bone": "guan2",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan24",
+            "bone": "guan24",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan9",
+            "bone": "guan9",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan16",
+            "bone": "guan16",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan3",
+            "bone": "guan3",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan23",
+            "bone": "guan23",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan10",
+            "bone": "guan10",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan17",
+            "bone": "guan17",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan4",
+            "bone": "guan4",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan22",
+            "bone": "guan22",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan11",
+            "bone": "guan11",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan18",
+            "bone": "guan18",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan5",
+            "bone": "guan5",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan12",
+            "bone": "guan12",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan19",
+            "bone": "guan19",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan6",
+            "bone": "guan6",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan13",
+            "bone": "guan13",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan20",
+            "bone": "guan20",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan7",
+            "bone": "guan7",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan14",
+            "bone": "guan14",
+            "attachment": "guan",
+            "blend": "additive"
+        },
+        {
+            "name": "guan21",
+            "bone": "guan21",
+            "attachment": "guan",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "guan": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan2": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan3": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan4": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan5": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan6": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan7": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan8": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan9": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan10": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan11": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan12": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan13": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan14": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan15": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan16": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan17": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan18": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan19": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan20": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan21": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan22": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan23": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan24": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "guan25": {
+                    "guan": {
+                        "x": -1,
+                        "y": -1,
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                "main_bg_hai": {
+                    "main_bg_hai": {
+                        "width": 1037,
+                        "height": 311
+                    }
+                },
+                "main_bg_hai2": {
+                    "main_bg_hai": {
+                        "x": 1036,
+                        "scaleX": -1,
+                        "width": 1037,
+                        "height": 311
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {},
+    "extraSlot": {
+        "guan": {
+            "slotName": "guan",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan25": {
+            "slotName": "guan25",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.29,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan8": {
+            "slotName": "guan8",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.22,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan15": {
+            "slotName": "guan15",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.4,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan2": {
+            "slotName": "guan2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.58,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan24": {
+            "slotName": "guan24",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.58,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan9": {
+            "slotName": "guan9",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.64,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan16": {
+            "slotName": "guan16",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.7,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan3": {
+            "slotName": "guan3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -1.18,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan23": {
+            "slotName": "guan23",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.97,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan10": {
+            "slotName": "guan10",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.6,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan4": {
+            "slotName": "guan4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.32,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan17": {
+            "slotName": "guan17",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.73,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan22": {
+            "slotName": "guan22",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.78,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan11": {
+            "slotName": "guan11",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.32,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan18": {
+            "slotName": "guan18",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.03,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan5": {
+            "slotName": "guan5",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.51,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan12": {
+            "slotName": "guan12",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.13,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan19": {
+            "slotName": "guan19",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.42,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan6": {
+            "slotName": "guan6",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.56,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan13": {
+            "slotName": "guan13",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.29,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan20": {
+            "slotName": "guan20",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.25,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan7": {
+            "slotName": "guan7",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.05,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan14": {
+            "slotName": "guan14",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.29,
+                    "max": 0.1
+                }
+            }
+        },
+        "guan21": {
+            "slotName": "guan21",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0.19,
+                    "max": 0.1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

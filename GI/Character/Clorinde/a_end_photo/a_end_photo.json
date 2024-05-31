@@ -1,0 +1,135 @@
+{
+    "skeleton": {
+        "hash": "6uSJb4KiRo4",
+        "spine": "4.0-from-4.1-from-4.2.20",
+        "x": -627.5,
+        "y": -353,
+        "width": 1255,
+        "height": 706
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "end_photo_wenti",
+            "parent": "root",
+            "x": 167,
+            "y": 173.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "end_photo",
+            "bone": "root",
+            "attachment": "end_photo"
+        },
+        {
+            "name": "end_photo_wenti",
+            "bone": "end_photo_wenti",
+            "attachment": "end_photo_wenti"
+        },
+        {
+            "name": "end_photo_niao",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "end_photo_niao"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "end_photo": {
+                    "end_photo": {
+                        "width": 1255,
+                        "height": 706
+                    }
+                },
+                "end_photo_niao": {
+                    "end_photo_niao": {
+                        "x": 133.5,
+                        "y": 198,
+                        "width": 422,
+                        "height": 286
+                    }
+                },
+                "end_photo_wenti": {
+                    "end_photo_wenti": {
+                        "width": 185,
+                        "height": 185
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {},
+        "a2b": {
+            "slots": {
+                "end_photo_niao": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "end_photo_wenti": {
+                    "rgba": [
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.0667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "end_photo_niao": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "end_photo_wenti": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "end_photo_wenti": {
+            "rootBoneName": "end_photo_wenti",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": -0.03
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
