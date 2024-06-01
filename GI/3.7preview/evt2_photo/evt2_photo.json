@@ -1,0 +1,4547 @@
+{
+    "skeleton": {
+        "hash": "6uB5ZoBIjCA",
+        "spine": "4.0-from-4.1.21",
+        "x": -415.05,
+        "y": -392.88,
+        "width": 950,
+        "height": 679
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "pei",
+            "parent": "root",
+            "x": 15.1,
+            "y": -33.39
+        },
+        {
+            "name": "kamian2",
+            "parent": "pei",
+            "rotation": 102.66,
+            "x": 106.87,
+            "y": 72.82
+        },
+        {
+            "name": "kamian1",
+            "parent": "pei",
+            "rotation": 62.54,
+            "x": 319.66,
+            "y": -98.36
+        },
+        {
+            "name": "kamian3",
+            "parent": "pei",
+            "rotation": 116.82,
+            "x": -74.71,
+            "y": -122
+        },
+        {
+            "name": "kamian4",
+            "parent": "pei",
+            "rotation": 83.01,
+            "x": -277.1,
+            "y": 61.47
+        },
+        {
+            "name": "kamian5",
+            "parent": "kamian4",
+            "length": 73.8
+        },
+        {
+            "name": "kamian6",
+            "parent": "kamian3",
+            "length": 73.8
+        },
+        {
+            "name": "kamian7",
+            "parent": "kamian2",
+            "length": 73.8
+        },
+        {
+            "name": "kamian8",
+            "parent": "kamian1",
+            "length": 73.8
+        },
+        {
+            "name": "xiaon2",
+            "parent": "root",
+            "x": -209.04,
+            "y": 68.75
+        },
+        {
+            "name": "texiaon1",
+            "parent": "xiaon2",
+            "length": 29.61,
+            "rotation": 116.56,
+            "x": 50.12,
+            "y": 184.42
+        },
+        {
+            "name": "xiaon1",
+            "parent": "xiaon2",
+            "length": 17.13,
+            "rotation": 96.34,
+            "x": 52.02,
+            "y": 139.97
+        },
+        {
+            "name": "xiaon3",
+            "parent": "xiaon2",
+            "length": 26.23,
+            "rotation": 64.36,
+            "x": 44.45,
+            "y": -19.86
+        },
+        {
+            "name": "xiaon4",
+            "parent": "xiaon2",
+            "length": 18.07,
+            "rotation": 47.12,
+            "x": -142.97,
+            "y": -219.16
+        },
+        {
+            "name": "nvhua4",
+            "parent": "root",
+            "x": 302.99,
+            "y": -17.93
+        },
+        {
+            "name": "nvhua5",
+            "parent": "nvhua4",
+            "x": 83.29,
+            "y": 128.28
+        },
+        {
+            "name": "nvhua3",
+            "parent": "nvhua4",
+            "x": 116.29,
+            "y": 200.21
+        },
+        {
+            "name": "nvhua1",
+            "parent": "nvhua4",
+            "x": 63.53,
+            "y": -312.18
+        },
+        {
+            "name": "bg_dian",
+            "parent": "nvhua4",
+            "x": 109.88,
+            "y": -253.71
+        },
+        {
+            "name": "texiaoz1",
+            "parent": "root",
+            "x": 57.07,
+            "y": -61.66
+        },
+        {
+            "name": "bg_lei",
+            "parent": "texiaoz1",
+            "rotation": 55.12,
+            "x": -21.38,
+            "y": 29.5
+        },
+        {
+            "name": "texiaoz5",
+            "parent": "texiaoz1",
+            "rotation": 35.54,
+            "x": 168.39,
+            "y": 199.17
+        },
+        {
+            "name": "texiaoz10",
+            "parent": "texiaoz1",
+            "rotation": 128.23,
+            "x": 8.37,
+            "y": 113.13
+        },
+        {
+            "name": "texiaon8",
+            "parent": "texiaoz1",
+            "rotation": 101.31,
+            "x": -100.18,
+            "y": 128.41
+        },
+        {
+            "name": "texiaon4",
+            "parent": "texiaoz1",
+            "rotation": 101.89,
+            "x": -122.7,
+            "y": 75.34
+        },
+        {
+            "name": "texiaoz2",
+            "parent": "pei",
+            "rotation": 119.98,
+            "x": 40.69,
+            "y": 125.07
+        },
+        {
+            "name": "texiaoz7",
+            "parent": "texiaoz2",
+            "length": 22.83,
+            "rotation": -1.06,
+            "x": 1.27,
+            "y": 0.28
+        },
+        {
+            "name": "texiaoz3",
+            "parent": "texiaoz7",
+            "length": 56.36,
+            "rotation": 18.96,
+            "x": 22.87,
+            "y": 0.14
+        },
+        {
+            "name": "texiaoz4",
+            "parent": "texiaoz3",
+            "length": 69.64,
+            "rotation": 10.8,
+            "x": 56.36
+        },
+        {
+            "name": "texiaoz15",
+            "parent": "texiaoz4",
+            "length": 60.37,
+            "rotation": -16.94,
+            "x": 69.64
+        },
+        {
+            "name": "bg_cao",
+            "parent": "texiaoz1",
+            "rotation": 46.06,
+            "x": 320.36,
+            "y": 43.98
+        },
+        {
+            "name": "texiaon5",
+            "parent": "texiaon4",
+            "length": 24.75,
+            "rotation": 0.96,
+            "x": 4.98,
+            "y": -0.98
+        },
+        {
+            "name": "texiaon9",
+            "parent": "texiaon8",
+            "length": 25.57,
+            "rotation": -4.66,
+            "x": 2.45,
+            "y": 0.09
+        },
+        {
+            "name": "texiaoz16",
+            "parent": "texiaoz10",
+            "length": 19.31,
+            "rotation": -0.36,
+            "x": 3.15,
+            "y": 0.09
+        },
+        {
+            "name": "bg_lei2",
+            "parent": "bg_lei",
+            "length": 42.15,
+            "rotation": 16.18,
+            "x": 17.06,
+            "y": -0.38
+        },
+        {
+            "name": "texiaoz6",
+            "parent": "texiaoz5",
+            "length": 42.78,
+            "rotation": -0.48,
+            "x": 3.25,
+            "y": 0.88
+        },
+        {
+            "name": "bg_cao2",
+            "parent": "bg_cao",
+            "length": 43.75,
+            "rotation": 5.78,
+            "x": 1.71,
+            "y": -0.12
+        },
+        {
+            "name": "bg_yan",
+            "parent": "texiaoz1",
+            "rotation": -71.57,
+            "x": -123.28,
+            "y": -144.06
+        },
+        {
+            "name": "bg_yan2",
+            "parent": "bg_yan",
+            "length": 98.24,
+            "rotation": 6.77,
+            "x": -13.23,
+            "y": -33.07
+        },
+        {
+            "name": "nvhua2",
+            "parent": "nvhua1"
+        },
+        {
+            "name": "nvhua6",
+            "parent": "nvhua5"
+        },
+        {
+            "name": "nvhua7",
+            "parent": "nvhua3"
+        },
+        {
+            "name": "bg_dian2",
+            "parent": "bg_dian"
+        },
+        {
+            "name": "texiaon2",
+            "parent": "texiaon1"
+        },
+        {
+            "name": "xiaon5",
+            "parent": "xiaon1"
+        },
+        {
+            "name": "xiaon6",
+            "parent": "xiaon4"
+        },
+        {
+            "name": "xiaon7",
+            "parent": "xiaon3"
+        }
+    ],
+    "slots": [
+        {
+            "name": "photo",
+            "bone": "root",
+            "attachment": "photo"
+        },
+        {
+            "name": "mask",
+            "bone": "root",
+            "attachment": "mask"
+        },
+        {
+            "name": "texiaoz7",
+            "bone": "texiaoz16",
+            "attachment": "texiaoz7"
+        },
+        {
+            "name": "texiaon8",
+            "bone": "texiaon9",
+            "attachment": "texiaon8"
+        },
+        {
+            "name": "texiaon4",
+            "bone": "texiaon5",
+            "attachment": "texiaon4"
+        },
+        {
+            "name": "texiaoz5",
+            "bone": "texiaoz6",
+            "attachment": "texiaoz5"
+        },
+        {
+            "name": "bg_cao",
+            "bone": "bg_cao2",
+            "attachment": "bg_cao"
+        },
+        {
+            "name": "bg_lei",
+            "bone": "bg_lei2",
+            "attachment": "bg_lei"
+        },
+        {
+            "name": "bg_yan",
+            "bone": "bg_yan2",
+            "attachment": "bg_yan"
+        },
+        {
+            "name": "bg_dian",
+            "bone": "bg_dian2",
+            "attachment": "bg_dian"
+        },
+        {
+            "name": "kamian3",
+            "bone": "kamian6",
+            "attachment": "kamian3"
+        },
+        {
+            "name": "kamian2",
+            "bone": "kamian7",
+            "attachment": "kamian2"
+        },
+        {
+            "name": "kamian4",
+            "bone": "kamian5",
+            "attachment": "kamian4"
+        },
+        {
+            "name": "kamian1",
+            "bone": "kamian8",
+            "attachment": "kamian1"
+        },
+        {
+            "name": "xiaon3",
+            "bone": "xiaon6",
+            "attachment": "xiaon3"
+        },
+        {
+            "name": "xiaon2",
+            "bone": "xiaon7",
+            "attachment": "xiaon2"
+        },
+        {
+            "name": "xiaon1",
+            "bone": "xiaon5",
+            "attachment": "xiaon1"
+        },
+        {
+            "name": "texiaon1",
+            "bone": "texiaon2",
+            "attachment": "texiaon1"
+        },
+        {
+            "name": "nvhua4",
+            "bone": "nvhua6",
+            "attachment": "nvhua4"
+        },
+        {
+            "name": "nvhua3",
+            "bone": "nvhua7",
+            "attachment": "nvhua3"
+        },
+        {
+            "name": "nvhua1",
+            "bone": "nvhua2",
+            "attachment": "nvhua1"
+        },
+        {
+            "name": "texiaoz1",
+            "bone": "texiaoz2",
+            "attachment": "texiaoz1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bg_cao": {
+                    "bg_cao": {
+                        "x": 214.15,
+                        "y": -1.19,
+                        "rotation": -51.84,
+                        "width": 304,
+                        "height": 352
+                    }
+                },
+                "bg_dian": {
+                    "bg_dian": {
+                        "x": 17.59,
+                        "y": -15.74,
+                        "width": 21,
+                        "height": 21
+                    }
+                },
+                "bg_lei": {
+                    "bg_lei": {
+                        "x": 200.55,
+                        "y": -102.82,
+                        "rotation": -71.3,
+                        "width": 609,
+                        "height": 379
+                    }
+                },
+                "bg_yan": {
+                    "bg_yan": {
+                        "x": 186.85,
+                        "y": 113.45,
+                        "rotation": 64.8,
+                        "width": 571,
+                        "height": 273
+                    }
+                },
+                "kamian1": {
+                    "kamian1": {
+                        "x": -1.89,
+                        "y": 4.44,
+                        "rotation": -62.54,
+                        "width": 410,
+                        "height": 523
+                    }
+                },
+                "kamian2": {
+                    "kamian2": {
+                        "x": -12.83,
+                        "y": -3.25,
+                        "rotation": -102.66,
+                        "width": 290,
+                        "height": 427
+                    }
+                },
+                "kamian3": {
+                    "kamian3": {
+                        "x": -4.94,
+                        "y": 0.19,
+                        "rotation": -116.82,
+                        "width": 377,
+                        "height": 448
+                    }
+                },
+                "kamian4": {
+                    "kamian4": {
+                        "x": -2.51,
+                        "y": 0.25,
+                        "rotation": -83.01,
+                        "width": 283,
+                        "height": 415
+                    }
+                },
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "kamian2",
+                        "vertexCount": 13,
+                        "vertices": [
+                            -372.01,
+                            -360.89,
+                            -131.12,
+                            -348.46,
+                            67.72,
+                            -339.79,
+                            297.25,
+                            -329.13,
+                            446.02,
+                            -321.8,
+                            519.1,
+                            -318.69,
+                            505.1,
+                            -69.33,
+                            495.62,
+                            80.98,
+                            490.91,
+                            240.95,
+                            92.95,
+                            213.63,
+                            -262.75,
+                            198.97,
+                            -397.29,
+                            196.3,
+                            -375.09,
+                            -38.94
+                        ]
+                    }
+                },
+                "nvhua1": {
+                    "nvhua1": {
+                        "x": -0.07,
+                        "y": 0.73,
+                        "width": 115,
+                        "height": 115
+                    }
+                },
+                "nvhua3": {
+                    "nvhua3": {
+                        "x": -0.33,
+                        "y": 0.34,
+                        "width": 44,
+                        "height": 43
+                    }
+                },
+                "nvhua4": {
+                    "nvhua4": {
+                        "x": 0.67,
+                        "y": -0.23,
+                        "width": 72,
+                        "height": 72
+                    }
+                },
+                "photo": {
+                    "photo": {
+                        "x": 59.95,
+                        "y": -61.38,
+                        "width": 950,
+                        "height": 631
+                    }
+                },
+                "texiaon1": {
+                    "texiaon1": {
+                        "x": 6.51,
+                        "y": 5.29,
+                        "rotation": -116.56,
+                        "width": 47,
+                        "height": 59
+                    }
+                },
+                "texiaon4": {
+                    "texiaon4": {
+                        "x": 193.83,
+                        "y": 184.89,
+                        "rotation": -102.85,
+                        "width": 452,
+                        "height": 309
+                    }
+                },
+                "texiaon8": {
+                    "texiaon8": {
+                        "x": 142.79,
+                        "y": 205.71,
+                        "rotation": -96.65,
+                        "width": 453,
+                        "height": 268
+                    }
+                },
+                "texiaoz1": {
+                    "texiaoz1": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0.94532,
+                            1,
+                            0.85768,
+                            0.94085,
+                            0.73418,
+                            0.84524,
+                            0.59475,
+                            0.75361,
+                            0.41349,
+                            0.65402,
+                            0.27206,
+                            0.53849,
+                            0.15056,
+                            0.39308,
+                            0.05694,
+                            0.23373,
+                            0,
+                            0.07836,
+                            0,
+                            0,
+                            0.07885,
+                            0,
+                            0.15255,
+                            0.09828,
+                            0.25214,
+                            0.22178,
+                            0.41548,
+                            0.32137,
+                            0.57881,
+                            0.40901,
+                            0.72422,
+                            0.52255,
+                            0.83975,
+                            0.658,
+                            0.94731,
+                            0.81337,
+                            1,
+                            0.95678
+                        ],
+                        "triangles": [
+                            7,
+                            13,
+                            14,
+                            7,
+                            8,
+                            13,
+                            8,
+                            12,
+                            13,
+                            8,
+                            9,
+                            12,
+                            9,
+                            11,
+                            12,
+                            9,
+                            10,
+                            11,
+                            5,
+                            15,
+                            16,
+                            15,
+                            6,
+                            14,
+                            15,
+                            5,
+                            6,
+                            6,
+                            7,
+                            14,
+                            1,
+                            19,
+                            0,
+                            1,
+                            2,
+                            19,
+                            2,
+                            18,
+                            19,
+                            2,
+                            3,
+                            18,
+                            3,
+                            17,
+                            18,
+                            3,
+                            4,
+                            17,
+                            4,
+                            16,
+                            17,
+                            4,
+                            5,
+                            16
+                        ],
+                        "vertices": [
+                            1,
+                            27,
+                            -6.3,
+                            0.01,
+                            1,
+                            1,
+                            27,
+                            -2.25,
+                            7.33,
+                            1,
+                            2,
+                            28,
+                            -5.4,
+                            17.25,
+                            0.2072,
+                            27,
+                            12.16,
+                            14.69,
+                            0.7928,
+                            2,
+                            28,
+                            18.43,
+                            19.06,
+                            0.96886,
+                            27,
+                            34.1,
+                            24.15,
+                            0.03114,
+                            2,
+                            28,
+                            43.65,
+                            22.97,
+                            0.81128,
+                            29,
+                            -8.18,
+                            24.94,
+                            0.18872,
+                            2,
+                            28,
+                            74.45,
+                            30.26,
+                            0.03873,
+                            29,
+                            23.44,
+                            26.33,
+                            0.96127,
+                            1,
+                            29,
+                            51.11,
+                            22.47,
+                            1,
+                            2,
+                            29,
+                            78.55,
+                            13.12,
+                            0.22537,
+                            30,
+                            4.7,
+                            15.15,
+                            0.77463,
+                            1,
+                            30,
+                            32.43,
+                            9.6,
+                            1,
+                            1,
+                            30,
+                            55.96,
+                            0.26,
+                            1,
+                            1,
+                            30,
+                            64.9,
+                            -7.72,
+                            1,
+                            1,
+                            30,
+                            56.87,
+                            -16.72,
+                            1,
+                            1,
+                            30,
+                            38.14,
+                            -15.12,
+                            1,
+                            2,
+                            29,
+                            78.89,
+                            -17.35,
+                            0.04641,
+                            30,
+                            13.9,
+                            -13.9,
+                            0.95359,
+                            2,
+                            29,
+                            49.62,
+                            -17.31,
+                            0.95376,
+                            30,
+                            -14.11,
+                            -22.39,
+                            0.04624,
+                            2,
+                            28,
+                            80.82,
+                            -14.51,
+                            0.00023,
+                            29,
+                            21.3,
+                            -18.84,
+                            0.99977,
+                            2,
+                            28,
+                            52.66,
+                            -16.54,
+                            0.74581,
+                            29,
+                            -6.73,
+                            -15.56,
+                            0.25419,
+                            1,
+                            28,
+                            25.65,
+                            -13.02,
+                            1,
+                            2,
+                            28,
+                            -2.49,
+                            -6.42,
+                            0.39435,
+                            27,
+                            22.6,
+                            -6.75,
+                            0.60565,
+                            1,
+                            27,
+                            -0.51,
+                            -3.19,
+                            1
+                        ],
+                        "hull": 20
+                    }
+                },
+                "texiaoz5": {
+                    "texiaoz5": {
+                        "x": 205.72,
+                        "y": -35.63,
+                        "rotation": -35.06,
+                        "width": 399,
+                        "height": 200
+                    }
+                },
+                "texiaoz7": {
+                    "texiaoz7": {
+                        "x": 189.13,
+                        "y": 35.93,
+                        "rotation": -127.87,
+                        "width": 306,
+                        "height": 280
+                    }
+                },
+                "xiaon1": {
+                    "xiaon1": {
+                        "x": -0.37,
+                        "y": 2.08,
+                        "rotation": -96.34,
+                        "width": 28,
+                        "height": 44
+                    }
+                },
+                "xiaon2": {
+                    "xiaon2": {
+                        "x": 7.56,
+                        "y": -2.51,
+                        "rotation": -64.36,
+                        "width": 40,
+                        "height": 57
+                    }
+                },
+                "xiaon3": {
+                    "xiaon3": {
+                        "x": 6.03,
+                        "y": 0.89,
+                        "rotation": -47.12,
+                        "width": 39,
+                        "height": 37
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a2b": {
+            "slots": {
+                "bg_cao": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bg_dian": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.544,
+                                1,
+                                0.589,
+                                1,
+                                0.544,
+                                1,
+                                0.589,
+                                1,
+                                0.544,
+                                1,
+                                0.589,
+                                1,
+                                0.544,
+                                0,
+                                0.589,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bg_lei": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bg_yan": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "kamian1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "kamian2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "kamian3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "kamian4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "fffffffe"
+                        }
+                    ]
+                },
+                "nvhua1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.544,
+                                1,
+                                0.589,
+                                1,
+                                0.544,
+                                1,
+                                0.589,
+                                1,
+                                0.544,
+                                1,
+                                0.589,
+                                1,
+                                0.544,
+                                0,
+                                0.589,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "nvhua3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.611,
+                                1,
+                                0.656,
+                                1,
+                                0.611,
+                                1,
+                                0.656,
+                                1,
+                                0.611,
+                                1,
+                                0.656,
+                                1,
+                                0.611,
+                                0,
+                                0.656,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "nvhua4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.644,
+                                1,
+                                0.689,
+                                1,
+                                0.644,
+                                1,
+                                0.689,
+                                1,
+                                0.644,
+                                1,
+                                0.689,
+                                1,
+                                0.644,
+                                0,
+                                0.689,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "texiaon1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "texiaon4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "texiaon8": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "texiaoz1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "texiaoz5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "texiaoz7": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "xiaon1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "xiaon2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "xiaon3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "kamian1": {
+                    "rotate": [
+                        {
+                            "value": 137.17,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "value": 137.17,
+                            "curve": [
+                                0.245,
+                                137.17,
+                                0.388,
+                                -4.02
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "value": -4.02,
+                            "curve": [
+                                0.678,
+                                -4.02,
+                                0.822,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9667
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": -368.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "value": -368.1,
+                            "curve": [
+                                0.178,
+                                -368.1,
+                                0.322,
+                                20.91
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": 20.91,
+                            "curve": [
+                                0.612,
+                                20.91,
+                                0.755,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 72.15,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "value": 72.15,
+                            "curve": [
+                                0.178,
+                                72.15,
+                                0.322,
+                                -6.27
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": -6.27,
+                            "curve": [
+                                0.612,
+                                -6.27,
+                                0.755,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.648,
+                            "y": 0.648,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "x": 0.648,
+                            "y": 0.648,
+                            "curve": [
+                                0.178,
+                                0.648,
+                                0.322,
+                                1.03,
+                                0.178,
+                                0.648,
+                                0.322,
+                                1.03
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 1.03,
+                            "y": 1.03,
+                            "curve": [
+                                0.612,
+                                1.03,
+                                0.755,
+                                1,
+                                0.612,
+                                1.03,
+                                0.755,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "y": 17.5,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "y": 17.5,
+                            "curve": [
+                                0.178,
+                                0,
+                                0.322,
+                                0,
+                                0.178,
+                                17.5,
+                                0.322,
+                                7.21
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "y": 4.3,
+                            "curve": [
+                                0.612,
+                                0,
+                                0.755,
+                                0,
+                                0.612,
+                                1.38,
+                                0.755,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9
+                        }
+                    ]
+                },
+                "kamian2": {
+                    "rotate": [
+                        {
+                            "value": 99.23,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2333,
+                            "value": 99.23,
+                            "curve": [
+                                0.378,
+                                99.23,
+                                0.522,
+                                -3.75
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -3.75,
+                            "curve": [
+                                0.812,
+                                -3.75,
+                                0.955,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.1
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": -163.13,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -163.13,
+                            "curve": [
+                                0.312,
+                                -163.13,
+                                0.455,
+                                -2.09
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "value": -1.05,
+                            "curve": [
+                                0.745,
+                                0,
+                                0.888,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.0333
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -119.21,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -119.21,
+                            "curve": [
+                                0.312,
+                                -119.21,
+                                0.455,
+                                24.05
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "value": 24.05,
+                            "curve": [
+                                0.745,
+                                24.05,
+                                0.888,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.0333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.648,
+                            "y": 0.648,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": 0.648,
+                            "y": 0.648,
+                            "curve": [
+                                0.312,
+                                0.648,
+                                0.455,
+                                1.03,
+                                0.312,
+                                0.648,
+                                0.455,
+                                1.03
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "x": 1.03,
+                            "y": 1.03,
+                            "curve": [
+                                0.745,
+                                1.03,
+                                0.888,
+                                1,
+                                0.745,
+                                1.03,
+                                0.888,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.0333
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "y": 7.03,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "y": 7.03,
+                            "curve": [
+                                0.345,
+                                0,
+                                0.488,
+                                0,
+                                0.345,
+                                7.03,
+                                0.488,
+                                -3.62
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "y": -3.62,
+                            "curve": [
+                                0.778,
+                                0,
+                                0.922,
+                                0,
+                                0.778,
+                                -3.62,
+                                0.922,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.0667
+                        }
+                    ]
+                },
+                "kamian3": {
+                    "rotate": [
+                        {
+                            "value": 84.79,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": 84.79,
+                            "curve": [
+                                0.412,
+                                84.79,
+                                0.555,
+                                -3.75
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "value": -3.75,
+                            "curve": [
+                                0.845,
+                                -3.75,
+                                0.988,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.1333
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": 15.69,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "value": 15.69,
+                            "curve": [
+                                0.345,
+                                15.69,
+                                0.488,
+                                -4.18
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": -4.18,
+                            "curve": [
+                                0.778,
+                                -4.18,
+                                0.922,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.0667
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 82.61,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "value": 82.61,
+                            "curve": [
+                                0.345,
+                                82.61,
+                                0.488,
+                                -8.37
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": -8.37,
+                            "curve": [
+                                0.778,
+                                -8.37,
+                                0.922,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.0667
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.648,
+                            "y": 0.648,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 0.648,
+                            "y": 0.648,
+                            "curve": [
+                                0.345,
+                                0.648,
+                                0.488,
+                                1.03,
+                                0.345,
+                                0.648,
+                                0.488,
+                                1.03
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 1.03,
+                            "y": 1.03,
+                            "curve": [
+                                0.778,
+                                1.03,
+                                0.922,
+                                1,
+                                0.778,
+                                1.03,
+                                0.922,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.0667
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "time": 0.2333,
+                            "curve": [
+                                0.378,
+                                0,
+                                0.522,
+                                0,
+                                0.378,
+                                0,
+                                0.522,
+                                -1.1
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "y": -1.1,
+                            "curve": [
+                                0.812,
+                                0,
+                                0.955,
+                                0,
+                                0.812,
+                                -1.1,
+                                0.955,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.1
+                        }
+                    ]
+                },
+                "kamian4": {
+                    "rotate": [
+                        {
+                            "value": 117.26,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 117.26,
+                            "curve": [
+                                0.312,
+                                117.26,
+                                0.455,
+                                -2.81
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "value": -2.81,
+                            "curve": [
+                                0.745,
+                                -2.81,
+                                0.888,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.0333
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "value": 229.01,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "value": 229.01,
+                            "curve": [
+                                0.245,
+                                229.01,
+                                0.388,
+                                -20.91
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "value": -20.91,
+                            "curve": [
+                                0.678,
+                                -20.91,
+                                0.822,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9667
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -90.98,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "value": -90.98,
+                            "curve": [
+                                0.245,
+                                -90.98,
+                                0.388,
+                                10.46
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "value": 10.46,
+                            "curve": [
+                                0.678,
+                                10.46,
+                                0.822,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9667
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.648,
+                            "y": 0.648,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 0.648,
+                            "y": 0.648,
+                            "curve": [
+                                0.245,
+                                0.648,
+                                0.388,
+                                1.03,
+                                0.245,
+                                0.648,
+                                0.388,
+                                1.03
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 1.03,
+                            "y": 1.03,
+                            "curve": [
+                                0.678,
+                                1.03,
+                                0.822,
+                                1,
+                                0.678,
+                                1.03,
+                                0.822,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9667
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "y": 9.88,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": 9.88,
+                            "curve": [
+                                0.278,
+                                0,
+                                0.422,
+                                0,
+                                0.278,
+                                9.88,
+                                0.422,
+                                5.88
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "y": 4.23,
+                            "curve": [
+                                0.712,
+                                0,
+                                0.855,
+                                0,
+                                0.712,
+                                2.59,
+                                0.855,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "texiaoz10": {
+                    "translate": [
+                        {
+                            "x": 10.46,
+                            "y": -46.01,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 10.46,
+                            "y": -46.01,
+                            "curve": [
+                                0.311,
+                                6.97,
+                                0.422,
+                                0,
+                                0.311,
+                                -30.67,
+                                0.422,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.41,
+                            "y": 0.41,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 0.41,
+                            "y": 0.41,
+                            "curve": [
+                                0.311,
+                                0.624,
+                                0.422,
+                                1.052,
+                                0.311,
+                                0.624,
+                                0.422,
+                                1.052
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 1.052,
+                            "y": 1.052,
+                            "curve": [
+                                0.678,
+                                1.052,
+                                0.822,
+                                1,
+                                0.678,
+                                1.052,
+                                0.822,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9667
+                        }
+                    ]
+                },
+                "texiaoz5": {
+                    "translate": [
+                        {
+                            "x": -179.86,
+                            "y": -121.3,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "x": -179.86,
+                            "y": -121.3,
+                            "curve": [
+                                0.211,
+                                -112.75,
+                                0.322,
+                                21.47,
+                                0.211,
+                                -75.76,
+                                0.322,
+                                15.33
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 21.47,
+                            "y": 15.33,
+                            "curve": [
+                                0.578,
+                                21.47,
+                                0.722,
+                                0,
+                                0.578,
+                                15.33,
+                                0.722,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.8667
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.475,
+                            "y": 0.475,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 0.475,
+                            "y": 0.475,
+                            "curve": [
+                                0.211,
+                                0.667,
+                                0.322,
+                                1.052,
+                                0.211,
+                                0.667,
+                                0.322,
+                                1.052
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 1.052,
+                            "y": 1.052,
+                            "curve": [
+                                0.578,
+                                1.052,
+                                0.722,
+                                1,
+                                0.578,
+                                1.052,
+                                0.722,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8667
+                        }
+                    ]
+                },
+                "texiaon8": {
+                    "translate": [
+                        {
+                            "x": 12.55,
+                            "y": -54.38,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 12.55,
+                            "y": -54.38,
+                            "curve": [
+                                0.311,
+                                7.01,
+                                0.422,
+                                -4.06,
+                                0.311,
+                                -29.48,
+                                0.422,
+                                20.31
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": -4.06,
+                            "y": 20.31,
+                            "curve": [
+                                0.678,
+                                -4.06,
+                                0.822,
+                                0,
+                                0.678,
+                                20.31,
+                                0.822,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9667
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.475,
+                            "y": 0.475,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 0.475,
+                            "y": 0.475,
+                            "curve": [
+                                0.311,
+                                0.667,
+                                0.422,
+                                1.052,
+                                0.311,
+                                0.667,
+                                0.422,
+                                1.052
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 1.052,
+                            "y": 1.052,
+                            "curve": [
+                                0.678,
+                                1.052,
+                                0.822,
+                                1,
+                                0.678,
+                                1.052,
+                                0.822,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9667
+                        }
+                    ]
+                },
+                "texiaon4": {
+                    "translate": [
+                        {
+                            "x": 21.96,
+                            "y": -46.01,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": 21.96,
+                            "y": -46.01,
+                            "curve": [
+                                0.278,
+                                13.81,
+                                0.389,
+                                -2.49,
+                                0.278,
+                                -26.74,
+                                0.389,
+                                11.81
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": -2.49,
+                            "y": 11.81,
+                            "curve": [
+                                0.644,
+                                -2.49,
+                                0.789,
+                                0,
+                                0.644,
+                                11.81,
+                                0.789,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.475,
+                            "y": 0.475,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": 0.475,
+                            "y": 0.475,
+                            "curve": [
+                                0.278,
+                                0.667,
+                                0.389,
+                                1.052,
+                                0.278,
+                                0.667,
+                                0.389,
+                                1.052
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 1.052,
+                            "y": 1.052,
+                            "curve": [
+                                0.644,
+                                1.052,
+                                0.789,
+                                1,
+                                0.644,
+                                1.052,
+                                0.789,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9333
+                        }
+                    ]
+                },
+                "bg_lei": {
+                    "translate": [
+                        {
+                            "x": -14.64,
+                            "y": -52.29,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "x": -14.64,
+                            "y": -52.29,
+                            "curve": [
+                                0.211,
+                                -7.28,
+                                0.322,
+                                7.45,
+                                0.211,
+                                -31.3,
+                                0.322,
+                                10.69
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 7.45,
+                            "y": 10.69,
+                            "curve": [
+                                0.578,
+                                7.45,
+                                0.722,
+                                0,
+                                0.578,
+                                10.69,
+                                0.722,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.8667
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.475,
+                            "y": 0.475,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 0.475,
+                            "y": 0.475,
+                            "curve": [
+                                0.211,
+                                0.667,
+                                0.322,
+                                1.052,
+                                0.211,
+                                0.667,
+                                0.322,
+                                1.052
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 1.052,
+                            "y": 1.052,
+                            "curve": [
+                                0.578,
+                                1.052,
+                                0.722,
+                                1,
+                                0.578,
+                                1.052,
+                                0.722,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8667
+                        }
+                    ]
+                },
+                "bg_cao": {
+                    "translate": [
+                        {
+                            "x": -61.12,
+                            "y": -63.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": -61.12,
+                            "y": -63.43,
+                            "curve": [
+                                0.311,
+                                -38.52,
+                                0.422,
+                                6.68,
+                                0.311,
+                                -39.98,
+                                0.422,
+                                6.93
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 6.68,
+                            "y": 6.93,
+                            "curve": [
+                                0.678,
+                                6.68,
+                                0.822,
+                                0,
+                                0.678,
+                                6.93,
+                                0.822,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9667
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.475,
+                            "y": 0.475,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 0.475,
+                            "y": 0.475,
+                            "curve": [
+                                0.311,
+                                0.667,
+                                0.422,
+                                1.052,
+                                0.311,
+                                0.667,
+                                0.422,
+                                1.052
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 1.052,
+                            "y": 1.052,
+                            "curve": [
+                                0.678,
+                                1.052,
+                                0.822,
+                                1,
+                                0.678,
+                                1.052,
+                                0.822,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9667
+                        }
+                    ]
+                },
+                "bg_yan": {
+                    "translate": [
+                        {
+                            "x": -16.1,
+                            "y": 48.31,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": -16.1,
+                            "y": 48.31,
+                            "curve": [
+                                0.244,
+                                -9.17,
+                                0.356,
+                                4.71,
+                                0.244,
+                                27.5,
+                                0.356,
+                                -14.12
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 4.71,
+                            "y": -14.12,
+                            "curve": [
+                                0.611,
+                                4.71,
+                                0.756,
+                                1.57,
+                                0.611,
+                                -14.12,
+                                0.756,
+                                -4.71
+                            ]
+                        },
+                        {
+                            "time": 0.9
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.52,
+                            "y": 0.52,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 0.52,
+                            "y": 0.52,
+                            "curve": [
+                                0.244,
+                                0.692,
+                                0.356,
+                                1.037,
+                                0.244,
+                                0.692,
+                                0.356,
+                                1.037
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 1.037,
+                            "y": 1.037,
+                            "curve": [
+                                0.611,
+                                1.037,
+                                0.756,
+                                1.012,
+                                0.611,
+                                1.037,
+                                0.756,
+                                1.012
+                            ]
+                        },
+                        {
+                            "time": 0.9
+                        }
+                    ]
+                },
+                "xiaon4": {
+                    "translate": [
+                        {
+                            "x": 63.11,
+                            "y": 67.97,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": 63.11,
+                            "y": 67.97,
+                            "curve": [
+                                0.344,
+                                38.83,
+                                0.456,
+                                -9.74,
+                                0.344,
+                                41.81,
+                                0.456,
+                                -10.49
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": -9.74,
+                            "y": -10.49,
+                            "curve": [
+                                0.689,
+                                -9.74,
+                                0.811,
+                                0,
+                                0.689,
+                                -10.49,
+                                0.811,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.447,
+                            "y": 0.447,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": 0.447,
+                            "y": 0.447,
+                            "curve": [
+                                0.344,
+                                0.683,
+                                0.456,
+                                1.154,
+                                0.344,
+                                0.683,
+                                0.456,
+                                1.154
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 1.154,
+                            "y": 1.154,
+                            "curve": [
+                                0.689,
+                                1.154,
+                                0.811,
+                                1,
+                                0.689,
+                                1.154,
+                                0.811,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9333
+                        }
+                    ]
+                },
+                "xiaon3": {
+                    "translate": [
+                        {
+                            "x": 40.14,
+                            "y": 83.62,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 40.14,
+                            "y": 83.62,
+                            "curve": [
+                                0.444,
+                                24.69,
+                                0.556,
+                                -6.2,
+                                0.444,
+                                51.44,
+                                0.556,
+                                -12.91
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": -6.2,
+                            "y": -12.91,
+                            "curve": [
+                                0.789,
+                                -6.2,
+                                0.911,
+                                0,
+                                0.789,
+                                -12.91,
+                                0.911,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.0333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.447,
+                            "y": 0.447,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0.447,
+                            "y": 0.447,
+                            "curve": [
+                                0.444,
+                                0.683,
+                                0.556,
+                                1.154,
+                                0.444,
+                                0.683,
+                                0.556,
+                                1.154
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 1.154,
+                            "y": 1.154,
+                            "curve": [
+                                0.789,
+                                1.154,
+                                0.911,
+                                1,
+                                0.789,
+                                1.154,
+                                0.911,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.0333
+                        }
+                    ]
+                },
+                "xiaon1": {
+                    "translate": [
+                        {
+                            "x": -10.24,
+                            "y": 92.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": -10.24,
+                            "y": 92.18,
+                            "curve": [
+                                0.544,
+                                -6.3,
+                                0.656,
+                                1.58,
+                                0.544,
+                                56.71,
+                                0.656,
+                                -14.23
+                            ]
+                        },
+                        {
+                            "time": 0.7667,
+                            "x": 1.58,
+                            "y": -14.23,
+                            "curve": [
+                                0.889,
+                                1.58,
+                                1.011,
+                                0,
+                                0.889,
+                                -14.23,
+                                1.011,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.1333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.447,
+                            "y": 0.447,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 0.447,
+                            "y": 0.447,
+                            "curve": [
+                                0.544,
+                                0.683,
+                                0.656,
+                                1.154,
+                                0.544,
+                                0.683,
+                                0.656,
+                                1.154
+                            ]
+                        },
+                        {
+                            "time": 0.7667,
+                            "x": 1.154,
+                            "y": 1.154,
+                            "curve": [
+                                0.889,
+                                1.154,
+                                1.011,
+                                1,
+                                0.889,
+                                1.154,
+                                1.011,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1333
+                        }
+                    ]
+                },
+                "texiaon1": {
+                    "translate": [
+                        {
+                            "x": -41.48,
+                            "y": 82.96,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": -41.48,
+                            "y": 82.96,
+                            "curve": [
+                                0.644,
+                                -25.52,
+                                0.756,
+                                6.4,
+                                0.644,
+                                51.04,
+                                0.756,
+                                -12.81
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "x": 6.4,
+                            "y": -12.81,
+                            "curve": [
+                                0.989,
+                                6.4,
+                                1.111,
+                                0,
+                                0.989,
+                                -12.81,
+                                1.111,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.2333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.447,
+                            "y": 0.447,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 0.447,
+                            "y": 0.447,
+                            "curve": [
+                                0.644,
+                                0.683,
+                                0.756,
+                                1.154,
+                                0.644,
+                                0.683,
+                                0.756,
+                                1.154
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "x": 1.154,
+                            "y": 1.154,
+                            "curve": [
+                                0.989,
+                                1.154,
+                                1.111,
+                                1,
+                                0.989,
+                                1.154,
+                                1.111,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2333
+                        }
+                    ]
+                },
+                "nvhua1": {
+                    "scale": [
+                        {
+                            "x": 0.137,
+                            "y": 0.137,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 0.137,
+                            "y": 0.137,
+                            "curve": [
+                                0.544,
+                                0.541,
+                                0.589,
+                                1.348,
+                                0.544,
+                                0.541,
+                                0.589,
+                                1.348
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 1.348,
+                            "y": 1.348,
+                            "curve": [
+                                0.711,
+                                1.348,
+                                0.789,
+                                1.064,
+                                0.711,
+                                1.348,
+                                0.789,
+                                1.064
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "x": 0.948,
+                            "y": 0.948,
+                            "curve": [
+                                0.902,
+                                0.896,
+                                1.044,
+                                0.983,
+                                0.902,
+                                0.896,
+                                1.044,
+                                0.983
+                            ]
+                        },
+                        {
+                            "time": 1.1333
+                        }
+                    ]
+                },
+                "nvhua5": {
+                    "scale": [
+                        {
+                            "x": 0.137,
+                            "y": 0.137,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "x": 0.137,
+                            "y": 0.137,
+                            "curve": [
+                                0.644,
+                                0.541,
+                                0.689,
+                                1.348,
+                                0.644,
+                                0.541,
+                                0.689,
+                                1.348
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "x": 1.348,
+                            "y": 1.348,
+                            "curve": [
+                                0.811,
+                                1.348,
+                                0.889,
+                                1.064,
+                                0.811,
+                                1.348,
+                                0.889,
+                                1.064
+                            ]
+                        },
+                        {
+                            "time": 0.9667,
+                            "x": 0.948,
+                            "y": 0.948,
+                            "curve": [
+                                1.002,
+                                0.896,
+                                1.144,
+                                0.983,
+                                1.002,
+                                0.896,
+                                1.144,
+                                0.983
+                            ]
+                        },
+                        {
+                            "time": 1.2333
+                        }
+                    ]
+                },
+                "nvhua3": {
+                    "scale": [
+                        {
+                            "x": 0.137,
+                            "y": 0.137,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 0.137,
+                            "y": 0.137,
+                            "curve": [
+                                0.611,
+                                0.541,
+                                0.656,
+                                1.348,
+                                0.611,
+                                0.541,
+                                0.656,
+                                1.348
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "x": 1.348,
+                            "y": 1.348,
+                            "curve": [
+                                0.778,
+                                1.348,
+                                0.856,
+                                1.064,
+                                0.778,
+                                1.348,
+                                0.856,
+                                1.064
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "x": 0.948,
+                            "y": 0.948,
+                            "curve": [
+                                0.968,
+                                0.896,
+                                1.111,
+                                0.983,
+                                0.968,
+                                0.896,
+                                1.111,
+                                0.983
+                            ]
+                        },
+                        {
+                            "time": 1.2
+                        }
+                    ]
+                },
+                "bg_dian": {
+                    "scale": [
+                        {
+                            "x": 0.137,
+                            "y": 0.137,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 0.137,
+                            "y": 0.137,
+                            "curve": [
+                                0.544,
+                                0.541,
+                                0.589,
+                                1.348,
+                                0.544,
+                                0.541,
+                                0.589,
+                                1.348
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 1.348,
+                            "y": 1.348,
+                            "curve": [
+                                0.711,
+                                1.348,
+                                0.789,
+                                1.064,
+                                0.711,
+                                1.348,
+                                0.789,
+                                1.064
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "x": 0.948,
+                            "y": 0.948,
+                            "curve": [
+                                0.902,
+                                0.896,
+                                1.044,
+                                0.983,
+                                0.902,
+                                0.896,
+                                1.044,
+                                0.983
+                            ]
+                        },
+                        {
+                            "time": 1.1333
+                        }
+                    ]
+                },
+                "texiaoz2": {
+                    "translate": [
+                        {
+                            "x": 9.55,
+                            "y": -16.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "x": 9.55,
+                            "y": -16.55,
+                            "curve": [
+                                0.489,
+                                5.38,
+                                0.611,
+                                -2.95,
+                                0.489,
+                                -9.33,
+                                0.611,
+                                5.11
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "x": -2.95,
+                            "y": 5.11,
+                            "curve": [
+                                0.844,
+                                -2.95,
+                                0.956,
+                                0,
+                                0.844,
+                                5.11,
+                                0.956,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.0667
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.223,
+                            "y": 0.223,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "x": 0.223,
+                            "y": 0.223,
+                            "curve": [
+                                0.489,
+                                0.482,
+                                0.611,
+                                1,
+                                0.489,
+                                0.482,
+                                0.611,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7333
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {},
+        "b2a": {
+            "slots": {
+                "bg_cao": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "bg_dian": {
+                    "rgba": [
+                        {
+                            "time": 0.0667,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.122,
+                                1,
+                                0.178,
+                                1,
+                                0.122,
+                                1,
+                                0.178,
+                                1,
+                                0.122,
+                                1,
+                                0.178,
+                                1,
+                                0.122,
+                                1,
+                                0.178,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "bg_lei": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "bg_yan": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "kamian1": {
+                    "rgba": [
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "kamian2": {
+                    "rgba": [
+                        {
+                            "time": 0.0667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "kamian3": {
+                    "rgba": [
+                        {
+                            "time": 0.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "kamian4": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "nvhua1": {
+                    "rgba": [
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.089,
+                                1,
+                                0.144,
+                                1,
+                                0.089,
+                                1,
+                                0.144,
+                                1,
+                                0.089,
+                                1,
+                                0.144,
+                                1,
+                                0.089,
+                                1,
+                                0.144,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "nvhua3": {
+                    "rgba": [
+                        {
+                            "time": 0.1,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.156,
+                                1,
+                                0.211,
+                                1,
+                                0.156,
+                                1,
+                                0.211,
+                                1,
+                                0.156,
+                                1,
+                                0.211,
+                                1,
+                                0.156,
+                                1,
+                                0.211,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "nvhua4": {
+                    "rgba": [
+                        {
+                            "time": 0.1333,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.189,
+                                1,
+                                0.244,
+                                1,
+                                0.189,
+                                1,
+                                0.244,
+                                1,
+                                0.189,
+                                1,
+                                0.244,
+                                1,
+                                0.189,
+                                1,
+                                0.244,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "texiaon1": {
+                    "rgba": [
+                        {
+                            "time": 0.1333,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.2,
+                                1,
+                                0.267,
+                                1,
+                                0.2,
+                                1,
+                                0.267,
+                                1,
+                                0.2,
+                                1,
+                                0.267,
+                                1,
+                                0.2,
+                                1,
+                                0.267,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "texiaon4": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "texiaon8": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "texiaoz1": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "texiaoz5": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "texiaoz7": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "xiaon1": {
+                    "rgba": [
+                        {
+                            "time": 0.1333,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.2,
+                                1,
+                                0.267,
+                                1,
+                                0.2,
+                                1,
+                                0.267,
+                                1,
+                                0.2,
+                                1,
+                                0.267,
+                                1,
+                                0.2,
+                                1,
+                                0.267,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "xiaon2": {
+                    "rgba": [
+                        {
+                            "time": 0.1,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.167,
+                                1,
+                                0.233,
+                                1,
+                                0.167,
+                                1,
+                                0.233,
+                                1,
+                                0.167,
+                                1,
+                                0.233,
+                                1,
+                                0.167,
+                                1,
+                                0.233,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "xiaon3": {
+                    "rgba": [
+                        {
+                            "time": 0.0667,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.133,
+                                1,
+                                0.2,
+                                1,
+                                0.133,
+                                1,
+                                0.2,
+                                1,
+                                0.133,
+                                1,
+                                0.2,
+                                1,
+                                0.133,
+                                1,
+                                0.2,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "texiaon4": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.089,
+                                0,
+                                0.267,
+                                -46.17,
+                                0.089,
+                                0,
+                                0.267,
+                                219.3
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": -46.17,
+                            "y": 219.3
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.089,
+                                1,
+                                0.267,
+                                1.5,
+                                0.089,
+                                1,
+                                0.267,
+                                1.5
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 1.5,
+                            "y": 1.5
+                        }
+                    ]
+                },
+                "texiaon8": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.089,
+                                0,
+                                0.267,
+                                -43.95,
+                                0.089,
+                                0,
+                                0.267,
+                                219.75
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": -43.95,
+                            "y": 219.75
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.089,
+                                1,
+                                0.267,
+                                1.5,
+                                0.089,
+                                1,
+                                0.267,
+                                1.5
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 1.5,
+                            "y": 1.5
+                        }
+                    ]
+                },
+                "texiaoz5": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.089,
+                                0,
+                                0.267,
+                                182.36,
+                                0.089,
+                                0,
+                                0.267,
+                                130.26
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 182.36,
+                            "y": 130.26
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.089,
+                                1,
+                                0.267,
+                                1.5,
+                                0.089,
+                                1,
+                                0.267,
+                                1.5
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 1.5,
+                            "y": 1.5
+                        }
+                    ]
+                },
+                "texiaoz10": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.089,
+                                0,
+                                0.267,
+                                -138.69,
+                                0.089,
+                                0,
+                                0.267,
+                                176.03
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": -138.69,
+                            "y": 176.03
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.089,
+                                1,
+                                0.267,
+                                1.5,
+                                0.089,
+                                1,
+                                0.267,
+                                1.5
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 1.5,
+                            "y": 1.5
+                        }
+                    ]
+                },
+                "texiaoz2": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.089,
+                                0,
+                                0.267,
+                                -49.28,
+                                0.089,
+                                0,
+                                0.267,
+                                85.42
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": -49.28,
+                            "y": 85.42
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.089,
+                                1,
+                                0.267,
+                                1.371,
+                                0.089,
+                                1,
+                                0.267,
+                                1.371
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 1.371,
+                            "y": 1.371
+                        }
+                    ]
+                },
+                "bg_yan": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.2667,
+                            "x": 57.94,
+                            "y": -173.82
+                        }
+                    ],
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.2667,
+                            "x": 1.604,
+                            "y": 1.604
+                        }
+                    ]
+                },
+                "bg_cao": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.2667,
+                            "x": 140.26,
+                            "y": 145.55
+                        }
+                    ],
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.2667,
+                            "x": 1.733,
+                            "y": 1.733
+                        }
+                    ]
+                },
+                "bg_lei": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.2667,
+                            "x": 64.99,
+                            "y": 93.25
+                        }
+                    ],
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.2667,
+                            "x": 1.54,
+                            "y": 1.54
+                        }
+                    ]
+                },
+                "kamian1": {
+                    "translate": [
+                        {
+                            "time": 0.0333,
+                            "curve": [
+                                0.111,
+                                0,
+                                0.267,
+                                128.73,
+                                0.111,
+                                0,
+                                0.267,
+                                247.74
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 128.73,
+                            "y": 247.74
+                        }
+                    ]
+                },
+                "kamian2": {
+                    "translate": [
+                        {
+                            "time": 0.0667,
+                            "curve": [
+                                0.144,
+                                0,
+                                0.3,
+                                -102.5,
+                                0.144,
+                                0,
+                                0.3,
+                                456.37
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "x": -102.5,
+                            "y": 456.37
+                        }
+                    ]
+                },
+                "kamian3": {
+                    "translate": [
+                        {
+                            "time": 0.1,
+                            "curve": [
+                                0.178,
+                                0,
+                                0.333,
+                                217.85,
+                                0.178,
+                                0,
+                                0.333,
+                                -430.91
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 217.85,
+                            "y": -430.91
+                        }
+                    ]
+                },
+                "kamian4": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.078,
+                                0,
+                                0.233,
+                                -29.48,
+                                0.078,
+                                0,
+                                0.233,
+                                -240.52
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": -29.48,
+                            "y": -240.52
+                        }
+                    ]
+                },
+                "nvhua5": {
+                    "scale": [
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.189,
+                                1,
+                                0.244,
+                                1.646,
+                                0.189,
+                                1,
+                                0.244,
+                                1.646
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "x": 1.646,
+                            "y": 1.646
+                        }
+                    ]
+                },
+                "nvhua3": {
+                    "scale": [
+                        {
+                            "time": 0.1,
+                            "curve": [
+                                0.156,
+                                1,
+                                0.211,
+                                1.646,
+                                0.156,
+                                1,
+                                0.211,
+                                1.646
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 1.646,
+                            "y": 1.646
+                        }
+                    ]
+                },
+                "nvhua1": {
+                    "scale": [
+                        {
+                            "time": 0.0333,
+                            "curve": [
+                                0.089,
+                                1,
+                                0.144,
+                                1.646,
+                                0.089,
+                                1,
+                                0.144,
+                                1.646
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 1.646,
+                            "y": 1.646
+                        }
+                    ]
+                },
+                "bg_dian": {
+                    "scale": [
+                        {
+                            "time": 0.0667,
+                            "curve": [
+                                0.122,
+                                1,
+                                0.178,
+                                1.646,
+                                0.122,
+                                1,
+                                0.178,
+                                1.646
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": 1.646,
+                            "y": 1.646
+                        }
+                    ]
+                },
+                "texiaon1": {
+                    "translate": [
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.2,
+                                0,
+                                0.267,
+                                58.57,
+                                0.2,
+                                0,
+                                0.267,
+                                -117.14
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 58.57,
+                            "y": -117.14
+                        }
+                    ]
+                },
+                "xiaon1": {
+                    "translate": [
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.2,
+                                0,
+                                0.267,
+                                14.46,
+                                0.2,
+                                0,
+                                0.267,
+                                -130.17
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 14.46,
+                            "y": -130.17
+                        }
+                    ]
+                },
+                "xiaon3": {
+                    "translate": [
+                        {
+                            "time": 0.1,
+                            "curve": [
+                                0.167,
+                                0,
+                                0.233,
+                                -56.67,
+                                0.167,
+                                0,
+                                0.233,
+                                -118.07
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "x": -56.67,
+                            "y": -118.07
+                        }
+                    ]
+                },
+                "xiaon4": {
+                    "translate": [
+                        {
+                            "time": 0.0667,
+                            "curve": [
+                                0.133,
+                                0,
+                                0.2,
+                                -89.12,
+                                0.133,
+                                0,
+                                0.2,
+                                -95.97
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": -89.12,
+                            "y": -95.97
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "kamian7": {
+            "rootBoneName": "kamian7",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 1
+                }
+            }
+        },
+        "kamian8": {
+            "rootBoneName": "kamian8",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.1399476960778703,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 7,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.5761337447776,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.09285747337514576
+                }
+            }
+        },
+        "kamian6": {
+            "rootBoneName": "kamian6",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.4164348101152855,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.8535241277911869,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.2108747254664744
+                }
+            }
+        },
+        "kamian5": {
+            "rootBoneName": "kamian5",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.8334414801656886,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 7,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4.59136262064058,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.8392148340275343
+                }
+            }
+        },
+        "texiaoz7": {
+            "rootBoneName": "texiaoz7",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.9,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4.1845700637295415,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.0458389496343742
+                }
+            }
+        },
+        "texiaoz3": {
+            "rootBoneName": "texiaoz3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 3,
+                    "rotateRange": 3,
+                    "rotateOffset": 1.5001978860809793,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.5,
+                    "springLevel": 0
+                }
+            }
+        },
+        "nvhua6": {
+            "rootBoneName": "nvhua6",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 7,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 5.161829963900074,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 8,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -2.2275460079917657,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -3.1697844053753905,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": 0.05,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.0003168177731298183
+                }
+            }
+        },
+        "nvhua7": {
+            "rootBoneName": "nvhua7",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 7,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.5888869625903688,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 8,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 1.2839508332990637,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.1123856399389687,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": -0.08,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.01
+                }
+            }
+        },
+        "nvhua2": {
+            "rootBoneName": "nvhua2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 7,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.5073821785161443,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 8,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -3.3547714668277377,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.7578569329422868,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": -0.08,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.016335749087356043
+                }
+            }
+        },
+        "bg_dian2": {
+            "rootBoneName": "bg_dian2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 7,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.482345922795826,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 8,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.453021818255294,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 2,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 5.428724457940991,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": -0.08,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.24330963288315818
+                }
+            }
+        },
+        "bg_lei2": {
+            "rootBoneName": "bg_lei2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 6,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -2.170335604483563,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.456259003857812,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1.9462629025601283,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "texiaoz6": {
+            "rootBoneName": "texiaoz6",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 6,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.377007581317017,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.294285272038816,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 5.7238717355993955,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "texiaoz16": {
+            "rootBoneName": "texiaoz16",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 6,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.671149180566396,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.7628493510143398,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.7632525172043667,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "texiaon9": {
+            "rootBoneName": "texiaon9",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 6,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.997453691059922,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -6.009612992046814,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -3.200571610309432,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "texiaon5": {
+            "rootBoneName": "texiaon5",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 6,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.947317038316183,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.9008147127873907,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.8344414794794147,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "bg_cao2": {
+            "rootBoneName": "bg_cao2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 6,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.6917692936542326,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.15425461386813,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.5184891340550608,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "bg_yan2": {
+            "rootBoneName": "bg_yan2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 6,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.5909271826258724,
+                    "moveXCenter": 0,
+                    "moveYFreq": 5,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.9798871995459675,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.03,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.841626546953697,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "texiaon2": {
+            "rootBoneName": "texiaon2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.1289540613796056,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.62883788794243,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.1777769116986696
+                }
+            }
+        },
+        "xiaon5": {
+            "rootBoneName": "xiaon5",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.1891605074116844,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 7,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -2.3897974165453753,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.1866562580870599
+                }
+            }
+        },
+        "xiaon7": {
+            "rootBoneName": "xiaon7",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.5895106508280814,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 4.671414386730317,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.25338451190758066
+                }
+            }
+        },
+        "xiaon6": {
+            "rootBoneName": "xiaon6",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -3.51540218684397,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -3.5328089586441895,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.1662150418562164
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

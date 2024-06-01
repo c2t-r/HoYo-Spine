@@ -1,0 +1,157 @@
+{
+    "skeleton": {
+        "hash": "vhLtbuVniuQ",
+        "spine": "4.0-from-4.1.23",
+        "x": -204,
+        "y": -217,
+        "width": 408,
+        "height": 434
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "yun",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "role_bg_yun_la",
+            "bone": "yun",
+            "attachment": "role_bg_yun_rb"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "role_bg_yun_la": {
+                    "role_bg_yun_la": {
+                        "width": 472,
+                        "height": 324
+                    },
+                    "role_bg_yun_lb": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 237,
+                        "height": 169
+                    },
+                    "role_bg_yun_ra": {
+                        "x": 0.5,
+                        "width": 299,
+                        "height": 202
+                    },
+                    "role_bg_yun_rb": {
+                        "width": 408,
+                        "height": 434
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "la": {
+            "slots": {
+                "role_bg_yun_la": {
+                    "attachment": [
+                        {
+                            "name": "role_bg_yun_la"
+                        }
+                    ]
+                }
+            }
+        },
+        "lb": {
+            "slots": {
+                "role_bg_yun_la": {
+                    "attachment": [
+                        {
+                            "name": "role_bg_yun_lb"
+                        }
+                    ]
+                }
+            }
+        },
+        "ra": {
+            "slots": {
+                "role_bg_yun_la": {
+                    "attachment": [
+                        {
+                            "name": "role_bg_yun_ra"
+                        }
+                    ]
+                }
+            }
+        },
+        "rb": {
+            "slots": {
+                "role_bg_yun_la": {
+                    "attachment": [
+                        {
+                            "name": "role_bg_yun_rb"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "yun": {
+            "rootBoneName": "yun",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 30,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 6.145127278584574,
+                    "moveYCenter": 0
+                },
+                "la": {
+                    "name": "la",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 30,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -6.006865917749694,
+                    "moveYCenter": 0
+                },
+                "lb": {
+                    "name": "lb",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.859532419160773,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 40,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4.800082387713592,
+                    "moveYCenter": 0
+                },
+                "rb": {
+                    "name": "rb",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 5.524391103396914,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 40,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.3768635674113132,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

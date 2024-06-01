@@ -1,0 +1,156 @@
+{
+    "skeleton": {
+        "hash": "baO1H6tRLNg",
+        "spine": "4.0-from-4.1.23",
+        "x": -459.5,
+        "y": -128,
+        "width": 919,
+        "height": 320
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "b",
+            "parent": "root",
+            "x": 40.19,
+            "y": 96.21
+        },
+        {
+            "name": "a",
+            "parent": "root",
+            "x": -161.14,
+            "y": 16.91
+        }
+    ],
+    "slots": [
+        {
+            "name": "塔b",
+            "bone": "root",
+            "attachment": "塔b"
+        },
+        {
+            "name": "塔a",
+            "bone": "root",
+            "attachment": "塔a"
+        },
+        {
+            "name": "b",
+            "bone": "b",
+            "attachment": "b"
+        },
+        {
+            "name": "a",
+            "bone": "a",
+            "attachment": "a"
+        },
+        {
+            "name": "fc",
+            "bone": "root",
+            "attachment": "fc"
+        },
+        {
+            "name": "fb",
+            "bone": "root",
+            "attachment": "fb"
+        },
+        {
+            "name": "fa",
+            "bone": "root",
+            "attachment": "fa"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": -0.86,
+                        "y": 0.09,
+                        "width": 159,
+                        "height": 180
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": -0.19,
+                        "y": -0.21,
+                        "width": 157,
+                        "height": 180
+                    }
+                },
+                "fa": {
+                    "fa": {
+                        "x": 262,
+                        "y": 40.5,
+                        "width": 395,
+                        "height": 297
+                    }
+                },
+                "fb": {
+                    "fb": {
+                        "x": -312,
+                        "y": 32,
+                        "width": 295,
+                        "height": 320
+                    }
+                },
+                "fc": {
+                    "fc": {
+                        "x": -103.5,
+                        "y": -46,
+                        "width": 240,
+                        "height": 144
+                    }
+                },
+                "塔a": {
+                    "塔a": {
+                        "x": -107.5,
+                        "y": -51.5,
+                        "width": 206,
+                        "height": 137
+                    }
+                },
+                "塔b": {
+                    "塔b": {
+                        "x": 102.5,
+                        "y": -8,
+                        "width": 190,
+                        "height": 210
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "b": {
+            "rootBoneName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.1
+                }
+            }
+        },
+        "a": {
+            "rootBoneName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.07
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

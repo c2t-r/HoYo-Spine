@@ -1,0 +1,1313 @@
+{
+    "skeleton": {
+        "hash": "2BpaIlNaugg",
+        "spine": "4.0-from-4.1.23"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "aa",
+            "parent": "root",
+            "x": 46.5,
+            "y": -288.18
+        },
+        {
+            "name": "card_up",
+            "parent": "aa",
+            "x": -0.9,
+            "y": -50.69
+        },
+        {
+            "name": "ab",
+            "parent": "root",
+            "x": 67.33,
+            "y": -372.85,
+            "scaleX": 0.718,
+            "scaleY": 0.718
+        },
+        {
+            "name": "card_up2",
+            "parent": "ab",
+            "x": -0.9,
+            "y": 33.65
+        },
+        {
+            "name": "c",
+            "parent": "root",
+            "x": 169.55,
+            "y": -105.03,
+            "scaleX": 0.5802,
+            "scaleY": 0.5802
+        },
+        {
+            "name": "bc",
+            "parent": "c",
+            "x": -0.9,
+            "y": 33.65
+        },
+        {
+            "name": "bb",
+            "parent": "root",
+            "x": 169.55,
+            "y": -42.46,
+            "scaleX": 0.5802,
+            "scaleY": 0.5802
+        },
+        {
+            "name": "card_up8",
+            "parent": "bb",
+            "x": -0.9,
+            "y": 33.65
+        },
+        {
+            "name": "ba",
+            "parent": "root",
+            "x": 169.55,
+            "y": 15.82,
+            "scaleX": 0.5802,
+            "scaleY": 0.5802
+        },
+        {
+            "name": "card_up10",
+            "parent": "ba",
+            "x": -0.9,
+            "y": 33.65
+        },
+        {
+            "name": "ac",
+            "parent": "root",
+            "x": 67.33,
+            "y": -372.85,
+            "scaleX": 0.718,
+            "scaleY": 0.718
+        },
+        {
+            "name": "card_up3",
+            "parent": "ac",
+            "x": -0.9,
+            "y": 33.65
+        }
+    ],
+    "slots": [
+        {
+            "name": "card_up",
+            "bone": "card_up"
+        },
+        {
+            "name": "card_up2",
+            "bone": "card_up2"
+        },
+        {
+            "name": "card_up6",
+            "bone": "card_up3"
+        },
+        {
+            "name": "card_up3",
+            "bone": "bc"
+        },
+        {
+            "name": "card_up4",
+            "bone": "card_up8"
+        },
+        {
+            "name": "card_up5",
+            "bone": "card_up10"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "card_up": {
+                    "card_up": {
+                        "x": 0.34,
+                        "y": -2.38,
+                        "width": 34,
+                        "height": 42
+                    }
+                },
+                "card_up2": {
+                    "card_up": {
+                        "x": 0.34,
+                        "y": -2.38,
+                        "width": 34,
+                        "height": 42
+                    }
+                },
+                "card_up3": {
+                    "card_up": {
+                        "x": 0.34,
+                        "y": -2.38,
+                        "width": 34,
+                        "height": 42
+                    }
+                },
+                "card_up4": {
+                    "card_up": {
+                        "x": 0.34,
+                        "y": -2.38,
+                        "width": 34,
+                        "height": 42
+                    }
+                },
+                "card_up5": {
+                    "card_up": {
+                        "x": 0.34,
+                        "y": -2.38,
+                        "width": 34,
+                        "height": 42
+                    }
+                },
+                "card_up6": {
+                    "card_up": {
+                        "x": 0.34,
+                        "y": -2.38,
+                        "width": 34,
+                        "height": 42
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "card_up": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.3667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                },
+                "card_up2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffe2"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "card_up": {
+                    "translate": [
+                        {
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.3667,
+                            "y": 19.43
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 0.4667
+                        }
+                    ]
+                },
+                "card_up2": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.5333,
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.6333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 1.3
+                        }
+                    ]
+                }
+            }
+        },
+        "all": {
+            "slots": {
+                "card_up": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.3667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                },
+                "card_up2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffe2"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                },
+                "card_up3": {
+                    "rgba": [
+                        {
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffe2"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                },
+                "card_up4": {
+                    "rgba": [
+                        {
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffe2"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                },
+                "card_up5": {
+                    "rgba": [
+                        {
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffe2"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                },
+                "card_up6": {
+                    "rgba": [
+                        {
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffe2"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "card_up": {
+                    "translate": [
+                        {
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.3667,
+                            "y": 19.43
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 0.4667
+                        }
+                    ]
+                },
+                "card_up2": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.5333,
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.6333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 1.3
+                        }
+                    ]
+                },
+                "bc": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.5333,
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.6333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 1.3
+                        }
+                    ]
+                },
+                "card_up8": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.5333,
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.6333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 1.3
+                        }
+                    ]
+                },
+                "card_up10": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.5333,
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.6333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 1.3
+                        }
+                    ]
+                },
+                "card_up3": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.5333,
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.6333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 1.3
+                        }
+                    ]
+                }
+            }
+        },
+        "ba": {
+            "slots": {
+                "card_up5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff24"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 1.2667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3667,
+                            "color": "ffffff24"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "card_up10": {
+                    "translate": [
+                        {
+                            "y": -26.71
+                        },
+                        {
+                            "time": 0.7333
+                        },
+                        {
+                            "time": 1.2667,
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.3667,
+                            "y": -26.71
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.651,
+                            "y": 0.651
+                        },
+                        {
+                            "time": 0.4,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 1.3667,
+                            "x": 0.651,
+                            "y": 0.651
+                        }
+                    ]
+                }
+            }
+        },
+        "bb": {
+            "slots": {
+                "card_up4": {
+                    "rgba": [
+                        {
+                            "time": 0.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "card_up8": {
+                    "translate": [
+                        {
+                            "y": -6.07
+                        },
+                        {
+                            "time": 0.1667
+                        },
+                        {
+                            "time": 0.7,
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7333,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.3667,
+                            "y": -6.07
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.1667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7333,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 1.2
+                        }
+                    ]
+                }
+            }
+        },
+        "bc": {
+            "slots": {
+                "card_up3": {
+                    "rgba": [
+                        {
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffe2"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bc": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.5333,
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.6333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 1.3
+                        }
+                    ]
+                }
+            }
+        },
+        "city": {
+            "slots": {
+                "card_up": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.3667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                },
+                "card_up2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffe2"
+                        }
+                    ]
+                },
+                "card_up6": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.0667,
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 1.6,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "card_up": {
+                    "translate": [
+                        {
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.3667,
+                            "y": 19.43
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 0.4667
+                        }
+                    ]
+                },
+                "card_up2": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.5333,
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.6333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 1.3
+                        }
+                    ]
+                },
+                "aa": {
+                    "translate": [
+                        {
+                            "x": 29.98,
+                            "y": 149.92
+                        }
+                    ]
+                },
+                "ab": {
+                    "translate": [
+                        {
+                            "x": -11.24,
+                            "y": 127.43
+                        }
+                    ]
+                },
+                "card_up3": {
+                    "translate": [
+                        {
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.0667
+                        },
+                        {
+                            "time": 1.6,
+                            "y": 19.43
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 0.7333
+                        }
+                    ]
+                },
+                "ac": {
+                    "translate": [
+                        {
+                            "x": 36.54,
+                            "y": 133.99
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.114,
+                            "y": 1.114
+                        }
+                    ]
+                }
+            }
+        },
+        "other": {
+            "slots": {
+                "card_up": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.3667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                },
+                "card_up2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffe2"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                },
+                "card_up6": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.0667,
+                            "color": "ffffffe2"
+                        },
+                        {
+                            "time": 1.6,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "card_up"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "card_up": {
+                    "translate": [
+                        {
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.3667,
+                            "y": 19.43
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 0.4667
+                        }
+                    ]
+                },
+                "card_up2": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.5333,
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.6333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 1.3
+                        }
+                    ]
+                },
+                "aa": {
+                    "translate": [
+                        {
+                            "x": 29.98,
+                            "y": 149.92
+                        }
+                    ]
+                },
+                "ab": {
+                    "translate": [
+                        {
+                            "x": -11.24,
+                            "y": 127.43
+                        }
+                    ]
+                },
+                "card_up3": {
+                    "translate": [
+                        {
+                            "y": 19.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "y": -29.14
+                        },
+                        {
+                            "time": 1.0667
+                        },
+                        {
+                            "time": 1.6,
+                            "y": 19.43
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": 0.593,
+                            "y": 0.593
+                        },
+                        {
+                            "time": 0.7333
+                        }
+                    ]
+                },
+                "ac": {
+                    "translate": [
+                        {
+                            "x": 36.54,
+                            "y": 133.99
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 1.114,
+                            "y": 1.114
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

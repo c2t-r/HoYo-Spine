@@ -1,0 +1,365 @@
+{
+    "skeleton": {
+        "hash": "i3WPDjbdBPY",
+        "spine": "4.0-from-4.1.21",
+        "x": -862,
+        "y": -343,
+        "width": 1725,
+        "height": 687
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "index_light",
+            "parent": "root",
+            "x": 78.77,
+            "y": 334.94
+        },
+        {
+            "name": "index_light2",
+            "parent": "root",
+            "x": 232.81,
+            "y": 332.26
+        },
+        {
+            "name": "index_light3",
+            "parent": "root",
+            "x": 635.99,
+            "y": 332.26
+        },
+        {
+            "name": "index_light4",
+            "parent": "index_light3",
+            "x": 207.62,
+            "y": 1.34
+        }
+    ],
+    "slots": [
+        {
+            "name": "index_light",
+            "bone": "index_light",
+            "attachment": "index_light",
+            "blend": "additive"
+        },
+        {
+            "name": "index_light2",
+            "bone": "index_light2",
+            "attachment": "index_light",
+            "blend": "additive"
+        },
+        {
+            "name": "index_light3",
+            "bone": "index_light3",
+            "attachment": "index_light",
+            "blend": "additive"
+        },
+        {
+            "name": "index_light4",
+            "bone": "index_light4",
+            "attachment": "index_light",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "index_light": {
+                    "index_light": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.45996,
+                            0,
+                            0,
+                            0.59422,
+                            0.04271,
+                            0.99999,
+                            0.58187,
+                            0
+                        ],
+                        "triangles": [
+                            2,
+                            1,
+                            0,
+                            2,
+                            0,
+                            3
+                        ],
+                        "vertices": [
+                            -147.34,
+                            9.06,
+                            -940.77,
+                            -399.17,
+                            -867.09,
+                            -677.93,
+                            62.96,
+                            9.06
+                        ],
+                        "hull": 4
+                    }
+                },
+                "index_light2": {
+                    "index_light": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.58653,
+                            0,
+                            0.04685,
+                            1,
+                            0.2767,
+                            1,
+                            0.71077,
+                            0
+                        ],
+                        "triangles": [
+                            2,
+                            1,
+                            0,
+                            2,
+                            0,
+                            3
+                        ],
+                        "vertices": [
+                            -83.05,
+                            11.74,
+                            -1013.99,
+                            -675.26,
+                            -617.5,
+                            -675.26,
+                            131.27,
+                            11.74
+                        ],
+                        "hull": 4
+                    }
+                },
+                "index_light3": {
+                    "index_light": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.74727,
+                            0,
+                            0.35047,
+                            1,
+                            0.6898,
+                            1,
+                            0.97944,
+                            0
+                        ],
+                        "triangles": [
+                            2,
+                            1,
+                            0,
+                            2,
+                            0,
+                            3
+                        ],
+                        "vertices": [
+                            -208.96,
+                            11.74,
+                            -893.44,
+                            -675.26,
+                            -308.08,
+                            -675.26,
+                            191.55,
+                            11.74
+                        ],
+                        "hull": 4
+                    }
+                },
+                "index_light4": {
+                    "index_light": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            0,
+                            0.98022,
+                            0,
+                            0.70067,
+                            1,
+                            0.77444,
+                            1
+                        ],
+                        "triangles": [
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            0
+                        ],
+                        "vertices": [
+                            19.39,
+                            10.4,
+                            -14.73,
+                            10.4,
+                            -496.95,
+                            -676.6,
+                            -369.7,
+                            -676.6
+                        ],
+                        "hull": 4
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "index_light": {
+            "rootBoneName": "index_light",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "index_light2": {
+            "rootBoneName": "index_light2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -3.5244706274761857,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 4.814432750401073,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -5.527577747519019,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "index_light3": {
+            "rootBoneName": "index_light3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 40,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.9998907259739007,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.3271881623405864,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "index_light4": {
+            "rootBoneName": "index_light4",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.755410161589512,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -2.393774828261452,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 5.019690093667411,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "index_light": {
+            "slotName": "index_light",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0,
+                    "min": 0.2,
+                    "max": 0.6
+                }
+            }
+        },
+        "index_light2": {
+            "slotName": "index_light2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 0.5,
+                    "min": 0.2,
+                    "max": 0.6
+                }
+            }
+        },
+        "index_light3": {
+            "slotName": "index_light3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 2,
+                    "delay": 1,
+                    "min": 0.2,
+                    "max": 0.6
+                }
+            }
+        },
+        "index_light4": {
+            "slotName": "index_light4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1.5,
+                    "delay": 1.3,
+                    "min": 0.2,
+                    "max": 0.5
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

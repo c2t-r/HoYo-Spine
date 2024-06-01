@@ -1,0 +1,42 @@
+{
+    "skeleton": {
+        "hash": "SB4Hj8nZvco",
+        "spine": "4.1.17",
+        "x": -674.1,
+        "y": -676.1,
+        "width": 1349.21,
+        "height": 1352.21
+    },
+    "bones": [
+        {
+            "name": "root",
+            "rotation": -0.01
+        }
+    ],
+    "slots": [
+        {
+            "name": "ym1_rianbow",
+            "bone": "root",
+            "color": "ffffff75",
+            "attachment": "ym1_rianbow",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "ym1_rianbow": {
+                    "ym1_rianbow": {
+                        "x": 0.5,
+                        "width": 1349,
+                        "height": 1352
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

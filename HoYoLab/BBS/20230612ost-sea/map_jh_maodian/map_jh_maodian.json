@@ -1,0 +1,237 @@
+{
+    "skeleton": {
+        "hash": "HcxMwlOoUrc",
+        "spine": "4.0-from-4.1.23",
+        "x": -293.95,
+        "y": -102.88,
+        "width": 594,
+        "height": 571.09
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "关",
+            "parent": "bone",
+            "x": 43.68,
+            "y": 256.58
+        }
+    ],
+    "slots": [
+        {
+            "name": "小植物",
+            "bone": "bone",
+            "attachment": "小植物"
+        },
+        {
+            "name": "底座",
+            "bone": "bone",
+            "attachment": "底座"
+        },
+        {
+            "name": "底座红",
+            "bone": "bone",
+            "attachment": "底座红"
+        },
+        {
+            "name": "开",
+            "bone": "关",
+            "attachment": "开"
+        },
+        {
+            "name": "关",
+            "bone": "关",
+            "attachment": "关"
+        },
+        {
+            "name": "顶",
+            "bone": "bone",
+            "attachment": "顶"
+        },
+        {
+            "name": "芦苇yy",
+            "bone": "bone",
+            "attachment": "芦苇yy"
+        },
+        {
+            "name": "芦苇c",
+            "bone": "bone",
+            "attachment": "芦苇c"
+        },
+        {
+            "name": "芦苇b",
+            "bone": "bone",
+            "attachment": "芦苇b"
+        },
+        {
+            "name": "芦苇a",
+            "bone": "bone",
+            "attachment": "芦苇a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "关": {
+                    "关": {
+                        "x": 5.37,
+                        "y": 39.13,
+                        "width": 206,
+                        "height": 345
+                    }
+                },
+                "小植物": {
+                    "小植物": {
+                        "x": -176.45,
+                        "y": 84.12,
+                        "width": 235,
+                        "height": 176
+                    }
+                },
+                "底座": {
+                    "底座": {
+                        "x": 97.05,
+                        "y": 54.62,
+                        "width": 406,
+                        "height": 315
+                    }
+                },
+                "底座红": {
+                    "底座红": {
+                        "x": 54.55,
+                        "y": 151.62,
+                        "width": 141,
+                        "height": 121
+                    }
+                },
+                "开": {
+                    "开": {
+                        "x": 5.37,
+                        "y": 39.13,
+                        "width": 206,
+                        "height": 345
+                    }
+                },
+                "芦苇a": {
+                    "芦苇a": {
+                        "x": 149.05,
+                        "y": 38.12,
+                        "width": 84,
+                        "height": 202
+                    }
+                },
+                "芦苇b": {
+                    "芦苇b": {
+                        "x": 81.05,
+                        "y": 17.62,
+                        "width": 70,
+                        "height": 151
+                    }
+                },
+                "芦苇c": {
+                    "芦苇c": {
+                        "x": 187.55,
+                        "y": 32.62,
+                        "width": 61,
+                        "height": 169
+                    }
+                },
+                "芦苇yy": {
+                    "芦苇yy": {
+                        "x": 141.55,
+                        "y": -48.88,
+                        "width": 109,
+                        "height": 28
+                    }
+                },
+                "顶": {
+                    "顶": {
+                        "x": 67.05,
+                        "y": 133.62,
+                        "width": 52,
+                        "height": 25
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "初始": {
+            "bones": {
+                "关": {
+                    "translate": [
+                        {}
+                    ]
+                }
+            }
+        },
+        "激活": {
+            "slots": {
+                "关": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "底座红": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "关": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.227,
+                                0,
+                                0.573,
+                                0,
+                                0.227,
+                                0,
+                                0.573,
+                                35.74
+                            ]
+                        },
+                        {
+                            "time": 0.8,
+                            "y": 35.74,
+                            "curve": [
+                                0.911,
+                                0,
+                                1.422,
+                                0,
+                                0.911,
+                                35.74,
+                                1.422,
+                                33.37
+                            ]
+                        },
+                        {
+                            "time": 1.5667,
+                            "y": 33.87
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

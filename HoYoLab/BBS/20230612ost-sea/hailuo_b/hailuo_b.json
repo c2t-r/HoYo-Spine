@@ -1,0 +1,621 @@
+{
+    "skeleton": {
+        "hash": "qxHM95ly6lY",
+        "spine": "4.1.23",
+        "x": -260,
+        "y": -260,
+        "width": 520,
+        "height": 521
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "pp",
+            "parent": "root"
+        },
+        {
+            "name": "luo",
+            "parent": "root"
+        },
+        {
+            "name": "bx",
+            "parent": "luo",
+            "x": 36.43,
+            "y": 88.47
+        }
+    ],
+    "slots": [
+        {
+            "name": "bc",
+            "bone": "pp",
+            "attachment": "ac"
+        },
+        {
+            "name": "bb",
+            "bone": "luo",
+            "attachment": "ab"
+        },
+        {
+            "name": "ba",
+            "bone": "pp",
+            "attachment": "aa"
+        },
+        {
+            "name": "bx",
+            "bone": "bx",
+            "attachment": "bx"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "ba": {
+                    "aa": {
+                        "y": 0.5,
+                        "width": 520,
+                        "height": 521
+                    },
+                    "ba": {
+                        "y": 0.5,
+                        "width": 454,
+                        "height": 455
+                    },
+                    "ca": {
+                        "y": 0.5,
+                        "width": 634,
+                        "height": 627
+                    }
+                },
+                "bb": {
+                    "ab": {
+                        "x": 0.5,
+                        "y": -37.48,
+                        "width": 433,
+                        "height": 380
+                    },
+                    "bb": {
+                        "x": -4.5,
+                        "y": -12.5,
+                        "width": 373,
+                        "height": 221
+                    },
+                    "cb": {
+                        "y": -7.25,
+                        "width": 504,
+                        "height": 308
+                    }
+                },
+                "bc": {
+                    "ac": {
+                        "width": 520,
+                        "height": 520
+                    },
+                    "bc": {
+                        "y": 0.5,
+                        "width": 454,
+                        "height": 453
+                    },
+                    "cc": {
+                        "width": 626,
+                        "height": 626
+                    }
+                },
+                "bx": {
+                    "bx": {
+                        "x": 6.07,
+                        "y": -0.47,
+                        "width": 59,
+                        "height": 54
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "bx": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.089,
+                                1,
+                                0.178,
+                                1,
+                                0.089,
+                                1,
+                                0.178,
+                                1,
+                                0.089,
+                                1,
+                                0.178,
+                                1,
+                                0.089,
+                                0,
+                                0.178,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.533,
+                                1,
+                                0.8,
+                                1,
+                                0.533,
+                                1,
+                                0.8,
+                                1,
+                                0.533,
+                                1,
+                                0.8,
+                                1,
+                                0.533,
+                                1,
+                                0.8,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.0667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bx": {
+                    "translate": [
+                        {
+                            "x": 5.59,
+                            "y": 11.87
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.339,
+                            "y": 0.339,
+                            "curve": [
+                                0.089,
+                                0.339,
+                                0.178,
+                                1,
+                                0.089,
+                                0.339,
+                                0.178,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "curve": [
+                                0.533,
+                                1,
+                                0.8,
+                                0.835,
+                                0.533,
+                                1,
+                                0.8,
+                                0.835
+                            ]
+                        },
+                        {
+                            "time": 1.0667,
+                            "x": 0.762,
+                            "y": 0.762
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "ba": {
+                    "attachment": [
+                        {
+                            "name": "ba"
+                        }
+                    ]
+                },
+                "bb": {
+                    "attachment": [
+                        {
+                            "name": "bb"
+                        }
+                    ]
+                },
+                "bc": {
+                    "attachment": [
+                        {
+                            "name": "bc"
+                        }
+                    ]
+                },
+                "bx": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.489,
+                                1,
+                                0.578,
+                                1,
+                                0.489,
+                                1,
+                                0.578,
+                                1,
+                                0.489,
+                                1,
+                                0.578,
+                                1,
+                                0.489,
+                                0,
+                                0.578,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.933,
+                                1,
+                                1.2,
+                                1,
+                                0.933,
+                                1,
+                                1.2,
+                                1,
+                                0.933,
+                                1,
+                                1.2,
+                                1,
+                                0.933,
+                                1,
+                                1.2,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.4667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bx": {
+                    "translate": [
+                        {
+                            "x": 14.32,
+                            "y": 15.15
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.762,
+                            "y": 0.762,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 0.339,
+                            "y": 0.339,
+                            "curve": [
+                                0.489,
+                                0.339,
+                                0.578,
+                                1,
+                                0.489,
+                                0.339,
+                                0.578,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "curve": [
+                                0.933,
+                                1,
+                                1.2,
+                                0.835,
+                                0.933,
+                                1,
+                                1.2,
+                                0.835
+                            ]
+                        },
+                        {
+                            "time": 1.4667,
+                            "x": 0.762,
+                            "y": 0.762
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "ba": {
+                    "attachment": [
+                        {
+                            "name": "ca"
+                        }
+                    ]
+                },
+                "bb": {
+                    "attachment": [
+                        {
+                            "name": "cb"
+                        }
+                    ]
+                },
+                "bc": {
+                    "attachment": [
+                        {
+                            "name": "cc"
+                        }
+                    ]
+                },
+                "bx": {
+                    "rgba": [
+                        {
+                            "color": "ffffff60",
+                            "curve": [
+                                0.111,
+                                1,
+                                0.222,
+                                1,
+                                0.111,
+                                1,
+                                0.222,
+                                1,
+                                0.111,
+                                1,
+                                0.222,
+                                1,
+                                0.111,
+                                0.17,
+                                0.222,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9333,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.022,
+                                1,
+                                1.111,
+                                1,
+                                1.022,
+                                1,
+                                1.111,
+                                1,
+                                1.022,
+                                1,
+                                1.111,
+                                1,
+                                1.022,
+                                0,
+                                1.111,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffffff",
+                            "curve": [
+                                1.356,
+                                1,
+                                1.511,
+                                1,
+                                1.356,
+                                1,
+                                1.511,
+                                1,
+                                1.356,
+                                1,
+                                1.511,
+                                1,
+                                1.356,
+                                1,
+                                1.511,
+                                0.66
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffff60"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bx": {
+                    "translate": [
+                        {
+                            "x": 38.34,
+                            "y": 12.96
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.882,
+                            "y": 0.882,
+                            "curve": [
+                                0.111,
+                                0.839,
+                                0.222,
+                                0.792,
+                                0.111,
+                                0.839,
+                                0.222,
+                                0.792
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0.762,
+                            "y": 0.762,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 0.339,
+                            "y": 0.339,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9333,
+                            "x": 0.339,
+                            "y": 0.339,
+                            "curve": [
+                                1.022,
+                                0.339,
+                                1.111,
+                                1,
+                                1.022,
+                                0.339,
+                                1.111,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "curve": [
+                                1.356,
+                                1,
+                                1.511,
+                                0.944,
+                                1.356,
+                                1,
+                                1.511,
+                                0.944
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "x": 0.882,
+                            "y": 0.882
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "pp": {
+            "rootBoneName": "pp",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.04,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 5,
+                    "scaleYAmp": 0.03,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 1,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 0.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 1
+                },
+                "b": {
+                    "name": "b",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.04,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 5,
+                    "scaleYAmp": 0.03,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 2,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 0.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 2
+                },
+                "c": {
+                    "name": "c",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.04,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 5,
+                    "scaleYAmp": 0.03,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 3,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 0.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 3
+                }
+            }
+        },
+        "root": {
+            "rootBoneName": "root",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2,
+                    "moveYCenter": 0
+                },
+                "b": {
+                    "name": "b",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 1,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

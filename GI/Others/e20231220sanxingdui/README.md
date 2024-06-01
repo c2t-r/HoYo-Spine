@@ -1,1 +1,2 @@
+# Genshin Impact X Sanxingdui Museum Collaboration Web Event: Ancient Treasures Unearthed — Take Part for Primogems and Other In-Game Rewards!
 https://act.hoyoverse.com/ys/event/e20231220sanxingdui/index.html

@@ -1,0 +1,247 @@
+{
+    "skeleton": {
+        "hash": "5rvOWdlta0E",
+        "spine": "4.0-from-4.1.24",
+        "x": -732.5,
+        "y": -732.5,
+        "width": 1465,
+        "height": 1466,
+        "images": "./round1/",
+        "audio": "C:/Users/xiankang.zhan/Desktop/需求/非遗h5/10.20 非遗H5相关素材源文整理/设计稿/page1/round"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "round2",
+            "parent": "root",
+            "y": 0.5
+        },
+        {
+            "name": "round5",
+            "parent": "root"
+        },
+        {
+            "name": "round4",
+            "parent": "root"
+        },
+        {
+            "name": "round3",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "round5",
+            "bone": "round5",
+            "attachment": "round5"
+        },
+        {
+            "name": "round4",
+            "bone": "round4",
+            "attachment": "round4"
+        },
+        {
+            "name": "round3",
+            "bone": "round3",
+            "attachment": "round3"
+        },
+        {
+            "name": "round2",
+            "bone": "round2",
+            "attachment": "round2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "round2": {
+                    "round2": {
+                        "width": 1465,
+                        "height": 1466
+                    }
+                },
+                "round3": {
+                    "round3": {
+                        "width": 1425,
+                        "height": 1427
+                    }
+                },
+                "round4": {
+                    "round4": {
+                        "width": 1375,
+                        "height": 1379
+                    }
+                },
+                "round5": {
+                    "round5": {
+                        "width": 1505,
+                        "height": 1507
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "2": {
+            "slots": {
+                "round3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "round4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "round5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "round2": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 11,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        },
+        "3": {
+            "slots": {
+                "round2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "round4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "round5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "round2": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 11,
+                            "value": 360
+                        }
+                    ]
+                },
+                "round3": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 17.4333,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        },
+        "4": {
+            "slots": {
+                "round2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "round3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "round5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "round4": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 13.5,
+                            "value": -360
+                        }
+                    ]
+                }
+            }
+        },
+        "5": {
+            "slots": {
+                "round2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "round3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "round4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "round5": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 23.4667,
+                            "value": 360
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {},
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

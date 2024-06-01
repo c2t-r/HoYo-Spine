@@ -1,0 +1,683 @@
+{
+    "skeleton": {
+        "hash": "jltdlycOQ40",
+        "spine": "4.0-from-4.1.23",
+        "x": -49,
+        "y": -57,
+        "width": 99,
+        "height": 115
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "other_xx_a",
+            "parent": "root",
+            "length": 33.02,
+            "rotation": -69.04,
+            "x": 3.64,
+            "y": 9.97
+        },
+        {
+            "name": "other_xx_i",
+            "parent": "root",
+            "length": 24.79,
+            "rotation": -56.8,
+            "x": 1.24,
+            "y": 2.99
+        },
+        {
+            "name": "other_xx_b",
+            "parent": "root",
+            "length": 55.73,
+            "rotation": 149.66,
+            "x": 9.72,
+            "y": 0.66
+        },
+        {
+            "name": "other_xx_c",
+            "parent": "root",
+            "length": 58.26,
+            "rotation": -111.39,
+            "x": -2.58,
+            "y": 10.72
+        },
+        {
+            "name": "other_xx_d",
+            "parent": "root",
+            "length": 171.75,
+            "rotation": -129.66,
+            "x": 16.85,
+            "y": 15.51
+        },
+        {
+            "name": "other_xx_e",
+            "parent": "root",
+            "length": 150.21,
+            "rotation": -69.56,
+            "x": 6.62,
+            "y": 23.19
+        },
+        {
+            "name": "other_xx_f",
+            "parent": "root",
+            "length": 63.17,
+            "rotation": -83.02,
+            "x": -1.06,
+            "y": 10.4
+        },
+        {
+            "name": "other_xx_g",
+            "parent": "root",
+            "length": 27.37,
+            "rotation": -52.82,
+            "x": -2.46,
+            "y": 4.55
+        },
+        {
+            "name": "other_xx_h",
+            "parent": "root",
+            "length": 16.83,
+            "rotation": -118.57,
+            "x": -0.56,
+            "y": 1.19
+        }
+    ],
+    "slots": [
+        {
+            "name": "other_xx_a",
+            "bone": "other_xx_a",
+            "attachment": "other_xx_a"
+        },
+        {
+            "name": "other_xx_b",
+            "bone": "other_xx_b"
+        },
+        {
+            "name": "other_xx_c",
+            "bone": "other_xx_c"
+        },
+        {
+            "name": "other_xx_d",
+            "bone": "other_xx_d"
+        },
+        {
+            "name": "other_xx_e",
+            "bone": "other_xx_e"
+        },
+        {
+            "name": "other_xx_f",
+            "bone": "other_xx_f"
+        },
+        {
+            "name": "other_xx_g",
+            "bone": "other_xx_g"
+        },
+        {
+            "name": "other_xx_h",
+            "bone": "other_xx_h"
+        },
+        {
+            "name": "other_xx_i",
+            "bone": "other_xx_i"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "other_xx_a": {
+                    "other_xx_a": {
+                        "x": 7.72,
+                        "y": -6.32,
+                        "rotation": 69.04,
+                        "width": 99,
+                        "height": 115
+                    }
+                },
+                "other_xx_b": {
+                    "other_xx_b": {
+                        "x": 8.31,
+                        "y": 5.05,
+                        "rotation": -149.66,
+                        "width": 96,
+                        "height": 71
+                    }
+                },
+                "other_xx_c": {
+                    "other_xx_c": {
+                        "x": 8.58,
+                        "y": 6.13,
+                        "rotation": 111.39,
+                        "width": 96,
+                        "height": 111
+                    }
+                },
+                "other_xx_d": {
+                    "other_xx_d": {
+                        "x": 22.38,
+                        "y": -2.69,
+                        "rotation": 129.66,
+                        "width": 251,
+                        "height": 296
+                    }
+                },
+                "other_xx_e": {
+                    "other_xx_e": {
+                        "x": 18.95,
+                        "y": -14.12,
+                        "rotation": 69.56,
+                        "width": 248,
+                        "height": 285
+                    }
+                },
+                "other_xx_f": {
+                    "other_xx_f": {
+                        "x": 10.51,
+                        "y": 0.29,
+                        "rotation": 83.02,
+                        "width": 109,
+                        "height": 130
+                    }
+                },
+                "other_xx_g": {
+                    "other_xx_g": {
+                        "x": 4.72,
+                        "y": -0.49,
+                        "rotation": 52.82,
+                        "width": 46,
+                        "height": 55
+                    }
+                },
+                "other_xx_h": {
+                    "other_xx_h": {
+                        "x": 0.54,
+                        "y": 1.5,
+                        "rotation": 118.57,
+                        "width": 35,
+                        "height": 40
+                    }
+                },
+                "other_xx_i": {
+                    "other_xx_i": {
+                        "x": 2.09,
+                        "y": -2.25,
+                        "rotation": 56.8,
+                        "width": 51,
+                        "height": 56
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "other_xx_a": {
+                    "attachment": [
+                        {
+                            "name": "other_xx_a"
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "other_xx_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "other_xx_b": {
+                    "attachment": [
+                        {
+                            "name": "other_xx_b"
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "other_xx_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "other_xx_c": {
+                    "attachment": [
+                        {
+                            "name": "other_xx_c"
+                        }
+                    ]
+                }
+            }
+        },
+        "d": {
+            "slots": {
+                "other_xx_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "other_xx_d": {
+                    "attachment": [
+                        {
+                            "name": "other_xx_d"
+                        }
+                    ]
+                }
+            }
+        },
+        "e": {
+            "slots": {
+                "other_xx_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "other_xx_e": {
+                    "attachment": [
+                        {
+                            "name": "other_xx_e"
+                        }
+                    ]
+                }
+            }
+        },
+        "f": {
+            "slots": {
+                "other_xx_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "other_xx_f": {
+                    "attachment": [
+                        {
+                            "name": "other_xx_f"
+                        }
+                    ]
+                }
+            }
+        },
+        "g": {
+            "slots": {
+                "other_xx_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "other_xx_g": {
+                    "attachment": [
+                        {
+                            "name": "other_xx_g"
+                        }
+                    ]
+                }
+            }
+        },
+        "h": {
+            "slots": {
+                "other_xx_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "other_xx_h": {
+                    "attachment": [
+                        {
+                            "name": "other_xx_h"
+                        }
+                    ]
+                }
+            }
+        },
+        "i": {
+            "slots": {
+                "other_xx_a": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "other_xx_i": {
+                    "attachment": [
+                        {
+                            "name": "other_xx_i"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "other_xx_a": {
+            "rootBoneName": "other_xx_a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "a": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4526,
+                    "scaleXFreq": 0.3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "root": {
+            "rootBoneName": "root",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "a": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                },
+                "b": {
+                    "name": "b",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.3509073356247048,
+                    "scaleXCenter": 0
+                },
+                "c": {
+                    "name": "c",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 5.187339610943458,
+                    "scaleXCenter": 0
+                },
+                "d": {
+                    "name": "d",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.538042217573228,
+                    "scaleXCenter": 0
+                },
+                "e": {
+                    "name": "e",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.87413461649583,
+                    "scaleXCenter": 0
+                },
+                "f": {
+                    "name": "f",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 4.7417329034181455,
+                    "scaleXCenter": 0
+                },
+                "g": {
+                    "name": "g",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.1232064941497604,
+                    "scaleXCenter": 0
+                },
+                "h": {
+                    "name": "h",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.7740548579279243,
+                    "scaleXCenter": 0
+                },
+                "i": {
+                    "name": "i",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -5.259268144225621,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "other_xx_b": {
+            "rootBoneName": "other_xx_b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "b": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.4690673173718234,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4550.261637646144,
+                    "scaleXFreq": 0.3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 6.093688024901349,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "other_xx_c": {
+            "rootBoneName": "other_xx_c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "c": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.5959221192444994,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4526.536740422114,
+                    "scaleXFreq": 0.3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 4.410611791080128,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "other_xx_d": {
+            "rootBoneName": "other_xx_d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "d": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 4.4413244897453215,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4525.5622436826725,
+                    "scaleXFreq": 1,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.213353412115441,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "other_xx_e": {
+            "rootBoneName": "other_xx_e",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "e": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.5884728492737503,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4528.317390970636,
+                    "scaleXFreq": 1,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -3.865276486230298,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "other_xx_f": {
+            "rootBoneName": "other_xx_f",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "f": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.371835367066447,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4523.955988321473,
+                    "scaleXFreq": 0.3,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -0.4177955954690141,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "other_xx_g": {
+            "rootBoneName": "other_xx_g",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "g": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -0.6808049259173805,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4519.8351850925355,
+                    "scaleXFreq": 0.3,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -5.087006560967388,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "other_xx_h": {
+            "rootBoneName": "other_xx_h",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "h": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.085184978006976,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4521.538188107224,
+                    "scaleXFreq": 0.3,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.0544580792830387,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "other_xx_i": {
+            "rootBoneName": "other_xx_i",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "i": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -2.637316744171485,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4524.7677811262765,
+                    "scaleXFreq": 0.3,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 4.498005227197223,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

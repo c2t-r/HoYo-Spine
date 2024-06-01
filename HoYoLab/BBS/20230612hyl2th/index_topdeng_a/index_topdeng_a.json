@@ -1,0 +1,153 @@
+{
+    "skeleton": {
+        "hash": "773zmu91QE0",
+        "spine": "4.0-from-4.1.23",
+        "x": -221,
+        "y": -276,
+        "width": 545.94,
+        "height": 553
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "灯ab",
+            "parent": "root",
+            "length": 230.88,
+            "rotation": -82.04,
+            "x": -104.69,
+            "y": 94.45
+        },
+        {
+            "name": "灯ab2",
+            "parent": "root",
+            "length": 230.88,
+            "rotation": -47.38,
+            "x": -22.83,
+            "y": 142.97
+        }
+    ],
+    "slots": [
+        {
+            "name": "灯座a",
+            "bone": "root",
+            "attachment": "灯座a"
+        },
+        {
+            "name": "灯ab",
+            "bone": "灯ab",
+            "attachment": "灯ab",
+            "blend": "additive"
+        },
+        {
+            "name": "灯ab2",
+            "bone": "灯ab2",
+            "attachment": "灯ab",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "灯ab": {
+                    "灯ab": {
+                        "x": 169.82,
+                        "y": 1.68,
+                        "rotation": 82.04,
+                        "width": 283,
+                        "height": 405
+                    }
+                },
+                "灯ab2": {
+                    "灯ab": {
+                        "x": 169.82,
+                        "y": 1.68,
+                        "rotation": 82.04,
+                        "width": 283,
+                        "height": 405
+                    }
+                },
+                "灯座a": {
+                    "灯座a": {
+                        "x": -61.5,
+                        "y": 174.5,
+                        "width": 231,
+                        "height": 205
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "灯ab2": {
+            "rootBoneName": "灯ab2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 2,
+                    "rotateRange": 5,
+                    "rotateOffset": 0,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        },
+        "灯ab": {
+            "rootBoneName": "灯ab",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 2,
+                    "rotateRange": 5,
+                    "rotateOffset": 1.5615268552134818,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "灯ab": {
+            "slotName": "灯ab",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "灯ab2": {
+            "slotName": "灯ab2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.4382998688976567,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

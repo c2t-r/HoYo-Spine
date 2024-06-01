@@ -1,0 +1,416 @@
+{
+    "skeleton": {
+        "hash": "8oS0istclKE",
+        "spine": "4.0-from-4.1.24",
+        "x": -826,
+        "y": -144,
+        "width": 1815,
+        "height": 492,
+        "images": "./bird/",
+        "audio": "C:/Users/xiankang.zhan/Desktop/需求/非遗h5/10.20 非遗H5相关素材源文整理/设计稿/page1/bird"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone2",
+            "parent": "root",
+            "x": 819.5,
+            "y": -78.5
+        },
+        {
+            "name": "p0niao1",
+            "parent": "bone2"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -752,
+            "y": 290
+        },
+        {
+            "name": "p0niao3",
+            "parent": "bone"
+        },
+        {
+            "name": "bone3",
+            "parent": "root",
+            "x": 933,
+            "y": 38.5
+        },
+        {
+            "name": "p0niao2",
+            "parent": "bone3"
+        }
+    ],
+    "slots": [
+        {
+            "name": "p0niao3",
+            "bone": "p0niao3",
+            "attachment": "p0niao3"
+        },
+        {
+            "name": "p0niao2",
+            "bone": "p0niao2",
+            "attachment": "p0niao2"
+        },
+        {
+            "name": "p0niao1",
+            "bone": "p0niao1",
+            "attachment": "p0niao1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "p0niao1": {
+                    "p0niao1": {
+                        "width": 207,
+                        "height": 131
+                    }
+                },
+                "p0niao2": {
+                    "p0niao2": {
+                        "width": 112,
+                        "height": 133
+                    }
+                },
+                "p0niao3": {
+                    "p0niao3": {
+                        "width": 148,
+                        "height": 116
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "bones": {
+                "p0niao1": {
+                    "rotate": [
+                        {
+                            "value": 40.54,
+                            "curve": [
+                                0.289,
+                                40.54,
+                                0.578,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.8667
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 1253,
+                            "y": 494.49,
+                            "curve": [
+                                0.194,
+                                1253,
+                                0.302,
+                                1028.35,
+                                0.194,
+                                494.49,
+                                0.302,
+                                280.78
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 737.28,
+                            "y": 165.91,
+                            "curve": [
+                                0.515,
+                                404.63,
+                                0.615,
+                                0,
+                                0.515,
+                                34.64,
+                                0.615,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.8667
+                        }
+                    ]
+                },
+                "p0niao2": {
+                    "translate": [
+                        {
+                            "x": 514.91,
+                            "y": 834.07,
+                            "curve": [
+                                0.48,
+                                514.91,
+                                0.478,
+                                0,
+                                0.48,
+                                834.07,
+                                0.478,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9333
+                        }
+                    ]
+                },
+                "p0niao3": {
+                    "translate": [
+                        {
+                            "x": -979.95,
+                            "y": 927.08,
+                            "curve": [
+                                0.47,
+                                -979.95,
+                                0.402,
+                                0,
+                                0.47,
+                                927.08,
+                                0.402,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9333
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {},
+        "out": {
+            "bones": {
+                "p0niao1": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.237,
+                                0,
+                                0.343,
+                                -40.32
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": -51.93,
+                            "curve": [
+                                0.579,
+                                -62.37,
+                                0.697,
+                                -67.93
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "value": -67.93
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "curve": [
+                                0.237,
+                                0,
+                                0.343,
+                                -484.1,
+                                0.237,
+                                0,
+                                0.343,
+                                -237.27
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": -1065.56,
+                            "y": 71.7,
+                            "curve": [
+                                0.579,
+                                -1588.14,
+                                0.697,
+                                -2214.37,
+                                0.579,
+                                349.38,
+                                0.697,
+                                1176.65
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "x": -2214.37,
+                            "y": 1176.65
+                        }
+                    ]
+                },
+                "p0niao2": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.42,
+                                0,
+                                0.409,
+                                -25.24
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -25.24
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "curve": [
+                                0.268,
+                                0,
+                                0.36,
+                                -311.08,
+                                0.268,
+                                0,
+                                0.36,
+                                -333.02
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": -630.1,
+                            "y": -517.58,
+                            "curve": [
+                                0.583,
+                                -812.16,
+                                0.679,
+                                -1083.09,
+                                0.583,
+                                -622.91,
+                                0.679,
+                                -626.6
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": -1083.09,
+                            "y": -626.6,
+                            "curve": [
+                                0.856,
+                                -1083.09,
+                                0.878,
+                                -1327.45,
+                                0.856,
+                                -626.6,
+                                0.878,
+                                -820.19
+                            ]
+                        },
+                        {
+                            "time": 0.9,
+                            "x": -1327.45,
+                            "y": -820.19
+                        }
+                    ]
+                },
+                "p0niao3": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.235,
+                                0,
+                                0.351,
+                                353.93,
+                                0.235,
+                                0,
+                                0.351,
+                                -462.67
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 847.74,
+                            "y": -782.87,
+                            "curve": [
+                                0.578,
+                                1309.69,
+                                0.689,
+                                1913.64,
+                                0.578,
+                                -1082.41,
+                                0.689,
+                                -1240.85
+                            ]
+                        },
+                        {
+                            "time": 0.9,
+                            "x": 1913.64,
+                            "y": -1240.85
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "bone2": {
+            "rootBoneName": "bone2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4.5,
+                    "moveXAmp": 7.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 9929,
+                    "rotateFreq": 4.5,
+                    "rotateAmp": 2.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4.5,
+                    "moveXAmp": 7.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.7251584022876657,
+                    "moveXCenter": 0,
+                    "moveXSeed": 9934.140571406797,
+                    "rotateFreq": 4.5,
+                    "rotateAmp": 2.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.08695790727222534
+                }
+            }
+        },
+        "bone3": {
+            "rootBoneName": "bone3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4.5,
+                    "moveXAmp": 7.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.7115680933572881,
+                    "moveXCenter": 0,
+                    "moveXSeed": 9926.296641475074,
+                    "rotateFreq": 4.5,
+                    "rotateAmp": 2.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.04546261063963706
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

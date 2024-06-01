@@ -1,0 +1,918 @@
+{
+    "skeleton": {
+        "hash": "6OTUVUeTIT4",
+        "spine": "4.0-from-4.1.21",
+        "x": -534,
+        "y": -294,
+        "width": 1068,
+        "height": 588
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "index2_day_yund",
+            "parent": "root",
+            "x": -224.81,
+            "y": -125.69
+        },
+        {
+            "name": "index2_day_yunc",
+            "parent": "root",
+            "x": 301.47,
+            "y": -50.12
+        },
+        {
+            "name": "index2_day_yunb",
+            "parent": "root",
+            "x": -134.4,
+            "y": 98.32
+        },
+        {
+            "name": "index2_day_yuna",
+            "parent": "root",
+            "x": 142.23,
+            "y": 184.68
+        }
+    ],
+    "slots": [
+        {
+            "name": "index2_night_st21",
+            "bone": "root",
+            "attachment": "index2_night_st21"
+        },
+        {
+            "name": "index2_night_st20",
+            "bone": "root",
+            "attachment": "index2_night_st20"
+        },
+        {
+            "name": "index2_night_st19",
+            "bone": "root",
+            "attachment": "index2_night_st19"
+        },
+        {
+            "name": "index2_night_st18",
+            "bone": "root",
+            "attachment": "index2_night_st18"
+        },
+        {
+            "name": "index2_night_st17",
+            "bone": "root",
+            "attachment": "index2_night_st17"
+        },
+        {
+            "name": "index2_night_st16",
+            "bone": "root",
+            "attachment": "index2_night_st16"
+        },
+        {
+            "name": "index2_night_st15",
+            "bone": "root",
+            "attachment": "index2_night_st15"
+        },
+        {
+            "name": "index2_night_st14",
+            "bone": "root",
+            "attachment": "index2_night_st14"
+        },
+        {
+            "name": "index2_night_st13",
+            "bone": "root",
+            "attachment": "index2_night_st13"
+        },
+        {
+            "name": "index2_night_st12",
+            "bone": "root",
+            "attachment": "index2_night_st12"
+        },
+        {
+            "name": "index2_night_st11",
+            "bone": "root",
+            "attachment": "index2_night_st11"
+        },
+        {
+            "name": "index2_night_st10",
+            "bone": "root",
+            "attachment": "index2_night_st10"
+        },
+        {
+            "name": "index2_night_st9",
+            "bone": "root",
+            "attachment": "index2_night_st9"
+        },
+        {
+            "name": "index2_night_st8",
+            "bone": "root",
+            "attachment": "index2_night_st8"
+        },
+        {
+            "name": "index2_night_st7",
+            "bone": "root",
+            "attachment": "index2_night_st7"
+        },
+        {
+            "name": "index2_night_st6",
+            "bone": "root",
+            "attachment": "index2_night_st6"
+        },
+        {
+            "name": "index2_night_st5",
+            "bone": "root",
+            "attachment": "index2_night_st5"
+        },
+        {
+            "name": "index2_night_st4",
+            "bone": "root",
+            "attachment": "index2_night_st4"
+        },
+        {
+            "name": "index2_night_st3",
+            "bone": "root",
+            "attachment": "index2_night_st3"
+        },
+        {
+            "name": "index2_night_st2",
+            "bone": "root",
+            "attachment": "index2_night_st2"
+        },
+        {
+            "name": "index2_night_st1",
+            "bone": "root",
+            "attachment": "index2_night_st1"
+        },
+        {
+            "name": "index2_day_yund",
+            "bone": "index2_day_yund",
+            "attachment": "index2_day_yund"
+        },
+        {
+            "name": "index2_day_yunc",
+            "bone": "index2_day_yunc",
+            "attachment": "index2_day_yunc"
+        },
+        {
+            "name": "index2_day_yunb",
+            "bone": "index2_day_yunb",
+            "attachment": "index2_day_yunb"
+        },
+        {
+            "name": "index2_day_yuna",
+            "bone": "index2_day_yuna",
+            "attachment": "index2_day_yuna"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "index2_day_yuna": {
+                    "index2_day_yuna": {
+                        "x": 10.77,
+                        "y": -7.68,
+                        "width": 198,
+                        "height": 100
+                    }
+                },
+                "index2_day_yunb": {
+                    "index2_day_yunb": {
+                        "x": 16.4,
+                        "y": 2.18,
+                        "width": 290,
+                        "height": 111
+                    }
+                },
+                "index2_day_yunc": {
+                    "index2_day_yunc": {
+                        "x": -24.47,
+                        "y": -1.88,
+                        "width": 514,
+                        "height": 398
+                    }
+                },
+                "index2_day_yund": {
+                    "index2_day_yund": {
+                        "x": 147.81,
+                        "y": 55.19,
+                        "width": 914,
+                        "height": 447
+                    }
+                },
+                "index2_night_st1": {
+                    "index2_night_st1": {
+                        "x": 193.5,
+                        "y": 60.5,
+                        "width": 9,
+                        "height": 9
+                    }
+                },
+                "index2_night_st2": {
+                    "index2_night_st2": {
+                        "x": 295.5,
+                        "y": 134.5,
+                        "width": 13,
+                        "height": 13
+                    }
+                },
+                "index2_night_st3": {
+                    "index2_night_st3": {
+                        "x": 112,
+                        "y": 119,
+                        "width": 8,
+                        "height": 8
+                    }
+                },
+                "index2_night_st4": {
+                    "index2_night_st4": {
+                        "x": 190,
+                        "y": 289,
+                        "width": 12,
+                        "height": 10
+                    }
+                },
+                "index2_night_st5": {
+                    "index2_night_st5": {
+                        "x": 64,
+                        "y": 162,
+                        "width": 12,
+                        "height": 12
+                    }
+                },
+                "index2_night_st6": {
+                    "index2_night_st6": {
+                        "x": -56,
+                        "y": 169.5,
+                        "width": 10,
+                        "height": 9
+                    }
+                },
+                "index2_night_st7": {
+                    "index2_night_st7": {
+                        "x": 68,
+                        "y": -32,
+                        "width": 12,
+                        "height": 10
+                    }
+                },
+                "index2_night_st8": {
+                    "index2_night_st8": {
+                        "x": 134,
+                        "y": -25,
+                        "width": 32,
+                        "height": 14
+                    }
+                },
+                "index2_night_st9": {
+                    "index2_night_st9": {
+                        "x": 292,
+                        "y": 196.5,
+                        "width": 12,
+                        "height": 13
+                    }
+                },
+                "index2_night_st10": {
+                    "index2_night_st10": {
+                        "x": 162.5,
+                        "y": 164,
+                        "width": 41,
+                        "height": 42
+                    }
+                },
+                "index2_night_st11": {
+                    "index2_night_st11": {
+                        "x": -62,
+                        "y": 90,
+                        "width": 42,
+                        "height": 42
+                    }
+                },
+                "index2_night_st12": {
+                    "index2_night_st12": {
+                        "x": -124,
+                        "y": 138,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "index2_night_st13": {
+                    "index2_night_st13": {
+                        "x": -289.5,
+                        "y": 170.5,
+                        "width": 15,
+                        "height": 13
+                    }
+                },
+                "index2_night_st14": {
+                    "index2_night_st14": {
+                        "x": -159.5,
+                        "y": 252,
+                        "width": 39,
+                        "height": 38
+                    }
+                },
+                "index2_night_st15": {
+                    "index2_night_st15": {
+                        "x": -276.5,
+                        "y": 113.5,
+                        "width": 11,
+                        "height": 11
+                    }
+                },
+                "index2_night_st16": {
+                    "index2_night_st16": {
+                        "x": -247,
+                        "y": -16.5,
+                        "width": 10,
+                        "height": 11
+                    }
+                },
+                "index2_night_st17": {
+                    "index2_night_st17": {
+                        "x": 126.5,
+                        "y": 249,
+                        "width": 11,
+                        "height": 8
+                    }
+                },
+                "index2_night_st18": {
+                    "index2_night_st18": {
+                        "x": 112.5,
+                        "y": 268.5,
+                        "width": 9,
+                        "height": 9
+                    }
+                },
+                "index2_night_st19": {
+                    "index2_night_st19": {
+                        "x": -169,
+                        "y": 121.5,
+                        "width": 8,
+                        "height": 9
+                    }
+                },
+                "index2_night_st20": {
+                    "index2_night_st20": {
+                        "x": -104,
+                        "y": 188,
+                        "width": 8,
+                        "height": 8
+                    }
+                },
+                "index2_night_st21": {
+                    "index2_night_st21": {
+                        "x": -22,
+                        "y": 264,
+                        "width": 6,
+                        "height": 6
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "day": {
+            "slots": {
+                "index2_night_st1": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st2": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st3": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st4": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st5": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st6": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st7": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st8": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st9": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st10": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st11": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st12": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st13": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st14": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st15": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st16": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st17": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st18": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st19": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st20": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_night_st21": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "night": {
+            "slots": {
+                "index2_day_yuna": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_day_yunb": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_day_yunc": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                },
+                "index2_day_yund": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "index2_day_yuna": {
+            "rootBoneName": "index2_day_yuna",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4997
+                },
+                "night": {
+                    "name": "night",
+                    "mode": 0
+                }
+            }
+        },
+        "index2_day_yunb": {
+            "rootBoneName": "index2_day_yunb",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.417093827233624,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4997.42476157947
+                },
+                "night": {
+                    "name": "night",
+                    "mode": 0
+                }
+            }
+        },
+        "index2_day_yunc": {
+            "rootBoneName": "index2_day_yunc",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 15,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 5.570931797904268,
+                    "moveXCenter": 0,
+                    "moveXSeed": 5003.123872749006
+                },
+                "night": {
+                    "name": "night",
+                    "mode": 0
+                }
+            }
+        },
+        "index2_day_yund": {
+            "rootBoneName": "index2_day_yund",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 15,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.1721054739688335,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4998.223242454314
+                },
+                "night": {
+                    "name": "night",
+                    "mode": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "index2_night_st21": {
+            "slotName": "index2_night_st21",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0,
+                    "min": 0.5,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st20": {
+            "slotName": "index2_night_st20",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.04236518804301648,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st19": {
+            "slotName": "index2_night_st19",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": -0.13186450358467416,
+                    "min": 0.4,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st18": {
+            "slotName": "index2_night_st18",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": -0.3206250719418928,
+                    "min": 0.5,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st17": {
+            "slotName": "index2_night_st17",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": -0.07731037243720751,
+                    "min": 0.45,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st16": {
+            "slotName": "index2_night_st16",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.22540293073898865,
+                    "min": 0.55,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st15": {
+            "slotName": "index2_night_st15",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.0066267292756392315,
+                    "min": 0.43,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st14": {
+            "slotName": "index2_night_st14",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.0959383422160418,
+                    "min": 0.3,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st13": {
+            "slotName": "index2_night_st13",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.3521390211925166,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st12": {
+            "slotName": "index2_night_st12",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.723085122859811,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st11": {
+            "slotName": "index2_night_st11",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.9783225805680369,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st1": {
+            "slotName": "index2_night_st1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.5044577984642551,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st2": {
+            "slotName": "index2_night_st2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.658609521518517,
+                    "min": 0.6,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st3": {
+            "slotName": "index2_night_st3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.42004811626259486,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st5": {
+            "slotName": "index2_night_st5",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 0.8670582869108354,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st8": {
+            "slotName": "index2_night_st8",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 1.1885471901926057,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st9": {
+            "slotName": "index2_night_st9",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.5,
+                    "delay": 1.0695184140745364,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st10": {
+            "slotName": "index2_night_st10",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.36,
+                    "delay": 1.4419806180694317,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st7": {
+            "slotName": "index2_night_st7",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.36,
+                    "delay": 1.0358215332467722,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st4": {
+            "slotName": "index2_night_st4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.36,
+                    "delay": 1.0776403075094991,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        },
+        "index2_night_st6": {
+            "slotName": "index2_night_st6",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.36,
+                    "delay": 0.6462883492665403,
+                    "min": 0.7,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

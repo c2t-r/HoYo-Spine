@@ -1,0 +1,1494 @@
+{
+    "skeleton": {
+        "hash": "rhsTEysnVrc",
+        "spine": "4.0-from-4.1.23",
+        "x": -1345,
+        "y": -205.62,
+        "width": 2877,
+        "height": 355
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -1532,
+            "y": 149.38
+        },
+        {
+            "name": "all",
+            "parent": "root",
+            "x": 1532,
+            "y": -149.38
+        },
+        {
+            "name": "hoyolab",
+            "parent": "all"
+        },
+        {
+            "name": "s_l",
+            "parent": "hoyolab",
+            "x": 215.01,
+            "y": 2.54
+        },
+        {
+            "name": "k_a",
+            "parent": "hoyolab",
+            "x": 419.24,
+            "y": 2.54
+        },
+        {
+            "name": "k_b",
+            "parent": "hoyolab",
+            "x": 648.44,
+            "y": 9.67
+        },
+        {
+            "name": "ink",
+            "parent": "all"
+        },
+        {
+            "name": "ll",
+            "parent": "all"
+        },
+        {
+            "name": "3",
+            "parent": "all"
+        }
+    ],
+    "slots": [
+        {
+            "name": "k_b",
+            "bone": "k_b",
+            "color": "ffffff00",
+            "attachment": "k_b"
+        },
+        {
+            "name": "k_a",
+            "bone": "k_a",
+            "color": "ffffff00",
+            "attachment": "k_a"
+        },
+        {
+            "name": "k_l",
+            "bone": "s_l",
+            "color": "ffffff00",
+            "attachment": "k_l"
+        },
+        {
+            "name": "k_o2",
+            "bone": "hoyolab",
+            "color": "ffffff00",
+            "attachment": "k_o2"
+        },
+        {
+            "name": "k_y",
+            "bone": "hoyolab",
+            "color": "ffffff00",
+            "attachment": "k_y"
+        },
+        {
+            "name": "k_o",
+            "bone": "hoyolab",
+            "color": "ffffff00",
+            "attachment": "k_o"
+        },
+        {
+            "name": "k_h",
+            "bone": "hoyolab",
+            "color": "ffffff00",
+            "attachment": "k_h"
+        },
+        {
+            "name": "y",
+            "bone": "3",
+            "color": "ffffff00",
+            "attachment": "y"
+        },
+        {
+            "name": "t2",
+            "bone": "3",
+            "color": "ffffff00",
+            "attachment": "t2"
+        },
+        {
+            "name": "u",
+            "bone": "3",
+            "color": "ffffff00",
+            "attachment": "u"
+        },
+        {
+            "name": "a",
+            "bone": "3",
+            "color": "ffffff00",
+            "attachment": "a"
+        },
+        {
+            "name": "e2",
+            "bone": "3",
+            "color": "ffffff00",
+            "attachment": "e2"
+        },
+        {
+            "name": "e1",
+            "bone": "ll",
+            "color": "ffffff00",
+            "attachment": "e1"
+        },
+        {
+            "name": "h",
+            "bone": "ll",
+            "color": "ffffff00",
+            "attachment": "h"
+        },
+        {
+            "name": "t",
+            "bone": "ll",
+            "color": "ffffff00",
+            "attachment": "t"
+        },
+        {
+            "name": "l2",
+            "bone": "ll",
+            "color": "ffffff00",
+            "attachment": "l2"
+        },
+        {
+            "name": "l1",
+            "bone": "ll",
+            "color": "ffffff00",
+            "attachment": "l1"
+        },
+        {
+            "name": "k",
+            "bone": "ink",
+            "color": "ffffff00",
+            "attachment": "k"
+        },
+        {
+            "name": "n",
+            "bone": "ink",
+            "color": "ffffff00",
+            "attachment": "n"
+        },
+        {
+            "name": "i",
+            "bone": "ink",
+            "color": "ffffff00",
+            "attachment": "i"
+        },
+        {
+            "name": "s_b",
+            "bone": "k_b",
+            "color": "ffffff00",
+            "attachment": "s_b"
+        },
+        {
+            "name": "s_a",
+            "bone": "k_a",
+            "color": "ffffff00",
+            "attachment": "s_a"
+        },
+        {
+            "name": "s_l",
+            "bone": "s_l",
+            "color": "ffffff00",
+            "attachment": "s_l"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": 921,
+                        "y": -25.62,
+                        "width": 168,
+                        "height": 206
+                    }
+                },
+                "e1": {
+                    "e1": {
+                        "x": 222.5,
+                        "y": -25.62,
+                        "width": 175,
+                        "height": 206
+                    }
+                },
+                "e2": {
+                    "e2": {
+                        "x": 730.5,
+                        "y": -25.62,
+                        "width": 175,
+                        "height": 206
+                    }
+                },
+                "h": {
+                    "h": {
+                        "x": 27.5,
+                        "y": 13.88,
+                        "width": 163,
+                        "height": 271
+                    }
+                },
+                "i": {
+                    "i": {
+                        "x": -1321,
+                        "y": 12.88,
+                        "width": 48,
+                        "height": 271
+                    }
+                },
+                "k": {
+                    "k": {
+                        "x": -984,
+                        "y": 13.38,
+                        "width": 166,
+                        "height": 272
+                    }
+                },
+                "k_a": {
+                    "k_a": {
+                        "x": 2.76,
+                        "y": 2.34,
+                        "width": 222,
+                        "height": 265
+                    }
+                },
+                "k_b": {
+                    "k_b": {
+                        "x": 17.56,
+                        "y": -5.79,
+                        "width": 196,
+                        "height": 261
+                    }
+                },
+                "k_h": {
+                    "k_h": {
+                        "x": -669.5,
+                        "y": 4.88,
+                        "width": 205,
+                        "height": 265
+                    }
+                },
+                "k_l": {
+                    "k_l": {
+                        "x": -0.01,
+                        "y": 2.34,
+                        "width": 148,
+                        "height": 265
+                    }
+                },
+                "k_o": {
+                    "k_o": {
+                        "x": -425,
+                        "y": -28.12,
+                        "width": 186,
+                        "height": 211
+                    }
+                },
+                "k_o2": {
+                    "k_o2": {
+                        "y": -28.12,
+                        "width": 186,
+                        "height": 211
+                    }
+                },
+                "k_y": {
+                    "k_y": {
+                        "x": -212,
+                        "y": 4.88,
+                        "width": 204,
+                        "height": 265
+                    }
+                },
+                "l1": {
+                    "l1": {
+                        "x": -506.5,
+                        "y": 7.88,
+                        "width": 85,
+                        "height": 273
+                    }
+                },
+                "l2": {
+                    "l2": {
+                        "x": -405.5,
+                        "y": 7.88,
+                        "width": 85,
+                        "height": 273
+                    }
+                },
+                "n": {
+                    "n": {
+                        "x": -1181.5,
+                        "y": -22.12,
+                        "width": 169,
+                        "height": 199
+                    }
+                },
+                "s_a": {
+                    "s_a": {
+                        "x": 2.48,
+                        "y": 2.84,
+                        "width": 218,
+                        "height": 260
+                    }
+                },
+                "s_b": {
+                    "s_b": {
+                        "x": 17.92,
+                        "y": -5.01,
+                        "width": 192,
+                        "height": 257
+                    }
+                },
+                "s_l": {
+                    "s_l": {
+                        "x": -0.41,
+                        "y": 1.35,
+                        "width": 143,
+                        "height": 261
+                    }
+                },
+                "t": {
+                    "t": {
+                        "x": -166.5,
+                        "y": 6.38,
+                        "width": 191,
+                        "height": 256
+                    }
+                },
+                "t2": {
+                    "t2": {
+                        "x": 1275,
+                        "y": -8.62,
+                        "width": 128,
+                        "height": 240
+                    }
+                },
+                "u": {
+                    "u": {
+                        "x": 1115,
+                        "y": -28.62,
+                        "width": 170,
+                        "height": 200
+                    }
+                },
+                "y": {
+                    "y": {
+                        "x": 1441,
+                        "y": -67.12,
+                        "width": 182,
+                        "height": 277
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "k_a": {
+                    "rgba": [
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.7,
+                                1,
+                                0.9,
+                                1,
+                                0.7,
+                                1,
+                                0.9,
+                                1,
+                                0.7,
+                                1,
+                                0.9,
+                                1,
+                                0.7,
+                                0,
+                                0.9,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "k_b": {
+                    "rgba": [
+                        {
+                            "time": 0.2,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.4,
+                                1,
+                                0.6,
+                                1,
+                                0.4,
+                                1,
+                                0.6,
+                                1,
+                                0.4,
+                                1,
+                                0.6,
+                                1,
+                                0.4,
+                                0,
+                                0.6,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "k_h": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.2,
+                                1,
+                                0.4,
+                                1,
+                                0.2,
+                                1,
+                                0.4,
+                                1,
+                                0.2,
+                                1,
+                                0.4,
+                                1,
+                                0.2,
+                                0,
+                                0.4,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "k_l": {
+                    "rgba": [
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.533,
+                                1,
+                                0.733,
+                                1,
+                                0.533,
+                                1,
+                                0.733,
+                                1,
+                                0.533,
+                                1,
+                                0.733,
+                                1,
+                                0.533,
+                                0,
+                                0.733,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "k_o": {
+                    "rgba": [
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.467,
+                                1,
+                                0.667,
+                                1,
+                                0.467,
+                                1,
+                                0.667,
+                                1,
+                                0.467,
+                                1,
+                                0.667,
+                                1,
+                                0.467,
+                                0,
+                                0.667,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "k_o2": {
+                    "rgba": [
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.111,
+                                1,
+                                1.389,
+                                1,
+                                1.111,
+                                1,
+                                1.389,
+                                1,
+                                1.111,
+                                1,
+                                1.389,
+                                1,
+                                1.204,
+                                0,
+                                1.385,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "k_y": {
+                    "rgba": [
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.867,
+                                1,
+                                1.033,
+                                1,
+                                0.867,
+                                1,
+                                1.033,
+                                1,
+                                0.867,
+                                1,
+                                1.033,
+                                1,
+                                0.867,
+                                0,
+                                1.033,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "k_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "k_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "k_h": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.295,
+                                1,
+                                0.405,
+                                1,
+                                0.295,
+                                1,
+                                0.405,
+                                1,
+                                0.295,
+                                1,
+                                0.405,
+                                1,
+                                0.295,
+                                1,
+                                0.405,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "k_l": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "k_o": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.428,
+                                1,
+                                0.605,
+                                1,
+                                0.428,
+                                1,
+                                0.605,
+                                1,
+                                0.428,
+                                1,
+                                0.605,
+                                1,
+                                0.428,
+                                1,
+                                0.605,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "k_o2": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.161,
+                                1,
+                                0.272,
+                                1,
+                                0.161,
+                                1,
+                                0.272,
+                                1,
+                                0.161,
+                                1,
+                                0.272,
+                                1,
+                                0.161,
+                                1,
+                                0.272,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "k_y": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.261,
+                                1,
+                                0.439,
+                                1,
+                                0.261,
+                                1,
+                                0.439,
+                                1,
+                                0.261,
+                                1,
+                                0.439,
+                                1,
+                                0.261,
+                                1,
+                                0.439,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "k_a": {
+                    "translate": [
+                        {
+                            "time": 0.3,
+                            "curve": [
+                                0.487,
+                                0,
+                                0.599,
+                                -459.53,
+                                0.487,
+                                0,
+                                0.646,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": -459.53
+                        }
+                    ]
+                },
+                "k_b": {
+                    "translate": [
+                        {
+                            "time": 0.4333,
+                            "curve": [
+                                0.653,
+                                0,
+                                0.821,
+                                -467.24,
+                                0.653,
+                                0,
+                                0.88,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "x": -467.24
+                        }
+                    ]
+                },
+                "s_l": {
+                    "translate": [
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.342,
+                                0,
+                                0.468,
+                                -456.44,
+                                0.342,
+                                0,
+                                0.558,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.7667,
+                            "x": -456.44
+                        }
+                    ]
+                }
+            }
+        },
+        "c": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "time": 1.2,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.478,
+                                1,
+                                1.756,
+                                1,
+                                1.478,
+                                1,
+                                1.756,
+                                1,
+                                1.478,
+                                1,
+                                1.756,
+                                1,
+                                1.478,
+                                0,
+                                1.756,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.0333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "e1": {
+                    "rgba": [
+                        {
+                            "time": 1.2333,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.511,
+                                1,
+                                1.789,
+                                1,
+                                1.511,
+                                1,
+                                1.789,
+                                1,
+                                1.511,
+                                1,
+                                1.789,
+                                1,
+                                1.511,
+                                0,
+                                1.789,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.0667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "e2": {
+                    "rgba": [
+                        {
+                            "time": 1.3,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.578,
+                                1,
+                                1.856,
+                                1,
+                                1.578,
+                                1,
+                                1.856,
+                                1,
+                                1.578,
+                                1,
+                                1.856,
+                                1,
+                                1.578,
+                                0,
+                                1.856,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.1333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "h": {
+                    "rgba": [
+                        {
+                            "time": 1.1,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.378,
+                                1,
+                                1.656,
+                                1,
+                                1.378,
+                                1,
+                                1.656,
+                                1,
+                                1.378,
+                                1,
+                                1.656,
+                                1,
+                                1.378,
+                                0,
+                                1.656,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.9333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "i": {
+                    "rgba": [
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.811,
+                                1,
+                                1.089,
+                                1,
+                                0.811,
+                                1,
+                                1.089,
+                                1,
+                                0.811,
+                                1,
+                                1.089,
+                                1,
+                                0.811,
+                                0,
+                                1.089,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "k": {
+                    "rgba": [
+                        {
+                            "time": 0.8667,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.144,
+                                1,
+                                1.422,
+                                1,
+                                1.144,
+                                1,
+                                1.422,
+                                1,
+                                1.144,
+                                1,
+                                1.422,
+                                1,
+                                1.144,
+                                0,
+                                1.422,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.7,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "k_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.293,
+                                1,
+                                0.441,
+                                1,
+                                0.293,
+                                1,
+                                0.441,
+                                1,
+                                0.293,
+                                1,
+                                0.441,
+                                1,
+                                0.293,
+                                1,
+                                0.441,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "k_b": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.402,
+                                1,
+                                0.531,
+                                1,
+                                0.402,
+                                1,
+                                0.531,
+                                1,
+                                0.402,
+                                1,
+                                0.531,
+                                1,
+                                0.402,
+                                1,
+                                0.531,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "k_l": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.159,
+                                1,
+                                0.274,
+                                1,
+                                0.159,
+                                1,
+                                0.274,
+                                1,
+                                0.159,
+                                1,
+                                0.274,
+                                1,
+                                0.159,
+                                1,
+                                0.274,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "l1": {
+                    "rgba": [
+                        {
+                            "time": 0.7667,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.044,
+                                1,
+                                1.322,
+                                1,
+                                1.044,
+                                1,
+                                1.322,
+                                1,
+                                1.044,
+                                1,
+                                1.322,
+                                1,
+                                1.044,
+                                0,
+                                1.322,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "l2": {
+                    "rgba": [
+                        {
+                            "time": 0.9333,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.211,
+                                1,
+                                1.489,
+                                1,
+                                1.211,
+                                1,
+                                1.489,
+                                1,
+                                1.211,
+                                1,
+                                1.489,
+                                1,
+                                1.211,
+                                0,
+                                1.489,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.7667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "n": {
+                    "rgba": [
+                        {
+                            "time": 0.7,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.978,
+                                1,
+                                1.256,
+                                1,
+                                0.978,
+                                1,
+                                1.256,
+                                1,
+                                0.978,
+                                1,
+                                1.256,
+                                1,
+                                0.978,
+                                0,
+                                1.256,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "s_a": {
+                    "rgba": [
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.493,
+                                1,
+                                0.641,
+                                1,
+                                0.493,
+                                1,
+                                0.641,
+                                1,
+                                0.493,
+                                1,
+                                0.641,
+                                1,
+                                0.493,
+                                0,
+                                0.641,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "s_b": {
+                    "rgba": [
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.636,
+                                1,
+                                0.764,
+                                1,
+                                0.636,
+                                1,
+                                0.764,
+                                1,
+                                0.636,
+                                1,
+                                0.764,
+                                1,
+                                0.636,
+                                0,
+                                0.764,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "s_l": {
+                    "rgba": [
+                        {
+                            "time": 0.2333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.359,
+                                1,
+                                0.507,
+                                1,
+                                0.359,
+                                1,
+                                0.507,
+                                1,
+                                0.359,
+                                1,
+                                0.507,
+                                1,
+                                0.359,
+                                0,
+                                0.507,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "t": {
+                    "rgba": [
+                        {
+                            "time": 1.0333,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.311,
+                                1,
+                                1.589,
+                                1,
+                                1.311,
+                                1,
+                                1.589,
+                                1,
+                                1.311,
+                                1,
+                                1.589,
+                                1,
+                                1.311,
+                                0,
+                                1.589,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.8667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "t2": {
+                    "rgba": [
+                        {
+                            "time": 1.4667,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.744,
+                                1,
+                                2.022,
+                                1,
+                                1.744,
+                                1,
+                                2.022,
+                                1,
+                                1.744,
+                                1,
+                                2.022,
+                                1,
+                                1.744,
+                                0,
+                                2.022,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "u": {
+                    "rgba": [
+                        {
+                            "time": 1.3667,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.644,
+                                1,
+                                1.922,
+                                1,
+                                1.644,
+                                1,
+                                1.922,
+                                1,
+                                1.644,
+                                1,
+                                1.922,
+                                1,
+                                1.644,
+                                0,
+                                1.922,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.2,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "y": {
+                    "rgba": [
+                        {
+                            "time": 1.6333,
+                            "color": "ffffff00",
+                            "curve": [
+                                1.911,
+                                1,
+                                2.189,
+                                1,
+                                1.911,
+                                1,
+                                2.189,
+                                1,
+                                1.911,
+                                1,
+                                2.189,
+                                1,
+                                1.911,
+                                0,
+                                2.189,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.4667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "k_a": {
+                    "translate": [
+                        {
+                            "x": -459.53,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": -459.53,
+                            "curve": [
+                                0.363,
+                                -459.53,
+                                0.44,
+                                -1101.29,
+                                0.363,
+                                0,
+                                0.57,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.7667,
+                            "x": -1101.29
+                        }
+                    ]
+                },
+                "k_b": {
+                    "translate": [
+                        {
+                            "x": -467.24,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": -467.24,
+                            "curve": [
+                                0.477,
+                                -467.24,
+                                0.545,
+                                -139.44,
+                                0.477,
+                                0,
+                                0.689,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9,
+                            "x": -139.44
+                        }
+                    ]
+                },
+                "s_l": {
+                    "translate": [
+                        {
+                            "x": -456.44,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "x": -456.44,
+                            "curve": [
+                                0.321,
+                                -456.44,
+                                0.391,
+                                -1674.81,
+                                0.321,
+                                0,
+                                0.612,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.9,
+                            "x": -1674.81
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

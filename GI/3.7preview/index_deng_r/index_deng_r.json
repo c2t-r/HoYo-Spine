@@ -1,0 +1,284 @@
+{
+    "skeleton": {
+        "hash": "XKrjEUKfAZ0",
+        "spine": "4.1.17",
+        "x": -935.29,
+        "y": -443.06,
+        "width": 1346,
+        "height": 887
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -1295.59,
+            "y": 582.4
+        },
+        {
+            "name": "闪光2",
+            "parent": "bone",
+            "x": 379.02,
+            "y": -994.76
+        },
+        {
+            "name": "闪光1",
+            "parent": "bone",
+            "x": 405.91,
+            "y": -1012.82
+        },
+        {
+            "name": "星星3",
+            "parent": "bone",
+            "x": 835.72,
+            "y": -200.07
+        },
+        {
+            "name": "星星2",
+            "parent": "bone",
+            "x": 1683.8,
+            "y": -167.51
+        },
+        {
+            "name": "星星1",
+            "parent": "bone",
+            "x": 1664.59,
+            "y": -201.8
+        }
+    ],
+    "slots": [
+        {
+            "name": "星星3",
+            "bone": "星星3",
+            "attachment": "星星3"
+        },
+        {
+            "name": "星星2",
+            "bone": "星星2",
+            "attachment": "星星2"
+        },
+        {
+            "name": "星星1",
+            "bone": "星星1",
+            "attachment": "星星1"
+        },
+        {
+            "name": "闪光2",
+            "bone": "闪光2",
+            "attachment": "闪光2"
+        },
+        {
+            "name": "闪光1",
+            "bone": "闪光1",
+            "attachment": "闪光1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "星星1": {
+                    "星星1": {
+                        "x": -0.29,
+                        "y": 0.34,
+                        "width": 26,
+                        "height": 32
+                    }
+                },
+                "星星2": {
+                    "星星2": {
+                        "x": 0.01,
+                        "y": 1.04,
+                        "width": 45,
+                        "height": 56
+                    }
+                },
+                "星星3": {
+                    "星星3": {
+                        "x": 0.09,
+                        "y": -3.89,
+                        "width": 51,
+                        "height": 97
+                    }
+                },
+                "闪光1": {
+                    "闪光1": {
+                        "x": -0.61,
+                        "y": -0.14,
+                        "width": 20,
+                        "height": 25
+                    }
+                },
+                "闪光2": {
+                    "闪光2": {
+                        "x": -0.22,
+                        "y": 0.3,
+                        "width": 37,
+                        "height": 48
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "星星3": {
+            "rootBoneName": "星星3",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 1,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.6,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 1,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 1.5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 1.5,
+                    "scaleYAmp": 0.2,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 0,
+                    "scaleYCenter": 0
+                }
+            }
+        },
+        "星星2": {
+            "rootBoneName": "星星2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 2,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.110941648211412,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 1,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.130881154686884,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 1.5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.62,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 1.5,
+                    "scaleYAmp": 0.2,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": -1.62,
+                    "scaleYCenter": 0
+                }
+            }
+        },
+        "星星1": {
+            "rootBoneName": "星星1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 0.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.615509109526176,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 0.5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.5033331119799485,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 1.5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.65,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 1.5,
+                    "scaleYAmp": 0.2,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 0.65,
+                    "scaleYCenter": 0
+                }
+            }
+        },
+        "闪光2": {
+            "rootBoneName": "闪光2",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 0.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 5.866897360893613,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 1,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.949733858238754,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 1.5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.17,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 1.5,
+                    "scaleYAmp": 0.2,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 0.17,
+                    "scaleYCenter": 0
+                }
+            }
+        },
+        "闪光1": {
+            "rootBoneName": "闪光1",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 2,
+                    "moveXAmp": 1,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -6.228523654030872,
+                    "moveXCenter": 0,
+                    "moveYFreq": 2,
+                    "moveYAmp": 1,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.5989008000034421,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 1.5,
+                    "scaleXAmp": 0.1,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.09,
+                    "scaleXCenter": 0,
+                    "scaleYFreq": 1.5,
+                    "scaleYAmp": 0.2,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 3.09,
+                    "scaleYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

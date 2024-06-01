@@ -1,0 +1,155 @@
+{
+    "skeleton": {
+        "hash": "pyOcSyNU3Io",
+        "spine": "4.0-from-4.1.23",
+        "x": -349.44,
+        "y": -307,
+        "width": 601.44,
+        "height": 614
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -253,
+            "y": 307
+        },
+        {
+            "name": "灯ba",
+            "parent": "root",
+            "length": 282.47,
+            "rotation": -95.39,
+            "x": 366.25,
+            "y": -193.27
+        },
+        {
+            "name": "灯ba2",
+            "parent": "root",
+            "length": 282.47,
+            "rotation": -135.52,
+            "x": 297.27,
+            "y": -139.45
+        }
+    ],
+    "slots": [
+        {
+            "name": "灯座b",
+            "bone": "root",
+            "attachment": "灯座b"
+        },
+        {
+            "name": "灯ba",
+            "bone": "灯ba",
+            "attachment": "灯ba",
+            "blend": "additive"
+        },
+        {
+            "name": "灯ba2",
+            "bone": "灯ba2",
+            "attachment": "灯ba",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "灯ba": {
+                    "灯ba": {
+                        "x": 203.84,
+                        "y": 8.43,
+                        "rotation": 95.39,
+                        "width": 299,
+                        "height": 434
+                    }
+                },
+                "灯ba2": {
+                    "灯ba": {
+                        "x": 203.84,
+                        "y": 8.43,
+                        "rotation": 95.39,
+                        "width": 299,
+                        "height": 434
+                    }
+                },
+                "灯座b": {
+                    "灯座b": {
+                        "x": 298.5,
+                        "y": -118,
+                        "width": 355,
+                        "height": 236
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "灯ba2": {
+            "rootBoneName": "灯ba2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 2,
+                    "rotateRange": 3,
+                    "rotateOffset": 0,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        },
+        "灯ba": {
+            "rootBoneName": "灯ba",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 2,
+                    "rotateRange": 3,
+                    "rotateOffset": 1.2364603968933174,
+                    "childOffset": 0.25,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {
+        "灯ba": {
+            "slotName": "灯ba",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": 0,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        },
+        "灯ba2": {
+            "slotName": "灯ba2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 1,
+                    "delay": -0.20987308253231296,
+                    "min": 0.8,
+                    "max": 1
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

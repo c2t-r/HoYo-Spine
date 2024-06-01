@@ -1,0 +1,58 @@
+{
+    "skeleton": {
+        "hash": "PIhcFvuvRK8",
+        "spine": "4.0-from-4.1.23",
+        "x": -557.5,
+        "y": -536,
+        "width": 1115,
+        "height": 1072
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "index_faguan",
+            "bone": "root",
+            "attachment": "index_faguan",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "index_faguan": {
+                    "index_faguan": {
+                        "width": 1115,
+                        "height": 1072
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {},
+    "extraSlot": {
+        "index_faguan": {
+            "slotName": "index_faguan",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 1,
+                    "blinkTime": 0.3,
+                    "delay": 0,
+                    "min": 0.4,
+                    "max": 0.45
+                }
+            }
+        }
+    },
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

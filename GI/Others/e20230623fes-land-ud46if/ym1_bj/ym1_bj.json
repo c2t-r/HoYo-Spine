@@ -1,0 +1,74 @@
+{
+    "skeleton": {
+        "hash": "g7UZcfG4Duo",
+        "spine": "4.1.17",
+        "x": -1250.56,
+        "y": -577.88,
+        "width": 2502,
+        "height": 1155
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 79.24,
+            "y": -585.22
+        }
+    ],
+    "slots": [
+        {
+            "name": "ym1_bj_line",
+            "bone": "bone",
+            "attachment": "ym1_bj_line"
+        },
+        {
+            "name": "ym1_bj",
+            "bone": "bone",
+            "color": "ffffff75",
+            "attachment": "ym1_bj",
+            "blend": "additive"
+        },
+        {
+            "name": "ym1_genshin impact",
+            "bone": "bone",
+            "attachment": "ym1_genshin impact"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "ym1_bj": {
+                    "ym1_bj": {
+                        "x": 241.7,
+                        "y": 576.84,
+                        "width": 1861,
+                        "height": 1139
+                    }
+                },
+                "ym1_bj_line": {
+                    "ym1_bj_line": {
+                        "x": -78.8,
+                        "y": 584.84,
+                        "width": 2502,
+                        "height": 1155
+                    }
+                },
+                "ym1_genshin impact": {
+                    "ym1_genshin impact": {
+                        "x": 1148.7,
+                        "y": 246.34,
+                        "width": 15,
+                        "height": 400
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

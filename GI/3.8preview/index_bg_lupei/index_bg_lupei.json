@@ -1,0 +1,64 @@
+{
+    "skeleton": {
+        "hash": "WNUMBhTScvk",
+        "spine": "4.0-from-4.1.23",
+        "x": -325.05,
+        "y": -24.97,
+        "width": 465,
+        "height": 575
+    },
+    "bones": [
+        {
+            "name": "index_bg_shu"
+        }
+    ],
+    "slots": [
+        {
+            "name": "index_bg_lupei",
+            "bone": "index_bg_shu",
+            "attachment": "index_bg_lupei"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "index_bg_lupei": {
+                    "index_bg_lupei": {
+                        "x": -92.55,
+                        "y": 262.53,
+                        "width": 465,
+                        "height": 575
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "index_bg_shu": {
+            "rootBoneName": "index_bg_shu",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 3,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 1,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 1.3
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

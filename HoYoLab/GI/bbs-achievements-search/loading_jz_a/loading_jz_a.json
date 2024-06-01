@@ -1,0 +1,1998 @@
+{
+    "skeleton": {
+        "hash": "1M1WVrcdpmk",
+        "spine": "4.0-from-4.1.23",
+        "x": -171.5,
+        "y": -131.8,
+        "width": 347,
+        "height": 263.6
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "btn",
+            "parent": "root"
+        },
+        {
+            "name": "btn2",
+            "parent": "btn"
+        },
+        {
+            "name": "btn3",
+            "parent": "btn"
+        },
+        {
+            "name": "btn4",
+            "parent": "btn"
+        },
+        {
+            "name": "text",
+            "parent": "btn"
+        },
+        {
+            "name": "o",
+            "parent": "root"
+        },
+        {
+            "name": "oa",
+            "parent": "o",
+            "scaleX": 0.8368,
+            "scaleY": 0.8368
+        },
+        {
+            "name": "oa2",
+            "parent": "o",
+            "scaleX": 0.8368,
+            "scaleY": 0.8368
+        },
+        {
+            "name": "lizi",
+            "parent": "root"
+        },
+        {
+            "name": "j",
+            "parent": "lizi",
+            "x": 129.3,
+            "y": 85.02
+        },
+        {
+            "name": "d",
+            "parent": "lizi",
+            "x": 147.84,
+            "y": 37.79
+        },
+        {
+            "name": "f",
+            "parent": "lizi",
+            "x": 162.01,
+            "y": 2.9
+        },
+        {
+            "name": "g",
+            "parent": "lizi",
+            "x": 166.37,
+            "y": -22.9
+        },
+        {
+            "name": "a",
+            "parent": "lizi",
+            "x": 148.2,
+            "y": -26.17
+        },
+        {
+            "name": "b",
+            "parent": "lizi",
+            "x": 125.31,
+            "y": -59.96
+        },
+        {
+            "name": "e",
+            "parent": "lizi",
+            "x": -142,
+            "y": 36.33
+        },
+        {
+            "name": "h",
+            "parent": "lizi",
+            "x": -137.28,
+            "y": -17.08
+        },
+        {
+            "name": "i",
+            "parent": "lizi",
+            "x": -168.53,
+            "y": -9.09
+        },
+        {
+            "name": "c",
+            "parent": "lizi",
+            "x": -152.54,
+            "y": -42.16
+        },
+        {
+            "name": "r",
+            "parent": "btn4",
+            "rotation": -0.27
+        }
+    ],
+    "slots": [
+        {
+            "name": "btn_d",
+            "bone": "btn3",
+            "attachment": "btn_d"
+        },
+        {
+            "name": "btn_c",
+            "bone": "btn2",
+            "attachment": "btn_c"
+        },
+        {
+            "name": "btn_b",
+            "bone": "r",
+            "attachment": "btn_b"
+        },
+        {
+            "name": "btn_a",
+            "bone": "btn2",
+            "attachment": "btn_a"
+        },
+        {
+            "name": "开启",
+            "bone": "text",
+            "attachment": "开启"
+        },
+        {
+            "name": "ob",
+            "bone": "oa2",
+            "color": "ffffff00",
+            "attachment": "ob"
+        },
+        {
+            "name": "oa",
+            "bone": "oa",
+            "color": "ffffff00",
+            "attachment": "oa"
+        },
+        {
+            "name": "j",
+            "bone": "j",
+            "attachment": "j"
+        },
+        {
+            "name": "i",
+            "bone": "i",
+            "attachment": "i"
+        },
+        {
+            "name": "h",
+            "bone": "h",
+            "attachment": "h"
+        },
+        {
+            "name": "g",
+            "bone": "g",
+            "attachment": "g"
+        },
+        {
+            "name": "f",
+            "bone": "f",
+            "attachment": "f"
+        },
+        {
+            "name": "e",
+            "bone": "e",
+            "attachment": "e"
+        },
+        {
+            "name": "d",
+            "bone": "d",
+            "attachment": "d"
+        },
+        {
+            "name": "c",
+            "bone": "c",
+            "attachment": "c"
+        },
+        {
+            "name": "b",
+            "bone": "b",
+            "attachment": "b"
+        },
+        {
+            "name": "a",
+            "bone": "a",
+            "attachment": "a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": -0.2,
+                        "y": 0.17,
+                        "width": 5,
+                        "height": 5
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": -0.31,
+                        "y": 0.46,
+                        "width": 5,
+                        "height": 4
+                    }
+                },
+                "btn_a": {
+                    "btn_a": {
+                        "x": -0.5,
+                        "y": 1.5,
+                        "width": 228,
+                        "height": 221
+                    }
+                },
+                "btn_b": {
+                    "btn_b": {
+                        "width": 168,
+                        "height": 168
+                    }
+                },
+                "btn_c": {
+                    "btn_c": {
+                        "width": 257,
+                        "height": 260
+                    }
+                },
+                "btn_d": {
+                    "btn_d": {
+                        "y": 1,
+                        "width": 273,
+                        "height": 241
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": -0.46,
+                        "y": -0.34,
+                        "width": 5,
+                        "height": 4
+                    }
+                },
+                "d": {
+                    "d": {
+                        "x": -0.34,
+                        "y": -0.29,
+                        "width": 26,
+                        "height": 26
+                    }
+                },
+                "e": {
+                    "e": {
+                        "x": 0.5,
+                        "y": 0.17,
+                        "width": 30,
+                        "height": 30
+                    }
+                },
+                "f": {
+                    "f": {
+                        "x": -0.01,
+                        "y": -0.4,
+                        "width": 27,
+                        "height": 28
+                    }
+                },
+                "g": {
+                    "g": {
+                        "x": 0.13,
+                        "y": -0.6,
+                        "width": 4,
+                        "height": 4
+                    }
+                },
+                "h": {
+                    "h": {
+                        "x": -0.22,
+                        "y": -0.42,
+                        "width": 4,
+                        "height": 4
+                    }
+                },
+                "i": {
+                    "i": {
+                        "x": 0.03,
+                        "y": 0.59,
+                        "width": 6,
+                        "height": 6
+                    }
+                },
+                "j": {
+                    "j": {
+                        "x": -0.3,
+                        "y": -0.52,
+                        "width": 27,
+                        "height": 28
+                    }
+                },
+                "oa": {
+                    "oa": {
+                        "width": 282,
+                        "height": 284
+                    }
+                },
+                "ob": {
+                    "ob": {
+                        "width": 315,
+                        "height": 315
+                    }
+                },
+                "开启": {
+                    "开启": {
+                        "x": -1.5,
+                        "y": 1.5,
+                        "width": 104,
+                        "height": 54
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "e": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "f": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "h": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "i": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "j": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "j": {
+                    "translatex": [
+                        {
+                            "value": -120.98
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -63.72
+                        }
+                    ]
+                },
+                "i": {
+                    "translatex": [
+                        {
+                            "value": 147.99
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 7.05
+                        }
+                    ]
+                },
+                "h": {
+                    "translatex": [
+                        {
+                            "value": 117.43
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 5.28
+                        }
+                    ]
+                },
+                "g": {
+                    "translatex": [
+                        {
+                            "value": -117.5
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 13.41
+                        }
+                    ]
+                },
+                "f": {
+                    "translatex": [
+                        {
+                            "value": -115.67
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -1.17
+                        }
+                    ]
+                },
+                "e": {
+                    "translatex": [
+                        {
+                            "value": 124.49
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -23.59
+                        }
+                    ]
+                },
+                "d": {
+                    "translatex": [
+                        {
+                            "value": -114.51
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -29.46
+                        }
+                    ]
+                },
+                "c": {
+                    "translatex": [
+                        {
+                            "value": 121.76
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 24.22
+                        }
+                    ]
+                },
+                "b": {
+                    "translatex": [
+                        {
+                            "value": -100.26
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 38.49
+                        }
+                    ]
+                },
+                "a": {
+                    "translatex": [
+                        {
+                            "value": -121.96
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 18.37
+                        }
+                    ]
+                },
+                "btn2": {
+                    "rotate": [
+                        {
+                            "time": 1.4,
+                            "curve": [
+                                1.433,
+                                -1.62,
+                                1.467,
+                                -4.86
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "value": -4.86,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7333,
+                            "value": -4.86,
+                            "curve": [
+                                1.789,
+                                -4.86,
+                                1.778,
+                                2.73
+                            ]
+                        },
+                        {
+                            "time": 1.8333,
+                            "value": 2.73,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.1,
+                            "value": 2.73,
+                            "curve": [
+                                2.133,
+                                2.73,
+                                2.133,
+                                -0.88
+                            ]
+                        },
+                        {
+                            "time": 2.1667,
+                            "value": -0.88,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.2667,
+                            "value": -0.88,
+                            "curve": [
+                                2.3,
+                                -0.88,
+                                2.3,
+                                0.39
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "value": 0.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.4,
+                            "value": 0.39,
+                            "curve": [
+                                2.45,
+                                0.39,
+                                2.45,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2.5,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.3333,
+                            "curve": [
+                                3.367,
+                                -0.54,
+                                3.4,
+                                -1.63
+                            ]
+                        },
+                        {
+                            "time": 3.4333,
+                            "value": -1.63,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6,
+                            "value": -1.63,
+                            "curve": [
+                                3.633,
+                                -1.63,
+                                3.667,
+                                1.49
+                            ]
+                        },
+                        {
+                            "time": 3.7,
+                            "value": 1.49,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.9667,
+                            "value": 1.49,
+                            "curve": [
+                                3.989,
+                                1.49,
+                                4.011,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 4.0333
+                        }
+                    ]
+                },
+                "btn": {
+                    "scale": [
+                        {
+                            "curve": [
+                                1.003,
+                                1,
+                                1.062,
+                                0.95,
+                                1.003,
+                                1,
+                                1.062,
+                                0.95
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0.95,
+                            "y": 0.95,
+                            "curve": [
+                                2.938,
+                                0.95,
+                                3.005,
+                                1,
+                                2.938,
+                                0.95,
+                                3.005,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4.0333
+                        }
+                    ]
+                }
+            }
+        },
+        "click": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.7,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.7333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "btn_a": {
+                    "rgba": [
+                        {
+                            "time": 0.8667,
+                            "color": "ffffffff",
+                            "curve": [
+                                1,
+                                1,
+                                1.133,
+                                1,
+                                1,
+                                1,
+                                1.133,
+                                1,
+                                1,
+                                1,
+                                1.133,
+                                1,
+                                1,
+                                1,
+                                1.133,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "btn_b": {
+                    "rgba": [
+                        {
+                            "time": 1,
+                            "color": "ffffffff",
+                            "curve": [
+                                1.133,
+                                1,
+                                1.267,
+                                1,
+                                1.133,
+                                1,
+                                1.267,
+                                1,
+                                1.133,
+                                1,
+                                1.267,
+                                1,
+                                1.133,
+                                1,
+                                1.267,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "btn_c": {
+                    "rgba": [
+                        {
+                            "time": 0.8667,
+                            "color": "ffffffff",
+                            "curve": [
+                                1,
+                                1,
+                                1.133,
+                                1,
+                                1,
+                                1,
+                                1.133,
+                                1,
+                                1,
+                                1,
+                                1.133,
+                                1,
+                                1,
+                                1,
+                                1.133,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "btn_d": {
+                    "rgba": [
+                        {
+                            "time": 0.9333,
+                            "color": "ffffffff",
+                            "curve": [
+                                1.067,
+                                1,
+                                1.2,
+                                1,
+                                1.067,
+                                1,
+                                1.2,
+                                1,
+                                1.067,
+                                1,
+                                1.2,
+                                1,
+                                1.067,
+                                1,
+                                1.2,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.8,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "d": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.7667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "e": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.7,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "f": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.9,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "g": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.7667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "h": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.8,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "i": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.7333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "j": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.9,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.8667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "oa": {
+                    "rgba": [
+                        {
+                            "time": 0.7333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.8,
+                                1,
+                                0.867,
+                                1,
+                                0.8,
+                                1,
+                                0.867,
+                                1,
+                                0.8,
+                                1,
+                                0.867,
+                                1,
+                                0.8,
+                                0,
+                                0.867,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9333,
+                            "color": "fffffffe",
+                            "curve": [
+                                1.122,
+                                1,
+                                1.311,
+                                1,
+                                1.122,
+                                1,
+                                1.311,
+                                1,
+                                1.122,
+                                1,
+                                1.311,
+                                1,
+                                1.122,
+                                1,
+                                1.311,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "ob": {
+                    "rgba": [
+                        {
+                            "time": 0.6333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.7,
+                                1,
+                                0.767,
+                                1,
+                                0.7,
+                                1,
+                                0.767,
+                                1,
+                                0.7,
+                                1,
+                                0.767,
+                                1,
+                                0.7,
+                                0,
+                                0.767,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "fffffffe",
+                            "curve": [
+                                1.022,
+                                1,
+                                1.211,
+                                1,
+                                1.022,
+                                1,
+                                1.211,
+                                1,
+                                1.022,
+                                1,
+                                1.211,
+                                1,
+                                1.022,
+                                1,
+                                1.211,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "开启": {
+                    "rgba": [
+                        {
+                            "time": 0.7667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.2667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "btn3": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.028,
+                                0,
+                                0.056,
+                                -4.75
+                            ]
+                        },
+                        {
+                            "time": 0.0838,
+                            "value": -4.75,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1932,
+                            "value": -4.75,
+                            "curve": [
+                                0.22,
+                                -4.75,
+                                0.247,
+                                6.61
+                            ]
+                        },
+                        {
+                            "time": 0.2744,
+                            "value": 6.61,
+                            "curve": [
+                                0.295,
+                                6.61,
+                                0.316,
+                                -1.7
+                            ]
+                        },
+                        {
+                            "time": 0.3366,
+                            "value": -1.7,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "value": -1.7,
+                            "curve": [
+                                0.38,
+                                -1.7,
+                                0.394,
+                                1.01
+                            ]
+                        },
+                        {
+                            "time": 0.4075,
+                            "value": 1.01,
+                            "curve": [
+                                0.43,
+                                1.01,
+                                0.453,
+                                -0.66
+                            ]
+                        },
+                        {
+                            "time": 0.4759,
+                            "value": -0.66,
+                            "curve": [
+                                0.509,
+                                -0.66,
+                                0.541,
+                                0.37
+                            ]
+                        },
+                        {
+                            "time": 0.5742,
+                            "value": 0.37,
+                            "curve": [
+                                0.619,
+                                0.37,
+                                0.659,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.7075
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.4333
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 0.945,
+                            "y": 0.945,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9333,
+                            "x": 0.945,
+                            "y": 0.945,
+                            "curve": [
+                                1.126,
+                                0.945,
+                                1.333,
+                                1.162,
+                                1.126,
+                                0.945,
+                                1.333,
+                                1.162
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1.162,
+                            "y": 1.162
+                        }
+                    ]
+                },
+                "btn2": {
+                    "rotate": [
+                        {
+                            "time": 0.1,
+                            "curve": [
+                                0.114,
+                                -0.64,
+                                0.132,
+                                -3.65
+                            ]
+                        },
+                        {
+                            "time": 0.1458,
+                            "value": -3.65,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2333,
+                            "value": -3.65,
+                            "curve": [
+                                0.253,
+                                -3.65,
+                                0.271,
+                                3.17
+                            ]
+                        },
+                        {
+                            "time": 0.2903,
+                            "value": 3.17,
+                            "curve": [
+                                0.361,
+                                3.17,
+                                0.396,
+                                3.17
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": 3.17,
+                            "curve": [
+                                0.475,
+                                3.17,
+                                0.636,
+                                -93.43
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -93.43,
+                            "curve": [
+                                0.735,
+                                -93.43,
+                                0.817,
+                                -90.04
+                            ]
+                        },
+                        {
+                            "time": 0.9,
+                            "value": -90.04
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.5667
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 0.885,
+                            "y": 0.885,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8667,
+                            "x": 0.885,
+                            "y": 0.885,
+                            "curve": [
+                                1.059,
+                                0.885,
+                                1.266,
+                                1.088,
+                                1.059,
+                                0.885,
+                                1.266,
+                                1.088
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "x": 1.088,
+                            "y": 1.088
+                        }
+                    ]
+                },
+                "btn4": {
+                    "rotate": [
+                        {
+                            "time": 0.1,
+                            "curve": [
+                                0.12,
+                                -0.93,
+                                0.147,
+                                -5.41
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": -5.41,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -5.41,
+                            "curve": [
+                                0.32,
+                                -5.41,
+                                0.347,
+                                9.21
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "value": 9.21,
+                            "curve": [
+                                0.404,
+                                9.21,
+                                0.484,
+                                -9.69
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "value": -9.69,
+                            "curve": [
+                                0.52,
+                                -9.69,
+                                0.547,
+                                5.24
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 5.24,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": 5.24,
+                            "curve": [
+                                0.715,
+                                5.24,
+                                0.751,
+                                -92
+                            ]
+                        },
+                        {
+                            "time": 0.8,
+                            "value": -92,
+                            "curve": [
+                                0.868,
+                                -92,
+                                0.932,
+                                -90.69
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "value": -90.04
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.5
+                        },
+                        {
+                            "time": 0.6,
+                            "x": 0.92,
+                            "y": 0.92,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.92,
+                            "y": 0.92,
+                            "curve": [
+                                1.192,
+                                0.92,
+                                1.4,
+                                1.131,
+                                1.192,
+                                0.92,
+                                1.4,
+                                1.131
+                            ]
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 1.131,
+                            "y": 1.131
+                        }
+                    ]
+                },
+                "oa2": {
+                    "scale": [
+                        {
+                            "time": 0.6333,
+                            "curve": [
+                                0.675,
+                                1,
+                                0.982,
+                                1.349,
+                                0.675,
+                                1,
+                                0.982,
+                                1.349
+                            ]
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 1.349,
+                            "y": 1.349
+                        }
+                    ]
+                },
+                "oa": {
+                    "scale": [
+                        {
+                            "time": 0.7333,
+                            "curve": [
+                                0.775,
+                                1,
+                                1.082,
+                                1.349,
+                                0.775,
+                                1,
+                                1.082,
+                                1.349
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "x": 1.349,
+                            "y": 1.349
+                        }
+                    ]
+                },
+                "text": {
+                    "scale": [
+                        {
+                            "time": 0.7,
+                            "curve": [
+                                0.764,
+                                1,
+                                0.847,
+                                1.319,
+                                0.764,
+                                1,
+                                0.847,
+                                1.319
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "x": 1.319,
+                            "y": 1.319
+                        }
+                    ]
+                },
+                "a": {
+                    "translatex": [
+                        {
+                            "value": -121.96,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": -121.96,
+                            "curve": [
+                                0.568,
+                                -121.96,
+                                0.8,
+                                -5.75
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "value": -5.75
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 18.37,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 18.37,
+                            "curve": [
+                                0.57,
+                                18.37,
+                                1.136,
+                                64.25
+                            ]
+                        },
+                        {
+                            "time": 1.7,
+                            "value": 64.25
+                        }
+                    ]
+                },
+                "b": {
+                    "translatex": [
+                        {
+                            "value": -100.26,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": -100.26,
+                            "curve": [
+                                0.635,
+                                -100.26,
+                                0.866,
+                                11.74
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "value": 11.74
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 38.49,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": 38.49,
+                            "curve": [
+                                0.637,
+                                38.49,
+                                1.169,
+                                63.08
+                            ]
+                        },
+                        {
+                            "time": 1.7333,
+                            "value": 63.08
+                        }
+                    ]
+                },
+                "c": {
+                    "translatex": [
+                        {
+                            "value": 121.76,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7,
+                            "value": 121.76,
+                            "curve": [
+                                0.702,
+                                121.76,
+                                0.9,
+                                -0.7
+                            ]
+                        },
+                        {
+                            "time": 1.1333,
+                            "value": -0.7
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 24.22,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7,
+                            "value": 24.22,
+                            "curve": [
+                                0.702,
+                                24.22,
+                                0.865,
+                                40.27
+                            ]
+                        },
+                        {
+                            "time": 1.1333,
+                            "value": 51.74,
+                            "curve": [
+                                1.321,
+                                59.59,
+                                1.57,
+                                64.25
+                            ]
+                        },
+                        {
+                            "time": 1.8,
+                            "value": 64.25
+                        }
+                    ]
+                },
+                "d": {
+                    "translatex": [
+                        {
+                            "value": -114.51,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": -114.51,
+                            "curve": [
+                                0.635,
+                                -114.51,
+                                0.866,
+                                -9.84
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "value": -9.84
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -29.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": -29.46,
+                            "curve": [
+                                0.637,
+                                -29.46,
+                                1.202,
+                                64.25
+                            ]
+                        },
+                        {
+                            "time": 1.7667,
+                            "value": 64.25
+                        }
+                    ]
+                },
+                "e": {
+                    "translatex": [
+                        {
+                            "value": 124.49,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 124.49,
+                            "curve": [
+                                0.568,
+                                124.49,
+                                0.8,
+                                11.16
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "value": 11.16
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -23.59,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": -23.59,
+                            "curve": [
+                                0.57,
+                                -23.59,
+                                1.136,
+                                69.98
+                            ]
+                        },
+                        {
+                            "time": 1.7,
+                            "value": 69.98
+                        }
+                    ]
+                },
+                "f": {
+                    "translatex": [
+                        {
+                            "value": -115.67,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7333,
+                            "value": -115.67,
+                            "curve": [
+                                0.735,
+                                -115.67,
+                                0.933,
+                                8.94
+                            ]
+                        },
+                        {
+                            "time": 1.1667,
+                            "value": 8.94
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -1.17,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7333,
+                            "value": -1.17,
+                            "curve": [
+                                0.737,
+                                -1.17,
+                                1.269,
+                                67.91
+                            ]
+                        },
+                        {
+                            "time": 1.8333,
+                            "value": 67.91
+                        }
+                    ]
+                },
+                "g": {
+                    "translatex": [
+                        {
+                            "value": -117.5,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": -117.5,
+                            "curve": [
+                                0.635,
+                                -117.5,
+                                0.866,
+                                27.76
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "value": 27.76
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 13.41,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": 13.41,
+                            "curve": [
+                                0.637,
+                                13.41,
+                                1.202,
+                                63.47
+                            ]
+                        },
+                        {
+                            "time": 1.7667,
+                            "value": 63.47
+                        }
+                    ]
+                },
+                "h": {
+                    "translatex": [
+                        {
+                            "value": 117.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7,
+                            "value": 117.43,
+                            "curve": [
+                                0.702,
+                                117.43,
+                                0.9,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.1333
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 5.28,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7,
+                            "value": 5.28,
+                            "curve": [
+                                0.704,
+                                5.28,
+                                1.236,
+                                64.25
+                            ]
+                        },
+                        {
+                            "time": 1.8,
+                            "value": 64.25
+                        }
+                    ]
+                },
+                "i": {
+                    "translatex": [
+                        {
+                            "value": 147.99,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": 147.99,
+                            "curve": [
+                                0.635,
+                                147.99,
+                                0.833,
+                                6.23
+                            ]
+                        },
+                        {
+                            "time": 1.0667,
+                            "value": 6.23
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 7.05,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": 7.05,
+                            "curve": [
+                                0.637,
+                                7.05,
+                                1.169,
+                                64.23
+                            ]
+                        },
+                        {
+                            "time": 1.7333,
+                            "value": 64.23
+                        }
+                    ]
+                },
+                "j": {
+                    "translatex": [
+                        {
+                            "value": -120.98,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "value": -120.98,
+                            "curve": [
+                                0.768,
+                                -120.98,
+                                1,
+                                -13.88
+                            ]
+                        },
+                        {
+                            "time": 1.2333,
+                            "value": -13.88
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": -63.72,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "value": -63.72,
+                            "curve": [
+                                0.77,
+                                -63.72,
+                                1.302,
+                                74.23
+                            ]
+                        },
+                        {
+                            "time": 1.8667,
+                            "value": 74.23
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

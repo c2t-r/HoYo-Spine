@@ -1,0 +1,62 @@
+{
+    "skeleton": {
+        "hash": "fxfNaXuETZo",
+        "spine": "4.0-from-4.1.21",
+        "x": -1005.75,
+        "y": -823.81,
+        "width": 1007,
+        "height": 825
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "loading_topguan_a",
+            "bone": "root",
+            "attachment": "loading_topguan_a",
+            "blend": "screen"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "loading_topguan_a": {
+                    "loading_topguan_a": {
+                        "x": -502.25,
+                        "y": -411.31,
+                        "width": 1007,
+                        "height": 825
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "root": {
+            "rootBoneName": "root",
+            "endBoneName": "",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 5,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

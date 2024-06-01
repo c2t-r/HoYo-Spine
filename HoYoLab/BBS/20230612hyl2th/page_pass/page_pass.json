@@ -1,0 +1,92 @@
+{
+    "skeleton": {
+        "hash": "6zeaa5x4CLM",
+        "spine": "4.0-from-4.1.23",
+        "x": -1349.81,
+        "y": -638.75,
+        "width": 2704.95,
+        "height": 1296.67
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "中屏_横",
+            "parent": "root",
+            "scaleX": 7.1891,
+            "scaleY": 4.0521
+        }
+    ],
+    "slots": [
+        {
+            "name": "mask",
+            "bone": "root",
+            "attachment": "mask"
+        },
+        {
+            "name": "中屏_横",
+            "bone": "中屏_横",
+            "attachment": "中屏_横"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "mask",
+                        "vertexCount": 4,
+                        "vertices": [
+                            -1333.23,
+                            657.92,
+                            -1349.81,
+                            -624.99,
+                            1368.08,
+                            -638.82,
+                            1365.32,
+                            655.16
+                        ]
+                    }
+                },
+                "中屏_横": {
+                    "中屏_横": {
+                        "width": 377,
+                        "height": 434
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "中屏_横": {
+            "rootBoneName": "中屏_横",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 6,
+                    "delay": 0.1,
+                    "yFrames": [
+                        {
+                            "value": 1,
+                            "start": 0
+                        },
+                        {
+                            "value": 50,
+                            "start": 0.05
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
