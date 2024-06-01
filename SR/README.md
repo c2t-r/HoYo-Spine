@@ -26,6 +26,7 @@ google: ```site:act.hoyoverse.com/sr/event```
 - https://act.hoyoverse.com/sr/event/xianzhoucruise/index.html
 - https://act.hoyoverse.com/sr/event/e20240426anniversary-so6swc/index.html
 - https://act.hoyoverse.com/sr/event/e20240509robin-z0ps5s/index.html <Robin>
+- https://act.hoyoverse.com/sr/event/e20240531shoot-8j34gx/index.html
 
 ## Puzzle
 - https://act.mihoyo.com/puzzle/hkrpg/pz_stKK3ccUXV/index.html

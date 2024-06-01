@@ -1,0 +1,89 @@
+{
+    "skeleton": {
+        "hash": "QctPl1THD2w",
+        "spine": "4.0-from-4.1.24",
+        "x": -294.5,
+        "y": -294.5,
+        "width": 589,
+        "height": 589
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "下圆传送带",
+            "bone": "root",
+            "attachment": "下圆传送带"
+        },
+        {
+            "name": "普通灯-下圆传送带",
+            "bone": "root",
+            "attachment": "普通灯-下圆传送带"
+        },
+        {
+            "name": "combo灯-下圆传送带",
+            "bone": "root"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "combo灯-下圆传送带": {
+                    "combo灯-下圆传送带": {
+                        "x": 0.5,
+                        "y": 1,
+                        "width": 518,
+                        "height": 521
+                    }
+                },
+                "下圆传送带": {
+                    "下圆传送带": {
+                        "width": 589,
+                        "height": 589
+                    }
+                },
+                "普通灯-下圆传送带": {
+                    "普通灯-下圆传送带": {
+                        "x": 0.5,
+                        "y": 1,
+                        "width": 518,
+                        "height": 521
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "combo": {
+            "slots": {
+                "combo灯-下圆传送带": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯-下圆传送带"
+                        }
+                    ]
+                }
+            }
+        },
+        "normal": {}
+    }
+}

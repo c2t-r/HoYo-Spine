@@ -1,0 +1,41 @@
+{
+    "skeleton": {
+        "hash": "RQd+f8KpDoI",
+        "spine": "4.0-from-4.1.24",
+        "x": -274,
+        "y": -444,
+        "width": 549,
+        "height": 889
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "ve_a",
+            "bone": "root",
+            "attachment": "ve_a",
+            "blend": "screen"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "ve_a": {
+                    "ve_a": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 549,
+                        "height": 889
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

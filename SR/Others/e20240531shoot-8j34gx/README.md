@@ -1,0 +1,2 @@
+# "Smoking Cool — The Universe! Pew! Pew! Grand Challenge!" web event is now available, join the event to win Stellar Jades and other merchandise!
+https://act.hoyoverse.com/sr/event/e20240531shoot-8j34gx/index.html
