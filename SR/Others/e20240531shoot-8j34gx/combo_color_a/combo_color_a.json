@@ -1,0 +1,39 @@
+{
+    "skeleton": {
+        "hash": "VpmxeE6b8wg",
+        "spine": "4.0-from-4.1.24",
+        "x": -375,
+        "y": -372,
+        "width": 750,
+        "height": 744
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "combo状态效果层1",
+            "bone": "root",
+            "attachment": "combo状态效果层1",
+            "blend": "screen"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "combo状态效果层1": {
+                    "combo状态效果层1": {
+                        "width": 750,
+                        "height": 744
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

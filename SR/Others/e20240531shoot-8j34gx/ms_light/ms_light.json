@@ -1,0 +1,2583 @@
+{
+    "skeleton": {
+        "hash": "xgIY9o8GaY4",
+        "spine": "4.0-from-4.1.24",
+        "x": -439.36,
+        "y": -725.94,
+        "width": 900,
+        "height": 1451
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 16.05,
+            "y": -756.13
+        },
+        {
+            "name": "combo灯光层s",
+            "parent": "bone",
+            "x": -13.28,
+            "y": 1340.16
+        },
+        {
+            "name": "ms_clouds_a",
+            "parent": "bone",
+            "length": 224.91,
+            "rotation": -0.68,
+            "x": -313.69,
+            "y": 279.4
+        },
+        {
+            "name": "ms_clouds_b",
+            "parent": "bone",
+            "length": 148.99,
+            "rotation": -179.39,
+            "x": 317.35,
+            "y": 280.05
+        },
+        {
+            "name": "combo灯光层s2",
+            "parent": "bone",
+            "x": 223.82,
+            "y": 1263.05
+        },
+        {
+            "name": "combo灯光层s3",
+            "parent": "bone",
+            "x": -369.11,
+            "y": 1205.54
+        },
+        {
+            "name": "combo灯光层s4",
+            "parent": "bone",
+            "x": -311.31,
+            "y": 1237.47
+        },
+        {
+            "name": "combo灯光层s5",
+            "parent": "bone",
+            "x": -252.15,
+            "y": 1262.67
+        },
+        {
+            "name": "combo灯光层s6",
+            "parent": "bone",
+            "x": -343.75,
+            "y": 1343.52
+        },
+        {
+            "name": "combo灯光层s7",
+            "parent": "bone",
+            "x": -285.75,
+            "y": 1371.97
+        },
+        {
+            "name": "combo灯光层s8",
+            "parent": "bone",
+            "x": -239.4,
+            "y": 1348.3
+        },
+        {
+            "name": "combo灯光层s9",
+            "parent": "bone",
+            "x": -262.8,
+            "y": 1400.37
+        },
+        {
+            "name": "combo灯光层s10",
+            "parent": "bone",
+            "x": -197.58,
+            "y": 1431.73
+        },
+        {
+            "name": "combo灯光层s11",
+            "parent": "bone",
+            "x": -136.19,
+            "y": 1450.12
+        },
+        {
+            "name": "combo灯光层s12",
+            "parent": "bone",
+            "x": -75.27,
+            "y": 1460.68
+        },
+        {
+            "name": "combo灯光层s13",
+            "parent": "bone",
+            "x": -15.03,
+            "y": 1465.77
+        },
+        {
+            "name": "combo灯光层s14",
+            "parent": "bone",
+            "x": 56.94,
+            "y": 1457.89
+        },
+        {
+            "name": "combo灯光层s15",
+            "parent": "bone",
+            "x": 118.75,
+            "y": 1444.57
+        },
+        {
+            "name": "combo灯光层s16",
+            "parent": "bone",
+            "x": 179.38,
+            "y": 1426.05
+        },
+        {
+            "name": "combo灯光层s17",
+            "parent": "bone",
+            "x": 231.91,
+            "y": 1399.74
+        },
+        {
+            "name": "combo灯光层s18",
+            "parent": "bone",
+            "x": 205.65,
+            "y": 1342.94
+        },
+        {
+            "name": "combo灯光层s19",
+            "parent": "bone",
+            "x": 177.16,
+            "y": 1299.67
+        },
+        {
+            "name": "combo灯光层s20",
+            "parent": "bone",
+            "x": 136.31,
+            "y": 1311.87
+        },
+        {
+            "name": "combo灯光层s21",
+            "parent": "bone",
+            "x": 93.64,
+            "y": 1324.94
+        },
+        {
+            "name": "combo灯光层s22",
+            "parent": "bone",
+            "x": 41.59,
+            "y": 1333.88
+        },
+        {
+            "name": "combo灯光层s23",
+            "parent": "bone",
+            "x": -208,
+            "y": 1298.12
+        },
+        {
+            "name": "combo灯光层s24",
+            "parent": "bone",
+            "x": -162.09,
+            "y": 1314.71
+        },
+        {
+            "name": "combo灯光层s25",
+            "parent": "bone",
+            "x": -111.62,
+            "y": 1328.08
+        },
+        {
+            "name": "combo灯光层s26",
+            "parent": "bone",
+            "x": -61.52,
+            "y": 1335.88
+        },
+        {
+            "name": "combo灯光层s28",
+            "parent": "bone",
+            "x": 313.97,
+            "y": 1342.87
+        },
+        {
+            "name": "combo灯光层s29",
+            "parent": "bone",
+            "x": 338.71,
+            "y": 1206.38
+        },
+        {
+            "name": "combo灯光层s30",
+            "parent": "bone",
+            "x": 256.37,
+            "y": 1369.8
+        },
+        {
+            "name": "combo灯光层s31",
+            "parent": "bone",
+            "x": 282.36,
+            "y": 1237.69
+        },
+        {
+            "name": "ms_clouds_a2",
+            "parent": "ms_clouds_a",
+            "x": -1.27,
+            "y": 19.06
+        },
+        {
+            "name": "ms_clouds_b2",
+            "parent": "ms_clouds_b",
+            "x": 1.29,
+            "y": -15.49
+        },
+        {
+            "name": "ms_stage_b",
+            "parent": "bone",
+            "x": -14.35,
+            "y": 661.49
+        },
+        {
+            "name": "ms_stage_b2",
+            "parent": "ms_stage_b",
+            "x": -339.03,
+            "y": -5.43,
+            "transform": "noScale"
+        },
+        {
+            "name": "ms_stage_b3",
+            "parent": "ms_stage_b",
+            "x": 341.09,
+            "y": -1.8,
+            "transform": "noScale"
+        }
+    ],
+    "slots": [
+        {
+            "name": "ms_clouds_b",
+            "bone": "ms_clouds_b2",
+            "attachment": "ms_clouds_b"
+        },
+        {
+            "name": "ms_clouds_a",
+            "bone": "ms_clouds_a2",
+            "attachment": "ms_clouds_a"
+        },
+        {
+            "name": "ms_stage_b",
+            "bone": "ms_stage_b",
+            "attachment": "ms_stage_b"
+        },
+        {
+            "name": "ms_stage_a",
+            "bone": "bone",
+            "attachment": "ms_stage_a"
+        },
+        {
+            "name": "图层378",
+            "bone": "bone",
+            "attachment": "图层378"
+        },
+        {
+            "name": "普通灯s",
+            "bone": "combo灯光层s",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s2",
+            "bone": "combo灯光层s2",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s28",
+            "bone": "combo灯光层s28",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s29",
+            "bone": "combo灯光层s29",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s30",
+            "bone": "combo灯光层s30",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s31",
+            "bone": "combo灯光层s31",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s3",
+            "bone": "combo灯光层s3",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s4",
+            "bone": "combo灯光层s4",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s5",
+            "bone": "combo灯光层s5",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s6",
+            "bone": "combo灯光层s6",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s7",
+            "bone": "combo灯光层s7",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s8",
+            "bone": "combo灯光层s8",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s9",
+            "bone": "combo灯光层s9",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s10",
+            "bone": "combo灯光层s10",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s11",
+            "bone": "combo灯光层s11",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s12",
+            "bone": "combo灯光层s12",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s13",
+            "bone": "combo灯光层s13",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s14",
+            "bone": "combo灯光层s14",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s15",
+            "bone": "combo灯光层s15",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s16",
+            "bone": "combo灯光层s16",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s17",
+            "bone": "combo灯光层s17",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s18",
+            "bone": "combo灯光层s18",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s19",
+            "bone": "combo灯光层s19",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s20",
+            "bone": "combo灯光层s20",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s21",
+            "bone": "combo灯光层s21",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s22",
+            "bone": "combo灯光层s22",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s23",
+            "bone": "combo灯光层s23",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s24",
+            "bone": "combo灯光层s24",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s25",
+            "bone": "combo灯光层s25",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "普通灯s26",
+            "bone": "combo灯光层s26",
+            "attachment": "普通灯s"
+        },
+        {
+            "name": "combo灯光层s",
+            "bone": "combo灯光层s",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s2",
+            "bone": "combo灯光层s2",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s28",
+            "bone": "combo灯光层s28",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s29",
+            "bone": "combo灯光层s29",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s30",
+            "bone": "combo灯光层s30",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s31",
+            "bone": "combo灯光层s31",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s3",
+            "bone": "combo灯光层s3",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s4",
+            "bone": "combo灯光层s4",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s5",
+            "bone": "combo灯光层s5",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s6",
+            "bone": "combo灯光层s6",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s7",
+            "bone": "combo灯光层s7",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s8",
+            "bone": "combo灯光层s8",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s9",
+            "bone": "combo灯光层s9",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s10",
+            "bone": "combo灯光层s10",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s11",
+            "bone": "combo灯光层s11",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s12",
+            "bone": "combo灯光层s12",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s13",
+            "bone": "combo灯光层s13",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s14",
+            "bone": "combo灯光层s14",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s15",
+            "bone": "combo灯光层s15",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s16",
+            "bone": "combo灯光层s16",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s17",
+            "bone": "combo灯光层s17",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s18",
+            "bone": "combo灯光层s18",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s19",
+            "bone": "combo灯光层s19",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s20",
+            "bone": "combo灯光层s20",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s21",
+            "bone": "combo灯光层s21",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s22",
+            "bone": "combo灯光层s22",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s23",
+            "bone": "combo灯光层s23",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s24",
+            "bone": "combo灯光层s24",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s25",
+            "bone": "combo灯光层s25",
+            "blend": "additive"
+        },
+        {
+            "name": "combo灯光层s26",
+            "bone": "combo灯光层s26",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "combo灯光层s": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s2": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s3": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s4": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s5": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s6": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s7": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s8": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s9": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s10": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s11": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s12": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s13": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s14": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s15": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s16": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s17": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s18": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s19": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s20": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s21": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s22": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s23": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s24": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s25": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s26": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s28": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s29": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s30": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "combo灯光层s31": {
+                    "combo灯光层s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+                "ms_clouds_a": {
+                    "ms_clouds_a": {
+                        "x": 37.51,
+                        "y": 27.65,
+                        "rotation": 0.68,
+                        "width": 357,
+                        "height": 105
+                    }
+                },
+                "ms_clouds_b": {
+                    "ms_clouds_b": {
+                        "x": 7.03,
+                        "y": -25.23,
+                        "rotation": 179.39,
+                        "width": 272,
+                        "height": 91
+                    }
+                },
+                "ms_stage_a": {
+                    "ms_stage_a": {
+                        "x": -13.91,
+                        "y": 162.68,
+                        "width": 761,
+                        "height": 265
+                    }
+                },
+                "ms_stage_b": {
+                    "ms_stage_b": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            0.04064,
+                            1,
+                            1,
+                            0.91821,
+                            1,
+                            0.89627,
+                            0.99999,
+                            0.10358,
+                            1,
+                            0.07726,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.03801,
+                            0,
+                            0,
+                            0.06703,
+                            0,
+                            0.10477,
+                            0,
+                            0.89546,
+                            1e-05,
+                            0.92117,
+                            0.00162,
+                            1,
+                            0,
+                            0.06742,
+                            0.03805,
+                            0.10473,
+                            0.038,
+                            0.8955,
+                            0.04064,
+                            0.92105,
+                            0.04175
+                        ],
+                        "triangles": [
+                            2,
+                            17,
+                            1,
+                            2,
+                            3,
+                            17,
+                            16,
+                            3,
+                            4,
+                            3,
+                            16,
+                            17,
+                            17,
+                            12,
+                            0,
+                            17,
+                            16,
+                            12,
+                            16,
+                            15,
+                            11,
+                            16,
+                            11,
+                            12,
+                            15,
+                            4,
+                            5,
+                            16,
+                            4,
+                            15,
+                            5,
+                            14,
+                            15,
+                            5,
+                            6,
+                            14,
+                            15,
+                            10,
+                            11,
+                            7,
+                            9,
+                            14,
+                            15,
+                            14,
+                            10,
+                            10,
+                            14,
+                            9,
+                            17,
+                            0,
+                            1,
+                            6,
+                            7,
+                            14,
+                            12,
+                            13,
+                            0,
+                            7,
+                            8,
+                            9
+                        ],
+                        "vertices": [
+                            1,
+                            0,
+                            417.64,
+                            411.34,
+                            1,
+                            1,
+                            0,
+                            417.64,
+                            -478.94,
+                            1,
+                            1,
+                            38,
+                            6.64,
+                            -382.51,
+                            1,
+                            1,
+                            38,
+                            -11.66,
+                            -382.5,
+                            1,
+                            1,
+                            37,
+                            7.37,
+                            -378.88,
+                            1,
+                            1,
+                            37,
+                            -14.58,
+                            -378.88,
+                            1,
+                            1,
+                            0,
+                            -416.36,
+                            -478.94,
+                            1,
+                            1,
+                            0,
+                            -416.36,
+                            413.79,
+                            1,
+                            1,
+                            0,
+                            -420.33,
+                            555.52,
+                            1,
+                            1,
+                            37,
+                            -23.12,
+                            674.45,
+                            1,
+                            1,
+                            37,
+                            8.36,
+                            674.45,
+                            1,
+                            1,
+                            38,
+                            -12.33,
+                            670.81,
+                            1,
+                            1,
+                            38,
+                            9.1,
+                            669.32,
+                            1,
+                            1,
+                            0,
+                            413.67,
+                            552.54,
+                            1,
+                            1,
+                            37,
+                            -22.79,
+                            513.81,
+                            1,
+                            1,
+                            37,
+                            8.32,
+                            513.85,
+                            1,
+                            1,
+                            38,
+                            -12.3,
+                            507.78,
+                            1,
+                            1,
+                            38,
+                            9.01,
+                            506.75,
+                            1
+                        ],
+                        "hull": 14
+                    }
+                },
+                "图层378": {
+                    "图层378": {
+                        "x": -14.91,
+                        "y": 1320.18,
+                        "width": 849,
+                        "height": 322
+                    }
+                },
+                "普通灯s": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s2": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s3": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s4": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s5": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s6": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s7": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s8": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s9": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s10": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s11": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s12": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s13": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s14": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s15": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s16": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s17": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s18": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s19": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s20": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s21": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s22": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s23": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s24": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s25": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s26": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s28": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s29": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s30": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                },
+                "普通灯s31": {
+                    "普通灯s": {
+                        "x": -0.13,
+                        "y": 0.03,
+                        "width": 14,
+                        "height": 14
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "0": {
+            "bones": {
+                "ms_clouds_a": {
+                    "translate": [
+                        {
+                            "y": -126.94
+                        }
+                    ]
+                },
+                "ms_clouds_b": {
+                    "translate": [
+                        {
+                            "y": -126.94
+                        }
+                    ]
+                },
+                "ms_stage_b": {
+                    "scale": [
+                        {
+                            "x": 0.01
+                        }
+                    ]
+                }
+            }
+        },
+        "door_open": {
+            "bones": {
+                "ms_stage_b": {
+                    "scale": [
+                        {}
+                    ]
+                }
+            }
+        },
+        "in": {
+            "bones": {
+                "ms_clouds_a": {
+                    "translate": [
+                        {
+                            "y": -126.94,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "y": -126.94,
+                            "curve": [
+                                0.334,
+                                0,
+                                0.362,
+                                0,
+                                0.334,
+                                -85.04,
+                                0.362,
+                                32.12
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "y": 32.12,
+                            "curve": [
+                                0.601,
+                                0,
+                                0.665,
+                                0,
+                                0.601,
+                                32.12,
+                                0.665,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.7333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "ms_clouds_b": {
+                    "translate": [
+                        {
+                            "y": -126.94,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": -126.94,
+                            "curve": [
+                                0.4,
+                                0,
+                                0.428,
+                                0,
+                                0.4,
+                                -85.04,
+                                0.428,
+                                32.12
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "y": 32.12,
+                            "curve": [
+                                0.668,
+                                0,
+                                0.732,
+                                0,
+                                0.668,
+                                32.12,
+                                0.732,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.8,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "in_door": {
+            "bones": {
+                "ms_stage_b": {
+                    "scale": [
+                        {
+                            "x": 0.302,
+                            "curve": [
+                                0.067,
+                                0.533,
+                                0.222,
+                                1,
+                                0.067,
+                                1,
+                                0.222,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667
+                        }
+                    ]
+                }
+            }
+        },
+        "loop_combo": {
+            "slots": {
+                "combo灯光层s": {
+                    "rgba": [
+                        {
+                            "color": "ffffff66"
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff66"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s3": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s6": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s7": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s8": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s9": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s10": {
+                    "rgba": [
+                        {
+                            "color": "ffffff65"
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff65"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s11": {
+                    "rgba": [
+                        {
+                            "color": "ffffffcb"
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffcb"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s12": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s13": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s14": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s15": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s16": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s17": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s18": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s19": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s20": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s21": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s22": {
+                    "rgba": [
+                        {
+                            "color": "ffffffcc"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffcc"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s23": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s24": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s25": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s26": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s28": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s29": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s30": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                },
+                "combo灯光层s31": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯光层s"
+                        }
+                    ]
+                }
+            }
+        },
+        "loop_normal": {
+            "bones": {
+                "ms_clouds_a": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "ms_clouds_b": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "ms_clouds_a2": {
+            "rootBoneName": "ms_clouds_a2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 5,
+                    "elasticFriction": 0.7999999999999999,
+                    "elasticSpring": 0.14999999999999997,
+                    "elasticSoftness": 0.5
+                },
+                "loop_combo": {
+                    "name": "loop_normal",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 1.1068562847027281,
+                    "moveXCenter": 0,
+                    "moveXSeed": 1374.872815825982,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.17567728686438042,
+                    "scaleXCenter": 0
+                },
+                "loop_normal": {
+                    "name": "loop_normal",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 1.1068562847027281,
+                    "moveXCenter": 0,
+                    "moveXSeed": 1374.872815825982,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.17567728686438042,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "ms_clouds_b2": {
+            "rootBoneName": "ms_clouds_b2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 5,
+                    "elasticFriction": 0.7999999999999999,
+                    "elasticSpring": 0.14999999999999997,
+                    "elasticSoftness": 0.5
+                },
+                "loop_combo": {
+                    "name": "loop_normal",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 1,
+                    "moveXDelay": -6.206995650364721,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4180,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                },
+                "loop_normal": {
+                    "name": "loop_normal",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 7,
+                    "moveXOctaves": 1,
+                    "moveXDelay": -6.206995650364721,
+                    "moveXCenter": 0,
+                    "moveXSeed": 4180,
+                    "scaleXFreq": 3,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

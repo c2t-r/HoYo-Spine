@@ -1,0 +1,108 @@
+{
+    "skeleton": {
+        "hash": "Ocuzgj31T9I",
+        "spine": "4.0-from-4.1.24",
+        "x": -573.5,
+        "y": -500.11,
+        "width": 1147,
+        "height": 846
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -0.7,
+            "y": -243.09
+        }
+    ],
+    "slots": [
+        {
+            "name": "梯形传送带",
+            "bone": "bone",
+            "attachment": "梯形传送带"
+        },
+        {
+            "name": "普通灯",
+            "bone": "bone",
+            "attachment": "普通灯"
+        },
+        {
+            "name": "combo灯",
+            "bone": "bone"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "combo灯": {
+                    "combo灯": {
+                        "x": 1.2,
+                        "y": 475.83,
+                        "width": 844,
+                        "height": 127
+                    }
+                },
+                "普通灯": {
+                    "普通灯": {
+                        "x": 1.2,
+                        "y": 475.83,
+                        "width": 844,
+                        "height": 127
+                    }
+                },
+                "梯形传送带": {
+                    "梯形传送带": {
+                        "x": 0.7,
+                        "y": 165.98,
+                        "width": 1147,
+                        "height": 846
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "combo": {
+            "slots": {
+                "combo灯": {
+                    "rgba": [
+                        {
+                            "color": "ffffffaa"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffaa"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "combo灯"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "combo灯"
+                        }
+                    ]
+                }
+            }
+        },
+        "normal": {}
+    }
+}
