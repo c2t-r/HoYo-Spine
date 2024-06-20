@@ -1,0 +1,1631 @@
+{
+    "skeleton": {
+        "hash": "1cXelOGtILY",
+        "spine": "4.2.20",
+        "x": -315.49,
+        "y": -546.8,
+        "width": 414.99,
+        "height": 99.87
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bai",
+            "parent": "root"
+        },
+        {
+            "name": "a",
+            "parent": "bai",
+            "y": -836.15
+        },
+        {
+            "name": "b",
+            "parent": "bai",
+            "y": -836.15
+        },
+        {
+            "name": "pa",
+            "parent": "root",
+            "rotation": -14.38,
+            "y": -1246.37
+        },
+        {
+            "name": "p",
+            "parent": "pa",
+            "x": -1020.03,
+            "y": -225.02
+        },
+        {
+            "name": "move",
+            "parent": "p"
+        },
+        {
+            "name": "p3",
+            "parent": "pa",
+            "x": 790.76,
+            "y": 460.3,
+            "scaleX": 0.5349,
+            "scaleY": 0.5349
+        },
+        {
+            "name": "move3",
+            "parent": "p3"
+        },
+        {
+            "name": "p4",
+            "parent": "pa",
+            "x": -75.54,
+            "y": 332.49,
+            "scaleX": 1.8919,
+            "scaleY": 1.8919
+        },
+        {
+            "name": "move4",
+            "parent": "p4"
+        },
+        {
+            "name": "p5",
+            "parent": "pa",
+            "x": 683.48,
+            "y": -817.6,
+            "scaleX": 0.7697,
+            "scaleY": 0.7697
+        },
+        {
+            "name": "move5",
+            "parent": "p5"
+        },
+        {
+            "name": "p6",
+            "parent": "pa",
+            "x": 200.29,
+            "y": -767.92,
+            "scaleX": 0.5484,
+            "scaleY": 0.5484
+        },
+        {
+            "name": "move6",
+            "parent": "p6"
+        },
+        {
+            "name": "pa2",
+            "parent": "root",
+            "rotation": 3.94,
+            "x": -456.1,
+            "y": -686.4,
+            "scaleX": 0.432,
+            "scaleY": 0.432
+        },
+        {
+            "name": "p7",
+            "parent": "pa2",
+            "x": -1045.02,
+            "y": -304.86
+        },
+        {
+            "name": "move7",
+            "parent": "p7"
+        },
+        {
+            "name": "p8",
+            "parent": "pa2",
+            "x": -611.24,
+            "y": -112.38,
+            "scaleX": 0.8702,
+            "scaleY": 0.8702
+        },
+        {
+            "name": "move8",
+            "parent": "p8"
+        },
+        {
+            "name": "p9",
+            "parent": "pa2",
+            "x": 465.62,
+            "y": -266.74,
+            "scaleX": 0.6807,
+            "scaleY": 0.6807
+        },
+        {
+            "name": "move9",
+            "parent": "p9"
+        },
+        {
+            "name": "p10",
+            "parent": "pa2",
+            "rotation": -9.19,
+            "x": 337.3,
+            "y": -1427.47,
+            "scaleX": 1.0555,
+            "scaleY": 1.0555
+        },
+        {
+            "name": "move10",
+            "parent": "p10"
+        },
+        {
+            "name": "p11",
+            "parent": "pa2",
+            "x": 543.97,
+            "y": -560.38,
+            "scaleX": 0.4706,
+            "scaleY": 0.4706
+        },
+        {
+            "name": "move11",
+            "parent": "p11"
+        },
+        {
+            "name": "p12",
+            "parent": "pa2",
+            "x": 272.75,
+            "y": 56.39,
+            "scaleX": 0.2569,
+            "scaleY": 0.2569
+        },
+        {
+            "name": "move12",
+            "parent": "p12"
+        },
+        {
+            "name": "pa3",
+            "parent": "root",
+            "rotation": -3.1,
+            "x": 541.9,
+            "y": -686.4,
+            "scaleX": 0.3778,
+            "scaleY": 0.3778
+        },
+        {
+            "name": "p13",
+            "parent": "pa3",
+            "x": -1045.02,
+            "y": -304.86,
+            "scaleX": 0.7322,
+            "scaleY": 0.7322
+        },
+        {
+            "name": "move13",
+            "parent": "p13"
+        },
+        {
+            "name": "p15",
+            "parent": "pa3",
+            "x": 465.62,
+            "y": -266.74,
+            "scaleX": 0.4018,
+            "scaleY": 0.4018
+        },
+        {
+            "name": "move15",
+            "parent": "p15"
+        },
+        {
+            "name": "p16",
+            "parent": "pa3",
+            "x": -427.77,
+            "y": -1062.9,
+            "scaleX": 1.8919,
+            "scaleY": 1.8919
+        },
+        {
+            "name": "move16",
+            "parent": "p16"
+        },
+        {
+            "name": "p18",
+            "parent": "pa3",
+            "x": 200.29,
+            "y": -767.92,
+            "scaleX": 0.2842,
+            "scaleY": 0.2842
+        },
+        {
+            "name": "move18",
+            "parent": "p18"
+        }
+    ],
+    "slots": [
+        {
+            "name": "mask",
+            "bone": "root",
+            "attachment": "mask"
+        },
+        {
+            "name": "bai",
+            "bone": "a",
+            "color": "ffffff2a",
+            "attachment": "bai",
+            "blend": "additive"
+        },
+        {
+            "name": "bai2",
+            "bone": "a",
+            "color": "ffffff2a",
+            "attachment": "bai",
+            "blend": "additive"
+        },
+        {
+            "name": "bai3",
+            "bone": "a",
+            "color": "ffffff2a",
+            "attachment": "bai",
+            "blend": "additive"
+        },
+        {
+            "name": "bai7",
+            "bone": "a",
+            "color": "ffffff2a",
+            "attachment": "bai",
+            "blend": "additive"
+        },
+        {
+            "name": "bai8",
+            "bone": "a",
+            "color": "ffffff2a",
+            "attachment": "bai",
+            "blend": "additive"
+        },
+        {
+            "name": "bai4",
+            "bone": "b",
+            "attachment": "bai"
+        },
+        {
+            "name": "bai5",
+            "bone": "b",
+            "attachment": "bai"
+        },
+        {
+            "name": "bai6",
+            "bone": "b",
+            "attachment": "bai"
+        },
+        {
+            "name": "map_xpao_a",
+            "bone": "move",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a7",
+            "bone": "move7",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a13",
+            "bone": "move13",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a8",
+            "bone": "move8",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a3",
+            "bone": "move3",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a9",
+            "bone": "move9",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a15",
+            "bone": "move15",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a4",
+            "bone": "move4",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a10",
+            "bone": "move10",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a16",
+            "bone": "move16",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a5",
+            "bone": "move5",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a11",
+            "bone": "move11",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a6",
+            "bone": "move6",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a12",
+            "bone": "move12",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "map_xpao_a18",
+            "bone": "move18",
+            "attachment": "map_xpao_a"
+        },
+        {
+            "name": "maskend",
+            "bone": "root"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bai": {
+                    "bai": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.5,
+                            0,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.5
+                        ],
+                        "triangles": [
+                            2,
+                            3,
+                            4,
+                            2,
+                            4,
+                            5,
+                            1,
+                            2,
+                            5,
+                            1,
+                            5,
+                            0
+                        ],
+                        "vertices": [
+                            1140,
+                            -1325.98,
+                            -1140,
+                            -1325.98,
+                            -1140,
+                            0,
+                            -1140,
+                            286.5,
+                            1140,
+                            286.5,
+                            1140,
+                            0
+                        ],
+                        "hull": 6
+                    }
+                },
+                "bai2": {
+                    "bai": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.5,
+                            0,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.5
+                        ],
+                        "triangles": [
+                            2,
+                            3,
+                            4,
+                            2,
+                            4,
+                            5,
+                            1,
+                            2,
+                            5,
+                            1,
+                            5,
+                            0
+                        ],
+                        "vertices": [
+                            3420,
+                            -1325.98,
+                            1140,
+                            -1325.98,
+                            1140,
+                            0,
+                            1140,
+                            286.5,
+                            3420,
+                            286.5,
+                            3420,
+                            0
+                        ],
+                        "hull": 6
+                    }
+                },
+                "bai3": {
+                    "bai": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.5,
+                            0,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.5
+                        ],
+                        "triangles": [
+                            2,
+                            3,
+                            4,
+                            2,
+                            4,
+                            5,
+                            1,
+                            2,
+                            5,
+                            1,
+                            5,
+                            0
+                        ],
+                        "vertices": [
+                            -1140,
+                            -1325.98,
+                            -3420,
+                            -1325.98,
+                            -3420,
+                            0,
+                            -3420,
+                            286.5,
+                            -1140,
+                            286.5,
+                            -1140,
+                            0
+                        ],
+                        "hull": 6
+                    }
+                },
+                "bai4": {
+                    "bai": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.5,
+                            0,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.5
+                        ],
+                        "triangles": [
+                            2,
+                            3,
+                            4,
+                            2,
+                            4,
+                            5,
+                            1,
+                            2,
+                            5,
+                            1,
+                            5,
+                            0
+                        ],
+                        "vertices": [
+                            1140,
+                            -1325.98,
+                            -1140,
+                            -1325.98,
+                            -1140,
+                            0,
+                            -1140,
+                            286.5,
+                            1140,
+                            286.5,
+                            1140,
+                            0
+                        ],
+                        "hull": 6
+                    }
+                },
+                "bai5": {
+                    "bai": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.5,
+                            0,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.5
+                        ],
+                        "triangles": [
+                            2,
+                            3,
+                            4,
+                            2,
+                            4,
+                            5,
+                            1,
+                            2,
+                            5,
+                            1,
+                            5,
+                            0
+                        ],
+                        "vertices": [
+                            3420,
+                            -1325.98,
+                            1140,
+                            -1325.98,
+                            1140,
+                            0,
+                            1140,
+                            286.5,
+                            3420,
+                            286.5,
+                            3420,
+                            0
+                        ],
+                        "hull": 6
+                    }
+                },
+                "bai6": {
+                    "bai": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.5,
+                            0,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.5
+                        ],
+                        "triangles": [
+                            2,
+                            3,
+                            4,
+                            2,
+                            4,
+                            5,
+                            1,
+                            2,
+                            5,
+                            1,
+                            5,
+                            0
+                        ],
+                        "vertices": [
+                            -1140,
+                            -1325.98,
+                            -3420,
+                            -1325.98,
+                            -3420,
+                            0,
+                            -3420,
+                            286.5,
+                            -1140,
+                            286.5,
+                            -1140,
+                            0
+                        ],
+                        "hull": 6
+                    }
+                },
+                "bai7": {
+                    "bai": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.5,
+                            0,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.5
+                        ],
+                        "triangles": [
+                            2,
+                            3,
+                            4,
+                            2,
+                            4,
+                            5,
+                            1,
+                            2,
+                            5,
+                            1,
+                            5,
+                            0
+                        ],
+                        "vertices": [
+                            -3420,
+                            -1325.98,
+                            -5700,
+                            -1325.98,
+                            -5700,
+                            0,
+                            -5700,
+                            286.5,
+                            -3420,
+                            286.5,
+                            -3420,
+                            0
+                        ],
+                        "hull": 6
+                    }
+                },
+                "bai8": {
+                    "bai": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.5,
+                            0,
+                            0,
+                            1,
+                            0,
+                            1,
+                            0.5
+                        ],
+                        "triangles": [
+                            2,
+                            3,
+                            4,
+                            2,
+                            4,
+                            5,
+                            1,
+                            2,
+                            5,
+                            1,
+                            5,
+                            0
+                        ],
+                        "vertices": [
+                            -5700,
+                            -1325.98,
+                            -7980,
+                            -1325.98,
+                            -7980,
+                            0,
+                            -7980,
+                            286.5,
+                            -5700,
+                            286.5,
+                            -5700,
+                            0
+                        ],
+                        "hull": 6
+                    }
+                },
+                "map_xpao_a": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a3": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a4": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a5": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a6": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a7": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a8": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a9": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a10": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a11": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a12": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a13": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a15": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a16": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "map_xpao_a18": {
+                    "map_xpao_a": {
+                        "width": 427,
+                        "height": 391
+                    }
+                },
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "maskend",
+                        "vertexCount": 4,
+                        "vertices": [
+                            -1257.96,
+                            548.01,
+                            -1255.59,
+                            -545.67,
+                            1261.98,
+                            -547.78,
+                            1256.14,
+                            548.07
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "0": {},
+        "animation": {
+            "slots": {
+                "bai": {
+                    "attachment": [
+                        {
+                            "name": "bai"
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "bai2": {
+                    "attachment": [
+                        {
+                            "name": "bai"
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "bai3": {
+                    "attachment": [
+                        {
+                            "name": "bai"
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "bai4": {
+                    "rgba": [
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "bai5": {
+                    "rgba": [
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "bai6": {
+                    "rgba": [
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "bai7": {
+                    "attachment": [
+                        {
+                            "name": "bai"
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "bai8": {
+                    "attachment": [
+                        {
+                            "name": "bai"
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                },
+                "map_xpao_a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.0667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.4667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a6": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a7": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.0333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a8": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.9,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.4667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a9": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.8667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a10": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.9667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a11": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.4667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a12": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a13": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a15": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.2333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a16": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "map_xpao_a18": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "b": {
+                    "translatex": [
+                        {
+                            "value": -2036.5,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "value": -2036.5
+                        },
+                        {
+                            "time": 1,
+                            "value": 2155.7
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "curve": [
+                                0.595,
+                                4.05,
+                                0.677,
+                                1276.53
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "value": 1276.53
+                        }
+                    ]
+                },
+                "a": {
+                    "translatex": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": 4983.91
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "curve": [
+                                0.411,
+                                4.05,
+                                0.627,
+                                1276.53
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "value": 1276.53
+                        }
+                    ]
+                },
+                "move": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2.2,
+                            "value": 3101.12
+                        }
+                    ]
+                },
+                "move3": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2.2,
+                            "value": 5210.3
+                        }
+                    ]
+                },
+                "move4": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2.0667,
+                            "value": 2619.06
+                        }
+                    ]
+                },
+                "move5": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2.4667,
+                            "value": 5370.38
+                        }
+                    ]
+                },
+                "move6": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2,
+                            "value": 6361.14
+                        }
+                    ]
+                },
+                "move7": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2.0333,
+                            "value": 6000
+                        }
+                    ]
+                },
+                "move8": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2.4667,
+                            "value": 5801.7
+                        }
+                    ]
+                },
+                "move9": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 1.8667,
+                            "value": 6120.74
+                        }
+                    ]
+                },
+                "move10": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 1.9667,
+                            "value": 6000
+                        }
+                    ]
+                },
+                "move11": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2.4667,
+                            "value": 6843.64
+                        }
+                    ]
+                },
+                "move12": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2.2,
+                            "value": 6000
+                        }
+                    ]
+                },
+                "move13": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2.3333,
+                            "value": 6000
+                        }
+                    ]
+                },
+                "move15": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2.2333,
+                            "value": 9023.66
+                        }
+                    ]
+                },
+                "move16": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2,
+                            "value": 4741.74
+                        }
+                    ]
+                },
+                "move18": {
+                    "translatey": [
+                        {
+                            "value": 3.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 3.46
+                        },
+                        {
+                            "time": 2.2,
+                            "value": 6000
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

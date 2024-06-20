@@ -1,0 +1,1116 @@
+{
+    "skeleton": {
+        "hash": "Nrumq/H5RMY",
+        "spine": "4.2.20",
+        "x": -1893.5,
+        "y": -1520,
+        "width": 3787,
+        "height": 3040,
+        "images": "./loading_bg/tex/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bg",
+            "parent": "root"
+        },
+        {
+            "name": "bg2",
+            "parent": "bg",
+            "scaleY": 40,
+            "icon": "arrowLeftRight"
+        },
+        {
+            "name": "兔",
+            "parent": "bg",
+            "x": -280,
+            "icon": "square"
+        },
+        {
+            "name": "兔1",
+            "parent": "兔"
+        },
+        {
+            "name": "兔_move",
+            "parent": "兔1",
+            "icon": "arrowUpDown"
+        },
+        {
+            "name": "药",
+            "parent": "bg",
+            "icon": "square"
+        },
+        {
+            "name": "药1",
+            "parent": "药",
+            "x": -660
+        },
+        {
+            "name": "药_move",
+            "parent": "药1",
+            "icon": "arrowUpDown"
+        },
+        {
+            "name": "兔2",
+            "parent": "兔",
+            "x": -757
+        },
+        {
+            "name": "兔_move2",
+            "parent": "兔2",
+            "icon": "arrowUpDown"
+        },
+        {
+            "name": "药2",
+            "parent": "药",
+            "x": -1417
+        },
+        {
+            "name": "药_move2",
+            "parent": "药2",
+            "icon": "arrowUpDown"
+        },
+        {
+            "name": "兔3",
+            "parent": "兔",
+            "x": -1514
+        },
+        {
+            "name": "兔_move3",
+            "parent": "兔3",
+            "icon": "arrowUpDown"
+        },
+        {
+            "name": "兔4",
+            "parent": "兔",
+            "x": 757
+        },
+        {
+            "name": "兔_move4",
+            "parent": "兔4",
+            "icon": "arrowUpDown"
+        },
+        {
+            "name": "兔5",
+            "parent": "兔",
+            "x": 1514
+        },
+        {
+            "name": "兔_move5",
+            "parent": "兔5",
+            "icon": "arrowUpDown"
+        },
+        {
+            "name": "药3",
+            "parent": "药",
+            "x": 97
+        },
+        {
+            "name": "药_move3",
+            "parent": "药3",
+            "icon": "arrowUpDown"
+        },
+        {
+            "name": "药4",
+            "parent": "药",
+            "x": 854
+        },
+        {
+            "name": "药_move4",
+            "parent": "药4",
+            "icon": "arrowUpDown"
+        },
+        {
+            "name": "药5",
+            "parent": "药",
+            "x": 1611
+        },
+        {
+            "name": "药_move5",
+            "parent": "药5",
+            "icon": "arrowUpDown"
+        }
+    ],
+    "slots": [
+        {
+            "name": "bg",
+            "bone": "bg2",
+            "attachment": "bg"
+        },
+        {
+            "name": "bg2",
+            "bone": "bg2",
+            "attachment": "bg"
+        },
+        {
+            "name": "bg4",
+            "bone": "bg2",
+            "attachment": "bg"
+        },
+        {
+            "name": "bg3",
+            "bone": "bg2",
+            "attachment": "bg"
+        },
+        {
+            "name": "bg5",
+            "bone": "bg2",
+            "attachment": "bg"
+        },
+        {
+            "name": "兔",
+            "bone": "兔_move",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔22",
+            "bone": "兔_move4",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔29",
+            "bone": "兔_move5",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔8",
+            "bone": "兔_move2",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔15",
+            "bone": "兔_move3",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔2",
+            "bone": "兔_move",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔23",
+            "bone": "兔_move4",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔30",
+            "bone": "兔_move5",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔9",
+            "bone": "兔_move2",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔16",
+            "bone": "兔_move3",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔3",
+            "bone": "兔_move",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔24",
+            "bone": "兔_move4",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔31",
+            "bone": "兔_move5",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔10",
+            "bone": "兔_move2",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔17",
+            "bone": "兔_move3",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔4",
+            "bone": "兔_move",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔25",
+            "bone": "兔_move4",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔32",
+            "bone": "兔_move5",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔11",
+            "bone": "兔_move2",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔18",
+            "bone": "兔_move3",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔6",
+            "bone": "兔_move",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔26",
+            "bone": "兔_move4",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔33",
+            "bone": "兔_move5",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔12",
+            "bone": "兔_move2",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔19",
+            "bone": "兔_move3",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔7",
+            "bone": "兔_move",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔27",
+            "bone": "兔_move4",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔34",
+            "bone": "兔_move5",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔13",
+            "bone": "兔_move2",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔20",
+            "bone": "兔_move3",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔5",
+            "bone": "兔_move",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔28",
+            "bone": "兔_move4",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔35",
+            "bone": "兔_move5",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔14",
+            "bone": "兔_move2",
+            "attachment": "兔"
+        },
+        {
+            "name": "兔21",
+            "bone": "兔_move3",
+            "attachment": "兔"
+        },
+        {
+            "name": "药",
+            "bone": "药_move",
+            "attachment": "药"
+        },
+        {
+            "name": "药15",
+            "bone": "药_move3",
+            "attachment": "药"
+        },
+        {
+            "name": "药22",
+            "bone": "药_move4",
+            "attachment": "药"
+        },
+        {
+            "name": "药29",
+            "bone": "药_move5",
+            "attachment": "药"
+        },
+        {
+            "name": "药8",
+            "bone": "药_move2",
+            "attachment": "药"
+        },
+        {
+            "name": "药2",
+            "bone": "药_move",
+            "attachment": "药"
+        },
+        {
+            "name": "药16",
+            "bone": "药_move3",
+            "attachment": "药"
+        },
+        {
+            "name": "药23",
+            "bone": "药_move4",
+            "attachment": "药"
+        },
+        {
+            "name": "药30",
+            "bone": "药_move5",
+            "attachment": "药"
+        },
+        {
+            "name": "药9",
+            "bone": "药_move2",
+            "attachment": "药"
+        },
+        {
+            "name": "药3",
+            "bone": "药_move",
+            "attachment": "药"
+        },
+        {
+            "name": "药17",
+            "bone": "药_move3",
+            "attachment": "药"
+        },
+        {
+            "name": "药24",
+            "bone": "药_move4",
+            "attachment": "药"
+        },
+        {
+            "name": "药31",
+            "bone": "药_move5",
+            "attachment": "药"
+        },
+        {
+            "name": "药10",
+            "bone": "药_move2",
+            "attachment": "药"
+        },
+        {
+            "name": "药4",
+            "bone": "药_move",
+            "attachment": "药"
+        },
+        {
+            "name": "药18",
+            "bone": "药_move3",
+            "attachment": "药"
+        },
+        {
+            "name": "药25",
+            "bone": "药_move4",
+            "attachment": "药"
+        },
+        {
+            "name": "药32",
+            "bone": "药_move5",
+            "attachment": "药"
+        },
+        {
+            "name": "药11",
+            "bone": "药_move2",
+            "attachment": "药"
+        },
+        {
+            "name": "药5",
+            "bone": "药_move",
+            "attachment": "药"
+        },
+        {
+            "name": "药19",
+            "bone": "药_move3",
+            "attachment": "药"
+        },
+        {
+            "name": "药26",
+            "bone": "药_move4",
+            "attachment": "药"
+        },
+        {
+            "name": "药33",
+            "bone": "药_move5",
+            "attachment": "药"
+        },
+        {
+            "name": "药12",
+            "bone": "药_move2",
+            "attachment": "药"
+        },
+        {
+            "name": "药6",
+            "bone": "药_move",
+            "attachment": "药"
+        },
+        {
+            "name": "药20",
+            "bone": "药_move3",
+            "attachment": "药"
+        },
+        {
+            "name": "药27",
+            "bone": "药_move4",
+            "attachment": "药"
+        },
+        {
+            "name": "药34",
+            "bone": "药_move5",
+            "attachment": "药"
+        },
+        {
+            "name": "药13",
+            "bone": "药_move2",
+            "attachment": "药"
+        },
+        {
+            "name": "药7",
+            "bone": "药_move",
+            "attachment": "药"
+        },
+        {
+            "name": "药21",
+            "bone": "药_move3",
+            "attachment": "药"
+        },
+        {
+            "name": "药28",
+            "bone": "药_move4",
+            "attachment": "药"
+        },
+        {
+            "name": "药35",
+            "bone": "药_move5",
+            "attachment": "药"
+        },
+        {
+            "name": "药14",
+            "bone": "药_move2",
+            "attachment": "药"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bg": {
+                    "bg": {
+                        "width": 759,
+                        "height": 76
+                    }
+                },
+                "bg2": {
+                    "bg": {
+                        "x": 757,
+                        "width": 759,
+                        "height": 76
+                    }
+                },
+                "bg3": {
+                    "bg": {
+                        "x": 1514,
+                        "width": 759,
+                        "height": 76
+                    }
+                },
+                "bg4": {
+                    "bg": {
+                        "x": -757,
+                        "width": 759,
+                        "height": 76
+                    }
+                },
+                "bg5": {
+                    "bg": {
+                        "x": -1514,
+                        "width": 759,
+                        "height": 76
+                    }
+                },
+                "兔": {
+                    "兔": {
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔2": {
+                    "兔": {
+                        "y": 400,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔3": {
+                    "兔": {
+                        "y": -400,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔4": {
+                    "兔": {
+                        "y": -800,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔5": {
+                    "兔": {
+                        "y": 800,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔6": {
+                    "兔": {
+                        "y": -1200,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔7": {
+                    "兔": {
+                        "y": 1200,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔8": {
+                    "兔": {
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔9": {
+                    "兔": {
+                        "y": 400,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔10": {
+                    "兔": {
+                        "y": -400,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔11": {
+                    "兔": {
+                        "y": -800,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔12": {
+                    "兔": {
+                        "y": -1200,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔13": {
+                    "兔": {
+                        "y": 1200,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔14": {
+                    "兔": {
+                        "y": 800,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔15": {
+                    "兔": {
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔16": {
+                    "兔": {
+                        "y": 400,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔17": {
+                    "兔": {
+                        "y": -400,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔18": {
+                    "兔": {
+                        "y": -800,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔19": {
+                    "兔": {
+                        "y": -1200,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔20": {
+                    "兔": {
+                        "y": 1200,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔21": {
+                    "兔": {
+                        "y": 800,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔22": {
+                    "兔": {
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔23": {
+                    "兔": {
+                        "y": 400,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔24": {
+                    "兔": {
+                        "y": -400,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔25": {
+                    "兔": {
+                        "y": -800,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔26": {
+                    "兔": {
+                        "y": -1200,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔27": {
+                    "兔": {
+                        "y": 1200,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔28": {
+                    "兔": {
+                        "y": 800,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔29": {
+                    "兔": {
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔30": {
+                    "兔": {
+                        "y": 400,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔31": {
+                    "兔": {
+                        "y": -400,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔32": {
+                    "兔": {
+                        "y": -800,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔33": {
+                    "兔": {
+                        "y": -1200,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔34": {
+                    "兔": {
+                        "y": 1200,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "兔35": {
+                    "兔": {
+                        "y": 800,
+                        "width": 160,
+                        "height": 147
+                    }
+                },
+                "药": {
+                    "药": {
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药2": {
+                    "药": {
+                        "y": 350,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药3": {
+                    "药": {
+                        "y": -350,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药4": {
+                    "药": {
+                        "y": -700,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药5": {
+                    "药": {
+                        "y": 700,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药6": {
+                    "药": {
+                        "y": 1050,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药7": {
+                    "药": {
+                        "y": -1050,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药8": {
+                    "药": {
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药9": {
+                    "药": {
+                        "y": 350,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药10": {
+                    "药": {
+                        "y": -350,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药11": {
+                    "药": {
+                        "y": -700,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药12": {
+                    "药": {
+                        "y": 700,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药13": {
+                    "药": {
+                        "y": 1050,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药14": {
+                    "药": {
+                        "y": -1050,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药15": {
+                    "药": {
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药16": {
+                    "药": {
+                        "y": 350,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药17": {
+                    "药": {
+                        "y": -350,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药18": {
+                    "药": {
+                        "y": -700,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药19": {
+                    "药": {
+                        "y": 700,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药20": {
+                    "药": {
+                        "y": 1050,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药21": {
+                    "药": {
+                        "y": -1050,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药22": {
+                    "药": {
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药23": {
+                    "药": {
+                        "y": 350,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药24": {
+                    "药": {
+                        "y": -350,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药25": {
+                    "药": {
+                        "y": -700,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药26": {
+                    "药": {
+                        "y": 700,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药27": {
+                    "药": {
+                        "y": 1050,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药28": {
+                    "药": {
+                        "y": -1050,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药29": {
+                    "药": {
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药30": {
+                    "药": {
+                        "y": 350,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药31": {
+                    "药": {
+                        "y": -350,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药32": {
+                    "药": {
+                        "y": -700,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药33": {
+                    "药": {
+                        "y": 700,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药34": {
+                    "药": {
+                        "y": 1050,
+                        "width": 123,
+                        "height": 218
+                    }
+                },
+                "药35": {
+                    "药": {
+                        "y": -1050,
+                        "width": 123,
+                        "height": 218
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "兔": {
+            "rootBoneName": "兔",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 6,
+                    "delay": 0.1,
+                    "yFrames": [
+                        {
+                            "value": 0,
+                            "start": 0
+                        },
+                        {
+                            "value": -400,
+                            "start": 1.5
+                        }
+                    ]
+                }
+            }
+        },
+        "bg": {
+            "rootBoneName": "bg",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 6,
+                    "delay": 0,
+                    "xFrames": [
+                        {
+                            "value": 757,
+                            "start": 0
+                        },
+                        {
+                            "value": 0,
+                            "start": 5
+                        }
+                    ]
+                }
+            }
+        },
+        "药": {
+            "rootBoneName": "药",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 6,
+                    "delay": 0.1,
+                    "yFrames": [
+                        {
+                            "value": 0,
+                            "start": 0
+                        },
+                        {
+                            "value": 350,
+                            "start": 1.5
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

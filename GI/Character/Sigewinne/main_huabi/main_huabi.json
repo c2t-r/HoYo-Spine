@@ -1,0 +1,419 @@
+{
+    "skeleton": {
+        "hash": "UuxUNNP7u2M",
+        "spine": "4.2.20",
+        "x": -216,
+        "y": -148,
+        "width": 432,
+        "height": 296
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "颜料",
+            "parent": "root",
+            "x": -141.33,
+            "y": -64.4
+        },
+        {
+            "name": "颜料_wiggle",
+            "parent": "颜料",
+            "y": 0.4
+        },
+        {
+            "name": "画笔",
+            "parent": "root",
+            "x": 13.01,
+            "y": 27.08
+        },
+        {
+            "name": "画笔_wiggle",
+            "parent": "画笔",
+            "x": -0.4,
+            "y": 1.21
+        },
+        {
+            "name": "颜料盘",
+            "parent": "root",
+            "x": 71.05,
+            "y": -15.24
+        },
+        {
+            "name": "颜料盘_wiggle",
+            "parent": "颜料盘",
+            "x": -1.21,
+            "y": 0.81
+        }
+    ],
+    "slots": [
+        {
+            "name": "颜料",
+            "bone": "颜料_wiggle",
+            "attachment": "颜料"
+        },
+        {
+            "name": "颜料盘",
+            "bone": "颜料盘_wiggle",
+            "attachment": "颜料盘"
+        },
+        {
+            "name": "画笔",
+            "bone": "画笔_wiggle",
+            "attachment": "画笔"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "画笔": {
+                    "画笔": {
+                        "x": 4.89,
+                        "y": -11.79,
+                        "width": 137,
+                        "height": 263
+                    }
+                },
+                "颜料": {
+                    "颜料": {
+                        "x": 40.83,
+                        "y": 13,
+                        "width": 231,
+                        "height": 176
+                    }
+                },
+                "颜料盘": {
+                    "颜料盘": {
+                        "x": -8.84,
+                        "y": -20.07,
+                        "width": 310,
+                        "height": 227
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "bones": {
+                "颜料盘": {
+                    "rotate": [
+                        {
+                            "value": 49.23,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "value": 49.23,
+                            "curve": [
+                                0.311,
+                                49.23,
+                                0.489,
+                                -10.49
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -10.49,
+                            "curve": [
+                                0.789,
+                                -10.49,
+                                0.911,
+                                6
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "value": 6,
+                            "curve": [
+                                1.167,
+                                6,
+                                1.3,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.4333
+                        }
+                    ],
+                    "translatex": [
+                        {}
+                    ],
+                    "translatey": [
+                        {
+                            "value": 883.55,
+                            "curve": [
+                                0.178,
+                                883.55,
+                                0.356,
+                                -92.36
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "value": -92.36,
+                            "curve": [
+                                0.656,
+                                -92.36,
+                                0.778,
+                                9.84
+                            ]
+                        },
+                        {
+                            "time": 0.9,
+                            "value": 9.84,
+                            "curve": [
+                                1.033,
+                                9.84,
+                                1.167,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.3
+                        }
+                    ]
+                },
+                "颜料": {
+                    "rotate": [
+                        {
+                            "value": 39.28,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": 39.28,
+                            "curve": [
+                                0.633,
+                                39.28,
+                                0.822,
+                                -10.49
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "value": -10.49,
+                            "curve": [
+                                1.122,
+                                -10.49,
+                                1.244,
+                                3.59
+                            ]
+                        },
+                        {
+                            "time": 1.3667,
+                            "value": 3.59,
+                            "curve": [
+                                1.5,
+                                3.59,
+                                1.633,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.7667
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 883.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 883.55,
+                            "curve": [
+                                0.493,
+                                883.55,
+                                0.689,
+                                -92.36
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "value": -92.36,
+                            "curve": [
+                                0.989,
+                                -92.36,
+                                1.111,
+                                9.84
+                            ]
+                        },
+                        {
+                            "time": 1.2333,
+                            "value": 9.84,
+                            "curve": [
+                                1.367,
+                                9.84,
+                                1.5,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.6333
+                        }
+                    ]
+                },
+                "画笔": {
+                    "rotate": [
+                        {
+                            "value": -54.38,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -54.38,
+                            "curve": [
+                                0.457,
+                                -54.38,
+                                0.656,
+                                23.06
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": 23.06,
+                            "curve": [
+                                0.956,
+                                23.06,
+                                1.078,
+                                -7.28
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "value": -7.28,
+                            "curve": [
+                                1.333,
+                                -7.28,
+                                1.467,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.6
+                        }
+                    ],
+                    "translatex": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667
+                        }
+                    ],
+                    "translatey": [
+                        {
+                            "value": 883.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 883.55,
+                            "curve": [
+                                0.306,
+                                883.55,
+                                0.522,
+                                -92.36
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "value": -92.36,
+                            "curve": [
+                                0.822,
+                                -92.36,
+                                0.944,
+                                9.84
+                            ]
+                        },
+                        {
+                            "time": 1.0667,
+                            "value": 9.84,
+                            "curve": [
+                                1.2,
+                                9.84,
+                                1.333,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.4667
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {}
+    },
+    "extra": {
+        "颜料_wiggle": {
+            "rootBoneName": "颜料_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.1713464210406443
+                }
+            }
+        },
+        "画笔_wiggle": {
+            "rootBoneName": "画笔_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -2.7290539106428118,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.04308207394797847
+                }
+            }
+        },
+        "颜料盘_wiggle": {
+            "rootBoneName": "颜料盘_wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 30,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 4.656821938986075,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 6,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.15154033750116083
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
