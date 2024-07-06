@@ -1,0 +1,365 @@
+{
+    "skeleton": {
+        "hash": "MV8loPZXy5k",
+        "spine": "4.2.33",
+        "x": -686.5,
+        "y": -565,
+        "width": 1373,
+        "height": 1130,
+        "images": "./map_kuang_spine/tex/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "d",
+            "parent": "root",
+            "x": 176.26,
+            "y": -517.67
+        },
+        {
+            "name": "c",
+            "parent": "root",
+            "x": -130.28,
+            "y": -232.41
+        },
+        {
+            "name": "b",
+            "parent": "root",
+            "x": -232.78,
+            "y": -343.61
+        },
+        {
+            "name": "a",
+            "parent": "root",
+            "x": -332.38,
+            "y": -55.45
+        }
+    ],
+    "slots": [
+        {
+            "name": "cb",
+            "bone": "root",
+            "attachment": "cb"
+        },
+        {
+            "name": "ca",
+            "bone": "root",
+            "attachment": "ca"
+        },
+        {
+            "name": "d",
+            "bone": "d",
+            "attachment": "d"
+        },
+        {
+            "name": "c",
+            "bone": "c",
+            "attachment": "c"
+        },
+        {
+            "name": "b",
+            "bone": "b",
+            "attachment": "b"
+        },
+        {
+            "name": "a",
+            "bone": "a",
+            "attachment": "a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "x": 0.88,
+                        "y": -2.05,
+                        "width": 90,
+                        "height": 65
+                    }
+                },
+                "b": {
+                    "b": {
+                        "x": -7.22,
+                        "y": 23.61,
+                        "width": 107,
+                        "height": 112
+                    }
+                },
+                "c": {
+                    "c": {
+                        "x": 12.78,
+                        "y": -21.59,
+                        "width": 144,
+                        "height": 110
+                    }
+                },
+                "ca": {
+                    "ca": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0,
+                            0.37282,
+                            0.07059,
+                            0.79347,
+                            1,
+                            0,
+                            1
+                        ],
+                        "triangles": [
+                            3,
+                            0,
+                            1,
+                            3,
+                            1,
+                            2
+                        ],
+                        "vertices": [
+                            -686.5,
+                            -62,
+                            -330.83,
+                            -94.26,
+                            70.47,
+                            -519,
+                            -686.5,
+                            -519
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 954,
+                        "height": 457
+                    }
+                },
+                "cb": {
+                    "cb": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            1,
+                            0.39487,
+                            0.88115,
+                            0.58745,
+                            0.78391,
+                            0.47819,
+                            0.40389,
+                            0.5574,
+                            0.05942,
+                            0.85652,
+                            0,
+                            1,
+                            0,
+                            0.79506,
+                            0.20215,
+                            0.65028,
+                            0.3886,
+                            0.74042,
+                            0.73739,
+                            0.54187,
+                            1
+                        ],
+                        "triangles": [
+                            7,
+                            4,
+                            5,
+                            7,
+                            5,
+                            6,
+                            8,
+                            4,
+                            7,
+                            3,
+                            4,
+                            8,
+                            9,
+                            2,
+                            3,
+                            9,
+                            3,
+                            8,
+                            10,
+                            1,
+                            2,
+                            10,
+                            2,
+                            9,
+                            0,
+                            1,
+                            10
+                        ],
+                        "vertices": [
+                            -21.5,
+                            -519,
+                            258.07,
+                            -390.16,
+                            394.42,
+                            -284.76,
+                            317.06,
+                            127.18,
+                            373.14,
+                            500.58,
+                            584.91,
+                            565,
+                            686.5,
+                            565,
+                            541.4,
+                            345.86,
+                            438.9,
+                            143.76,
+                            502.72,
+                            -234.34,
+                            362.14,
+                            -519
+                        ],
+                        "hull": 11,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            6,
+                            8,
+                            8,
+                            10,
+                            10,
+                            12,
+                            12,
+                            14,
+                            14,
+                            16,
+                            16,
+                            18,
+                            18,
+                            20,
+                            0,
+                            20
+                        ],
+                        "width": 708,
+                        "height": 1084
+                    }
+                },
+                "d": {
+                    "d": {
+                        "x": 28.24,
+                        "y": 35.17,
+                        "width": 286,
+                        "height": 165
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "a": {
+            "rootBoneName": "a",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 1
+                }
+            }
+        },
+        "c": {
+            "rootBoneName": "c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 40,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -3.149529860275911,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 20,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 2
+                }
+            }
+        },
+        "b": {
+            "rootBoneName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 4,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4,
+                    "moveYCenter": 0,
+                    "rotateFreq": 4,
+                    "rotateAmp": 10,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.029044460374811232,
+                    "rotateCenter": -3
+                }
+            }
+        },
+        "d": {
+            "rootBoneName": "d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.762034148351785,
+                    "moveYCenter": 0,
+                    "rotateFreq": 5,
+                    "rotateAmp": 7,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 2
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

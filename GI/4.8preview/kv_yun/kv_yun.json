@@ -1,0 +1,1570 @@
+{
+    "skeleton": {
+        "hash": "90ARKtkNyvU",
+        "spine": "4.2.32",
+        "x": -1316.5,
+        "y": -307.75,
+        "width": 2654,
+        "height": 650.5
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "e",
+            "parent": "root",
+            "x": -1745.06,
+            "y": -308.32
+        },
+        {
+            "name": "m",
+            "parent": "root",
+            "x": -1487.22,
+            "y": -235.89
+        },
+        {
+            "name": "d",
+            "parent": "root",
+            "x": -2446.13,
+            "y": 537.61
+        },
+        {
+            "name": "a",
+            "parent": "root",
+            "x": -2055.04,
+            "y": 462.28
+        },
+        {
+            "name": "c",
+            "parent": "root",
+            "x": -1359.76,
+            "y": 378.27
+        },
+        {
+            "name": "i",
+            "parent": "root",
+            "x": -1214.91,
+            "y": 497.05
+        },
+        {
+            "name": "qd",
+            "parent": "root",
+            "x": -696.34,
+            "y": 346.4
+        },
+        {
+            "name": "n",
+            "parent": "root",
+            "x": -1017.91,
+            "y": 184.17
+        },
+        {
+            "name": "qb",
+            "parent": "root",
+            "x": -1368.45,
+            "y": 146.51
+        },
+        {
+            "name": "qa",
+            "parent": "root",
+            "x": -1814.59,
+            "y": 442
+        },
+        {
+            "name": "g",
+            "parent": "root",
+            "x": -1.29,
+            "y": 201.55
+        },
+        {
+            "name": "qe",
+            "parent": "root",
+            "x": 925.75,
+            "y": 581.06
+        },
+        {
+            "name": "l",
+            "parent": "root",
+            "x": 983.69,
+            "y": 236.32
+        },
+        {
+            "name": "f",
+            "parent": "root",
+            "x": 1716.63,
+            "y": 227.63
+        },
+        {
+            "name": "b",
+            "parent": "root",
+            "x": 2122.21,
+            "y": 4.56
+        },
+        {
+            "name": "qf",
+            "parent": "root",
+            "x": 2172.45,
+            "y": -187.32
+        },
+        {
+            "name": "k",
+            "parent": "root",
+            "x": 2308.61,
+            "y": -468.33
+        },
+        {
+            "name": "j",
+            "parent": "root",
+            "x": 1520.63,
+            "y": -393.01
+        },
+        {
+            "name": "g2",
+            "parent": "g",
+            "x": -646.42,
+            "y": -254.81
+        },
+        {
+            "name": "g3",
+            "parent": "g",
+            "x": 808.64,
+            "y": -2.73
+        },
+        {
+            "name": "g4",
+            "parent": "g",
+            "x": 55.58,
+            "y": -98.45
+        }
+    ],
+    "slots": [
+        {
+            "name": "qf",
+            "bone": "qf",
+            "attachment": "qf"
+        },
+        {
+            "name": "qe",
+            "bone": "qe",
+            "attachment": "qe"
+        },
+        {
+            "name": "qd",
+            "bone": "qd",
+            "attachment": "qd"
+        },
+        {
+            "name": "qc",
+            "bone": "root",
+            "attachment": "qc"
+        },
+        {
+            "name": "qb",
+            "bone": "qb",
+            "attachment": "qb"
+        },
+        {
+            "name": "qa",
+            "bone": "qa",
+            "attachment": "qa"
+        },
+        {
+            "name": "n",
+            "bone": "n",
+            "attachment": "n"
+        },
+        {
+            "name": "m",
+            "bone": "m",
+            "attachment": "m"
+        },
+        {
+            "name": "l",
+            "bone": "l",
+            "attachment": "l"
+        },
+        {
+            "name": "j",
+            "bone": "j",
+            "attachment": "j"
+        },
+        {
+            "name": "k",
+            "bone": "k",
+            "attachment": "k"
+        },
+        {
+            "name": "i",
+            "bone": "i",
+            "attachment": "i"
+        },
+        {
+            "name": "g",
+            "bone": "g",
+            "attachment": "g"
+        },
+        {
+            "name": "f",
+            "bone": "f",
+            "attachment": "f"
+        },
+        {
+            "name": "e",
+            "bone": "e",
+            "attachment": "e"
+        },
+        {
+            "name": "d",
+            "bone": "d",
+            "attachment": "d"
+        },
+        {
+            "name": "c",
+            "bone": "c",
+            "attachment": "c"
+        },
+        {
+            "name": "b",
+            "bone": "b",
+            "attachment": "b"
+        },
+        {
+            "name": "a",
+            "bone": "a",
+            "attachment": "a"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.22131,
+                            0.73904,
+                            1,
+                            1,
+                            1,
+                            1,
+                            0.74351,
+                            0.65021,
+                            0,
+                            0,
+                            0
+                        ],
+                        "triangles": [
+                            0,
+                            5,
+                            4,
+                            1,
+                            4,
+                            3,
+                            0,
+                            4,
+                            1,
+                            1,
+                            3,
+                            2
+                        ],
+                        "vertices": [
+                            -424.96,
+                            112.59,
+                            156.66,
+                            -202.78,
+                            362.04,
+                            -202.78,
+                            362.04,
+                            -98.9,
+                            86.75,
+                            202.22,
+                            -424.96,
+                            202.22
+                        ],
+                        "hull": 6
+                    }
+                },
+                "b": {
+                    "b": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.02288,
+                            0.89792,
+                            0.24054,
+                            0.9397,
+                            1,
+                            0.56366,
+                            1,
+                            0,
+                            0.61908,
+                            0
+                        ],
+                        "triangles": [
+                            4,
+                            3,
+                            2,
+                            1,
+                            0,
+                            4,
+                            2,
+                            1,
+                            4
+                        ],
+                        "vertices": [
+                            -507.38,
+                            -222.71,
+                            -271.22,
+                            -263.78,
+                            552.79,
+                            105.87,
+                            552.79,
+                            659.94,
+                            139.5,
+                            659.94
+                        ],
+                        "hull": 5
+                    }
+                },
+                "c": {
+                    "c": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.14438,
+                            0.48759,
+                            1,
+                            1,
+                            1,
+                            0.5968,
+                            0,
+                            0,
+                            0
+                        ],
+                        "triangles": [
+                            0,
+                            4,
+                            3,
+                            1,
+                            0,
+                            3,
+                            1,
+                            3,
+                            2
+                        ],
+                        "vertices": [
+                            -558.24,
+                            226.89,
+                            -90.65,
+                            -124.77,
+                            400.76,
+                            -124.77,
+                            14.09,
+                            286.23,
+                            -558.24,
+                            286.23
+                        ],
+                        "hull": 5
+                    }
+                },
+                "d": {
+                    "d": {
+                        "x": 5.63,
+                        "y": 17.89,
+                        "width": 385,
+                        "height": 218
+                    }
+                },
+                "e": {
+                    "e": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.06846,
+                            0.2508,
+                            0,
+                            0.42796,
+                            0.16369,
+                            0.75896,
+                            0.70193,
+                            1,
+                            0.89446,
+                            1,
+                            0.98968,
+                            0.69486,
+                            1,
+                            0,
+                            0.87168
+                        ],
+                        "triangles": [
+                            7,
+                            0,
+                            1,
+                            7,
+                            1,
+                            2,
+                            6,
+                            3,
+                            4,
+                            6,
+                            2,
+                            3,
+                            5,
+                            6,
+                            4,
+                            7,
+                            2,
+                            6
+                        ],
+                        "vertices": [
+                            -887.94,
+                            699.9,
+                            -446.03,
+                            767.82,
+                            -133.88,
+                            605.44,
+                            449.34,
+                            71.5,
+                            874.06,
+                            -119.48,
+                            874.06,
+                            -213.95,
+                            336.4,
+                            -224.18,
+                            -887.94,
+                            -96.89
+                        ],
+                        "hull": 8
+                    }
+                },
+                "f": {
+                    "f": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.76502,
+                            0.23316,
+                            0.38251,
+                            0.46631,
+                            0,
+                            1,
+                            0,
+                            0.99271,
+                            0.16174,
+                            0.52728,
+                            0.76195,
+                            0,
+                            0.91813
+                        ],
+                        "triangles": [
+                            4,
+                            2,
+                            3,
+                            5,
+                            2,
+                            4,
+                            1,
+                            2,
+                            5,
+                            5,
+                            6,
+                            0,
+                            5,
+                            0,
+                            1
+                        ],
+                        "vertices": [
+                            -805.63,
+                            -360.27,
+                            -439.57,
+                            38.3,
+                            -73.52,
+                            436.87,
+                            764.37,
+                            436.87,
+                            752.93,
+                            268.34,
+                            22.21,
+                            -357.08,
+                            -805.63,
+                            -519.82
+                        ],
+                        "hull": 7
+                    }
+                },
+                "g": {
+                    "g": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.62013,
+                            0.14719,
+                            0.37195,
+                            0.27433,
+                            0.10765,
+                            0.41506,
+                            0,
+                            0.64589,
+                            0,
+                            0.78044,
+                            0.1431,
+                            0.93474,
+                            0.2398,
+                            1,
+                            0.42029,
+                            0.97794,
+                            0.69104,
+                            0.81006,
+                            0.90054,
+                            0.61133,
+                            0.98757,
+                            0.43357,
+                            1,
+                            0.24841,
+                            1,
+                            0.01388,
+                            1,
+                            0,
+                            0.82641,
+                            0.21755,
+                            0.65236,
+                            0.40148,
+                            0.60079,
+                            0.60268,
+                            0.53955,
+                            0.80142,
+                            0.5041,
+                            0.90882,
+                            0.49443,
+                            0.05585,
+                            0.76517
+                        ],
+                        "triangles": [
+                            6,
+                            18,
+                            5,
+                            19,
+                            6,
+                            7,
+                            19,
+                            18,
+                            6,
+                            17,
+                            3,
+                            4,
+                            17,
+                            4,
+                            5,
+                            17,
+                            5,
+                            18,
+                            16,
+                            2,
+                            3,
+                            16,
+                            3,
+                            17,
+                            15,
+                            1,
+                            2,
+                            16,
+                            15,
+                            2,
+                            8,
+                            19,
+                            7,
+                            20,
+                            0,
+                            1,
+                            20,
+                            1,
+                            15,
+                            14,
+                            0,
+                            20,
+                            9,
+                            18,
+                            19,
+                            9,
+                            19,
+                            8,
+                            17,
+                            18,
+                            9,
+                            10,
+                            17,
+                            9,
+                            11,
+                            16,
+                            17,
+                            13,
+                            14,
+                            20,
+                            12,
+                            15,
+                            16,
+                            20,
+                            15,
+                            12,
+                            13,
+                            20,
+                            12,
+                            10,
+                            11,
+                            17,
+                            12,
+                            16,
+                            11
+                        ],
+                        "vertices": [
+                            1,
+                            19,
+                            -580.28,
+                            124.83,
+                            1,
+                            2,
+                            19,
+                            -199.79,
+                            370.53,
+                            0.91351,
+                            21,
+                            -901.79,
+                            214.17,
+                            0.08649,
+                            3,
+                            19,
+                            128.87,
+                            632.18,
+                            0.51539,
+                            21,
+                            -573.13,
+                            475.83,
+                            0.48453,
+                            20,
+                            -1326.19,
+                            380.1,
+                            8e-05,
+                            3,
+                            19,
+                            492.64,
+                            738.75,
+                            0.1892,
+                            21,
+                            -209.36,
+                            582.4,
+                            0.77139,
+                            20,
+                            -962.42,
+                            486.67,
+                            0.03941,
+                            3,
+                            19,
+                            1089.34,
+                            738.75,
+                            0.00076,
+                            21,
+                            387.34,
+                            582.4,
+                            0.52189,
+                            20,
+                            -365.72,
+                            486.67,
+                            0.47734,
+                            2,
+                            21,
+                            735.15,
+                            440.73,
+                            0.11217,
+                            20,
+                            -17.91,
+                            345,
+                            0.88783,
+                            1,
+                            20,
+                            380.96,
+                            249.27,
+                            1,
+                            1,
+                            20,
+                            549.66,
+                            70.58,
+                            1,
+                            1,
+                            20,
+                            492.64,
+                            -197.46,
+                            1,
+                            2,
+                            21,
+                            811.73,
+                            -309.14,
+                            0.09835,
+                            20,
+                            58.67,
+                            -404.87,
+                            0.90165,
+                            3,
+                            19,
+                            1000,
+                            -238.94,
+                            0.00231,
+                            21,
+                            297.99,
+                            -395.29,
+                            0.6906,
+                            20,
+                            -455.07,
+                            -491.02,
+                            0.30709,
+                            3,
+                            19,
+                            540.5,
+                            -251.25,
+                            0.25693,
+                            21,
+                            -161.5,
+                            -407.6,
+                            0.7351,
+                            20,
+                            -914.56,
+                            -503.33,
+                            0.00797,
+                            2,
+                            19,
+                            61.86,
+                            -251.25,
+                            0.92851,
+                            21,
+                            -640.14,
+                            -407.6,
+                            0.07149,
+                            1,
+                            19,
+                            -544.41,
+                            -251.25,
+                            1,
+                            1,
+                            19,
+                            -580.28,
+                            -79.39,
+                            1,
+                            2,
+                            19,
+                            -17.91,
+                            92.92,
+                            0.96061,
+                            21,
+                            -719.91,
+                            -63.44,
+                            0.03939,
+                            2,
+                            19,
+                            457.54,
+                            143.97,
+                            0.28532,
+                            21,
+                            -244.46,
+                            -12.38,
+                            0.71468,
+                            2,
+                            21,
+                            275.66,
+                            48.24,
+                            0.67856,
+                            20,
+                            -477.4,
+                            -47.48,
+                            0.32144,
+                            1,
+                            20,
+                            36.34,
+                            -12.38,
+                            1,
+                            1,
+                            20,
+                            313.95,
+                            -2.81,
+                            1,
+                            1,
+                            19,
+                            -435.92,
+                            -18.77,
+                            1
+                        ],
+                        "hull": 15
+                    }
+                },
+                "i": {
+                    "i": {
+                        "x": -19.09,
+                        "y": 15.45,
+                        "width": 536,
+                        "height": 304
+                    }
+                },
+                "j": {
+                    "j": {
+                        "x": -2.63,
+                        "y": 14.01,
+                        "width": 600,
+                        "height": 333
+                    }
+                },
+                "k": {
+                    "k": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.6764,
+                            0,
+                            0,
+                            0.8945,
+                            0,
+                            1,
+                            1,
+                            1,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            3,
+                            2,
+                            1,
+                            0,
+                            4,
+                            3,
+                            3,
+                            1,
+                            0
+                        ],
+                        "vertices": [
+                            153.46,
+                            584.83,
+                            -291.61,
+                            -69.94,
+                            -291.61,
+                            -147.17,
+                            366.39,
+                            -147.17,
+                            366.39,
+                            584.83
+                        ],
+                        "hull": 5
+                    }
+                },
+                "l": {
+                    "l": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.48204,
+                            0,
+                            0,
+                            0.93246,
+                            0,
+                            1,
+                            0.4505,
+                            1,
+                            1,
+                            0.22715,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            0,
+                            5,
+                            4,
+                            3,
+                            2,
+                            1,
+                            0,
+                            3,
+                            1,
+                            3,
+                            0,
+                            4
+                        ],
+                        "vertices": [
+                            156.82,
+                            428.18,
+                            -379.69,
+                            -94.93,
+                            -379.69,
+                            -132.82,
+                            121.72,
+                            -132.82,
+                            733.31,
+                            300.75,
+                            733.31,
+                            428.18
+                        ],
+                        "hull": 6
+                    }
+                },
+                "m": {
+                    "m": {
+                        "x": -47.28,
+                        "y": 114.89,
+                        "width": 973,
+                        "height": 557
+                    }
+                },
+                "n": {
+                    "n": {
+                        "x": 14.41,
+                        "y": 25.33,
+                        "width": 671,
+                        "height": 392
+                    }
+                },
+                "qa": {
+                    "qa": {
+                        "x": -58.41,
+                        "y": -42.5,
+                        "width": 474,
+                        "height": 530
+                    }
+                },
+                "qb": {
+                    "qb": {
+                        "x": 31.45,
+                        "y": -17.51,
+                        "width": 536,
+                        "height": 437
+                    }
+                },
+                "qc": {
+                    "qc": {
+                        "x": -969,
+                        "y": 149,
+                        "width": 460,
+                        "height": 261
+                    }
+                },
+                "qd": {
+                    "qd": {
+                        "x": -109.16,
+                        "y": 110.6,
+                        "width": 817,
+                        "height": 415
+                    }
+                },
+                "qe": {
+                    "qe": {
+                        "x": 60.25,
+                        "y": -54.06,
+                        "width": 728,
+                        "height": 275
+                    }
+                },
+                "qf": {
+                    "qf": {
+                        "x": 99.55,
+                        "y": 130.82,
+                        "width": 496,
+                        "height": 410
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "g2": {
+            "rootBoneName": "g2",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 6,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "g4": {
+            "rootBoneName": "g4",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -3.355902126576727,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.195494800063975,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 6,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.5141623940901845,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "g3": {
+            "rootBoneName": "g3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -6.2165642230060305,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.0517959892754485,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 6,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -2.2751007015656945,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "g": {
+            "rootBoneName": "g",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.507087297698613,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4.55351435715019,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -3.498002101652018,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "e": {
+            "rootBoneName": "e",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -0.5354872290376597,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -2.6323985764745825,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1.9783764734442437,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "m": {
+            "rootBoneName": "m",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 5.315011031074854,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -4.103182395681214,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -3.9643021233263003,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "d": {
+            "rootBoneName": "d",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -6.013499547677583,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.11871968662072,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -4.882706337728446,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "a": {
+            "rootBoneName": "a",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.272237252726595,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.102558884742227,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 3.20622340881674,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "c": {
+            "rootBoneName": "c",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.1063612569606227,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 4.529379580794113,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -0.8495735743096304,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "i": {
+            "rootBoneName": "i",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.5026659492109193,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 1.958650301355092,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -5.99570798943523,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "qd": {
+            "rootBoneName": "qd",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -3.1940507442190245,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 2.8796668940566867,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 4.068356100071453,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "n": {
+            "rootBoneName": "n",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.90392277293978,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 6.122591222344975,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.7626069437789662,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "qb": {
+            "rootBoneName": "qb",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.6610984670074587,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.661151508087079,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 6.265307403799092,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "qa": {
+            "rootBoneName": "qa",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.184976522613973,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 1.0193261230916821,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -5.346720459257326,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "qe": {
+            "rootBoneName": "qe",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 6.163810821567509,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 4.01783971966351,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 5.8609609568907395,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "l": {
+            "rootBoneName": "l",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -3.6488850563306867,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.119246851079954,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1.9471986459270287,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "f": {
+            "rootBoneName": "f",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.8729899188104837,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -3.4769607190236163,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 5.2121713732410155,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "b": {
+            "rootBoneName": "b",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 3.5259434007692603,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 3.643862673148617,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 4.772885379771251,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "qf": {
+            "rootBoneName": "qf",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.048488475411368,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5.934622086273103,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.06062851456008,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "k": {
+            "rootBoneName": "k",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0.9536139362649958,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -0.7768996839734922,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.27900867816379676,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "j": {
+            "rootBoneName": "j",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2.77998413789761,
+                    "moveXCenter": 0,
+                    "moveYFreq": 12,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -6.11652259338491,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 12,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -1.6942592968590988,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
