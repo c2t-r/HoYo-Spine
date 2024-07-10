@@ -1,0 +1,74 @@
+{
+    "skeleton": {
+        "hash": "DiMBBAXNuFE",
+        "spine": "4.2.22",
+        "x": -830.5,
+        "y": -914,
+        "width": 1661,
+        "height": 1828,
+        "images": "./images/HomepageCharacter/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "icon": "triangle"
+        }
+    ],
+    "slots": [
+        {
+            "name": "Charactar",
+            "bone": "bone",
+            "attachment": "封面人物"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "Charactar": {
+                    "封面人物": {
+                        "width": 1661,
+                        "height": 1828
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 2,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

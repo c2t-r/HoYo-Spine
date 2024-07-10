@@ -1,0 +1,803 @@
+{
+    "skeleton": {
+        "hash": "kB3MZ9+0joc",
+        "spine": "4.2.22",
+        "x": -1315.5,
+        "y": -745,
+        "width": 2623,
+        "height": 1500,
+        "images": "./",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "icon": "circle"
+        },
+        {
+            "name": "bone8",
+            "parent": "bone"
+        },
+        {
+            "name": "bone5",
+            "parent": "bone8",
+            "rotation": -99.97,
+            "x": -548.55,
+            "y": 722.2,
+            "icon": "circle"
+        },
+        {
+            "name": "bone2",
+            "parent": "bone5",
+            "length": 465.02
+        },
+        {
+            "name": "bone6",
+            "parent": "bone8",
+            "rotation": -29.98,
+            "x": -1302.5,
+            "y": -17.7,
+            "icon": "circle"
+        },
+        {
+            "name": "bone3",
+            "parent": "bone6",
+            "length": 449.81
+        },
+        {
+            "name": "bone7",
+            "parent": "bone8",
+            "rotation": 123.29,
+            "x": 1295.58,
+            "y": -449.46,
+            "icon": "circle"
+        },
+        {
+            "name": "bone4",
+            "parent": "bone7",
+            "length": 450.44
+        },
+        {
+            "name": "bone9",
+            "parent": "bone"
+        },
+        {
+            "name": "bone10",
+            "parent": "bone9",
+            "rotation": -99.97,
+            "x": -548.55,
+            "y": 722.2,
+            "icon": "circle"
+        },
+        {
+            "name": "bone11",
+            "parent": "bone10",
+            "length": 465.02
+        },
+        {
+            "name": "bone12",
+            "parent": "bone9",
+            "rotation": -29.98,
+            "x": -1302.5,
+            "y": -17.7,
+            "icon": "circle"
+        },
+        {
+            "name": "bone13",
+            "parent": "bone12",
+            "length": 449.81
+        },
+        {
+            "name": "bone14",
+            "parent": "bone9",
+            "rotation": 123.29,
+            "x": 1295.58,
+            "y": -449.46,
+            "icon": "circle"
+        },
+        {
+            "name": "bone15",
+            "parent": "bone14",
+            "length": 450.44
+        }
+    ],
+    "slots": [
+        {
+            "name": "锁链3",
+            "bone": "bone4",
+            "attachment": "锁链3"
+        },
+        {
+            "name": "锁链6",
+            "bone": "bone15",
+            "attachment": "锁链3"
+        },
+        {
+            "name": "锁链2",
+            "bone": "bone2",
+            "attachment": "锁链2"
+        },
+        {
+            "name": "锁链4",
+            "bone": "bone11",
+            "attachment": "锁链2"
+        },
+        {
+            "name": "锁链1",
+            "bone": "bone3",
+            "attachment": "锁链1"
+        },
+        {
+            "name": "锁链5",
+            "bone": "bone13",
+            "attachment": "锁链1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "锁链1": {
+                    "锁链1": {
+                        "x": 711,
+                        "y": -1.73,
+                        "rotation": 29.98,
+                        "width": 1256,
+                        "height": 741
+                    }
+                },
+                "锁链2": {
+                    "锁链2": {
+                        "x": 723.6,
+                        "y": -2.66,
+                        "rotation": 99.97,
+                        "width": 288,
+                        "height": 1424
+                    }
+                },
+                "锁链3": {
+                    "锁链3": {
+                        "x": 710.47,
+                        "y": -1.1,
+                        "rotation": -123.29,
+                        "width": 802,
+                        "height": 1220
+                    }
+                },
+                "锁链4": {
+                    "锁链2": {
+                        "x": 723.6,
+                        "y": -2.66,
+                        "rotation": 99.97,
+                        "width": 288,
+                        "height": 1424
+                    }
+                },
+                "锁链5": {
+                    "锁链1": {
+                        "x": 711,
+                        "y": -1.73,
+                        "rotation": 29.98,
+                        "width": 1256,
+                        "height": 741
+                    }
+                },
+                "锁链6": {
+                    "锁链3": {
+                        "x": 710.47,
+                        "y": -1.1,
+                        "rotation": -123.29,
+                        "width": 802,
+                        "height": 1220
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "锁链1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "锁链2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "锁链3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "锁链4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链6": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone5": {
+                    "translate": [
+                        {
+                            "x": 415.01,
+                            "y": 2359.79,
+                            "curve": [
+                                0.111,
+                                415.01,
+                                0.222,
+                                0,
+                                0.111,
+                                2359.79,
+                                0.222,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "bone6": {
+                    "translate": [
+                        {
+                            "x": -2075.38,
+                            "y": 1197.34,
+                            "curve": [
+                                0.111,
+                                -2075.38,
+                                0.222,
+                                0,
+                                0.111,
+                                1197.34,
+                                0.222,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "bone7": {
+                    "translate": [
+                        {
+                            "x": 1315.24,
+                            "y": -2002.74,
+                            "curve": [
+                                0.111,
+                                1315.24,
+                                0.222,
+                                0,
+                                0.111,
+                                -2002.74,
+                                0.222,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "bone10": {
+                    "translate": [
+                        {
+                            "x": 415.01,
+                            "y": 2359.79,
+                            "curve": [
+                                0.111,
+                                415.01,
+                                0.222,
+                                0,
+                                0.111,
+                                2359.79,
+                                0.222,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "bone12": {
+                    "translate": [
+                        {
+                            "x": -2075.38,
+                            "y": 1197.34,
+                            "curve": [
+                                0.111,
+                                -2075.38,
+                                0.222,
+                                0,
+                                0.111,
+                                1197.34,
+                                0.222,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "bone14": {
+                    "translate": [
+                        {
+                            "x": 1315.24,
+                            "y": -2002.74,
+                            "curve": [
+                                0.111,
+                                1315.24,
+                                0.222,
+                                0,
+                                0.111,
+                                -2002.74,
+                                0.222,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                }
+            }
+        },
+        "Out": {
+            "slots": {
+                "锁链1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链4": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链5": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链6": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone5": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.111,
+                                0,
+                                0.222,
+                                -591.13,
+                                0.111,
+                                0,
+                                0.222,
+                                -3361.19
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": -591.13,
+                            "y": -3361.19
+                        }
+                    ]
+                },
+                "bone6": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.111,
+                                0,
+                                0.222,
+                                2956.1,
+                                0.111,
+                                0,
+                                0.222,
+                                -1705.44
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 2956.1,
+                            "y": -1705.44
+                        }
+                    ]
+                },
+                "bone7": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.111,
+                                0,
+                                0.222,
+                                -1873.37,
+                                0.111,
+                                0,
+                                0.222,
+                                2852.64
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": -1873.37,
+                            "y": 2852.64
+                        }
+                    ]
+                },
+                "bone10": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.111,
+                                0,
+                                0.222,
+                                -591.13,
+                                0.111,
+                                0,
+                                0.222,
+                                -3361.19
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": -591.13,
+                            "y": -3361.19
+                        }
+                    ]
+                },
+                "bone12": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.111,
+                                0,
+                                0.222,
+                                2956.1,
+                                0.111,
+                                0,
+                                0.222,
+                                -1705.44
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 2956.1,
+                            "y": -1705.44
+                        }
+                    ]
+                },
+                "bone14": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.111,
+                                0,
+                                0.222,
+                                -1873.37,
+                                0.111,
+                                0,
+                                0.222,
+                                2852.64
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": -1873.37,
+                            "y": 2852.64
+                        }
+                    ]
+                }
+            }
+        },
+        "pre": {
+            "slots": {
+                "锁链1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链6": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone5": {
+                    "translate": [
+                        {
+                            "x": 415.01,
+                            "y": 2359.79
+                        }
+                    ]
+                },
+                "bone6": {
+                    "translate": [
+                        {
+                            "x": -2075.38,
+                            "y": 1197.34
+                        }
+                    ]
+                },
+                "bone7": {
+                    "translate": [
+                        {
+                            "x": 1315.24,
+                            "y": -2002.74
+                        }
+                    ]
+                },
+                "bone10": {
+                    "translate": [
+                        {
+                            "x": 415.01,
+                            "y": 2359.79
+                        }
+                    ]
+                },
+                "bone12": {
+                    "translate": [
+                        {
+                            "x": -2075.38,
+                            "y": 1197.34
+                        }
+                    ]
+                },
+                "bone14": {
+                    "translate": [
+                        {
+                            "x": 1315.24,
+                            "y": -2002.74
+                        }
+                    ]
+                }
+            }
+        },
+        "stay": {
+            "slots": {
+                "锁链1": {
+                    "rgba": [
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链2": {
+                    "rgba": [
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链3": {
+                    "rgba": [
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "锁链4": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "锁链5": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "锁链6": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone3": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 2,
+                            "x": 20.46
+                        }
+                    ]
+                },
+                "bone2": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 2,
+                            "x": 21.17
+                        }
+                    ]
+                },
+                "bone4": {
+                    "translate": [
+                        {},
+                        {
+                            "time": 2,
+                            "x": 21.38
+                        }
+                    ]
+                },
+                "bone11": {
+                    "translate": [
+                        {
+                            "x": -20.86
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "bone13": {
+                    "translate": [
+                        {
+                            "x": -21.21
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "bone15": {
+                    "translate": [
+                        {
+                            "x": -21.54
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
