@@ -10,3 +10,4 @@ if you have a request, feel free to tell me it
 - [Zenless Zone Zero](ZZZ)
 - [Honkai Impact 3rd / BH3](HI3)
 - [HoYoLab](HoYoLab)
+- [Others](Others)

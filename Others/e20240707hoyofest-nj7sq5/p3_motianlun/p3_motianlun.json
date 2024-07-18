@@ -1,0 +1,929 @@
+{
+    "skeleton": {
+        "hash": "Z7eHR00CjZg",
+        "spine": "4.2.29",
+        "x": -162.98,
+        "y": -200.57,
+        "width": 323.42,
+        "height": 409.34,
+        "images": "./p3_摩天轮/images/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "rotation": -17.63,
+            "x": -62.92,
+            "y": -187.2
+        },
+        {
+            "name": "圈",
+            "parent": "bone",
+            "x": -11.95,
+            "y": 242.55
+        },
+        {
+            "name": "bone2",
+            "parent": "圈",
+            "length": 125
+        },
+        {
+            "name": "仓_a1",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": 125,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a2",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": -125,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a3",
+            "parent": "bone2",
+            "rotation": 90,
+            "y": -125,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a4",
+            "parent": "bone2",
+            "rotation": 90,
+            "y": 125,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a5",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": -88.39,
+            "y": 88.39,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a6",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": 88.39,
+            "y": -88.39,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a7",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": -88.39,
+            "y": -88.39,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a8",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": 88.39,
+            "y": 88.39,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a9",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": 47.95,
+            "y": 115.44,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a10",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": -47.95,
+            "y": -115.44,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a11",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": 115.44,
+            "y": -47.95,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a12",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": -115.44,
+            "y": 47.95,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a13",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": -47.72,
+            "y": 115.53,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a14",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": 47.72,
+            "y": -115.53,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a15",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": -115.53,
+            "y": -47.72,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_a16",
+            "parent": "bone2",
+            "rotation": 90,
+            "x": 115.53,
+            "y": 47.72,
+            "inherit": "noRotationOrReflection"
+        }
+    ],
+    "slots": [
+        {
+            "name": "架c",
+            "bone": "bone",
+            "attachment": "架c"
+        },
+        {
+            "name": "仓_c1",
+            "bone": "仓_a1",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c16",
+            "bone": "仓_a16",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c8",
+            "bone": "仓_a8",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c9",
+            "bone": "仓_a9",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c4",
+            "bone": "仓_a4",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c13",
+            "bone": "仓_a13",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c5",
+            "bone": "仓_a5",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c12",
+            "bone": "仓_a12",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c2",
+            "bone": "仓_a2",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c15",
+            "bone": "仓_a15",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c7",
+            "bone": "仓_a7",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c10",
+            "bone": "仓_a10",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c3",
+            "bone": "仓_a3",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c14",
+            "bone": "仓_a14",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c6",
+            "bone": "仓_a6",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "仓_c11",
+            "bone": "仓_a11",
+            "attachment": "仓_c1"
+        },
+        {
+            "name": "圈b",
+            "bone": "圈",
+            "attachment": "圈b"
+        },
+        {
+            "name": "架b",
+            "bone": "bone",
+            "attachment": "架b"
+        },
+        {
+            "name": "仓_b1",
+            "bone": "仓_a1",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b16",
+            "bone": "仓_a16",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b8",
+            "bone": "仓_a8",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b9",
+            "bone": "仓_a9",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b4",
+            "bone": "仓_a4",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b13",
+            "bone": "仓_a13",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b5",
+            "bone": "仓_a5",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b12",
+            "bone": "仓_a12",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b2",
+            "bone": "仓_a2",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b15",
+            "bone": "仓_a15",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b7",
+            "bone": "仓_a7",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b10",
+            "bone": "仓_a10",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b3",
+            "bone": "仓_a3",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b14",
+            "bone": "仓_a14",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b6",
+            "bone": "仓_a6",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "仓_b11",
+            "bone": "仓_a11",
+            "attachment": "仓_b1"
+        },
+        {
+            "name": "圈a",
+            "bone": "圈",
+            "attachment": "圈a"
+        },
+        {
+            "name": "仓_a1",
+            "bone": "仓_a1",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a16",
+            "bone": "仓_a16",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a8",
+            "bone": "仓_a8",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a9",
+            "bone": "仓_a9",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a4",
+            "bone": "仓_a4",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a13",
+            "bone": "仓_a13",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a5",
+            "bone": "仓_a5",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a12",
+            "bone": "仓_a12",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a2",
+            "bone": "仓_a2",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a15",
+            "bone": "仓_a15",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a7",
+            "bone": "仓_a7",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a10",
+            "bone": "仓_a10",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a3",
+            "bone": "仓_a3",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a14",
+            "bone": "仓_a14",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a6",
+            "bone": "仓_a6",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "仓_a11",
+            "bone": "仓_a11",
+            "attachment": "仓_a1"
+        },
+        {
+            "name": "架",
+            "bone": "bone",
+            "attachment": "架"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "仓_a1": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a2": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a3": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a4": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a5": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a6": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a7": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a8": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a9": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a10": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a11": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a12": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a13": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a14": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a15": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_a16": {
+                    "仓_a1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 35,
+                        "height": 36
+                    }
+                },
+                "仓_b1": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b2": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b3": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b4": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b5": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b6": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b7": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b8": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b9": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b10": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b11": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b12": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b13": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b14": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b15": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_b16": {
+                    "仓_b1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 55,
+                        "height": 56
+                    }
+                },
+                "仓_c1": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c2": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c3": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c4": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c5": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c6": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c7": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c8": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c9": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c10": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c11": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c12": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c13": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c14": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c15": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "仓_c16": {
+                    "仓_c1": {
+                        "x": -5,
+                        "y": 0.03,
+                        "rotation": -90,
+                        "width": 59,
+                        "height": 60
+                    }
+                },
+                "圈a": {
+                    "圈a": {
+                        "x": -0.45,
+                        "width": 232,
+                        "height": 232
+                    }
+                },
+                "圈b": {
+                    "圈b": {
+                        "x": -0.45,
+                        "width": 258,
+                        "height": 256
+                    }
+                },
+                "架": {
+                    "架": {
+                        "x": -11.4,
+                        "y": 137.05,
+                        "width": 122,
+                        "height": 239
+                    }
+                },
+                "架b": {
+                    "架b": {
+                        "x": -11.4,
+                        "y": 137.05,
+                        "width": 142,
+                        "height": 259
+                    }
+                },
+                "架c": {
+                    "架c": {
+                        "x": -11.4,
+                        "y": 137.05,
+                        "width": 146,
+                        "height": 263
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "圈": {
+            "rootBoneName": "圈",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.05,
+                    "rotateFollowFlip": 0,
+                    "rotateFollowLimit": 360,
+                    "rotateFollowSpeed": 0.1
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

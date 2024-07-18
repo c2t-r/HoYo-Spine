@@ -1,0 +1,403 @@
+{
+    "skeleton": {
+        "hash": "qPO9pj/bsyI",
+        "spine": "4.2.29",
+        "x": -143.55,
+        "y": -195.6,
+        "width": 288.19,
+        "height": 380.28,
+        "images": "./loading_摩天轮/images/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.1912,
+            "scaleY": 0.1912
+        },
+        {
+            "name": "架",
+            "parent": "root",
+            "x": 2.87,
+            "y": 261.29
+        },
+        {
+            "name": "bone",
+            "parent": "架"
+        },
+        {
+            "name": "仓_1",
+            "parent": "bone",
+            "x": 644.45,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_2",
+            "parent": "bone",
+            "x": -644.45,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_3",
+            "parent": "bone",
+            "x": 0.01,
+            "y": -644.45,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_4",
+            "parent": "bone",
+            "x": -0.01,
+            "y": 644.45,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_5",
+            "parent": "bone",
+            "x": -455.7,
+            "y": 455.68,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_6",
+            "parent": "bone",
+            "x": 455.7,
+            "y": -455.68,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_7",
+            "parent": "bone",
+            "x": -455.69,
+            "y": -455.69,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_8",
+            "parent": "bone",
+            "x": 455.69,
+            "y": 455.69,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_9",
+            "parent": "bone",
+            "x": 246.62,
+            "y": 595.39,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_10",
+            "parent": "bone",
+            "x": -246.62,
+            "y": -595.39,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_11",
+            "parent": "bone",
+            "x": 595.4,
+            "y": -246.6,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_12",
+            "parent": "bone",
+            "x": -595.4,
+            "y": 246.61,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_13",
+            "parent": "bone",
+            "x": -246.63,
+            "y": 595.39,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_14",
+            "parent": "bone",
+            "x": 246.63,
+            "y": -595.39,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_15",
+            "parent": "bone",
+            "x": -595.39,
+            "y": -246.62,
+            "inherit": "noRotationOrReflection"
+        },
+        {
+            "name": "仓_16",
+            "parent": "bone",
+            "x": 595.39,
+            "y": 246.62,
+            "inherit": "noRotationOrReflection"
+        }
+    ],
+    "slots": [
+        {
+            "name": "环",
+            "bone": "架",
+            "attachment": "环"
+        },
+        {
+            "name": "仓_1",
+            "bone": "仓_1",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_16",
+            "bone": "仓_16",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_8",
+            "bone": "仓_8",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_9",
+            "bone": "仓_9",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_4",
+            "bone": "仓_4",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_13",
+            "bone": "仓_13",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_5",
+            "bone": "仓_5",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_12",
+            "bone": "仓_12",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_2",
+            "bone": "仓_2",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_15",
+            "bone": "仓_15",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_7",
+            "bone": "仓_7",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_10",
+            "bone": "仓_10",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_3",
+            "bone": "仓_3",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_14",
+            "bone": "仓_14",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_6",
+            "bone": "仓_6",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "仓_11",
+            "bone": "仓_11",
+            "attachment": "仓_1"
+        },
+        {
+            "name": "架",
+            "bone": "root",
+            "attachment": "架"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "仓_1": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_2": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_3": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_4": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_5": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_6": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_7": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_8": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_9": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_10": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_11": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_12": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_13": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_14": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_15": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "仓_16": {
+                    "仓_1": {
+                        "y": -49.4,
+                        "rotation": 9.01,
+                        "width": 191,
+                        "height": 192
+                    }
+                },
+                "架": {
+                    "架": {
+                        "x": -187.93,
+                        "y": -343.2,
+                        "width": 668,
+                        "height": 1360
+                    }
+                },
+                "环": {
+                    "环": {
+                        "width": 1290,
+                        "height": 1290
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "架": {
+            "rootBoneName": "架",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": 0.02
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

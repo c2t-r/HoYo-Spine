@@ -1,0 +1,40 @@
+{
+    "skeleton": {
+        "hash": "uKvjB4tA8W8",
+        "spine": "4.2.29",
+        "x": -171,
+        "y": -151.5,
+        "width": 342,
+        "height": 303,
+        "images": "./image/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "p2_喷泉",
+            "bone": "root",
+            "attachment": "p2_喷泉"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "p2_喷泉": {
+                    "p2_喷泉": {
+                        "width": 342,
+                        "height": 303
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}
