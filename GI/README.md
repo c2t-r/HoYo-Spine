@@ -33,6 +33,7 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - 4.5 https://act.hoyoverse.com/ys/event/e20230302preview-2hu94k/index.html
 - 4.6 https://act.hoyoverse.com/ys/event/e20240413preview-pvtga2/index.html
 - 4.7 https://act.hoyoverse.com/ys/event/e20240525preview-d6s2mc/index.html
+- 4.8 https://act.hoyoverse.com/ys/event/e20240706preview-5y4ic7/index.html
 
 ## Characters
 - https://webstatic-sea.mihoyo.com/ys/event/e20210624-boat/index.html <Kazuha>
@@ -61,6 +62,8 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - https://act.hoyoverse.com/ys/event/e20240308chiori-cuesme/index.html <Chiori>
 - https://act.hoyoverse.com/ys/event/e20240419arlecchino-vn0wpz/index.html <Arlecchino>
 - https://act.hoyoverse.com/ys/event/e20240531clorinde-5k96dd/index.html <Clorinde>
+- https://act.hoyoverse.com/ys/event/e20240620sigewinne-ktlz9u/index.html <Sigewinne>
+- https://act.hoyoverse.com/ys/event/e20240710perfume-f65h6y/index.html <Emilie>
 
 ## Home
 https://genshin.hoyoverse.com/en/

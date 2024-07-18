@@ -11,6 +11,7 @@ google: ```site:act.hoyoverse.com/sr/event```
 - 2.0 https://act.hoyoverse.com/sr/event/e20240126version-pp3ay8/index.html
 - 2.1 https://act.hoyoverse.com/sr/event/e20240316version-hyue7h/index.html
 - 2.2 https://act.hoyoverse.com/sr/event/e20240426version-48v1wy/index.html
+- 2.3 https://act.hoyoverse.com/sr/event/e20240607version-qf68ql/index.html
 
 ## others
 - https://act.hoyoverse.com/sr/event/march7thARinvitation/index.html
@@ -27,6 +28,7 @@ google: ```site:act.hoyoverse.com/sr/event```
 - https://act.hoyoverse.com/sr/event/e20240426anniversary-so6swc/index.html
 - https://act.hoyoverse.com/sr/event/e20240509robin-z0ps5s/index.html <Robin>
 - https://act.hoyoverse.com/sr/event/e20240531shoot-8j34gx/index.html
+- https://act.hoyoverse.com/sr/event/e20240709jade-10ch0z/index.html
 
 ## Puzzle
 - https://act.mihoyo.com/puzzle/hkrpg/pz_stKK3ccUXV/index.html
