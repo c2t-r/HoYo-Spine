@@ -1,0 +1,830 @@
+{
+    "skeleton": {
+        "hash": "R24QVGfwT9Y",
+        "spine": "4.2.22",
+        "x": -281.26,
+        "y": -215.47,
+        "width": 506.98,
+        "height": 476.59,
+        "images": "./image/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "烟雾",
+            "parent": "root",
+            "x": -3.26,
+            "y": -243.72
+        },
+        {
+            "name": "ALL",
+            "parent": "root"
+        },
+        {
+            "name": "烟雾2",
+            "parent": "烟雾",
+            "x": -30.89,
+            "y": 230.17,
+            "color": "ff0000ff",
+            "icon": "asterisk"
+        },
+        {
+            "name": "烟_3",
+            "parent": "烟雾",
+            "x": -249.08,
+            "y": 152.04,
+            "color": "ff00deff",
+            "icon": "star"
+        },
+        {
+            "name": "烟_4",
+            "parent": "烟雾",
+            "x": 106.68,
+            "y": 61.84,
+            "color": "ff00deff",
+            "icon": "star"
+        },
+        {
+            "name": "烟_1",
+            "parent": "烟雾",
+            "x": 172.69,
+            "y": 372.75,
+            "color": "ff00deff",
+            "icon": "star"
+        },
+        {
+            "name": "烟_2",
+            "parent": "烟雾",
+            "x": -3.18,
+            "y": 482.09,
+            "color": "ff00deff",
+            "icon": "star"
+        },
+        {
+            "name": "烟雾3",
+            "parent": "烟雾",
+            "x": 29.25,
+            "y": 245.76,
+            "color": "ff0000ff",
+            "icon": "asterisk"
+        },
+        {
+            "name": "烟雾4",
+            "parent": "烟雾",
+            "x": -57.61,
+            "y": 284.18,
+            "color": "ff0000ff",
+            "icon": "asterisk"
+        }
+    ],
+    "slots": [
+        {
+            "name": "烟雾",
+            "bone": "烟雾2",
+            "attachment": "烟雾"
+        },
+        {
+            "name": "烟雾2",
+            "bone": "烟雾3",
+            "attachment": "烟雾"
+        },
+        {
+            "name": "烟雾3",
+            "bone": "烟雾4",
+            "attachment": "烟雾"
+        },
+        {
+            "name": "烟_4",
+            "bone": "烟_4",
+            "attachment": "烟_4"
+        },
+        {
+            "name": "烟_3",
+            "bone": "烟_3",
+            "attachment": "烟_3"
+        },
+        {
+            "name": "烟_2",
+            "bone": "烟_2",
+            "attachment": "烟_2"
+        },
+        {
+            "name": "烟_1",
+            "bone": "烟_1",
+            "attachment": "烟_1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "烟_1": {
+                    "烟_1": {
+                        "x": 0.81,
+                        "y": -3.9,
+                        "width": 75,
+                        "height": 84
+                    }
+                },
+                "烟_2": {
+                    "烟_2": {
+                        "x": 0.18,
+                        "y": -1.25,
+                        "width": 54,
+                        "height": 48
+                    }
+                },
+                "烟_3": {
+                    "烟_3": {
+                        "x": 4.08,
+                        "y": -0.2,
+                        "width": 66,
+                        "height": 70
+                    }
+                },
+                "烟_4": {
+                    "烟_4": {
+                        "x": 1.32,
+                        "width": 58,
+                        "height": 52
+                    }
+                },
+                "烟雾": {
+                    "烟雾": {
+                        "x": -6.27,
+                        "y": -2.92,
+                        "width": 412,
+                        "height": 398
+                    }
+                },
+                "烟雾2": {
+                    "烟雾": {
+                        "x": -6.27,
+                        "y": -2.92,
+                        "width": 412,
+                        "height": 398
+                    }
+                },
+                "烟雾3": {
+                    "烟雾": {
+                        "x": -6.27,
+                        "y": -2.92,
+                        "width": 412,
+                        "height": 398
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "烟_1": {
+                    "rgba": [
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.8667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {},
+                        {
+                            "time": 0.2,
+                            "name": "烟_1"
+                        },
+                        {
+                            "time": 0.5
+                        },
+                        {
+                            "time": 0.6,
+                            "name": "烟_1"
+                        },
+                        {
+                            "time": 0.8667
+                        }
+                    ]
+                },
+                "烟_2": {
+                    "rgba": [
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {},
+                        {
+                            "time": 0.0667,
+                            "name": "烟_2"
+                        },
+                        {
+                            "time": 0.3667
+                        },
+                        {
+                            "time": 0.4667,
+                            "name": "烟_2"
+                        },
+                        {
+                            "time": 0.7333
+                        }
+                    ]
+                },
+                "烟_3": {
+                    "rgba": [
+                        {
+                            "time": 0.3,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {},
+                        {
+                            "time": 0.1,
+                            "name": "烟_3"
+                        },
+                        {
+                            "time": 0.4
+                        },
+                        {
+                            "time": 0.5,
+                            "name": "烟_3"
+                        },
+                        {
+                            "time": 0.8
+                        }
+                    ]
+                },
+                "烟_4": {
+                    "rgba": [
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {},
+                        {
+                            "time": 0.0667,
+                            "name": "烟_4"
+                        },
+                        {
+                            "time": 0.3667
+                        },
+                        {
+                            "time": 0.4667,
+                            "name": "烟_4"
+                        },
+                        {
+                            "time": 0.7333
+                        }
+                    ]
+                },
+                "烟雾": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "烟雾2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "烟雾3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "烟雾2": {
+                    "rotate": [
+                        {
+                            "time": 0.0333
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -21.51
+                        },
+                        {
+                            "time": 0.3333
+                        },
+                        {
+                            "time": 0.6,
+                            "value": -21.51
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.074,
+                            "y": 0.074,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "x": 0.074,
+                            "y": 0.074,
+                            "curve": [
+                                0.033,
+                                1.011,
+                                0.106,
+                                1,
+                                0.033,
+                                1.011,
+                                0.106,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "curve": [
+                                0.31,
+                                1,
+                                0.333,
+                                -0.291,
+                                0.31,
+                                1,
+                                0.333,
+                                -0.291
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0.074,
+                            "y": 0.074,
+                            "curve": [
+                                0.333,
+                                1.011,
+                                0.406,
+                                1,
+                                0.333,
+                                1.011,
+                                0.406,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6
+                        }
+                    ]
+                },
+                "烟雾3": {
+                    "rotate": [
+                        {
+                            "value": -89,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "value": -89
+                        },
+                        {
+                            "time": 0.3667,
+                            "value": -110.51
+                        },
+                        {
+                            "time": 0.4333,
+                            "value": -89
+                        },
+                        {
+                            "time": 0.8,
+                            "value": -110.51
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.074,
+                            "y": 0.074,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 0.074,
+                            "y": 0.074,
+                            "curve": [
+                                0.133,
+                                0.73,
+                                0.231,
+                                1,
+                                0.133,
+                                0.73,
+                                0.231,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "curve": [
+                                0.393,
+                                1,
+                                0.433,
+                                -0.319,
+                                0.393,
+                                1,
+                                0.433,
+                                -0.319
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 0.074,
+                            "y": 0.074,
+                            "curve": [
+                                0.433,
+                                0.73,
+                                0.474,
+                                1,
+                                0.433,
+                                0.73,
+                                0.474,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8
+                        }
+                    ]
+                },
+                "烟雾4": {
+                    "rotate": [
+                        {
+                            "value": 64,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "value": 64
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": 42.49
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.074,
+                            "y": 0.074,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 0.074,
+                            "y": 0.074,
+                            "curve": [
+                                0.2,
+                                0.894,
+                                0.297,
+                                1,
+                                0.2,
+                                0.894,
+                                0.297,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4667
+                        }
+                    ]
+                },
+                "烟_1": {
+                    "translate": [
+                        {
+                            "x": -169.52,
+                            "y": -92.42,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": -169.52,
+                            "y": -92.42
+                        },
+                        {
+                            "time": 0.5
+                        },
+                        {
+                            "time": 0.6,
+                            "x": -169.52,
+                            "y": -92.42
+                        },
+                        {
+                            "time": 0.8667
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.223,
+                            "y": 0.223,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 0.223,
+                            "y": 0.223
+                        },
+                        {
+                            "time": 0.3333
+                        },
+                        {
+                            "time": 0.6,
+                            "x": 0.223,
+                            "y": 0.223
+                        },
+                        {
+                            "time": 0.7333
+                        }
+                    ]
+                },
+                "烟_4": {
+                    "translate": [
+                        {
+                            "x": -113.68,
+                            "y": 158.6,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": -113.68,
+                            "y": 158.6
+                        },
+                        {
+                            "time": 0.3667
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": -113.68,
+                            "y": 158.6
+                        },
+                        {
+                            "time": 0.7333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.223,
+                            "y": 0.223,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 0.223,
+                            "y": 0.223
+                        },
+                        {
+                            "time": 0.2
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 0.223,
+                            "y": 0.223
+                        },
+                        {
+                            "time": 0.6
+                        }
+                    ]
+                },
+                "烟_3": {
+                    "translate": [
+                        {
+                            "x": 176.67,
+                            "y": 99.27,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 176.67,
+                            "y": 99.27
+                        },
+                        {
+                            "time": 0.4
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 176.67,
+                            "y": 99.27
+                        },
+                        {
+                            "time": 0.8
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.223,
+                            "y": 0.223,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 0.223,
+                            "y": 0.223
+                        },
+                        {
+                            "time": 0.2333
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 0.223,
+                            "y": 0.223
+                        },
+                        {
+                            "time": 0.6333
+                        }
+                    ]
+                },
+                "烟_2": {
+                    "translate": [
+                        {
+                            "x": -37,
+                            "y": -141.3,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": -37,
+                            "y": -141.3
+                        },
+                        {
+                            "time": 0.3667
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": -37,
+                            "y": -141.3
+                        },
+                        {
+                            "time": 0.7333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.223,
+                            "y": 0.223,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 0.223,
+                            "y": 0.223
+                        },
+                        {
+                            "time": 0.2
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 0.223,
+                            "y": 0.223
+                        },
+                        {
+                            "time": 0.6
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
