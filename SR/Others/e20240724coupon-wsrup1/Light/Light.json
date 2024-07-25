@@ -1,0 +1,524 @@
+{
+    "skeleton": {
+        "hash": "gqnXQKVEWms",
+        "spine": "4.2.20",
+        "x": -807.41,
+        "y": -809.42,
+        "width": 1615.91,
+        "height": 1615.91,
+        "images": "./images/Light/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "icon": "circle"
+        },
+        {
+            "name": "Lighta",
+            "parent": "bone"
+        },
+        {
+            "name": "Lightb",
+            "parent": "bone"
+        },
+        {
+            "name": "Lightc",
+            "parent": "bone"
+        },
+        {
+            "name": "All",
+            "parent": "bone"
+        }
+    ],
+    "slots": [
+        {
+            "name": "3",
+            "bone": "Lightc",
+            "attachment": "3"
+        },
+        {
+            "name": "2",
+            "bone": "Lightb",
+            "attachment": "2"
+        },
+        {
+            "name": "1",
+            "bone": "Lighta",
+            "attachment": "1"
+        },
+        {
+            "name": "all",
+            "bone": "All",
+            "attachment": "all"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "1": {
+                    "1": {
+                        "x": 0.04,
+                        "y": 0.03,
+                        "width": 842,
+                        "height": 842
+                    }
+                },
+                "2": {
+                    "2": {
+                        "x": -2.96,
+                        "y": 4.03,
+                        "width": 958,
+                        "height": 958
+                    }
+                },
+                "3": {
+                    "3": {
+                        "x": 1.04,
+                        "y": -0.97,
+                        "width": 1130,
+                        "height": 1130
+                    }
+                },
+                "all": {
+                    "all": {
+                        "x": 0.54,
+                        "y": -1.47,
+                        "scaleX": 1.0541,
+                        "scaleY": 1.0541,
+                        "width": 1533,
+                        "height": 1533
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "in": {
+            "slots": {
+                "1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "all": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "All": {
+                    "scale": [
+                        {
+                            "x": 0.493,
+                            "y": 0.493,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5,
+                            "x": 0.493,
+                            "y": 0.493,
+                            "curve": [
+                                2,
+                                0.493,
+                                2.5,
+                                1,
+                                2,
+                                0.493,
+                                2.5,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3
+                        }
+                    ]
+                },
+                "Lighta": {
+                    "scale": [
+                        {
+                            "time": 2
+                        },
+                        {
+                            "time": 3,
+                            "x": 1.189,
+                            "y": 1.189
+                        }
+                    ]
+                },
+                "Lightb": {
+                    "scale": [
+                        {
+                            "x": 0.797,
+                            "y": 0.797,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.797,
+                            "y": 0.797
+                        },
+                        {
+                            "time": 3,
+                            "x": 1.111,
+                            "y": 1.111
+                        }
+                    ]
+                },
+                "Lightc": {
+                    "scale": [
+                        {
+                            "x": 0.655,
+                            "y": 0.655
+                        },
+                        {
+                            "time": 2.9667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "x": 0.655,
+                            "y": 0.655
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {
+            "slots": {
+                "1": {
+                    "rgba": [
+                        {
+                            "time": 1.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "2": {
+                    "rgba": [
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "All": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.5,
+                                1,
+                                1,
+                                0.493,
+                                0.5,
+                                1,
+                                1,
+                                0.493
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "x": 0.493,
+                            "y": 0.493,
+                            "curve": [
+                                2,
+                                0.493,
+                                2.5,
+                                1,
+                                2,
+                                0.493,
+                                2.5,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3
+                        }
+                    ]
+                },
+                "Lighta": {
+                    "scale": [
+                        {
+                            "x": 1.189,
+                            "y": 1.189
+                        },
+                        {
+                            "time": 1.9667,
+                            "x": 1.562,
+                            "y": 1.562,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2
+                        },
+                        {
+                            "time": 3,
+                            "x": 1.189,
+                            "y": 1.189
+                        }
+                    ]
+                },
+                "Lightb": {
+                    "scale": [
+                        {
+                            "x": 1.111,
+                            "y": 1.111
+                        },
+                        {
+                            "time": 0.9667,
+                            "x": 1.263,
+                            "y": 1.263,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.797,
+                            "y": 0.797
+                        },
+                        {
+                            "time": 3,
+                            "x": 1.111,
+                            "y": 1.111
+                        }
+                    ]
+                },
+                "Lightc": {
+                    "scale": [
+                        {
+                            "x": 0.655,
+                            "y": 0.655
+                        },
+                        {
+                            "time": 2.9667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "x": 0.655,
+                            "y": 0.655
+                        }
+                    ]
+                }
+            }
+        },
+        "out": {
+            "slots": {
+                "1": {
+                    "rgba": [
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "2": {
+                    "rgba": [
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "3": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "all": {
+                    "rgba": [
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "All": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.223,
+                                1,
+                                0.447,
+                                0.9,
+                                0.223,
+                                1,
+                                0.447,
+                                0.9
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 0.788,
+                            "y": 0.788
+                        }
+                    ]
+                },
+                "Lighta": {
+                    "scale": [
+                        {
+                            "x": 1.189,
+                            "y": 1.189
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 1.316,
+                            "y": 1.316
+                        }
+                    ]
+                },
+                "Lightb": {
+                    "scale": [
+                        {
+                            "x": 1.111,
+                            "y": 1.111
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 1.216,
+                            "y": 1.216
+                        }
+                    ]
+                },
+                "Lightc": {
+                    "scale": [
+                        {
+                            "x": 0.655,
+                            "y": 0.655
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 0.732,
+                            "y": 0.732
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
