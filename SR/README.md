@@ -31,6 +31,7 @@ google: ```site:act.hoyoverse.com/sr/event```
 - https://act.hoyoverse.com/sr/event/e20240531shoot-8j34gx/index.html
 - https://act.hoyoverse.com/sr/event/e20240709jade-10ch0z/index.html
 - https://act.hoyoverse.com/sr/event/e20240724coupon-wsrup1/index.html
+- https://act.mihoyo.com/sr/event/e20240727luofu-b91x7m/index.html
 
 ## Puzzle
 - https://act.mihoyo.com/puzzle/hkrpg/pz_stKK3ccUXV/index.html
