@@ -12,7 +12,13 @@ google: ```site:act.hoyoverse.com/sr/event```
 - 2.1 https://act.hoyoverse.com/sr/event/e20240316version-hyue7h/index.html
 - 2.2 https://act.hoyoverse.com/sr/event/e20240426version-48v1wy/index.html
 - 2.3 https://act.hoyoverse.com/sr/event/e20240607version-qf68ql/index.html
-- 2.4 https://act.hoyoverse.com/sr/event/e20240719version-37c63r/index.html
+- 2.4 https://act.hoyoverse.com/sr/event/e20240719version-37c63r/index.
+
+## Home
+https://hsr.hoyoverse.com/en-us/
+- 2.2 https://act.hoyoverse.com/puzzle/hkrpg/pz_Vq98gciF1p/index.html
+- 2.3 https://act.hoyoverse.com/puzzle/hkrpg/pz_KQJOCs9s8O/index.html
+- 2.4 https://act.hoyoverse.com/puzzle/hkrpg/pz_soRAVPGgSO/index.html
 
 ## others
 - https://act.hoyoverse.com/sr/event/march7thARinvitation/index.html
