@@ -63,6 +63,7 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - https://act.hoyoverse.com/ys/event/e20240419arlecchino-vn0wpz/index.html <Arlecchino>
 - https://act.hoyoverse.com/ys/event/e20240531clorinde-5k96dd/index.html <Clorinde>
 - https://act.hoyoverse.com/ys/event/e20240620sigewinne-ktlz9u/index.html <Sigewinne>
+- https://act.hoyoverse.com/ys/event/e20240801emilie-kryavl/index.html <Emilie>
 
 ## Home
 https://genshin.hoyoverse.com/en/
