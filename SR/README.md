@@ -1,7 +1,7 @@
 # SR
 google: ```site:act.hoyoverse.com/sr/event```
 
-## version
+## Preview
 - 1.1 https://act.hoyoverse.com/sr/event/e20230313version-4j4a57/index.html
 - 1.2 https://act.hoyoverse.com/sr/event/e20230708version-8138dd/index.html
 - 1.3 https://act.hoyoverse.com/sr/event/e20230818version-u88u8o/index.html
@@ -20,7 +20,7 @@ https://hsr.hoyoverse.com/en-us/
 - 2.3 https://act.hoyoverse.com/puzzle/hkrpg/pz_KQJOCs9s8O/index.html
 - 2.4 https://act.hoyoverse.com/puzzle/hkrpg/pz_soRAVPGgSO/index.html
 
-## others
+## Others
 - https://act.hoyoverse.com/sr/event/march7thARinvitation/index.html
 - https://act.hoyoverse.com/sr/event/e20220908jump-4odj/index.html
 - https://webstatic.mihoyo.com/sr/event/e20221102exam/index.html

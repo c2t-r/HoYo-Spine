@@ -1,7 +1,7 @@
 # GI
 google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/ys/event OR site:webstatic-sea.mihoyo.com/ys/event```
 
-## version
+## Preview
 - 1.2 https://webstatic-sea.mihoyo.com/ys/event/e20201216new/index.html
 - 1.3 https://webstatic-sea.mihoyo.com/ys/event/e20210128warmup/index.html
 - 1.4 https://webstatic-sea.mihoyo.com/ys/event/e20210309prediction/index.html
@@ -89,7 +89,7 @@ https://genshin.hoyoverse.com/en/
 - 4.5 https://act.hoyoverse.com/puzzle/hk4e/pz_uGaXg8gTdF/index.html
 - 4.6 https://act.hoyoverse.com/puzzle/hk4e/pz_HdmXQ1MHiy/index.html
 
-## others
+## Others
 - https://webstatic.mihoyo.com/ys/event/e20201101work/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20201028-invite-sea/index.html
 - https://webstatic-sea.mihoyo.com/ys/event/e20210122-slime/index.html
