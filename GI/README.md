@@ -144,6 +144,7 @@ https://genshin.hoyoverse.com/en/
 - https://act.hoyoverse.com/ys/event/e20240429business-ad4okq/index.html
 - https://act.hoyoverse.com/ys/event/e20240506jigsaw-ih4e10/index.html
 - https://act.hoyoverse.com/ys/event/e20240710perfume-f65h6y/index.html
+- https://act.hoyoverse.com/ys/event/e20240816natlan-iseatr/index.html
 
 ## hoyofest
 - 2023 https://act.hoyoverse.com/ys/event/hoyofest2023-xrdqyw/index.html
