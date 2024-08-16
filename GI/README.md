@@ -88,6 +88,8 @@ https://genshin.hoyoverse.com/en/
 - 4.4 https://act.hoyoverse.com/puzzle/hk4e/pz_I4DPYNZuP5/index.html
 - 4.5 https://act.hoyoverse.com/puzzle/hk4e/pz_uGaXg8gTdF/index.html
 - 4.6 https://act.hoyoverse.com/puzzle/hk4e/pz_HdmXQ1MHiy/index.html
+- 4.7 https://act.hoyoverse.com/puzzle/hk4e/pz_l2c2OXezAR/index.html
+- 4.8 https://act.hoyoverse.com/puzzle/hk4e/pz_hs1pmTpNjx/index.html
 
 ## Others
 - https://webstatic.mihoyo.com/ys/event/e20201101work/index.html
