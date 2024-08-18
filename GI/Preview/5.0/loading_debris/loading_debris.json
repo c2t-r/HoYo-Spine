@@ -1,0 +1,133 @@
+{
+    "skeleton": {
+        "hash": "wFK9fN6hgjE",
+        "spine": "4.2.33",
+        "x": -1100.5,
+        "y": -353,
+        "width": 2201.33,
+        "height": 706
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "loading_debris",
+            "parent": "root",
+            "length": 110.52,
+            "rotation": -165.39,
+            "x": -996.16,
+            "y": 296.95
+        },
+        {
+            "name": "碎片1",
+            "parent": "root",
+            "length": 77.27,
+            "rotation": -146.82,
+            "x": 1052.47,
+            "y": -310.15
+        }
+    ],
+    "slots": [
+        {
+            "name": "碎片1",
+            "bone": "碎片1",
+            "attachment": "碎片1"
+        },
+        {
+            "name": "loading_debris",
+            "bone": "loading_debris",
+            "attachment": "loading_debris"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "loading_debris": {
+                    "loading_debris": {
+                        "x": 3.2,
+                        "y": -14.84,
+                        "rotation": 165.39,
+                        "width": 195,
+                        "height": 85
+                    }
+                },
+                "碎片1": {
+                    "碎片1": {
+                        "x": 12.77,
+                        "y": 2.82,
+                        "rotation": 146.82,
+                        "width": 115,
+                        "height": 67
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "loading_debris": {
+            "rootBoneName": "loading_debris",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 25,
+                    "moveXOctaves": 1,
+                    "moveXDelay": -3.138181256002033,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.221262033793861,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 6,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -3.506102500546259,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "碎片1": {
+            "rootBoneName": "碎片1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 25,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 12.541043194274245,
+                    "moveXCenter": -12,
+                    "moveYFreq": 6,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.7184861522264142,
+                    "moveYCenter": 17,
+                    "scaleXFreq": 6,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.11781241743643196,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

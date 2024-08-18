@@ -1,0 +1,296 @@
+{
+    "skeleton": {
+        "hash": "v99vV2p2d0A",
+        "spine": "4.2.33",
+        "x": -330.36,
+        "y": -627.84,
+        "width": 734,
+        "height": 1231
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 324.74,
+            "y": -688.17
+        },
+        {
+            "name": "图层 10000",
+            "parent": "bone",
+            "length": 54.12,
+            "rotation": 111.45,
+            "x": -177.36,
+            "y": 341.58
+        },
+        {
+            "name": "1",
+            "parent": "bone",
+            "length": 106.18,
+            "rotation": -87,
+            "x": -138.91,
+            "y": 810.62
+        },
+        {
+            "name": "图层 554 - 2",
+            "parent": "bone",
+            "x": -123.13,
+            "y": 359.91
+        },
+        {
+            "name": "图层 554 - 1",
+            "parent": "bone",
+            "length": 12.33,
+            "rotation": 90.62,
+            "x": -103.83,
+            "y": 370.67
+        }
+    ],
+    "slots": [
+        {
+            "name": "组 9358",
+            "bone": "bone",
+            "attachment": "组 9358"
+        },
+        {
+            "name": "图层 554 - 2",
+            "bone": "图层 554 - 2",
+            "attachment": "图层 554 - 2"
+        },
+        {
+            "name": "图层 554 - 1",
+            "bone": "图层 554 - 1",
+            "attachment": "图层 554 - 1"
+        },
+        {
+            "name": "图层 10000",
+            "bone": "图层 10000",
+            "attachment": "图层 10000"
+        },
+        {
+            "name": "1",
+            "bone": "1",
+            "attachment": "1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "1": {
+                    "1": {
+                        "x": -3.17,
+                        "y": -18.05,
+                        "rotation": 87,
+                        "width": 108,
+                        "height": 193
+                    }
+                },
+                "图层 554 - 1": {
+                    "图层 554 - 1": {
+                        "x": 1.33,
+                        "y": 0.25,
+                        "rotation": -90.62,
+                        "width": 28,
+                        "height": 27
+                    }
+                },
+                "图层 554 - 2": {
+                    "图层 554 - 2": {
+                        "x": 0.53,
+                        "y": -0.07,
+                        "width": 9,
+                        "height": 9
+                    }
+                },
+                "图层 10000": {
+                    "图层 10000": {
+                        "x": -10.06,
+                        "y": -16.75,
+                        "rotation": -111.45,
+                        "width": 86,
+                        "height": 94
+                    }
+                },
+                "组 9358": {
+                    "组 9358": {
+                        "x": -288.1,
+                        "y": 675.84,
+                        "width": 734,
+                        "height": 1231
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "bones": {
+                "bone": {
+                    "translate": [
+                        {
+                            "x": 11.85,
+                            "curve": [
+                                1.111,
+                                11.85,
+                                2.222,
+                                -14.22,
+                                1.111,
+                                0,
+                                2.222,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 3.3333,
+                            "x": -14.22,
+                            "curve": [
+                                4.433,
+                                -14.22,
+                                5.533,
+                                11.85,
+                                4.433,
+                                0,
+                                5.533,
+                                2.37
+                            ]
+                        },
+                        {
+                            "time": 6.6333,
+                            "x": 11.85,
+                            "y": 2.37
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "1": {
+            "rootBoneName": "1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 25,
+                    "moveXOctaves": 1,
+                    "moveXDelay": -3.908363713641771,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 30.709386624902642,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 6,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -0.015364793074588823,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 4,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.08656597657809995
+                }
+            }
+        },
+        "图层 10000": {
+            "rootBoneName": "图层 10000",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 25,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 6.271754240316964,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0.06048197164184556,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 6,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 4.9017323797934225,
+                    "scaleXCenter": 0,
+                    "rotateFreq": 3,
+                    "rotateAmp": 4,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.08327453932544468
+                }
+            }
+        },
+        "图层 554 - 1": {
+            "rootBoneName": "图层 554 - 1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 25,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 0.9738684324180733,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 1,
+                    "moveYDelay": -2.9941175048936,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 0.5,
+                    "scaleXAmp": 0.25,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -3.9967867941787034,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "图层 554 - 2": {
+            "rootBoneName": "图层 554 - 2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 25,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 2.051349089551047,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 1,
+                    "moveYDelay": 4.8508967993648495,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 0.5,
+                    "scaleXAmp": 0.25,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 1.652121472844937,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

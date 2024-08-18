@@ -1,0 +1,70 @@
+{
+    "skeleton": {
+        "hash": "MpQErFIpW3E",
+        "spine": "4.2.33",
+        "x": -490,
+        "y": -473,
+        "width": 980,
+        "height": 946
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "role_img_5",
+            "parent": "root",
+            "x": -0.03,
+            "y": 0.58
+        }
+    ],
+    "slots": [
+        {
+            "name": "role_img_5",
+            "bone": "role_img_5",
+            "attachment": "role_img_5"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "role_img_5": {
+                    "role_img_5": {
+                        "x": 0.03,
+                        "y": -0.58,
+                        "width": 980,
+                        "height": 946
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "role_img_5": {
+            "rootBoneName": "role_img_5",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 4,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

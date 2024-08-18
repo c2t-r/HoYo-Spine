@@ -1,0 +1,84 @@
+{
+    "skeleton": {
+        "hash": "XQTSm1lLX7c",
+        "spine": "4.2.33",
+        "x": -77.5,
+        "y": -51.5,
+        "width": 155,
+        "height": 103
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "loading_debris_down",
+            "parent": "root",
+            "length": 91.93,
+            "rotation": 167.79,
+            "x": 9.94,
+            "y": 15.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "loading_debris_down",
+            "bone": "loading_debris_down",
+            "attachment": "loading_debris_down"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "loading_debris_down": {
+                    "loading_debris_down": {
+                        "x": 6.44,
+                        "y": 17.26,
+                        "rotation": -167.79,
+                        "width": 155,
+                        "height": 103
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "loading_debris_down": {
+            "rootBoneName": "loading_debris_down",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 48.5,
+                    "moveXOctaves": 1,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 10,
+                    "moveYAmp": 38.5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 10,
+                    "scaleXAmp": 0.2,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0,
+                    "rotateSpeed": 0.05
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

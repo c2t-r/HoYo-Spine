@@ -1,0 +1,378 @@
+{
+    "skeleton": {
+        "hash": "3rcoVDCKaUw",
+        "spine": "4.2.33",
+        "x": -482,
+        "y": -323.5,
+        "width": 964,
+        "height": 647
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -158.75,
+            "y": -444.17
+        },
+        {
+            "name": "枫叶1",
+            "parent": "bone",
+            "length": 108.48,
+            "rotation": -26.92,
+            "x": -208.64,
+            "y": 388.97
+        },
+        {
+            "name": "云1",
+            "parent": "bone",
+            "length": 200.04,
+            "rotation": 179.76,
+            "x": -105.46,
+            "y": 284.33
+        },
+        {
+            "name": "圆",
+            "parent": "bone",
+            "length": 158.21,
+            "rotation": -179.11,
+            "x": 4.57,
+            "y": 246.25
+        },
+        {
+            "name": "枫叶2",
+            "parent": "bone",
+            "length": 115.47,
+            "rotation": 114.44,
+            "x": 428.45,
+            "y": 513.93
+        },
+        {
+            "name": "枫叶3",
+            "parent": "bone",
+            "length": 66.59,
+            "rotation": 63.26,
+            "x": 347.02,
+            "y": 552.26
+        },
+        {
+            "name": "云3",
+            "parent": "bone",
+            "length": 228.87,
+            "rotation": -0.37,
+            "x": 399.39,
+            "y": 390.54
+        },
+        {
+            "name": "云4",
+            "parent": "bone",
+            "length": 181.49,
+            "rotation": 179.68,
+            "x": -133,
+            "y": 701.01
+        }
+    ],
+    "slots": [
+        {
+            "name": "云4",
+            "bone": "云4",
+            "attachment": "云4"
+        },
+        {
+            "name": "云3",
+            "bone": "云3",
+            "attachment": "云3"
+        },
+        {
+            "name": "云2",
+            "bone": "圆",
+            "attachment": "云2"
+        },
+        {
+            "name": "云1",
+            "bone": "云1",
+            "attachment": "云1"
+        },
+        {
+            "name": "圆",
+            "bone": "root",
+            "attachment": "圆"
+        },
+        {
+            "name": "枫叶3",
+            "bone": "枫叶3",
+            "attachment": "枫叶3"
+        },
+        {
+            "name": "枫叶2",
+            "bone": "枫叶2",
+            "attachment": "枫叶2"
+        },
+        {
+            "name": "枫叶1",
+            "bone": "枫叶1",
+            "attachment": "枫叶1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "云1": {
+                    "云1": {
+                        "x": 25.86,
+                        "y": -17.73,
+                        "rotation": -179.76,
+                        "width": 286,
+                        "height": 117
+                    }
+                },
+                "云2": {
+                    "云2": {
+                        "x": 160.31,
+                        "y": -1.9,
+                        "rotation": 179.11,
+                        "width": 335,
+                        "height": 28
+                    }
+                },
+                "云3": {
+                    "云3": {
+                        "x": 113.71,
+                        "y": 23.37,
+                        "rotation": 0.37,
+                        "width": 255,
+                        "height": 67
+                    }
+                },
+                "云4": {
+                    "云4": {
+                        "x": 11.63,
+                        "y": 20.91,
+                        "rotation": -179.68,
+                        "width": 255,
+                        "height": 67
+                    }
+                },
+                "圆": {
+                    "圆": {
+                        "x": -48,
+                        "width": 650,
+                        "height": 647
+                    }
+                },
+                "枫叶1": {
+                    "枫叶1": {
+                        "x": 22.6,
+                        "y": 4.97,
+                        "rotation": 26.92,
+                        "width": 130,
+                        "height": 143
+                    }
+                },
+                "枫叶2": {
+                    "枫叶2": {
+                        "x": 21.69,
+                        "y": -3.61,
+                        "rotation": -114.44,
+                        "width": 124,
+                        "height": 115
+                    }
+                },
+                "枫叶3": {
+                    "枫叶3": {
+                        "x": 14.26,
+                        "y": 2.03,
+                        "rotation": -66.86,
+                        "width": 88,
+                        "height": 83
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "云4": {
+            "rootBoneName": "云4",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 13.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "云1": {
+            "rootBoneName": "云1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 17.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -5.103504426449936,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -2.9602246445995193,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "圆": {
+            "rootBoneName": "圆",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 13.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.2194155936350826,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -5.664708250075492,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "云3": {
+            "rootBoneName": "云3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 5,
+                    "moveXAmp": 13.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -4.933429476875341,
+                    "moveXCenter": 0,
+                    "moveYFreq": 1,
+                    "moveYAmp": 0,
+                    "moveYOctaves": 0,
+                    "moveYDelay": -1.0213014576138262,
+                    "moveYCenter": 0
+                }
+            }
+        },
+        "枫叶1": {
+            "rootBoneName": "枫叶1",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 10,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.5,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 8.5,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 1,
+                    "moveYCenter": 0,
+                    "rotateFreq": 6,
+                    "rotateAmp": 12.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 1.5
+                }
+            }
+        },
+        "枫叶3": {
+            "rootBoneName": "枫叶3",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 6,
+                    "moveXAmp": 5.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -0.6000000000000001,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 7,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 5,
+                    "moveYCenter": 0,
+                    "rotateFreq": 6,
+                    "rotateAmp": 4.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.6000000000000001
+                }
+            }
+        },
+        "枫叶2": {
+            "rootBoneName": "枫叶2",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 5.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 4,
+                    "moveYAmp": 7,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "rotateFreq": 6,
+                    "rotateAmp": 5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -2.9000000000000004
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

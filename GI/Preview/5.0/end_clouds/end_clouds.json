@@ -1,0 +1,38 @@
+{
+    "skeleton": {
+        "hash": "t1z0h5wY7tI",
+        "spine": "4.2.33",
+        "x": -1250,
+        "y": -540,
+        "width": 2500,
+        "height": 1080
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "end_clouds",
+            "bone": "root",
+            "attachment": "end_clouds"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "end_clouds": {
+                    "end_clouds": {
+                        "width": 2500,
+                        "height": 1080
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}
