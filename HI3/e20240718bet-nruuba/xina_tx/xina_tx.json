@@ -1,0 +1,2164 @@
+{
+    "skeleton": {
+        "hash": "NEjGLlcYOFI",
+        "spine": "4.0-from-4.1.24",
+        "x": -562.75,
+        "y": -235.22,
+        "width": 2500,
+        "height": 1080,
+        "images": "./images/",
+        "audio": "D:/工作项目/崩坏3q版战斗/最新文件统合0526/希娜"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "ALL",
+            "parent": "root",
+            "scaleX": 0.4,
+            "scaleY": 0.4
+        },
+        {
+            "name": "xndy_bone72",
+            "parent": "ALL",
+            "length": 1077.73,
+            "rotation": -87.74,
+            "x": -1295.98,
+            "y": 1681.24
+        },
+        {
+            "name": "xndy_bone73",
+            "parent": "xndy_bone72",
+            "x": 809.3,
+            "y": -0.09
+        },
+        {
+            "name": "texiao",
+            "parent": "xndy_bone72",
+            "rotation": 87.74,
+            "x": 1345.76,
+            "y": -53.1,
+            "scaleX": 11.219,
+            "scaleY": 11.219
+        },
+        {
+            "name": "texiao2",
+            "parent": "xndy_bone72",
+            "rotation": 58.67,
+            "x": 1852.61,
+            "y": -295.26,
+            "scaleX": 8.0841,
+            "scaleY": 8.0841
+        },
+        {
+            "name": "texiao3",
+            "parent": "xndy_bone72",
+            "rotation": 89.44,
+            "x": 2132.74,
+            "y": -47.22,
+            "scaleX": 8.0841,
+            "scaleY": 8.0841
+        },
+        {
+            "name": "texiao4",
+            "parent": "xndy_bone72",
+            "rotation": 26.48,
+            "x": 1700.93,
+            "y": -570.9,
+            "scaleX": 8.0841,
+            "scaleY": 8.0841
+        },
+        {
+            "name": "texiao5",
+            "parent": "xndy_bone72",
+            "rotation": 76.57,
+            "x": 1943.16,
+            "y": 286.93,
+            "scaleX": 8.0841,
+            "scaleY": 8.0841
+        },
+        {
+            "name": "texiao6",
+            "parent": "xndy_bone72",
+            "rotation": 87.74,
+            "x": 290.58,
+            "y": -11.48,
+            "scaleX": 5.0916,
+            "scaleY": 10.8566
+        },
+        {
+            "name": "wuqi_suilie",
+            "parent": "xndy_bone72",
+            "length": 353.18,
+            "rotation": 87.74,
+            "x": 811.64,
+            "y": -9.47
+        },
+        {
+            "name": "wuqi_suilie2",
+            "parent": "wuqi_suilie",
+            "x": -22.54,
+            "y": 651.37,
+            "color": "ec3f3fff"
+        },
+        {
+            "name": "wuqi_suilie3",
+            "parent": "wuqi_suilie",
+            "x": -6.2,
+            "y": 97.18,
+            "color": "ec3f3fff"
+        },
+        {
+            "name": "wuqi_suilie4",
+            "parent": "wuqi_suilie",
+            "x": 27.91,
+            "y": -595.07,
+            "color": "ec3f3fff"
+        },
+        {
+            "name": "wuqi_suilie5",
+            "parent": "wuqi_suilie",
+            "x": -480.9,
+            "y": -714.33,
+            "color": "ec3f3fff"
+        },
+        {
+            "name": "wuqi_suilie6",
+            "parent": "wuqi_suilie",
+            "x": 582.55,
+            "y": -624.16,
+            "color": "ec3f3fff"
+        }
+    ],
+    "slots": [
+        {
+            "name": "bg",
+            "bone": "root",
+            "color": "ffffff8e"
+        },
+        {
+            "name": "xndy_17",
+            "bone": "xndy_bone73"
+        },
+        {
+            "name": "lei",
+            "bone": "texiao"
+        },
+        {
+            "name": "lei2",
+            "bone": "texiao6"
+        },
+        {
+            "name": "texiao2",
+            "bone": "texiao2"
+        },
+        {
+            "name": "texiao3",
+            "bone": "texiao3"
+        },
+        {
+            "name": "texiao4",
+            "bone": "texiao4"
+        },
+        {
+            "name": "texiao5",
+            "bone": "texiao5"
+        },
+        {
+            "name": "wuqi_s5",
+            "bone": "wuqi_suilie6"
+        },
+        {
+            "name": "wuqi_s4",
+            "bone": "wuqi_suilie5"
+        },
+        {
+            "name": "wuqi_s3",
+            "bone": "wuqi_suilie4"
+        },
+        {
+            "name": "wuqi_s2",
+            "bone": "wuqi_suilie3"
+        },
+        {
+            "name": "wuqi_s1",
+            "bone": "wuqi_suilie2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "lei": {
+                    "lei/lei2_000": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_001": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_002": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_003": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_004": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_005": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_006": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_007": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_008": {
+                        "width": 170,
+                        "height": 170
+                    }
+                },
+                "lei2": {
+                    "lei/lei2_000": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_001": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_002": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_003": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_004": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_005": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_006": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_007": {
+                        "width": 170,
+                        "height": 170
+                    },
+                    "lei/lei2_008": {
+                        "width": 170,
+                        "height": 170
+                    }
+                },
+                "texiao2": {
+                    "lei2/leidian_000": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_001": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_002": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_003": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_004": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_005": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_006": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_007": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_008": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_009": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_010": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_011": {
+                        "width": 128,
+                        "height": 170
+                    }
+                },
+                "texiao3": {
+                    "lei2/leidian_000": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_001": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_002": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_003": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_004": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_005": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_006": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_007": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_008": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_009": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_010": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_011": {
+                        "width": 128,
+                        "height": 170
+                    }
+                },
+                "texiao4": {
+                    "lei2/leidian_000": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_001": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_002": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_003": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_004": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_005": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_006": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_007": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_008": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_009": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_010": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_011": {
+                        "width": 128,
+                        "height": 170
+                    }
+                },
+                "texiao5": {
+                    "lei2/leidian_000": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_001": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_002": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_003": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_004": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_005": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_006": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_007": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_008": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_009": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_010": {
+                        "width": 128,
+                        "height": 170
+                    },
+                    "lei2/leidian_011": {
+                        "width": 128,
+                        "height": 170
+                    }
+                },
+                "wuqi_s1": {
+                    "wuqi_s1": {
+                        "x": 2.06,
+                        "y": 6.62,
+                        "width": 324,
+                        "height": 684
+                    }
+                },
+                "wuqi_s2": {
+                    "wuqi_s2": {
+                        "x": 62.7,
+                        "y": -29.68,
+                        "width": 302,
+                        "height": 717
+                    }
+                },
+                "wuqi_s3": {
+                    "wuqi_s3": {
+                        "x": 15.6,
+                        "y": 28.57,
+                        "width": 562,
+                        "height": 963
+                    }
+                },
+                "wuqi_s4": {
+                    "wuqi_s4": {
+                        "x": 22.91,
+                        "y": 136.83,
+                        "width": 671,
+                        "height": 965
+                    }
+                },
+                "wuqi_s5": {
+                    "wuqi_s5": {
+                        "x": -87.04,
+                        "y": 63.66,
+                        "width": 532,
+                        "height": 887
+                    }
+                },
+                "xndy_17": {
+                    "xndy_2": {
+                        "x": 29.04,
+                        "y": -26.29,
+                        "rotation": 87.74,
+                        "width": 1555,
+                        "height": 2060
+                    }
+                }
+            }
+        }
+    ],
+    "events": {
+        "hit": {}
+    },
+    "animations": {
+        "big_skill2": {
+            "slots": {
+                "lei": {
+                    "attachment": [
+                        {
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.3667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 0.4,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.4333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.4667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 0.5,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 0.5333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 0.5667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 0.6,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.6333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 0.7,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.7333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.7667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 0.8,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 0.8667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 0.9,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.9333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.9667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 1,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 1.0333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 1.0667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 1.1,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 1.1333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 1.1667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 1.2,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 1.2333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 1.2667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 1.3,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 1.3667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 1.4,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 1.4333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 1.4667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 1.5,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 1.5333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 1.5667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 1.6,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 1.6333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 1.6667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 1.7,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 1.7333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 1.7667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 1.8,
+                            "name": null
+                        }
+                    ]
+                },
+                "lei2": {
+                    "attachment": [
+                        {
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.3667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 0.4,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 0.4333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 0.4667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 0.5,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.5333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.5667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 0.6,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.6333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 0.7,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 0.7333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 0.7667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 0.8,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.8667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 0.9,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.9333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.9667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 1,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 1.0333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 1.0667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 1.1,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 1.1333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 1.1667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 1.2,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 1.2333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 1.2667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 1.3,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 1.3667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 1.4,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 1.4333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 1.4667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 1.5,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 1.5333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 1.5667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 1.6,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 1.6333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 1.6667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 1.7,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 1.7333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 1.7667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 1.8,
+                            "name": "lei/lei2_003"
+                        }
+                    ]
+                },
+                "xndy_17": {
+                    "attachment": [
+                        {
+                            "name": "xndy_2"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "xndy_bone72": {
+                    "rotate": [
+                        {
+                            "value": -328.33
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 4118.4,
+                            "y": 39.54,
+                            "curve": [
+                                0.289,
+                                4118.4,
+                                0.578,
+                                4118.4,
+                                0.289,
+                                39.54,
+                                0.578,
+                                97.6
+                            ]
+                        },
+                        {
+                            "time": 0.8667,
+                            "x": 4118.4,
+                            "y": 97.6,
+                            "curve": [
+                                1.178,
+                                4118.4,
+                                1.489,
+                                4118.4,
+                                1.178,
+                                97.6,
+                                1.489,
+                                39.54
+                            ]
+                        },
+                        {
+                            "time": 1.8,
+                            "x": 4118.4,
+                            "y": 39.54
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.451,
+                            "y": 0.451
+                        }
+                    ]
+                }
+            }
+        },
+        "big_skill3": {
+            "slots": {
+                "lei": {
+                    "attachment": [
+                        {
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.3667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 0.4,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.4333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.4667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 0.5,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 0.5333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 0.5667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 0.6,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.6333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 0.7,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.7333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.7667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 0.8,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 0.8667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 0.9,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.9333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.9667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 1,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 1.0333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 1.0667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 1.1,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 1.1333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 1.1667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 1.2,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 1.2333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 1.2667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 1.3,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 1.3667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 1.4,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 1.4333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 1.4667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 1.5,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 1.5333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 1.5667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 1.6,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 1.6333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 1.6667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 1.7,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 1.7333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 1.7667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 1.8,
+                            "name": null
+                        }
+                    ]
+                },
+                "lei2": {
+                    "attachment": [
+                        {
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.3667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 0.4,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 0.4333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 0.4667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 0.5,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.5333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.5667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 0.6,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.6333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 0.7,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 0.7333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 0.7667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 0.8,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 0.8667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 0.9,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 0.9333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 0.9667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 1,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 1.0333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 1.0667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 1.1,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 1.1333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 1.1667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 1.2,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 1.2333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 1.2667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 1.3,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 1.3667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 1.4,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 1.4333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 1.4667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 1.5,
+                            "name": "lei/lei2_003"
+                        },
+                        {
+                            "time": 1.5333,
+                            "name": "lei/lei2_004"
+                        },
+                        {
+                            "time": 1.5667,
+                            "name": "lei/lei2_005"
+                        },
+                        {
+                            "time": 1.6,
+                            "name": "lei/lei2_006"
+                        },
+                        {
+                            "time": 1.6333,
+                            "name": "lei/lei2_007"
+                        },
+                        {
+                            "time": 1.6667,
+                            "name": "lei/lei2_008"
+                        },
+                        {
+                            "time": 1.7,
+                            "name": "lei/lei2_000"
+                        },
+                        {
+                            "time": 1.7333,
+                            "name": "lei/lei2_001"
+                        },
+                        {
+                            "time": 1.7667,
+                            "name": "lei/lei2_002"
+                        },
+                        {
+                            "time": 1.8,
+                            "name": "lei/lei2_003"
+                        }
+                    ]
+                },
+                "texiao2": {
+                    "attachment": [
+                        {
+                            "time": 0.8,
+                            "name": "lei2/leidian_000"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "lei2/leidian_001"
+                        },
+                        {
+                            "time": 0.8667,
+                            "name": "lei2/leidian_002"
+                        },
+                        {
+                            "time": 0.9,
+                            "name": "lei2/leidian_003"
+                        },
+                        {
+                            "time": 0.9333,
+                            "name": "lei2/leidian_004"
+                        },
+                        {
+                            "time": 0.9667,
+                            "name": "lei2/leidian_005"
+                        },
+                        {
+                            "time": 1,
+                            "name": "lei2/leidian_006"
+                        },
+                        {
+                            "time": 1.0333,
+                            "name": "lei2/leidian_007"
+                        },
+                        {
+                            "time": 1.0667,
+                            "name": "lei2/leidian_008"
+                        },
+                        {
+                            "time": 1.1,
+                            "name": "lei2/leidian_009"
+                        },
+                        {
+                            "time": 1.1333,
+                            "name": "lei2/leidian_010"
+                        },
+                        {
+                            "time": 1.1667,
+                            "name": "lei2/leidian_011"
+                        },
+                        {
+                            "time": 1.2,
+                            "name": null
+                        }
+                    ]
+                },
+                "texiao3": {
+                    "attachment": [
+                        {
+                            "time": 0.9667,
+                            "name": "lei2/leidian_000"
+                        },
+                        {
+                            "time": 1,
+                            "name": "lei2/leidian_001"
+                        },
+                        {
+                            "time": 1.0333,
+                            "name": "lei2/leidian_002"
+                        },
+                        {
+                            "time": 1.0667,
+                            "name": "lei2/leidian_003"
+                        },
+                        {
+                            "time": 1.1,
+                            "name": "lei2/leidian_004"
+                        },
+                        {
+                            "time": 1.1333,
+                            "name": "lei2/leidian_005"
+                        },
+                        {
+                            "time": 1.1667,
+                            "name": "lei2/leidian_006"
+                        },
+                        {
+                            "time": 1.2,
+                            "name": "lei2/leidian_007"
+                        },
+                        {
+                            "time": 1.2333,
+                            "name": "lei2/leidian_008"
+                        },
+                        {
+                            "time": 1.2667,
+                            "name": "lei2/leidian_009"
+                        },
+                        {
+                            "time": 1.3,
+                            "name": "lei2/leidian_010"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "lei2/leidian_011"
+                        },
+                        {
+                            "time": 1.3667,
+                            "name": null
+                        }
+                    ]
+                },
+                "texiao4": {
+                    "attachment": [
+                        {
+                            "time": 1,
+                            "name": "lei2/leidian_000"
+                        },
+                        {
+                            "time": 1.0333,
+                            "name": "lei2/leidian_001"
+                        },
+                        {
+                            "time": 1.0667,
+                            "name": "lei2/leidian_002"
+                        },
+                        {
+                            "time": 1.1,
+                            "name": "lei2/leidian_003"
+                        },
+                        {
+                            "time": 1.1333,
+                            "name": "lei2/leidian_004"
+                        },
+                        {
+                            "time": 1.1667,
+                            "name": "lei2/leidian_005"
+                        },
+                        {
+                            "time": 1.2,
+                            "name": "lei2/leidian_006"
+                        },
+                        {
+                            "time": 1.2333,
+                            "name": "lei2/leidian_007"
+                        },
+                        {
+                            "time": 1.2667,
+                            "name": "lei2/leidian_008"
+                        },
+                        {
+                            "time": 1.3,
+                            "name": "lei2/leidian_009"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "lei2/leidian_010"
+                        },
+                        {
+                            "time": 1.3667,
+                            "name": "lei2/leidian_011"
+                        },
+                        {
+                            "time": 1.4,
+                            "name": null
+                        }
+                    ]
+                },
+                "texiao5": {
+                    "attachment": [
+                        {
+                            "time": 1.0667,
+                            "name": "lei2/leidian_000"
+                        },
+                        {
+                            "time": 1.1,
+                            "name": "lei2/leidian_001"
+                        },
+                        {
+                            "time": 1.1333,
+                            "name": "lei2/leidian_002"
+                        },
+                        {
+                            "time": 1.1667,
+                            "name": "lei2/leidian_003"
+                        },
+                        {
+                            "time": 1.2,
+                            "name": "lei2/leidian_004"
+                        },
+                        {
+                            "time": 1.2333,
+                            "name": "lei2/leidian_005"
+                        },
+                        {
+                            "time": 1.2667,
+                            "name": "lei2/leidian_006"
+                        },
+                        {
+                            "time": 1.3,
+                            "name": "lei2/leidian_007"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "lei2/leidian_008"
+                        },
+                        {
+                            "time": 1.3667,
+                            "name": "lei2/leidian_009"
+                        },
+                        {
+                            "time": 1.4,
+                            "name": "lei2/leidian_010"
+                        },
+                        {
+                            "time": 1.4333,
+                            "name": "lei2/leidian_011"
+                        },
+                        {
+                            "time": 1.4667,
+                            "name": null
+                        }
+                    ]
+                },
+                "xndy_17": {
+                    "attachment": [
+                        {
+                            "name": "xndy_2"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "xndy_bone72": {
+                    "rotate": [
+                        {
+                            "value": -328.33
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 4118.4,
+                            "y": 39.54,
+                            "curve": [
+                                0.189,
+                                4118.4,
+                                0.378,
+                                4114.59,
+                                0.189,
+                                39.54,
+                                0.378,
+                                13.26
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 4114.59,
+                            "y": 13.26,
+                            "curve": [
+                                0.8,
+                                4114.59,
+                                1.033,
+                                4114.59,
+                                0.8,
+                                13.26,
+                                1.033,
+                                13.26
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "x": 4114.59,
+                            "y": 13.26,
+                            "curve": [
+                                1.444,
+                                4114.59,
+                                1.622,
+                                4118.4,
+                                1.444,
+                                13.26,
+                                1.622,
+                                39.54
+                            ]
+                        },
+                        {
+                            "time": 1.8,
+                            "x": 4118.4,
+                            "y": 39.54
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.451,
+                            "y": 0.451,
+                            "curve": [
+                                0.189,
+                                0.451,
+                                0.378,
+                                0.492,
+                                0.189,
+                                0.451,
+                                0.378,
+                                0.492
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 0.492,
+                            "y": 0.492,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2667,
+                            "x": 0.492,
+                            "y": 0.492,
+                            "curve": [
+                                1.444,
+                                0.492,
+                                1.622,
+                                0.451,
+                                1.444,
+                                0.492,
+                                1.622,
+                                0.451
+                            ]
+                        },
+                        {
+                            "time": 1.8,
+                            "x": 0.451,
+                            "y": 0.451
+                        }
+                    ]
+                }
+            },
+            "events": [
+                {
+                    "time": 0.8,
+                    "name": "hit"
+                }
+            ]
+        },
+        "big_skill4": {
+            "slots": {
+                "wuqi_s1": {
+                    "rgba": [
+                        {
+                            "time": 0.6333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wuqi_s1"
+                        }
+                    ]
+                },
+                "wuqi_s2": {
+                    "rgba": [
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wuqi_s2"
+                        }
+                    ]
+                },
+                "wuqi_s3": {
+                    "rgba": [
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wuqi_s3"
+                        }
+                    ]
+                },
+                "wuqi_s4": {
+                    "rgba": [
+                        {
+                            "time": 0.3,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wuqi_s4"
+                        }
+                    ]
+                },
+                "wuqi_s5": {
+                    "rgba": [
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "wuqi_s5"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "xndy_bone72": {
+                    "rotate": [
+                        {
+                            "value": -328.33
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 4118.4,
+                            "y": 39.54
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "x": 0.451,
+                            "y": 0.451
+                        }
+                    ]
+                },
+                "wuqi_suilie6": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 0.2,
+                            "value": -67.67
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -95.15
+                        },
+                        {
+                            "time": 0.4,
+                            "value": -107.59
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": -90.95
+                        }
+                    ],
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.2,
+                            "x": -61.43,
+                            "y": -2629.02
+                        },
+                        {
+                            "time": 0.3,
+                            "x": 323.84,
+                            "y": -2760.98
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 494.24,
+                            "y": -3136.92
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 630.46,
+                            "y": -3242.56
+                        }
+                    ]
+                },
+                "wuqi_suilie5": {
+                    "rotate": [
+                        {
+                            "time": 0.2
+                        },
+                        {
+                            "time": 0.3,
+                            "value": 23.94
+                        },
+                        {
+                            "time": 0.4,
+                            "value": 10.21
+                        }
+                    ],
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.2,
+                            "x": -2098.95,
+                            "y": -1101.55
+                        },
+                        {
+                            "time": 0.3,
+                            "x": -2180.29,
+                            "y": -632
+                        },
+                        {
+                            "time": 0.4,
+                            "x": -2741.52,
+                            "y": -594.56
+                        }
+                    ]
+                },
+                "wuqi_suilie4": {
+                    "rotate": [
+                        {
+                            "time": 0.3
+                        },
+                        {
+                            "time": 0.4,
+                            "value": 31.91
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": 50.24
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0.1333
+                        },
+                        {
+                            "time": 0.3,
+                            "x": -1128.87,
+                            "y": -1356.93
+                        },
+                        {
+                            "time": 0.4,
+                            "x": -1089.36,
+                            "y": -1305.98
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": -1292.12,
+                            "y": -1438.84
+                        }
+                    ]
+                },
+                "wuqi_suilie3": {
+                    "rotate": [
+                        {
+                            "time": 0.2
+                        },
+                        {
+                            "time": 0.3,
+                            "value": -29.71
+                        },
+                        {
+                            "time": 0.4,
+                            "value": 30.15
+                        },
+                        {
+                            "time": 0.5,
+                            "value": 66.07
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 23.19
+                        },
+                        {
+                            "time": 0.6,
+                            "value": 38.05
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0.2
+                        },
+                        {
+                            "time": 0.3,
+                            "x": -1459.39,
+                            "y": -1779.19
+                        },
+                        {
+                            "time": 0.4,
+                            "x": -1184.08,
+                            "y": -1412.48
+                        },
+                        {
+                            "time": 0.5,
+                            "x": -1671.39,
+                            "y": -2040.87
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": -1579.19,
+                            "y": -1921.99
+                        },
+                        {
+                            "time": 0.6,
+                            "x": -1667,
+                            "y": -2035.21
+                        }
+                    ]
+                },
+                "wuqi_suilie2": {
+                    "rotate": [
+                        {
+                            "time": 0.1333
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": 110.11
+                        },
+                        {
+                            "time": 0.4667,
+                            "value": 211.19
+                        },
+                        {
+                            "time": 0.5667,
+                            "value": 235.59
+                        },
+                        {
+                            "time": 0.6333,
+                            "value": 266.09
+                        },
+                        {
+                            "time": 0.7,
+                            "value": 239.16
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0.1333
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": -817.72,
+                            "y": 671.98
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": -3744.6,
+                            "y": -1126.99
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": -3845,
+                            "y": -777.16
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": -4213.78,
+                            "y": -808.48
+                        },
+                        {
+                            "time": 0.7,
+                            "x": -4271.21,
+                            "y": -637.03
+                        },
+                        {
+                            "time": 0.7333,
+                            "x": -4436.42,
+                            "y": -663.02
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

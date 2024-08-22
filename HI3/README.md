@@ -19,3 +19,4 @@ google: ```site:act.hoyoverse.com/bh3/event OR site:webstatic-sea.hoyoverse.com/
 - https://act.hoyoverse.com/bh3/event/e20240405shop-k3g7zq/index.html
 - https://act.hoyoverse.com/bh3/event/e20240426play-i2k5ue/index.html
 - https://act.hoyoverse.com/bh3/event/e20240617songque-7vyeoo/index.html
+- https://act.hoyoverse.com/bh3/event/e20240718bet-nruuba/index.html
