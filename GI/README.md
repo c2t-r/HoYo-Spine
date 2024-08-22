@@ -34,6 +34,7 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - 4.6 https://act.hoyoverse.com/ys/event/e20240413preview-pvtga2/index.html
 - 4.7 https://act.hoyoverse.com/ys/event/e20240525preview-d6s2mc/index.html
 - 4.8 https://act.hoyoverse.com/ys/event/e20240706preview-5y4ic7/index.html
+- 5.0 https://act.hoyoverse.com/ys/event/e20240817preview-6y2ic4/index.html
 
 ## Characters
 - https://webstatic-sea.mihoyo.com/ys/event/e20210624-boat/index.html <Kazuha>
@@ -147,6 +148,7 @@ https://genshin.hoyoverse.com/en/
 - https://act.hoyoverse.com/ys/event/e20240506jigsaw-ih4e10/index.html
 - https://act.hoyoverse.com/ys/event/e20240710perfume-f65h6y/index.html
 - https://act.hoyoverse.com/ys/event/e20240816natlan-iseatr/index.html
+- https://act.hoyoverse.com/ys/event/e20240822new-w0suak/index.html
 
 ## hoyofest
 - 2023 https://act.hoyoverse.com/ys/event/hoyofest2023-xrdqyw/index.html
