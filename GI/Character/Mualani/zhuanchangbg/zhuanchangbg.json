@@ -1,0 +1,337 @@
+{
+    "skeleton": {
+        "hash": "FWamT4yv3XE",
+        "spine": "4.2.35",
+        "x": -171.22,
+        "y": -124.58,
+        "width": 882,
+        "height": 257,
+        "images": "./zhuanchangbg_images/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": 272.78,
+            "y": 3.92
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "x": -1430.58
+        }
+    ],
+    "slots": [
+        {
+            "name": "bone",
+            "bone": "root",
+            "attachment": "bone"
+        },
+        {
+            "name": "猴面包树8",
+            "bone": "bone",
+            "attachment": "猴面包树8"
+        },
+        {
+            "name": "猴面包树9",
+            "bone": "bone2",
+            "attachment": "猴面包树8"
+        },
+        {
+            "name": "石头1",
+            "bone": "bone",
+            "attachment": "石头1"
+        },
+        {
+            "name": "石头2",
+            "bone": "bone2",
+            "attachment": "石头1"
+        },
+        {
+            "name": "栅栏2",
+            "bone": "bone",
+            "attachment": "栅栏2"
+        },
+        {
+            "name": "栅栏3",
+            "bone": "bone2",
+            "attachment": "栅栏2"
+        },
+        {
+            "name": "灌木33",
+            "bone": "bone",
+            "attachment": "灌木33"
+        },
+        {
+            "name": "灌木34",
+            "bone": "bone2",
+            "attachment": "灌木33"
+        },
+        {
+            "name": "火盆1",
+            "bone": "bone",
+            "attachment": "火盆1"
+        },
+        {
+            "name": "火盆2",
+            "bone": "bone2",
+            "attachment": "火盆1"
+        },
+        {
+            "name": "石块2",
+            "bone": "bone",
+            "attachment": "石块2"
+        },
+        {
+            "name": "石块3",
+            "bone": "bone2",
+            "attachment": "石块2"
+        },
+        {
+            "name": "灯2",
+            "bone": "bone",
+            "attachment": "灯2"
+        },
+        {
+            "name": "灯3",
+            "bone": "bone2",
+            "attachment": "灯2"
+        },
+        {
+            "name": "树3",
+            "bone": "bone",
+            "attachment": "树3"
+        },
+        {
+            "name": "树4",
+            "bone": "bone2",
+            "attachment": "树3"
+        },
+        {
+            "name": "灌木3",
+            "bone": "bone",
+            "attachment": "灌木3"
+        },
+        {
+            "name": "灌木4",
+            "bone": "bone2",
+            "attachment": "灌木3"
+        },
+        {
+            "name": "灌木1",
+            "bone": "bone",
+            "attachment": "灌木1"
+        },
+        {
+            "name": "灌木2",
+            "bone": "bone2",
+            "attachment": "灌木1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bone": {
+                    "bone": {
+                        "type": "clipping",
+                        "end": "bone",
+                        "vertexCount": 4,
+                        "vertices": [
+                            716.78,
+                            -124.58,
+                            -171.22,
+                            -124.58,
+                            -171.22,
+                            132.42,
+                            716.78,
+                            132.42
+                        ],
+                        "color": "ce3a3aff"
+                    }
+                },
+                "栅栏2": {
+                    "栅栏2": {
+                        "x": 113,
+                        "y": -88,
+                        "width": 328,
+                        "height": 111
+                    }
+                },
+                "栅栏3": {
+                    "栅栏2": {
+                        "x": 113,
+                        "y": -88,
+                        "width": 328,
+                        "height": 111
+                    }
+                },
+                "树3": {
+                    "树3": {
+                        "x": -455,
+                        "y": -3,
+                        "width": 526,
+                        "height": 273
+                    }
+                },
+                "树4": {
+                    "树3": {
+                        "x": -455,
+                        "y": -3,
+                        "width": 526,
+                        "height": 273
+                    }
+                },
+                "灌木1": {
+                    "灌木1": {
+                        "x": -113.5,
+                        "y": -100,
+                        "width": 149,
+                        "height": 71
+                    }
+                },
+                "灌木2": {
+                    "灌木1": {
+                        "x": -113.5,
+                        "y": -100,
+                        "width": 149,
+                        "height": 71
+                    }
+                },
+                "灌木3": {
+                    "灌木3": {
+                        "x": 361,
+                        "y": -101.5,
+                        "width": 154,
+                        "height": 68
+                    }
+                },
+                "灌木4": {
+                    "灌木3": {
+                        "x": 361,
+                        "y": -101.5,
+                        "width": 154,
+                        "height": 68
+                    }
+                },
+                "灌木33": {
+                    "灌木33": {
+                        "x": 565.5,
+                        "y": -95.5,
+                        "width": 93,
+                        "height": 72
+                    }
+                },
+                "灌木34": {
+                    "灌木33": {
+                        "x": 565.5,
+                        "y": -95.5,
+                        "width": 93,
+                        "height": 72
+                    }
+                },
+                "火盆1": {
+                    "火盆1": {
+                        "x": 489,
+                        "y": -63,
+                        "width": 84,
+                        "height": 141
+                    }
+                },
+                "火盆2": {
+                    "火盆1": {
+                        "x": 489,
+                        "y": -63,
+                        "width": 84,
+                        "height": 141
+                    }
+                },
+                "灯2": {
+                    "灯2": {
+                        "x": -568,
+                        "y": -93.5,
+                        "width": 52,
+                        "height": 82
+                    }
+                },
+                "灯3": {
+                    "灯2": {
+                        "x": -568,
+                        "y": -93.5,
+                        "width": 52,
+                        "height": 82
+                    }
+                },
+                "猴面包树8": {
+                    "猴面包树8": {
+                        "x": 270,
+                        "y": 4,
+                        "width": 210,
+                        "height": 279
+                    }
+                },
+                "猴面包树9": {
+                    "猴面包树8": {
+                        "x": 270,
+                        "y": 4,
+                        "width": 210,
+                        "height": 279
+                    }
+                },
+                "石块2": {
+                    "石块2": {
+                        "x": 634.5,
+                        "y": -114.5,
+                        "width": 193,
+                        "height": 58
+                    }
+                },
+                "石块3": {
+                    "石块2": {
+                        "x": 634.5,
+                        "y": -114.5,
+                        "width": 193,
+                        "height": 58
+                    }
+                },
+                "石头1": {
+                    "石头1": {
+                        "x": -666,
+                        "y": -104,
+                        "width": 130,
+                        "height": 63
+                    }
+                },
+                "石头2": {
+                    "石头1": {
+                        "x": -666,
+                        "y": -104,
+                        "width": 130,
+                        "height": 63
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "run": {
+            "bones": {
+                "bone": {
+                    "translate": [
+                        {
+                            "x": 1431.95
+                        },
+                        {
+                            "time": 6
+                        }
+                    ]
+                }
+            }
+        },
+        "stop": {}
+    }
+}

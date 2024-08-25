@@ -1,0 +1,249 @@
+{
+    "skeleton": {
+        "hash": "fWJ95SHquDc",
+        "spine": "4.2.33",
+        "x": -495,
+        "y": -12,
+        "width": 990,
+        "height": 24
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bar_move",
+            "parent": "root"
+        },
+        {
+            "name": "图层 2",
+            "parent": "bar_move"
+        },
+        {
+            "name": "图层 1",
+            "parent": "bar_move",
+            "x": -697
+        },
+        {
+            "name": "图层 3",
+            "parent": "bar_move",
+            "x": 697
+        },
+        {
+            "name": "图层 5",
+            "parent": "bar_move",
+            "x": -1394
+        },
+        {
+            "name": "bar",
+            "parent": "root",
+            "x": 491.89,
+            "y": 0.9
+        }
+    ],
+    "slots": [
+        {
+            "name": "bg",
+            "bone": "root",
+            "attachment": "bg"
+        },
+        {
+            "name": "bar_mask",
+            "bone": "root",
+            "attachment": "bar_mask"
+        },
+        {
+            "name": "图层 1",
+            "bone": "图层 1",
+            "attachment": "图层 1"
+        },
+        {
+            "name": "图层 2",
+            "bone": "图层 2",
+            "attachment": "图层 1"
+        },
+        {
+            "name": "图层 4",
+            "bone": "图层 5",
+            "attachment": "图层 1"
+        },
+        {
+            "name": "图层 3",
+            "bone": "图层 3",
+            "attachment": "图层 1"
+        },
+        {
+            "name": "kuang",
+            "bone": "root",
+            "attachment": "kuang"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bar_mask": {
+                    "bar_mask": {
+                        "type": "clipping",
+                        "end": "图层 3",
+                        "vertexCount": 14,
+                        "vertices": [
+                            1,
+                            0,
+                            -492.01,
+                            -0.04,
+                            1,
+                            1,
+                            0,
+                            -491.8,
+                            4.24,
+                            1,
+                            1,
+                            0,
+                            -489.83,
+                            7.23,
+                            1,
+                            1,
+                            0,
+                            -486.78,
+                            9.2,
+                            1,
+                            1,
+                            6,
+                            -5.42,
+                            8.29,
+                            1,
+                            1,
+                            6,
+                            -2.27,
+                            6.75,
+                            1,
+                            1,
+                            6,
+                            0.26,
+                            3.54,
+                            1,
+                            1,
+                            6,
+                            0.51,
+                            -1,
+                            1,
+                            1,
+                            6,
+                            0.23,
+                            -5.18,
+                            1,
+                            1,
+                            6,
+                            -1.83,
+                            -7.95,
+                            1,
+                            1,
+                            6,
+                            -5.75,
+                            -9.79,
+                            1,
+                            1,
+                            0,
+                            -486.5,
+                            -8.8,
+                            1,
+                            1,
+                            0,
+                            -489.36,
+                            -7.31,
+                            1,
+                            1,
+                            0,
+                            -491.73,
+                            -3.78,
+                            1
+                        ]
+                    }
+                },
+                "bg": {
+                    "bg": {
+                        "width": 984,
+                        "height": 18
+                    }
+                },
+                "kuang": {
+                    "kuang": {
+                        "width": 990,
+                        "height": 24
+                    }
+                },
+                "图层 1": {
+                    "图层 1": {
+                        "width": 697,
+                        "height": 17
+                    }
+                },
+                "图层 2": {
+                    "图层 1": {
+                        "width": 697,
+                        "height": 17
+                    }
+                },
+                "图层 3": {
+                    "图层 1": {
+                        "width": 697,
+                        "height": 17
+                    }
+                },
+                "图层 4": {
+                    "图层 1": {
+                        "width": 697,
+                        "height": 17
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "0_100": {
+            "bones": {
+                "bar": {
+                    "translate": [
+                        {
+                            "x": -970.8
+                        },
+                        {
+                            "time": 3.3333
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "bar_move": {
+            "rootBoneName": "bar_move",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "0_100": {
+                    "name": "default",
+                    "mode": 6,
+                    "delay": 0.1,
+                    "xFrames": [
+                        {
+                            "value": 1,
+                            "start": 0
+                        },
+                        {
+                            "value": 697,
+                            "start": 3
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

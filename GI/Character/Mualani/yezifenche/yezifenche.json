@@ -1,0 +1,60 @@
+{
+    "skeleton": {
+        "hash": "Nw3uC6EUGlA",
+        "spine": "4.2.35",
+        "x": -138.5,
+        "y": -136,
+        "width": 277,
+        "height": 272,
+        "images": "./yezi_images/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "图层 1",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "图层 1",
+            "bone": "图层 1",
+            "attachment": "图层 1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "图层 1": {
+                    "图层 1": {
+                        "width": 277,
+                        "height": 272
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "图层 1": {
+            "rootBoneName": "图层 1",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "rotateSpeed": -0.25
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

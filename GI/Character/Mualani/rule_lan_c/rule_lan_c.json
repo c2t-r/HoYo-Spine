@@ -1,0 +1,253 @@
+{
+    "skeleton": {
+        "hash": "rZsttzyKV4o",
+        "spine": "4.2.33",
+        "x": -309,
+        "y": -180,
+        "width": 618,
+        "height": 360
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "rule_lan_a",
+            "parent": "root",
+            "x": 118.21,
+            "y": 51.68
+        },
+        {
+            "name": "bone",
+            "parent": "rule_lan_a",
+            "length": 170.27,
+            "rotation": -28.46,
+            "x": -309.18,
+            "y": 74.15
+        },
+        {
+            "name": "bone2",
+            "parent": "bone",
+            "length": 208.35,
+            "rotation": 6.37,
+            "x": 170.27
+        },
+        {
+            "name": "bone3",
+            "parent": "bone2",
+            "length": 172.51,
+            "rotation": -0.32,
+            "x": 208.35
+        }
+    ],
+    "slots": [
+        {
+            "name": "rule_lan_a",
+            "bone": "rule_lan_a",
+            "attachment": "rule_lan_c"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "rule_lan_a": {
+                    "rule_lan_c": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.36529,
+                            0,
+                            0.06647,
+                            0,
+                            0,
+                            0.07276,
+                            0,
+                            0.31759,
+                            0.17287,
+                            0.5663,
+                            0.43999,
+                            0.78393,
+                            0.73655,
+                            0.94715,
+                            1,
+                            1,
+                            1,
+                            0.28262,
+                            0.78182,
+                            0.23598,
+                            0.53281,
+                            0.09219
+                        ],
+                        "triangles": [
+                            4,
+                            0,
+                            5,
+                            3,
+                            1,
+                            4,
+                            4,
+                            1,
+                            0,
+                            3,
+                            2,
+                            1,
+                            6,
+                            5,
+                            9,
+                            5,
+                            10,
+                            9,
+                            5,
+                            0,
+                            10,
+                            6,
+                            8,
+                            7,
+                            6,
+                            9,
+                            8
+                        ],
+                        "vertices": [
+                            2,
+                            3,
+                            -89.77,
+                            109.61,
+                            0.16754,
+                            2,
+                            68.89,
+                            98.96,
+                            0.83246,
+                            1,
+                            2,
+                            -93.46,
+                            10.96,
+                            1,
+                            1,
+                            2,
+                            -117.09,
+                            -31.64,
+                            1,
+                            1,
+                            2,
+                            -75.09,
+                            -109.13,
+                            1,
+                            2,
+                            3,
+                            -123.3,
+                            -124.02,
+                            0.01321,
+                            2,
+                            61.5,
+                            -136.94,
+                            0.98679,
+                            3,
+                            4,
+                            -148.48,
+                            -135.37,
+                            0.03085,
+                            3,
+                            59.12,
+                            -134.54,
+                            0.77629,
+                            2,
+                            243.97,
+                            -127.14,
+                            0.19286,
+                            2,
+                            4,
+                            43.35,
+                            -119.83,
+                            0.86198,
+                            3,
+                            251.04,
+                            -120.07,
+                            0.13802,
+                            1,
+                            4,
+                            201.13,
+                            -75.37,
+                            1,
+                            2,
+                            4,
+                            102.69,
+                            163.4,
+                            0.91418,
+                            3,
+                            311.95,
+                            162.82,
+                            0.08582,
+                            2,
+                            4,
+                            -28.36,
+                            127.53,
+                            0.30176,
+                            3,
+                            180.7,
+                            127.68,
+                            0.69824,
+                            2,
+                            3,
+                            18.64,
+                            117.78,
+                            0.82509,
+                            2,
+                            175.72,
+                            119.12,
+                            0.17491
+                        ],
+                        "hull": 11
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 1,
+                    "rotateCenter": 0,
+                    "rotateTime": 5,
+                    "rotateRange": 3,
+                    "rotateOffset": 0,
+                    "childOffset": 1,
+                    "spring": 0,
+                    "affectByLevel": 0.1,
+                    "springLevel": 0
+                }
+            }
+        },
+        "rule_lan_a": {
+            "rootBoneName": "rule_lan_a",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveYFreq": 5,
+                    "moveYAmp": 20,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
