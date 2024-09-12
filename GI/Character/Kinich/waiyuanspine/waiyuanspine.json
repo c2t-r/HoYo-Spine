@@ -1,0 +1,57 @@
+{
+    "skeleton": {
+        "hash": "J1/hbtXuLsE",
+        "spine": "4.2.36",
+        "x": -363.5,
+        "y": -336.5,
+        "width": 727,
+        "height": 673,
+        "images": "./waiyuan/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "waiquan1",
+            "parent": "root",
+            "y": 4.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "waiquanyy1",
+            "bone": "root",
+            "attachment": "waiquanyy1"
+        },
+        {
+            "name": "waiquan1",
+            "bone": "waiquan1",
+            "attachment": "waiquan1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "waiquan1": {
+                    "waiquan1": {
+                        "width": 727,
+                        "height": 664
+                    }
+                },
+                "waiquanyy1": {
+                    "waiquanyy1": {
+                        "y": -4.5,
+                        "width": 727,
+                        "height": 664
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

@@ -1,0 +1,1429 @@
+{
+    "skeleton": {
+        "hash": "DuCuGJJwWTA",
+        "spine": "4.2.35",
+        "x": -3738.49,
+        "y": -93,
+        "width": 5012.49,
+        "height": 186,
+        "images": "./dibu/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "底部纹理",
+            "parent": "root",
+            "y": -29.5
+        },
+        {
+            "name": "阿乔",
+            "parent": "root",
+            "x": 273,
+            "y": 37.5
+        },
+        {
+            "name": "caise",
+            "parent": "阿乔",
+            "x": -1258.56,
+            "y": -9.5
+        },
+        {
+            "name": "底部纹理2",
+            "parent": "底部纹理",
+            "x": -2493.49
+        },
+        {
+            "name": "阿乔2",
+            "parent": "阿乔",
+            "x": 0.88,
+            "y": -25.99
+        },
+        {
+            "name": "图层 10",
+            "parent": "root",
+            "x": 579.5,
+            "y": -30
+        },
+        {
+            "name": "图层 9",
+            "parent": "root",
+            "x": 613.5,
+            "y": -30
+        },
+        {
+            "name": "图层 8",
+            "parent": "root",
+            "x": 649.5,
+            "y": -30
+        },
+        {
+            "name": "图层 7",
+            "parent": "root",
+            "x": 685,
+            "y": -30
+        },
+        {
+            "name": "图层 6",
+            "parent": "root",
+            "x": 721.5,
+            "y": -30
+        },
+        {
+            "name": "图层 5",
+            "parent": "root",
+            "x": 758.5,
+            "y": -30
+        },
+        {
+            "name": "图层 4",
+            "parent": "root",
+            "x": 794,
+            "y": -30
+        },
+        {
+            "name": "图层 3",
+            "parent": "root",
+            "x": 829.5,
+            "y": -39.5
+        },
+        {
+            "name": "图层 2",
+            "parent": "root",
+            "x": 865.5,
+            "y": -39.5
+        },
+        {
+            "name": "图层 1",
+            "parent": "root",
+            "x": 902.5,
+            "y": -39.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "底图",
+            "bone": "root",
+            "attachment": "底图"
+        },
+        {
+            "name": "底部纹理",
+            "bone": "底部纹理",
+            "attachment": "底部纹理"
+        },
+        {
+            "name": "底部纹理2",
+            "bone": "底部纹理2",
+            "attachment": "底部纹理"
+        },
+        {
+            "name": "图层 1",
+            "bone": "图层 1",
+            "attachment": "图层 1"
+        },
+        {
+            "name": "图层 2",
+            "bone": "图层 2",
+            "attachment": "图层 2"
+        },
+        {
+            "name": "图层 3",
+            "bone": "图层 3",
+            "attachment": "图层 3"
+        },
+        {
+            "name": "图层 4",
+            "bone": "图层 4",
+            "attachment": "图层 4"
+        },
+        {
+            "name": "图层 5",
+            "bone": "图层 5",
+            "attachment": "图层 5"
+        },
+        {
+            "name": "图层 6",
+            "bone": "图层 6",
+            "attachment": "图层 6"
+        },
+        {
+            "name": "图层 7",
+            "bone": "图层 7",
+            "attachment": "图层 7"
+        },
+        {
+            "name": "图层 8",
+            "bone": "图层 8",
+            "attachment": "图层 8"
+        },
+        {
+            "name": "图层 9",
+            "bone": "图层 9",
+            "attachment": "图层 9"
+        },
+        {
+            "name": "图层 10",
+            "bone": "图层 10",
+            "attachment": "图层 10"
+        },
+        {
+            "name": "jindutiaodi",
+            "bone": "root",
+            "attachment": "jindutiaodi"
+        },
+        {
+            "name": "caise",
+            "bone": "caise",
+            "attachment": "caise"
+        },
+        {
+            "name": "ggeshan",
+            "bone": "root",
+            "attachment": "ggeshan"
+        },
+        {
+            "name": "阿乔",
+            "bone": "阿乔2",
+            "attachment": "阿乔"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "caise": {
+                    "caise": {
+                        "width": 2520,
+                        "height": 48
+                    }
+                },
+                "ggeshan": {
+                    "ggeshan": {
+                        "x": 6,
+                        "y": 28,
+                        "width": 2520,
+                        "height": 48
+                    }
+                },
+                "jindutiaodi": {
+                    "jindutiaodi": {
+                        "x": -26,
+                        "y": 28,
+                        "width": 2600,
+                        "height": 48
+                    }
+                },
+                "图层 1": {
+                    "图层 1": {
+                        "width": 41,
+                        "height": 39
+                    }
+                },
+                "图层 2": {
+                    "图层 2": {
+                        "width": 41,
+                        "height": 39
+                    }
+                },
+                "图层 3": {
+                    "图层 3": {
+                        "width": 41,
+                        "height": 39
+                    }
+                },
+                "图层 4": {
+                    "图层 4": {
+                        "width": 56,
+                        "height": 58
+                    }
+                },
+                "图层 5": {
+                    "图层 5": {
+                        "width": 59,
+                        "height": 58
+                    }
+                },
+                "图层 6": {
+                    "图层 6": {
+                        "width": 47,
+                        "height": 58
+                    }
+                },
+                "图层 7": {
+                    "图层 7": {
+                        "width": 58,
+                        "height": 58
+                    }
+                },
+                "图层 8": {
+                    "图层 8": {
+                        "width": 57,
+                        "height": 58
+                    }
+                },
+                "图层 9": {
+                    "图层 9": {
+                        "width": 59,
+                        "height": 58
+                    }
+                },
+                "图层 10": {
+                    "图层 10": {
+                        "width": 57,
+                        "height": 58
+                    }
+                },
+                "底图": {
+                    "底图": {
+                        "x": -26,
+                        "y": -20.5,
+                        "width": 2600,
+                        "height": 145
+                    }
+                },
+                "底部纹理": {
+                    "底部纹理": {
+                        "y": -1.86,
+                        "width": 2490,
+                        "height": 101
+                    }
+                },
+                "底部纹理2": {
+                    "底部纹理": {
+                        "y": -1.86,
+                        "width": 2490,
+                        "height": 101
+                    }
+                },
+                "阿乔": {
+                    "阿乔": {
+                        "x": -0.88,
+                        "y": 25.99,
+                        "width": 128,
+                        "height": 111
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "aq": {
+            "bones": {
+                "阿乔2": {
+                    "rotate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 7.96,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 15.91,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "value": 2.68,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -10.56,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "value": -5.28,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "di": {
+            "bones": {
+                "底部纹理": {
+                    "translate": [
+                        {
+                            "x": 2496.68,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": 2444.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 2392.65,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 2340.63,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 2288.62,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 2236.6,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "x": 2184.59,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1667,
+                            "x": 2132.58,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 2080.56,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5,
+                            "x": 2028.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6667,
+                            "x": 1976.53,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.8333,
+                            "x": 1924.52,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1872.51,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.1667,
+                            "x": 1820.49,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1768.48,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5,
+                            "x": 1716.46,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "x": 1664.45,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8333,
+                            "x": 1612.44,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "x": 1560.42,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1667,
+                            "x": 1508.41,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.3333,
+                            "x": 1456.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.5,
+                            "x": 1404.38,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.6667,
+                            "x": 1352.37,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.8333,
+                            "x": 1300.35,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1248.34,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.1667,
+                            "x": 1196.32,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.3333,
+                            "x": 1144.31,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.5,
+                            "x": 1092.3,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.6667,
+                            "x": 1040.28,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4.8333,
+                            "x": 988.27,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5,
+                            "x": 936.25,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.1667,
+                            "x": 884.24,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.3333,
+                            "x": 832.23,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.5,
+                            "x": 780.21,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.6667,
+                            "x": 728.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 5.8333,
+                            "x": 676.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6,
+                            "x": 624.17,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.1667,
+                            "x": 572.15,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.3333,
+                            "x": 520.14,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.5,
+                            "x": 468.13,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.6667,
+                            "x": 416.11,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 6.8333,
+                            "x": 364.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7,
+                            "x": 312.08,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.1667,
+                            "x": 260.07,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.3333,
+                            "x": 208.06,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.5,
+                            "x": 156.04,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.6667,
+                            "x": 104.03,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 7.8333,
+                            "x": 52.01,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 8
+                        }
+                    ]
+                }
+            }
+        },
+        "loading": {
+            "bones": {
+                "图层 10": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "y": 1.97,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": 3.67,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "y": 2.88,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "y": -2.47,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": -3.28,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "y": -1.81,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667
+                        }
+                    ]
+                },
+                "图层 9": {
+                    "translate": [
+                        {
+                            "y": -1.48,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": 2.47,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "y": 3.99,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "y": 1.28,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": -2.68,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "y": -3.24,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "y": -1.48
+                        }
+                    ]
+                },
+                "图层 8": {
+                    "translate": [
+                        {
+                            "y": -2.9,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "y": -0.96,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": 0.95,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "y": 2.93,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "y": 3.99,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": 0.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "y": -3.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "y": -2.9
+                        }
+                    ]
+                },
+                "图层 7": {
+                    "translate": [
+                        {
+                            "y": -3.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "y": -2.64,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": -0.9,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "y": 1.1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "y": 3.58,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": 3.13,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "y": -0.85,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "y": -3.55
+                        }
+                    ]
+                },
+                "图层 6": {
+                    "translate": [
+                        {
+                            "y": -1.58,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "y": -3.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": -2.24,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "y": 1.97,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": 3.67,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "y": 3.03,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "y": -1.58
+                        }
+                    ]
+                },
+                "图层 5": {
+                    "translate": [
+                        {
+                            "y": 2.02,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "y": -2.59,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": -3.28,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "y": -1.81,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": 2.47,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "y": 3.99,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "y": 2.02
+                        }
+                    ]
+                },
+                "图层 4": {
+                    "translate": [
+                        {
+                            "y": 3.99,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "y": 1.28,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": -2.68,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "y": -3.19,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "y": -1.03,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": 0.95,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "y": 2.93,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "y": 3.99
+                        }
+                    ]
+                },
+                "图层 3": {
+                    "translate": [
+                        {
+                            "y": 3.23,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "y": 3.99,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": 0.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "y": -3.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "y": -2.64,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": -0.9,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "y": 1.01,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "y": 3.23
+                        }
+                    ]
+                },
+                "图层 2": {
+                    "translate": [
+                        {
+                            "y": 1.59,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "y": 3.63,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": 3.13,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "y": -0.85,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "y": -3.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": -2.24,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "y": 1.59
+                        }
+                    ]
+                },
+                "图层 1": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "y": 1.97,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "y": 3.67,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "y": 2.88,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "y": -2.47,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": -3.28,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "y": -1.81,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667
+                        }
+                    ]
+                }
+            }
+        },
+        "loading0-100": {
+            "bones": {
+                "阿乔": {
+                    "translate": [
+                        {
+                            "x": -1498.38,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "x": -1467.69,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": -1437,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1,
+                            "x": -1406.32,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": -1375.63,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": -1344.94,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": -1314.25,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": -1283.57,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": -1252.88,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "x": -1222.19,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": -1191.5,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "x": -1160.82,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "x": -1130.13,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": -1099.44,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": -1068.76,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5,
+                            "x": -1038.07,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": -1007.38,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": -976.69,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "x": -946.01,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": -915.32,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": -884.63,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7,
+                            "x": -853.94,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7333,
+                            "x": -823.26,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.7667,
+                            "x": -792.57,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8,
+                            "x": -761.88,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": -731.19,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8667,
+                            "x": -700.51,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9,
+                            "x": -669.82,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9333,
+                            "x": -639.13,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.9667,
+                            "x": -608.44,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "x": -577.76,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0333,
+                            "x": -547.07,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.0667,
+                            "x": -516.38,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1,
+                            "x": -485.7,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1333,
+                            "x": -455.01,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1667,
+                            "x": -424.32,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2,
+                            "x": -393.63,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2333,
+                            "x": -362.95,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.2667,
+                            "x": -332.26,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3,
+                            "x": -301.57,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": -270.88,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3667,
+                            "x": -240.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4,
+                            "x": -209.51,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4333,
+                            "x": -178.82,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.4667,
+                            "x": -148.13,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5,
+                            "x": -117.45,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5333,
+                            "x": -86.76,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5667,
+                            "x": -56.07,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6,
+                            "x": -25.39,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6333,
+                            "x": 5.3,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6667,
+                            "x": 35.99,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7,
+                            "x": 66.68,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7333,
+                            "x": 97.36,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7667,
+                            "x": 128.05,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.8,
+                            "x": 158.74,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.8333,
+                            "x": 189.43,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.8667,
+                            "x": 220.11,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9,
+                            "x": 250.8,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9333,
+                            "x": 281.49,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9667,
+                            "x": 312.18,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 342.86,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.0333,
+                            "x": 373.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.0667,
+                            "x": 404.24,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.1,
+                            "x": 434.93,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.1333,
+                            "x": 465.61,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.1667,
+                            "x": 496.3,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.2,
+                            "x": 526.99,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.2333,
+                            "x": 557.67,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.2667,
+                            "x": 588.36,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3,
+                            "x": 619.05,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 649.74,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3667,
+                            "x": 680.42,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.4,
+                            "x": 711.11,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.4333,
+                            "x": 741.8,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.4667,
+                            "x": 772.49,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5,
+                            "x": 803.17,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5333,
+                            "x": 833.86,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.5667,
+                            "x": 864.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6,
+                            "x": 895.24,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6333,
+                            "x": 925.92,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6667,
+                            "x": 956.61
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

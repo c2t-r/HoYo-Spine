@@ -1,0 +1,160 @@
+{
+    "skeleton": {
+        "hash": "M8FyvxWIvao",
+        "spine": "4.2.35",
+        "x": -349.53,
+        "y": -327.2,
+        "width": 699.06,
+        "height": 695.1,
+        "images": "./deng_images/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "y": 20.35,
+            "scaleX": 0.494,
+            "scaleY": 0.494
+        },
+        {
+            "name": "图层 591 副本",
+            "parent": "bone",
+            "x": -7.5,
+            "y": -10
+        },
+        {
+            "name": "图层 628",
+            "parent": "bone"
+        },
+        {
+            "name": "图层 592",
+            "parent": "bone",
+            "x": -7.5,
+            "y": -10
+        },
+        {
+            "name": "图层 592 拷贝",
+            "parent": "图层 592"
+        }
+    ],
+    "slots": [
+        {
+            "name": "图层 628",
+            "bone": "图层 628",
+            "attachment": "图层 628"
+        },
+        {
+            "name": "图层 591 副本",
+            "bone": "图层 591 副本",
+            "attachment": "图层 591 副本"
+        },
+        {
+            "name": "图层 592",
+            "bone": "图层 592",
+            "attachment": "图层 592"
+        },
+        {
+            "name": "图层 592 拷贝",
+            "bone": "图层 592 拷贝",
+            "attachment": "图层 592 拷贝"
+        },
+        {
+            "name": "灯",
+            "bone": "bone",
+            "attachment": "灯"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "图层 591 副本": {
+                    "图层 591 副本": {
+                        "width": 860,
+                        "height": 875
+                    }
+                },
+                "图层 592": {
+                    "图层 592": {
+                        "width": 590,
+                        "height": 575
+                    }
+                },
+                "图层 592 拷贝": {
+                    "图层 592 拷贝": {
+                        "width": 590,
+                        "height": 575
+                    }
+                },
+                "图层 628": {
+                    "图层 628": {
+                        "width": 1415,
+                        "height": 1407
+                    }
+                },
+                "灯": {
+                    "灯": {
+                        "y": 50,
+                        "width": 305,
+                        "height": 455
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "图层 591 副本": {
+            "rootBoneName": "图层 591 副本",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.3,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0.8,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "图层 628": {
+            "rootBoneName": "图层 628",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.3,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": -5.15,
+                    "scaleXCenter": 0
+                }
+            }
+        },
+        "图层 592": {
+            "rootBoneName": "图层 592",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "scaleXFreq": 0.3,
+                    "scaleXAmp": 0.02,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 2.79,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
