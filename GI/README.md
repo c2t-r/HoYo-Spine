@@ -152,6 +152,7 @@ https://genshin.hoyoverse.com/en/
 - https://act.hoyoverse.com/ys/event/e20240710perfume-f65h6y/index.html
 - https://act.hoyoverse.com/ys/event/e20240816natlan-iseatr/index.html
 - https://act.hoyoverse.com/ys/event/e20240822new-w0suak/index.html
+- https://act.hoyoverse.com/ys/event/20240927gift-delivery-xmyq9b/index.html
 
 ## hoyofest
 - 2023 https://act.hoyoverse.com/ys/event/hoyofest2023-xrdqyw/index.html
