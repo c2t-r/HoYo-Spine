@@ -67,6 +67,7 @@ google: ```site:act.hoyoverse.com/ys/event OR site:webstatic-sea.hoyoverse.com/y
 - https://act.hoyoverse.com/ys/event/e20240801emilie-kryavl/index.html <Emilie>
 - https://act.hoyoverse.com/ys/event/e20240823mualani-1889o1/index.html <Mualani>
 - https://act.hoyoverse.com/ys/event/e20240912kinich-c8eubx/index.html <Kinich>
+- https://act.hoyoverse.com/ys/event/e20241004xilonen-aevsua/index.html <Xilonen>
 
 ## Home
 https://genshin.hoyoverse.com/en/

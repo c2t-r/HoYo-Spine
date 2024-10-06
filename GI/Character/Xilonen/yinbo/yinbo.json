@@ -1,0 +1,190 @@
+{
+    "skeleton": {
+        "hash": "nCa/vdMGmLA",
+        "spine": "4.2.36",
+        "x": -747.5,
+        "y": -143,
+        "width": 1495,
+        "height": 286,
+        "images": "./yinbo_images/",
+        "audio": "./audio"
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "root",
+            "bone": "root",
+            "attachment": "root"
+        },
+        {
+            "name": "图层 1",
+            "bone": "root",
+            "attachment": "图层 1"
+        },
+        {
+            "name": "root2",
+            "bone": "root",
+            "attachment": "root2"
+        },
+        {
+            "name": "图层 2",
+            "bone": "root",
+            "attachment": "图层 1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "root": {
+                    "root": {
+                        "type": "clipping",
+                        "end": "图层 1",
+                        "vertexCount": 4,
+                        "vertices": [
+                            -1325.62,
+                            190.65,
+                            -1333.4,
+                            -275.77,
+                            -0.21,
+                            -256.05,
+                            -1.72,
+                            275.15
+                        ],
+                        "color": "ce3a3aff"
+                    }
+                },
+                "root2": {
+                    "root2": {
+                        "type": "clipping",
+                        "end": "root2",
+                        "vertexCount": 4,
+                        "vertices": [
+                            17.15,
+                            236.24,
+                            2.13,
+                            -174.28,
+                            828.17,
+                            -160.93,
+                            806.48,
+                            246.25
+                        ],
+                        "color": "ce3a3aff"
+                    }
+                },
+                "图层 1": {
+                    "图层 1": {
+                        "width": 1495,
+                        "height": 286
+                    }
+                },
+                "图层 2": {
+                    "图层 1": {
+                        "width": 1495,
+                        "height": 286
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "1-100": {
+            "attachments": {
+                "default": {
+                    "root": {
+                        "root": {
+                            "deform": [
+                                {
+                                    "vertices": [
+                                        1331.6829,
+                                        0,
+                                        1331.6829
+                                    ]
+                                },
+                                {
+                                    "time": 1,
+                                    "vertices": [
+                                        578.55194,
+                                        0,
+                                        578.55194
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "root2": {
+                        "root2": {
+                            "deform": [
+                                {
+                                    "offset": 4,
+                                    "vertices": [
+                                        -802.6814,
+                                        0,
+                                        -802.6814
+                                    ]
+                                },
+                                {
+                                    "time": 1,
+                                    "offset": 4,
+                                    "vertices": [
+                                        -73.93103,
+                                        0,
+                                        -73.93103
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "end": {
+            "attachments": {
+                "default": {
+                    "root": {
+                        "root": {
+                            "deform": [
+                                {
+                                    "curve": [
+                                        0.333,
+                                        0,
+                                        0.667,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "time": 1,
+                                    "offset": 4,
+                                    "vertices": [
+                                        -755.7702,
+                                        0,
+                                        -755.7702
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "root2": {
+                        "root2": {
+                            "deform": [
+                                {},
+                                {
+                                    "time": 1,
+                                    "vertices": [
+                                        766.9313,
+                                        0,
+                                        766.9313
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
