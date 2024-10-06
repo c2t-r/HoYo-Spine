@@ -1,0 +1,347 @@
+{
+    "skeleton": {
+        "hash": "T+mXvsXHE1I",
+        "spine": "4.2.36",
+        "x": -825.5,
+        "y": -696.5,
+        "width": 1651,
+        "height": 1393
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "光晕",
+            "parent": "root",
+            "length": 283.15,
+            "x": -308.87,
+            "y": -526.32
+        },
+        {
+            "name": "光束",
+            "parent": "root",
+            "length": 1642.19,
+            "rotation": -136.2,
+            "x": 730.51,
+            "y": 590.56
+        },
+        {
+            "name": "光束 拷贝",
+            "parent": "root",
+            "length": 1305.52,
+            "rotation": -135.24,
+            "x": 721.39,
+            "y": 564.73
+        }
+    ],
+    "slots": [
+        {
+            "name": "光晕",
+            "bone": "光晕",
+            "attachment": "光晕",
+            "blend": "screen"
+        },
+        {
+            "name": "光束 拷贝",
+            "bone": "光束 拷贝",
+            "attachment": "光束 拷贝",
+            "blend": "screen"
+        },
+        {
+            "name": "光束",
+            "bone": "光束",
+            "attachment": "光束",
+            "blend": "screen"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "光晕": {
+                    "光晕": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            414.37,
+                            -97.18,
+                            -375.63,
+                            -97.18,
+                            -375.63,
+                            132.82,
+                            414.37,
+                            132.82
+                        ],
+                        "hull": 4
+                    }
+                },
+                "光束": {
+                    "光束": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            0.1406,
+                            0.32593,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.74778,
+                            0.86201,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            4,
+                            5,
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            1,
+                            3,
+                            1,
+                            4,
+                            0
+                        ],
+                        "vertices": [
+                            51.4,
+                            143.16,
+                            1627.92,
+                            222.1,
+                            2005.96,
+                            -140.43,
+                            1772.73,
+                            -383.64,
+                            81.44,
+                            -145.91,
+                            -78.62,
+                            7.58
+                        ],
+                        "hull": 6
+                    }
+                },
+                "光束 拷贝": {
+                    "光束 拷贝": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            0.20048,
+                            0.5,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.79149,
+                            0.88935,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            4,
+                            5,
+                            0,
+                            1,
+                            3,
+                            4,
+                            1,
+                            2,
+                            3,
+                            4,
+                            0,
+                            1
+                        ],
+                        "vertices": [
+                            21.05,
+                            169.06,
+                            1355.98,
+                            342.75,
+                            1942.09,
+                            -238.56,
+                            1746.81,
+                            -435.45,
+                            -37,
+                            -148.9,
+                            -166.71,
+                            -20.25
+                        ],
+                        "hull": 6
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "光晕": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "光束": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "光束 拷贝": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "光晕": {
+                    "scale": [
+                        {
+                            "x": 0.001,
+                            "y": 0.001
+                        }
+                    ]
+                },
+                "光束": {
+                    "scale": [
+                        {
+                            "x": 0.049,
+                            "y": 0.417
+                        }
+                    ]
+                },
+                "光束 拷贝": {
+                    "scale": [
+                        {
+                            "x": 0.01,
+                            "y": 0.069
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "光晕": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "光束": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "光束 拷贝": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "光束": {
+                    "scale": [
+                        {}
+                    ]
+                },
+                "光束 拷贝": {
+                    "scale": [
+                        {}
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "光束": {
+            "rootBoneName": "光束",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 2587,
+                    "scaleYFreq": 12,
+                    "scaleYAmp": 0.3,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 0,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 1.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                },
+                "a": {
+                    "name": "a",
+                    "mode": 0
+                }
+            }
+        },
+        "光束 拷贝": {
+            "rootBoneName": "光束 拷贝",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 15,
+                    "moveXOctaves": 0,
+                    "moveXDelay": -1.06,
+                    "moveXCenter": 0,
+                    "moveXSeed": 2582.21,
+                    "scaleYFreq": 12,
+                    "scaleYAmp": 0.3,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 2.02,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 1.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": -0.14
+                },
+                "a": {
+                    "name": "a",
+                    "mode": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

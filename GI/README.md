@@ -155,6 +155,7 @@ https://genshin.hoyoverse.com/en/
 - https://act.hoyoverse.com/ys/event/e20240816natlan-iseatr/index.html
 - https://act.hoyoverse.com/ys/event/e20240822new-w0suak/index.html
 - https://act.hoyoverse.com/ys/event/20240927gift-delivery-xmyq9b/index.html
+- https://act.mihoyo.com/ys/event/e20241005music-td5l6q/index.html <OST cn only>
 
 ## hoyofest
 - 2023 https://act.hoyoverse.com/ys/event/hoyofest2023-xrdqyw/index.html

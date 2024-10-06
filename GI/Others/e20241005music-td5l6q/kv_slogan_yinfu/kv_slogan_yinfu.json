@@ -1,0 +1,115 @@
+{
+    "skeleton": {
+        "hash": "xLEb2kOf0FY",
+        "spine": "4.2.36",
+        "x": -197.5,
+        "y": -138.5,
+        "width": 395,
+        "height": 277
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "图层 2",
+            "parent": "root",
+            "length": 47.6,
+            "rotation": 81.63,
+            "x": 137.16,
+            "y": -103.42
+        },
+        {
+            "name": "图层 3",
+            "parent": "root",
+            "length": 54.76,
+            "rotation": 65.6,
+            "x": -173.11,
+            "y": 80.8
+        }
+    ],
+    "slots": [
+        {
+            "name": "图层 2",
+            "bone": "图层 2",
+            "attachment": "图层 2"
+        },
+        {
+            "name": "图层 3",
+            "bone": "图层 3",
+            "attachment": "图层 3"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "图层 2": {
+                    "图层 2": {
+                        "x": 12.04,
+                        "y": 6.99,
+                        "rotation": -81.63,
+                        "width": 131,
+                        "height": 96
+                    }
+                },
+                "图层 3": {
+                    "图层 3": {
+                        "x": 20.84,
+                        "y": 6.59,
+                        "rotation": -65.6,
+                        "width": 54,
+                        "height": 72
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    },
+    "extra": {
+        "图层 3": {
+            "rootBoneName": "图层 3",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 5.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 9134,
+                    "rotateFreq": 4,
+                    "rotateAmp": 3,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "图层 2": {
+            "rootBoneName": "图层 2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 4,
+                    "moveXAmp": 5.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 2,
+                    "moveXCenter": 0,
+                    "moveXSeed": 9135.21,
+                    "rotateFreq": 4,
+                    "rotateAmp": 3,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.23
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

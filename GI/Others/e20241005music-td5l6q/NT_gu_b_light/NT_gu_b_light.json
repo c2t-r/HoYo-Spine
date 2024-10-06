@@ -1,0 +1,307 @@
+{
+    "skeleton": {
+        "hash": "xu69oXXuRr0",
+        "spine": "4.2.36",
+        "x": -711.5,
+        "y": -701.5,
+        "width": 1426,
+        "height": 1508
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "图层",
+            "parent": "root",
+            "length": 305.28,
+            "rotation": 0.49,
+            "x": -280.61,
+            "y": -440.74
+        },
+        {
+            "name": "光束2",
+            "parent": "root",
+            "length": 100,
+            "rotation": -128.16,
+            "x": 726.14,
+            "y": 808.45
+        },
+        {
+            "name": "光束",
+            "parent": "root",
+            "length": 100,
+            "rotation": -129.94,
+            "x": 723.56,
+            "y": 814.45
+        },
+        {
+            "name": "bone",
+            "parent": "光束",
+            "length": 1455.63,
+            "x": 100
+        },
+        {
+            "name": "bone2",
+            "parent": "光束2",
+            "length": 1455.63,
+            "x": 100
+        }
+    ],
+    "slots": [
+        {
+            "name": "图层 2",
+            "bone": "图层",
+            "attachment": "图层 2",
+            "blend": "screen"
+        },
+        {
+            "name": "光束 拷贝",
+            "bone": "bone2",
+            "attachment": "光束 拷贝",
+            "blend": "screen"
+        },
+        {
+            "name": "光束",
+            "bone": "bone",
+            "attachment": "光束",
+            "blend": "screen"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "光束": {
+                    "光束": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            0.12108,
+                            0.29347,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0.89967,
+                            0.85799,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            4,
+                            5,
+                            0,
+                            1,
+                            3,
+                            4,
+                            1,
+                            2,
+                            3,
+                            4,
+                            0,
+                            1
+                        ],
+                        "vertices": [
+                            112.02,
+                            116.15,
+                            1710.29,
+                            199.36,
+                            1966.9,
+                            -107.09,
+                            1854.98,
+                            -200.82,
+                            101.11,
+                            -145.25,
+                            -23.06,
+                            3.04
+                        ],
+                        "hull": 6
+                    }
+                },
+                "光束 拷贝": {
+                    "光束 拷贝": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.89519,
+                            0,
+                            0,
+                            0.90658,
+                            0.17007,
+                            1,
+                            0.5115,
+                            1,
+                            1,
+                            0.1083,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            0,
+                            5,
+                            4,
+                            3,
+                            2,
+                            1,
+                            1,
+                            0,
+                            3,
+                            4,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1.07,
+                            -125.47,
+                            1790.6,
+                            -342.78,
+                            1743.89,
+                            -71.04,
+                            1443.07,
+                            311.79,
+                            28.28,
+                            85.99,
+                            -91.28,
+                            -7.95
+                        ],
+                        "hull": 6
+                    }
+                },
+                "图层 2": {
+                    "图层 2": {
+                        "x": 16.73,
+                        "y": 14.1,
+                        "rotation": -0.49,
+                        "width": 773,
+                        "height": 228
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "光束": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "光束 拷贝": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "图层 2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "光束": {
+                    "scale": [
+                        {
+                            "x": 0.01
+                        }
+                    ]
+                },
+                "光束2": {
+                    "scale": [
+                        {
+                            "x": 0.01
+                        }
+                    ]
+                },
+                "图层": {
+                    "scale": [
+                        {
+                            "x": 0.051,
+                            "y": 0.239
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "bones": {
+                "图层": {
+                    "scale": [
+                        {}
+                    ]
+                },
+                "光束2": {
+                    "scale": [
+                        {}
+                    ]
+                },
+                "光束": {
+                    "scale": [
+                        {}
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 11.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 1233,
+                    "scaleYFreq": 6,
+                    "scaleYAmp": 0.1,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 0,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "bone2": {
+            "rootBoneName": "bone2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 11.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.4202967370977198,
+                    "moveXCenter": 0,
+                    "moveXSeed": 1233.0855819023143,
+                    "scaleYFreq": 6,
+                    "scaleYAmp": 0.1,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 2.2830835980872606,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.11963060514300311
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

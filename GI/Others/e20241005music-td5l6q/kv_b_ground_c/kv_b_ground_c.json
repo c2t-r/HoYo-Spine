@@ -1,0 +1,38 @@
+{
+    "skeleton": {
+        "hash": "bf/iDFv6E/Y",
+        "spine": "4.2.36",
+        "x": -706,
+        "y": -145.5,
+        "width": 1412,
+        "height": 291
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "kv_b_ground_c",
+            "bone": "root",
+            "attachment": "kv_b_ground_c"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "kv_b_ground_c": {
+                    "kv_b_ground_c": {
+                        "width": 1412,
+                        "height": 291
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

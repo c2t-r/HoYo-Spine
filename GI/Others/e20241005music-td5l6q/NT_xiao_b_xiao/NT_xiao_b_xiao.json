@@ -1,0 +1,199 @@
+{
+    "skeleton": {
+        "hash": "6ZNTCUiYN9g",
+        "spine": "4.2.36",
+        "x": -429,
+        "y": -563.5,
+        "width": 858,
+        "height": 1127
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "NT_xiao_b_xiao",
+            "parent": "root",
+            "x": 4.22,
+            "y": 92
+        },
+        {
+            "name": "NT_xiao_b_xiao2",
+            "parent": "NT_xiao_b_xiao",
+            "length": 245.09,
+            "rotation": 112.11,
+            "x": 49.67,
+            "y": 61.03
+        }
+    ],
+    "slots": [
+        {
+            "name": "NT_xiao_b_xiao",
+            "bone": "NT_xiao_b_xiao2",
+            "attachment": "NT_xiao_b_xiao"
+        }
+    ],
+    "physics": [
+        {
+            "name": "NT_xiao_b_xiao2",
+            "bone": "NT_xiao_b_xiao2",
+            "rotate": 1,
+            "inertia": 0.5,
+            "damping": 0.85
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "NT_xiao_b_xiao": {
+                    "NT_xiao_b_xiao": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            -805.02,
+                            -77.84,
+                            -482.09,
+                            717.07,
+                            562.04,
+                            292.89,
+                            239.11,
+                            -502.02
+                        ],
+                        "hull": 4
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "1_stay": {},
+        "2_play_once": {
+            "bones": {
+                "NT_xiao_b_xiao": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.017,
+                                0,
+                                0.069,
+                                4.26,
+                                0.017,
+                                0,
+                                0.069,
+                                -17.03
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 4.26,
+                            "y": -17.03,
+                            "curve": [
+                                0.282,
+                                4.26,
+                                0.477,
+                                0,
+                                0.282,
+                                -17.03,
+                                0.477,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5667
+                        }
+                    ]
+                }
+            }
+        },
+        "3_play_loop": {
+            "bones": {
+                "NT_xiao_b_xiao": {
+                    "rotate": [
+                        {
+                            "value": 1.28,
+                            "curve": [
+                                0.169,
+                                0.64,
+                                0.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.833,
+                                0,
+                                1.167,
+                                2.55
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "value": 2.55,
+                            "curve": [
+                                1.668,
+                                2.55,
+                                1.836,
+                                1.92
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "value": 1.28
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "curve": [
+                                0.333,
+                                0,
+                                0.667,
+                                4.26,
+                                0.333,
+                                0,
+                                0.667,
+                                -17.03
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 4.26,
+                            "y": -17.03,
+                            "curve": [
+                                1.333,
+                                4.26,
+                                1.667,
+                                0,
+                                1.333,
+                                -17.03,
+                                1.667,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

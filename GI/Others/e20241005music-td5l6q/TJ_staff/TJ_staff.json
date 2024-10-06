@@ -1,0 +1,53 @@
+{
+    "skeleton": {
+        "hash": "g9MuezveggI",
+        "spine": "4.2.36",
+        "x": -1295.5,
+        "y": -284.5,
+        "width": 2531,
+        "height": 561
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "图层 815",
+            "bone": "root",
+            "attachment": "图层 815"
+        },
+        {
+            "name": "图层 814",
+            "bone": "root",
+            "attachment": "图层 814"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "图层 814": {
+                    "图层 814": {
+                        "x": -648.5,
+                        "y": -50.5,
+                        "width": 1294,
+                        "height": 468
+                    }
+                },
+                "图层 815": {
+                    "图层 815": {
+                        "x": 596.5,
+                        "y": 59.5,
+                        "width": 1278,
+                        "height": 434
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {}
+    }
+}

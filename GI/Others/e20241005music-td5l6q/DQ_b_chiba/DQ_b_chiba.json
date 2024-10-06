@@ -1,0 +1,205 @@
+{
+    "skeleton": {
+        "hash": "h0QmqkJSSPM",
+        "spine": "4.2.36",
+        "x": -595,
+        "y": -578.5,
+        "width": 1190,
+        "height": 1157
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "DQ_b_chiba",
+            "parent": "root",
+            "length": 104.84,
+            "rotation": 55.68,
+            "x": -104.35,
+            "y": -48.54
+        },
+        {
+            "name": "bone",
+            "parent": "DQ_b_chiba",
+            "length": 558,
+            "x": 104.84
+        }
+    ],
+    "slots": [
+        {
+            "name": "DQ_b_chiba",
+            "bone": "bone",
+            "attachment": "DQ_b_chiba"
+        }
+    ],
+    "physics": [
+        {
+            "name": "bone",
+            "bone": "bone",
+            "x": 0.5,
+            "y": 0.5,
+            "rotate": 1,
+            "inertia": 0.5,
+            "damping": 0.85
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "DQ_b_chiba": {
+                    "DQ_b_chiba": {
+                        "x": -5.91,
+                        "y": -58.81,
+                        "rotation": -55.68,
+                        "width": 1190,
+                        "height": 1157
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "1_stay": {},
+        "2_play_once": {
+            "bones": {
+                "DQ_b_chiba": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.044,
+                                0,
+                                0.089,
+                                -12.54,
+                                0.044,
+                                0,
+                                0.089,
+                                -18.36
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": -12.54,
+                            "y": -18.36,
+                            "curve": [
+                                0.256,
+                                -12.54,
+                                0.378,
+                                0,
+                                0.256,
+                                -18.36,
+                                0.378,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5
+                        }
+                    ]
+                }
+            }
+        },
+        "3_play_loop": {
+            "bones": {
+                "DQ_b_chiba": {
+                    "rotate": [
+                        {
+                            "value": -1.46,
+                            "curve": [
+                                0.169,
+                                -0.73,
+                                0.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.833,
+                                0,
+                                1.167,
+                                -2.92
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "value": -2.92,
+                            "curve": [
+                                1.668,
+                                -2.92,
+                                1.836,
+                                -2.19
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "value": -1.46
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "curve": [
+                                0.333,
+                                0,
+                                0.667,
+                                -19.41,
+                                0.333,
+                                0,
+                                0.667,
+                                -28.43
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": -19.41,
+                            "y": -28.43,
+                            "curve": [
+                                1.333,
+                                -19.41,
+                                1.667,
+                                0,
+                                1.333,
+                                -28.43,
+                                1.667,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "DQ_b_chiba": {
+            "rootBoneName": "DQ_b_chiba",
+            "animation": {
+                "default": {
+                    "name": "",
+                    "mode": 0
+                },
+                "animation": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 3,
+                    "moveXAmp": 5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 5625,
+                    "rotateFreq": 3,
+                    "rotateAmp": 1.5,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}

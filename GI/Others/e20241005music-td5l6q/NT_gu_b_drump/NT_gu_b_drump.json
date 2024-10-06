@@ -1,0 +1,175 @@
+{
+    "skeleton": {
+        "hash": "8CdZronYgXE",
+        "spine": "4.2.36",
+        "x": -542.5,
+        "y": -546.5,
+        "width": 1085,
+        "height": 1093
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "NT_gu_b_drump",
+            "parent": "root",
+            "length": 111.11,
+            "rotation": 114.93,
+            "x": 150.4,
+            "y": -113.78
+        },
+        {
+            "name": "NT_gu_b_drump2",
+            "parent": "NT_gu_b_drump",
+            "x": 130.24,
+            "y": -2.63
+        }
+    ],
+    "slots": [
+        {
+            "name": "NT_gu_b_drump",
+            "bone": "NT_gu_b_drump2",
+            "attachment": "NT_gu_b_drump"
+        }
+    ],
+    "physics": [
+        {
+            "name": "NT_gu_b_drump2",
+            "bone": "NT_gu_b_drump2",
+            "x": 1,
+            "y": 1,
+            "inertia": 0.5,
+            "damping": 0.85
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "NT_gu_b_drump": {
+                    "NT_gu_b_drump": {
+                        "x": 36.33,
+                        "y": 91.06,
+                        "rotation": -114.93,
+                        "width": 1085,
+                        "height": 1093
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "1_stay": {},
+        "2_play_once": {
+            "bones": {
+                "NT_gu_b_drump": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.044,
+                                0,
+                                0.089,
+                                17.56,
+                                0.044,
+                                0,
+                                0.089,
+                                -37.77
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 17.56,
+                            "y": -37.77,
+                            "curve": [
+                                0.278,
+                                17.56,
+                                0.422,
+                                0,
+                                0.278,
+                                -37.77,
+                                0.422,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5667
+                        }
+                    ]
+                }
+            }
+        },
+        "3_play_loop": {
+            "bones": {
+                "NT_gu_b_drump": {
+                    "rotate": [
+                        {
+                            "value": 1.04,
+                            "curve": [
+                                0.169,
+                                0.52,
+                                0.334,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "curve": [
+                                0.833,
+                                0,
+                                1.167,
+                                2.07
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "value": 2.07,
+                            "curve": [
+                                1.668,
+                                2.07,
+                                1.836,
+                                1.56
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "value": 1.04
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "curve": [
+                                0.333,
+                                0,
+                                0.667,
+                                -10.89,
+                                0.333,
+                                0,
+                                0.667,
+                                -42.52
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": -10.89,
+                            "y": -42.52,
+                            "curve": [
+                                1.333,
+                                -10.89,
+                                1.667,
+                                0,
+                                1.333,
+                                -42.52,
+                                1.667,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

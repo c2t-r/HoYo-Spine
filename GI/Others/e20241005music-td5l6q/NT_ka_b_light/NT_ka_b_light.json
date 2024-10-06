@@ -1,0 +1,339 @@
+{
+    "skeleton": {
+        "hash": "Ew9rtjTSRbI",
+        "spine": "4.2.36",
+        "x": -727.5,
+        "y": -778,
+        "width": 1456,
+        "height": 1554
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "图层",
+            "parent": "root",
+            "length": 305.28,
+            "rotation": 0.49,
+            "x": -288.82,
+            "y": -512.03
+        },
+        {
+            "name": "光束2",
+            "parent": "root",
+            "length": 100,
+            "rotation": -127.99,
+            "x": 732.54,
+            "y": 753.26
+        },
+        {
+            "name": "光束",
+            "parent": "root",
+            "length": 100,
+            "rotation": -129.77,
+            "x": 728.24,
+            "y": 759.08
+        },
+        {
+            "name": "bone",
+            "parent": "光束",
+            "length": 1455.63,
+            "x": 100
+        },
+        {
+            "name": "bone2",
+            "parent": "光束2",
+            "length": 1455.63,
+            "x": 100
+        }
+    ],
+    "slots": [
+        {
+            "name": "c",
+            "bone": "图层",
+            "attachment": "c",
+            "blend": "screen"
+        },
+        {
+            "name": "b",
+            "bone": "bone2",
+            "attachment": "b",
+            "blend": "screen"
+        },
+        {
+            "name": "a",
+            "bone": "bone",
+            "attachment": "a",
+            "blend": "screen"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "a": {
+                    "a": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.32375,
+                            1,
+                            1,
+                            0.06492,
+                            1,
+                            0.00168,
+                            0.89493,
+                            0,
+                            0,
+                            0.92465,
+                            0,
+                            1
+                        ],
+                        "triangles": [
+                            3,
+                            2,
+                            1,
+                            0,
+                            5,
+                            4,
+                            3,
+                            0,
+                            4,
+                            0,
+                            3,
+                            1
+                        ],
+                        "vertices": [
+                            1707.32,
+                            231.25,
+                            27.5,
+                            57.01,
+                            -45.42,
+                            -3.67,
+                            46.14,
+                            -117.62,
+                            1908.53,
+                            -187.2,
+                            1995.41,
+                            -114.9
+                        ],
+                        "hull": 6
+                    }
+                },
+                "b": {
+                    "b": {
+                        "type": "mesh",
+                        "uvs": [
+                            0.92035,
+                            0.00116,
+                            0,
+                            0.84071,
+                            0,
+                            1,
+                            0.56607,
+                            1,
+                            1,
+                            0.10982,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            0,
+                            5,
+                            4,
+                            3,
+                            1,
+                            0,
+                            3,
+                            2,
+                            1,
+                            0,
+                            4,
+                            3
+                        ],
+                        "vertices": [
+                            -42.74,
+                            -107.55,
+                            1738.83,
+                            -416.49,
+                            1920.37,
+                            -274.72,
+                            1413.08,
+                            374.87,
+                            9.71,
+                            80.56,
+                            -115.44,
+                            -17.18
+                        ],
+                        "hull": 6
+                    }
+                },
+                "c": {
+                    "c": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.67341,
+                            0.48925,
+                            0.75846,
+                            1,
+                            0.72606,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            0,
+                            4,
+                            3,
+                            1,
+                            4,
+                            2,
+                            1,
+                            3
+                        ],
+                        "vertices": [
+                            -392.61,
+                            -108.1,
+                            7.81,
+                            -142.64,
+                            426.2,
+                            -134.34,
+                            428.46,
+                            131.39,
+                            -390.51,
+                            138.36
+                        ],
+                        "hull": 5
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {
+            "slots": {
+                "a": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "b": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "c": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "光束": {
+                    "scale": [
+                        {
+                            "x": 0.01
+                        }
+                    ]
+                },
+                "光束2": {
+                    "scale": [
+                        {
+                            "x": 0.01
+                        }
+                    ]
+                },
+                "图层": {
+                    "scale": [
+                        {
+                            "x": 0.051,
+                            "y": 0.239
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "bones": {
+                "图层": {
+                    "scale": [
+                        {}
+                    ]
+                },
+                "光束2": {
+                    "scale": [
+                        {}
+                    ]
+                },
+                "光束": {
+                    "scale": [
+                        {}
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "bone": {
+            "rootBoneName": "bone",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 11.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveXSeed": 1233,
+                    "scaleYFreq": 6,
+                    "scaleYAmp": 0.1,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 0,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0
+                }
+            }
+        },
+        "bone2": {
+            "rootBoneName": "bone2",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 10,
+                    "moveXAmp": 11.5,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 1.4202967370977198,
+                    "moveXCenter": 0,
+                    "moveXSeed": 1233.0855819023143,
+                    "scaleYFreq": 6,
+                    "scaleYAmp": 0.1,
+                    "scaleYOctaves": 0,
+                    "scaleYDelay": 2.2830835980872606,
+                    "scaleYCenter": 0,
+                    "rotateFreq": 10,
+                    "rotateAmp": 2,
+                    "rotateOctaves": 0,
+                    "rotateDelay": 0.11963060514300311
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
