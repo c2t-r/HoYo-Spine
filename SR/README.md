@@ -21,6 +21,7 @@ https://hsr.hoyoverse.com/en-us/
 - 2.2 https://act.hoyoverse.com/puzzle/hkrpg/pz_Vq98gciF1p/index.html
 - 2.3 https://act.hoyoverse.com/puzzle/hkrpg/pz_KQJOCs9s8O/index.html
 - 2.4 https://act.hoyoverse.com/puzzle/hkrpg/pz_soRAVPGgSO/index.html
+- 2.5 https://act.hoyoverse.com/puzzle/hkrpg/pz_u2_p82S3PT/index.html wip
 
 ## Others
 - https://act.hoyoverse.com/sr/event/march7thARinvitation/index.html
@@ -40,6 +41,7 @@ https://hsr.hoyoverse.com/en-us/
 - https://act.hoyoverse.com/sr/event/e20240709jade-10ch0z/index.html
 - https://act.hoyoverse.com/sr/event/e20240724coupon-wsrup1/index.html
 - https://act.mihoyo.com/sr/event/e20240727luofu-b91x7m/index.html
+- https://act.hoyoverse.com/sr/event/e20241012dlc-xqgvp8/index.html
 
 ## Puzzle
 - https://act.mihoyo.com/puzzle/hkrpg/pz_stKK3ccUXV/index.html
