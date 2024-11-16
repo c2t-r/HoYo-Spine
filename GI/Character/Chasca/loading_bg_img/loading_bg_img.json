@@ -1,0 +1,838 @@
+{
+    "skeleton": {
+        "hash": "qt/mWn69wnE",
+        "spine": "4.2.33",
+        "x": -1222,
+        "y": -498,
+        "width": 2445.91,
+        "height": 1047
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bone",
+            "parent": "root"
+        },
+        {
+            "name": "cb",
+            "parent": "root",
+            "rotation": 51.74,
+            "x": -806.77,
+            "y": -243.89
+        },
+        {
+            "name": "ad",
+            "parent": "root",
+            "x": 728.41,
+            "y": 526.61
+        },
+        {
+            "name": "bone2",
+            "parent": "root",
+            "rotation": -40.6,
+            "x": 693.28,
+            "y": 585.98
+        },
+        {
+            "name": "cb2",
+            "parent": "cb",
+            "x": -2.17,
+            "y": -91.3
+        }
+    ],
+    "slots": [
+        {
+            "name": "bg",
+            "bone": "bone",
+            "color": "ffffff00",
+            "attachment": "bg"
+        },
+        {
+            "name": "bf",
+            "bone": "bone",
+            "color": "ffffff00",
+            "attachment": "bf"
+        },
+        {
+            "name": "be",
+            "bone": "bone",
+            "color": "ffffff00",
+            "attachment": "be"
+        },
+        {
+            "name": "bd",
+            "bone": "bone",
+            "color": "ffffff00",
+            "attachment": "bd"
+        },
+        {
+            "name": "bc",
+            "bone": "bone",
+            "color": "ffffff00",
+            "attachment": "bc"
+        },
+        {
+            "name": "bb",
+            "bone": "bone",
+            "color": "ffffff00",
+            "attachment": "bb"
+        },
+        {
+            "name": "ba",
+            "bone": "bone",
+            "color": "ffffff00",
+            "attachment": "ba"
+        },
+        {
+            "name": "b_mask2",
+            "bone": "cb",
+            "attachment": "b_mask"
+        },
+        {
+            "name": "ac",
+            "bone": "cb",
+            "attachment": "ac"
+        },
+        {
+            "name": "b_mask",
+            "bone": "cb",
+            "attachment": "b_mask"
+        },
+        {
+            "name": "cb",
+            "bone": "cb",
+            "attachment": "cb"
+        },
+        {
+            "name": "ab",
+            "bone": "root",
+            "attachment": "ab"
+        },
+        {
+            "name": "aa",
+            "bone": "root",
+            "attachment": "aa"
+        },
+        {
+            "name": "a_mask_n",
+            "bone": "ad",
+            "attachment": "a_mask_n"
+        },
+        {
+            "name": "ad",
+            "bone": "ad",
+            "attachment": "ad"
+        },
+        {
+            "name": "a_mask_o",
+            "bone": "ad",
+            "attachment": "a_mask_n"
+        },
+        {
+            "name": "ca",
+            "bone": "ad",
+            "attachment": "ca"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "aa": {
+                    "aa": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.43883,
+                            0.67335,
+                            0.30309,
+                            1,
+                            0.61981,
+                            1,
+                            1,
+                            0,
+                            1
+                        ],
+                        "triangles": [
+                            4,
+                            0,
+                            1,
+                            1,
+                            2,
+                            3,
+                            4,
+                            1,
+                            3
+                        ],
+                        "vertices": [
+                            -1222,
+                            -204.51,
+                            -608.58,
+                            -133.51,
+                            -311,
+                            -299.16,
+                            -311,
+                            -498,
+                            -1222,
+                            -498
+                        ],
+                        "hull": 5
+                    }
+                },
+                "ab": {
+                    "ab": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            1,
+                            0,
+                            0.77617,
+                            0.74629,
+                            0.7209,
+                            0.96245,
+                            0,
+                            0.9837,
+                            0,
+                            0.97631,
+                            1
+                        ],
+                        "triangles": [
+                            0,
+                            1,
+                            2,
+                            5,
+                            3,
+                            4,
+                            2,
+                            3,
+                            5,
+                            0,
+                            2,
+                            5
+                        ],
+                        "vertices": [
+                            -351,
+                            -498,
+                            -351,
+                            -324.31,
+                            843.8,
+                            -281.41,
+                            1189.89,
+                            278,
+                            1223.91,
+                            278,
+                            1212.07,
+                            -498
+                        ],
+                        "hull": 6
+                    }
+                },
+                "ac": {
+                    "ac": {
+                        "x": 16.66,
+                        "y": 218.66,
+                        "rotation": -51.74,
+                        "width": 396,
+                        "height": 289
+                    }
+                },
+                "ad": {
+                    "ad": {
+                        "x": 192.09,
+                        "y": -146.61,
+                        "width": 505,
+                        "height": 338
+                    }
+                },
+                "a_mask_n": {
+                    "a_mask_n": {
+                        "type": "clipping",
+                        "end": "ad",
+                        "vertexCount": 4,
+                        "vertices": [
+                            1,
+                            3,
+                            428.25,
+                            -496.79,
+                            1,
+                            1,
+                            3,
+                            608.33,
+                            -253.09,
+                            1,
+                            1,
+                            4,
+                            16.46,
+                            142.39,
+                            1,
+                            1,
+                            4,
+                            -15.45,
+                            -148.35,
+                            1
+                        ]
+                    }
+                },
+                "a_mask_o": {
+                    "a_mask_n": {
+                        "type": "clipping",
+                        "end": "ca",
+                        "vertexCount": 4,
+                        "vertices": [
+                            1,
+                            3,
+                            -197.05,
+                            2.07,
+                            1,
+                            1,
+                            3,
+                            19.5,
+                            190.65,
+                            1,
+                            1,
+                            4,
+                            16.46,
+                            142.39,
+                            1,
+                            1,
+                            4,
+                            -15.45,
+                            -148.35,
+                            1
+                        ]
+                    }
+                },
+                "ba": {
+                    "ba": {
+                        "x": -1196.5,
+                        "y": 164,
+                        "width": 29,
+                        "height": 710
+                    }
+                },
+                "bb": {
+                    "bb": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1116,
+                            515,
+                            -1207,
+                            515,
+                            -1207,
+                            540,
+                            1116,
+                            540
+                        ],
+                        "hull": 4
+                    }
+                },
+                "bc": {
+                    "bc": {
+                        "x": 1162,
+                        "y": 509,
+                        "width": 68,
+                        "height": 64
+                    }
+                },
+                "bd": {
+                    "bd": {
+                        "x": 1153.5,
+                        "y": 489.5,
+                        "width": 75,
+                        "height": 79
+                    }
+                },
+                "be": {
+                    "be": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.2174,
+                            0.67638,
+                            0.15231,
+                            1,
+                            0.5971,
+                            1,
+                            1,
+                            0,
+                            0.74174
+                        ],
+                        "triangles": [
+                            4,
+                            0,
+                            1,
+                            1,
+                            2,
+                            3,
+                            4,
+                            1,
+                            3
+                        ],
+                        "vertices": [
+                            -1211,
+                            -152.92,
+                            -611.73,
+                            -126.3,
+                            -325,
+                            -308.21,
+                            -325,
+                            -473,
+                            -1211,
+                            -367.37
+                        ],
+                        "hull": 5
+                    }
+                },
+                "bf": {
+                    "bf": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.7642,
+                            0.45128,
+                            0.7642,
+                            0.83538,
+                            0.31874,
+                            0.90072,
+                            0,
+                            1,
+                            0,
+                            1,
+                            1,
+                            0,
+                            1
+                        ],
+                        "triangles": [
+                            6,
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            2,
+                            4,
+                            1,
+                            2,
+                            5,
+                            6,
+                            1,
+                            5
+                        ],
+                        "vertices": [
+                            465,
+                            -255.36,
+                            802.1,
+                            -255.36,
+                            1089.03,
+                            155.8,
+                            1137.84,
+                            450,
+                            1212,
+                            450,
+                            1212,
+                            -473,
+                            465,
+                            -473
+                        ],
+                        "hull": 7
+                    }
+                },
+                "bg": {
+                    "bg": {
+                        "x": 195.5,
+                        "y": -370,
+                        "width": 1079,
+                        "height": 206
+                    }
+                },
+                "b_mask": {
+                    "b_mask": {
+                        "type": "clipping",
+                        "end": "cb",
+                        "vertexCount": 4,
+                        "vertices": [
+                            1,
+                            2,
+                            -176.87,
+                            -135.5,
+                            1,
+                            1,
+                            2,
+                            177.25,
+                            -136.92,
+                            1,
+                            1,
+                            5,
+                            176.81,
+                            -2.77,
+                            1,
+                            1,
+                            5,
+                            -176.54,
+                            -0.75,
+                            1
+                        ]
+                    }
+                },
+                "b_mask2": {
+                    "b_mask": {
+                        "type": "clipping",
+                        "end": "ac",
+                        "vertexCount": 4,
+                        "vertices": [
+                            1,
+                            2,
+                            -218.64,
+                            472.7,
+                            1,
+                            1,
+                            2,
+                            135.48,
+                            471.28,
+                            1,
+                            1,
+                            5,
+                            176.81,
+                            -2.77,
+                            1,
+                            1,
+                            5,
+                            -176.54,
+                            -0.75,
+                            1
+                        ]
+                    }
+                },
+                "ca": {
+                    "ca": {
+                        "type": "mesh",
+                        "uvs": [
+                            0,
+                            0.13063,
+                            0.64005,
+                            1,
+                            1,
+                            1,
+                            0.93878,
+                            0.47631,
+                            0.23589,
+                            0,
+                            0,
+                            0
+                        ],
+                        "triangles": [
+                            0,
+                            5,
+                            4,
+                            1,
+                            4,
+                            3,
+                            0,
+                            4,
+                            1,
+                            1,
+                            3,
+                            2
+                        ],
+                        "vertices": [
+                            -60.41,
+                            -21.76,
+                            262.82,
+                            -315.61,
+                            444.59,
+                            -315.61,
+                            413.68,
+                            -138.6,
+                            58.72,
+                            22.39,
+                            -60.41,
+                            22.39
+                        ],
+                        "hull": 6
+                    }
+                },
+                "cb": {
+                    "cb": {
+                        "x": 12.51,
+                        "y": 228.76,
+                        "rotation": -51.74,
+                        "width": 375,
+                        "height": 283
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "a": {},
+        "a2b": {
+            "slots": {
+                "ba": {
+                    "rgba": [
+                        {
+                            "time": 0.2333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bb": {
+                    "rgba": [
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bc": {
+                    "rgba": [
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bd": {
+                    "rgba": [
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "be": {
+                    "rgba": [
+                        {
+                            "time": 0.1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bf": {
+                    "rgba": [
+                        {
+                            "time": 0.2333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bg": {
+                    "rgba": [
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "cb2": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.111,
+                                0,
+                                0.222,
+                                0,
+                                0.111,
+                                0,
+                                0.222,
+                                590.89
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": 590.89,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "y": 590.89
+                        }
+                    ]
+                },
+                "bone2": {
+                    "translate": [
+                        {
+                            "time": 0.2333,
+                            "curve": [
+                                0.344,
+                                0,
+                                0.504,
+                                522.6,
+                                0.344,
+                                0,
+                                0.504,
+                                -447.94
+                            ]
+                        },
+                        {
+                            "time": 0.5667,
+                            "x": 522.6,
+                            "y": -447.94,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 522.6,
+                            "y": -447.94
+                        }
+                    ]
+                }
+            }
+        },
+        "b": {
+            "slots": {
+                "ba": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bb": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bc": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bd": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "be": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bf": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "bg": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "cb2": {
+                    "translate": [
+                        {
+                            "y": 590.89
+                        }
+                    ]
+                },
+                "bone2": {
+                    "translate": [
+                        {
+                            "x": 522.6,
+                            "y": -447.94
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

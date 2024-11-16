@@ -1,0 +1,1860 @@
+{
+    "skeleton": {
+        "hash": "EHTc3y6ALY0",
+        "spine": "4.2.33",
+        "x": -1417.66,
+        "y": -379.5,
+        "width": 2855.5,
+        "height": 699
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bg",
+            "parent": "root",
+            "length": 1293.24,
+            "rotation": 1.57,
+            "x": 10.09,
+            "y": -47.71
+        },
+        {
+            "name": "bg2",
+            "parent": "bg",
+            "x": 68.36
+        },
+        {
+            "name": "bg3",
+            "parent": "bg",
+            "x": -104.18
+        },
+        {
+            "name": "bg4",
+            "parent": "bg",
+            "x": -104.18,
+            "y": 273.62
+        },
+        {
+            "name": "bg5",
+            "parent": "bg",
+            "x": 68.36,
+            "y": -273.78
+        },
+        {
+            "name": "xf",
+            "parent": "bg",
+            "x": -1205.39,
+            "y": -237.93
+        },
+        {
+            "name": "xe",
+            "parent": "bg",
+            "x": 423.05,
+            "y": -248.55
+        },
+        {
+            "name": "xd",
+            "parent": "bg",
+            "x": 768.12,
+            "y": -272.33
+        },
+        {
+            "name": "xa",
+            "parent": "bg",
+            "x": -935.82,
+            "y": 300.97
+        },
+        {
+            "name": "xb",
+            "parent": "bg",
+            "x": 434.57,
+            "y": 302.85
+        },
+        {
+            "name": "xc",
+            "parent": "bg",
+            "x": 1122.67,
+            "y": 246.4
+        },
+        {
+            "name": "pop_bg_text",
+            "parent": "bg",
+            "x": -732.96,
+            "y": -75.38,
+            "inherit": "noScale"
+        },
+        {
+            "name": "bb",
+            "parent": "bg"
+        },
+        {
+            "name": "bga",
+            "parent": "bb",
+            "scaleX": 18.4275,
+            "scaleY": 0.0732
+        },
+        {
+            "name": "bgb",
+            "parent": "bb",
+            "scaleX": 18.4275,
+            "scaleY": 0.0732
+        },
+        {
+            "name": "bgb2",
+            "parent": "bb",
+            "scaleX": 18.4275,
+            "scaleY": 0.0732
+        },
+        {
+            "name": "bga2",
+            "parent": "bb",
+            "scaleX": 18.4275,
+            "scaleY": 0.0732
+        },
+        {
+            "name": "wiggle",
+            "parent": "pop_bg_text"
+        }
+    ],
+    "slots": [
+        {
+            "name": "bgb",
+            "bone": "bgb",
+            "attachment": "bgb"
+        },
+        {
+            "name": "bgb2",
+            "bone": "bgb2",
+            "attachment": "bgb"
+        },
+        {
+            "name": "bga",
+            "bone": "bga",
+            "attachment": "bga"
+        },
+        {
+            "name": "bga2",
+            "bone": "bga2",
+            "attachment": "bga"
+        },
+        {
+            "name": "bg_mask_a",
+            "bone": "bg",
+            "attachment": "bg_mask_a"
+        },
+        {
+            "name": "bg",
+            "bone": "bg",
+            "attachment": "bg"
+        },
+        {
+            "name": "pop_bg_text",
+            "bone": "wiggle",
+            "attachment": "pop_bg_text"
+        },
+        {
+            "name": "bg_mask_a2",
+            "bone": "bg",
+            "attachment": "bg_mask_a"
+        },
+        {
+            "name": "bg2",
+            "bone": "bg",
+            "attachment": "bg"
+        },
+        {
+            "name": "wiggle",
+            "bone": "wiggle",
+            "attachment": "pop_bg_text"
+        },
+        {
+            "name": "xf",
+            "bone": "xf",
+            "attachment": "xf"
+        },
+        {
+            "name": "xe",
+            "bone": "xe",
+            "attachment": "xe"
+        },
+        {
+            "name": "xd",
+            "bone": "xd",
+            "attachment": "xd"
+        },
+        {
+            "name": "xc",
+            "bone": "xc",
+            "attachment": "xc"
+        },
+        {
+            "name": "xb",
+            "bone": "xb",
+            "attachment": "xb"
+        },
+        {
+            "name": "xa",
+            "bone": "xa",
+            "attachment": "xa"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bg": {
+                    "bg": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1260.19,
+                            -317.4,
+                            -1295.85,
+                            -247.41,
+                            -1279.92,
+                            334.37,
+                            1276.12,
+                            264.38
+                        ],
+                        "hull": 4
+                    }
+                },
+                "bg2": {
+                    "bg": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1291.18,
+                            -318.25,
+                            -1264.86,
+                            -248.26,
+                            -1248.93,
+                            333.52,
+                            1307.11,
+                            263.53
+                        ],
+                        "hull": 4
+                    }
+                },
+                "bga": {
+                    "bga": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            77.5,
+                            -77.5,
+                            -77.5,
+                            -77.5,
+                            -77.5,
+                            77.5,
+                            77.5,
+                            77.5
+                        ],
+                        "hull": 4
+                    }
+                },
+                "bga2": {
+                    "bga": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            77.5,
+                            -77.5,
+                            -77.5,
+                            -77.5,
+                            -77.5,
+                            77.5,
+                            77.5,
+                            77.5
+                        ],
+                        "hull": 4
+                    }
+                },
+                "bgb": {
+                    "bgb": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            77.5,
+                            -77.5,
+                            -77.5,
+                            -77.5,
+                            -77.5,
+                            77.5,
+                            77.5,
+                            77.5
+                        ],
+                        "hull": 4
+                    }
+                },
+                "bgb2": {
+                    "bgb": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            77.5,
+                            -77.5,
+                            -77.5,
+                            -77.5,
+                            -77.5,
+                            77.5,
+                            77.5,
+                            77.5
+                        ],
+                        "hull": 4
+                    }
+                },
+                "bg_mask_a": {
+                    "bg_mask_a": {
+                        "type": "clipping",
+                        "end": "pop_bg_text",
+                        "vertexCount": 4,
+                        "vertices": [
+                            1,
+                            2,
+                            -1336.99,
+                            -0.67,
+                            1,
+                            1,
+                            2,
+                            1264.64,
+                            0.45,
+                            1,
+                            1,
+                            5,
+                            1278.29,
+                            -0.32,
+                            1,
+                            1,
+                            5,
+                            -1330.37,
+                            -2.79,
+                            1
+                        ]
+                    }
+                },
+                "bg_mask_a2": {
+                    "bg_mask_a": {
+                        "type": "clipping",
+                        "end": "wiggle",
+                        "vertexCount": 4,
+                        "vertices": [
+                            1,
+                            3,
+                            -1164.45,
+                            -0.67,
+                            1,
+                            1,
+                            3,
+                            1437.17,
+                            0.45,
+                            1,
+                            1,
+                            4,
+                            1450.82,
+                            0.21,
+                            1,
+                            1,
+                            4,
+                            -1157.83,
+                            -2.27,
+                            1
+                        ]
+                    }
+                },
+                "pop_bg_text": {
+                    "pop_bg_text": {
+                        "x": 23.36,
+                        "y": -6.51,
+                        "rotation": -1.57,
+                        "width": 1065,
+                        "height": 317
+                    }
+                },
+                "wiggle": {
+                    "pop_bg_text": {
+                        "x": 23.36,
+                        "y": -6.51,
+                        "rotation": -1.57,
+                        "width": 1065,
+                        "height": 317
+                    }
+                },
+                "xa": {
+                    "xa": {
+                        "x": 160.21,
+                        "y": 1.09,
+                        "rotation": -1.57,
+                        "width": 908,
+                        "height": 63
+                    }
+                },
+                "xb": {
+                    "xb": {
+                        "x": -101.37,
+                        "y": 13.86,
+                        "rotation": -1.57,
+                        "width": 1894,
+                        "height": 83
+                    }
+                },
+                "xc": {
+                    "xc": {
+                        "x": -1125.47,
+                        "y": 19.99,
+                        "scaleX": 2,
+                        "rotation": -1.57,
+                        "width": 1325,
+                        "height": 128
+                    }
+                },
+                "xd": {
+                    "xd": {
+                        "x": -12.27,
+                        "y": 4.25,
+                        "rotation": -1.57,
+                        "width": 1017,
+                        "height": 59
+                    }
+                },
+                "xe": {
+                    "xe": {
+                        "x": -21.2,
+                        "y": 21.68,
+                        "rotation": -1.57,
+                        "width": 1745,
+                        "height": 82
+                    }
+                },
+                "xf": {
+                    "xf": {
+                        "x": 883.1,
+                        "y": -20.63,
+                        "rotation": -1.57,
+                        "width": 1905,
+                        "height": 129
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "end": {
+            "slots": {
+                "bg": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "bg2": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "bga": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "bga2": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "bgb": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "bgb2": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "pop_bg_text": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "wiggle": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "xa": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "xb": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "xc": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "xd": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "xe": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "xf": {
+                    "attachment": [
+                        {}
+                    ]
+                }
+            },
+            "bones": {
+                "bg3": {
+                    "translate": [
+                        {
+                            "y": 273.75
+                        }
+                    ]
+                },
+                "bg2": {
+                    "translate": [
+                        {
+                            "y": -251.06
+                        }
+                    ]
+                },
+                "bgb2": {
+                    "translate": [
+                        {
+                            "y": -258.11
+                        }
+                    ],
+                    "scale": [
+                        {}
+                    ]
+                },
+                "bgb": {
+                    "translate": [
+                        {
+                            "y": 289.51
+                        }
+                    ],
+                    "scale": [
+                        {}
+                    ]
+                },
+                "bga2": {
+                    "translate": [
+                        {
+                            "y": -258.11
+                        }
+                    ],
+                    "scale": [
+                        {}
+                    ]
+                },
+                "bga": {
+                    "translate": [
+                        {
+                            "y": 289.51
+                        }
+                    ],
+                    "scale": [
+                        {}
+                    ]
+                },
+                "xa": {
+                    "translate": [
+                        {
+                            "x": -2685.33
+                        }
+                    ]
+                },
+                "xb": {
+                    "translate": [
+                        {
+                            "x": -2685.33
+                        }
+                    ]
+                },
+                "xc": {
+                    "translate": [
+                        {
+                            "x": -2685.33
+                        }
+                    ]
+                },
+                "xd": {
+                    "translate": [
+                        {
+                            "x": 2626.51
+                        }
+                    ]
+                },
+                "xe": {
+                    "translate": [
+                        {
+                            "x": 2626.51
+                        }
+                    ]
+                },
+                "xf": {
+                    "translate": [
+                        {
+                            "x": 2626.51
+                        }
+                    ]
+                }
+            }
+        },
+        "in": {
+            "slots": {
+                "bg": {
+                    "attachment": [
+                        {},
+                        {
+                            "time": 0.0333,
+                            "name": "bg"
+                        }
+                    ]
+                },
+                "bg2": {
+                    "attachment": [
+                        {},
+                        {
+                            "time": 0.0333,
+                            "name": "bg"
+                        }
+                    ]
+                },
+                "bga": {
+                    "attachment": [
+                        {},
+                        {
+                            "time": 0.0333,
+                            "name": "bga"
+                        },
+                        {
+                            "time": 0.3667
+                        }
+                    ]
+                },
+                "bga2": {
+                    "attachment": [
+                        {},
+                        {
+                            "time": 0.0333,
+                            "name": "bga"
+                        },
+                        {
+                            "time": 0.3667
+                        }
+                    ]
+                },
+                "bgb": {
+                    "attachment": [
+                        {},
+                        {
+                            "time": 0.0333,
+                            "name": "bgb"
+                        },
+                        {
+                            "time": 0.4
+                        }
+                    ]
+                },
+                "bgb2": {
+                    "attachment": [
+                        {},
+                        {
+                            "time": 0.0333,
+                            "name": "bgb"
+                        },
+                        {
+                            "time": 0.4
+                        }
+                    ]
+                },
+                "pop_bg_text": {
+                    "attachment": [
+                        {},
+                        {
+                            "time": 0.0333,
+                            "name": "pop_bg_text"
+                        }
+                    ]
+                },
+                "wiggle": {
+                    "attachment": [
+                        {},
+                        {
+                            "time": 0.0333,
+                            "name": "pop_bg_text"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bg4": {
+                    "translate": [
+                        {
+                            "y": -275.64,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "y": -275.64,
+                            "curve": [
+                                0.32,
+                                0,
+                                0.356,
+                                0,
+                                0.32,
+                                -275.64,
+                                0.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4333
+                        }
+                    ]
+                },
+                "bg5": {
+                    "translate": [
+                        {
+                            "y": 270.15,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "y": 270.15,
+                            "curve": [
+                                0.32,
+                                0,
+                                0.356,
+                                0,
+                                0.32,
+                                270.15,
+                                0.356,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4333
+                        }
+                    ]
+                },
+                "bg2": {
+                    "translate": [
+                        {}
+                    ]
+                },
+                "bga": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "curve": [
+                                0.144,
+                                0,
+                                0.256,
+                                0,
+                                0.144,
+                                0,
+                                0.256,
+                                274.39
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "y": 274.39
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "curve": [
+                                0.089,
+                                1,
+                                0.144,
+                                1,
+                                0.089,
+                                6.38,
+                                0.144,
+                                17.139
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "y": 17.139,
+                            "curve": [
+                                0.256,
+                                1,
+                                0.311,
+                                1,
+                                0.256,
+                                17.139,
+                                0.311,
+                                6.268
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "y": 0.832
+                        }
+                    ]
+                },
+                "bga2": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "curve": [
+                                0.144,
+                                0,
+                                0.256,
+                                0,
+                                0.144,
+                                0,
+                                0.256,
+                                -275.89
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "y": -275.89
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0333,
+                            "curve": [
+                                0.089,
+                                1,
+                                0.144,
+                                1,
+                                0.089,
+                                6.38,
+                                0.144,
+                                17.139
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "y": 17.139,
+                            "curve": [
+                                0.256,
+                                1,
+                                0.311,
+                                1,
+                                0.256,
+                                17.139,
+                                0.311,
+                                6.268
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "y": 0.832
+                        }
+                    ]
+                },
+                "bgb": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "curve": [
+                                0.27,
+                                0,
+                                0.289,
+                                0,
+                                0.27,
+                                0,
+                                0.289,
+                                274.39
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "y": 274.39
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "curve": [
+                                0.162,
+                                1,
+                                0.178,
+                                1,
+                                0.162,
+                                6.38,
+                                0.178,
+                                17.139
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "y": 17.139,
+                            "curve": [
+                                0.289,
+                                1,
+                                0.344,
+                                1,
+                                0.289,
+                                17.139,
+                                0.344,
+                                6.268
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "y": 0.832
+                        }
+                    ]
+                },
+                "bgb2": {
+                    "translate": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "curve": [
+                                0.27,
+                                0,
+                                0.289,
+                                0,
+                                0.27,
+                                0,
+                                0.289,
+                                -275.89
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "y": -275.89
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "curve": [
+                                0.162,
+                                1,
+                                0.178,
+                                1,
+                                0.162,
+                                6.38,
+                                0.178,
+                                17.139
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "y": 17.139,
+                            "curve": [
+                                0.289,
+                                1,
+                                0.344,
+                                1,
+                                0.289,
+                                17.139,
+                                0.344,
+                                6.268
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "y": 0.832
+                        }
+                    ]
+                },
+                "xf": {
+                    "translate": [
+                        {
+                            "x": -2638.81,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "x": -2638.81,
+                            "curve": [
+                                0.35,
+                                -2638.81,
+                                0.422,
+                                -879.6,
+                                0.35,
+                                0,
+                                0.422,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5
+                        }
+                    ]
+                },
+                "xe": {
+                    "translate": [
+                        {
+                            "x": -2638.81,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": -2638.81,
+                            "curve": [
+                                0.311,
+                                -2638.81,
+                                0.389,
+                                -879.6,
+                                0.311,
+                                0,
+                                0.389,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4667
+                        }
+                    ]
+                },
+                "xd": {
+                    "translate": [
+                        {
+                            "x": -2638.81,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": -2638.81,
+                            "curve": [
+                                0.231,
+                                -2638.81,
+                                0.322,
+                                -879.6,
+                                0.231,
+                                0,
+                                0.322,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4
+                        }
+                    ]
+                },
+                "xc": {
+                    "translate": [
+                        {
+                            "x": 2660.25,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 2660.25,
+                            "curve": [
+                                0.299,
+                                2660.25,
+                                0.378,
+                                0,
+                                0.299,
+                                0,
+                                0.378,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4667
+                        }
+                    ]
+                },
+                "xb": {
+                    "translate": [
+                        {
+                            "x": 2660.25,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 2660.25,
+                            "curve": [
+                                0.21,
+                                2660.25,
+                                0.311,
+                                0,
+                                0.21,
+                                0,
+                                0.311,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4
+                        }
+                    ]
+                },
+                "xa": {
+                    "translate": [
+                        {
+                            "x": 2660.25,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 2660.25,
+                            "curve": [
+                                0.113,
+                                2660.25,
+                                0.244,
+                                0,
+                                0.113,
+                                0,
+                                0.244,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "bg": {
+                    "scalex": [
+                        {
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3667,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333
+                        }
+                    ],
+                    "scaley": [
+                        {
+                            "value": 0.374,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "value": 0.374,
+                            "curve": [
+                                0.198,
+                                0.41,
+                                0.264,
+                                1.11
+                            ]
+                        },
+                        {
+                            "time": 0.3287,
+                            "value": 1.11,
+                            "curve": [
+                                0.391,
+                                1.11,
+                                0.51,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "value": 0.97,
+                            "curve": [
+                                0.727,
+                                0.97,
+                                0.756,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333
+                        }
+                    ]
+                }
+            }
+        },
+        "loop": {
+            "slots": {
+                "bg": {
+                    "attachment": [
+                        {
+                            "name": "bg"
+                        }
+                    ]
+                },
+                "bg2": {
+                    "attachment": [
+                        {
+                            "name": "bg"
+                        }
+                    ]
+                },
+                "bga": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "bga2": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "bgb": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "bgb2": {
+                    "attachment": [
+                        {}
+                    ]
+                },
+                "pop_bg_text": {
+                    "attachment": [
+                        {
+                            "name": "pop_bg_text"
+                        }
+                    ]
+                },
+                "wiggle": {
+                    "attachment": [
+                        {
+                            "name": "pop_bg_text"
+                        }
+                    ]
+                },
+                "xa": {
+                    "attachment": [
+                        {
+                            "name": "xa"
+                        }
+                    ]
+                },
+                "xb": {
+                    "attachment": [
+                        {
+                            "name": "xb"
+                        }
+                    ]
+                },
+                "xc": {
+                    "attachment": [
+                        {
+                            "name": "xc"
+                        }
+                    ]
+                },
+                "xd": {
+                    "attachment": [
+                        {
+                            "name": "xd"
+                        }
+                    ]
+                },
+                "xe": {
+                    "attachment": [
+                        {
+                            "name": "xe"
+                        }
+                    ]
+                },
+                "xf": {
+                    "attachment": [
+                        {
+                            "name": "xf"
+                        }
+                    ]
+                }
+            }
+        },
+        "out": {
+            "slots": {
+                "bg": {
+                    "attachment": [
+                        {
+                            "time": 0.2333
+                        }
+                    ]
+                },
+                "bg2": {
+                    "attachment": [
+                        {
+                            "time": 0.2333
+                        }
+                    ]
+                },
+                "bga": {
+                    "attachment": [
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "bga2": {
+                    "attachment": [
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "bgb": {
+                    "attachment": [
+                        {
+                            "time": 0.3667
+                        }
+                    ]
+                },
+                "bgb2": {
+                    "attachment": [
+                        {
+                            "time": 0.3667
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bg3": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.078,
+                                0,
+                                0.233,
+                                -14.25,
+                                0.078,
+                                0,
+                                0.233,
+                                259.5
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "y": 273.75
+                        }
+                    ]
+                },
+                "bg2": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.078,
+                                0,
+                                0.233,
+                                -14.25,
+                                0.078,
+                                0,
+                                0.233,
+                                -237.99
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "y": -251.06
+                        }
+                    ]
+                },
+                "bgb2": {
+                    "translate": [
+                        {
+                            "time": 0.0333,
+                            "curve": [
+                                0.144,
+                                0,
+                                0.256,
+                                0,
+                                0.144,
+                                0,
+                                0.256,
+                                -258.11
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "y": -258.11
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.0333,
+                            "curve": [
+                                0.089,
+                                1,
+                                0.144,
+                                1,
+                                0.089,
+                                7.145,
+                                0.144,
+                                19.436
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "y": 19.436,
+                            "curve": [
+                                0.256,
+                                1,
+                                0.311,
+                                1,
+                                0.256,
+                                19.436,
+                                0.311,
+                                7.145
+                            ]
+                        },
+                        {
+                            "time": 0.3667
+                        }
+                    ]
+                },
+                "bgb": {
+                    "translate": [
+                        {
+                            "time": 0.0333,
+                            "curve": [
+                                0.144,
+                                0,
+                                0.256,
+                                0,
+                                0.144,
+                                0,
+                                0.256,
+                                289.51
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "y": 289.51
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.0333,
+                            "curve": [
+                                0.089,
+                                1,
+                                0.144,
+                                1,
+                                0.089,
+                                7.145,
+                                0.144,
+                                19.436
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "y": 19.436,
+                            "curve": [
+                                0.256,
+                                1,
+                                0.311,
+                                1,
+                                0.256,
+                                19.436,
+                                0.311,
+                                7.145
+                            ]
+                        },
+                        {
+                            "time": 0.3667
+                        }
+                    ]
+                },
+                "bga2": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.111,
+                                0,
+                                0.222,
+                                0,
+                                0.111,
+                                0,
+                                0.222,
+                                -258.11
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": -258.11
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.056,
+                                1,
+                                0.111,
+                                1,
+                                0.056,
+                                7.145,
+                                0.111,
+                                19.436
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "y": 19.436,
+                            "curve": [
+                                0.222,
+                                1,
+                                0.278,
+                                1,
+                                0.222,
+                                19.436,
+                                0.278,
+                                7.145
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "bga": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.111,
+                                0,
+                                0.222,
+                                0,
+                                0.111,
+                                0,
+                                0.222,
+                                289.51
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": 289.51
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "curve": [
+                                0.056,
+                                1,
+                                0.111,
+                                1,
+                                0.056,
+                                7.145,
+                                0.111,
+                                19.436
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "y": 19.436,
+                            "curve": [
+                                0.222,
+                                1,
+                                0.278,
+                                1,
+                                0.222,
+                                19.436,
+                                0.278,
+                                7.145
+                            ]
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "xa": {
+                    "translate": [
+                        {
+                            "time": 0.2333,
+                            "curve": [
+                                0.311,
+                                0,
+                                0.389,
+                                -2685.33,
+                                0.311,
+                                0,
+                                0.389,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": -2685.33
+                        }
+                    ]
+                },
+                "xb": {
+                    "translate": [
+                        {
+                            "time": 0.2667,
+                            "curve": [
+                                0.344,
+                                0,
+                                0.422,
+                                -2685.33,
+                                0.344,
+                                0,
+                                0.422,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": -2685.33
+                        }
+                    ]
+                },
+                "xc": {
+                    "translate": [
+                        {
+                            "time": 0.3,
+                            "curve": [
+                                0.378,
+                                0,
+                                0.456,
+                                -2685.33,
+                                0.378,
+                                0,
+                                0.456,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": -2685.33
+                        }
+                    ]
+                },
+                "xd": {
+                    "translate": [
+                        {
+                            "time": 0.2333,
+                            "curve": [
+                                0.311,
+                                0,
+                                0.389,
+                                2626.51,
+                                0.311,
+                                0,
+                                0.389,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 2626.51
+                        }
+                    ]
+                },
+                "xe": {
+                    "translate": [
+                        {
+                            "time": 0.2667,
+                            "curve": [
+                                0.344,
+                                0,
+                                0.422,
+                                2626.51,
+                                0.344,
+                                0,
+                                0.422,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 2626.51
+                        }
+                    ]
+                },
+                "xf": {
+                    "translate": [
+                        {
+                            "time": 0.3,
+                            "curve": [
+                                0.378,
+                                0,
+                                0.456,
+                                2626.51,
+                                0.378,
+                                0,
+                                0.456,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 2626.51
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extra": {
+        "wiggle": {
+            "rootBoneName": "wiggle",
+            "animation": {
+                "default": {
+                    "name": "default",
+                    "mode": 3,
+                    "moveXFreq": 8,
+                    "moveXAmp": 20,
+                    "moveXOctaves": 0,
+                    "moveXDelay": 0,
+                    "moveXCenter": 0,
+                    "moveYFreq": 6,
+                    "moveYAmp": 10,
+                    "moveYOctaves": 0,
+                    "moveYDelay": 0,
+                    "moveYCenter": 0,
+                    "scaleXFreq": 10,
+                    "scaleXAmp": 0.05,
+                    "scaleXOctaves": 0,
+                    "scaleXDelay": 0,
+                    "scaleXCenter": 0
+                }
+            }
+        }
+    },
+    "extraSlot": {},
+    "extraConfig": {
+        "timeScale": 1
+    }
+}
