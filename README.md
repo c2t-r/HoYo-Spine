@@ -1,4 +1,8 @@
 # HoYo-Spine
+
+> [!warning]
+> This repository is no longer updated, but I have created a new one. [hyv-spine2d](https://github.com/c2t-r/hyv-spine2d)
+
 Collections of web event spines made by HoYo  
 note: there are not all spines used on following events  
    
